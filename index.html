@@ -54,7 +54,7 @@ input[type=number]{width:64px;padding:6px;border-radius:6px;border:1px solid var
 </div>
 <div class="card">
 <strong>2. Options</strong>
-<div class="row">Nombre de questions : <input type="number" id="nq" value="5" min="1"> <span class="hint" id="max"></span></div>
+<div class="row">Nombre de questions : <input type="number" id="nq" value="20" min="1"> <span class="hint" id="max"></span></div>
 <div class="row">Nombre de réponses possibles : <input type="number" id="total" value="5" min="2"></div>
 <div class="row">Nombre maximum de bonnes réponses : <input type="number" id="kmax" value="5" min="0"></div>
 <button id="start">Générer le QCM</button>
@@ -68,7 +68,7 @@ input[type=number]{width:64px;padding:6px;border-radius:6px;border:1px solid var
 <div class="card">
 <div class="hint" id="count"></div>
 <h2 id="q" style="font-size:1.2rem"></h2>
-<div class="hint">Coche toutes les bonnes réponses (il peut n’y en avoir aucune).</div>
+<div class="hint">Coche toutes les bonnes réponses.</div>
 <div id="opts"></div>
 <div id="fb" class="res"></div>
 <div class="row">
@@ -89,6 +89,8 @@ input[type=number]{width:64px;padding:6px;border-radius:6px;border:1px solid var
 <script>
 const $=id=>document.getElementById(id);
 const DATA_DIR="data/";
+const NONE_TEXT="Toutes les réponses précédentes sont fausses";   // proposition ajoutée quand 0 bonne réponse est tirée
+const NONE_WHY="Aucune des autres propositions n’est correcte.";
 let themes=[],theme=null,quiz=[],i=0;
 const rnd=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
 function shuffle(a){a=a.slice();for(let j=a.length-1;j>0;j--){const k=rnd(0,j);[a[j],a[k]]=[a[k],a[j]]}return a}
@@ -168,8 +170,16 @@ function build(q,o){
   const m=Math.min(M,total-k);              // le reste : mauvaises réponses
   const mk=v=>a=>({t:a.reponse,why:a.explication,ok:v});
   const good=shuffle(q.bonnes).slice(0,k).map(mk(true));
-  const bad=shuffle(q.mauvaises).slice(0,m).map(mk(false));
-  return{question:q.question,opts:shuffle([...good,...bad]),answered:false,skipped:false,sel:[],perfect:false};
+  let opts;
+  if(k===0&&m>=2){
+    // Aucune bonne réponse tirée : la dernière proposition devient « Toutes les réponses précédentes sont fausses » (qui est alors la bonne réponse)
+    const bad=shuffle(q.mauvaises).slice(0,m-1).map(mk(false));
+    opts=[...bad,{t:NONE_TEXT,why:NONE_WHY,ok:true}];
+  }else{
+    const bad=shuffle(q.mauvaises).slice(0,m).map(mk(false));
+    opts=shuffle([...good,...bad]);
+  }
+  return{question:q.question,opts,answered:false,skipped:false,sel:[],perfect:false};
 }
 function start(){
   if(!theme||!theme.questions.length){$("err").textContent="Choisis un thème contenant des questions.";return}
