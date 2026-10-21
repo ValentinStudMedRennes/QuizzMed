@@ -55,8 +55,10 @@ input[type=number]{width:64px;padding:6px;border-radius:6px;border:1px solid var
 <div class="card">
 <strong>2. Options</strong>
 <div class="row">Nombre de questions : <input type="number" id="nq" value="40" min="1"> <span class="hint" id="max"></span></div>
-<div class="row">Propositions par question : <input type="number" id="total" value="5" min="2" max="10"></div>
-<div class="row">Bonnes réponses : de <input type="number" id="kmin" value="0" min="0" max="5"> à <input type="number" id="kmax" value="5" min="0" max="5"></div>
+<div class="row">Bonnes réponses affichées : de <input type="number" id="kmin" value="0" min="0"> à <input type="number" id="kmax" min="0" placeholder="toutes"></div>
+<div class="row">Mauvaises réponses affichées : de <input type="number" id="mmin" value="0" min="0"> à <input type="number" id="mmax" min="0" placeholder="toutes"></div>
+<div class="row">Minimum de propositions par question : <input type="number" id="tmin" value="5" min="1"></div>
+<div class="hint">Champ « à » vide = toutes les réponses disponibles. Le nombre de bonnes et de mauvaises est tiré au hasard dans ces limites.</div>
 <button id="start">Générer le QCM</button>
 <div id="err" class="res" style="color:var(--ko)"></div>
 </div>
@@ -127,6 +129,8 @@ function clean(list,file,warns){
     if(!ok||b.includes(null)||m.includes(null)||b.length+m.length===0){warns.push(file+" : question n°"+(n+1)+" ignorée (vérifie question / bonnes / mauvaises, et « reponse » dans chaque réponse)");return}
     out.push({question:qt,bonnes:uniq(b),mauvaises:uniq(m)});
   });
+  const short=out.map((q,n)=>q.bonnes.length+q.mauvaises.length<5?n+1:null).filter(Boolean);
+  if(short.length)warns.push(file+" : "+short.length+" question(s) avec moins de 5 réponses en tout (n° "+short.slice(0,15).join(", ")+(short.length>15?"…":"")+")");
   return out;
 }
 async function init(){
@@ -159,24 +163,31 @@ function pick(t,b){
   $("max").textContent="(max. "+t.questions.length+" pour ce thème)";
   $("err").textContent="";
 }
-function build(q,total,kmin,kmax){
+function build(q,o){
   const G=q.bonnes.length,M=q.mauvaises.length;
-  total=Math.min(total,G+M);
-  let lo=Math.max(kmin,total-M,0),hi=Math.min(kmax,G,total);
-  if(lo>hi){lo=Math.max(0,total-M);hi=Math.min(G,total)}
-  const k=rnd(lo,hi);
-  const mk=ok=>a=>({t:a.reponse,why:a.explication,ok});
+  const kHi=Math.min(o.kmax,G),mHi=Math.min(o.mmax,M);
+  const kLo=Math.min(o.kmin,kHi),mLo=Math.min(o.mmin,mHi);
+  const tmin=Math.min(o.tmin,G+M);
+  // nombres de bonnes (k) possibles : ceux qui permettent d’atteindre le minimum de propositions
+  const ok=[];
+  for(let k=kLo;k<=kHi;k++){const lo=Math.max(mLo,tmin-k);if(lo<=mHi)ok.push([k,lo])}
+  let k,m;
+  if(ok.length){const c=ok[rnd(0,ok.length-1)];k=c[0];m=rnd(c[1],mHi)}
+  else{k=kHi;m=mHi}
+  if(k+m===0){k=G;m=M}
+  const mk=v=>a=>({t:a.reponse,why:a.explication,ok:v});
   const good=shuffle(q.bonnes).slice(0,k).map(mk(true));
-  const bad=shuffle(q.mauvaises).slice(0,total-k).map(mk(false));
+  const bad=shuffle(q.mauvaises).slice(0,m).map(mk(false));
   return{question:q.question,opts:shuffle([...good,...bad]),answered:false,skipped:false,sel:[],perfect:false};
 }
 function start(){
   if(!theme||!theme.questions.length){$("err").textContent="Choisis un thème contenant des questions.";return}
-  const total=+$("total").value||5;
-  let kmin=Math.max(0,Math.min(5,+$("kmin").value||0)),kmax=Math.max(0,Math.min(5,+$("kmax").value));
-  if(isNaN(kmax))kmax=5;if(kmin>kmax)kmin=kmax;
+  const num=(id,def)=>{const v=$(id).value;return v===""?def:Math.max(0,+v)};
+  const o={kmin:num("kmin",0),kmax:num("kmax",Infinity),mmin:num("mmin",0),mmax:num("mmax",Infinity),tmin:Math.max(1,num("tmin",5))};
+  if(o.kmin>o.kmax)o.kmin=o.kmax;if(o.mmin>o.mmax)o.mmin=o.mmax;
+  if(o.kmax===0&&o.mmax===0){$("err").textContent="Les maximums de bonnes et de mauvaises réponses ne peuvent pas être tous les deux à 0.";return}
   const nq=Math.max(1,Math.min(+$("nq").value||40,theme.questions.length));
-  quiz=shuffle(theme.questions).slice(0,nq).map(q=>build(q,total,kmin,kmax));
+  quiz=shuffle(theme.questions).slice(0,nq).map(q=>build(q,o));
   i=0;
   $("setup").classList.add("hidden");$("end").classList.add("hidden");$("quiz").classList.remove("hidden");
   show();
