@@ -98,21 +98,34 @@ async function getJSON(name){
   if(!r.ok)throw new Error("fichier « "+name+" » introuvable ("+r.status+")");
   try{return await r.json()}catch(e){throw new Error("« "+name+" » n’est pas un JSON valide : "+e.message)}
 }
-// Une réponse peut être { "reponse": "…", "explication": "…" } (ou un simple texte)
-function ans(a){
-  if(typeof a==="string")return{reponse:a,explication:""};
-  if(a&&typeof a.reponse!=="undefined")return{reponse:String(a.reponse),explication:a.explication?String(a.explication):""};
+// Une réponse : { "reponse": "…", "explication": "…" } (ou ["réponse","explication"], ou un simple texte)
+function txt(v){
+  if(typeof v==="string")return v;
+  if(typeof v==="number"||typeof v==="boolean")return String(v);
+  if(v&&typeof v==="object"&&!Array.isArray(v))return txt(first(v,["reponse","réponse","texte","text","answer","label","valeur"]));
   return null;
+}
+function first(o,keys){for(const k of keys)if(o[k]!==undefined)return o[k]}
+function ans(a){
+  if(Array.isArray(a)){const r=txt(a[0]);return r===null?null:{reponse:r,explication:txt(a[1])||""}}
+  if(a&&typeof a==="object"){
+    const rv=first(a,["reponse","réponse","texte","text","answer"]);
+    const r=txt(rv);if(r===null)return null;
+    let e=first(a,["explication","explanation","pourquoi","justification"]);
+    if(e===undefined&&rv&&typeof rv==="object")e=first(rv,["explication","explanation","pourquoi","justification"]);
+    return{reponse:r,explication:txt(e)||""};
+  }
+  const r=txt(a);return r===null?null:{reponse:r,explication:""};
 }
 function uniq(list){const seen=new Set();return list.filter(a=>!seen.has(a.reponse)&&seen.add(a.reponse))}
 function clean(list,file,warns){
   if(!Array.isArray(list)){warns.push(file+" : doit contenir une liste [ … ]");return[]}
   const out=[];
   list.forEach((x,n)=>{
-    const ok=x&&typeof x.question==="string"&&Array.isArray(x.bonnes)&&Array.isArray(x.mauvaises);
+    const qt=x?txt(x.question):null;const ok=qt!==null&&Array.isArray(x.bonnes)&&Array.isArray(x.mauvaises);
     const b=ok?x.bonnes.map(ans):[],m=ok?x.mauvaises.map(ans):[];
     if(!ok||b.includes(null)||m.includes(null)||b.length+m.length===0){warns.push(file+" : question n°"+(n+1)+" ignorée (vérifie question / bonnes / mauvaises, et « reponse » dans chaque réponse)");return}
-    out.push({question:x.question,bonnes:uniq(b),mauvaises:uniq(m)});
+    out.push({question:qt,bonnes:uniq(b),mauvaises:uniq(m)});
   });
   return out;
 }
@@ -132,7 +145,7 @@ async function init(){
   if(themes.length>1)themes.push({nom:"Tous les thèmes",questions:themes.flatMap(t=>t.questions)});
   themes.forEach(t=>{
     const b=document.createElement("button");b.className="theme";
-    const n=document.createElement("strong");n.textContent=t.nom;
+    const n=document.createElement("strong");n.textContent=txt(t.nom)||"(sans nom)";
     const s=document.createElement("small");s.textContent=t.questions.length+" question(s)";
     b.append(n,s);b.onclick=()=>pick(t,b);t.el=b;$("themes").append(b);
   });
