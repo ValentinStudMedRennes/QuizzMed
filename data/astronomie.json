@@ -1,0 +1,14 @@
+[
+  { "question": "Quelles sont des planètes telluriques ?",
+    "bonnes": ["Mercure", "Vénus", "Terre", "Mars"],
+    "mauvaises": ["Jupiter", "Saturne", "Uranus", "Neptune"] },
+  { "question": "Quels objets sont des satellites naturels ?",
+    "bonnes": ["La Lune", "Titan", "Europe"],
+    "mauvaises": ["Hubble", "ISS", "Spoutnik", "Halley"] },
+  { "question": "Quelles planètes possèdent des anneaux ?",
+    "bonnes": ["Saturne", "Jupiter", "Uranus", "Neptune"],
+    "mauvaises": ["Mars", "Vénus", "Mercure", "Terre"] },
+  { "question": "Quelles étoiles appartiennent au Système solaire ?",
+    "bonnes": ["Le Soleil"],
+    "mauvaises": ["Sirius", "Bételgeuse", "Proxima du Centaure", "Vega"] }
+]

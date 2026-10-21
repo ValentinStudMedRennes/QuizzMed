@@ -1,0 +1,14 @@
+[
+  { "question": "Quels nombres sont premiers ?",
+    "bonnes": ["2", "3", "5", "7", "11"],
+    "mauvaises": ["4", "6", "9", "15", "21"] },
+  { "question": "Quels nombres sont des carrés parfaits ?",
+    "bonnes": ["16", "25", "36", "49"],
+    "mauvaises": ["15", "24", "35", "50"] },
+  { "question": "Quels nombres sont pairs ?",
+    "bonnes": ["2", "8", "14", "20"],
+    "mauvaises": ["3", "7", "11", "19"] },
+  { "question": "Quelles fractions sont égales à 1/2 ?",
+    "bonnes": ["2/4", "3/6", "5/10"],
+    "mauvaises": ["1/3", "2/5", "3/5", "4/9"] }
+]
