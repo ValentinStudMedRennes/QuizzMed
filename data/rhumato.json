@@ -1,0 +1,754 @@
+[
+  {
+    "question": "Quelles structures et pathologies relèvent du rhumatologue ?",
+    "bonnes": [
+      { "reponse": "Pathologies osseuses (ostéoporose, cancers osseux primitifs, ostéogenèse imparfaite)", "explication": "Citées dans le cours." },
+      { "reponse": "Pathologies articulaires (arthrose, arthrite)", "explication": "Citées dans le cours." },
+      { "reponse": "Pathologies musculaires et enthésitiques (tendinites)", "explication": "Citées dans le cours." },
+      { "reponse": "Pathologies rachidiennes, notamment la lombalgie", "explication": "Élément central de la prise en charge." }
+    ],
+    "mauvaises": [
+      { "reponse": "La rhumatologie ne concerne que les personnes âgées", "explication": "Elle concerne toutes les tranches d'âge." },
+      { "reponse": "Les pathologies rachidiennes relèvent exclusivement de la neurologie", "explication": "Elles sont centrales en rhumatologie." },
+      { "reponse": "Le point d'entrée commun des patients est la fièvre", "explication": "C'est la douleur." },
+      { "reponse": "L'ostéoporose n'est pas une pathologie rhumatologique", "explication": "C'est une pathologie osseuse prise en charge par le rhumatologue." }
+    ]
+  },
+  {
+    "question": "Concernant l'arthrose et l'arthrite, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "L'arthrose est une maladie du cartilage", "explication": "Lésion dégénérative cartilagineuse." },
+      { "reponse": "L'arthrite est une atteinte de la membrane synoviale", "explication": "Lésion inflammatoire synoviale." },
+      { "reponse": "Une arthrite peut, à terme, entraîner une arthrose post-arthritique", "explication": "L'inflammation dégrade le cartilage." },
+      { "reponse": "L'arthrose peut être primitive ou secondaire (traumatisme, dysplasie, post-arthritique)", "explication": "Tableau du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'arthrose est une atteinte de la membrane synoviale", "explication": "C'est l'arthrite." },
+      { "reponse": "L'arthrite est une maladie dégénérative du cartilage", "explication": "C'est l'arthrose." },
+      { "reponse": "Une arthrite ne peut jamais abîmer le cartilage", "explication": "Elle peut mener à une arthrose post-arthritique." },
+      { "reponse": "L'arthrose donne typiquement un liquide inflammatoire", "explication": "Elle donne un liquide mécanique." },
+      { "reponse": "L'arthrose primitive touche surtout les métacarpophalangiennes", "explication": "Elle touche hanches, genoux, IPP et IPD." }
+    ]
+  },
+  {
+    "question": "Concernant l'espace articulaire et l'espace abarticulaire, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "L'espace articulaire comprend le cartilage et la membrane synoviale", "explication": "C'est l'espace de mobilité." },
+      { "reponse": "Une atteinte articulaire limite les mobilités active et passive", "explication": "Cité dans le cours." },
+      { "reponse": "L'espace abarticulaire comprend muscles, tendons et ligaments", "explication": "Tout l'espace autour de l'articulation." },
+      { "reponse": "Dans une atteinte abarticulaire, la mobilité passive est conservée", "explication": "Contrairement à une atteinte articulaire." },
+      { "reponse": "Le flessum (impossibilité d'extension complète) est un signe d'atteinte articulaire", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une atteinte abarticulaire limite la mobilité passive", "explication": "La mobilité passive est conservée." },
+      { "reponse": "Les tendons appartiennent à l'espace articulaire", "explication": "Ils appartiennent à l'espace abarticulaire." },
+      { "reponse": "Le flessum est une hyperextension articulaire", "explication": "C'est l'impossibilité d'atteindre l'extension maximale." },
+      { "reponse": "Une atteinte articulaire laisse la mobilité passive normale", "explication": "Elle limite mobilités active et passive." }
+    ]
+  },
+  {
+    "question": "Concernant les tendons et les ligaments, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Le tendon insère le muscle sur l'os et transmet l'action", "explication": "Rôle d'action." },
+      { "reponse": "Le ligament a pour rôle exclusif de stabiliser l'articulation", "explication": "Il n'a pas de rôle d'action." },
+      { "reponse": "L'association tendons + ligaments permet de mobiliser et de stabiliser l'articulation", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le ligament a un rôle d'action (mouvement)", "explication": "Il a un rôle exclusif de stabilité." },
+      { "reponse": "Le tendon a pour rôle exclusif la stabilité", "explication": "Il transmet l'action." },
+      { "reponse": "Le ligament relie le muscle à l'os", "explication": "C'est le tendon." },
+      { "reponse": "La membrane synoviale relie le muscle à l'os", "explication": "Elle sécrète le liquide synovial." }
+    ]
+  },
+  {
+    "question": "Quelles sont les étapes de l'examen physique en rhumatologie ?",
+    "bonnes": [
+      { "reponse": "Inspection", "explication": "Étape de l'examen." },
+      { "reponse": "Palpation", "explication": "Étape de l'examen." },
+      { "reponse": "Mobilisation", "explication": "Étape de l'examen." },
+      { "reponse": "Percussion et auscultation (cœur, poumons, examen général)", "explication": "Étape de l'examen." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'examen se limite à l'articulation douloureuse", "explication": "On examine tout le corps (ongles, psoriasis, cœur, poumons)." },
+      { "reponse": "L'interrogatoire a un rôle mineur en rhumatologie", "explication": "Il a un rôle majeur." },
+      { "reponse": "La mobilisation n'est pas réalisée", "explication": "Elle fait partie de l'examen." },
+      { "reponse": "L'auscultation est sans intérêt en rhumatologie", "explication": "On ausculte le cœur et les poumons." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes généraux d'alarme (drapeaux rouges) à rechercher ?",
+    "bonnes": [
+      { "reponse": "Anorexie", "explication": "Composante des 3A." },
+      { "reponse": "Amaigrissement involontaire", "explication": "Composante des 3A." },
+      { "reponse": "Asthénie vespérale", "explication": "Composante des 3A, évocatrice de pathologie cancéreuse ou infectieuse." },
+      { "reponse": "Fièvre > 38 °C", "explication": "Variation de la température." },
+      { "reponse": "Hypothermie < 35 °C", "explication": "Variation de la température." }
+    ],
+    "mauvaises": [
+      { "reponse": "Asthénie matinale fonctionnelle", "explication": "Le signe d'alarme est l'asthénie vespérale." },
+      { "reponse": "Prise de poids volontaire", "explication": "C'est l'amaigrissement involontaire qui alarme." },
+      { "reponse": "Hyperphagie", "explication": "C'est l'anorexie qui alarme." },
+      { "reponse": "Fièvre définie par une température > 37 °C", "explication": "Le seuil retenu est 38 °C." },
+      { "reponse": "Hypothermie définie par une température < 37 °C", "explication": "Le seuil retenu est 35 °C." }
+    ]
+  },
+  {
+    "question": "Concernant l'asthénie vespérale, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est une asthénie du soir", "explication": "Le patient se couche de plus en plus tôt." },
+      { "reponse": "Elle oriente vers une pathologie cancéreuse ou infectieuse", "explication": "Cité dans le cours." },
+      { "reponse": "Elle doit être distinguée de l'asthénie fonctionnelle (matinale)", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "C'est une asthénie du matin", "explication": "Elle survient le soir." },
+      { "reponse": "Elle est toujours fonctionnelle et bénigne", "explication": "C'est un signe d'alarme." },
+      { "reponse": "Elle ne fait pas partie de l'AEG", "explication": "Elle fait partie des 3A." }
+    ]
+  },
+  {
+    "question": "Concernant la caractérisation de la douleur, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Une douleur aiguë évolue depuis moins de 2 mois", "explication": "Seuil du cours." },
+      { "reponse": "Une douleur chronique évolue depuis plus de 2 mois", "explication": "Seuil du cours." },
+      { "reponse": "Un début brutal est plus inquiétant (infection, pathologie grave)", "explication": "Cité dans le cours." },
+      { "reponse": "Il faut demander les médicaments pris avant la consultation, même le paracétamol", "explication": "Facteurs bénéfiques." },
+      { "reponse": "On demande au patient de montrer la zone douloureuse avec un doigt", "explication": "Topographie." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une douleur chronique évolue depuis plus de 6 mois selon le cours", "explication": "Le cours retient 2 mois." },
+      { "reponse": "Une douleur aiguë évolue depuis moins de 2 semaines", "explication": "Moins de 2 mois." },
+      { "reponse": "Un début progressif est toujours plus inquiétant qu'un début brutal", "explication": "Le début brutal est plus inquiétant." },
+      { "reponse": "La prise d'antalgiques avant la consultation est sans intérêt", "explication": "Elle doit être recherchée." },
+      { "reponse": "Toute douleur déclenchée à l'examen est forcément celle du motif de consultation", "explication": "Il faut la faire valider par le patient." }
+    ]
+  },
+  {
+    "question": "Concernant la douleur de rythme mécanique, quelles sont les 3 propositions vraies ?",
+    "bonnes": [
+      { "reponse": "Elle est améliorée par le repos", "explication": "Aggravée par l'activité, donc soulagée au repos." },
+      { "reponse": "Elle est renforcée en fin de journée", "explication": "Rythme mécanique." },
+      { "reponse": "Elle est principalement associée au diagnostic d'arthrose", "explication": "Liquide mécanique, maladie arthrosique." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle est responsable de réveils nocturnes", "explication": "C'est la douleur inflammatoire." },
+      { "reponse": "Elle induit un dérouillage matinal prolongé, supérieur à une heure", "explication": "C'est la douleur inflammatoire ; la douleur mécanique n'a pas de dérouillage prolongé." },
+      { "reponse": "Elle est améliorée par l'activité", "explication": "C'est la douleur inflammatoire." },
+      { "reponse": "Elle est principalement matinale", "explication": "C'est la douleur inflammatoire." }
+    ]
+  },
+  {
+    "question": "Concernant la douleur de rythme inflammatoire, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle s'accompagne de réveils nocturnes fréquents", "explication": "Tableau à connaître." },
+      { "reponse": "Elle s'accompagne d'un dérouillage matinal prolongé", "explication": "Tableau à connaître." },
+      { "reponse": "Elle est améliorée par l'activité", "explication": "Tableau à connaître." },
+      { "reponse": "Elle est principalement matinale", "explication": "Tableau à connaître." },
+      { "reponse": "Elle justifie une prise en charge plus rapide", "explication": "Le patient ne dort pas et souffre en permanence." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle est aggravée par l'activité", "explication": "C'est la douleur mécanique." },
+      { "reponse": "Elle prédomine en fin de journée", "explication": "C'est la douleur mécanique." },
+      { "reponse": "Elle ne réveille jamais la nuit", "explication": "Elle donne des réveils nocturnes." },
+      { "reponse": "Elle n'a pas de dérouillage matinal", "explication": "Le dérouillage matinal est prolongé." },
+      { "reponse": "Elle évoque principalement une arthrose", "explication": "Elle évoque plutôt une arthrite." }
+    ]
+  },
+  {
+    "question": "Concernant le dérouillage matinal, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Un dérouillage > 45 minutes est classiquement en faveur d'une douleur inflammatoire", "explication": "Repère du cours." },
+      { "reponse": "Son interprétation dépend du contexte (ex : personne âgée)", "explication": "Cité dans le cours." },
+      { "reponse": "Un dérouillage de 3 heures oriente vers une douleur inflammatoire", "explication": "En QCM, l'écart sera franc (3 minutes vs 3 heures)." }
+    ],
+    "mauvaises": [
+      { "reponse": "Un dérouillage de 3 minutes oriente vers une douleur inflammatoire", "explication": "Il oriente vers une douleur mécanique." },
+      { "reponse": "Un dérouillage prolongé est caractéristique de la douleur mécanique", "explication": "Il caractérise la douleur inflammatoire." },
+      { "reponse": "Le seuil de 45 minutes s'applique sans tenir compte du contexte", "explication": "Il dépend du contexte." }
+    ]
+  },
+  {
+    "question": "Concernant le nombre d'articulations atteintes, quelles définitions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Monoarticulaire = 1 articulation", "explication": "Définition." },
+      { "reponse": "Oligoarticulaire = 2 à 3 articulations", "explication": "Définition." },
+      { "reponse": "Polyarticulaire = 4 articulations ou plus", "explication": "Définition." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une atteinte oligoarticulaire est définie par l'atteinte de plus de 3 articulations", "explication": "C'est l'atteinte polyarticulaire ; l'oligoarticulaire concerne 2 à 3 articulations." },
+      { "reponse": "Polyarticulaire = 2 articulations ou plus", "explication": "C'est 4 ou plus." },
+      { "reponse": "Oligoarticulaire = 1 articulation", "explication": "C'est la monoarthrite." },
+      { "reponse": "Polyarticulaire = 3 articulations", "explication": "3 articulations = oligoarticulaire." }
+    ]
+  },
+  {
+    "question": "Concernant les généralités sur l'examen rhumatologique, quelles sont les réponses exactes ?",
+    "bonnes": [
+      { "reponse": "Une douleur neuropathique peut être associée à des paresthésies localisées dans un territoire neurologique bien défini", "explication": "Elle suit un territoire nerveux connu." },
+      { "reponse": "Pour l'analyse de la mobilité passive, le mouvement est exercé par l'examinateur", "explication": "Définition." }
+    ],
+    "mauvaises": [
+      { "reponse": "Pour l'analyse de la mobilité active, le mouvement est exercé par l'examinateur", "explication": "En mobilité active, c'est le patient qui réalise le mouvement." },
+      { "reponse": "Une atteinte oligoarticulaire est définie par l'atteinte de plus de 3 articulations", "explication": "Oligo = 2 à 3 ; plus de 3 = poly." },
+      { "reponse": "La polyarthrite rhumatoïde est un rhumatisme microcristallin", "explication": "C'est un rhumatisme inflammatoire ; les microcristallins sont la goutte et la chondrocalcinose." },
+      { "reponse": "Une douleur neuropathique est toujours diffuse sans territoire précis", "explication": "Elle suit un territoire neurologique." }
+    ]
+  },
+  {
+    "question": "Concernant les types de douleur, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La douleur nociceptive résulte d'un excès de stimulation des nocicepteurs", "explication": "Ex : fracture de jambe." },
+      { "reponse": "La douleur nociceptive répond aux antalgiques de palier 1, 2 ou 3", "explication": "Paracétamol, tramadol, morphine." },
+      { "reponse": "La douleur neuropathique suit un territoire neurologique (paresthésies, décharges, brûlures)", "explication": "Lésion du SNC ou du SNP." },
+      { "reponse": "La douleur neuropathique se traite par antiépileptiques ou certains antidépresseurs", "explication": "Traitement anti-neuropathique." },
+      { "reponse": "La douleur nociplastique (fonctionnelle, somatoforme) est celle de la fibromyalgie", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "La morphine est le traitement de choix de la douleur neuropathique", "explication": "Elle y est peu efficace et expose à la dépendance." },
+      { "reponse": "La douleur nociceptive suit un territoire neurologique précis avec décharges électriques", "explication": "C'est la douleur neuropathique." },
+      { "reponse": "La fibromyalgie donne une douleur neuropathique", "explication": "Elle donne une douleur nociplastique." },
+      { "reponse": "La douleur nociplastique est localisée au site de l'agression", "explication": "Elle est diffuse." },
+      { "reponse": "L'examen neurologique est anormal dans la douleur nociplastique", "explication": "Il est normal." }
+    ]
+  },
+  {
+    "question": "Comparez les douleurs nociceptives, neuropathiques et nociplastiques : quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Nociceptive : début dès l'agression, topographie locorégionale", "explication": "Tableau du cours." },
+      { "reponse": "Neuropathique : début souvent retardé, troubles sensitifs à l'examen (hypo/hyperalgésie, allodynie)", "explication": "Tableau du cours." },
+      { "reponse": "Nociplastique : diffuse, avec troubles du sommeil, fatigue, anxiété ou dépression", "explication": "Tableau du cours." },
+      { "reponse": "Neuropathique et nociplastique ont une évolution chronique", "explication": "Tableau du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Nociceptive : examen neurologique montrant une allodynie", "explication": "L'examen est normal dans la douleur nociceptive." },
+      { "reponse": "Neuropathique : début toujours immédiat dès l'agression", "explication": "Le début est souvent retardé." },
+      { "reponse": "Nociplastique : systématisation neurologique stricte", "explication": "Elle est diffuse et non systématisée." },
+      { "reponse": "Nociceptive : toujours chronique", "explication": "Elle peut être aiguë ou chronique." }
+    ]
+  },
+  {
+    "question": "Pourquoi évalue-t-on le retentissement fonctionnel ?",
+    "bonnes": [
+      { "reponse": "Pour adapter la prise en charge au mode de vie (travail, vie privée)", "explication": "Cité dans le cours." },
+      { "reponse": "Une prothèse peut se discuter chez un sportif actif avec une arthrose modérée, et non chez un patient sédentaire avec une arthrose sévère", "explication": "Exemple du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "La prothèse est indiquée uniquement selon la sévérité radiologique", "explication": "Le retentissement fonctionnel compte." },
+      { "reponse": "Le retentissement fonctionnel n'influence pas le traitement", "explication": "Il guide la prise en charge." },
+      { "reponse": "On traite de la même façon un patient sédentaire et un patient très actif", "explication": "On adapte au mode de vie." }
+    ]
+  },
+  {
+    "question": "Quels signes fonctionnels concernent la mobilité articulaire ?",
+    "bonnes": [
+      { "reponse": "Instabilité, dérobement", "explication": "Ex : rupture ligamentaire totale." },
+      { "reponse": "Blocage", "explication": "Signe de mobilité." },
+      { "reponse": "Raideur articulaire", "explication": "Signe de mobilité." },
+      { "reponse": "Impotence fonctionnelle", "explication": "Signe de mobilité." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une rupture ligamentaire totale est toujours très douloureuse", "explication": "Le patient peut ne pas avoir mal mais être incapable de se tenir debout." },
+      { "reponse": "Asthénie vespérale", "explication": "C'est un signe général." },
+      { "reponse": "Uvéite", "explication": "C'est un signe extra-articulaire." }
+    ]
+  },
+  {
+    "question": "Quelles orientations diagnostiques peut-on tirer de l'inspection articulaire ?",
+    "bonnes": [
+      { "reponse": "Nodules d'arthrose des IPD = nodules d'Heberden", "explication": "Arthrose digitale." },
+      { "reponse": "Déformation des métacarpophalangiennes sans atteinte franche des IP : évocatrice de polyarthrite rhumatoïde", "explication": "Exemple du cours." },
+      { "reponse": "Une desquamation sur une articulation gonflée suggère une arthrite en voie de guérison", "explication": "Exemple du cours." },
+      { "reponse": "Un gonflement articulaire traduit un épanchement intra-articulaire", "explication": "Ex : arthrite gléno-humérale." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les nodules d'Heberden touchent les métacarpophalangiennes", "explication": "Ils touchent les IPD." },
+      { "reponse": "Les nodules d'Heberden sont des nodules rhumatoïdes", "explication": "Ce sont des nodules d'arthrose." },
+      { "reponse": "Une desquamation signe une aggravation de l'arthrite", "explication": "Elle évoque une amélioration." },
+      { "reponse": "L'atteinte des MCP oriente plutôt vers une arthrose", "explication": "Elle oriente vers une polyarthrite rhumatoïde." }
+    ]
+  },
+  {
+    "question": "Associez correctement les signes extra-articulaires et leur orientation :",
+    "bonnes": [
+      { "reponse": "Nodules rhumatoïdes : polyarthrite rhumatoïde", "explication": "Sur les faces d'extension." },
+      { "reponse": "Tophus (dépôts d'urate de sodium) : goutte", "explication": "À rechercher activement devant une polyarthrite." },
+      { "reponse": "Calcifications sous-cutanées et sclérodactylie : sclérodermie", "explication": "Maladie systémique." },
+      { "reponse": "Uvéite : spondylarthrite", "explication": "Œil rouge inflammatoire." },
+      { "reponse": "Sclérotiques bleues + dentinogenèse imparfaite : ostéogenèse imparfaite", "explication": "Maladie des os de verre." },
+      { "reponse": "Acné conglobata : SAPHO, spondylarthrite", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Tophus : polyarthrite rhumatoïde", "explication": "Le tophus oriente vers la goutte." },
+      { "reponse": "Sclérotiques bleues : goutte", "explication": "Elles orientent vers l'ostéogenèse imparfaite." },
+      { "reponse": "Nodules rhumatoïdes : arthrose", "explication": "Ils orientent vers la polyarthrite rhumatoïde." },
+      { "reponse": "Uvéite : ostéoporose", "explication": "Elle oriente vers une spondylarthrite." },
+      { "reponse": "Acné conglobata : sclérodermie", "explication": "Elle oriente vers le SAPHO ou une spondylarthrite." }
+    ]
+  },
+  {
+    "question": "Concernant l'ostéogenèse imparfaite, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est la « maladie des os de verre »", "explication": "Grande fragilité osseuse." },
+      { "reponse": "On recherche des sclérotiques bleues", "explication": "Signe clinique." },
+      { "reponse": "On recherche une dentinogenèse imparfaite (dents brunes)", "explication": "Signe clinique." },
+      { "reponse": "Selon la forme, elle tend à s'améliorer avec le temps", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle se manifeste par des tophus", "explication": "Signe de goutte." },
+      { "reponse": "Elle s'accompagne de nodules d'Heberden", "explication": "Signe d'arthrose." },
+      { "reponse": "Les sclérotiques sont jaunes", "explication": "Elles sont bleues." },
+      { "reponse": "C'est un rhumatisme microcristallin", "explication": "C'est une maladie osseuse constitutionnelle." }
+    ]
+  },
+  {
+    "question": "Concernant la palpation articulaire, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle se fait toujours à deux mains", "explication": "L'une refoule le liquide, l'autre palpe." },
+      { "reponse": "Elle permet de sensibiliser la recherche d'un épanchement", "explication": "La membrane synoviale a tendance à fuir sous les doigts." },
+      { "reponse": "Les petites articulations contiennent peu de liquide", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle se fait à une seule main", "explication": "Elle se fait toujours à deux mains." },
+      { "reponse": "Les petites articulations contiennent beaucoup de liquide", "explication": "Elles en contiennent peu." },
+      { "reponse": "La membrane synoviale se palpe facilement sans stabilisation", "explication": "Elle doit être stabilisée." }
+    ]
+  },
+  {
+    "question": "Concernant le choc rotulien, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il est aussi appelé signe du glaçon", "explication": "Cité dans le cours." },
+      { "reponse": "Une main refoule le liquide du cul-de-sac quadricipital, l'autre appuie sur la rotule", "explication": "Technique." },
+      { "reponse": "Il est toujours pathologique", "explication": "Il n'y a jamais d'épanchement physiologique dans le genou." },
+      { "reponse": "Il doit conduire à une ponction articulaire", "explication": "Pour analyser le liquide." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il peut être physiologique", "explication": "Il est toujours pathologique." },
+      { "reponse": "Il ne justifie aucune ponction", "explication": "Une ponction est indiquée." },
+      { "reponse": "Il se recherche au niveau de l'épaule", "explication": "Il se recherche au genou." },
+      { "reponse": "Il traduit une rupture ligamentaire", "explication": "Il traduit un épanchement intra-articulaire." }
+    ]
+  },
+  {
+    "question": "Concernant la mobilité active et passive, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "En mobilité passive, l'examinateur réalise le mouvement", "explication": "Définition." },
+      { "reponse": "En mobilité active, le patient réalise le mouvement", "explication": "Définition." },
+      { "reponse": "Mobilités active et passive douloureuses : atteinte articulaire", "explication": "Mobilité globale atteinte." },
+      { "reponse": "Mobilité active douloureuse et passive non douloureuse : atteinte musculotendineuse", "explication": "La douleur apparaît quand les tendons se mettent en action." }
+    ],
+    "mauvaises": [
+      { "reponse": "Dans une tendinite, la mobilité passive est douloureuse", "explication": "Elle ne l'est pas : le muscle n'est pas mis en tension." },
+      { "reponse": "Mobilité passive douloureuse et active normale : tendinite", "explication": "Dans la tendinite, c'est la mobilité active qui est douloureuse." },
+      { "reponse": "En mobilité active, l'examinateur exerce le mouvement", "explication": "C'est le patient." },
+      { "reponse": "Mobilités active et passive douloureuses : tendinite isolée", "explication": "Cela oriente vers une atteinte articulaire." }
+    ]
+  },
+  {
+    "question": "Quels signes évoquent une atteinte méniscale ?",
+    "bonnes": [
+      { "reponse": "Douleur à la palpation de l'interligne fémoro-tibial interne ou externe (« cri méniscal »)", "explication": "Signe du cours." },
+      { "reponse": "Épisodes de blocage pendant la marche", "explication": "Une partie du ménisque bloque le mouvement (anse de seau)." },
+      { "reponse": "Épisodes de gonflement avec épanchement de type mécanique", "explication": "Signe du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Épanchement de type inflammatoire", "explication": "L'épanchement est mécanique." },
+      { "reponse": "Douleur à la percussion de la fosse lombaire", "explication": "Sans rapport (signe de Giordano)." },
+      { "reponse": "Blocages en extension pendant la marche", "explication": "La jambe se bloque en flexion." },
+      { "reponse": "Le ménisque diminue la congruence du genou", "explication": "Il l'augmente." }
+    ]
+  },
+  {
+    "question": "Concernant le ménisque, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il augmente la concavité et la congruence de l'articulation du genou", "explication": "Rôle stabilisateur." },
+      { "reponse": "En appui monopodal, il supporte environ trois fois le poids du corps", "explication": "Structure très sollicitée." },
+      { "reponse": "Dans une lésion en anse de seau, la périphérie est fixe et la partie centrale mobile", "explication": "D'où les blocages." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il rend la surface tibiale plus plate", "explication": "Il la rend plus creuse." },
+      { "reponse": "Il supporte la moitié du poids du corps en appui monopodal", "explication": "Environ trois fois le poids du corps." },
+      { "reponse": "Dans l'anse de seau, la partie centrale est fixe", "explication": "C'est la périphérie qui est fixe." }
+    ]
+  },
+  {
+    "question": "Quelle est la triade tendineuse ?",
+    "bonnes": [
+      { "reponse": "Douleur à la palpation de l'insertion du tendon", "explication": "Élément de la triade." },
+      { "reponse": "Douleur à la contraction musculaire contrariée", "explication": "Élément de la triade." },
+      { "reponse": "Douleur à l'étirement du muscle et de son tendon", "explication": "Élément de la triade." }
+    ],
+    "mauvaises": [
+      { "reponse": "Limitation de la mobilité passive", "explication": "La mobilité passive est normale dans la tendinite." },
+      { "reponse": "Choc rotulien", "explication": "Signe d'épanchement du genou." },
+      { "reponse": "Instabilité articulaire", "explication": "Signe d'atteinte ligamentaire." },
+      { "reponse": "Liquide articulaire inflammatoire", "explication": "Signe d'arthrite." },
+      { "reponse": "Douleur à la palpation de l'interligne articulaire", "explication": "Signe méniscal." }
+    ]
+  },
+  {
+    "question": "Quels signes évoquent une atteinte ligamentaire ?",
+    "bonnes": [
+      { "reponse": "Douleur à la palpation de l'insertion ligamentaire", "explication": "Signe évocateur." },
+      { "reponse": "Douleur à l'étirement du ligament", "explication": "Signe évocateur." },
+      { "reponse": "Instabilité en cas de rupture partielle ou totale", "explication": "Mobilité dans des degrés anormaux." }
+    ],
+    "mauvaises": [
+      { "reponse": "Douleur à la contraction musculaire contrariée", "explication": "Signe tendineux (le ligament n'a pas de rôle d'action)." },
+      { "reponse": "Mobilité active seule douloureuse", "explication": "Évoque une tendinite." },
+      { "reponse": "Le ligament participe au mouvement actif", "explication": "Il a un rôle exclusif de stabilité." }
+    ]
+  },
+  {
+    "question": "Concernant l'analyse du liquide articulaire, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Tout épanchement doit être ponctionné, idéalement sous échoguidage", "explication": "Cité dans le cours." },
+      { "reponse": "Le liquide est envoyé en bactériologie (staphylocoques, streptocoques)", "explication": "Germes les plus fréquents." },
+      { "reponse": "On recherche des cristaux : urate de sodium (goutte), pyrophosphate de calcium (chondrocalcinose)", "explication": "Cité dans le cours." },
+      { "reponse": "Un liquide mécanique est citrin, visqueux et pauvre en cellules", "explication": "En faveur d'une arthrose." },
+      { "reponse": "Un liquide inflammatoire est trouble, fluide, avec > 2000 éléments/mm³", "explication": "En faveur d'une arthrite." }
+    ],
+    "mauvaises": [
+      { "reponse": "Un liquide inflammatoire est clair et visqueux", "explication": "Il est trouble et fluide." },
+      { "reponse": "Un liquide mécanique contient > 2000 éléments/mm³", "explication": "C'est le liquide inflammatoire." },
+      { "reponse": "Les cristaux d'urate de sodium orientent vers la chondrocalcinose", "explication": "Ils orientent vers la goutte." },
+      { "reponse": "Le pyrophosphate de calcium oriente vers la goutte", "explication": "Il oriente vers la chondrocalcinose." },
+      { "reponse": "Un liquide purulent est en faveur d'une arthrose", "explication": "Il est en faveur d'une arthrite." }
+    ]
+  },
+  {
+    "question": "Avant les résultats du laboratoire, que peut-on déduire de l'aspect du liquide ponctionné ?",
+    "bonnes": [
+      { "reponse": "Liquide clair, transparent (graduations visibles) : plutôt mécanique, bon signe", "explication": "Peu de cellules." },
+      { "reponse": "Liquide trouble ou purulent : plutôt inflammatoire (arthrite)", "explication": "Beaucoup de cellules." }
+    ],
+    "mauvaises": [
+      { "reponse": "Liquide clair : arthrite septique probable", "explication": "Un liquide clair est plutôt mécanique." },
+      { "reponse": "Liquide purulent : arthrose", "explication": "Il oriente vers une arthrite." },
+      { "reponse": "L'aspect du liquide n'apporte aucune information", "explication": "Il donne une première orientation." }
+    ]
+  },
+  {
+    "question": "Classez correctement les causes selon le type de liquide articulaire :",
+    "bonnes": [
+      { "reponse": "Mécanique : poussée congestive d'arthrose, lésions méniscales, lésions cartilagineuses", "explication": "Schéma du cours." },
+      { "reponse": "Inflammatoire : arthrite septique", "explication": "Schéma du cours." },
+      { "reponse": "Inflammatoire : arthrites microcristallines (goutte, pyrophosphate, apatite)", "explication": "Schéma du cours." },
+      { "reponse": "Inflammatoire : polyarthrite rhumatoïde, spondylarthropathies", "explication": "Arthrites rhumatismales." }
+    ],
+    "mauvaises": [
+      { "reponse": "Mécanique : arthrite septique", "explication": "Elle donne un liquide inflammatoire." },
+      { "reponse": "Inflammatoire : lésion méniscale", "explication": "Elle donne un liquide mécanique." },
+      { "reponse": "Mécanique : goutte", "explication": "Elle donne un liquide inflammatoire." },
+      { "reponse": "Mécanique : polyarthrite rhumatoïde", "explication": "Elle donne un liquide inflammatoire." }
+    ]
+  },
+  {
+    "question": "Quelles articulations sont typiquement touchées par l'arthrose primitive ?",
+    "bonnes": [
+      { "reponse": "Hanches", "explication": "Cité dans le cours." },
+      { "reponse": "Genoux", "explication": "Cité dans le cours." },
+      { "reponse": "Interphalangiennes proximales", "explication": "Cité dans le cours." },
+      { "reponse": "Interphalangiennes distales", "explication": "Cité dans le cours (nodules d'Heberden)." }
+    ],
+    "mauvaises": [
+      { "reponse": "Métacarpophalangiennes", "explication": "Leur atteinte oriente vers la polyarthrite rhumatoïde." },
+      { "reponse": "Poignets en priorité", "explication": "Non cités pour l'arthrose primitive." },
+      { "reponse": "Chevilles en priorité", "explication": "Non citées pour l'arthrose primitive." }
+    ]
+  },
+  {
+    "question": "Concernant les rhumatismes, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La goutte est une arthrite microcristalline (urate de sodium)", "explication": "Cause d'arthrite." },
+      { "reponse": "La chondrocalcinose est liée aux cristaux de pyrophosphate de calcium", "explication": "Arthrite microcristalline." },
+      { "reponse": "La polyarthrite rhumatoïde est une arthrite rhumatismale (inflammatoire)", "explication": "Avec les spondylarthropathies." }
+    ],
+    "mauvaises": [
+      { "reponse": "La polyarthrite rhumatoïde est un rhumatisme microcristallin", "explication": "C'est un rhumatisme inflammatoire." },
+      { "reponse": "La goutte est une arthrite septique", "explication": "C'est une arthrite microcristalline." },
+      { "reponse": "La chondrocalcinose est due à l'urate de sodium", "explication": "Elle est due au pyrophosphate de calcium." },
+      { "reponse": "La spondylarthrite est une arthrose", "explication": "C'est une arthrite rhumatismale." }
+    ]
+  },
+  {
+    "question": "Concernant l'arthrite septique, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est une urgence diagnostique nécessitant une hospitalisation", "explication": "Cité dans le cours." },
+      { "reponse": "La chondrolyse est très rapide sans traitement adapté (48-72 h)", "explication": "Destruction de l'articulation." },
+      { "reponse": "Elle expose à un sepsis sévère (choc septique, endocardite, décès)", "explication": "Risque général." },
+      { "reponse": "Le liquide articulaire est inflammatoire", "explication": "Arthrite." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle peut être prise en charge en ambulatoire sans urgence", "explication": "C'est une urgence avec hospitalisation." },
+      { "reponse": "La destruction articulaire prend plusieurs années", "explication": "Elle survient en 48-72 h." },
+      { "reponse": "Le liquide est mécanique", "explication": "Il est inflammatoire." },
+      { "reponse": "Elle n'expose à aucun risque général", "explication": "Le risque de sepsis est important." }
+    ]
+  },
+  {
+    "question": "Concernant l'examen clinique de l'épaule, quelles sont les réponses exactes ?",
+    "bonnes": [
+      { "reponse": "Il existe une diminution des amplitudes passives et actives en cas d'arthrite de l'épaule", "explication": "Atteinte articulaire : les deux mobilités sont limitées." },
+      { "reponse": "Le test de Jobe évalue le tendon du supra-épineux", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "La coiffe comprend deux rotateurs internes : le teres minor et l'infra-épineux", "explication": "Ce sont les deux rotateurs externes ; le rotateur interne est le subscapulaire." },
+      { "reponse": "Il existe une diminution des amplitudes passives et actives en cas d'atteinte tendineuse", "explication": "Dans la tendinite, la mobilité passive est conservée." },
+      { "reponse": "L'épaule n'est jamais atteinte par l'arthrose", "explication": "L'épaule peut être atteinte par l'arthrose." },
+      { "reponse": "Le test de Jobe évalue le subscapulaire", "explication": "Il évalue le supra-épineux ; le subscapulaire est testé par Gerber (lift-off)." }
+    ]
+  },
+  {
+    "question": "Concernant l'articulation de l'épaule, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle possède un grand degré de liberté", "explication": "Cité dans le cours." },
+      { "reponse": "Elle est fragile, instable et peu congruente", "explication": "Surface plate sur surface plate." },
+      { "reponse": "Elle est souvent soumise à des traumatismes et à des charges lourdes", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle est très congruente et stable", "explication": "Elle est peu congruente et instable." },
+      { "reponse": "Elle a un faible degré de liberté", "explication": "Elle a un grand degré de liberté." },
+      { "reponse": "Elle est rarement le siège de pathologies", "explication": "Ses pathologies sont fréquentes." }
+    ]
+  },
+  {
+    "question": "Concernant l'arthrite de l'épaule, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Douleur de rythme inflammatoire", "explication": "Signe d'arthrite." },
+      { "reponse": "Gonflement (épanchement ou synovite), parfois avec chaleur et rougeur", "explication": "Signe d'arthrite." },
+      { "reponse": "Raideur à prédominance matinale", "explication": "Signe d'arthrite." },
+      { "reponse": "Diminution des amplitudes actives et passives", "explication": "Atteinte articulaire." }
+    ],
+    "mauvaises": [
+      { "reponse": "Douleur de rythme mécanique", "explication": "Elle est inflammatoire." },
+      { "reponse": "Mobilité passive normale", "explication": "Elle est diminuée." },
+      { "reponse": "Raideur prédominant en fin de journée", "explication": "Elle prédomine le matin." }
+    ]
+  },
+  {
+    "question": "Concernant la capsulite (capsulopathie) rétractile, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "L'articulation est bloquée", "explication": "Capsule progressivement rétrécie." },
+      { "reponse": "L'abduction n'est plus possible", "explication": "Cité dans le cours." },
+      { "reponse": "Les mobilités active et passive sont impossibles", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "La mobilité passive est conservée", "explication": "Elle est impossible." },
+      { "reponse": "C'est une tendinite isolée", "explication": "C'est une atteinte de la capsule articulaire." },
+      { "reponse": "L'abduction est normale", "explication": "Elle est impossible." }
+    ]
+  },
+  {
+    "question": "Concernant la tendinopathie de l'épaule, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle est très fréquente", "explication": "Cause fréquente de douleurs des membres." },
+      { "reponse": "La mobilité passive n'est pas limitée", "explication": "Point clé (+++)." },
+      { "reponse": "Elle est, hors forme calcifiante, d'origine mécanique", "explication": "Cité dans le cours." },
+      { "reponse": "Les facteurs intrinsèques (âge, génétique, morphologie de l'acromion) sont non modifiables", "explication": "Cité dans le cours." },
+      { "reponse": "Les facteurs extrinsèques sont liés à l'environnement (travail, loisirs)", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "La mobilité passive est limitée", "explication": "Elle est conservée." },
+      { "reponse": "Les facteurs intrinsèques sont liés au travail", "explication": "Ce sont des facteurs extrinsèques." },
+      { "reponse": "La morphologie de l'acromion est un facteur extrinsèque", "explication": "C'est un facteur intrinsèque." },
+      { "reponse": "Elle est toujours d'origine inflammatoire", "explication": "Elle est le plus souvent mécanique." }
+    ]
+  },
+  {
+    "question": "Associez les muscles de la coiffe des rotateurs à leur fonction :",
+    "bonnes": [
+      { "reponse": "Subscapulaire : rotateur interne", "explication": "Cité dans le cours." },
+      { "reponse": "Supra-épineux : abducteur (lève le bras)", "explication": "Cité dans le cours." },
+      { "reponse": "Infra-épineux et petit rond (teres minor) : rotateurs externes", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Infra-épineux et teres minor : rotateurs internes", "explication": "Ce sont des rotateurs externes." },
+      { "reponse": "Supra-épineux : rotateur interne", "explication": "C'est un abducteur." },
+      { "reponse": "Subscapulaire : rotateur externe", "explication": "C'est un rotateur interne." },
+      { "reponse": "Petit rond : abducteur principal", "explication": "C'est un rotateur externe." }
+    ]
+  },
+  {
+    "question": "Associez les tests de l'épaule au tendon évalué :",
+    "bonnes": [
+      { "reponse": "Test de Jobe : supra-épineux", "explication": "Bras à 90°, pouces vers le bas, contre résistance." },
+      { "reponse": "Test de Patte : infra-épineux (rotation externe)", "explication": "Cité dans le cours." },
+      { "reponse": "Test de Gerber (lift-off) : subscapulaire (rotation interne)", "explication": "Main décollée du dos." },
+      { "reponse": "Palm-up test : long biceps", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Test de Jobe : subscapulaire", "explication": "Il évalue le supra-épineux." },
+      { "reponse": "Test de Gerber : supra-épineux", "explication": "Il évalue le subscapulaire." },
+      { "reponse": "Test de Patte : long biceps", "explication": "Il évalue l'infra-épineux." },
+      { "reponse": "Palm-up test : infra-épineux", "explication": "Il évalue le long biceps." }
+    ]
+  },
+  {
+    "question": "Quels tests recherchent un conflit sous-acromial ?",
+    "bonnes": [
+      { "reponse": "Test de Neer", "explication": "Élévation passive antérieure ; positif si douleur entre 60 et 120°." },
+      { "reponse": "Signe de Yocum", "explication": "Main sur l'épaule opposée, élévation du coude contre résistance." },
+      { "reponse": "Signe de Hawkins", "explication": "Bras à 90° et coude fléchi, rotation interne imposée." }
+    ],
+    "mauvaises": [
+      { "reponse": "Test de Lasègue", "explication": "Il recherche une sciatique." },
+      { "reponse": "Test de Léri", "explication": "Il recherche une cruralgie." },
+      { "reponse": "Indice de Schober", "explication": "Il évalue la mobilité lombaire." },
+      { "reponse": "Choc rotulien", "explication": "Il recherche un épanchement du genou." }
+    ]
+  },
+  {
+    "question": "Concernant le syndrome rachidien, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il associe douleur, raideur segmentaire et contractures paravertébrales", "explication": "Définition." },
+      { "reponse": "Piège : une douleur dorsale peut être projetée d'origine viscérale (dissection aortique, pancréas, vésicule)", "explication": "Cité dans le cours." },
+      { "reponse": "Une raideur multidirectionnelle est un signe de gravité (infection, tumeur)", "explication": "Aucune position antalgique possible." },
+      { "reponse": "On palpe les épineuses et les régions paravertébrales", "explication": "Examen rachidien." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une douleur dorsale est toujours d'origine rachidienne", "explication": "Elle peut être projetée d'un viscère." },
+      { "reponse": "Une raideur unidirectionnelle est plus grave qu'une raideur multidirectionnelle", "explication": "C'est la raideur multidirectionnelle qui est grave." },
+      { "reponse": "Un torticolis unilatéral est un signe de gravité systématique", "explication": "Il peut rentrer dans l'ordre." }
+    ]
+  },
+  {
+    "question": "Concernant l'examen du rachis cervical et thoracique, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La rotation O-C1-C2 s'évalue par la distance menton-acromion", "explication": "Repère du cours." },
+      { "reponse": "La flexion-extension cervicale s'évalue par la distance menton-sternum", "explication": "Repère du cours." },
+      { "reponse": "La latéroflexion cervicale s'évalue par la distance oreille-épaule", "explication": "Repère du cours." },
+      { "reponse": "La cyphose thoracique s'évalue par la distance C7-mur", "explication": "Repère du cours." },
+      { "reponse": "L'ampliation thoracique normale est supérieure à 5 cm", "explication": "Repère du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "La rotation cervicale s'évalue par la distance menton-sternum", "explication": "C'est la distance menton-acromion." },
+      { "reponse": "La cyphose thoracique s'évalue par l'indice de Schober", "explication": "Schober évalue le rachis lombaire." },
+      { "reponse": "L'ampliation thoracique normale est inférieure à 2 cm", "explication": "Elle est supérieure à 5 cm." },
+      { "reponse": "La latéroflexion cervicale s'évalue par la distance C7-mur", "explication": "C'est la distance oreille-épaule." }
+    ]
+  },
+  {
+    "question": "Concernant l'indice de Schober, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il évalue la mobilité (souplesse) du rachis lombaire", "explication": "Définition." },
+      { "reponse": "On marque L5 et un point situé 10 cm au-dessus", "explication": "Technique." },
+      { "reponse": "On mesure l'écart entre ces deux points en flexion", "explication": "Technique." },
+      { "reponse": "La valeur normale est une augmentation supérieure à 4 cm", "explication": "Seuil du cours." },
+      { "reponse": "La persistance d'une lordose en flexion témoigne d'une absence de mobilité", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il évalue le rachis cervical", "explication": "Il évalue le rachis lombaire." },
+      { "reponse": "On marque C7 et un point 10 cm plus bas", "explication": "On marque L5 et un point 10 cm au-dessus." },
+      { "reponse": "La mesure se fait en extension", "explication": "Elle se fait en flexion." },
+      { "reponse": "Une augmentation de 1 cm est normale", "explication": "La normale est supérieure à 4 cm." },
+      { "reponse": "Le second repère est placé 5 cm au-dessus de L5", "explication": "Il est placé 10 cm au-dessus." }
+    ]
+  },
+  {
+    "question": "Quelles sont les amplitudes normales du rachis lombaire selon le cours ?",
+    "bonnes": [
+      { "reponse": "Flexion-extension : 45°", "explication": "Repère du cours." },
+      { "reponse": "Inclinaison latérale : 20°", "explication": "Repère du cours." },
+      { "reponse": "Rotation : 10°", "explication": "Repère du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Rotation : 45°", "explication": "La rotation lombaire est de 10°." },
+      { "reponse": "Inclinaison latérale : 90°", "explication": "Elle est de 20°." },
+      { "reponse": "Flexion-extension : 10°", "explication": "Elle est de 45°." }
+    ]
+  },
+  {
+    "question": "Quels sont les drapeaux rouges (red flags) d'une lombalgie ?",
+    "bonnes": [
+      { "reponse": "Âge > 50 ans", "explication": "Red flag." },
+      { "reponse": "Antécédent personnel néoplasique", "explication": "Red flag." },
+      { "reponse": "Absence de facteur déclenchant, début insidieux et évolution défavorable (sans antécédent de lombalgie)", "explication": "Red flag." },
+      { "reponse": "Douleur inflammatoire (réveil nocturne, non soulagée par le repos)", "explication": "Red flag." },
+      { "reponse": "Signes généraux (AEG, fièvre)", "explication": "Red flag." },
+      { "reponse": "Siège thoracolombaire et raideur multidirectionnelle", "explication": "Red flags." }
+    ],
+    "mauvaises": [
+      { "reponse": "Âge < 30 ans", "explication": "Le red flag est l'âge > 50 ans." },
+      { "reponse": "Douleur mécanique soulagée par le repos", "explication": "C'est rassurant." },
+      { "reponse": "Facteur déclenchant clair (port de charge)", "explication": "C'est plutôt rassurant." },
+      { "reponse": "Raideur unidirectionnelle avec position antalgique", "explication": "La raideur multidirectionnelle est le red flag." },
+      { "reponse": "Antécédents de lombalgies identiques anciennes", "explication": "Ce n'est pas un red flag." }
+    ]
+  },
+  {
+    "question": "Associez correctement les tests radiculaires :",
+    "bonnes": [
+      { "reponse": "Lasègue : élévation passive de la jambe tendue, reproduit une sciatique (L5, S1)", "explication": "Cité dans le cours." },
+      { "reponse": "Léri : cuisse soulevée en décubitus ventral, genou fléchi, recherche une cruralgie (L3, L4)", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Lasègue recherche une cruralgie L3-L4", "explication": "Il recherche une sciatique L5-S1." },
+      { "reponse": "Léri recherche une sciatique L5-S1", "explication": "Il recherche une cruralgie L3-L4." },
+      { "reponse": "Lasègue se réalise en décubitus ventral", "explication": "Il se réalise en décubitus dorsal, jambe tendue." },
+      { "reponse": "Léri se réalise jambe tendue en décubitus dorsal", "explication": "Il se réalise en décubitus ventral, genou fléchi." }
+    ]
+  },
+  {
+    "question": "Associez les racines à leur territoire, réflexe et fonction motrice :",
+    "bonnes": [
+      { "reponse": "L3 : face antérieure de cuisse et genou, réflexe rotulien, extension du genou", "explication": "Tableau du cours." },
+      { "reponse": "L4 : face antéro-externe de cuisse et bord antérieur de jambe, réflexe rotulien, dorsiflexion du pied", "explication": "Tableau du cours." },
+      { "reponse": "L5 : dos du pied et 1er orteil, pas de réflexe, dorsiflexion des orteils et éversion", "explication": "Tableau du cours." },
+      { "reponse": "S1 : talon, plante et bord externe du pied (5e orteil), réflexe achilléen, flexion plantaire", "explication": "Tableau du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "S1 : réflexe rotulien", "explication": "S1 correspond au réflexe achilléen." },
+      { "reponse": "L5 : réflexe achilléen", "explication": "L5 n'a pas de réflexe ostéotendineux propre dans le tableau." },
+      { "reponse": "L5 : 5e orteil et bord externe du pied", "explication": "C'est le territoire de S1 ; L5 correspond au 1er orteil." },
+      { "reponse": "S1 : dorsiflexion des orteils", "explication": "S1 assure la flexion plantaire." },
+      { "reponse": "L3 : flexion plantaire du pied", "explication": "L3 assure la flexion de hanche et l'extension du genou." }
+    ]
+  },
+  {
+    "question": "Quels signes de gravité doivent faire appeler le neurochirurgien en urgence devant une sciatique ?",
+    "bonnes": [
+      { "reponse": "Déficit moteur d'emblée ≤ 3/5 (sciatique paralysante)", "explication": "IRM, voire chirurgie, dans les 24-48 h." },
+      { "reponse": "Troubles sphinctériens (incontinence, rétention)", "explication": "Syndrome de la queue de cheval." },
+      { "reponse": "Hypoesthésie périnéale ou des organes génitaux externes (anesthésie en selle)", "explication": "Syndrome de la queue de cheval." },
+      { "reponse": "Douleurs radiculaires à bascule", "explication": "Syndrome de la queue de cheval." }
+    ],
+    "mauvaises": [
+      { "reponse": "Déficit moteur coté 5/5", "explication": "Une force à 5/5 est normale." },
+      { "reponse": "Lasègue positif isolé sans déficit", "explication": "Ce n'est pas un signe de gravité." },
+      { "reponse": "Douleur mécanique soulagée par le repos", "explication": "Pas de gravité." },
+      { "reponse": "Déficit moteur à 4/5 apparu progressivement en plusieurs semaines", "explication": "La sciatique paralysante est définie par un déficit d'emblée ≤ 3/5." }
+    ]
+  },
+  {
+    "question": "Cotation de la force musculaire : quelles correspondances sont exactes ?",
+    "bonnes": [
+      { "reponse": "0 : aucune contraction", "explication": "Échelle du cours." },
+      { "reponse": "1 : contraction visible, pas de mouvement", "explication": "Échelle du cours." },
+      { "reponse": "2 : mouvement en l'absence de pesanteur", "explication": "Échelle du cours." },
+      { "reponse": "3 : mouvement contre pesanteur", "explication": "Échelle du cours." },
+      { "reponse": "4 : mouvement contre résistance de l'examinateur", "explication": "Échelle du cours." },
+      { "reponse": "5 : force normale", "explication": "Échelle du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "3 : mouvement contre résistance", "explication": "C'est 4 ; 3 = contre pesanteur." },
+      { "reponse": "2 : mouvement contre pesanteur", "explication": "C'est 3 ; 2 = sans pesanteur." },
+      { "reponse": "1 : mouvement en l'absence de pesanteur", "explication": "C'est 2 ; 1 = contraction sans mouvement." },
+      { "reponse": "0 : contraction visible sans mouvement", "explication": "C'est 1 ; 0 = aucune contraction." }
+    ]
+  },
+  {
+    "question": "Quels signes composent le syndrome de la queue de cheval ?",
+    "bonnes": [
+      { "reponse": "Radiculalgies", "explication": "Racines L2 à S5." },
+      { "reponse": "Déficit moteur des membres inférieurs", "explication": "Signe du syndrome." },
+      { "reponse": "Hypo- ou anesthésie en selle et des OGE", "explication": "Signe du syndrome." },
+      { "reponse": "Troubles sphinctériens (incontinence ou rétention)", "explication": "Signe du syndrome." },
+      { "reponse": "Abolition des réflexes ostéotendineux", "explication": "Signe du syndrome." }
+    ],
+    "mauvaises": [
+      { "reponse": "Réflexes ostéotendineux vifs", "explication": "Ils sont abolis (atteinte périphérique)." },
+      { "reponse": "Il concerne uniquement les racines cervicales", "explication": "Il concerne les racines L2 à S5." },
+      { "reponse": "Il peut être surveillé sans urgence", "explication": "Il faut lever l'obstacle en urgence." },
+      { "reponse": "Sensibilité périnéale toujours normale", "explication": "On retrouve une anesthésie en selle." }
+    ]
+  }
+]
