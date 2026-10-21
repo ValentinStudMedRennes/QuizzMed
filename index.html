@@ -5,32 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QCM de révision</title>
 <style>
-:root{--bg:#f7f6f2;--card:#fff;--text:#1d1d1b;--muted:#6b6a63;--accent:#3b5bdb;--ok:#2f9e44;--ko:#e03131;--border:#dddbd2;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17171a;--card:#222226;--text:#ececea;--muted:#9a9a95;--accent:#748ffc;--ok:#51cf66;--ko:#ff6b6b;--border:#38383e;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#17171a;--card:#222226;--text:#ececea;--muted:#9a9a95;--accent:#748ffc;--ok:#51cf66;--ko:#ff6b6b;--border:#38383e;color-scheme:dark}
+:root{--bg:#f7f6f2;--card:#fff;--text:#1d1d1b;--muted:#6b6a63;--accent:#3b5bdb;--ok:#2f9e44;--ko:#e03131;--on:#fff;--border:#dddbd2;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17171a;--card:#222226;--text:#ececea;--muted:#9a9a95;--accent:#748ffc;--ok:#51cf66;--ko:#ff6b6b;--on:#111;--border:#38383e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17171a;--card:#222226;--text:#ececea;--muted:#9a9a95;--accent:#748ffc;--ok:#51cf66;--ko:#ff6b6b;--on:#111;--border:#38383e;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
 main{max-width:720px;margin:0 auto;padding:20px 16px 60px}
 h1{font-size:1.6rem;margin:.2em 0}
 p.sub{color:var(--muted);margin-top:0}
 .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin:14px 0}
-button{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:10px 16px;font-size:1rem;cursor:pointer}
+button{background:var(--accent);color:var(--on);border:0;border-radius:8px;padding:10px 16px;font-size:1rem;cursor:pointer}
 button.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+button:disabled{opacity:.4;cursor:default}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0}
 .themes{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-top:10px}
 .theme{background:var(--bg);color:var(--text);border:2px solid var(--border);text-align:left;padding:12px}
 .theme.sel{border-color:var(--accent)}
 .theme small{display:block;color:var(--muted)}
+#nav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+.sq{width:34px;height:34px;padding:0;border-radius:6px;background:var(--card);color:var(--text);border:1px solid var(--border);font-size:.85rem}
+.sq.ok{background:var(--ok);border-color:var(--ok);color:var(--on)}
+.sq.ko{background:var(--ko);border-color:var(--ko);color:var(--on)}
+.sq.skip{border:1px dashed var(--accent)}
+.sq.cur{outline:2px solid var(--accent);outline-offset:2px}
+.legend{font-size:.8rem;color:var(--muted);margin-bottom:8px}
 label.opt{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--border);border-radius:8px;margin:8px 0;cursor:pointer}
 label.opt.good{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 15%,transparent)}
 label.opt.bad{border-color:var(--ko);background:color-mix(in srgb,var(--ko) 15%,transparent)}
 label.opt.missed{border-color:var(--ok);border-style:dashed}
+label.opt.locked{cursor:default}
+.why{font-size:.88rem;color:var(--muted);margin-top:2px}
 input[type=number]{width:64px;padding:6px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text)}
 .hint{color:var(--muted);font-size:.9rem}
 .res{font-weight:600;margin-top:8px}
 .hidden{display:none}
-#bar{height:6px;background:var(--border);border-radius:3px;overflow:hidden}
-#bar div{height:100%;background:var(--accent);width:0;transition:width .3s}
 </style>
 </head>
 <body>
@@ -55,27 +63,33 @@ input[type=number]{width:64px;padding:6px;border-radius:6px;border:1px solid var
 </section>
 
 <section id="quiz" class="hidden">
-<div id="bar"><div></div></div>
+<div id="nav"></div>
+<div class="legend">Carré blanc : pas encore répondu (pointillés : passé) · vert : juste · rouge : faux</div>
 <div class="card">
 <div class="hint" id="count"></div>
 <h2 id="q" style="font-size:1.2rem"></h2>
 <div class="hint">Coche toutes les bonnes réponses (il peut n’y en avoir aucune).</div>
 <div id="opts"></div>
 <div id="fb" class="res"></div>
-<div class="row"><button id="valid">Valider</button><button id="next" class="hidden">Suivant</button></div>
+<div class="row">
+<button class="alt" id="prev">← Précédente</button>
+<button id="valid">Valider</button>
+<button class="alt" id="next">Passer →</button>
+<button class="alt" id="finish">Terminer</button>
+</div>
 </div>
 </section>
 
 <section id="end" class="hidden">
-<div class="card"><h2 id="score"></h2><div id="miss" class="hint"></div>
-<div class="row"><button id="again">Refaire un QCM</button><button class="alt" id="back">Changer de thème</button></div></div>
+<div class="card"><h2 id="score"></h2><div id="unans" class="hint"></div><div id="miss" class="hint" style="margin-top:6px"></div>
+<div class="row"><button id="review">Revoir les questions</button><button class="alt" id="again">Refaire un QCM</button><button class="alt" id="back">Changer de thème</button></div></div>
 </section>
 </main>
 
 <script>
 const $=id=>document.getElementById(id);
-const DATA_DIR="data/";           // dossier des fichiers de questions
-let themes=[],theme=null,quiz=[],i=0,score=0,done=false,wrong=[];
+const DATA_DIR="data/";
+let themes=[],theme=null,quiz=[],i=0;
 const rnd=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
 function shuffle(a){a=a.slice();for(let j=a.length-1;j>0;j--){const k=rnd(0,j);[a[j],a[k]]=[a[k],a[j]]}return a}
 
@@ -84,13 +98,23 @@ async function getJSON(name){
   if(!r.ok)throw new Error("fichier « "+name+" » introuvable ("+r.status+")");
   try{return await r.json()}catch(e){throw new Error("« "+name+" » n’est pas un JSON valide : "+e.message)}
 }
+// Une réponse peut être { "reponse": "…", "explication": "…" } (ou un simple texte)
+function ans(a){
+  if(typeof a==="string")return{reponse:a,explication:""};
+  if(a&&typeof a.reponse!=="undefined")return{reponse:String(a.reponse),explication:a.explication?String(a.explication):""};
+  return null;
+}
+function uniq(list){const seen=new Set();return list.filter(a=>!seen.has(a.reponse)&&seen.add(a.reponse))}
 function clean(list,file,warns){
   if(!Array.isArray(list)){warns.push(file+" : doit contenir une liste [ … ]");return[]}
-  return list.filter((x,n)=>{
-    const ok=x&&typeof x.question==="string"&&Array.isArray(x.bonnes)&&Array.isArray(x.mauvaises)&&(x.bonnes.length+x.mauvaises.length)>0;
-    if(!ok)warns.push(file+" : question n°"+(n+1)+" ignorée (champs question / bonnes / mauvaises incorrects)");
-    return ok;
-  }).map(x=>({question:x.question,bonnes:[...new Set(x.bonnes.map(String))],mauvaises:[...new Set(x.mauvaises.map(String))]}));
+  const out=[];
+  list.forEach((x,n)=>{
+    const ok=x&&typeof x.question==="string"&&Array.isArray(x.bonnes)&&Array.isArray(x.mauvaises);
+    const b=ok?x.bonnes.map(ans):[],m=ok?x.mauvaises.map(ans):[];
+    if(!ok||b.includes(null)||m.includes(null)||b.length+m.length===0){warns.push(file+" : question n°"+(n+1)+" ignorée (vérifie question / bonnes / mauvaises, et « reponse » dans chaque réponse)");return}
+    out.push({question:x.question,bonnes:uniq(b),mauvaises:uniq(m)});
+  });
+  return out;
 }
 async function init(){
   const warns=[];
@@ -128,9 +152,10 @@ function build(q,total,kmin,kmax){
   let lo=Math.max(kmin,total-M,0),hi=Math.min(kmax,G,total);
   if(lo>hi){lo=Math.max(0,total-M);hi=Math.min(G,total)}
   const k=rnd(lo,hi);
-  const good=shuffle(q.bonnes).slice(0,k).map(t=>({t,ok:true}));
-  const bad=shuffle(q.mauvaises).slice(0,total-k).map(t=>({t,ok:false}));
-  return{question:q.question,opts:shuffle([...good,...bad])};
+  const mk=ok=>a=>({t:a.reponse,why:a.explication,ok});
+  const good=shuffle(q.bonnes).slice(0,k).map(mk(true));
+  const bad=shuffle(q.mauvaises).slice(0,total-k).map(mk(false));
+  return{question:q.question,opts:shuffle([...good,...bad]),answered:false,skipped:false,sel:[],perfect:false};
 }
 function start(){
   if(!theme||!theme.questions.length){$("err").textContent="Choisis un thème contenant des questions.";return}
@@ -139,46 +164,76 @@ function start(){
   if(isNaN(kmax))kmax=5;if(kmin>kmax)kmin=kmax;
   const nq=Math.max(1,Math.min(+$("nq").value||40,theme.questions.length));
   quiz=shuffle(theme.questions).slice(0,nq).map(q=>build(q,total,kmin,kmax));
-  i=0;score=0;wrong=[];
+  i=0;
   $("setup").classList.add("hidden");$("end").classList.add("hidden");$("quiz").classList.remove("hidden");
   show();
 }
+function renderNav(){
+  $("nav").innerHTML="";
+  quiz.forEach((q,n)=>{
+    const b=document.createElement("button");
+    b.className="sq"+(q.answered?(q.perfect?" ok":" ko"):"")+(q.skipped&&!q.answered?" skip":"")+(n===i?" cur":"");
+    b.textContent=n+1;b.title="Question "+(n+1);b.onclick=()=>go(n);$("nav").append(b);
+  });
+}
+function go(n){i=n;show()}
 function show(){
-  done=false;const q=quiz[i];
+  const q=quiz[i];
   $("count").textContent="Question "+(i+1)+" / "+quiz.length;
-  $("bar").firstElementChild.style.width=(i/quiz.length*100)+"%";
   $("q").textContent=q.question;$("fb").textContent="";$("opts").innerHTML="";
-  q.opts.forEach(o=>{
+  q.opts.forEach((o,n)=>{
     const l=document.createElement("label");l.className="opt";
     const c=document.createElement("input");c.type="checkbox";
-    const s=document.createElement("span");s.textContent=o.t;
-    l.append(c,s);$("opts").append(l);
+    const d=document.createElement("div");
+    const s=document.createElement("span");s.textContent=o.t;d.append(s);
+    if(q.answered){
+      c.checked=q.sel[n];c.disabled=true;l.classList.add("locked");
+      if(c.checked&&o.ok)l.classList.add("good");
+      else if(c.checked&&!o.ok)l.classList.add("bad");
+      else if(!c.checked&&o.ok)l.classList.add("missed");
+      if(o.why){const w=document.createElement("div");w.className="why";w.textContent=(o.ok?"✓ Bonne réponse : ":"✗ Mauvaise réponse : ")+o.why;d.append(w)}
+    }
+    l.append(c,d);$("opts").append(l);
   });
-  $("valid").classList.remove("hidden");$("next").classList.add("hidden");
+  if(q.answered){
+    const nb=q.opts.filter(o=>o.ok).length;
+    $("fb").style.color=q.perfect?"var(--ok)":"var(--ko)";
+    $("fb").textContent=(q.perfect?"✓ Correct !":"✗ Incorrect.")+" "+(nb===0?"Il n’y avait aucune bonne réponse.":nb+" bonne(s) réponse(s) attendue(s).");
+  }
+  $("valid").classList.toggle("hidden",q.answered);
+  $("next").textContent=q.answered?"Suivante →":"Passer →";
+  $("prev").disabled=i===0;
+  renderNav();
 }
 function validate(){
-  if(done)return;done=true;
-  const q=quiz[i];let perfect=true;
-  [...$("opts").children].forEach((l,n)=>{
-    const c=l.querySelector("input"),o=q.opts[n];c.disabled=true;
-    if(c.checked&&o.ok)l.classList.add("good");
-    else if(c.checked&&!o.ok){l.classList.add("bad");perfect=false}
-    else if(!c.checked&&o.ok){l.classList.add("missed");perfect=false}
-  });
-  const nb=q.opts.filter(o=>o.ok).length;
-  if(perfect)score++;else wrong.push(q.question);
-  $("fb").style.color=perfect?"var(--ok)":"var(--ko)";
-  $("fb").textContent=(perfect?"✓ Correct !":"✗ Incorrect.")+" "+(nb===0?"Il n’y avait aucune bonne réponse.":nb+" bonne(s) réponse(s) attendue(s).");
-  $("valid").classList.add("hidden");$("next").classList.remove("hidden");
-  $("next").textContent=i===quiz.length-1?"Voir le score":"Suivant";
+  const q=quiz[i];if(q.answered)return;
+  q.sel=[...$("opts").querySelectorAll("input")].map(c=>c.checked);
+  q.perfect=q.opts.every((o,n)=>o.ok===q.sel[n]);
+  q.answered=true;show();
+}
+function nextTarget(){
+  for(let d=1;d<quiz.length;d++){const j=(i+d)%quiz.length;if(!quiz[j].answered)return j}
+  return -1;
 }
 function next(){
-  if(i<quiz.length-1){i++;show();return}
+  const q=quiz[i];
+  if(!q.answered)q.skipped=true;
+  const t=nextTarget();
+  if(t>=0)go(t);
+  else if(q.answered)finish();
+  else{renderNav();$("fb").style.color="var(--muted)";$("fb").textContent="C’est la dernière question sans réponse : réponds-y, ou clique sur « Terminer »."}
+}
+function finish(){
+  const ok=quiz.filter(q=>q.perfect).length,un=quiz.filter(q=>!q.answered).length;
   $("quiz").classList.add("hidden");$("end").classList.remove("hidden");
-  $("score").textContent="Score : "+score+" / "+quiz.length+" ("+Math.round(score/quiz.length*100)+" %)";
-  $("miss").textContent=wrong.length?"À revoir : "+wrong.join(" · "):"Sans faute, bravo !";
+  $("score").textContent="Score : "+ok+" / "+quiz.length+" ("+Math.round(ok/quiz.length*100)+" %)";
+  $("unans").textContent=un?un+" question(s) sans réponse.":"";
+  const ko=quiz.map((q,n)=>q.answered&&!q.perfect?"n°"+(n+1)+" "+q.question:null).filter(Boolean);
+  $("miss").textContent=ko.length?"À revoir : "+ko.join(" · "):(un?"":"Sans faute, bravo !");
 }
 $("start").onclick=start;$("valid").onclick=validate;$("next").onclick=next;
+$("prev").onclick=()=>go(i-1);$("finish").onclick=finish;
+$("review").onclick=()=>{$("end").classList.add("hidden");$("quiz").classList.remove("hidden");show()};
 $("again").onclick=start;
 $("back").onclick=()=>{$("end").classList.add("hidden");$("setup").classList.remove("hidden")};
 init();
