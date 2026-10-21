@@ -5,6 +5,6 @@
   { "nom": "uro", "fichier": "uro.json" },
   { "nom": "fievre", "fichier": "fievre.json" },
   { "nom": "Pediatrie", "fichier": "pedia.json" },
-  { "nom": "Rhumato", "fichier": "rhulato.json" },
+  { "nom": "Rhumato", "fichier": "rhumato.json" },
   { "nom": "Scanner_IRM", "fichier": "Scanner_IRM.json" }
 ]
