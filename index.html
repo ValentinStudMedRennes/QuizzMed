@@ -10,6 +10,7 @@
 :root[data-theme="dark"]{--bg:#17171a;--card:#222226;--text:#ececea;--muted:#9a9a95;--accent:#748ffc;--ok:#51cf66;--ko:#ff6b6b;--on:#111;--border:#38383e;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+.curtheme{font-weight:600;color:var(--accent);margin:0 0 6px;min-height:1.5em}
 main{max-width:720px;margin:0 auto;padding:20px 16px 60px}
 h1{font-size:1.6rem;margin:.2em 0}
 p.sub{color:var(--muted);margin-top:0}
@@ -44,6 +45,7 @@ input[type=number]{width:64px;padding:6px;border-radius:6px;border:1px solid var
 <body>
 <main>
 <h1>QCM de révision</h1>
+<div id="curtheme" class="curtheme"></div>
 <p class="sub">Choisis un thème : le site génère un QCM aléatoire, avec 0 à 5 bonnes réponses par question.</p>
 <div id="load" class="hint">Chargement des questions…</div>
 
@@ -149,15 +151,16 @@ async function init(){
     const b=document.createElement("button");b.className="theme";
     const n=document.createElement("strong");n.textContent=txt(t.nom)||"(sans nom)";
     const s=document.createElement("small");s.textContent=t.questions.length+" question(s)";
-    b.append(n,s);b.onclick=()=>pick(t,b);t.el=b;$("themes").append(b);
+    b.append(n,s);b.onclick=()=>pick(t);t.el=b;$("themes").append(b);
   });
   $("load").textContent=warns.length?"⚠ "+warns.join(" — "):"";
   $("load").style.color="var(--ko)";
-  if(themes.length)pick(themes[0],themes[0].el);
+  if(themes.length)pick(themes[0]);
 }
-function pick(t,b){
+function pick(t){
   theme=t;
-  document.querySelectorAll(".theme").forEach(x=>x.classList.toggle("sel",x===b));
+  themes.forEach(x=>x.el.classList.toggle("sel",x===t));
+  $("curtheme").textContent="Thème : "+(txt(t.nom)||"(sans nom)");
   $("max").textContent="(max. "+t.questions.length+" pour ce thème)";
   $("err").textContent="";
 }
