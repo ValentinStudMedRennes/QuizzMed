@@ -1,4 +1,5 @@
 [
   { "nom": "Dermato", "fichier": "dermato.json" },
-  { "nom": "Cardio", "fichier": "Cardio.json" }
+  { "nom": "Cardio", "fichier": "Cardio.json" },
+  { "nom": "Pneumo", "fichier": "Pneumo.json" }
 ]

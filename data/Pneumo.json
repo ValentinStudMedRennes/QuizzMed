@@ -1,0 +1,1015 @@
+[
+  {
+    "question": "Quels sont les 5 volets principaux de l'observation médicale ?",
+    "bonnes": [
+      { "reponse": "Le motif de consultation", "explication": "Premier élément recueilli, il permet au patient d'exprimer sa plainte." },
+      { "reponse": "Le terrain du patient", "explication": "Antécédents, FRCV, traitements, allergies, mode de vie." },
+      { "reponse": "L'anamnèse", "explication": "Temps essentiel pour le diagnostic, adapté à la plainte." },
+      { "reponse": "L'examen physique", "explication": "Systématisé, il recherche d'abord les signes de gravité." },
+      { "reponse": "Le résumé syndromique / conclusion", "explication": "Synthèse des éléments pertinents aboutissant à des hypothèses et à une conduite à tenir." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les examens complémentaires", "explication": "Ils ne font pas partie des 5 volets de l'observation ; ils découlent de la conclusion." },
+      { "reponse": "Le traitement prescrit", "explication": "La conduite thérapeutique découle de la conclusion, ce n'est pas un volet de l'observation." },
+      { "reponse": "Le diagnostic de certitude", "explication": "La conclusion aboutit à des hypothèses, pas forcément à un diagnostic certain." },
+      { "reponse": "L'ECG", "explication": "C'est un examen complémentaire, pas un volet de l'observation." },
+      { "reponse": "Le compte-rendu d'hospitalisation", "explication": "C'est un document de sortie, pas un volet de l'observation." }
+    ]
+  },
+  {
+    "question": "Concernant le motif de consultation, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est un symptôme", "explication": "Le motif doit être exprimé comme une plainte du patient." },
+      { "reponse": "C'est le premier élément recueilli", "explication": "Il ouvre l'observation." }
+    ],
+    "mauvaises": [
+      { "reponse": "C'est un diagnostic (ex : « infarctus »)", "explication": "Le cours insiste : un motif n'est jamais un diagnostic." },
+      { "reponse": "Ce peut être un examen complémentaire (ex : « ECG anormal »)", "explication": "Un examen complémentaire n'est pas un motif de consultation." },
+      { "reponse": "Il est recueilli à la fin de l'examen physique", "explication": "Il est recueilli en premier." },
+      { "reponse": "Il est formulé par le médecin à partir de ses hypothèses", "explication": "Il reflète la plainte du patient, pas l'interprétation du médecin." }
+    ]
+  },
+  {
+    "question": "Quels sont les 4 symptômes cardiologiques « cardinaux » à rechercher systématiquement ?",
+    "bonnes": [
+      { "reponse": "Douleur thoracique", "explication": "Symptôme cardinal." },
+      { "reponse": "Dyspnée", "explication": "Symptôme cardinal." },
+      { "reponse": "Palpitations", "explication": "Symptôme cardinal." },
+      { "reponse": "Syncope / lipothymie", "explication": "Symptôme cardinal." }
+    ],
+    "mauvaises": [
+      { "reponse": "Œdèmes des membres inférieurs", "explication": "C'est un signe physique (insuffisance cardiaque droite), pas un des 4 symptômes cardinaux." },
+      { "reponse": "Toux", "explication": "Peut accompagner une dyspnée mais ne fait pas partie des 4 symptômes cardinaux." },
+      { "reponse": "Fièvre", "explication": "Signe général, non spécifique, pas un symptôme cardinal." },
+      { "reponse": "Céphalées", "explication": "Pas un symptôme cardinal cardiologique." },
+      { "reponse": "Turgescence jugulaire", "explication": "C'est un signe d'examen physique." },
+      { "reponse": "Asthénie", "explication": "Signe non spécifique, absent de la liste des 4." }
+    ]
+  },
+  {
+    "question": "Quels sont les facteurs de risque cardiovasculaire NON modifiables ?",
+    "bonnes": [
+      { "reponse": "L'âge", "explication": "> 50 ans chez l'homme, > 60 ans chez la femme." },
+      { "reponse": "Le sexe masculin", "explication": "Mortalité CV 3 à 4 fois plus élevée chez l'homme avant 65 ans." },
+      { "reponse": "L'hérédité", "explication": "Antécédents familiaux CV précoces." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le tabagisme", "explication": "Facteur modifiable." },
+      { "reponse": "L'hypertension artérielle", "explication": "Facteur modifiable." },
+      { "reponse": "Le diabète", "explication": "Facteur modifiable." },
+      { "reponse": "L'obésité", "explication": "Facteur modifiable." },
+      { "reponse": "L'hypercholestérolémie", "explication": "Facteur modifiable." },
+      { "reponse": "Les facteurs psychosociaux", "explication": "Classés parmi les facteurs modifiables." }
+    ]
+  },
+  {
+    "question": "Quels sont les facteurs de risque cardiovasculaire modifiables ?",
+    "bonnes": [
+      { "reponse": "Tabagisme", "explication": "Première cause de mortalité évitable." },
+      { "reponse": "Hypercholestérolémie", "explication": "LDL élevé, HDL bas." },
+      { "reponse": "HTA", "explication": "PA ≥ 140/90 mmHg en consultation." },
+      { "reponse": "Diabète", "explication": "Glycémie à jeun > 1,26 g/L à 2 reprises." },
+      { "reponse": "Obésité", "explication": "IMC > 30 kg/m²." },
+      { "reponse": "Facteurs psychosociaux", "explication": "Cités parmi les facteurs modifiables." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'âge", "explication": "Non modifiable." },
+      { "reponse": "Le sexe masculin", "explication": "Non modifiable." },
+      { "reponse": "Les antécédents familiaux coronariens", "explication": "L'hérédité est non modifiable." },
+      { "reponse": "Un HDL-cholestérol élevé", "explication": "Ce n'est pas un facteur de risque : un HDL élevé est plutôt protecteur." }
+    ]
+  },
+  {
+    "question": "Concernant l'âge et le sexe comme facteurs de risque cardiovasculaire, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Avant 65 ans, la mortalité CV des hommes est 3 à 4 fois supérieure à celle des femmes", "explication": "Chiffre du cours." },
+      { "reponse": "Les accidents CV surviennent en moyenne 10 ans plus tôt chez l'homme", "explication": "Chiffre du cours." },
+      { "reponse": "La femme est protégée par les œstrogènes jusqu'à la ménopause", "explication": "Elle est de nouveau exposée après la ménopause." },
+      { "reponse": "L'âge est un FRCV au-delà de 50 ans chez l'homme et de 60 ans chez la femme", "explication": "Seuils du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'âge est un FRCV au-delà de 60 ans chez l'homme et de 50 ans chez la femme", "explication": "Seuils inversés : 50 ans ♂, 60 ans ♀." },
+      { "reponse": "La différence entre hommes et femmes tend à s'accentuer", "explication": "Elle tend à se tasser (tabagisme et obésité féminins en hausse)." },
+      { "reponse": "La protection hormonale féminine persiste après la ménopause", "explication": "Elle disparaît à la ménopause." },
+      { "reponse": "Les accidents CV surviennent en moyenne 10 ans plus tôt chez la femme", "explication": "C'est chez l'homme qu'ils surviennent plus tôt." },
+      { "reponse": "La mortalité CV avant 65 ans est identique dans les deux sexes", "explication": "Elle est 3 à 4 fois supérieure chez l'homme." }
+    ]
+  },
+  {
+    "question": "On retient une hérédité coronarienne en cas d'antécédent cardiovasculaire familial survenu :",
+    "bonnes": [
+      { "reponse": "Avant 55 ans chez un apparenté masculin du 1er degré", "explication": "Père, frère ou fils." },
+      { "reponse": "Avant 65 ans chez un apparenté féminin du 1er degré", "explication": "Mère, sœur ou fille." },
+      { "reponse": "Avant 45 ans pour un AVC chez un apparenté", "explication": "Quel que soit le sexe." }
+    ],
+    "mauvaises": [
+      { "reponse": "Avant 65 ans chez un apparenté masculin du 1er degré", "explication": "Le seuil masculin est 55 ans." },
+      { "reponse": "Avant 55 ans chez un apparenté féminin du 1er degré", "explication": "Le seuil féminin est 65 ans." },
+      { "reponse": "Avant 55 ans chez un oncle", "explication": "Seuls les apparentés du 1er degré sont pris en compte." },
+      { "reponse": "Avant 65 ans chez un grand-père", "explication": "Le grand-père est un apparenté du 2e degré." },
+      { "reponse": "Avant 70 ans pour un AVC", "explication": "Le seuil pour l'AVC est 45 ans." },
+      { "reponse": "Chez un cousin germain, quel que soit l'âge", "explication": "Le cousin n'est pas un apparenté du 1er degré." }
+    ]
+  },
+  {
+    "question": "Quels antécédents familiaux sont pris en compte pour l'hérédité cardiovasculaire ?",
+    "bonnes": [
+      { "reponse": "Mort subite", "explication": "Cité dans le cours." },
+      { "reponse": "Accident vasculaire cérébral", "explication": "Cité dans le cours (avant 45 ans)." },
+      { "reponse": "Atteinte coronaire (coronaropathie)", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Varices des membres inférieurs", "explication": "Pathologie veineuse, non retenue pour l'hérédité coronarienne." },
+      { "reponse": "Asthme", "explication": "Pathologie respiratoire, sans lien avec l'hérédité CV." },
+      { "reponse": "Cancer du poumon", "explication": "Non pris en compte pour l'hérédité CV." },
+      { "reponse": "Migraine", "explication": "Non pris en compte." }
+    ]
+  },
+  {
+    "question": "Concernant le tabagisme, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est la 1re cause de mortalité évitable", "explication": "Problème majeur de santé publique." },
+      { "reponse": "C'est le facteur de risque le plus fréquent chez les jeunes", "explication": "Cité dans le cours." },
+      { "reponse": "Il est retenu comme FRCV s'il est actif ou sevré depuis moins de 3 ans", "explication": "Critère du cours." },
+      { "reponse": "Il se quantifie en paquets-années", "explication": "Nombre de paquets par jour × nombre d'années de tabagisme." },
+      { "reponse": "Il est responsable d'environ 75 000 décès par an en France", "explication": "Soit plus de 10 % des décès." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il est retenu comme FRCV s'il est sevré depuis moins de 10 ans", "explication": "Le seuil est de 3 ans." },
+      { "reponse": "Un tabagisme sevré depuis plus de 3 ans n'a eu aucun impact sur l'athérosclérose", "explication": "L'athérosclérose a pu progresser pendant toute la durée de consommation." },
+      { "reponse": "Il se quantifie en nombre de cigarettes à vie", "explication": "On utilise le paquet-année." },
+      { "reponse": "Le tabagisme passif n'entraîne aucun décès", "explication": "Le cours cite environ 2000 décès par an liés au tabagisme passif." },
+      { "reponse": "C'est un facteur de risque non modifiable", "explication": "C'est un facteur modifiable." }
+    ]
+  },
+  {
+    "question": "Concernant le cholestérol, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Un LDL-cholestérol élevé est un facteur de risque", "explication": "Le LDL est le « mauvais cholestérol »." },
+      { "reponse": "Un HDL-cholestérol bas est un facteur de risque", "explication": "Le HDL est le « bon cholestérol »." },
+      { "reponse": "On parle d'hypercholestérolémie pour un LDL > 1,6 g/L", "explication": "Seuil du cours." },
+      { "reponse": "Un HDL < 0,4 g/L est très probablement associé à un risque CV accru", "explication": "Donnée du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le LDL est transporté par les lipoprotéines de haute densité", "explication": "LDL = Low Density Lipoprotein, basse densité." },
+      { "reponse": "Un HDL élevé est un facteur de risque", "explication": "Un HDL élevé est plutôt protecteur." },
+      { "reponse": "On parle d'hypercholestérolémie pour un LDL > 1 g/L", "explication": "Le seuil du cours est 1,6 g/L." },
+      { "reponse": "Il est certain qu'un HDL > 0,6 g/L est protecteur", "explication": "Le cours précise que c'est moins certain." },
+      { "reponse": "Après un infarctus, on cherche à augmenter le LDL", "explication": "On utilise des statines pour abaisser le LDL au plus bas." }
+    ]
+  },
+  {
+    "question": "Concernant l'hypertension artérielle, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle est définie par une PA ≥ 140/90 mmHg en consultation", "explication": "Définition du cours." },
+      { "reponse": "En automesure, le seuil est > 135/85 mmHg", "explication": "L'automesure évite l'effet blouse blanche." },
+      { "reponse": "Elle concerne 10 à 15 % de la population française", "explication": "Et son incidence augmente avec l'âge." },
+      { "reponse": "Elle est sous-diagnostiquée car longtemps asymptomatique", "explication": "Les chiffres réels sont probablement plus élevés." },
+      { "reponse": "La mesure doit être répétée sur plusieurs consultations à quelques semaines d'intervalle", "explication": "Une mesure isolée ne suffit pas." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle est définie par une PA ≥ 120/80 mmHg en consultation", "explication": "Le seuil est 140/90 mmHg." },
+      { "reponse": "En automesure, le seuil est le même qu'en consultation (140/90)", "explication": "Il est plus bas : 135/85 mmHg." },
+      { "reponse": "Une seule mesure élevée en consultation suffit au diagnostic", "explication": "Il faut répéter les mesures." },
+      { "reponse": "Son incidence diminue avec l'âge", "explication": "Elle augmente avec l'âge." },
+      { "reponse": "Elle est presque toujours symptomatique", "explication": "Elle reste longtemps asymptomatique." },
+      { "reponse": "L'automesure favorise l'effet blouse blanche", "explication": "Elle sert justement à l'éviter." }
+    ]
+  },
+  {
+    "question": "Selon la classification OMS, une PA de 170/105 mmHg correspond à :",
+    "bonnes": [
+      { "reponse": "Une HTA de grade 2 (modérée)", "explication": "Grade 2 : 160-180 / 100-110 mmHg." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une HTA de grade 1 (légère)", "explication": "Grade 1 : 140-160 / 90-100 mmHg." },
+      { "reponse": "Une HTA de grade 3 (sévère)", "explication": "Grade 3 : > 180 / > 110 mmHg." },
+      { "reponse": "Une pression normale-haute", "explication": "La normale-haute est en dessous de 140/90 mmHg." },
+      { "reponse": "Une pression optimale", "explication": "L'optimale est < 120/80 mmHg." },
+      { "reponse": "Une hypotension", "explication": "Ces chiffres sont élevés." }
+    ]
+  },
+  {
+    "question": "Quels critères permettent de diagnostiquer un diabète ?",
+    "bonnes": [
+      { "reponse": "Glycémie à jeun > 1,26 g/L (7 mmol/L) à 2 reprises", "explication": "Critère du cours." },
+      { "reponse": "Glycémie > 2 g/L (11 mmol/L) à n'importe quel moment de la journée", "explication": "Critère du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Glycémie à jeun > 1,26 g/L sur une seule mesure", "explication": "Il faut 2 mesures à jeun." },
+      { "reponse": "Glycémie à jeun entre 1,1 et 1,26 g/L", "explication": "Il s'agit d'une hyperglycémie modérée à jeun (intolérance aux glucides), pas d'un diabète." },
+      { "reponse": "Glycémie à jeun > 1 g/L", "explication": "Ce seuil n'est pas diagnostique du diabète." },
+      { "reponse": "Glycémie > 1,5 g/L à n'importe quel moment", "explication": "Le seuil en glycémie aléatoire est 2 g/L." },
+      { "reponse": "Présence de glucose dans les urines uniquement", "explication": "Ce n'est pas un critère diagnostique du cours." }
+    ]
+  },
+  {
+    "question": "Concernant le diabète, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Le diabète de type 2 représente 85 à 90 % des cas", "explication": "Sujet plus âgé, insulinorésistance." },
+      { "reponse": "Le diabète de type 1 concerne plutôt le sujet jeune", "explication": "10 à 15 % des cas." },
+      { "reponse": "Le diagnostic est souvent fortuit ou fait lors d'une complication", "explication": "Maladie longtemps silencieuse." },
+      { "reponse": "L'hémoglobine glyquée reflète l'équilibre glycémique des 3 derniers mois", "explication": "Utile au suivi." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le diabète de type 1 représente 85 à 90 % des cas", "explication": "C'est le type 2 qui est majoritaire." },
+      { "reponse": "Le diabète de type 2 touche surtout le sujet jeune", "explication": "Il touche surtout le sujet âgé." },
+      { "reponse": "L'hémoglobine glyquée reflète la glycémie de la veille", "explication": "Elle reflète les 3 derniers mois." },
+      { "reponse": "Le diabète concerne environ 15 % de la population française", "explication": "Le cours cite environ 3,5 % (plus de 2 millions de personnes)." },
+      { "reponse": "Le diabète de type 2 est lié à un défaut absolu de sécrétion d'insuline", "explication": "Il est lié à l'insulinorésistance." }
+    ]
+  },
+  {
+    "question": "Concernant l'IMC et l'obésité, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "IMC = poids / taille²", "explication": "Exprimé en kg/m²." },
+      { "reponse": "L'obésité est définie par un IMC > 30 kg/m²", "explication": "Définition du cours." },
+      { "reponse": "Un IMC entre 25 et 29,9 correspond à un surpoids", "explication": "Classification du cours." },
+      { "reponse": "Un IMC > 40 correspond à une obésité morbide", "explication": "Grade 1 : 30-35, grade 2 : 35-40." },
+      { "reponse": "Le périmètre abdominal est corrélé au risque cardiovasculaire", "explication": "Il permet aussi d'évaluer le syndrome métabolique." }
+    ],
+    "mauvaises": [
+      { "reponse": "IMC = poids / taille", "explication": "La taille est au carré." },
+      { "reponse": "IMC = taille² / poids", "explication": "Formule inversée." },
+      { "reponse": "L'obésité est définie par un IMC > 25 kg/m²", "explication": "25 est le seuil du surpoids." },
+      { "reponse": "Un IMC normal est compris entre 20 et 30", "explication": "Il est compris entre 18,5 et 24,9." },
+      { "reponse": "Un IMC de 37 correspond à une obésité de grade 1", "explication": "37 correspond au grade 2 (35-40)." }
+    ]
+  },
+  {
+    "question": "Quels sont les critères du syndrome métabolique ?",
+    "bonnes": [
+      { "reponse": "Obésité centrale (périmètre abdominal ≥ 94 cm chez l'homme, ≥ 80 cm chez la femme), obligatoire", "explication": "Critère indispensable." },
+      { "reponse": "Associée à au moins 2 autres facteurs", "explication": "Parmi : TG, HDL bas, PA, glycémie." },
+      { "reponse": "Triglycérides > 1,5 g/L", "explication": "Un des facteurs." },
+      { "reponse": "HDL < 0,4 g/L chez l'homme ou < 0,5 g/L chez la femme", "explication": "Un des facteurs." },
+      { "reponse": "PA ≥ 130/85 mmHg", "explication": "Un des facteurs." },
+      { "reponse": "Glycémie > 1 g/L ou diabète de type 2", "explication": "Un des facteurs." }
+    ],
+    "mauvaises": [
+      { "reponse": "Périmètre abdominal ≥ 80 cm chez l'homme et ≥ 94 cm chez la femme", "explication": "Seuils inversés." },
+      { "reponse": "Obésité centrale associée à au moins 1 autre facteur", "explication": "Il en faut au moins 2." },
+      { "reponse": "PA ≥ 140/90 mmHg", "explication": "Le seuil du syndrome métabolique est 130/85 mmHg." },
+      { "reponse": "HDL > 0,6 g/L", "explication": "C'est un HDL bas qui est un critère." },
+      { "reponse": "LDL > 1,6 g/L", "explication": "Le LDL n'est pas un critère du syndrome métabolique." },
+      { "reponse": "Tabagisme actif", "explication": "Ce n'est pas un critère du syndrome métabolique." }
+    ]
+  },
+  {
+    "question": "La probabilité de développer une maladie cardiovasculaire dépend de :",
+    "bonnes": [
+      { "reponse": "L'intensité d'exposition aux facteurs de risque multipliée par la durée d'exposition", "explication": "Formule du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Uniquement du nombre de facteurs de risque", "explication": "L'intensité et la durée comptent." },
+      { "reponse": "Uniquement de l'âge du patient", "explication": "L'âge n'est qu'un facteur parmi d'autres." },
+      { "reponse": "L'intensité d'exposition additionnée à la durée", "explication": "Il s'agit d'un produit, pas d'une somme." },
+      { "reponse": "Uniquement des antécédents familiaux", "explication": "Réducteur : tous les FRCV comptent." }
+    ]
+  },
+  {
+    "question": "Quels autres éléments augmentent le risque cardiovasculaire ?",
+    "bonnes": [
+      { "reponse": "Insuffisance rénale chronique", "explication": "Citée dans le cours." },
+      { "reponse": "Maladies inflammatoires chroniques", "explication": "Citées dans le cours." },
+      { "reponse": "VIH sous antirétroviraux", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Un HDL élevé", "explication": "Plutôt protecteur." },
+      { "reponse": "Une activité physique régulière", "explication": "Elle diminue le risque CV." },
+      { "reponse": "Un sexe féminin avant la ménopause", "explication": "C'est plutôt protecteur." },
+      { "reponse": "Un IMC entre 18,5 et 24,9", "explication": "IMC normal, pas de risque supplémentaire." }
+    ]
+  },
+  {
+    "question": "Que signifie l'acronyme PIED (diagnostics graves de douleur thoracique) ?",
+    "bonnes": [
+      { "reponse": "Péricardite", "explication": "P de PIED." },
+      { "reponse": "Infarctus du myocarde / angor", "explication": "I de PIED." },
+      { "reponse": "Embolie pulmonaire", "explication": "E de PIED." },
+      { "reponse": "Dissection aortique", "explication": "D de PIED." }
+    ],
+    "mauvaises": [
+      { "reponse": "Pneumothorax", "explication": "Il fait partie des « 4 P », pas de PIED." },
+      { "reponse": "Pancréatite aiguë", "explication": "Elle fait partie des « 4 P »." },
+      { "reponse": "Insuffisance mitrale", "explication": "Ce n'est pas le I de PIED." },
+      { "reponse": "Endocardite", "explication": "Le E correspond à l'embolie pulmonaire." },
+      { "reponse": "Dyspnée", "explication": "Le D correspond à la dissection aortique ; la dyspnée est un symptôme." },
+      { "reponse": "Pleurésie", "explication": "Elle fait partie des « 4 P »." }
+    ]
+  },
+  {
+    "question": "Quels sont les « 4 P », autres causes graves de douleur thoracique ?",
+    "bonnes": [
+      { "reponse": "Pneumopathie infectieuse", "explication": "Un des 4 P." },
+      { "reponse": "Pleurésie infectieuse", "explication": "Un des 4 P." },
+      { "reponse": "Pneumothorax", "explication": "Un des 4 P ; peut nécessiter un drainage en urgence." },
+      { "reponse": "Pancréatite aiguë", "explication": "Un des 4 P ; douleur épigastrique transfixiante." }
+    ],
+    "mauvaises": [
+      { "reponse": "Péricardite", "explication": "Elle fait partie de PIED." },
+      { "reponse": "Phlébite", "explication": "Ne fait pas partie des 4 P (elle peut se compliquer d'embolie pulmonaire)." },
+      { "reponse": "Palpitations", "explication": "C'est un symptôme, pas une cause de douleur thoracique." },
+      { "reponse": "Pyélonéphrite", "explication": "Ne fait pas partie des 4 P." },
+      { "reponse": "Polyarthrite", "explication": "Ne fait pas partie des 4 P." }
+    ]
+  },
+  {
+    "question": "Concernant la péricardite, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est une inflammation du péricarde, souvent virale", "explication": "Définition." },
+      { "reponse": "Elle n'est pas grave dans environ 90 % des cas", "explication": "Chiffre du cours." },
+      { "reponse": "Elle peut se compliquer d'une tamponnade", "explication": "L'épanchement comprime les cavités droites, avec état de choc." },
+      { "reponse": "La douleur augmente à l'inspiration profonde et en décubitus", "explication": "Frottement des feuillets." },
+      { "reponse": "La douleur diminue en position assise penchée en avant", "explication": "Caractère positionnel typique." }
+    ],
+    "mauvaises": [
+      { "reponse": "La douleur est soulagée par la trinitrine", "explication": "C'est la douleur d'origine coronaire qui est trinitro-sensible." },
+      { "reponse": "La douleur diminue en position allongée", "explication": "Elle augmente en décubitus." },
+      { "reponse": "La tamponnade comprime d'abord les cavités gauches", "explication": "Ce sont les cavités droites qui sont comprimées." },
+      { "reponse": "Elle est grave dans 90 % des cas", "explication": "Elle est bénigne dans 90 % des cas." },
+      { "reponse": "La douleur survient typiquement à l'effort et cède au repos", "explication": "Ça, c'est l'angor stable." }
+    ]
+  },
+  {
+    "question": "Que faut-il préciser à l'interrogatoire devant une douleur thoracique ?",
+    "bonnes": [
+      { "reponse": "Le mode de début (brutal ou progressif) et les circonstances d'apparition", "explication": "Ex : à l'effort, évocateur d'angor." },
+      { "reponse": "Le type (constrictive, en coup de poignard, brûlure…)", "explication": "Oriente le diagnostic." },
+      { "reponse": "L'intensité (échelle numérique)", "explication": "Quantification." },
+      { "reponse": "La localisation et les irradiations", "explication": "Bras, mâchoire, dos, abdomen…" },
+      { "reponse": "Les facteurs calmants ou déclenchants et la trinitro-sensibilité", "explication": "Position, repos, respiration, alimentation, trinitrine." },
+      { "reponse": "La durée, le mode évolutif et les signes associés", "explication": "Date et heure à noter." }
+    ],
+    "mauvaises": [
+      { "reponse": "Uniquement l'intensité de la douleur", "explication": "L'interrogatoire doit être exhaustif." },
+      { "reponse": "La couleur des expectorations seulement", "explication": "C'est un signe associé éventuel, insuffisant seul." },
+      { "reponse": "Rien : un ECG suffit à caractériser la douleur", "explication": "L'interrogatoire reste essentiel." },
+      { "reponse": "Le groupe sanguin du patient", "explication": "Sans intérêt pour caractériser la douleur." }
+    ]
+  },
+  {
+    "question": "Quel contexte doit orienter devant une douleur thoracique ?",
+    "bonnes": [
+      { "reponse": "Chirurgie, alitement ou immobilisation plâtrée récente : thrombose veineuse / embolie", "explication": "Facteurs de risque thromboembolique." },
+      { "reponse": "Néoplasie active : thrombose veineuse", "explication": "Le cancer favorise la thrombose." },
+      { "reponse": "Épisode infectieux récent : péricardite", "explication": "Souvent virale." }
+    ],
+    "mauvaises": [
+      { "reponse": "Épisode infectieux récent : dissection aortique", "explication": "Le contexte infectieux oriente vers la péricardite." },
+      { "reponse": "Immobilisation plâtrée récente : péricardite", "explication": "Elle oriente vers une thrombose veineuse." },
+      { "reponse": "Néoplasie active : diminue le risque thrombotique", "explication": "Elle l'augmente." },
+      { "reponse": "Le contexte n'a pas d'importance devant une douleur thoracique", "explication": "Le contexte oriente fortement le diagnostic." }
+    ]
+  },
+  {
+    "question": "Quelles sont les caractéristiques typiques de la douleur angineuse (angor stable) ?",
+    "bonnes": [
+      { "reponse": "Siège rétrosternal, désigné du plat de la main", "explication": "Le patient montre toute la poitrine." },
+      { "reponse": "Douleur constrictive en barre, « en étau »", "explication": "Aspect le plus typique." },
+      { "reponse": "Irradiation au cou, aux mâchoires, aux épaules et bras (gauche > droit)", "explication": "Irradiations classiques." },
+      { "reponse": "Déclenchée par l'effort, elle cède au repos ou à la trinitrine", "explication": "Caractère d'effort et trinitro-sensibilité." },
+      { "reponse": "Parfois associée à une blockpnée", "explication": "Impossibilité d'inspirer profondément." }
+    ],
+    "mauvaises": [
+      { "reponse": "Douleur désignée du bout du doigt (ponctiforme)", "explication": "La douleur angineuse est diffuse, montrée du plat de la main." },
+      { "reponse": "Douleur augmentée à l'inspiration et soulagée penché en avant", "explication": "Évocateur de péricardite." },
+      { "reponse": "Douleur en déchirure irradiant entre les omoplates", "explication": "Évocateur de dissection aortique." },
+      { "reponse": "Douleur durant plus de 30 minutes malgré la trinitrine", "explication": "Évocateur d'infarctus." },
+      { "reponse": "Douleur en point de côté basi-thoracique", "explication": "Évocateur d'embolie pulmonaire." },
+      { "reponse": "Irradiation préférentielle au bras droit", "explication": "L'irradiation est plus fréquente à gauche." }
+    ]
+  },
+  {
+    "question": "Quels éléments distinguent l'infarctus du myocarde de l'angor stable ?",
+    "bonnes": [
+      { "reponse": "Douleur plus intense, avec sensation de mort imminente", "explication": "Intensité supérieure." },
+      { "reponse": "Douleur prolongée, > 10 min (souvent 20-30 min)", "explication": "Elle ne cède pas." },
+      { "reponse": "Absence de soulagement par le repos et la trinitrine", "explication": "L'artère est complètement occluse." },
+      { "reponse": "Elle relève d'une grande urgence avec ECG dans les 10 min", "explication": "Processus nécrotique en cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "La douleur cède en moins de 5 min à la trinitrine", "explication": "C'est l'angor." },
+      { "reponse": "La douleur survient uniquement à l'effort et s'arrête au repos", "explication": "C'est l'angor stable." },
+      { "reponse": "Le siège est différent : la douleur est toujours latéro-thoracique", "explication": "Le siège est le même que l'angor (rétrosternal)." },
+      { "reponse": "L'artère coronaire est partiellement rétrécie de façon fixe", "explication": "C'est le mécanisme de l'angor stable ; dans l'infarctus elle est occluse." },
+      { "reponse": "La douleur est moins intense que dans l'angor", "explication": "Elle est plus intense." }
+    ]
+  },
+  {
+    "question": "Quelles sont les caractéristiques de la douleur de dissection aortique ?",
+    "bonnes": [
+      { "reponse": "Début très brutal", "explication": "Caractéristique." },
+      { "reponse": "Douleur à type de déchirure, plus intense que l'infarctus", "explication": "Caractéristique." },
+      { "reponse": "Irradiation dans le dos, entre les omoplates (transfixiante)", "explication": "Caractéristique." },
+      { "reponse": "On recherche une asymétrie tensionnelle entre les deux bras", "explication": "La PA est plus basse du côté atteint." }
+    ],
+    "mauvaises": [
+      { "reponse": "Début progressif sur plusieurs heures", "explication": "Le début est très brutal." },
+      { "reponse": "Douleur soulagée par la position penchée en avant", "explication": "Évocateur de péricardite." },
+      { "reponse": "Douleur en point de côté avec hémoptysie", "explication": "Évocateur d'embolie pulmonaire." },
+      { "reponse": "La PA est identique aux deux bras, ce qui confirme le diagnostic", "explication": "On recherche au contraire une asymétrie." },
+      { "reponse": "La déchirure siège entre la media et l'adventice uniquement", "explication": "Le cours décrit une déchirure entre l'intima et la media." }
+    ]
+  },
+  {
+    "question": "Quelles sont les caractéristiques de la douleur d'embolie pulmonaire ?",
+    "bonnes": [
+      { "reponse": "Douleur latéro- ou basi-thoracique type « point de côté »", "explication": "Caractéristique." },
+      { "reponse": "Augmentée à l'inspiration", "explication": "Caractéristique." },
+      { "reponse": "Associée à une dyspnée, parfois une hémoptysie", "explication": "Signes associés." },
+      { "reponse": "Le caillot provient généralement d'une veine des membres inférieurs", "explication": "Il migre jusqu'à une branche de l'artère pulmonaire." }
+    ],
+    "mauvaises": [
+      { "reponse": "Douleur rétrosternale constrictive à l'effort cédant à la trinitrine", "explication": "C'est l'angor." },
+      { "reponse": "Le caillot provient de l'oreillette gauche et passe dans l'aorte", "explication": "Il provient du réseau veineux et bloque l'artère pulmonaire." },
+      { "reponse": "Douleur en déchirure irradiant entre les omoplates", "explication": "C'est la dissection aortique." },
+      { "reponse": "Douleur soulagée par l'inspiration profonde", "explication": "Elle est augmentée par l'inspiration." }
+    ]
+  },
+  {
+    "question": "Quelle est la fréquence respiratoire normale de l'adulte ?",
+    "bonnes": [
+      { "reponse": "12 à 16 cycles/min", "explication": "Valeur du cours (environ 15/min)." }
+    ],
+    "mauvaises": [
+      { "reponse": "6 à 10 cycles/min", "explication": "C'est une bradypnée." },
+      { "reponse": "20 à 30 cycles/min", "explication": "C'est une tachypnée." },
+      { "reponse": "60 à 100 cycles/min", "explication": "C'est la fréquence cardiaque normale, pas respiratoire." },
+      { "reponse": "> 30 cycles/min", "explication": "C'est un signe de gravité respiratoire." }
+    ]
+  },
+  {
+    "question": "Associez correctement les types de dyspnée :",
+    "bonnes": [
+      { "reponse": "Tachypnée = fréquence respiratoire augmentée", "explication": "Définition." },
+      { "reponse": "Bradypnée = fréquence respiratoire diminuée", "explication": "Définition." },
+      { "reponse": "Orthopnée = dyspnée en décubitus dorsal, signe d'insuffisance cardiaque gauche", "explication": "Définition." },
+      { "reponse": "Polypnée = respiration rapide et superficielle", "explication": "Définition." },
+      { "reponse": "Platypnée = dyspnée aggravée en position assise (shunt intracardiaque)", "explication": "Rare." },
+      { "reponse": "Hypopnée = diminution du volume courant", "explication": "Définition." }
+    ],
+    "mauvaises": [
+      { "reponse": "Orthopnée = dyspnée aggravée en position assise", "explication": "C'est la platypnée ; l'orthopnée survient en décubitus." },
+      { "reponse": "Platypnée = dyspnée en décubitus", "explication": "C'est l'orthopnée." },
+      { "reponse": "Bradypnée = arrêt respiratoire", "explication": "L'arrêt respiratoire est l'apnée." },
+      { "reponse": "Hyperpnée = diminution du volume courant", "explication": "C'est l'hypopnée ; l'hyperpnée est une augmentation de la ventilation/min." },
+      { "reponse": "Orthopnée = signe d'insuffisance cardiaque droite", "explication": "C'est un signe d'insuffisance cardiaque gauche." },
+      { "reponse": "Polypnée = respiration lente et profonde", "explication": "Elle est rapide et superficielle." }
+    ]
+  },
+  {
+    "question": "Classification NYHA : quelles correspondances sont exactes ?",
+    "bonnes": [
+      { "reponse": "Stade I : absence de dyspnée dans la vie quotidienne", "explication": "Aucun signe fonctionnel." },
+      { "reponse": "Stade II : dyspnée pour des efforts importants et inhabituels", "explication": "Définition." },
+      { "reponse": "Stade III : dyspnée pour des efforts modestes de la vie courante", "explication": "Définition." },
+      { "reponse": "Stade IV : dyspnée de repos", "explication": "Patient confiné au lit ou au fauteuil." }
+    ],
+    "mauvaises": [
+      { "reponse": "Stade I : dyspnée pour des efforts importants", "explication": "C'est le stade II." },
+      { "reponse": "Stade II : dyspnée de repos", "explication": "C'est le stade IV." },
+      { "reponse": "Stade III : absence de dyspnée", "explication": "C'est le stade I." },
+      { "reponse": "Stade IV : dyspnée pour des efforts modestes", "explication": "C'est le stade III." },
+      { "reponse": "La classification NYHA comporte 5 stades", "explication": "Elle en comporte 4." },
+      { "reponse": "Toute dyspnée classée NYHA est d'origine cardiaque", "explication": "Le cours insiste : toute dyspnée n'est pas cardiaque." }
+    ]
+  },
+  {
+    "question": "Quelles sont les causes possibles de dyspnée ?",
+    "bonnes": [
+      { "reponse": "Cardiovasculaires (insuffisance cardiaque, embolie pulmonaire)", "explication": "Citées dans le cours." },
+      { "reponse": "Respiratoires supérieures (laryngite, œdème de Quincke, corps étranger)", "explication": "Citées dans le cours." },
+      { "reponse": "Respiratoires inférieures (asthme, BPCO, pneumopathie, pneumothorax)", "explication": "Citées dans le cours." },
+      { "reponse": "Métaboliques (anémie, acidose)", "explication": "Citées dans le cours." },
+      { "reponse": "Musculo-squelettiques (obésité, scoliose, myasthénie)", "explication": "Citées dans le cours." },
+      { "reponse": "Centrales (syndrome d'hyperventilation)", "explication": "Citées dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Uniquement cardiaques", "explication": "Toute dyspnée n'est pas d'origine cardiaque." },
+      { "reponse": "Uniquement pulmonaires", "explication": "Il existe de nombreuses autres causes." }
+    ]
+  },
+  {
+    "question": "Devant une dyspnée aiguë avec anomalies expiratoires, quels diagnostics évoquer ?",
+    "bonnes": [
+      { "reponse": "Asthme", "explication": "Sujet jeune, allergie, facteur déclenchant." },
+      { "reponse": "Exacerbation de BPCO", "explication": "Tabac, bronchite aiguë." },
+      { "reponse": "OAP (asthme cardiaque)", "explication": "Sujet âgé, orthopnée, expectoration mousseuse." }
+    ],
+    "mauvaises": [
+      { "reponse": "Inhalation de corps étranger", "explication": "Elle donne plutôt des anomalies inspiratoires." },
+      { "reponse": "Œdème de Quincke", "explication": "Anomalies inspiratoires." },
+      { "reponse": "Laryngite", "explication": "Anomalies inspiratoires, chez l'enfant." },
+      { "reponse": "Pneumothorax", "explication": "Classé sans trouble associé du cycle respiratoire." },
+      { "reponse": "Pneumopathie infectieuse", "explication": "Classée sans trouble associé du cycle respiratoire." }
+    ]
+  },
+  {
+    "question": "Devant une dyspnée chronique avec crépitants à l'auscultation, quels diagnostics évoquer ?",
+    "bonnes": [
+      { "reponse": "Pneumopathie interstitielle diffuse", "explication": "Toux sèche, maladie systémique." },
+      { "reponse": "Insuffisance cardiaque gauche", "explication": "ATCD cardiaques, orthopnée, toux nocturne." }
+    ],
+    "mauvaises": [
+      { "reponse": "Asthme", "explication": "Donne des sibilants." },
+      { "reponse": "BPCO", "explication": "Classée avec sibilants." },
+      { "reponse": "Syndrome d'hyperventilation", "explication": "L'auscultation est normale." },
+      { "reponse": "Maladie neuromusculaire", "explication": "L'auscultation est normale." },
+      { "reponse": "Obésité ou scoliose (maladie pariétale)", "explication": "L'auscultation est normale." }
+    ]
+  },
+  {
+    "question": "Quels sont les critères de gravité devant des palpitations ?",
+    "bonnes": [
+      { "reponse": "Existence d'une cardiopathie", "explication": "Critère de gravité." },
+      { "reponse": "Traitement pro-arythmique", "explication": "Critère de gravité." },
+      { "reponse": "Antécédents familiaux de mort subite", "explication": "Critère de gravité." },
+      { "reponse": "Porteur de pacemaker ou de défibrillateur implantable", "explication": "Critère de gravité." },
+      { "reponse": "Antécédent de trouble du rythme", "explication": "Critère de gravité." },
+      { "reponse": "HTA du sujet jeune", "explication": "Critère de gravité." },
+      { "reponse": "Symptômes associés : syncope, douleur thoracique, dyspnée", "explication": "Critères de gravité." }
+    ],
+    "mauvaises": [
+      { "reponse": "Un battement isolé ressenti une fois", "explication": "Correspond souvent à une extrasystole, le plus souvent bénigne." },
+      { "reponse": "Le sexe féminin", "explication": "Pas un critère de gravité." },
+      { "reponse": "Une consommation de café isolée", "explication": "Pas un critère de gravité listé." },
+      { "reponse": "Une HTA du sujet âgé bien équilibrée", "explication": "C'est l'HTA du sujet jeune qui est un critère de gravité." },
+      { "reponse": "Des palpitations survenant au repos uniquement", "explication": "Pas un critère de gravité listé." }
+    ]
+  },
+  {
+    "question": "Concernant les palpitations, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Un ECG doit être réalisé si le patient a une crise pendant la consultation", "explication": "Enregistrement très utile au diagnostic." },
+      { "reponse": "Un début et une fin brutaux évoquent une tachycardie jonctionnelle", "explication": "Caractère du cours." },
+      { "reponse": "Une crise polyurique après les palpitations évoque une tachycardie jonctionnelle", "explication": "Signe évocateur." },
+      { "reponse": "Un rythme irrégulier oriente vers une fibrillation atriale", "explication": "Le caractère régulier ou non oriente beaucoup les hypothèses." },
+      { "reponse": "La tachycardie ventriculaire est à éliminer en premier devant un rythme régulier", "explication": "C'est la cause la plus grave." }
+    ],
+    "mauvaises": [
+      { "reponse": "Un début progressif évoque une tachycardie jonctionnelle", "explication": "Elle a un début brutal." },
+      { "reponse": "La fibrillation atriale donne un rythme régulier", "explication": "Elle est irrégulière." },
+      { "reponse": "Un battement isolé avec pause évoque toujours une tachycardie ventriculaire", "explication": "Évoque plutôt une extrasystole, le plus souvent bénigne." },
+      { "reponse": "L'ECG n'a pas d'intérêt pendant une crise", "explication": "Il est au contraire très utile." },
+      { "reponse": "L'alcool et les drogues sont sans effet sur le rythme cardiaque", "explication": "Ce sont des stimulants cardiaques." }
+    ]
+  },
+  {
+    "question": "Quelles causes de palpitations donnent un rythme irrégulier pendant la crise ?",
+    "bonnes": [
+      { "reponse": "Fibrillation atriale", "explication": "Cause fréquente de rythme irrégulier." },
+      { "reponse": "Extrasystoles atriales ou ventriculaires", "explication": "Rythme irrégulier." },
+      { "reponse": "Flutter ou tachycardie atriale à conduction variable", "explication": "La conduction variable rend le rythme irrégulier." }
+    ],
+    "mauvaises": [
+      { "reponse": "Tachycardie sinusale", "explication": "Rythme régulier." },
+      { "reponse": "Tachycardie jonctionnelle", "explication": "Rythme régulier." },
+      { "reponse": "Tachycardie ventriculaire", "explication": "Classée parmi les rythmes réguliers." },
+      { "reponse": "Flutter atrial à conduction fixe", "explication": "Rythme régulier." }
+    ]
+  },
+  {
+    "question": "Quelles situations du terrain peuvent favoriser les palpitations ?",
+    "bonnes": [
+      { "reponse": "Dysthyroïdie (fibrillation atriale)", "explication": "Cité dans le cours." },
+      { "reponse": "Syndrome d'apnée du sommeil (fibrillation atriale)", "explication": "Cité dans le cours." },
+      { "reponse": "Phéochromocytome (céphalées, sueurs, palpitations)", "explication": "Tumeur surrénalienne sécrétant des catécholamines." },
+      { "reponse": "Prise d'alcool ou de drogues", "explication": "Stimulants cardiaques." }
+    ],
+    "mauvaises": [
+      { "reponse": "Phéochromocytome : tumeur hypophysaire", "explication": "C'est une tumeur de la surrénale." },
+      { "reponse": "Phéochromocytome : triade fièvre, toux, dyspnée", "explication": "La triade associe céphalées, sueurs et palpitations." },
+      { "reponse": "Hypothyroïdie : seule dysthyroïdie impliquée dans la fibrillation atriale", "explication": "C'est surtout l'hyperthyroïdie qui favorise la FA." },
+      { "reponse": "Une activité physique régulière modérée", "explication": "Pas un facteur favorisant cité." }
+    ]
+  },
+  {
+    "question": "Concernant syncope et lipothymie, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La syncope est une perte de connaissance avec perte du tonus postural", "explication": "Définition." },
+      { "reponse": "La syncope est spontanément régressive et brève (1 à 2 min)", "explication": "Définition." },
+      { "reponse": "La lipothymie est une sensation de perte de connaissance imminente sans perte complète", "explication": "Syncope « incomplète »." },
+      { "reponse": "Elles partagent le même mécanisme : baisse brutale et transitoire du débit sanguin cérébral", "explication": "On les évalue donc de la même façon." }
+    ],
+    "mauvaises": [
+      { "reponse": "La syncope dure typiquement plus de 10 minutes", "explication": "Elle est très brève (1-2 min)." },
+      { "reponse": "La lipothymie s'accompagne toujours d'une chute brutale", "explication": "Le patient a le temps de s'asseoir ou s'allonger." },
+      { "reponse": "Syncope et lipothymie ont des mécanismes totalement différents", "explication": "Même mécanisme physiopathologique." },
+      { "reponse": "La syncope nécessite une intervention pour régresser", "explication": "Elle est spontanément régressive." },
+      { "reponse": "Il faut avant tout bien distinguer les deux pour orienter la prise en charge", "explication": "Le cours dit de ne pas trop s'y attacher et de les évaluer de la même façon." }
+    ]
+  },
+  {
+    "question": "Quels mécanismes peuvent expliquer une syncope ?",
+    "bonnes": [
+      { "reponse": "Hypotension artérielle systémique par vasodilatation (syncope vasovagale)", "explication": "Cause la plus fréquente." },
+      { "reponse": "Hypotension orthostatique par inadaptation du baroréflexe", "explication": "Très fréquente chez le sujet âgé." },
+      { "reponse": "Interruption brève du débit cardiaque de cause électrique (asystolie, tachycardie ventriculaire)", "explication": "Cause rythmique." },
+      { "reponse": "Interruption brève du débit cardiaque de cause mécanique (EP grave, rétrécissement aortique)", "explication": "Cause obstructive." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une hypertension artérielle sévère", "explication": "La syncope résulte d'une baisse de pression ou de débit." },
+      { "reponse": "Une augmentation du débit sanguin cérébral", "explication": "C'est une baisse du débit sanguin cérébral." },
+      { "reponse": "La cause rythmique est la plus fréquente", "explication": "La cause vasovagale/réflexe est la plus fréquente." },
+      { "reponse": "Une interruption du débit cardiaque de plusieurs minutes est nécessaire", "explication": "Une interruption de 6 à 8 secondes suffit." }
+    ]
+  },
+  {
+    "question": "Quels éléments d'une syncope sont des critères de haut risque ?",
+    "bonnes": [
+      { "reponse": "Syncope survenant à l'effort", "explication": "Évoque un rétrécissement aortique serré ou un trouble du rythme ventriculaire." },
+      { "reponse": "Syncope en position couchée", "explication": "Signe de gravité." },
+      { "reponse": "Absence de prodromes ou prodromes très courts (< 10 s)", "explication": "Évoque un trouble du rythme ou de la conduction." },
+      { "reponse": "Syncope précédée de douleur thoracique, dyspnée ou palpitations", "explication": "Haut risque." },
+      { "reponse": "Antécédent de cardiopathie (insuffisance cardiaque, IDM, valvulopathie sévère)", "explication": "Haut risque lié au terrain." },
+      { "reponse": "Antécédent familial de mort subite", "explication": "Haut risque lié au terrain." }
+    ],
+    "mauvaises": [
+      { "reponse": "Prodromes vagaux typiques (pâleur, sueurs, nausées)", "explication": "Plutôt rassurant (bas risque)." },
+      { "reponse": "Station debout prolongée dans une ambiance chaude", "explication": "Contexte de syncope vagale, bas risque." },
+      { "reponse": "Syncope lors d'une miction, d'une toux ou d'une défécation", "explication": "Syncope réflexe, bas risque." },
+      { "reponse": "Syncope au lever", "explication": "Bas risque (hypotension orthostatique)." },
+      { "reponse": "Syncope lors du rasage ou d'un mouvement de tête", "explication": "Hypersensibilité sino-carotidienne, classée bas risque." },
+      { "reponse": "Multiples syncopes anciennes identiques avec critères de bas risque", "explication": "Syncopes vagales à répétition, bas risque." },
+      { "reponse": "Syncope immédiatement après un effort important", "explication": "Le post-effort immédiat évoque une hypertonie vagale, moins grave que la syncope pendant l'effort." }
+    ]
+  },
+  {
+    "question": "Lors de l'interrogatoire d'un témoin de perte de connaissance, quels éléments orientent vers une crise d'épilepsie plutôt qu'une syncope ?",
+    "bonnes": [
+      { "reponse": "Myoclonies présentes dès le début", "explication": "Évocatrices d'épilepsie." },
+      { "reponse": "Morsure de langue", "explication": "Évocatrice d'épilepsie." },
+      { "reponse": "Courbatures au décours", "explication": "Évocatrices d'épilepsie." }
+    ],
+    "mauvaises": [
+      { "reponse": "Myoclonies brèves et différées", "explication": "Possibles dans la syncope (hypoxie cérébrale transitoire)." },
+      { "reponse": "Durée de l'épisode de 1 à 2 minutes", "explication": "Durée typique d'une syncope." },
+      { "reponse": "Prodromes vagaux (sueurs, pâleur)", "explication": "Orientent vers une syncope vasovagale." },
+      { "reponse": "Survenue en station debout prolongée", "explication": "Contexte de syncope vagale." }
+    ]
+  },
+  {
+    "question": "Concernant le massage sino-carotidien, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il recherche une hypersensibilité du sinus carotidien", "explication": "But de l'épreuve." },
+      { "reponse": "Il est surtout indiqué chez le sujet de plus de 40 ans", "explication": "Indication du cours." },
+      { "reponse": "Il est positif en cas de syncope, de pause > 3 s ou de chute de PAS > 50 mmHg", "explication": "Critères du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il provoque une tachycardie", "explication": "Il provoque une bradycardie." },
+      { "reponse": "Il est positif en cas de pause > 1 s", "explication": "Le seuil est de 3 secondes." },
+      { "reponse": "Il est positif en cas de chute de PAS > 20 mmHg", "explication": "Le seuil est de 50 mmHg ; 20 mmHg concerne l'hypotension orthostatique." },
+      { "reponse": "Il est surtout indiqué chez l'enfant", "explication": "Il est indiqué surtout après 40 ans." },
+      { "reponse": "Il consiste à comprimer la veine jugulaire", "explication": "On comprime la région carotidienne." }
+    ]
+  },
+  {
+    "question": "Quels résultats définissent une hypotension orthostatique ?",
+    "bonnes": [
+      { "reponse": "Chute de la PAS > 20 mmHg au passage debout", "explication": "Critère du cours." },
+      { "reponse": "Chute de la PAD > 10 mmHg", "explication": "Critère du cours." },
+      { "reponse": "PAS < 90 mmHg debout", "explication": "Critère du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Chute de la PAS > 10 mmHg", "explication": "Le seuil est 20 mmHg." },
+      { "reponse": "Chute de la PAD > 20 mmHg uniquement", "explication": "Le seuil diastolique est 10 mmHg." },
+      { "reponse": "Augmentation de la PAS au passage debout", "explication": "C'est une chute qui est recherchée." },
+      { "reponse": "Chute de PAS > 50 mmHg lors d'un massage carotidien", "explication": "C'est un critère de positivité du massage sino-carotidien." },
+      { "reponse": "PA mesurée uniquement en position assise", "explication": "On compare allongé puis debout." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes de gravité hémodynamique ?",
+    "bonnes": [
+      { "reponse": "FC > 120/min", "explication": "Critère du cours." },
+      { "reponse": "PAS < 90 mmHg persistante", "explication": "Critère du cours." },
+      { "reponse": "Signes d'hypoperfusion périphérique (marbrures, extrémités froides, oligurie)", "explication": "Critère du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "FC > 80/min", "explication": "Le seuil de gravité est 120/min." },
+      { "reponse": "PAS < 120 mmHg", "explication": "Le seuil de gravité est 90 mmHg." },
+      { "reponse": "SpO2 < 90 %", "explication": "C'est un signe de gravité respiratoire." },
+      { "reponse": "Agitation", "explication": "C'est un signe de gravité neurologique." },
+      { "reponse": "Polyurie", "explication": "C'est l'oligurie qui témoigne d'une hypoperfusion." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes de gravité respiratoire ?",
+    "bonnes": [
+      { "reponse": "FR > 30/min ou < 10/min", "explication": "Critère du cours." },
+      { "reponse": "SpO2 < 90 %", "explication": "Souvent associée à une cyanose." },
+      { "reponse": "Mise en jeu des muscles accessoires (tirage sus-sternal et sus-claviculaire)", "explication": "Détresse respiratoire aiguë." },
+      { "reponse": "Balancement thoraco-abdominal", "explication": "Signe de détresse respiratoire." },
+      { "reponse": "Signes d'hypercapnie (sueurs, HTA, astérixis, troubles de conscience)", "explication": "Risque de coma hypercapnique." }
+    ],
+    "mauvaises": [
+      { "reponse": "FR à 15/min", "explication": "C'est une FR normale." },
+      { "reponse": "SpO2 à 97 %", "explication": "Saturation normale." },
+      { "reponse": "FC > 120/min", "explication": "Signe de gravité hémodynamique." },
+      { "reponse": "Marbrures", "explication": "Signe de gravité hémodynamique." },
+      { "reponse": "Hypotension artérielle comme signe d'hypercapnie", "explication": "L'hypercapnie s'accompagne plutôt d'HTA." }
+    ]
+  },
+  {
+    "question": "Quelles constantes mesure-t-on systématiquement au début de l'examen physique ?",
+    "bonnes": [
+      { "reponse": "PA aux deux bras", "explication": "Permet notamment de rechercher une asymétrie." },
+      { "reponse": "Fréquence cardiaque", "explication": "Constante systématique." },
+      { "reponse": "Fréquence respiratoire", "explication": "Constante systématique." },
+      { "reponse": "SpO2", "explication": "Constante systématique." },
+      { "reponse": "Température", "explication": "Constante systématique." }
+    ],
+    "mauvaises": [
+      { "reponse": "PA à un seul bras suffit", "explication": "La PA se prend aux deux bras." },
+      { "reponse": "Glycémie capillaire systématique", "explication": "Ne fait pas partie de la liste du cours." },
+      { "reponse": "Électrocardiogramme", "explication": "C'est un examen complémentaire, pas une constante." },
+      { "reponse": "Périmètre crânien", "explication": "Sans intérêt ici." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes d'insuffisance cardiaque droite ?",
+    "bonnes": [
+      { "reponse": "Turgescence jugulaire", "explication": "Hyperpression dans les cavités droites." },
+      { "reponse": "Reflux hépato-jugulaire", "explication": "Signe d'ICD." },
+      { "reponse": "Hépatomégalie", "explication": "Rétention de liquide en amont du VD." },
+      { "reponse": "Œdèmes des membres inférieurs", "explication": "Hyperpression veineuse." },
+      { "reponse": "Ascite dans les stades tardifs", "explication": "Pouvant aller jusqu'à l'anasarque." },
+      { "reponse": "Prise de poids", "explication": "Rétention hydrosodée, visible en œdèmes à partir d'environ 3 kg." }
+    ],
+    "mauvaises": [
+      { "reponse": "Râles crépitants bilatéraux", "explication": "Signe d'insuffisance cardiaque gauche." },
+      { "reponse": "Orthopnée", "explication": "Signe d'insuffisance cardiaque gauche." },
+      { "reponse": "Opacités en ailes de papillon à la radio", "explication": "Œdème pulmonaire de l'insuffisance cardiaque gauche." },
+      { "reponse": "Signe de Homans", "explication": "Recherché dans la thrombose veineuse profonde." },
+      { "reponse": "Œdèmes rouges, chauds et unilatéraux", "explication": "Évocateurs d'une cause inflammatoire ou thrombotique, pas de l'ICD." }
+    ]
+  },
+  {
+    "question": "Quelles sont les 7 caractéristiques des œdèmes d'insuffisance cardiaque droite ?",
+    "bonnes": [
+      { "reponse": "Blancs, non inflammatoires", "explication": "Caractéristique." },
+      { "reponse": "Mous", "explication": "Caractéristique." },
+      { "reponse": "Indolores", "explication": "Caractéristique." },
+      { "reponse": "Bilatéraux et symétriques", "explication": "Deux caractéristiques." },
+      { "reponse": "Déclives", "explication": "Caractéristique." },
+      { "reponse": "Prenant le godet", "explication": "Caractéristique." }
+    ],
+    "mauvaises": [
+      { "reponse": "Rouges et chauds", "explication": "Ils sont blancs et non inflammatoires." },
+      { "reponse": "Durs", "explication": "Ils sont mous." },
+      { "reponse": "Douloureux", "explication": "Ils sont indolores." },
+      { "reponse": "Unilatéraux", "explication": "Ils sont bilatéraux." },
+      { "reponse": "Asymétriques", "explication": "Ils sont symétriques." },
+      { "reponse": "Ne prenant pas le godet", "explication": "Ils prennent le godet." },
+      { "reponse": "Prédominant au visage", "explication": "Ils sont déclives (membres inférieurs chez le patient debout)." }
+    ]
+  },
+  {
+    "question": "Concernant le reflux hépato-jugulaire, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "On le recherche chez un patient en décubitus dorsal légèrement relevé", "explication": "Position du cours." },
+      { "reponse": "On exerce une pression constante sur l'hypochondre droit", "explication": "Technique." },
+      { "reponse": "Il est positif si la veine jugulaire se dilate de façon prolongée pendant la pression", "explication": "Le VD insuffisant ne peut absorber le retour veineux." },
+      { "reponse": "C'est un signe d'insuffisance cardiaque droite", "explication": "Interprétation." }
+    ],
+    "mauvaises": [
+      { "reponse": "On appuie sur l'hypochondre gauche", "explication": "On appuie sur l'hypochondre droit (le foie)." },
+      { "reponse": "C'est un signe d'insuffisance cardiaque gauche", "explication": "C'est un signe d'ICD." },
+      { "reponse": "On le recherche patient debout", "explication": "Le patient est en décubitus légèrement relevé." },
+      { "reponse": "Il est positif si la jugulaire s'affaisse pendant la pression", "explication": "Elle se dilate." }
+    ]
+  },
+  {
+    "question": "Concernant la palpation cardiaque, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Le choc de pointe se palpe au 5e espace intercostal gauche, sur la ligne médioclaviculaire", "explication": "Repère du cours." },
+      { "reponse": "Un choc de pointe dévié en bas et à gauche évoque une dilatation du ventricule gauche", "explication": "Cardiomégalie." },
+      { "reponse": "Le signe de Harzer est la perception de battements à l'épigastre", "explication": "Il évoque une dilatation du ventricule droit." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le choc de pointe se palpe au 2e espace intercostal droit", "explication": "C'est le foyer aortique." },
+      { "reponse": "Le signe de Harzer évoque une dilatation du ventricule gauche", "explication": "Il évoque une dilatation du ventricule droit." },
+      { "reponse": "Un choc de pointe dévié en haut et à droite évoque une cardiomégalie gauche", "explication": "La déviation est en bas et à gauche." },
+      { "reponse": "Le signe de Harzer est normalement perçu chez tout sujet sain", "explication": "On ne doit normalement rien sentir." }
+    ]
+  },
+  {
+    "question": "Concernant la palpation des pouls et l'auscultation des artères, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "On recherche systématiquement les pouls des membres inférieurs (pédieux, tibial postérieur, poplité)", "explication": "Systématique." },
+      { "reponse": "On ausculte les sièges des pouls carotidiens et fémoraux", "explication": "Recherche de souffle." },
+      { "reponse": "Une sténose artérielle crée un souffle systolique", "explication": "Par accélération du flux." },
+      { "reponse": "Une masse battante péri-ombilicale évoque un anévrisme de l'aorte abdominale", "explication": "Découverte à la palpation abdominale." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le pouls ulnaire est recherché systématiquement", "explication": "Seulement si on suspecte une ischémie de membre." },
+      { "reponse": "Une artère saine produit un souffle systolique à l'auscultation", "explication": "On n'entend normalement rien." },
+      { "reponse": "Une sténose artérielle crée un souffle diastolique", "explication": "Le souffle est systolique." },
+      { "reponse": "Une masse battante péri-ombilicale évoque une hépatomégalie", "explication": "Elle évoque un anévrisme de l'aorte abdominale." }
+    ]
+  },
+  {
+    "question": "Quels sont les 4 foyers d'auscultation cardiaque et leur localisation ?",
+    "bonnes": [
+      { "reponse": "Foyer aortique : 2e espace intercostal droit, au bord du sternum", "explication": "Repère du cours." },
+      { "reponse": "Foyer pulmonaire : 2e espace intercostal gauche", "explication": "Repère du cours." },
+      { "reponse": "Foyer mitral : 5e espace intercostal gauche, ligne médioclaviculaire (pointe)", "explication": "Repère du cours." },
+      { "reponse": "Foyer tricuspide : appendice xiphoïde", "explication": "Repère du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Foyer aortique : 2e espace intercostal gauche", "explication": "C'est le foyer pulmonaire." },
+      { "reponse": "Foyer pulmonaire : 2e espace intercostal droit", "explication": "C'est le foyer aortique." },
+      { "reponse": "Foyer mitral : appendice xiphoïde", "explication": "C'est le foyer tricuspide." },
+      { "reponse": "Foyer tricuspide : 5e espace intercostal gauche", "explication": "C'est le foyer mitral." },
+      { "reponse": "Foyer mitral : 2e espace intercostal droit", "explication": "C'est le foyer aortique." }
+    ]
+  },
+  {
+    "question": "Concernant les bruits du cœur normaux, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "B1 correspond à la fermeture des valves auriculo-ventriculaires (mitrale et tricuspide)", "explication": "Début de la systole." },
+      { "reponse": "B2 correspond à la fermeture des valves aortique et pulmonaire", "explication": "Début de la diastole." },
+      { "reponse": "Le petit silence correspond à la systole (environ 1/3 du cycle)", "explication": "Entre B1 et B2." },
+      { "reponse": "Le grand silence correspond à la diastole (environ 2/3 du cycle)", "explication": "Entre B2 et B1." },
+      { "reponse": "Le pouls radial apparaît juste après B1", "explication": "Repère utile à l'auscultation." }
+    ],
+    "mauvaises": [
+      { "reponse": "B1 correspond à la fermeture des valves aortique et pulmonaire", "explication": "C'est B2." },
+      { "reponse": "B2 marque le début de la systole", "explication": "B2 marque le début de la diastole." },
+      { "reponse": "Le grand silence correspond à la systole", "explication": "Il correspond à la diastole." },
+      { "reponse": "La systole dure environ 2/3 du cycle", "explication": "Elle dure environ 1/3." },
+      { "reponse": "Le pouls radial apparaît juste après B2", "explication": "Il suit B1." },
+      { "reponse": "B1 est un bruit bref et sec (« TA »)", "explication": "B1 est grave (« TOUM ») ; B2 est bref et sec." }
+    ]
+  },
+  {
+    "question": "Concernant le bruit de galop, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est un signe d'insuffisance cardiaque", "explication": "Définition du cours." },
+      { "reponse": "Il réalise un rythme à 3 temps", "explication": "Comme un cheval au galop." },
+      { "reponse": "Il est lié à des bruits surajoutés B3 et/ou B4", "explication": "Favorisé par la tachycardie." }
+    ],
+    "mauvaises": [
+      { "reponse": "C'est un bruit physiologique chez l'adulte", "explication": "C'est un signe d'insuffisance cardiaque." },
+      { "reponse": "Il correspond à un souffle systolique", "explication": "C'est un bruit surajouté, pas un souffle." },
+      { "reponse": "Il correspond à la fermeture normale des valves aortique et pulmonaire", "explication": "Ça, c'est B2." }
+    ]
+  },
+  {
+    "question": "Concernant les souffles cardiaques, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Ils sont liés à des turbulences à travers une valve rétrécie ou fuyante", "explication": "Mécanisme du cours." },
+      { "reponse": "Un souffle systolique se situe entre B1 et B2", "explication": "Chronologie." },
+      { "reponse": "Un souffle diastolique se situe entre B2 et B1", "explication": "Chronologie." },
+      { "reponse": "Un souffle continu systolo-diastolique évoque surtout une pathologie congénitale", "explication": "Cité dans le cours." },
+      { "reponse": "Le rétrécissement aortique irradie classiquement aux carotides", "explication": "Irradiation typique." },
+      { "reponse": "L'insuffisance mitrale irradie classiquement vers l'aisselle", "explication": "Irradiation typique." }
+    ],
+    "mauvaises": [
+      { "reponse": "Un souffle systolique se situe entre B2 et B1", "explication": "C'est la diastole." },
+      { "reponse": "Le rétrécissement aortique irradie classiquement vers l'aisselle", "explication": "C'est l'insuffisance mitrale ; le RAo irradie aux carotides." },
+      { "reponse": "L'insuffisance mitrale irradie classiquement aux carotides", "explication": "Elle irradie vers l'aisselle." },
+      { "reponse": "Un souffle continu évoque surtout une pathologie dégénérative du sujet âgé", "explication": "Il évoque surtout une pathologie congénitale." },
+      { "reponse": "Les souffles sont toujours d'origine organique", "explication": "Il existe des souffles fonctionnels (anorganiques)." }
+    ]
+  },
+  {
+    "question": "Classification de l'intensité des souffles en 6 grades : quelles correspondances sont exactes ?",
+    "bonnes": [
+      { "reponse": "1/6 : très faible, difficilement perçu", "explication": "Grade 1." },
+      { "reponse": "4/6 : intensité forte avec frémissement palpable", "explication": "Le frémissement apparaît à partir du grade 4." },
+      { "reponse": "6/6 : perçu sans stéthoscope", "explication": "Exceptionnel." }
+    ],
+    "mauvaises": [
+      { "reponse": "3/6 : intensité forte avec frémissement", "explication": "Le frémissement apparaît au grade 4." },
+      { "reponse": "2/6 : perçu sans stéthoscope", "explication": "C'est le grade 6." },
+      { "reponse": "6/6 : très faible intensité", "explication": "C'est l'intensité maximale." },
+      { "reponse": "La classification comporte 4 grades", "explication": "Elle en comporte 6." },
+      { "reponse": "5/6 : sans frémissement", "explication": "Les grades 4 et 5 s'accompagnent d'un frémissement." }
+    ]
+  },
+  {
+    "question": "Quels caractères orientent vers un souffle fonctionnel (anorganique) ?",
+    "bonnes": [
+      { "reponse": "Variabilité avec la respiration", "explication": "Ex : patient anémique." },
+      { "reponse": "Variabilité avec la position, chez un sujet jeune", "explication": "En faveur d'une origine fonctionnelle." }
+    ],
+    "mauvaises": [
+      { "reponse": "Timbre râpeux irradiant aux carotides", "explication": "Évoque un rétrécissement aortique (organique)." },
+      { "reponse": "Frémissement palpable", "explication": "Témoigne d'un souffle intense, plutôt organique." },
+      { "reponse": "Souffle continu systolo-diastolique", "explication": "Évoque une pathologie congénitale." },
+      { "reponse": "Intensité 5/6", "explication": "Un souffle très intense est en faveur d'une origine organique." }
+    ]
+  },
+  {
+    "question": "Concernant la percussion en cardiologie, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle apporte peu d'éléments, sauf en cas de suspicion d'épanchement pleural", "explication": "Cité dans le cours." },
+      { "reponse": "L'épanchement pleural donne une matité déclive à bord supérieur concave", "explication": "Caractéristique." },
+      { "reponse": "L'épanchement pleural s'accompagne d'une abolition des vibrations vocales et du murmure vésiculaire", "explication": "Triade de l'épanchement." },
+      { "reponse": "Elle peut aider à apprécier une hépatomégalie", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'épanchement pleural donne un tympanisme", "explication": "Il donne une matité ; le tympanisme évoque un pneumothorax." },
+      { "reponse": "Les vibrations vocales sont augmentées en regard d'un épanchement", "explication": "Elles sont abolies." },
+      { "reponse": "La matité est à bord supérieur convexe", "explication": "Le bord supérieur est concave." },
+      { "reponse": "La percussion est l'étape la plus informative de l'examen cardiologique", "explication": "C'est l'auscultation qui est fondamentale." }
+    ]
+  },
+  {
+    "question": "Quels signes d'inspection orientent vers une détresse ou une mauvaise tolérance respiratoire ?",
+    "bonnes": [
+      { "reponse": "Dyspnée de repos", "explication": "Signe de mauvaise tolérance." },
+      { "reponse": "Orthopnée", "explication": "Signe de mauvaise tolérance." },
+      { "reponse": "Respiration abdominale paradoxale", "explication": "Signe de détresse respiratoire." },
+      { "reponse": "Tirage sus-claviculaire", "explication": "Mise en jeu des muscles accessoires." },
+      { "reponse": "Cyanose", "explication": "Mauvaise oxygénation (lèvres bleutées)." }
+    ],
+    "mauvaises": [
+      { "reponse": "FR à 14/min", "explication": "FR normale." },
+      { "reponse": "Pectus excavatum isolé", "explication": "Déformation thoracique, pas un signe de détresse." },
+      { "reponse": "Cicatrice de sternotomie", "explication": "Témoigne d'une chirurgie cardiaque ancienne, pas d'une détresse." },
+      { "reponse": "Turgescence jugulaire", "explication": "Signe d'insuffisance cardiaque droite, pas de détresse respiratoire." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes cliniques de l'insuffisance cardiaque gauche ?",
+    "bonnes": [
+      { "reponse": "Dyspnée d'effort, principal signe", "explication": "Signe principal de l'ICG." },
+      { "reponse": "Orthopnée (chiffrée par le nombre d'oreillers)", "explication": "Dyspnée de décubitus." },
+      { "reponse": "Râles crépitants bilatéraux à prédominance basale", "explication": "Ils remontent avec l'aggravation de l'œdème pulmonaire." },
+      { "reponse": "Tachycardie compensatrice", "explication": "Compense la baisse du volume d'éjection." },
+      { "reponse": "Bruit de galop", "explication": "Bruits surajoutés." },
+      { "reponse": "Pincement de la pression artérielle différentielle dans les cas sévères", "explication": "Baisse du volume d'éjection." }
+    ],
+    "mauvaises": [
+      { "reponse": "Reflux hépato-jugulaire", "explication": "Signe d'insuffisance cardiaque droite." },
+      { "reponse": "Hépatomégalie", "explication": "Signe d'insuffisance cardiaque droite." },
+      { "reponse": "Bradycardie compensatrice", "explication": "La compensation se fait par tachycardie." },
+      { "reponse": "Élargissement de la pression différentielle", "explication": "Dans l'ICG sévère, elle est pincée." },
+      { "reponse": "Râles crépitants unilatéraux au sommet", "explication": "Ils sont bilatéraux et basaux." },
+      { "reponse": "Signe de Homans", "explication": "Recherché dans la thrombose veineuse." }
+    ]
+  },
+  {
+    "question": "Concernant la physiopathologie de l'œdème pulmonaire cardiogénique, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il résulte d'une stagnation de sang en amont des cavités gauches", "explication": "Par dysfonction systolique ou diastolique." },
+      { "reponse": "L'élévation de la pression capillaire pulmonaire entraîne un transsudat alvéolaire", "explication": "Inondation alvéolaire." },
+      { "reponse": "Une pression capillaire pulmonaire > 25 mmHg peut entraîner un œdème pulmonaire", "explication": "Seuil du cours." },
+      { "reponse": "La radio peut montrer des opacités floconneuses « en ailes de papillon »", "explication": "Aspect radiologique." },
+      { "reponse": "Débit cardiaque = fréquence cardiaque × volume d'éjection systolique", "explication": "Formule du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il résulte d'une surcharge du réseau veineux systémique", "explication": "Ça, c'est l'insuffisance cardiaque droite." },
+      { "reponse": "Le liquide alvéolaire est un exsudat inflammatoire", "explication": "C'est un transsudat." },
+      { "reponse": "Débit cardiaque = fréquence cardiaque + volume d'éjection systolique", "explication": "C'est un produit." },
+      { "reponse": "Seule la dysfonction systolique peut entraîner un œdème pulmonaire", "explication": "La dysfonction diastolique aussi." },
+      { "reponse": "Un œdème pulmonaire apparaît dès une pression capillaire de 10 mmHg", "explication": "Le seuil du cours est 25 mmHg." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes cliniques de thrombose veineuse profonde du membre inférieur ?",
+    "bonnes": [
+      { "reponse": "Douleur du mollet", "explication": "Signe évocateur." },
+      { "reponse": "Mollet augmenté de volume, dur, avec perte du ballant", "explication": "Mollet œdématié." },
+      { "reponse": "Signe de Homans : douleur du mollet à la dorsiflexion du pied", "explication": "À connaître." },
+      { "reponse": "Parfois un cordon veineux palpable", "explication": "Signe possible." }
+    ],
+    "mauvaises": [
+      { "reponse": "Ces signes sont très sensibles : leur absence élimine le diagnostic", "explication": "Ils sont inconstants et peu sensibles." },
+      { "reponse": "Le signe de Homans se recherche en flexion plantaire forcée", "explication": "On relève la voûte plantaire (dorsiflexion)." },
+      { "reponse": "Elle ne peut jamais se compliquer d'embolie pulmonaire", "explication": "C'est sa principale complication." },
+      { "reponse": "Le mollet est typiquement mou et indolore", "explication": "Il est dur et douloureux." },
+      { "reponse": "Un tableau de grosse jambe rouge ne peut évoquer qu'une phlébite", "explication": "Le diagnostic différentiel est la dermo-hypodermite bactérienne." }
+    ]
+  },
+  {
+    "question": "Concernant la thrombose veineuse superficielle, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle se manifeste par un cordon inflammatoire rouge le long du membre", "explication": "Veine superficielle dilatée." },
+      { "reponse": "Le cordon est sensible et douloureux", "explication": "Caractéristique." },
+      { "reponse": "Elle est traitée par anticoagulants", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elle est indolore", "explication": "Le cordon est sensible et douloureux." },
+      { "reponse": "Elle ne nécessite aucun traitement", "explication": "Des anticoagulants sont prescrits." },
+      { "reponse": "Elle touche les veines profondes du mollet", "explication": "Elle touche une veine superficielle." },
+      { "reponse": "Elle se manifeste par des œdèmes blancs bilatéraux prenant le godet", "explication": "Ce sont les œdèmes d'insuffisance cardiaque droite." }
+    ]
+  },
+  {
+    "question": "Quels troubles trophiques ou signes peut-on observer à l'inspection des membres inférieurs ?",
+    "bonnes": [
+      { "reponse": "Ulcères artériels « en carte de géographie », à bords irréguliers", "explication": "Troubles trophiques artériels." },
+      { "reponse": "Marbrures, signe d'hypoperfusion périphérique", "explication": "Signe de gravité hémodynamique." },
+      { "reponse": "Varices en cas d'insuffisance veineuse chronique", "explication": "Signe d'insuffisance veineuse." }
+    ],
+    "mauvaises": [
+      { "reponse": "Marbrures témoignant d'une hyperperfusion", "explication": "Elles traduisent une hypoperfusion." },
+      { "reponse": "Ulcères artériels à bords réguliers et nets", "explication": "Ils sont déchiquetés, à bords irréguliers." },
+      { "reponse": "Varices témoignant d'une insuffisance artérielle", "explication": "Elles traduisent une insuffisance veineuse." }
+    ]
+  }
+]
