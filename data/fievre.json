@@ -1,0 +1,731 @@
+[
+  {
+    "question": "Quelle est la définition de la fièvre chez un patient non hospitalisé ?",
+    "bonnes": [
+      { "reponse": "Température > 37,5 °C le matin", "explication": "Seuil matinal du cours." },
+      { "reponse": "Température > 37,8 °C le soir", "explication": "Seuil vespéral, plus élevé en raison de la variation nycthémérale." }
+    ],
+    "mauvaises": [
+      { "reponse": "Température > 37,8 °C le matin", "explication": "Le seuil du matin est 37,5 °C ; 37,8 °C est celui du soir." },
+      { "reponse": "Température > 37,5 °C le soir", "explication": "Le seuil du soir est 37,8 °C." },
+      { "reponse": "Température > 38,3 °C à tout moment", "explication": "Ce seuil concerne le patient hospitalisé." },
+      { "reponse": "Température > 37 °C", "explication": "37 °C est une température normale." },
+      { "reponse": "Température > 39 °C", "explication": "Seuil trop élevé, sans fondement dans le cours." },
+      { "reponse": "La fièvre déclarée par le patient suffit à la définir", "explication": "La fièvre doit être objectivée par un soignant." }
+    ]
+  },
+  {
+    "question": "Chez un patient hospitalisé, à partir de quelle température parle-t-on de fièvre ?",
+    "bonnes": [
+      { "reponse": "> 38,3 °C", "explication": "L'hospitalisation perturbe la thermorégulation (stress) et le cycle nycthéméral." }
+    ],
+    "mauvaises": [
+      { "reponse": "> 37,5 °C", "explication": "C'est le seuil matinal hors hospitalisation." },
+      { "reponse": "> 37,8 °C", "explication": "C'est le seuil vespéral hors hospitalisation." },
+      { "reponse": "> 39 °C", "explication": "Le seuil est 38,3 °C." },
+      { "reponse": "> 41 °C", "explication": "C'est le seuil de gravité de la fièvre." },
+      { "reponse": "Le seuil est le même qu'en ville", "explication": "Il est plus élevé à l'hôpital (38,3 °C)." }
+    ]
+  },
+  {
+    "question": "Pourquoi le seuil de fièvre est-il plus élevé chez le patient hospitalisé ?",
+    "bonnes": [
+      { "reponse": "L'hospitalisation entraîne une dérégulation thermique liée au stress", "explication": "Explication du cours." },
+      { "reponse": "Le cycle nycthéméral est perturbé", "explication": "Explication du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les thermomètres hospitaliers sont moins précis", "explication": "Ce n'est pas la raison donnée." },
+      { "reponse": "Les patients hospitalisés sont tous infectés", "explication": "Faux, et sans rapport avec le seuil." },
+      { "reponse": "La température est toujours prise en rectal à l'hôpital", "explication": "Ce n'est pas la raison, et la voie rectale est exceptionnelle." },
+      { "reponse": "Les antipyrétiques sont systématiques à l'hôpital", "explication": "Ce n'est pas la raison invoquée." }
+    ]
+  },
+  {
+    "question": "Quelles conditions faut-il respecter pour mesurer la température ?",
+    "bonnes": [
+      { "reponse": "À distance des repas", "explication": "La digestion produit de la chaleur." },
+      { "reponse": "Après au moins 20 minutes de repos", "explication": "L'effort physique augmente la température." },
+      { "reponse": "Mesure objectivée par un soignant", "explication": "Le patient peut se tromper ou avoir une perception subjective." }
+    ],
+    "mauvaises": [
+      { "reponse": "Juste après le repas", "explication": "La digestion fausse la mesure." },
+      { "reponse": "Juste après un effort physique", "explication": "L'effort augmente la température." },
+      { "reponse": "Après 2 minutes de repos", "explication": "Il faut au moins 20 minutes." },
+      { "reponse": "Uniquement le soir", "explication": "On peut mesurer le matin et le soir, avec des seuils différents." },
+      { "reponse": "La mesure du patient à domicile suffit toujours", "explication": "La fièvre doit être objectivée par un soignant." }
+    ]
+  },
+  {
+    "question": "Concernant la mesure rectale de la température, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est la plus fiable des méthodes courantes", "explication": "Elle mesure la température centrale." },
+      { "reponse": "Elle expose à un risque de traumatisme, notamment d'ulcération rectale chez le bébé", "explication": "Méthode invasive." },
+      { "reponse": "Elle est utilisée dans des cas exceptionnels", "explication": "Du fait de ses risques." }
+    ],
+    "mauvaises": [
+      { "reponse": "C'est la méthode la plus utilisée", "explication": "La plus utilisée est la voie axillaire." },
+      { "reponse": "C'est une méthode non invasive et sans risque", "explication": "Elle est invasive et peut être dangereuse." },
+      { "reponse": "Il faut ajouter 0,9 °C à la valeur obtenue", "explication": "Cette correction concerne les voies axillaire et inguinale." },
+      { "reponse": "Elle est réservée aux patients intubés en réanimation", "explication": "C'est la voie œsophagienne." },
+      { "reponse": "C'est la méthode recommandée en première intention chez le nourrisson", "explication": "Le cours souligne justement le risque d'ulcération chez le bébé." }
+    ]
+  },
+  {
+    "question": "Concernant la mesure axillaire de la température, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est la méthode la plus utilisée", "explication": "Cité dans le cours." },
+      { "reponse": "Elle est la plus fiable après la voie rectale, sans être très fiable", "explication": "Cité dans le cours." },
+      { "reponse": "Il faut ajouter 0,9 °C pour estimer la température centrale", "explication": "Correction du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il faut retirer 0,9 °C à la valeur mesurée", "explication": "Il faut ajouter 0,9 °C." },
+      { "reponse": "Il faut ajouter 0,5 °C", "explication": "La correction est de 0,9 °C." },
+      { "reponse": "C'est la méthode la plus fiable", "explication": "La plus fiable est la voie rectale (ou œsophagienne)." },
+      { "reponse": "Elle mesure directement la température centrale", "explication": "Elle sous-estime la température centrale." },
+      { "reponse": "Aucune correction n'est nécessaire", "explication": "Il faut ajouter 0,9 °C." }
+    ]
+  },
+  {
+    "question": "Concernant les thermomètres auriculaires et frontaux, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Ils sont peu fiables", "explication": "Ex : mauvaise mesure en cas de cérumen." },
+      { "reponse": "Ce sont des thermomètres infrarouges coûteux", "explication": "Cité dans le cours." },
+      { "reponse": "Ils nécessitent un recalibrage régulier, souvent oublié", "explication": "Source de défaut de fiabilité." }
+    ],
+    "mauvaises": [
+      { "reponse": "Ce sont les méthodes les plus fiables", "explication": "Elles sont peu fiables." },
+      { "reponse": "Ils ne nécessitent jamais de recalibrage", "explication": "Ils doivent être recalibrés régulièrement." },
+      { "reponse": "Le cérumen n'influence pas la mesure auriculaire", "explication": "Il peut fausser la mesure." },
+      { "reponse": "Ce sont des thermomètres très bon marché", "explication": "Ils sont chers." }
+    ]
+  },
+  {
+    "question": "Concernant les autres sites de mesure de la température, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La mesure œsophagienne est utilisée chez les patients intubés en réanimation", "explication": "Cité dans le cours." },
+      { "reponse": "La mesure œsophagienne est très fiable mais très invasive", "explication": "Risque de complications." },
+      { "reponse": "Pour la mesure inguinale, on ajoute 0,9 °C", "explication": "Comme pour l'axillaire." }
+    ],
+    "mauvaises": [
+      { "reponse": "La mesure œsophagienne est utilisée en routine en consultation", "explication": "Elle est réservée aux patients intubés." },
+      { "reponse": "La mesure œsophagienne est peu fiable", "explication": "Elle est excessivement fiable." },
+      { "reponse": "Pour la mesure inguinale, on retire 0,9 °C", "explication": "On ajoute 0,9 °C." },
+      { "reponse": "Il existe une méthode de mesure parfaite", "explication": "Le cours précise qu'aucune mesure n'est parfaite." }
+    ]
+  },
+  {
+    "question": "Quelle structure régule la température corporelle ?",
+    "bonnes": [
+      { "reponse": "L'hypothalamus antérieur", "explication": "C'est le thermostat central." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'hypothalamus postérieur", "explication": "Le cours désigne l'hypothalamus antérieur." },
+      { "reponse": "L'hypophyse", "explication": "Ce n'est pas le centre thermorégulateur." },
+      { "reponse": "Le cervelet", "explication": "Il intervient dans la coordination, pas la thermorégulation." },
+      { "reponse": "La glande thyroïde", "explication": "Elle influence le métabolisme, mais ce n'est pas le thermostat central." },
+      { "reponse": "Le bulbe rachidien", "explication": "Ce n'est pas le centre de la thermorégulation." },
+      { "reponse": "Les glandes surrénales", "explication": "Ce n'est pas le centre de la thermorégulation." }
+    ]
+  },
+  {
+    "question": "Concernant la nature de la fièvre, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est un mécanisme de défense non spécifique", "explication": "Réponse à toute agression de l'organisme." },
+      { "reponse": "Elle peut être d'origine infectieuse (virus, bactérie, champignon, parasite)", "explication": "Causes infectieuses." },
+      { "reponse": "Elle peut être d'origine non infectieuse (allergie, traumatisme, chirurgie, fibroscopie)", "explication": "Toute agression peut la provoquer." }
+    ],
+    "mauvaises": [
+      { "reponse": "La fièvre est toujours d'origine infectieuse", "explication": "Toute fièvre n'est pas infectieuse." },
+      { "reponse": "La fièvre est un mécanisme spécifique des infections bactériennes", "explication": "C'est un mécanisme non spécifique." },
+      { "reponse": "Une chirurgie ne peut pas provoquer de fièvre", "explication": "Elle constitue une agression pouvant provoquer une fièvre." },
+      { "reponse": "La fièvre traduit un dysfonctionnement de l'hypothalamus", "explication": "Dans la fièvre, l'hypothalamus est fonctionnel ; c'est l'hyperthermie qui traduit un dysfonctionnement." },
+      { "reponse": "Les virus ne donnent jamais de fièvre", "explication": "Ils sont une cause fréquente de fièvre." }
+    ]
+  },
+  {
+    "question": "Concernant les substances pyrogènes, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elles élèvent le thermostat central (hypothalamus antérieur)", "explication": "Mécanisme de la fièvre." },
+      { "reponse": "Les pyrogènes exogènes comprennent les toxines microbiennes", "explication": "Exemple du cours." },
+      { "reponse": "Les pyrogènes exogènes comprennent des fractions bactériennes, virales ou parasitaires", "explication": "Exemple du cours." },
+      { "reponse": "Les pyrogènes endogènes sont des cytokines pro-inflammatoires (IL-1, TNF)", "explication": "Exemples du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'interleukine 1 est un pyrogène exogène", "explication": "C'est un pyrogène endogène (cytokine)." },
+      { "reponse": "Le TNF est un pyrogène exogène", "explication": "C'est un pyrogène endogène." },
+      { "reponse": "Les toxines bactériennes sont des pyrogènes endogènes", "explication": "Ce sont des pyrogènes exogènes." },
+      { "reponse": "Les pyrogènes abaissent le thermostat hypothalamique", "explication": "Ils l'élèvent." },
+      { "reponse": "Les cytokines pro-inflammatoires diminuent la température", "explication": "Elles l'augmentent." },
+      { "reponse": "Le paracétamol est un pyrogène", "explication": "C'est un antipyrétique." }
+    ]
+  },
+  {
+    "question": "Comment l'organisme augmente-t-il sa température lors de la fièvre ?",
+    "bonnes": [
+      { "reponse": "Par des frissons", "explication": "Contractions musculaires involontaires produisant de la chaleur." }
+    ],
+    "mauvaises": [
+      { "reponse": "Par une vasodilatation périphérique", "explication": "Elle sert au contraire à perdre de la chaleur." },
+      { "reponse": "Par des sueurs", "explication": "Elles servent à perdre de la chaleur." },
+      { "reponse": "Par une polyurie", "explication": "Ce n'est pas un mécanisme de production de chaleur." },
+      { "reponse": "Par une bradycardie", "explication": "Ce n'est pas un mécanisme de production de chaleur." }
+    ]
+  },
+  {
+    "question": "Comment l'organisme perd-il de la chaleur pour faire baisser sa température ?",
+    "bonnes": [
+      { "reponse": "Par une vasodilatation périphérique", "explication": "Favorise les échanges thermiques avec l'extérieur." },
+      { "reponse": "Par la sudation", "explication": "La sueur permet la perte de chaleur." }
+    ],
+    "mauvaises": [
+      { "reponse": "Par une vasoconstriction périphérique", "explication": "La vasoconstriction conserve la chaleur." },
+      { "reponse": "Par des frissons", "explication": "Ils produisent de la chaleur." },
+      { "reponse": "Par une augmentation du métabolisme musculaire", "explication": "Produit de la chaleur." },
+      { "reponse": "Par une diminution de la fréquence respiratoire", "explication": "Ce n'est pas le mécanisme décrit." }
+    ]
+  },
+  {
+    "question": "Concernant les frissons, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Ce sont des contractions incontrôlées des muscles", "explication": "Définition du cours." },
+      { "reponse": "Ils ont un poids sémiologique majeur", "explication": "Ils orientent fortement." },
+      { "reponse": "Ils évoquent une bactériémie (passage de bactéries dans le sang)", "explication": "Valeur prédictive importante." },
+      { "reponse": "Ils ne sont pas spécifiques à 100 % d'une infection bactérienne", "explication": "Grippe, Covid, paludisme, lymphomes et allergies sévères peuvent en donner." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les frissons signent toujours une bactériémie", "explication": "Ils ne sont pas spécifiques à 100 %." },
+      { "reponse": "Une bactériémie s'accompagne toujours de frissons", "explication": "Pas toujours." },
+      { "reponse": "La grippe ne donne jamais de frissons", "explication": "Elle peut en donner." },
+      { "reponse": "Les frissons servent à faire baisser la température", "explication": "Ils servent à l'augmenter." },
+      { "reponse": "Les frissons n'ont aucune valeur sémiologique", "explication": "Ils ont un poids sémiologique majeur." },
+      { "reponse": "Les frissons évoquent une infection urinaire basse localisée sans passage sanguin", "explication": "Ils évoquent un passage dans le sang." }
+    ]
+  },
+  {
+    "question": "Quelles pathologies, autres que les bactériémies, peuvent donner des frissons ?",
+    "bonnes": [
+      { "reponse": "La grippe", "explication": "Citée dans le cours." },
+      { "reponse": "Le Covid", "explication": "Cité dans le cours." },
+      { "reponse": "Le paludisme", "explication": "Cité dans le cours." },
+      { "reponse": "Les lymphomes", "explication": "Cités dans le cours." },
+      { "reponse": "Les allergies sévères", "explication": "Citées dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Aucune : les frissons sont spécifiques de la bactériémie", "explication": "Plusieurs autres causes existent." },
+      { "reponse": "L'hypothyroïdie isolée, comme exemple du cours", "explication": "Elle n'est pas citée dans le cours." },
+      { "reponse": "La varicelle, comme exemple du cours", "explication": "Elle n'est pas citée dans le cours." }
+    ]
+  },
+  {
+    "question": "Concernant la régulation thermique selon la température centrale, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Entre 35 et 41 °C, la régulation est efficace", "explication": "Zone de régulation efficace." },
+      { "reponse": "Au-dessus de 41 °C, la régulation est altérée avec un risque d'emballement", "explication": "L'hypothalamus ne parvient plus à faire baisser la température." },
+      { "reponse": "Au-dessus de 41 °C, il existe un risque de lésions cérébrales", "explication": "Cité dans le cours." },
+      { "reponse": "En dessous de 30 °C, la fréquence cardiaque baisse", "explication": "Perte de la régulation thermique." },
+      { "reponse": "En dessous de 27 °C survient une arythmie cardiaque", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Entre 30 et 45 °C, la régulation est efficace", "explication": "La zone efficace est 35-41 °C." },
+      { "reponse": "Au-dessus de 38 °C, la régulation est altérée", "explication": "Elle est altérée au-delà de 41 °C." },
+      { "reponse": "En dessous de 30 °C, la fréquence cardiaque augmente", "explication": "Elle baisse." },
+      { "reponse": "L'arythmie cardiaque survient en dessous de 35 °C", "explication": "Elle survient en dessous de 27 °C." },
+      { "reponse": "Au-dessus de 41 °C, la température redescend spontanément", "explication": "Elle a tendance à s'emballer." }
+    ]
+  },
+  {
+    "question": "Quelle est la différence entre fièvre et hyperthermie ?",
+    "bonnes": [
+      { "reponse": "Dans la fièvre, l'hypothalamus est fonctionnel", "explication": "Réponse adaptée à une agression." },
+      { "reponse": "Dans l'hyperthermie, l'hypothalamus n'est pas fonctionnel", "explication": "Dérégulation primitive de l'hypothalamus antérieur." },
+      { "reponse": "Une hyperthermie peut résulter d'un AVC touchant l'hypothalamus", "explication": "Exemple du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Fièvre et hyperthermie sont synonymes", "explication": "Ce sont deux mécanismes différents." },
+      { "reponse": "Dans la fièvre, l'hypothalamus est défaillant", "explication": "Il est fonctionnel." },
+      { "reponse": "L'hyperthermie est une réponse adaptée à une infection", "explication": "C'est une dérégulation pathologique." },
+      { "reponse": "L'hyperthermie est toujours due à des cytokines pyrogènes", "explication": "Elle est due à une dérégulation primitive de l'hypothalamus." },
+      { "reponse": "La fièvre est définie par une température > 41 °C", "explication": "41 °C est un seuil de gravité, pas la définition." }
+    ]
+  },
+  {
+    "question": "Concernant la variation nycthémérale de la température, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La température est plus basse le matin que le soir", "explication": "Variation physiologique." },
+      { "reponse": "Elle peut atteindre environ 1 °C", "explication": "Valeur non stricte, selon l'activité." },
+      { "reponse": "Elle explique la différence entre les seuils du matin et du soir", "explication": "37,5 °C le matin, 37,8 °C le soir." }
+    ],
+    "mauvaises": [
+      { "reponse": "La température est plus élevée le matin que le soir", "explication": "Elle est plus basse le matin." },
+      { "reponse": "La variation nycthémérale peut atteindre 3 °C", "explication": "Elle peut atteindre environ 1 °C." },
+      { "reponse": "La variation nycthémérale est une valeur fixe identique chez tous", "explication": "Elle dépend de l'activité et d'autres paramètres." },
+      { "reponse": "La température est constante sur 24 heures", "explication": "Elle varie au cours de la journée." }
+    ]
+  },
+  {
+    "question": "Concernant la variation de température liée au cycle menstruel, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La température augmente après l'ovulation", "explication": "Variation physiologique." },
+      { "reponse": "L'augmentation est d'environ 0,4-0,5 à 1 °C", "explication": "Valeur du cours." },
+      { "reponse": "Selon le cours, la contraception fondée sur la courbe de température n'est pas fiable", "explication": "Le cours la juge inefficace." }
+    ],
+    "mauvaises": [
+      { "reponse": "La température diminue après l'ovulation", "explication": "Elle augmente." },
+      { "reponse": "L'augmentation est d'environ 3 °C", "explication": "Elle est d'environ 0,5 à 1 °C." },
+      { "reponse": "La température augmente avant l'ovulation puis chute", "explication": "Elle augmente après l'ovulation." },
+      { "reponse": "Selon le cours, la méthode des températures est une contraception fiable", "explication": "Le cours la juge inefficace." }
+    ]
+  },
+  {
+    "question": "Quels sont les objectifs de l'interrogatoire devant une fièvre ?",
+    "bonnes": [
+      { "reponse": "Connaître le patient et ses antécédents", "explication": "Objectif du cours." },
+      { "reponse": "Décrire les caractéristiques et le contexte de la fièvre (prise de paracétamol ?)", "explication": "Objectif du cours." },
+      { "reponse": "Rechercher les signes généraux d'accompagnement", "explication": "Objectif du cours." },
+      { "reponse": "Rechercher les signes spécifiques d'organe", "explication": "Objectif du cours." },
+      { "reponse": "Explorer les autres constantes (PA, SpO2…)", "explication": "Objectif du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Prescrire d'emblée un antibiotique", "explication": "Il ne faut pas se jeter sur les antibiotiques." },
+      { "reponse": "Uniquement mesurer la température", "explication": "L'interrogatoire est beaucoup plus large." },
+      { "reponse": "Ignorer la prise d'antipyrétiques", "explication": "Elle peut masquer la fièvre." },
+      { "reponse": "Poser les questions sans en expliquer l'intérêt au patient", "explication": "Le patient doit toujours saisir l'intérêt des questions." }
+    ]
+  },
+  {
+    "question": "Pourquoi s'intéresse-t-on au mode de vie et à l'environnement devant une fièvre ?",
+    "bonnes": [
+      { "reponse": "Les maladies infectieuses résultent d'une interaction entre l'organisme et son environnement", "explication": "Principe du cours." },
+      { "reponse": "Pour rechercher une exposition à une maladie particulière", "explication": "Objectif du cours." },
+      { "reponse": "Le milieu rural expose davantage aux maladies infectieuses", "explication": "Cité dans le cours." },
+      { "reponse": "La profession et les loisirs peuvent exposer à des agents infectieux", "explication": "Éléments à recueillir." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le milieu urbain expose davantage aux maladies infectieuses que le rural", "explication": "Le cours associe le milieu urbain plutôt à la pollution." },
+      { "reponse": "L'environnement n'a aucune influence sur les infections", "explication": "Il est déterminant." },
+      { "reponse": "La profession n'a pas d'intérêt devant une fièvre", "explication": "Elle peut révéler une exposition." },
+      { "reponse": "Les loisirs n'ont pas à être demandés", "explication": "Ils font partie de l'interrogatoire." }
+    ]
+  },
+  {
+    "question": "Concernant la fièvre au retour de voyage, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Toute fièvre au retour des tropiques est un paludisme jusqu'à preuve du contraire", "explication": "Aphorisme du cours." },
+      { "reponse": "Le paludisme grave est dû à Plasmodium falciparum", "explication": "Cité dans le cours." },
+      { "reponse": "Le paludisme à P. falciparum survient dans les 3 mois suivant le retour d'une zone d'endémie", "explication": "Délai du cours." },
+      { "reponse": "Des voyages anciens peuvent compter, comme pour la tuberculose", "explication": "Elle peut survenir des années, voire des dizaines d'années après." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le paludisme grave est dû à Plasmodium vivax", "explication": "C'est P. falciparum." },
+      { "reponse": "Le paludisme à P. falciparum peut survenir 10 ans après le retour", "explication": "Il survient dans les 3 mois." },
+      { "reponse": "Seuls les voyages du dernier mois ont de l'importance", "explication": "Même les voyages anciens comptent (tuberculose)." },
+      { "reponse": "La tuberculose survient toujours dans les jours suivant le voyage", "explication": "Elle peut survenir des années après." },
+      { "reponse": "Une fièvre au retour des tropiques est d'abord une grippe jusqu'à preuve du contraire", "explication": "C'est un paludisme jusqu'à preuve du contraire." }
+    ]
+  },
+  {
+    "question": "Comment appelle-t-on les maladies transmises par les animaux ?",
+    "bonnes": [
+      { "reponse": "Des zoonoses", "explication": "Définition." }
+    ],
+    "mauvaises": [
+      { "reponse": "Des anthroponoses", "explication": "Ce terme désigne les maladies transmises d'humain à humain." },
+      { "reponse": "Des infections opportunistes", "explication": "Elles touchent les immunodéprimés." },
+      { "reponse": "Des infections nosocomiales", "explication": "Elles sont contractées à l'hôpital." },
+      { "reponse": "Des arboviroses exclusivement", "explication": "Ce sont des virus transmis par des arthropodes, pas la définition générale." }
+    ]
+  },
+  {
+    "question": "Quels antécédents rechercher devant une fièvre ?",
+    "bonnes": [
+      { "reponse": "Une immunodépression (ex : SIDA)", "explication": "Expose aux infections opportunistes." },
+      { "reponse": "Des pathologies urologiques ou pulmonaires", "explication": "Elles favorisent les infections." },
+      { "reponse": "Une chirurgie ancienne ou récente (date, lieu, chirurgien)", "explication": "Cité dans le cours." },
+      { "reponse": "La présence de matériel étranger (prothèse, implant)", "explication": "Il se défend mal contre l'infection." },
+      { "reponse": "Les traitements en cours, les changements récents et les vaccinations", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une ancienne chirurgie n'a jamais d'intérêt", "explication": "Elle doit être recherchée." },
+      { "reponse": "Un matériel étranger se défend mieux que les tissus biologiques contre l'infection", "explication": "Il se défend beaucoup moins bien." },
+      { "reponse": "Les vaccinations n'ont pas d'intérêt", "explication": "Elles font partie des antécédents à recueillir." },
+      { "reponse": "Les maladies familiales sont sans intérêt", "explication": "Elles font partie des antécédents à recueillir." }
+    ]
+  },
+  {
+    "question": "Concernant les infections opportunistes, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elles surviennent chez les patients immunodéprimés", "explication": "Défenses trop faibles." },
+      { "reponse": "Elles ne rendraient pas malade une personne immunocompétente", "explication": "Définition." },
+      { "reponse": "Elles peuvent provoquer de la fièvre", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elles touchent principalement les personnes immunocompétentes", "explication": "Elles touchent les immunodéprimés." },
+      { "reponse": "Elles sont moins graves chez l'immunodéprimé", "explication": "Elles y sont plus virulentes." },
+      { "reponse": "Elles sont toujours transmises par des animaux", "explication": "Ce sont les zoonoses." }
+    ]
+  },
+  {
+    "question": "Chez un patient porteur d'une prothèse qui présente une fièvre, que faut-il évoquer ?",
+    "bonnes": [
+      { "reponse": "Une infection du matériel étranger", "explication": "Le matériel se défend mal contre l'infection." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une fièvre forcément sans rapport avec la prothèse", "explication": "Il faut toujours évoquer l'infection du matériel." },
+      { "reponse": "Une hyperthermie d'origine hypothalamique", "explication": "Sans rapport avec la prothèse." },
+      { "reponse": "Un rejet immunologique systématique", "explication": "Ce n'est pas ce qu'évoque le cours." },
+      { "reponse": "Rien de particulier si la chirurgie est ancienne", "explication": "L'infection peut survenir même à distance." }
+    ]
+  },
+  {
+    "question": "Concernant les caractéristiques de la fièvre, que faut-il surtout retenir ?",
+    "bonnes": [
+      { "reponse": "Le mode d'apparition : aigu ou progressif", "explication": "Élément important." },
+      { "reponse": "L'évolution : continue ou intermittente", "explication": "Distinction à retenir." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il faut connaître par cœur tous les sous-types de fièvre intermittente", "explication": "Le cours précise qu'ils ne sont pas à retenir." },
+      { "reponse": "Le mode d'apparition n'a pas d'importance", "explication": "Il est très important." },
+      { "reponse": "Seule la valeur maximale de la température compte", "explication": "Le mode d'apparition et l'évolution comptent." }
+    ]
+  },
+  {
+    "question": "Concernant les sueurs, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elles surviennent lors de la défervescence thermique", "explication": "Phase de perte de chaleur." },
+      { "reponse": "Des sueurs obligeant à se changer sont pathologiques", "explication": "Critère de significativité." },
+      { "reponse": "Des sueurs nocturnes peuvent évoquer une tuberculose ou un lymphome", "explication": "Orientation étiologique." },
+      { "reponse": "Elles majorent le risque de déshydratation", "explication": "Notamment chez le sujet âgé et le nourrisson." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elles surviennent lors de l'ascension thermique", "explication": "L'ascension s'accompagne de frissons ; les sueurs surviennent à la défervescence." },
+      { "reponse": "Les sueurs nocturnes évoquent typiquement une infection urinaire", "explication": "Elles évoquent une tuberculose ou un lymphome." },
+      { "reponse": "Les sueurs n'ont jamais de valeur d'orientation", "explication": "Elles peuvent orienter l'étiologie." },
+      { "reponse": "Les sueurs protègent contre la déshydratation", "explication": "Elles l'aggravent." }
+    ]
+  },
+  {
+    "question": "Concernant l'altération de l'état général associée à une fièvre, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "L'asthénie s'interprète en fonction de son ancienneté", "explication": "Cité dans le cours." },
+      { "reponse": "Un amaigrissement rapide évoque une pathologie sévère", "explication": "Cité dans le cours." },
+      { "reponse": "L'anorexie est classique lors d'un épisode infectieux aigu", "explication": "Cité dans le cours." },
+      { "reponse": "L'AEG est surtout informative dans les pathologies subaiguës ou chroniques", "explication": "Une pathologie aiguë donne souvent une AEG." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'AEG est surtout informative dans les pathologies aiguës", "explication": "Elle est surtout utile dans les pathologies subaiguës ou chroniques." },
+      { "reponse": "Un amaigrissement rapide est toujours bénin", "explication": "Il évoque une pathologie sévère." },
+      { "reponse": "L'anorexie est exceptionnelle lors d'une infection aiguë", "explication": "Elle est classique." },
+      { "reponse": "L'asthénie s'interprète indépendamment de sa durée", "explication": "Son ancienneté est essentielle." }
+    ]
+  },
+  {
+    "question": "Concernant les douleurs et signes neurologiques associés à la fièvre, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Les douleurs peuvent orienter vers le siège du processus infectieux", "explication": "Signe d'orientation." },
+      { "reponse": "Les douleurs peuvent être secondaires à l'activité musculaire des frissons", "explication": "Cité dans le cours." },
+      { "reponse": "Un syndrome neurologique central est peu spécifique chez la personne âgée et le jeune enfant", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les douleurs sont toujours localisées au foyer infectieux", "explication": "Elles peuvent être dues aux frissons." },
+      { "reponse": "Une confusion fébrile chez un sujet âgé signe toujours une méningite", "explication": "Elle est peu spécifique à cet âge." },
+      { "reponse": "Une fièvre est le plus souvent nue, sans signe associé", "explication": "Elle est rarement nue." }
+    ]
+  },
+  {
+    "question": "Dans quelles situations faut-il absolument traiter la fièvre ?",
+    "bonnes": [
+      { "reponse": "Chez le nouveau-né et le jeune enfant", "explication": "Risque de déshydratation et de convulsions jusqu'à 5 ans." },
+      { "reponse": "Chez la personne âgée", "explication": "Fragilité cérébrale, déshydratation, risque de confusion." },
+      { "reponse": "Chez le patient cérébrolésé (ex : AVC sévère)", "explication": "Les neurones sont très fragiles face à la fièvre." },
+      { "reponse": "Chez l'insuffisant cardiaque ou respiratoire", "explication": "Incapacité à augmenter FC et FR." }
+    ],
+    "mauvaises": [
+      { "reponse": "Chez tout patient fébrile, sans exception", "explication": "En dehors de ces situations, le traitement n'est pas indispensable." },
+      { "reponse": "Uniquement si la fièvre dépasse 40 °C", "explication": "Le terrain compte davantage que le chiffre (le seuil de gravité est 41 °C)." },
+      { "reponse": "Jamais, car la fièvre est toujours bénéfique", "explication": "Elle doit être traitée dans certaines situations." },
+      { "reponse": "Chez l'adulte jeune sans antécédent avec une fièvre à 38,5 °C, systématiquement", "explication": "Le traitement n'y est pas absolument nécessaire." }
+    ]
+  },
+  {
+    "question": "Concernant les convulsions fébriles (hyperthermiques) de l'enfant, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elles peuvent survenir jusqu'à l'âge de 5 ans", "explication": "Cité dans le cours." },
+      { "reponse": "Elles sont décrites comme sans gravité dans le cours", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elles surviennent jusqu'à 15 ans", "explication": "Jusqu'à 5 ans." },
+      { "reponse": "Elles touchent surtout la personne âgée", "explication": "Elles concernent le jeune enfant." },
+      { "reponse": "Elles sont le principal risque de la fièvre chez l'adulte", "explication": "Elles concernent le jeune enfant." }
+    ]
+  },
+  {
+    "question": "Pourquoi l'insuffisant cardiaque ou respiratoire tolère-t-il mal la fièvre ?",
+    "bonnes": [
+      { "reponse": "Il ne peut pas augmenter suffisamment sa fréquence cardiaque et respiratoire", "explication": "Explication du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Son hypothalamus ne fonctionne pas", "explication": "C'est la définition de l'hyperthermie, sans rapport." },
+      { "reponse": "Il fait systématiquement des convulsions", "explication": "Ce risque concerne le jeune enfant." },
+      { "reponse": "Il ne transpire jamais", "explication": "Ce n'est pas l'explication donnée." },
+      { "reponse": "Il est toujours immunodéprimé", "explication": "Sans rapport avec la tolérance de la fièvre." }
+    ]
+  },
+  {
+    "question": "Pourquoi recherche-t-on les signes spécifiques d'organe devant une fièvre ?",
+    "bonnes": [
+      { "reponse": "Pour orienter la recherche étiologique", "explication": "Objectif principal." },
+      { "reponse": "Ils doivent être précisés et « médicalisés » par l'interrogatoire", "explication": "Le patient les exprime souvent imprécisément." },
+      { "reponse": "On recherche notamment des signes ORL, respiratoires, digestifs, urinaires et cutanés", "explication": "Liste du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Ils sont inutiles si la fièvre est élevée", "explication": "Ils orientent toujours." },
+      { "reponse": "Le patient les exprime toujours de façon précise", "explication": "Ils sont souvent peu précis." },
+      { "reponse": "On se limite aux signes respiratoires", "explication": "Tous les appareils doivent être explorés." }
+    ]
+  },
+  {
+    "question": "Quels sont les objectifs de l'examen physique devant une fièvre ?",
+    "bonnes": [
+      { "reponse": "Rechercher des signes de gravité", "explication": "Premier objectif." },
+      { "reponse": "Trouver les signes orientant le diagnostic", "explication": "Second objectif." }
+    ],
+    "mauvaises": [
+      { "reponse": "Uniquement confirmer la fièvre", "explication": "L'examen cherche la gravité et l'orientation." },
+      { "reponse": "Décider d'emblée d'une antibiothérapie", "explication": "Il ne faut pas se jeter sur les antibiotiques." },
+      { "reponse": "Mesurer uniquement la température", "explication": "L'examen est complet." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes de gravité hémodynamique devant une fièvre ?",
+    "bonnes": [
+      { "reponse": "Augmentation de la fréquence cardiaque", "explication": "Tachycardie." },
+      { "reponse": "Anomalie de la tension artérielle", "explication": "Hypotension." },
+      { "reponse": "Froideur des extrémités", "explication": "Hypoperfusion périphérique." },
+      { "reponse": "Temps de recoloration cutanée > 3 secondes", "explication": "Hypoperfusion périphérique." },
+      { "reponse": "Marbrures", "explication": "Ischémie cutanée par vasoconstriction intense." },
+      { "reponse": "Oligurie (< 500 mL/jour)", "explication": "Hypoperfusion rénale." }
+    ],
+    "mauvaises": [
+      { "reponse": "Temps de recoloration cutanée < 3 secondes", "explication": "Un temps < 3 s est normal ; c'est > 3 s qui est pathologique." },
+      { "reponse": "Oligurie définie par une diurèse < 1500 mL/jour", "explication": "Le seuil est 500 mL/jour." },
+      { "reponse": "Extrémités chaudes et bien colorées", "explication": "C'est la froideur des extrémités qui est un signe de gravité." },
+      { "reponse": "Tirage sus-claviculaire", "explication": "C'est un signe de gravité respiratoire." },
+      { "reponse": "Raideur de nuque", "explication": "C'est un signe neurologique (syndrome méningé)." },
+      { "reponse": "Polyurie", "explication": "C'est l'oligurie qui témoigne d'une hypoperfusion." }
+    ]
+  },
+  {
+    "question": "Concernant les marbrures, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elles traduisent une ischémie cutanée", "explication": "Signe d'hypoperfusion." },
+      { "reponse": "Elles résultent d'une vasoconstriction cutanée intense", "explication": "Pour redistribuer le sang vers les organes nobles." },
+      { "reponse": "Elles prédominent souvent aux membres inférieurs", "explication": "Illustré dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Elles résultent d'une vasodilatation cutanée", "explication": "Elles résultent d'une vasoconstriction." },
+      { "reponse": "Elles sont un signe de gravité respiratoire", "explication": "Ce sont des signes hémodynamiques." },
+      { "reponse": "Elles traduisent une bonne perfusion périphérique", "explication": "Elles traduisent une hypoperfusion." },
+      { "reponse": "Elles sont toujours bénignes", "explication": "Ce sont des signes de gravité." }
+    ]
+  },
+  {
+    "question": "Quels sont les signes de détresse respiratoire ?",
+    "bonnes": [
+      { "reponse": "Tirage sus-claviculaire (contraction du SCM)", "explication": "Muscles accessoires." },
+      { "reponse": "Pincement intercostal à l'inspiration", "explication": "Raccourcissement des muscles intercostaux." },
+      { "reponse": "Balancement thoraco-abdominal", "explication": "Contraction des muscles abdominaux." },
+      { "reponse": "Cyanose", "explication": "Signe de gravité respiratoire." },
+      { "reponse": "Anomalie de la fréquence respiratoire", "explication": "Signe de gravité respiratoire." }
+    ],
+    "mauvaises": [
+      { "reponse": "Respiration au repos par le seul diaphragme", "explication": "C'est la respiration normale." },
+      { "reponse": "Marbrures", "explication": "Signe hémodynamique." },
+      { "reponse": "Oligurie", "explication": "Signe hémodynamique." },
+      { "reponse": "Photophobie", "explication": "Signe du syndrome méningé." },
+      { "reponse": "Le tirage traduit une respiration efficace par le diaphragme", "explication": "Il traduit la mise en jeu des muscles accessoires quand le diaphragme ne suffit plus." }
+    ]
+  },
+  {
+    "question": "Quels signes composent le syndrome méningé ?",
+    "bonnes": [
+      { "reponse": "Raideur de nuque", "explication": "Signe du syndrome méningé." },
+      { "reponse": "Photophobie", "explication": "Signe du syndrome méningé." },
+      { "reponse": "Phonophobie", "explication": "Signe du syndrome méningé." },
+      { "reponse": "Signe de Kernig", "explication": "Signe cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Signe de Homans", "explication": "Recherché dans la thrombose veineuse profonde." },
+      { "reponse": "Tirage sus-claviculaire", "explication": "Signe de détresse respiratoire." },
+      { "reponse": "Marbrures", "explication": "Signe hémodynamique." },
+      { "reponse": "Hippocratisme digital", "explication": "Sans rapport." },
+      { "reponse": "Signe de Murphy", "explication": "Signe de cholécystite." }
+    ]
+  },
+  {
+    "question": "Concernant le purpura dans un contexte fébrile, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il ne s'efface pas à la vitropression", "explication": "Définition." },
+      { "reponse": "Un purpura pétéchial peut s'étendre à vue d'œil en 30 minutes", "explication": "Cité dans le cours." },
+      { "reponse": "Le purpura fulminans est lié à une infection à méningocoque", "explication": "Urgence absolue." },
+      { "reponse": "Le purpura fulminans nécessite des antibiotiques en urgence", "explication": "Risque de décès en quelques heures." },
+      { "reponse": "Un purpura nécrotique est rapidement extensif", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il s'efface à la vitropression", "explication": "C'est l'érythème qui s'efface." },
+      { "reponse": "Le purpura fulminans peut attendre les résultats des examens avant tout traitement", "explication": "Les antibiotiques doivent être donnés très rapidement." },
+      { "reponse": "Le purpura fulminans est dû à un virus herpès", "explication": "Il est lié au méningocoque." },
+      { "reponse": "Un purpura fébrile est toujours bénin", "explication": "Il peut être une urgence vitale." },
+      { "reponse": "Le purpura évolue toujours lentement sur plusieurs jours", "explication": "Il peut s'étendre en 30 minutes." }
+    ]
+  },
+  {
+    "question": "Concernant le score de Glasgow, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il est coté de 3 à 15", "explication": "Bornes du score." },
+      { "reponse": "Il évalue la meilleure réponse oculaire, verbale et motrice", "explication": "Trois composantes." },
+      { "reponse": "Il a été créé pour les traumatisés crâniens", "explication": "Historique du cours." },
+      { "reponse": "Il est utilisé aujourd'hui pour tout trouble de la vigilance", "explication": "Usage élargi." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il est coté de 0 à 15", "explication": "Le minimum est 3." },
+      { "reponse": "Il est coté de 3 à 20", "explication": "Le maximum est 15." },
+      { "reponse": "On retient la plus mauvaise réponse de chaque composante", "explication": "On retient la meilleure réponse." },
+      { "reponse": "La réponse motrice est cotée sur 4", "explication": "Elle est cotée sur 6." },
+      { "reponse": "La réponse verbale est cotée sur 6", "explication": "Elle est cotée sur 5." },
+      { "reponse": "Il est réservé aux traumatisés crâniens", "explication": "Il est utilisé pour tout trouble de vigilance." }
+    ]
+  },
+  {
+    "question": "Score de Glasgow : quelles cotations sont exactes ?",
+    "bonnes": [
+      { "reponse": "Ouverture des yeux spontanée = 4", "explication": "Cotation du cours." },
+      { "reponse": "Réponse verbale orientée = 5", "explication": "Cotation du cours." },
+      { "reponse": "Réponse motrice à la demande = 6", "explication": "Cotation du cours." },
+      { "reponse": "Flexion stéréotypée (décortication) = 3", "explication": "Cotation du cours." },
+      { "reponse": "Extension stéréotypée (décérébration) = 2", "explication": "Cotation du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Ouverture des yeux à la douleur = 4", "explication": "C'est 2 ; spontanée = 4." },
+      { "reponse": "Réponse verbale confuse = 5", "explication": "C'est 4 ; orientée = 5." },
+      { "reponse": "Réponse motrice nulle = 0", "explication": "La cotation minimale est 1." },
+      { "reponse": "Extension stéréotypée = 3", "explication": "C'est 2 ; la flexion stéréotypée vaut 3." },
+      { "reponse": "Retrait à la douleur = 5", "explication": "C'est 4 ; réponse adaptée à la douleur = 5." }
+    ]
+  },
+  {
+    "question": "Concernant la fièvre comme signe de gravité, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle n'est pas un signe de gravité de façon générale", "explication": "Il faut évaluer son retentissement." },
+      { "reponse": "Elle est grave si elle dépasse 41 °C", "explication": "Seuil du cours." },
+      { "reponse": "Elle peut être dangereuse chez la personne âgée et le nourrisson", "explication": "Risque de déshydratation." },
+      { "reponse": "La déshydratation est majorée par les sueurs", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Toute fièvre est un signe de gravité", "explication": "Elle n'est pas grave en soi." },
+      { "reponse": "Une fièvre est grave dès 38,5 °C", "explication": "Le seuil de gravité est 41 °C." },
+      { "reponse": "La déshydratation n'est pas un risque chez le nourrisson", "explication": "C'est un risque majeur." },
+      { "reponse": "Plus la fièvre est élevée, plus l'infection est forcément grave", "explication": "La gravité s'évalue sur le retentissement." }
+    ]
+  },
+  {
+    "question": "Quelles urgences infectieuses neurologiques ne faut-il pas manquer ?",
+    "bonnes": [
+      { "reponse": "Méningite bactérienne purulente", "explication": "Urgence neurologique." },
+      { "reponse": "Méningoencéphalite herpétique", "explication": "Patient confus, désorienté." }
+    ],
+    "mauvaises": [
+      { "reponse": "Péritonite aiguë", "explication": "Urgence abdominale." },
+      { "reponse": "Dermohypodermite bactérienne nécrosante", "explication": "Urgence dermatologique." },
+      { "reponse": "Rétention purulente d'urine", "explication": "Urgence abdominale/urinaire." },
+      { "reponse": "Paludisme à P. falciparum", "explication": "Fièvre au retour des tropiques." }
+    ]
+  },
+  {
+    "question": "Concernant la méningoencéphalite herpétique, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Le syndrome méningé n'est présent que dans environ 50 % des cas", "explication": "Cité dans le cours." },
+      { "reponse": "Les patients sont souvent confus et désorientés", "explication": "Atteinte encéphalitique." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le syndrome méningé est toujours présent", "explication": "Seulement dans environ 50 % des cas." },
+      { "reponse": "C'est une infection bactérienne", "explication": "Elle est virale (herpès)." },
+      { "reponse": "Elle ne donne jamais de troubles de conscience", "explication": "Confusion et désorientation sont fréquentes." }
+    ]
+  },
+  {
+    "question": "Quelles urgences infectieuses dermatologiques et abdominales ne faut-il pas manquer ?",
+    "bonnes": [
+      { "reponse": "Purpura fulminans, avec ou sans méningite", "explication": "Urgence dermatologique." },
+      { "reponse": "Dermohypodermite bactérienne nécrosante", "explication": "Nécessite un examen complet, patient déshabillé." },
+      { "reponse": "Rétention purulente d'urine", "explication": "Urgence abdominale/urinaire." },
+      { "reponse": "Péritonite aiguë", "explication": "Contracture abdominale généralisée et défense." }
+    ],
+    "mauvaises": [
+      { "reponse": "Eczéma", "explication": "Ce n'est pas une urgence infectieuse." },
+      { "reponse": "Gastro-entérite virale simple", "explication": "Pas citée comme urgence à ne pas louper." },
+      { "reponse": "Varicelle non compliquée", "explication": "Pas citée comme urgence." },
+      { "reponse": "Rhinopharyngite", "explication": "Pas une urgence." }
+    ]
+  },
+  {
+    "question": "Quel examen clinique permet de dépister chaque urgence infectieuse ?",
+    "bonnes": [
+      { "reponse": "Méningite : recherche d'un syndrome méningé", "explication": "Raideur de nuque, photophobie…" },
+      { "reponse": "Purpura fulminans et dermohypodermite : examen de l'ensemble du tégument, patient déshabillé", "explication": "Examen complet." },
+      { "reponse": "Péritonite : palpation abdominale (contracture, défense)", "explication": "Syndrome péritonéal." },
+      { "reponse": "Rétention d'urine : recherche d'un globe vésical et de signes urinaires", "explication": "Examen urinaire." },
+      { "reponse": "Paludisme : notion de voyage", "explication": "Fièvre au retour des tropiques." }
+    ],
+    "mauvaises": [
+      { "reponse": "Péritonite : recherche d'une raideur de nuque", "explication": "On palpe l'abdomen." },
+      { "reponse": "Purpura fulminans : auscultation pulmonaire seule", "explication": "Il faut examiner tout le tégument." },
+      { "reponse": "Méningite : palpation abdominale", "explication": "On recherche un syndrome méningé." },
+      { "reponse": "Dermohypodermite : examen limité aux zones découvertes", "explication": "Il faut examiner le patient entièrement déshabillé." }
+    ]
+  },
+  {
+    "question": "Quels prélèvements sont réalisés de façon presque systématique devant une fièvre, selon la clinique ?",
+    "bonnes": [
+      { "reponse": "ECBU (urines)", "explication": "Prélèvement cité." },
+      { "reponse": "Hémocultures (sang)", "explication": "Prélèvement cité." },
+      { "reponse": "Ponction lombaire (LCR) si orientation neurologique", "explication": "Prélèvement cité." },
+      { "reponse": "Prélèvements respiratoires (crachats)", "explication": "Prélèvement cité." },
+      { "reponse": "Prélèvement de toute collection", "explication": "Prélèvement cité." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les examens complémentaires sont réalisés au hasard, indépendamment de la clinique", "explication": "Ils sont guidés par la clinique." },
+      { "reponse": "Les hémocultures se prélèvent sur les urines", "explication": "Elles se prélèvent sur le sang." },
+      { "reponse": "L'ECBU analyse le liquide céphalorachidien", "explication": "Il analyse les urines." },
+      { "reponse": "La ponction lombaire prélève du sang", "explication": "Elle prélève le LCR." }
+    ]
+  },
+  {
+    "question": "Concernant l'antibiothérapie devant une fièvre, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Il ne faut pas se jeter sur les antibiotiques", "explication": "Message du cours." },
+      { "reponse": "Toute fièvre n'est pas infectieuse", "explication": "Elle peut avoir une cause non infectieuse." },
+      { "reponse": "Les antibiotiques ne sont pas antipyrétiques", "explication": "Ils ne font pas baisser la fièvre en soi." },
+      { "reponse": "Le purpura fulminans impose des antibiotiques en urgence", "explication": "Exception majeure." }
+    ],
+    "mauvaises": [
+      { "reponse": "Toute fièvre doit être traitée par antibiotique", "explication": "Toute fièvre n'est pas infectieuse." },
+      { "reponse": "Les antibiotiques sont des antipyrétiques", "explication": "Ils ne le sont pas." },
+      { "reponse": "L'antibiotique permet de confirmer qu'une fièvre est bactérienne", "explication": "Ce n'est pas un test diagnostique." },
+      { "reponse": "On donne un antibiotique avant tout interrogatoire", "explication": "L'interrogatoire est essentiel ; seule l'urgence vitale fait exception." }
+    ]
+  },
+  {
+    "question": "Quels messages clés retenir de la conclusion du cours ?",
+    "bonnes": [
+      { "reponse": "L'importance de l'interrogatoire", "explication": "Message du cours." },
+      { "reponse": "Éliminer rapidement les situations graves", "explication": "Message du cours." },
+      { "reponse": "Ne pas prescrire d'antibiotiques par réflexe", "explication": "Message du cours." },
+      { "reponse": "Se laver les mains avec une solution hydroalcoolique à l'hôpital", "explication": "Message du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'interrogatoire est secondaire, la biologie suffit", "explication": "L'interrogatoire est essentiel." },
+      { "reponse": "Les situations graves peuvent attendre les résultats biologiques", "explication": "Il faut les éliminer rapidement." },
+      { "reponse": "L'hygiène des mains n'est nécessaire qu'en bloc opératoire", "explication": "Elle est nécessaire partout à l'hôpital." }
+    ]
+  }
+]
