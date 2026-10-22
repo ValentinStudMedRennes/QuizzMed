@@ -8,5 +8,6 @@
   { "nom": "Rhumato", "fichier": "rhumato.json" },
   { "nom": "Scanner_IRM", "fichier": "Scanner_IRM.json" },
   { "nom": "Radiologie", "fichier": "Radiologie.json" },
-  { "nom": "Nouveau-Né et jeune enfant", "fichier": "neonat.json" }
+  { "nom": "Nouveau-Né et jeune enfant", "fichier": "neonat.json" },
+  { "nom": "Gynéco ", "fichier": "gyneco.json" }
 ]
