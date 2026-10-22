@@ -6,5 +6,7 @@
   { "nom": "fievre", "fichier": "fievre.json" },
   { "nom": "Pediatrie", "fichier": "pedia.json" },
   { "nom": "Rhumato", "fichier": "rhumato.json" },
-  { "nom": "Scanner_IRM", "fichier": "Scanner_IRM.json" }
+  { "nom": "Scanner_IRM", "fichier": "Scanner_IRM.json" },
+  { "nom": "Radiologie", "fichier": "Radiologie.json" },
+  { "nom": "Nouveau-Né et jeune enfant", "fichier": "neonat.json" }
 ]

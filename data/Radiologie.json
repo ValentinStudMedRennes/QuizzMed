@@ -1,0 +1,437 @@
+[
+  {
+    "question": "Concernant l'histoire de la radiologie, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Les rayons X ont été découverts par Röntgen en 1895", "explication": "Première radiographie : la main de sa femme." },
+      { "reponse": "Les imageries en coupe (échographie, scanner, IRM) sont apparues dans les années 70-80", "explication": "Apparition plus tardive." },
+      { "reponse": "La radiographie est passée de l'analogique au numérique dans les années 80-90", "explication": "Aujourd'hui, toute l'imagerie médicale est numérique." },
+      { "reponse": "Les scanners ont été numériques dès leur apparition", "explication": "L'image est reconstruite par un algorithme." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les rayons X ont été découverts par Hounsfield en 1895", "explication": "C'est Röntgen ; Hounsfield a inventé le scanner." },
+      { "reponse": "L'IRM existe depuis la fin du XIXe siècle", "explication": "Elle est apparue dans les années 70-80." },
+      { "reponse": "Les premiers scanners étaient analogiques", "explication": "Ils étaient numériques dès le départ." },
+      { "reponse": "La radiographie analogique est encore la règle aujourd'hui", "explication": "Toute l'imagerie est désormais numérique." }
+    ]
+  },
+  {
+    "question": "Quelles imageries médicales utilisent des rayons X ?",
+    "bonnes": [
+      { "reponse": "Artériographie carotidienne ou cérébrale", "explication": "Radiographie dynamique avec contraste." },
+      { "reponse": "Angioscanner aortique", "explication": "Le scanner utilise des rayons X." },
+      { "reponse": "Coronarographie", "explication": "Angiographie des coronaires." },
+      { "reponse": "Lavement baryté", "explication": "Radiographie avec opacification digestive." },
+      { "reponse": "Transit baryté œso-gastro-duodénal", "explication": "Radiographie avec opacification digestive." }
+    ],
+    "mauvaises": [
+      { "reponse": "Angio-IRM aortique", "explication": "L'IRM n'utilise pas de rayons X." },
+      { "reponse": "Échographie abdominale", "explication": "Elle utilise des ultrasons." },
+      { "reponse": "Écho-Doppler des carotides", "explication": "Il utilise des ultrasons." },
+      { "reponse": "IRM cérébrale", "explication": "Elle n'utilise pas de rayons X." }
+    ]
+  },
+  {
+    "question": "Concernant l'image radiologique, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Elle est acquise par exposition aux rayons X", "explication": "Principe." },
+      { "reponse": "Elle est ionisante, donc irradiante", "explication": "Principe." },
+      { "reponse": "C'est une imagerie de projection d'un volume sur un plan", "explication": "Contrairement au scanner, imagerie en coupe." },
+      { "reponse": "Elle peut utiliser une opacification par produit de contraste (cavités, vaisseaux)", "explication": "Ex : œsophage, rectum, voie veineuse." }
+    ],
+    "mauvaises": [
+      { "reponse": "La radiographie est une imagerie en coupe", "explication": "C'est une imagerie de projection." },
+      { "reponse": "La radiographie est non irradiante", "explication": "Elle utilise des rayons X ionisants." },
+      { "reponse": "La radiographie est plus irradiante que le scanner", "explication": "Le scanner est plus irradiant." },
+      { "reponse": "Tout médecin doit savoir interpréter toutes les imageries", "explication": "Il doit surtout connaître les indications et demander le bon examen." }
+    ]
+  },
+  {
+    "question": "Quels sont les éléments d'une table de radiologie ?",
+    "bonnes": [
+      { "reponse": "Le tube à rayons X, qui émet les rayons", "explication": "Élément 1." },
+      { "reponse": "Le collimateur, qui focalise le faisceau sur la région étudiée", "explication": "Élément 2." },
+      { "reponse": "Le capteur (détecteur), qui forme l'image", "explication": "Élément 3." },
+      { "reponse": "Un pupitre de commande derrière une vitre plombée", "explication": "Protège le manipulateur." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le collimateur détecte les photons", "explication": "C'est le capteur ; le collimateur focalise le faisceau." },
+      { "reponse": "Le capteur émet les rayons X", "explication": "C'est le tube." },
+      { "reponse": "La table ne peut être utilisée qu'en position couchée", "explication": "Elle peut être horizontale, verticale ou oblique." },
+      { "reponse": "Le pupitre est placé à côté du patient, sans protection", "explication": "Il est derrière une vitre plombée." }
+    ]
+  },
+  {
+    "question": "Concernant les rayons X, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Ce sont des rayonnements électromagnétiques", "explication": "Ondes caractérisées par leur fréquence." },
+      { "reponse": "Les faisceaux sont constitués de photons", "explication": "Particules sans masse." },
+      { "reponse": "Les photons se déplacent à la vitesse de la lumière", "explication": "Propriété des photons." },
+      { "reponse": "L'énergie d'un photon s'exprime en keV", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les rayons X sont des ondes ultrasonores", "explication": "Ce sont des ondes électromagnétiques." },
+      { "reponse": "Les photons ont une masse importante", "explication": "Ils sont dépourvus de masse." },
+      { "reponse": "Les rayons X sont des micro-ondes", "explication": "Ce sont des rayons X, pas des micro-ondes." },
+      { "reponse": "L'énergie d'un photon s'exprime en Tesla", "explication": "Elle s'exprime en keV ; le Tesla mesure un champ magnétique." }
+    ]
+  },
+  {
+    "question": "Concernant le tube à rayons X, quelles affirmations sont exactes ?",
+    "bonnes": [
+      { "reponse": "Les rayons X sont produits à partir d'électrons accélérés d'une cathode vers une anode", "explication": "Impact sur l'anode." },
+      { "reponse": "Un tube à rayons X doit être refroidi car il chauffe pendant les expositions", "explication": "Circuit à l'huile ou à l'eau." },
+      { "reponse": "Environ 1 % de l'énergie produit des rayons X, le reste devient de la chaleur", "explication": "Cité dans le cours." },
+      { "reponse": "L'anode tourne pour répartir la chaleur", "explication": "Pour éviter qu'elle ne fonde." },
+      { "reponse": "La cathode est en tungstène", "explication": "Elle émet les électrons quand elle est chauffée." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les rayons X sont produits à partir de protons accélérés d'une cathode vers une anode", "explication": "Ce sont des électrons, pas des protons." },
+      { "reponse": "Les rayons X sont produits à partir de protons accélérés d'une anode vers une cathode", "explication": "Ce sont des électrons, de la cathode vers l'anode." },
+      { "reponse": "Le tube ne chauffe pas", "explication": "Il produit énormément de chaleur." },
+      { "reponse": "99 % de l'énergie est convertie en rayons X", "explication": "Seulement environ 1 %." },
+      { "reponse": "Le tube est rempli d'air", "explication": "C'est un tube sous vide." }
+    ]
+  },
+  {
+    "question": "Concernant l'intensité (mA) et le kilovoltage (kV), quelles affirmations sont exactes ?",
+    "bonnes": [
+      { "reponse": "Le milliampérage (mA) détermine la quantité de photons émis", "explication": "Notion à bien savoir." },
+      { "reponse": "Le kilovoltage (kV) détermine l'énergie des photons, donc leur pouvoir de pénétration", "explication": "Notion à bien savoir." },
+      { "reponse": "Plus le kilovoltage est élevé, plus la pénétration est grande mais le contraste moindre", "explication": "Cité dans le cours." },
+      { "reponse": "La mammographie utilise un kilovoltage bas", "explication": "Le sein ne contient pas d'os." }
+    ],
+    "mauvaises": [
+      { "reponse": "La quantité de rayons X produite est fonction du voltage entre l'anode et la cathode", "explication": "La quantité dépend de l'intensité (mA) ; le voltage détermine l'énergie." },
+      { "reponse": "Le pouvoir pénétrant des rayons X est fonction des mA utilisés", "explication": "Il dépend du kilovoltage." },
+      { "reponse": "Une radiographie thoracique utilise un très faible kilovoltage", "explication": "Il faut traverser côtes et vertèbres : le kilovoltage est plus élevé qu'en mammographie." },
+      { "reponse": "Un kilovoltage bas donne moins de contraste", "explication": "Un kilovoltage bas donne plus de contraste." },
+      { "reponse": "La mammographie utilise un kilovoltage très élevé", "explication": "Elle utilise un kilovoltage bas." }
+    ]
+  },
+  {
+    "question": "Concernant l'absorption des rayons X par les tissus, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Plus une structure est dense, plus elle arrête les rayons X", "explication": "Ex : l'os." },
+      { "reponse": "Une partie des rayons est absorbée, une autre diffusée", "explication": "Cité dans le cours." },
+      { "reponse": "Le rayonnement diffusé ne sert pas à former l'image mais irradie le personnel", "explication": "D'où la nécessité de se protéger." },
+      { "reponse": "Le capteur évalue l'atténuation du faisceau", "explication": "Rôle du capteur." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les tissus peu denses arrêtent davantage les rayons X que l'os", "explication": "C'est l'os, plus dense, qui les arrête le plus." },
+      { "reponse": "Le rayonnement diffusé sert à former l'image", "explication": "Il ne participe pas à l'image." },
+      { "reponse": "Le rayonnement diffusé est sans danger pour le personnel", "explication": "Il irradie le personnel." },
+      { "reponse": "Tous les rayons X sont absorbés par le patient", "explication": "Une partie traverse, une partie est diffusée." }
+    ]
+  },
+  {
+    "question": "Concernant les capteurs en radiographie, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Les capteurs plans numériques sont aujourd'hui les plus utilisés", "explication": "L'image s'affiche immédiatement à l'écran." },
+      { "reponse": "Autrefois, on utilisait un film argentique lu sur un négatoscope", "explication": "Développé en chambre noire." },
+      { "reponse": "Les capteurs dynamiques permettent la fluoroscopie (radiographie dynamique)", "explication": "Succession d'images en continu." },
+      { "reponse": "La fluoroscopie est utilisée en radiologie interventionnelle", "explication": "Guidage de cathéters, biopsies, etc." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le capteur plan nécessite une cassette à développer", "explication": "Il n'y a plus de cassette." },
+      { "reponse": "La fluoroscopie est moins irradiante qu'une radiographie unique", "explication": "Le mode dynamique irradie davantage." },
+      { "reponse": "Le négatoscope est le support de lecture standard actuel", "explication": "Il a été abandonné au profit du numérique." },
+      { "reponse": "La fluoroscopie produit une seule image statique", "explication": "Elle produit une succession d'images (film)." }
+    ]
+  },
+  {
+    "question": "Concernant l'angiographie et la radiologie interventionnelle, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "L'angiographie visualise la circulation par injection de produit de contraste dans les vaisseaux", "explication": "Phénomène dynamique." },
+      { "reponse": "La coronarographie permet à la fois le diagnostic et le traitement de l'infarctus", "explication": "Cité dans le cours." },
+      { "reponse": "La radiologie interventionnelle regroupe les gestes diagnostiques ou thérapeutiques guidés par l'image", "explication": "Définition." },
+      { "reponse": "On peut emboliser des artères bronchiques en cas d'hémoptysie", "explication": "Exemple du cours." },
+      { "reponse": "On peut emboliser les artères utérines lors d'une hémorragie de la délivrance", "explication": "Préserve la fertilité." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'angiographie n'utilise pas de rayons X", "explication": "Elle en utilise." },
+      { "reponse": "L'artère cérébrale postérieure s'opacifie lors d'une injection carotidienne", "explication": "Elle dépend du système vertébro-basilaire." },
+      { "reponse": "L'angiographie se fait toujours par ponction de l'aorte", "explication": "On ponctionne habituellement l'artère fémorale ou radiale." },
+      { "reponse": "La radiologie interventionnelle est uniquement diagnostique", "explication": "Elle est aussi thérapeutique." }
+    ]
+  },
+  {
+    "question": "Concernant le scanner par rapport à la radiographie, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Le scanner est une imagerie en coupe, la radiographie une imagerie de projection", "explication": "Différence fondamentale." },
+      { "reponse": "Le couple tube-détecteurs tourne autour du patient pendant que la table avance", "explication": "Principe du scanner." },
+      { "reponse": "Le scanner est plus irradiant que la radiographie", "explication": "Il fait plusieurs centaines de coupes." },
+      { "reponse": "Une radiographie thoracique est moins irradiante qu'un scanner thoracique", "explication": "Question récurrente des annales." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une radiographie thoracique est plus irradiante qu'un scanner thoracique", "explication": "C'est l'inverse." },
+      { "reponse": "Le scanner est une imagerie de projection", "explication": "C'est une imagerie en coupe." },
+      { "reponse": "Le scanner ne comporte pas de tube à rayons X", "explication": "Il en comporte un." },
+      { "reponse": "La radiographie est une matrice 3D", "explication": "C'est le scanner." }
+    ]
+  },
+  {
+    "question": "Quels organes sont particulièrement sensibles aux rayons X ?",
+    "bonnes": [
+      { "reponse": "Gonades", "explication": "Très sensibles." },
+      { "reponse": "Thyroïde", "explication": "Sensible." },
+      { "reponse": "Glande mammaire", "explication": "Sensible." },
+      { "reponse": "Poumons et œsophage", "explication": "Sensibles." }
+    ],
+    "mauvaises": [
+      { "reponse": "Os", "explication": "Peu radiosensible." },
+      { "reponse": "Muscles", "explication": "Peu radiosensibles." },
+      { "reponse": "Tous les organes ont la même sensibilité", "explication": "La sensibilité varie selon l'organe." }
+    ]
+  },
+  {
+    "question": "Concernant les unités de dose, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "La dose absorbée s'exprime en Gray (Gy), en pratique en mGy", "explication": "Elle ne tient pas compte du type de rayonnement." },
+      { "reponse": "La dose efficace tient compte de la sensibilité des tissus et s'exprime en Sievert", "explication": "Facteur de pondération." },
+      { "reponse": "En médecine, on utilise le millisievert (mSv)", "explication": "Unité de base de la dose en médecine." },
+      { "reponse": "La dose effective délivrée par des rayons X à un organe s'exprime en millisievert", "explication": "Annales." }
+    ],
+    "mauvaises": [
+      { "reponse": "La dose efficace s'exprime en Gray", "explication": "Elle s'exprime en Sievert ; le Gray mesure la dose absorbée." },
+      { "reponse": "La dose absorbée tient compte de la sensibilité des organes", "explication": "C'est la dose efficace." },
+      { "reponse": "En médecine, on raisonne habituellement en Sieverts entiers", "explication": "On raisonne en mSv." },
+      { "reponse": "La dose s'exprime en unités Hounsfield", "explication": "Les UH mesurent la densité au scanner." }
+    ]
+  },
+  {
+    "question": "Concernant les indicateurs de dose en radiologie et au scanner, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "En radiographie, on utilise le PDS (produit dose surface), en mGy·cm²", "explication": "Imagerie de projection." },
+      { "reponse": "Au scanner, le CTDI est la dose délivrée pour une coupe (mGy)", "explication": "CT dose index." },
+      { "reponse": "Le PDL (ou DLP) = CTDI × longueur explorée, en mGy·cm", "explication": "Produit dose longueur." },
+      { "reponse": "La dose efficace = PDL × facteur de conversion k propre à la région anatomique", "explication": "Résultat en mSv." },
+      { "reponse": "CT signifie computed tomography (scanner)", "explication": "À savoir." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le PDL = CTDI + longueur explorée", "explication": "C'est une multiplication." },
+      { "reponse": "Le PDS est l'indicateur de dose du scanner", "explication": "C'est l'indicateur de la radiographie ; au scanner, on utilise CTDI et PDL." },
+      { "reponse": "Le PDL s'exprime en mGy·cm²", "explication": "Il s'exprime en mGy·cm ; le mGy·cm² concerne le PDS." },
+      { "reponse": "Le CTDI correspond à la dose totale de l'examen", "explication": "C'est la dose par coupe." },
+      { "reponse": "CT signifie contrast tomography", "explication": "CT = computed tomography." }
+    ]
+  },
+  {
+    "question": "Concernant l'irradiation naturelle, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "L'irradiation naturelle moyenne annuelle en France est d'environ 2,4 mSv par habitant", "explication": "À retenir (QCM++)." },
+      { "reponse": "Elle se situe entre 2 et 3 mSv par habitant en France", "explication": "Cohérent avec 2,4 mSv." },
+      { "reponse": "À Rennes, elle est de l'ordre de 3 mSv par an", "explication": "Cité dans le cours." },
+      { "reponse": "Elle est plus importante au Népal qu'en France", "explication": "L'irradiation cosmique augmente avec l'altitude." },
+      { "reponse": "Plus le sol est granitique, plus l'irradiation tellurique est élevée", "explication": "Ex : Brest plus que Rennes." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'irradiation naturelle en France est de l'ordre de 2,4 Sv par habitant", "explication": "Elle est de 2,4 mSv (mille fois moins)." },
+      { "reponse": "L'irradiation naturelle au Népal est d'environ 240 Sv par habitant", "explication": "Ordre de grandeur absurde : on parle de quelques mSv." },
+      { "reponse": "L'irradiation naturelle en Bolivie se situe entre 20 et 30 Sv par habitant", "explication": "Ordre de grandeur absurde (Sv au lieu de mSv)." },
+      { "reponse": "L'irradiation naturelle annuelle à Rennes est de l'ordre de 50 mGy", "explication": "Elle est d'environ 3 mSv." },
+      { "reponse": "L'irradiation cosmique diminue avec l'altitude", "explication": "Elle augmente avec l'altitude." },
+      { "reponse": "L'irradiation naturelle est identique partout en France", "explication": "Elle varie selon le sol (tellurique)." }
+    ]
+  },
+  {
+    "question": "Concernant les doses des examens radiologiques, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Une radiographie thoracique délivre environ 0,1 mSv", "explication": "Valeur du cours." },
+      { "reponse": "Une radiographie thoracique représente de l'ordre d'une semaine d'irradiation naturelle", "explication": "Comparaison du cours (QCM+++)." },
+      { "reponse": "Un scanner du corps entier équivaut à environ 6 mois à 1 an d'irradiation naturelle", "explication": "Comparaison du cours." },
+      { "reponse": "Une radiographie du rachis délivre environ 1,5 mSv", "explication": "Vertèbres denses : plus de rayons nécessaires." },
+      { "reponse": "Il existe des scanners thoraciques basse dose, proches d'une radiographie", "explication": "Futur dépistage du cancer du poumon." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une radiographie thoracique équivaut à 20 à 30 ans d'irradiation naturelle", "explication": "Elle équivaut à environ une semaine." },
+      { "reponse": "Une radiographie thoracique est équivalente à 5 ans d'irradiation naturelle", "explication": "Elle équivaut à environ une semaine." },
+      { "reponse": "Un scanner abdominal délivre aujourd'hui 15 mSv", "explication": "Le cours précise que c'est dépassé : 3 à 5 mSv au maximum." },
+      { "reponse": "Une radiographie thoracique délivre environ 10 mSv", "explication": "Environ 0,1 mSv." }
+    ]
+  },
+  {
+    "question": "Concernant les effets des rayonnements ionisants, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Les effets déterministes sont précoces et dose-dépendants", "explication": "Liés à de fortes doses." },
+      { "reponse": "Les effets déterministes peuvent être des brûlures cutanées ou une alopécie", "explication": "Annales." },
+      { "reponse": "Les effets stochastiques (aléatoires) peuvent être des cancers", "explication": "Apparaissent après 10-15 ans." },
+      { "reponse": "L'effet des radiations est cumulatif", "explication": "Plus on est irradié au fil du temps, plus le risque de cancer augmente." },
+      { "reponse": "Le risque des faibles doses médicales est mal connu et extrapolé", "explication": "Modèles issus de Tchernobyl, Hiroshima." }
+    ],
+    "mauvaises": [
+      { "reponse": "Les effets stochastiques apparaissent dans les jours suivant l'exposition", "explication": "Ce sont les effets déterministes." },
+      { "reponse": "Les effets déterministes apparaissent 10-15 ans après", "explication": "Ce sont les effets stochastiques." },
+      { "reponse": "Il y a un risque de brûlure cutanée quand on est faiblement exposé", "explication": "Les brûlures (déterministes) surviennent à fortes doses." },
+      { "reponse": "Il n'y a aucun risque de cancer radio-induit, même avec de nombreux examens irradiants", "explication": "L'effet est cumulatif ; le risque existe." },
+      { "reponse": "Les effets stochastiques sont parfaitement quantifiés pour les faibles doses", "explication": "Ils sont mal connus et extrapolés." }
+    ]
+  },
+  {
+    "question": "Concernant l'imagerie chez l'enfant, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "L'enfant est plus sensible aux rayons X", "explication": "Cité dans le cours." },
+      { "reponse": "On privilégie l'échographie et l'IRM (non ionisantes)", "explication": "Cité dans le cours." },
+      { "reponse": "Le scanner est utilisé en dernier recours", "explication": "Le risque stochastique diminue avec l'âge." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le scanner est l'examen de première intention chez l'enfant", "explication": "On privilégie les techniques non ionisantes." },
+      { "reponse": "L'enfant est moins sensible aux rayons X que l'adulte", "explication": "Il est plus sensible." },
+      { "reponse": "L'échographie est contre-indiquée chez l'enfant", "explication": "Elle est privilégiée." }
+    ]
+  },
+  {
+    "question": "Quels sont les 3 principes de la radioprotection ?",
+    "bonnes": [
+      { "reponse": "Justifier : l'examen est-il indiqué et modifiera-t-il la prise en charge ?", "explication": "Rapport bénéfice-risque." },
+      { "reponse": "Substituer : peut-on répondre par une technique pas ou peu irradiante ?", "explication": "Échographie, IRM." },
+      { "reponse": "Minimiser : principe ALARA (As Low As Reasonably Achievable)", "explication": "Dose la plus basse possible permettant de répondre." }
+    ],
+    "mauvaises": [
+      { "reponse": "Maximiser la dose pour obtenir la meilleure image possible", "explication": "On minimise la dose (ALARA), même si l'image est moins belle." },
+      { "reponse": "ALARA signifie « As Large As Reasonably Achievable »", "explication": "ALARA = As Low As Reasonably Achievable." },
+      { "reponse": "Répéter l'examen systématiquement pour confirmer", "explication": "Ce n'est pas un principe de radioprotection." },
+      { "reponse": "Un examen qui ne modifie pas la prise en charge doit quand même être fait", "explication": "Il n'est alors pas justifié." }
+    ]
+  },
+  {
+    "question": "Concernant l'exposition du personnel aux rayons X, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Le rayonnement diffusé vient essentiellement du patient (effet Compton)", "explication": "Cité dans le cours." },
+      { "reponse": "Un opérateur présent dans la salle doit être protégé par un tablier ou un paravent plombé", "explication": "Protection plombée." },
+      { "reponse": "Un dosimètre doit être porté par les opérateurs présents dans la salle", "explication": "Suivi permanent." },
+      { "reponse": "Il ne faut jamais mettre sa main sous le faisceau primaire", "explication": "Rayonnement direct." },
+      { "reponse": "L'irradiation est inversement proportionnelle au carré de la distance", "explication": "Divisée par 4 quand la distance double." }
+    ],
+    "mauvaises": [
+      { "reponse": "L'opérateur n'est exposé que si une partie de son corps est dans le faisceau", "explication": "Il est aussi exposé au rayonnement diffusé." },
+      { "reponse": "Le rayonnement diffusé apparaît immédiatement après la fin de la radiographie", "explication": "Il n'existe que pendant l'acquisition, sans rémanence." },
+      { "reponse": "Au-delà d'un mètre du patient, aucune protection n'est nécessaire", "explication": "La dose diminue avec la distance mais la protection reste nécessaire." },
+      { "reponse": "L'exposition aux radiations est sans conséquence pour le personnel", "explication": "Elle a un effet cumulatif." },
+      { "reponse": "Doubler la distance divise l'irradiation par 2", "explication": "Elle est divisée par 4." }
+    ]
+  },
+  {
+    "question": "Concernant l'image numérique, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Une image numérique est une matrice de pixels (voxels en 3D)", "explication": "Définition." },
+      { "reponse": "Une coupe de scanner fait environ 512 × 512 pixels", "explication": "Soit moins d'un mégapixel." },
+      { "reponse": "Une radiographie pulmonaire fait environ 4096 × 4096 pixels", "explication": "Résolution meilleure qu'une coupe de scanner." },
+      { "reponse": "Chaque pixel est codé sur environ 2 octets", "explication": "Une coupe de scanner pèse environ 0,5 Mo." },
+      { "reponse": "Chaque niveau de gris correspond à un coefficient d'absorption des rayons X", "explication": "Permet de différencier les structures." }
+    ],
+    "mauvaises": [
+      { "reponse": "Une coupe de scanner a une meilleure résolution qu'une radiographie pulmonaire", "explication": "La radiographie (4096²) a plus de pixels que la coupe de scanner (512²)." },
+      { "reponse": "Une image de scanner contient plusieurs dizaines de mégapixels", "explication": "512 × 512 représente environ 0,26 mégapixel." },
+      { "reponse": "Une radiographie fait 512 × 512 pixels", "explication": "Elle fait environ 4096 × 4096." },
+      { "reponse": "Une coupe de scanner pèse 32 Mo", "explication": "Environ 0,5 Mo ; 32 Mo correspond à une radiographie 4096²." }
+    ]
+  },
+  {
+    "question": "Que signifie l'acronyme DICOM ?",
+    "bonnes": [
+      { "reponse": "Digital Imaging and Communications in Medicine", "explication": "Format informatique de l'image médicale." }
+    ],
+    "mauvaises": [
+      { "reponse": "Digital Image Compression for Medical use", "explication": "Signification erronée." },
+      { "reponse": "Data Imaging Computer Organization in Medicine", "explication": "Signification erronée." },
+      { "reponse": "Picture Archiving and Communication System", "explication": "C'est le PACS." },
+      { "reponse": "Digital Iconography of Computed Organ Measurement", "explication": "Signification erronée." }
+    ]
+  },
+  {
+    "question": "Concernant le format DICOM, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est le format informatique des images médicales (équivalent du JPEG)", "explication": "Définition." },
+      { "reponse": "Il contient des métadonnées (patient, technique, kV, mA, matériel)", "explication": "Pas seulement l'image." },
+      { "reponse": "Un lecteur DICOM est nécessaire pour visualiser les images", "explication": "Cité dans le cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Il ne contient que l'image, sans autre information", "explication": "Il contient aussi des métadonnées." },
+      { "reponse": "C'est le serveur d'archivage de l'hôpital", "explication": "C'est le PACS." },
+      { "reponse": "Les images médicales se font au format MULTIMED", "explication": "Elles se font au format DICOM." },
+      { "reponse": "Une image DICOM s'ouvre avec n'importe quelle visionneuse photo", "explication": "Il faut un lecteur DICOM." }
+    ]
+  },
+  {
+    "question": "Quelle est la signification de l'acronyme PACS ? (une seule réponse)",
+    "bonnes": [
+      { "reponse": "Picture Archiving and Communication System", "explication": "Serveur d'archivage des images." }
+    ],
+    "mauvaises": [
+      { "reponse": "Photon Array and Computed Scanography", "explication": "Signification erronée (annales)." },
+      { "reponse": "Product Available Contrast Supply", "explication": "Signification erronée (annales)." },
+      { "reponse": "Pixel Anonymous Conventional Search", "explication": "Signification erronée (annales)." },
+      { "reponse": "Photography Assistance in Computer Surgery", "explication": "Signification erronée (annales)." }
+    ]
+  },
+  {
+    "question": "Concernant le PACS, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "C'est le serveur d'une institution qui regroupe toutes les données d'imagerie", "explication": "Définition." },
+      { "reponse": "Il représente des volumes très importants (téraoctets, voire pétaoctets)", "explication": "Ex : CHU de Rennes." },
+      { "reponse": "Il nécessite un archivage sécurisé, rapide et redondant", "explication": "Données très sensibles." },
+      { "reponse": "Il permet le suivi dans le temps d'un patient (antériorité)", "explication": "Environ 15 ans d'antériorité à Rennes." }
+    ],
+    "mauvaises": [
+      { "reponse": "C'est le format de fichier des images médicales", "explication": "C'est le DICOM." },
+      { "reponse": "Il ne conserve les images que quelques jours", "explication": "Il permet un suivi sur de nombreuses années." },
+      { "reponse": "Il ne contient pas de données sensibles", "explication": "Il contient les données médicales de toute une population." }
+    ]
+  },
+  {
+    "question": "Concernant les produits de contraste iodés, quelles propositions sont exactes ?",
+    "bonnes": [
+      { "reponse": "Ils sont injectés le plus souvent par voie intraveineuse", "explication": "Cité dans le cours." },
+      { "reponse": "Ils passent d'abord dans les vaisseaux puis dans le secteur interstitiel", "explication": "Cité dans le cours." },
+      { "reponse": "Ils ne passent pas la barrière hémato-encéphalique, sauf en situation pathologique", "explication": "Cité dans le cours." },
+      { "reponse": "Une réaction allergique à un produit iodé peut être mortelle", "explication": "Choc anaphylactique, très rare." },
+      { "reponse": "Les accidents graves sont rares : environ 1 pour 100 000 injections", "explication": "Chiffre du cours." }
+    ],
+    "mauvaises": [
+      { "reponse": "Le produit de contraste ne diffuse pas dans l'espace interstitiel", "explication": "Il passe dans le secteur interstitiel." },
+      { "reponse": "Les allergies aux produits iodés sont des allergies à l'iode", "explication": "C'est une allergie à la molécule de contraste." },
+      { "reponse": "Un patient allergique aux fruits de mer ne peut pas recevoir de produit iodé", "explication": "Ce n'est pas une contre-indication." },
+      { "reponse": "En cas de risque rénal, il faut réduire les apports hydriques", "explication": "Il faut au contraire bien hydrater le patient." },
+      { "reponse": "Les réactions allergiques graves sont fréquentes", "explication": "Elles sont très rares ; les éruptions cutanées bénignes sont plus fréquentes." }
+    ]
+  },
+  {
+    "question": "Quels terrains exposent à une néphrotoxicité des produits de contraste iodés ?",
+    "bonnes": [
+      { "reponse": "Diabète", "explication": "Maladie préexistante citée." },
+      { "reponse": "Hypertension artérielle", "explication": "Maladie préexistante citée." },
+      { "reponse": "Altération préalable de la fonction rénale", "explication": "Terrain à risque." }
+    ],
+    "mauvaises": [
+      { "reponse": "Jeune âge sans antécédent", "explication": "Pas un terrain à risque." },
+      { "reponse": "Allergie aux fruits de mer", "explication": "Sans lien avec la néphrotoxicité." },
+      { "reponse": "Bonne hydratation", "explication": "Elle est protectrice." }
+    ]
+  },
+  {
+    "question": "Lors d'un uroscanner, que voit-on selon le temps après injection ?",
+    "bonnes": [
+      { "reponse": "20-30 secondes : opacification de l'aorte et des artères rénales", "explication": "Temps artériel." },
+      { "reponse": "Environ 60 secondes : cortex et médullaire rénaux visibles", "explication": "Temps néphrographique." },
+      { "reponse": "3 à 5 minutes : lavage du cortex et excrétion du produit", "explication": "Temps tardif excrétoire." }
+    ],
+    "mauvaises": [
+      { "reponse": "20-30 secondes : excrétion dans les voies urinaires", "explication": "L'excrétion est tardive (3-5 min)." },
+      { "reponse": "3 à 5 minutes : opacification de l'aorte", "explication": "L'aorte s'opacifie à 20-30 s." },
+      { "reponse": "Le produit est excrété immédiatement dès l'injection", "explication": "Il est excrété après quelques minutes." }
+    ]
+  },
+  {
+    "question": "Quelles radiographies standards restent couramment utilisées ?",
+    "bonnes": [
+      { "reponse": "Radiographie thoracique", "explication": "Contraste naturel avec l'air, très faible dose." },
+      { "reponse": "Radiographie osseuse pour les fractures", "explication": "Pratique en ostéoarticulaire." },
+      { "reponse": "Radiographies avec opacification (digestive, urinaire)", "explication": "Encore réalisées." }
+    ],
+    "mauvaises": [
+      { "reponse": "La radiographie thoracique a complètement disparu", "explication": "Elle reste très utilisée." },
+      { "reponse": "La radiographie thoracique nécessite une forte dose de rayons X", "explication": "La dose est très faible." },
+      { "reponse": "Les fractures ne se voient pas en radiographie", "explication": "La radiographie est très utile pour les fractures." }
+    ]
+  }
+]
