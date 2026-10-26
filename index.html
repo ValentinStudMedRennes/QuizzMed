@@ -4,26 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QCM de révision</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 <main>
 <h1>QCM de révision</h1>
 <div id="curtheme" class="curtheme"></div>
-<p class="sub">Choisis un thème : le site génère un QCM aléatoire, avec 0 à 5 bonnes réponses par question.</p>
+<div id="curdesc" class="hint"></div>
+<p class="sub">Choisis un ou plusieurs thèmes, ou des chapitres précis, puis lance un QCM aléatoire.</p>
 <div id="load" class="hint">Chargement des questions…</div>
 
 <section id="setup">
-<div class="card">
-<strong>1. Thème</strong>
-<div class="themes" id="themes"></div>
+<div class="card" id="home">
+<div class="rowhead"><strong>Thèmes</strong><span><button class="link" id="selall">Tout sélectionner</button> <button class="link" id="selnone">Tout désélectionner</button></span></div>
+<div class="hint">Coche un thème pour tout inclure, ou clique sur son nom pour choisir ses sections et ses chapitres.</div>
+<div id="themelist"></div>
+</div>
+<div class="card hidden" id="themeview">
+<div class="rowhead"><button class="alt small" id="tback">← Tous les thèmes</button><span><button class="link" id="chall">Tout sélectionner</button> <button class="link" id="chnone">Tout désélectionner</button></span></div>
+<div id="chaplist"></div>
 </div>
 <div class="card">
-<strong>2. Options</strong>
+<strong>Options</strong>
 <div class="row">Nombre de questions : <input type="number" id="nq" value="5" min="1"> <span class="hint" id="max"></span></div>
 <div class="row">Nombre de réponses possibles : <input type="number" id="total" value="5" min="2"></div>
 <div class="row">Nombre maximum de bonnes réponses : <input type="number" id="kmax" value="5" min="0"></div>
-<button id="start">Générer le QCM</button>
+<div class="hint" id="selinfo"></div>
+<div class="row"><button id="start">Lancer le QCM sélectionné</button></div>
 <div id="err" class="res" style="color:var(--ko)"></div>
 </div>
 </section>
@@ -33,6 +40,7 @@
 <div class="legend">Carré blanc : pas encore répondu (pointillés : passé) · vert : juste · rouge : faux</div>
 <div class="card">
 <div class="hint" id="count"></div>
+<div class="qtags" id="qtags"></div>
 <h2 id="q" style="font-size:1.2rem"></h2>
 <div class="hint">Coche toutes les bonnes réponses.</div>
 <div id="opts"></div>
@@ -48,10 +56,10 @@
 
 <section id="end" class="hidden">
 <div class="card"><h2 id="score"></h2><div id="unans" class="hint"></div><div id="miss" class="hint" style="margin-top:6px"></div>
-<div class="row"><button id="review">Revoir les questions</button><button class="alt" id="again">Refaire un QCM</button><button class="alt" id="back">Changer de thème</button></div></div>
+<div class="row"><button id="review">Revoir les questions</button><button class="alt" id="again">Refaire un QCM</button><button class="alt" id="back">Retour aux thèmes</button></div></div>
 </section>
 </main>
 
-<script src="script.js"></script>
+<script src="script.js?v=7"></script>
 </body>
 </html>

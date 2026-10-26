@@ -1,13 +1,4 @@
 [
-  { "nom": "Dermato", "fichier": "dermato.json" },
-  { "nom": "Cardio", "fichier": "Cardio.json" },
-  { "nom": "Pneumo", "fichier": "Pneumo.json" },
-  { "nom": "uro", "fichier": "uro.json" },
-  { "nom": "fievre", "fichier": "fievre.json" },
-  { "nom": "Pediatrie", "fichier": "pedia.json" },
-  { "nom": "Rhumato", "fichier": "rhumato.json" },
-  { "nom": "Scanner_IRM", "fichier": "Scanner_IRM.json" },
-  { "nom": "Radiologie", "fichier": "Radiologie.json" },
-  { "nom": "Nouveau-Né et jeune enfant", "fichier": "neonat.json" },
-  { "nom": "Gynéco ", "fichier": "gyneco.json" }
+  "embryologie_appareil_respiratoire.json",
+  "cardio-vasculaire-physiologie.json"
 ]
