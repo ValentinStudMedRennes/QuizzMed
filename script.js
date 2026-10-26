@@ -106,6 +106,7 @@ function item(o){   // une ligne : case à cocher, titre cliquable, nombre de QC
   if(o.sub){const x=document.createElement("small");x.textContent=o.sub;m.append(x)}
   const n=document.createElement("span");n.className="cnt";n.textContent=o.count+" QCM";
   const p=document.createElement("button");p.className="play";p.textContent="▶ Lancer";p.disabled=o.count===0;p.onclick=o.onPlay;
+  if(o.chev){const v=document.createElement("button");v.className="chev";v.textContent=o.chev;v.setAttribute("aria-expanded",o.chev==="▾");v.onclick=e=>{e.stopPropagation();o.onChev()};d.append(v)}
   d.append(c,m,n,p);return d;
 }
 function refresh(){view?renderTheme():renderHome()}
@@ -130,16 +131,21 @@ function renderHome(){
   });
   refreshInfo();
 }
+const open=new Set();   // sections dépliées (fermées par défaut)
+function toggleOpen(sec){open.has(sec)?open.delete(sec):open.add(sec);renderTheme()}
 function renderTheme(){
   const L=$("chaplist");L.innerHTML="";
+  $("expbtns").classList.toggle("hidden",!view.sections.some(s=>s.show));
   view.sections.forEach(sec=>{
+    const opened=!sec.show||open.has(sec);   // sans en-tête de section, les chapitres sont toujours visibles
     if(sec.show){
       const n=sec.chapitres.filter(c=>sel.has(c)).length,tot=sec.chapitres.length;
-      L.append(item({cls:"sec",checked:n===tot,partial:n>0&&n<tot,title:sec.nom,sub:sec.description,count:qcount(sec.chapitres),
+      L.append(item({cls:"sec",chev:opened?"▾":"▸",onChev:()=>toggleOpen(sec),checked:n===tot,partial:n>0&&n<tot,title:sec.nom,
+        sub:[sec.description,tot+" chapitre(s)",n>0?n+" coché(s)":""].filter(Boolean).join(" · "),count:qcount(sec.chapitres),
         onToggle:e=>{setAll(sec.chapitres,e.target.checked);refresh()},
-        onMain:()=>{setAll(sec.chapitres,n!==tot);refresh()},onPlay:()=>launch(sec.chapitres)}));
+        onMain:()=>toggleOpen(sec),onPlay:()=>launch(sec.chapitres)}));
     }
-    sec.chapitres.forEach(c=>L.append(item({
+    if(opened)sec.chapitres.forEach(c=>L.append(item({
       cls:sec.show?"indent":"",checked:sel.has(c),title:c.titre,count:c.questions.length,
       onToggle:e=>{setAll([c],e.target.checked);refresh()},
       onMain:()=>{setAll([c],!sel.has(c));refresh()},onPlay:()=>launch([c])
@@ -283,6 +289,8 @@ $("back").onclick=()=>{$("end").classList.add("hidden");$("setup").classList.rem
 $("tback").onclick=showHome;
 $("selall").onclick=()=>{setAll(allChaps(),true);refresh()};
 $("selnone").onclick=()=>{sel.clear();refresh()};
+$("expall").onclick=()=>{view.sections.forEach(s=>open.add(s));renderTheme()};
+$("colall").onclick=()=>{view.sections.forEach(s=>open.delete(s));renderTheme()};
 $("chall").onclick=()=>{setAll(view.chapitres,true);refresh()};
 $("chnone").onclick=()=>{setAll(view.chapitres,false);refresh()};
 init();
