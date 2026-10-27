@@ -4,43 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QCM de révision</title>
-<link rel="stylesheet" href="style.css?v=8">
+<link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
 <main>
 <h1>QCM de révision</h1>
 <div id="curtheme" class="curtheme"></div>
 <div id="curdesc" class="hint"></div>
-<p class="sub">Choisis un ou plusieurs thèmes, ou des chapitres précis, puis lance un QCM aléatoire.</p>
+<p class="sub" id="sub">Choisis ce que tu veux réviser, puis lance un QCM aléatoire.</p>
 <div id="load" class="hint">Chargement des questions…</div>
 
-<section id="setup">
-<div class="card" id="home">
-<div class="rowhead"><strong>Thèmes</strong><span><button class="link" id="selall">Tout sélectionner</button> <button class="link" id="selnone">Tout désélectionner</button></span></div>
-<div class="hint">Coche un thème pour tout inclure, ou clique sur son nom pour choisir ses sections et ses chapitres.</div>
-<div id="themelist"></div>
+<section id="setup" class="split">
+<div class="card" id="tree">
+<div class="rowhead"><strong>Thèmes, sections et chapitres</strong>
+<span><button class="link" id="expall">Tout déplier</button><button class="link" id="colall">Tout replier</button><button class="link" id="selall">Tout cocher</button><button class="link" id="selnone">Tout décocher</button></span></div>
+<div class="tip">La flèche <b>ouvre ou ferme</b> un groupe. La case à cocher <b>sélectionne</b> tout ce qu’il contient. « ▶ Lancer » démarre tout de suite un QCM sur la ligne.</div>
+<div id="treelist"></div>
 </div>
-<div class="card hidden" id="themeview">
-<div class="rowhead"><button class="alt small" id="tback">← Tous les thèmes</button><span><span id="expbtns"><button class="link" id="expall">Tout déplier</button> <button class="link" id="colall">Tout replier</button> · </span><button class="link" id="chall">Tout sélectionner</button> <button class="link" id="chnone">Tout désélectionner</button></span></div>
-<div id="chaplist"></div>
-</div>
-<div class="card">
-<strong>Options</strong>
-<div class="row">Nombre de questions : <input type="number" id="nq" value="5" min="1"> <span class="hint" id="max"></span></div>
-<div class="row">Nombre de réponses possibles : <input type="number" id="total" value="5" min="2"></div>
-<div class="row">Nombre maximum de bonnes réponses : <input type="number" id="kmax" value="5" min="0"></div>
+
+<aside class="card" id="panel">
+<strong>Ton QCM</strong>
 <div class="hint" id="selinfo"></div>
-<div class="row"><button id="start">Lancer le QCM sélectionné</button></div>
+<div id="chips" class="chips"></div>
+<details id="settings" open>
+<summary>Réglages</summary>
+<div class="stepper"><label for="nq">Nombre de questions</label><span><button class="step" data-for="nq" data-d="-1" aria-label="Moins de questions">−</button><input type="number" id="nq" value="5" min="1"><button class="step" data-for="nq" data-d="1" aria-label="Plus de questions">+</button></span></div>
+<div class="stepper"><label for="total">Réponses par question</label><span><button class="step" data-for="total" data-d="-1" aria-label="Moins de réponses">−</button><input type="number" id="total" value="5" min="2"><button class="step" data-for="total" data-d="1" aria-label="Plus de réponses">+</button></span></div>
+<div class="stepper"><label for="kmax">Bonnes réponses au maximum</label><span><button class="step" data-for="kmax" data-d="-1" aria-label="Moins de bonnes réponses">−</button><input type="number" id="kmax" value="5" min="0"><button class="step" data-for="kmax" data-d="1" aria-label="Plus de bonnes réponses">+</button></span></div>
+</details>
+<button id="start" class="big">Lancer le QCM</button>
 <div id="err" class="res" style="color:var(--ko)"></div>
-</div>
+</aside>
 </section>
 
 <section id="quiz" class="hidden">
+<div class="qlayout">
+<div class="qmain">
 <div id="nav"></div>
-<div class="legend">Carré blanc : pas encore répondu (pointillés : passé) · vert : juste · rouge : faux</div>
+<div class="legend">Contour pointillé : passée · vert : juste · rouge : faux · contour épais : question affichée</div>
 <div class="card">
 <div class="hint" id="count"></div>
-<div class="qtags" id="qtags"></div>
+<div class="qhead"><div class="qtags" id="qtags"></div><button class="alt cbtn hidden" id="seecourse">Voir dans le cours</button></div>
 <h2 id="q" style="font-size:1.2rem"></h2>
 <div class="hint">Coche toutes les bonnes réponses.</div>
 <div id="opts"></div>
@@ -52,14 +56,21 @@
 <button class="alt" id="finish">Terminer</button>
 </div>
 </div>
+</div>
+<aside id="course" class="hidden" aria-label="Cours">
+<div class="chead"><div id="cname"></div><button id="cprev" aria-label="Page précédente">‹</button><span id="cpage"></span><button id="cnext" aria-label="Page suivante">›</button><button id="cclose" aria-label="Fermer le cours">×</button></div>
+<div id="cnote" class="hint"></div>
+<div id="pdfbody"><div id="pdfpage"></div></div>
+</aside>
+</div>
 </section>
 
 <section id="end" class="hidden">
-<div class="card"><h2 id="score"></h2><div id="unans" class="hint"></div><div id="miss" class="hint" style="margin-top:6px"></div>
+<div class="card endcard"><h2 id="score"></h2><div id="unans" class="hint"></div><div id="miss" class="hint" style="margin-top:6px"></div>
 <div class="row"><button id="review">Revoir les questions</button><button class="alt" id="again">Refaire un QCM</button><button class="alt" id="back">Retour aux thèmes</button></div></div>
 </section>
 </main>
 
-<script src="script.js?v=8"></script>
+<script src="script.js?v=9"></script>
 </body>
 </html>

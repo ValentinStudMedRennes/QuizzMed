@@ -1,0 +1,3998 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Physiologie",
+    "titre": "Mécanique cardiaque et hémodynamique cardiovasculaire",
+    "description": "Propriétés mécaniques du cardiomyocyte, couplage excitation-contraction, cycle cardiaque, courbe pression-volume, précharge/postcharge, débit cardiaque et hémodynamique.",
+    "cours": {
+      "fichier": "cours/cardio-physio-mecahemo.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Propriétés des cellules cardiaques"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant la répartition des cellules cardiaques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "représentent 99 % des cellules du myocarde"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules contractiles représentent environ 99 % des cellules du myocarde.",
+              "explication": "Elles assurent l'essentiel du travail du cœur."
+            },
+            {
+              "reponse": "Les cellules spécialisées dans la conduction de l'influx représentent environ 1 % des cellules du myocarde.",
+              "explication": "Ce sont en particulier les cellules nodales."
+            },
+            {
+              "reponse": "Toutes les cellules cardiaques ont une activité électrique, mais elles sont plus ou moins spécialisées.",
+              "explication": "C'est la spécialisation qui diffère."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules nodales représentent 99 % des cellules du myocarde.",
+              "explication": "Elles ne sont que 1 %."
+            },
+            {
+              "reponse": "Les cellules contractiles ne représentent que 1 % des cellules du myocarde.",
+              "explication": "Elles en représentent 99 %."
+            },
+            {
+              "reponse": "Seules les cellules nodales possèdent une activité électrique.",
+              "explication": "Toutes les cellules cardiaques ont une activité électrique."
+            },
+            {
+              "reponse": "Les cellules nodales assurent l'essentiel de la contraction du myocarde.",
+              "explication": "La contraction est assurée par les cellules myocardiques banales."
+            },
+            {
+              "reponse": "Les cellules nodales ne jouent aucun rôle dans la régulation de la contraction cardiaque.",
+              "explication": "Elles permettent de réguler la contraction."
+            },
+            {
+              "reponse": "Les cellules contractiles sont les cellules spécialisées dans la conduction de l'influx électrique.",
+              "explication": "La conduction relève des cellules nodales."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-001"
+        },
+        {
+          "type": "qcm",
+          "question": "Quelles propriétés caractérisent les cellules nodales ?",
+          "cours": {
+            "page": 2,
+            "surligner": "interviennent donc dans l'excitabilité, l'automatisme et la conduction"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'excitabilité.",
+              "explication": "Propriété très marquée (+++) des cellules nodales."
+            },
+            {
+              "reponse": "L'automatisme.",
+              "explication": "Propriété très marquée (+++) : elles génèrent l'influx."
+            },
+            {
+              "reponse": "La conduction de l'influx électrique.",
+              "explication": "Propriété très marquée (+++)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une contractilité très marquée.",
+              "explication": "Contractilité nulle (0) pour les cellules nodales."
+            },
+            {
+              "reponse": "Une distensibilité importante.",
+              "explication": "Distensibilité nulle (0) pour les cellules nodales."
+            },
+            {
+              "reponse": "Le fait d'assurer l'essentiel du raccourcissement de la fibre cardiaque.",
+              "explication": "Elles n'interviennent pas dans la contraction."
+            },
+            {
+              "reponse": "Une propriété de relaxation active consommant de l'ATP.",
+              "explication": "Les cellules nodales ne participent ni à la contractilité ni à la distensibilité."
+            },
+            {
+              "reponse": "Une absence d'excitabilité.",
+              "explication": "Elles sont excitables (+++)."
+            },
+            {
+              "reponse": "Une absence totale de conduction.",
+              "explication": "La conduction est très marquée (+++)."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-002"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les cellules myocardiques banales (contractiles), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "caractéristiques majeures sont la contractilité et la distensibilité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles sont excitables.",
+              "explication": "Excitabilité +++."
+            },
+            {
+              "reponse": "Elles sont peu automatiques.",
+              "explication": "Automatisme faible (±) : ce ne sont pas elles qui génèrent l'influx."
+            },
+            {
+              "reponse": "Leurs 2 caractéristiques majeures sont la contractilité et la distensibilité.",
+              "explication": "Ce sont les cellules qui assurent contraction et relâchement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elles possèdent un automatisme très marqué.",
+              "explication": "Automatisme faible ou inconstant (±)."
+            },
+            {
+              "reponse": "Ce sont elles qui génèrent normalement l'influx électrique.",
+              "explication": "L'influx est généré par les cellules nodales."
+            },
+            {
+              "reponse": "Elles sont dépourvues de contractilité.",
+              "explication": "Contractilité très marquée (+++)."
+            },
+            {
+              "reponse": "Elles sont dépourvues de distensibilité.",
+              "explication": "Distensibilité très marquée (+++)."
+            },
+            {
+              "reponse": "Elles ne sont pas excitables.",
+              "explication": "Elles sont excitables (+++)."
+            },
+            {
+              "reponse": "Leur conduction de l'influx est la plus marquée de tout le cœur.",
+              "explication": "Conduction faible (+), très marquée (+++) seulement pour les cellules nodales."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-003"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la coordination de la contraction cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "assurent en outre une coordination de l'activité électrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules nodales assurent une coordination de l'activité électrique.",
+              "explication": "Elle vise une contraction la plus homogène possible."
+            },
+            {
+              "reponse": "Il existe dans le cœur des cellules autonomes qui peuvent parfois engendrer des contractions anarchiques.",
+              "explication": "Point signalé à l'oral par le professeur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules nodales rendent la contraction volontairement hétérogène.",
+              "explication": "Leur coordination vise une contraction homogène."
+            },
+            {
+              "reponse": "La coordination de l'activité électrique est assurée uniquement par les cellules contractiles.",
+              "explication": "Ce rôle revient aux cellules nodales."
+            },
+            {
+              "reponse": "Les cellules autonomes garantissent toujours des contractions parfaitement coordonnées.",
+              "explication": "Elles peuvent engendrer des contractions anarchiques."
+            },
+            {
+              "reponse": "La contraction cardiaque est indépendante de l'activité électrique.",
+              "explication": "C'est l'activité électrique qui déclenche l'activité mécanique."
+            },
+            {
+              "reponse": "Les propriétés électriques et mécaniques du cœur n'ont aucune interaction.",
+              "explication": "Elles sont en interaction permanente."
+            },
+            {
+              "reponse": "Les cellules nodales assurent la coordination en se contractant plus fort que les autres.",
+              "explication": "Elles n'ont pas de contractilité."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-004"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les propriétés générales du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "c'est l'activité électrique qui déclenche l'activité mécanique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur possède 2 grandes familles de propriétés : électriques et mécaniques.",
+              "explication": "Ces 2 familles sont en interaction permanente."
+            },
+            {
+              "reponse": "C'est l'activité électrique qui déclenche l'activité mécanique.",
+              "explication": "L'ordre est électrique puis mécanique."
+            },
+            {
+              "reponse": "Le cœur est un muscle qui fonctionne comme une pompe pour faire circuler le sang.",
+              "explication": "Il apporte le sang aux différents organes."
+            },
+            {
+              "reponse": "Pour fonctionner, le cœur doit se contracter puis se relâcher.",
+              "explication": "Les deux phases sont nécessaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'activité mécanique déclenche l'activité électrique.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le cœur fonctionne uniquement par contraction, le relâchement n'étant pas nécessaire.",
+              "explication": "Sans relâchement, pas de remplissage."
+            },
+            {
+              "reponse": "Les propriétés électriques et mécaniques sont totalement indépendantes.",
+              "explication": "Elles sont en interaction permanente."
+            },
+            {
+              "reponse": "Le cœur n'a pas besoin d'activité électrique pour se contracter normalement.",
+              "explication": "La contraction est déclenchée par l'activité électrique."
+            },
+            {
+              "reponse": "Les propriétés mécaniques du cœur sont uniquement celles des cellules nodales.",
+              "explication": "Elles dépendent des cellules myocardiques contractiles."
+            },
+            {
+              "reponse": "Le cœur est un organe passif dont le sang assure seul la propulsion.",
+              "explication": "C'est un muscle qui fonctionne comme une pompe."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-005"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Histologie du cardiomyocyte et complexe contractile"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant la membrane, les tubules transverses et le réticulum sarcoplasmique du cardiomyocyte, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "invaginations du sarcolemme vers l'intérieur de la cellule"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sarcolemme est la membrane cellulaire par laquelle se propage le potentiel d'action.",
+              "explication": "Définition du sarcolemme."
+            },
+            {
+              "reponse": "Les tubules transverses sont des invaginations du sarcolemme vers l'intérieur de la cellule.",
+              "explication": "Ils sont au contact des myofibrilles."
+            },
+            {
+              "reponse": "Les tubules transverses facilitent le couplage entre les milieux extracellulaire et intracellulaire.",
+              "explication": "Ils augmentent la surface de contact membrane / intérieur de la cellule."
+            },
+            {
+              "reponse": "Le réticulum sarcoplasmique constitue une réserve d'ions calcium.",
+              "explication": "Il joue un rôle dans la contraction et la relaxation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les tubules transverses sont des invaginations du réticulum sarcoplasmique.",
+              "explication": "Ce sont des invaginations du sarcolemme."
+            },
+            {
+              "reponse": "Les tubules transverses diminuent la surface de contact entre la membrane et l'intérieur de la cellule.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Le sarcolemme constitue la réserve d'ions calcium de la cellule.",
+              "explication": "C'est le réticulum sarcoplasmique."
+            },
+            {
+              "reponse": "Le réticulum sarcoplasmique est la membrane par laquelle se propage le potentiel d'action.",
+              "explication": "C'est le sarcolemme."
+            },
+            {
+              "reponse": "Le réticulum sarcoplasmique ne joue aucun rôle dans la relaxation musculaire.",
+              "explication": "Il intervient dans la contraction et la relaxation."
+            },
+            {
+              "reponse": "Le potentiel d'action ne peut pas gagner l'intérieur de la cellule.",
+              "explication": "Les tubules transverses le propagent à l'intérieur de toute la cellule."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-006"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les mitochondries, le sarcoplasme et les myofibrilles du cardiomyocyte, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "fonctionnent en aérobie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les mitochondries fournissent l'énergie au cœur.",
+              "explication": "Elles produisent l'ATP."
+            },
+            {
+              "reponse": "Les mitochondries fonctionnent en aérobie.",
+              "explication": "Leurs mécanismes nécessitent de l'oxygène."
+            },
+            {
+              "reponse": "Les myofibrilles permettent la contraction.",
+              "explication": "Avec le sarcoplasme, elles réalisent la contraction."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les mitochondries fonctionnent en anaérobie stricte.",
+              "explication": "Elles fonctionnent en aérobie."
+            },
+            {
+              "reponse": "Les mitochondries sont le siège de la propagation du potentiel d'action.",
+              "explication": "Il se propage par la membrane."
+            },
+            {
+              "reponse": "Les myofibrilles constituent la réserve de calcium de la cellule.",
+              "explication": "C'est le réticulum sarcoplasmique."
+            },
+            {
+              "reponse": "Le sarcoplasme est la membrane de la cellule musculaire.",
+              "explication": "C'est le cytoplasme."
+            },
+            {
+              "reponse": "Les mitochondries sont des invaginations de la membrane vers l'intérieur de la cellule.",
+              "explication": "Ce sont les tubules transverses."
+            },
+            {
+              "reponse": "Les mitochondries n'ont pas besoin d'oxygène pour fournir l'énergie du cœur.",
+              "explication": "Elles nécessitent de l'oxygène."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-007"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le complexe contractile de la myofibrille, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "complexe contractile associe 4 protéines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le complexe contractile associe 4 protéines : actine, troponine, tropomyosine et myosine.",
+              "explication": "Ce sont les 4 constituants cités par le cours."
+            },
+            {
+              "reponse": "L'actine forme les filaments fins.",
+              "explication": "Filaments d'actine."
+            },
+            {
+              "reponse": "La myosine forme les filaments épais.",
+              "explication": "Filaments de myosine."
+            },
+            {
+              "reponse": "La tropomyosine est un cordon protéique enroulé le long du filament d'actine.",
+              "explication": "Description de la tropomyosine."
+            },
+            {
+              "reponse": "La troponine est fixée sur les filaments d'actine.",
+              "explication": "Elle fait partie du complexe actine-tropomyosine-troponine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'actine forme les filaments épais.",
+              "explication": "L'actine forme les filaments fins."
+            },
+            {
+              "reponse": "La myosine forme les filaments fins.",
+              "explication": "La myosine forme les filaments épais."
+            },
+            {
+              "reponse": "La troponine est fixée sur les filaments de myosine.",
+              "explication": "Elle est fixée sur l'actine."
+            },
+            {
+              "reponse": "Le récepteur de la ryanodine fait partie du complexe contractile.",
+              "explication": "Il est situé sur le réticulum sarcoplasmique."
+            },
+            {
+              "reponse": "Le phospholamban fait partie du complexe contractile.",
+              "explication": "Il régule la pompe calcique du réticulum."
+            },
+            {
+              "reponse": "Le complexe contractile est une structure du sarcolemme.",
+              "explication": "Il se trouve à l'intérieur de la myofibrille."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-008"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la troponine en clinique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "la troponine est un marqueur de lyse cellulaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La troponine est un marqueur de lyse cellulaire.",
+              "explication": "Les protéines intracellulaires passent dans le sang quand la membrane se rompt."
+            },
+            {
+              "reponse": "On dose la troponine dans le sang dans le cadre des syndromes coronariens aigus.",
+              "explication": "Indication citée dans le cours."
+            },
+            {
+              "reponse": "On dose la troponine dans le sang dans le cadre des myocardites.",
+              "explication": "Indication citée dans le cours."
+            },
+            {
+              "reponse": "Une troponine circulante est un marqueur de souffrance cardiaque.",
+              "explication": "Résumé du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une troponine circulante est un marqueur de bon fonctionnement cardiaque.",
+              "explication": "Elle témoigne d'une souffrance cardiaque."
+            },
+            {
+              "reponse": "La troponine passe dans le sang lorsque la membrane des cardiomyocytes est intacte.",
+              "explication": "Elle passe dans le sang quand la membrane se rompt."
+            },
+            {
+              "reponse": "La troponine est un marqueur de la repolarisation des cardiomyocytes.",
+              "explication": "C'est un marqueur de lyse cellulaire."
+            },
+            {
+              "reponse": "La troponine est dosée uniquement dans les pathologies rénales.",
+              "explication": "Elle est dosée dans les syndromes coronariens aigus et les myocardites."
+            },
+            {
+              "reponse": "Le dosage de la troponine mesure la contractilité de la fibre.",
+              "explication": "Il ne mesure pas la contractilité."
+            },
+            {
+              "reponse": "La troponine est une enzyme du réticulum sarcoplasmique libérée normalement dans le sang.",
+              "explication": "Elle n'est pas libérée physiologiquement."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-009"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant l'organisation fonctionnelle du cardiomyocyte, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "L'influx électrique arrive par la membrane"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'influx électrique arrive par la membrane et la contraction est réalisée par les myofibrilles.",
+              "explication": "Ces éléments sont en étroite interaction."
+            },
+            {
+              "reponse": "Le sarcolemme et le réticulum forment ensemble les diades.",
+              "explication": "Indiqué sur la diapositive."
+            },
+            {
+              "reponse": "Le cardiomyocyte contient une réserve de calcium utile à la fois à la contraction et à la relaxation.",
+              "explication": "Il s'agit du réticulum sarcoplasmique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction est réalisée par le sarcolemme.",
+              "explication": "Elle est réalisée par les myofibrilles."
+            },
+            {
+              "reponse": "L'influx électrique arrive par les myofibrilles.",
+              "explication": "Il arrive par la membrane."
+            },
+            {
+              "reponse": "Les mitochondries réalisent la contraction proprement dite.",
+              "explication": "Elles fournissent l'énergie."
+            },
+            {
+              "reponse": "Le réticulum sarcoplasmique fournit l'énergie sous forme d'ATP.",
+              "explication": "L'énergie provient des mitochondries."
+            },
+            {
+              "reponse": "Les tubules transverses sont des réserves de calcium.",
+              "explication": "Ils propagent le potentiel d'action à l'intérieur de la cellule."
+            },
+            {
+              "reponse": "Les éléments du cardiomyocyte fonctionnent de façon indépendante.",
+              "explication": "Ils sont en étroite interaction."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-010"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Couplage excitation-contraction et cycle des ponts actine-myosine"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant le couplage excitation-contraction (couplage électromécanique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "La dépolarisation entraîne la contraction des fibres myocardiques contractiles"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction du cœur est un phénomène mécanique provoqué par un phénomène électrique.",
+              "explication": "C'est le principe du couplage excitation-contraction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dépolarisation entraîne la contraction des fibres myocardiques contractiles.",
+              "explication": "Idée de la diapositive n°8. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La repolarisation entraîne la relaxation des fibres myocardiques contractiles.",
+              "explication": "Idée de la diapositive n°8. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les ions calcium ont un rôle essentiel dans le couplage excitation-contraction.",
+              "explication": "Avec l'ATP, ce sont les 2 éléments majeurs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le couplage excitation-contraction nécessite de l'énergie.",
+              "explication": "L'ATP est une source d'énergie indispensable. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La relaxation myocardique répond à la dépolarisation électrique.",
+              "explication": "Elle répond à la repolarisation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La contraction myocardique répond à la repolarisation électrique.",
+              "explication": "Elle répond à la dépolarisation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le couplage excitation-contraction désigne un phénomène électrique provoqué par la contraction mécanique.",
+              "explication": "L'ordre est inverse."
+            },
+            {
+              "reponse": "Seuls les ions sodium jouent un rôle majeur dans le couplage excitation-contraction.",
+              "explication": "Les ions calcium et l'ATP jouent un rôle majeur."
+            },
+            {
+              "reponse": "Le couplage excitation-contraction ne consomme pas d'énergie.",
+              "explication": "Il nécessite de l'ATP. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le couplage excitation-contraction est le même phénomène que la loi de Frank-Starling.",
+              "explication": "Ce sont deux notions distinctes."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-011"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la mise en évidence expérimentale du couplage excitation-contraction, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "l'activité électrique (le potentiel d'action) précède toujours l'activité mécanique"
+          },
+          "bonnes": [
+            {
+              "reponse": "On mesure simultanément l'activité électrique d'une fibre et son activité mécanique à l'aide d'un mécanographe.",
+              "explication": "Montage expérimental de la diapositive n°9."
+            },
+            {
+              "reponse": "Le potentiel d'action précède toujours l'activité mécanique.",
+              "explication": "L'activité électrique est suivie de la contraction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La concentration intracellulaire de calcium augmente après le potentiel d'action et avant la force de contraction.",
+              "explication": "Ordre A (potentiel d'action), C (calcium), F (force)."
+            },
+            {
+              "reponse": "Il existe un délai entre l'excitation et la contraction.",
+              "explication": "Les 3 courbes se succèdent."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les enregistrements montrent la simultanéité du potentiel d'action et de la contraction.",
+              "explication": "Il existe un délai : le potentiel d'action précède la contraction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La contraction mécanique précède le potentiel d'action.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "La force de contraction apparaît avant l'élévation du calcium intracellulaire.",
+              "explication": "La force apparaît en dernier."
+            },
+            {
+              "reponse": "Le mécanographe enregistre le potentiel d'action.",
+              "explication": "Il enregistre l'activité mécanique."
+            },
+            {
+              "reponse": "Le couplage excitation-contraction est instantané, sans aucun délai.",
+              "explication": "Un délai existe."
+            },
+            {
+              "reponse": "La concentration intracellulaire de calcium diminue pendant la montée de la force.",
+              "explication": "Le calcium monte avant la force."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-012"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la 1re phase du couplage (la contraction), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "libération de calcium induite par le calcium"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le potentiel d'action se propage le long de la membrane jusqu'au tubule transverse.",
+              "explication": "Le tubule transverse le propage à l'intérieur de la cellule."
+            },
+            {
+              "reponse": "Des canaux calciques voltage-dépendants s'ouvrent et laissent entrer le calcium extracellulaire.",
+              "explication": "Étape 2 de la diapositive n°10."
+            },
+            {
+              "reponse": "Le calcium entre dans la cellule selon son gradient de concentration.",
+              "explication": "Il y a plus de calcium à l'extérieur qu'à l'intérieur."
+            },
+            {
+              "reponse": "Le calcium entrant se fixe sur les récepteurs-canaux de la ryanodine du réticulum sarcoplasmique.",
+              "explication": "Cela entraîne une libération massive de calcium."
+            },
+            {
+              "reponse": "Une petite entrée de calcium en libère une beaucoup plus grande.",
+              "explication": "Mécanisme de libération de calcium induite par le calcium."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le calcium entre dans la cellule contre son gradient de concentration.",
+              "explication": "Il entre selon son gradient."
+            },
+            {
+              "reponse": "Les récepteurs de la ryanodine sont situés sur le sarcolemme.",
+              "explication": "Ils sont situés sur le réticulum sarcoplasmique."
+            },
+            {
+              "reponse": "Le réticulum libère son calcium directement à l'arrivée du potentiel d'action, sans entrée de calcium préalable.",
+              "explication": "La libération est induite par l'entrée de calcium."
+            },
+            {
+              "reponse": "Une grande entrée de calcium ne libère qu'une toute petite quantité de calcium du réticulum.",
+              "explication": "La libération est massive."
+            },
+            {
+              "reponse": "Les canaux calciques qui s'ouvrent sont des canaux ligand-dépendants.",
+              "explication": "Ce sont des canaux voltage-dépendants."
+            },
+            {
+              "reponse": "Le calcium libéré par le réticulum s'éloigne des myofilaments.",
+              "explication": "Il est libéré à proximité des myofilaments."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-013"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant l'origine et le rôle du calcium dans la contraction, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "se fixe sur les récepteurs-canaux de la ryanodine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'arrivée du potentiel d'action ouvre les canaux calciques membranaires et permet l'entrée de calcium dans le cardiomyocyte.",
+              "explication": "Étapes 1 et 2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'entrée de calcium dans la cellule est à l'origine de la libération de calcium par le réticulum.",
+              "explication": "Calcium-induced calcium release. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le calcium libéré dans le cytoplasme se fixe sur la troponine C.",
+              "explication": "Cela modifie la conformation du complexe actine-myosine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le calcium qui déclenche la contraction provient à la fois du milieu extracellulaire et du réticulum sarcoplasmique.",
+              "explication": "L'entrée de calcium libère le calcium du réticulum."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le calcium libéré dans le milieu intracellulaire se fixe sur la troponine I.",
+              "explication": "Le cours indique la fixation sur la troponine C. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Seul le calcium extracellulaire entré par les canaux membranaires se fixe sur la troponine.",
+              "explication": "Le calcium du réticulum participe aussi. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La libération de calcium par le réticulum précède l'ouverture des canaux calciques membranaires.",
+              "explication": "L'entrée de calcium induit la libération."
+            },
+            {
+              "reponse": "Le calcium libéré par le réticulum se fixe sur le sarcolemme pour déclencher la contraction.",
+              "explication": "Il se fixe sur la troponine."
+            },
+            {
+              "reponse": "Le calcium se fixe sur la myosine pour démasquer le site de liaison.",
+              "explication": "Il se fixe sur la troponine."
+            },
+            {
+              "reponse": "Le réticulum sarcoplasmique n'intervient pas dans la contraction du myocarde.",
+              "explication": "Il libère le calcium qui la déclenche."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-014"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la 2e phase du couplage (le relâchement), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "détachement du calcium du complexe"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le relâchement commence par le détachement du calcium du complexe troponine-tropomyosine.",
+              "explication": "Première étape de la relaxation."
+            },
+            {
+              "reponse": "Le calcium retourne dans le réticulum sarcoplasmique grâce à une pompe calcium-ATPase.",
+              "explication": "Elle consomme de l'ATP et stocke rapidement le calcium."
+            },
+            {
+              "reponse": "Une partie du calcium est éliminée vers l'extérieur par l'échangeur sodium-calcium.",
+              "explication": "Le calcium sort contre son gradient de concentration."
+            },
+            {
+              "reponse": "Le gradient de sodium est entretenu par la pompe sodium-potassium ATPase.",
+              "explication": "Elle fait sortir 3 ions sodium et entrer 2 ions potassium."
+            },
+            {
+              "reponse": "La relaxation fait suite à la repolarisation.",
+              "explication": "Version de la diapositive n°8 retenue (correction des notes)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le relâchement a lieu suite à la dépolarisation.",
+              "explication": "Le relâchement fait suite à la repolarisation."
+            },
+            {
+              "reponse": "Le calcium est repompé dans le réticulum sans consommation d'énergie.",
+              "explication": "La pompe calcium-ATPase consomme de l'ATP."
+            },
+            {
+              "reponse": "L'échangeur sodium-calcium fait sortir le calcium selon son gradient de concentration.",
+              "explication": "Le calcium sort contre son gradient."
+            },
+            {
+              "reponse": "La pompe sodium-potassium ATPase fait sortir 2 ions sodium et entrer 3 ions potassium.",
+              "explication": "Elle fait sortir 3 Na+ et entrer 2 K+."
+            },
+            {
+              "reponse": "Le relâchement commence par une nouvelle entrée massive de calcium dans la cellule.",
+              "explication": "Il commence par le détachement du calcium de la troponine."
+            },
+            {
+              "reponse": "L'échangeur sodium-calcium fait sortir le sodium et entrer le calcium.",
+              "explication": "Le sodium entre selon son gradient et le calcium sort."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-015"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le cycle des ponts actine-myosine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "pas de contact entre l'actine et la myosine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au repos, il n'y a pas de contact entre l'actine et la myosine.",
+              "explication": "Le site de fixation de la myosine est masqué."
+            },
+            {
+              "reponse": "Le calcium se fixe sur la troponine C, ce qui modifie la configuration spatiale de l'actine.",
+              "explication": "Rotation du complexe actine-tropomyosine-troponine."
+            },
+            {
+              "reponse": "Les ponts actine-myosine sont dépendants du calcium.",
+              "explication": "Le démasquage des sites de liaison nécessite le calcium."
+            },
+            {
+              "reponse": "Le repliement de la tête de myosine produit le glissement de la myosine sur l'actine.",
+              "explication": "Il produit la contraction du myofilament."
+            },
+            {
+              "reponse": "En se repliant, la tête de myosine libère l'ADP et le phosphate inorganique.",
+              "explication": "Étape 3 du cycle."
+            },
+            {
+              "reponse": "Le relargage du calcium de la troponine C entraîne le relâchement du myofilament.",
+              "explication": "Étape 4."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Au repos, l'actine et la myosine sont en contact permanent.",
+              "explication": "Au repos, le site de fixation de la myosine est masqué."
+            },
+            {
+              "reponse": "Le calcium se fixe directement sur la tête de myosine pour la mettre sous tension.",
+              "explication": "Le calcium se fixe sur la troponine C."
+            },
+            {
+              "reponse": "La formation des ponts actine-myosine est indépendante du calcium.",
+              "explication": "Elle en dépend."
+            },
+            {
+              "reponse": "La fixation du calcium sur la troponine C entraîne le relâchement du myofilament.",
+              "explication": "Le relargage du calcium entraîne le relâchement."
+            },
+            {
+              "reponse": "En se repliant, la tête de myosine fixe de l'ADP et du phosphate inorganique.",
+              "explication": "Elle les libère."
+            },
+            {
+              "reponse": "Le glissement de la myosine sur l'actine produit le relâchement du myofilament.",
+              "explication": "Il produit la contraction."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-016"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le rôle de l'ATP dans le cycle des ponts actine-myosine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "qui provoque le détachement de la tête de myosine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction consomme de l'ATP.",
+              "explication": "Énergie fournie par l'hydrolyse de l'ATP. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'énergie nécessaire à la contraction du myofilament provient de l'hydrolyse de l'ATP.",
+              "explication": "L'hydrolyse met la tête de myosine sous tension. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fixation d'une nouvelle molécule d'ATP provoque le détachement de la tête de myosine.",
+              "explication": "Étape 4 de la légende de la diapositive n°11."
+            },
+            {
+              "reponse": "L'hydrolyse de l'ATP réarme la tête de myosine (mise sous tension) avant une nouvelle fixation à l'actine.",
+              "explication": "Correction des notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ATP est reformé au niveau de la tête de myosine à l'étape 4.",
+              "explication": "C'est la fixation d'un nouvel ATP qui détache la tête."
+            },
+            {
+              "reponse": "L'ATP permet seulement la fixation de la tête sur l'actine, sans être hydrolysé.",
+              "explication": "Son hydrolyse met la tête sous tension."
+            },
+            {
+              "reponse": "Le relargage de l'ADP issu de l'hydrolyse de l'ATP est ce qui permet le relâchement du filament.",
+              "explication": "Le détachement vient de la fixation d'un nouvel ATP. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La contraction myocardique ne consomme pas d'énergie.",
+              "explication": "Elle consomme de l'ATP."
+            },
+            {
+              "reponse": "La tête de myosine se détache de l'actine lorsque l'ADP et le phosphate s'y fixent.",
+              "explication": "Elle se détache lorsqu'un nouvel ATP s'y fixe."
+            },
+            {
+              "reponse": "L'ATP est hydrolysé au niveau de la troponine C pour libérer le calcium.",
+              "explication": "L'hydrolyse de l'ATP intervient au niveau de la tête de myosine."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-017"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant l'homogénéité de la contraction et la pompe du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "tous ces événements se produisent en même temps"
+          },
+          "bonnes": [
+            {
+              "reponse": "Si les événements du cycle se produisent en même temps dans toutes les cellules, la contraction est homogène.",
+              "explication": "Point dit à l'oral."
+            },
+            {
+              "reponse": "Pour que le cœur assure son activité de pompe, il faut une bonne contraction mais également une bonne relaxation.",
+              "explication": "Point d'insistance du professeur."
+            },
+            {
+              "reponse": "Le cœur est un muscle autonome dont l'activité peut être modulée sans qu'on puisse l'arrêter.",
+              "explication": "Propos oral sur le caractère autonome du cœur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une bonne contraction suffit à assurer l'activité de pompe du cœur.",
+              "explication": "La relaxation est également indispensable."
+            },
+            {
+              "reponse": "La relaxation myocardique est un phénomène sans importance pour le remplissage.",
+              "explication": "Elle est indispensable au remplissage."
+            },
+            {
+              "reponse": "La contraction homogène exige que les cellules se contractent à des moments différents.",
+              "explication": "Elle suppose des événements simultanés dans toutes les cellules."
+            },
+            {
+              "reponse": "L'activité du cœur est entièrement dépendante du système nerveux autonome pour exister.",
+              "explication": "Le cœur est autonome."
+            },
+            {
+              "reponse": "L'activité du cœur ne peut jamais être modulée.",
+              "explication": "Elle est modulable (système sympathique, parasympathique)."
+            },
+            {
+              "reponse": "Le relâchement myocardique est assuré uniquement par l'entrée de calcium dans la cellule.",
+              "explication": "Il est assuré par le détachement et le retrait du calcium."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-018"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Comparaison avec le muscle squelettique et propriétés mécaniques"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant la comparaison cellule squelettique / cellule myocardique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "contre 250 millisecondes pour le myocarde"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le potentiel d'action de la cellule squelettique dure environ 10 millisecondes.",
+              "explication": "Il est très bref."
+            },
+            {
+              "reponse": "Le potentiel d'action de la cellule myocardique dure environ 250 millisecondes.",
+              "explication": "Il est beaucoup plus long."
+            },
+            {
+              "reponse": "La période réfractaire de la cellule cardiaque est beaucoup plus longue que celle de la cellule squelettique.",
+              "explication": "Elle accompagne le potentiel d'action long."
+            },
+            {
+              "reponse": "La période réfractaire est le temps après un stimulus pendant lequel la cellule ne peut pas être stimulée de nouveau.",
+              "explication": "Définition du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le potentiel d'action de la cellule squelettique dure environ 250 millisecondes.",
+              "explication": "C'est celui de la cellule cardiaque."
+            },
+            {
+              "reponse": "Le potentiel d'action de la cellule myocardique dure environ 10 millisecondes.",
+              "explication": "Il dure environ 250 millisecondes."
+            },
+            {
+              "reponse": "La période réfractaire de la cellule squelettique est plus longue que celle de la cellule cardiaque.",
+              "explication": "Elle est très courte."
+            },
+            {
+              "reponse": "La période réfractaire est le temps pendant lequel la cellule est plus excitable que d'habitude.",
+              "explication": "Elle ne peut pas être stimulée de nouveau."
+            },
+            {
+              "reponse": "Les durées des potentiels d'action cardiaque et squelettique sont identiques.",
+              "explication": "250 ms contre 10 ms."
+            },
+            {
+              "reponse": "La période réfractaire cardiaque se termine avant le début de la contraction.",
+              "explication": "Elle couvre presque toute la contraction."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-019"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la sommation des contractions, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "la sommation n'est pas possible"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le muscle squelettique peut être restimulé rapidement : la nouvelle contraction s'ajoute à la précédente.",
+              "explication": "C'est la sommation."
+            },
+            {
+              "reponse": "Dans le myocarde, la sommation des contractions n'est pas possible.",
+              "explication": "Le cœur ne peut pas se contracter de nouveau pendant la période réfractaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'absence de sommation garantit la fonction de pompe du cœur.",
+              "explication": "La phase de relaxation est indispensable au remplissage."
+            },
+            {
+              "reponse": "L'absence de sommation est une protection du cœur.",
+              "explication": "Elle empêche une contraction prolongée sans relaxation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans le myocarde, stimuler plus vite augmente la force par sommation jusqu'à une force maximale.",
+              "explication": "La période réfractaire interdit la sommation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le muscle squelettique ne peut pas présenter de sommation.",
+              "explication": "La force augmente avec la fréquence des stimulus."
+            },
+            {
+              "reponse": "La période réfractaire du myocarde permet d'augmenter la force de contraction.",
+              "explication": "Elle ne le permet pas."
+            },
+            {
+              "reponse": "L'absence de sommation empêche le remplissage du cœur.",
+              "explication": "Elle protège le remplissage."
+            },
+            {
+              "reponse": "La sommation du myocarde est possible car sa période réfractaire est très courte.",
+              "explication": "Elle est longue."
+            },
+            {
+              "reponse": "Dans le myocarde, la période réfractaire se termine bien avant la fin de la contraction.",
+              "explication": "Elle couvre presque toute la contraction."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-020"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le déroulement de la contraction par rapport à la période réfractaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "la période réfractaire couvre presque toute la contraction"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la cellule myocardique, la période réfractaire couvre presque toute la contraction.",
+              "explication": "Schéma de la diapositive n°13."
+            },
+            {
+              "reponse": "Dans la cellule squelettique, la contraction se termine bien après la fin de la période réfractaire.",
+              "explication": "La cellule peut être restimulée."
+            },
+            {
+              "reponse": "Le potentiel d'action de la cellule myocardique présente un plateau.",
+              "explication": "Il explique sa durée longue."
+            },
+            {
+              "reponse": "Dans le myocarde, 2 contractions successives sont séparées par un retour de la force vers la ligne de base.",
+              "explication": "Il n'y a pas de sommation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans la cellule squelettique, la période réfractaire couvre presque toute la contraction.",
+              "explication": "Elle est courte."
+            },
+            {
+              "reponse": "Dans la cellule myocardique, la contraction se termine bien après la fin de la période réfractaire.",
+              "explication": "La période réfractaire couvre presque toute la contraction."
+            },
+            {
+              "reponse": "Le potentiel d'action de la cellule squelettique présente un long plateau.",
+              "explication": "Le plateau est celui de la cellule myocardique."
+            },
+            {
+              "reponse": "Dans le myocarde, des stimulus répétés font monter la force par paliers jusqu'à un maximum.",
+              "explication": "C'est le comportement du muscle squelettique."
+            },
+            {
+              "reponse": "La contraction de la cellule squelettique est terminée en moins de 10 millisecondes.",
+              "explication": "Le potentiel d'action est de ~10 ms ; la contraction dure ~100 ms."
+            },
+            {
+              "reponse": "Dans la cellule myocardique, le potentiel d'action est très bref et se termine en moins de 10 millisecondes.",
+              "explication": "Il dure environ 250 millisecondes."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-021"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la contractilité et la distensibilité des cardiomyocytes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "la contractilité, propriété active (elle consomme de l'énergie)"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contractilité est une propriété active qui consomme de l'énergie.",
+              "explication": "Capacité de raccourcissement."
+            },
+            {
+              "reponse": "La contractilité est la capacité de la fibre à se raccourcir et à fournir rapidement une tension élevée.",
+              "explication": "Elle permet l'éjection du sang."
+            },
+            {
+              "reponse": "La distensibilité est aussi appelée élasticité ou compliance.",
+              "explication": "Propriété passive."
+            },
+            {
+              "reponse": "La distensibilité est essentielle pour le remplissage.",
+              "explication": "Capacité de la fibre à se détendre."
+            },
+            {
+              "reponse": "Au repos, la compliance est grande ; elle diminue pendant la contraction.",
+              "explication": "Précision du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contractilité est une propriété passive.",
+              "explication": "C'est une propriété active. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La distensibilité est une propriété active consommant de l'énergie.",
+              "explication": "C'est une propriété passive."
+            },
+            {
+              "reponse": "La distensibilité est essentielle pour l'éjection du sang.",
+              "explication": "Elle est essentielle pour le remplissage."
+            },
+            {
+              "reponse": "La compliance est maximale pendant la contraction.",
+              "explication": "Elle diminue pendant la contraction."
+            },
+            {
+              "reponse": "La distensibilité est un synonyme de contractilité.",
+              "explication": "Ce sont 2 propriétés distinctes."
+            },
+            {
+              "reponse": "La contractilité est la capacité de la fibre à se détendre pour permettre le remplissage.",
+              "explication": "C'est la distensibilité."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-022"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la modulation des propriétés mécaniques des cardiomyocytes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "modulables par l'environnement : par les modalités de stimulation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les qualités de contractilité et de distensibilité sont modulables par des facteurs environnants.",
+              "explication": "Elles sont basales et modulables. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La modulation passe par les modalités de stimulation, les contraintes de travail extérieur et l'environnement hormonal.",
+              "explication": "Trois niveaux cités."
+            },
+            {
+              "reponse": "L'environnement hormonal fait intervenir les catécholamines et l'acétylcholine.",
+              "explication": "Systèmes sympathique et parasympathique."
+            },
+            {
+              "reponse": "Ces propriétés sont basales : elles dépendent de la structure intrinsèque de la fibre.",
+              "explication": "Et elles sont en plus modulables."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contractilité est fixe et ne peut pas être modifiée.",
+              "explication": "Elle est modulable (catécholamines, médicaments...)."
+            },
+            {
+              "reponse": "Les propriétés mécaniques dépendent uniquement de l'environnement et pas de la structure de la fibre.",
+              "explication": "Elles sont basales et modulables."
+            },
+            {
+              "reponse": "Seule la distensibilité est modulable par l'environnement hormonal.",
+              "explication": "Contractilité et distensibilité le sont."
+            },
+            {
+              "reponse": "L'acétylcholine est le médiateur du système sympathique.",
+              "explication": "C'est le médiateur parasympathique ; sympathique = catécholamines."
+            },
+            {
+              "reponse": "Le cœur dépend entièrement du système nerveux pour battre.",
+              "explication": "Le cœur est autonome mais modulable."
+            },
+            {
+              "reponse": "Les contraintes de travail extérieur n'influencent jamais les propriétés mécaniques.",
+              "explication": "Elles font partie des facteurs de modulation."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-023"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Exploration des propriétés mécaniques, précharge et loi de Frank-Starling"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant le montage expérimental sur muscle papillaire et la précharge, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "l'étirement de la fibre avant sa stimulation"
+          },
+          "bonnes": [
+            {
+              "reponse": "On étudie un muscle papillaire stimulé dont une extrémité est fixe et l'autre reliée à une jauge de force.",
+              "explication": "Montage de la diapositive n°15."
+            },
+            {
+              "reponse": "La précharge est l'étirement de la fibre avant sa stimulation.",
+              "explication": "Elle est produite par la masse suspendue."
+            },
+            {
+              "reponse": "Dans l'organisme, la volémie est l'un des éléments de la précharge.",
+              "explication": "Volume sanguin et précharge sont liés."
+            },
+            {
+              "reponse": "Un muscle cardiaque mieux rempli a une précharge plus importante.",
+              "explication": "Il se contracte mieux, dans une certaine limite."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La précharge est l'ensemble des résistances qui s'opposent à l'éjection.",
+              "explication": "C'est la définition de la postcharge."
+            },
+            {
+              "reponse": "La précharge est l'étirement de la fibre après sa stimulation.",
+              "explication": "Elle s'exerce avant la stimulation."
+            },
+            {
+              "reponse": "La volémie est sans lien avec la précharge.",
+              "explication": "La volémie est un élément de la précharge."
+            },
+            {
+              "reponse": "Augmenter indéfiniment l'étirement de la fibre améliore toujours la contraction.",
+              "explication": "Au-delà d'une limite, l'effet est délétère (analogie du ressort)."
+            },
+            {
+              "reponse": "Le muscle papillaire est un muscle squelettique de la jambe.",
+              "explication": "C'est un petit pilier musculaire du ventricule."
+            },
+            {
+              "reponse": "La masse du montage est suspendue après la stimulation du muscle.",
+              "explication": "Elle étire le muscle avant la stimulation."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-024"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la loi de Frank et Starling appliquée à la fibre, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "plus une fibre est étirée avant une stimulation donnée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Plus une fibre cardiaque est étirée avant une stimulation donnée, plus sa contraction est forte.",
+              "explication": "Énoncé de la loi. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La loi de Frank-Starling s'exerce sans modification de la vitesse de contraction.",
+              "explication": "La fibre se contracte plus fort, mais pas plus vite."
+            },
+            {
+              "reponse": "L'effet bénéfique de l'étirement existe seulement dans une certaine limite.",
+              "explication": "Analogie du ressort : trop tiré, il casse."
+            },
+            {
+              "reponse": "Un cœur plus rempli éjecte un volume systolique plus important.",
+              "explication": "Précharge plus importante, meilleure contraction."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Plus une fibre cardiaque est étirée avant une stimulation, plus sa contraction est faible.",
+              "explication": "C'est l'inverse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La loi de Frank-Starling se traduit par une augmentation de la vitesse de contraction.",
+              "explication": "La vitesse n'est pas modifiée."
+            },
+            {
+              "reponse": "L'étirement de la fibre est bénéfique sans aucune limite.",
+              "explication": "Au-delà d'une limite, il devient délétère."
+            },
+            {
+              "reponse": "Augmenter la précharge diminue le volume d'éjection systolique dans les limites physiologiques.",
+              "explication": "Il l'augmente."
+            },
+            {
+              "reponse": "La loi de Frank-Starling s'applique à une fibre étirée après sa stimulation.",
+              "explication": "L'étirement précède la stimulation."
+            },
+            {
+              "reponse": "La loi de Frank-Starling décrit l'effet d'une augmentation de la postcharge.",
+              "explication": "Elle décrit l'effet de l'étirement avant stimulation."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-025"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les capteurs et la relation tension-longueur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "mesure l'angle de rotation, donc le raccourcissement du muscle"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'extrémité inférieure du muscle est fixée sur un capteur de force.",
+              "explication": "Montage de la diapositive n°15."
+            },
+            {
+              "reponse": "Un capteur de longueur mesure l'angle de rotation, donc le raccourcissement du muscle.",
+              "explication": "Il est placé sur l'axe du levier."
+            },
+            {
+              "reponse": "La tension active augmente avec la longueur de la fibre jusqu'à un maximum.",
+              "explication": "Courbe TA de la diapositive n°16."
+            },
+            {
+              "reponse": "La tension passive reste faible puis augmente brusquement au-delà d'une certaine longueur.",
+              "explication": "Courbe TP."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le capteur de longueur mesure la force développée par le muscle.",
+              "explication": "Le capteur de force mesure la force."
+            },
+            {
+              "reponse": "La tension active diminue quand la longueur de la fibre augmente jusqu'à son maximum.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "La tension passive est maximale pour les faibles longueurs de la fibre.",
+              "explication": "Elle reste faible puis augmente brusquement."
+            },
+            {
+              "reponse": "La tension active et la tension passive sont deux noms de la même courbe.",
+              "explication": "Ce sont 2 courbes distinctes."
+            },
+            {
+              "reponse": "La tension passive correspond à la force développée activement lors de la stimulation.",
+              "explication": "C'est la tension active."
+            },
+            {
+              "reponse": "La masse du levier est fixée à l'extrémité inférieure du muscle.",
+              "explication": "Elle est reliée à l'extrémité supérieure via un levier."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-026"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la relation force-vitesse, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "vitesse maximale de raccourcissement, obtenue pour une charge nulle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Plus la charge est élevée, plus la vitesse de raccourcissement est faible.",
+              "explication": "Courbe décroissante."
+            },
+            {
+              "reponse": "La vitesse maximale de raccourcissement est obtenue pour une charge nulle.",
+              "explication": "Prolongement de la courbe jusqu'à charge nulle (Vmax)."
+            },
+            {
+              "reponse": "La vitesse maximale de raccourcissement définit la contractilité.",
+              "explication": "« Détermination de la vitesse maximale = contractilité »."
+            },
+            {
+              "reponse": "La qualité de la contractilité dépend du nombre de ponts actine-myosine créés et de leur vitesse de recyclage.",
+              "explication": "Dans une espèce animale donnée. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Plus la charge est élevée, plus la vitesse de raccourcissement est grande.",
+              "explication": "Elle diminue."
+            },
+            {
+              "reponse": "La vitesse maximale de raccourcissement est obtenue pour la charge la plus élevée.",
+              "explication": "Elle est obtenue pour une charge nulle."
+            },
+            {
+              "reponse": "La contractilité est définie par la tension passive de la fibre.",
+              "explication": "Elle est définie par la vitesse maximale."
+            },
+            {
+              "reponse": "La qualité de la contractilité dépend uniquement du nombre de ponts actine-myosine créés.",
+              "explication": "Elle dépend aussi de leur vitesse de recyclage. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La contractilité ne dépend pas des ponts actine-myosine.",
+              "explication": "Elle en dépend."
+            },
+            {
+              "reponse": "Une courbe force-vitesse plus haute correspond à une vitesse maximale plus faible.",
+              "explication": "Elle correspond à une vitesse maximale plus élevée."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-027"
+        },
+        {
+          "type": "qcm",
+          "question": "À ne pas confondre : loi de Frank-Starling et relation force-vitesse. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "plus la vitesse de raccourcissement est faible"
+          },
+          "bonnes": [
+            {
+              "reponse": "La loi de Frank-Starling relie l'étirement initial de la fibre à la force développée.",
+              "explication": "Plus l'étirement est grand, plus la tension est forte."
+            },
+            {
+              "reponse": "La relation force-vitesse relie la charge portée à la vitesse de raccourcissement.",
+              "explication": "Plus la charge est lourde, plus la vitesse est faible."
+            },
+            {
+              "reponse": "Dans la loi de Frank-Starling, la vitesse de contraction n'est pas modifiée.",
+              "explication": "La fibre se contracte plus fort, mais pas plus vite."
+            },
+            {
+              "reponse": "La vitesse maximale de raccourcissement (charge nulle) sert à définir la contractilité.",
+              "explication": "Elle est lue sur la relation force-vitesse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La loi de Frank-Starling relie la charge soulevée à la vitesse de raccourcissement.",
+              "explication": "C'est la relation force-vitesse."
+            },
+            {
+              "reponse": "La relation force-vitesse décrit l'effet de l'étirement avant stimulation sur la force.",
+              "explication": "C'est la loi de Frank-Starling."
+            },
+            {
+              "reponse": "La loi de Frank-Starling définit la contractilité par la vitesse maximale de raccourcissement.",
+              "explication": "Cette définition vient de la relation force-vitesse."
+            },
+            {
+              "reponse": "Dans la loi de Frank-Starling, la vitesse de raccourcissement augmente avec l'étirement.",
+              "explication": "La vitesse n'est pas modifiée."
+            },
+            {
+              "reponse": "La relation force-vitesse montre que la vitesse de raccourcissement augmente avec la charge.",
+              "explication": "Elle diminue."
+            },
+            {
+              "reponse": "Une charge nulle rend impossible toute mesure de vitesse de raccourcissement.",
+              "explication": "La vitesse maximale est obtenue pour une charge nulle."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-028"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Système nerveux autonome et autres cellules cardiaques"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant le système parasympathique et le cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "il diminue la force de contraction des oreillettes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le parasympathique est le frein cardiaque.",
+              "explication": "Il ralentit le cœur."
+            },
+            {
+              "reponse": "Sa stimulation passe par le nerf vague.",
+              "explication": "Voie efférente parasympathique."
+            },
+            {
+              "reponse": "Il entraîne une bradycardie (effet chronotrope négatif).",
+              "explication": "Diminution de la fréquence cardiaque."
+            },
+            {
+              "reponse": "Il entraîne une baisse de la force de contraction (effet inotrope négatif).",
+              "explication": "Surtout sur les oreillettes ; peu d'effet sur les ventricules."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le parasympathique est l'accélérateur cardiaque.",
+              "explication": "C'est le sympathique."
+            },
+            {
+              "reponse": "Sa stimulation passe par le nerf phrénique.",
+              "explication": "Elle passe par le nerf vague."
+            },
+            {
+              "reponse": "Il entraîne une tachycardie (effet chronotrope positif).",
+              "explication": "Il entraîne une bradycardie."
+            },
+            {
+              "reponse": "Il exerce un effet inotrope positif marqué sur les ventricules.",
+              "explication": "Il a peu d'effet sur les ventricules."
+            },
+            {
+              "reponse": "Il agit par l'adrénaline sécrétée par la médullo-surrénale.",
+              "explication": "Ces hormones renforcent le sympathique."
+            },
+            {
+              "reponse": "Il exerce un effet lusitrope positif (meilleure relaxation).",
+              "explication": "Cet effet est attribué au sympathique."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-029"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le système sympathique et le cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Sympathique (accélérateur cardiaque)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sympathique est l'accélérateur cardiaque.",
+              "explication": "Il est renforcé par les hormones circulantes."
+            },
+            {
+              "reponse": "Son action est renforcée par l'adrénaline et la noradrénaline sécrétées par la médullo-surrénale.",
+              "explication": "Hormones circulantes."
+            },
+            {
+              "reponse": "Il agit sur les oreillettes et sur les ventricules.",
+              "explication": "Contrairement au parasympathique, surtout auriculaire."
+            },
+            {
+              "reponse": "Il exerce un effet inotrope positif : l'augmentation de son activité améliore la contractilité des cardiomyocytes.",
+              "explication": "Effet sur la contractilité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il exerce un effet lusitrope positif : il augmente la relaxation ventriculaire.",
+              "explication": "Meilleure relaxation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il exerce un effet chronotrope positif.",
+              "explication": "Augmentation de la fréquence cardiaque."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sympathique diminue la fréquence cardiaque.",
+              "explication": "Il l'augmente."
+            },
+            {
+              "reponse": "Le sympathique exerce un effet inotrope négatif.",
+              "explication": "Effet inotrope positif."
+            },
+            {
+              "reponse": "L'adrénaline et la noradrénaline sont sécrétées par la cortico-surrénale.",
+              "explication": "Elles sont sécrétées par la médullo-surrénale."
+            },
+            {
+              "reponse": "Le sympathique n'agit que sur les ventricules.",
+              "explication": "Il agit sur oreillettes et ventricules."
+            },
+            {
+              "reponse": "Le sympathique altère la relaxation ventriculaire (effet lusitrope négatif).",
+              "explication": "Son effet est lusitrope positif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sympathique emprunte le nerf vague.",
+              "explication": "Le nerf vague est parasympathique."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-030"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les mécanismes cellulaires de l'effet inotrope positif du sympathique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "allonge la durée d'ouverture des canaux calciques voltage-dépendants"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'adrénaline et la noradrénaline se fixent sur les récepteurs bêta-1 du cœur.",
+              "explication": "Début de la cascade."
+            },
+            {
+              "reponse": "Le second messager de la cascade est l'AMPc.",
+              "explication": "Il est à l'origine de phosphorylations."
+            },
+            {
+              "reponse": "La cascade allonge la durée d'ouverture des canaux calciques voltage-dépendants.",
+              "explication": "Davantage de calcium entre dans la cellule."
+            },
+            {
+              "reponse": "Le stock de calcium du réticulum sarcoplasmique augmente.",
+              "explication": "La libération de calcium est plus importante."
+            },
+            {
+              "reponse": "Davantage de calcium se fixe sur la troponine C, d'où une contraction plus forte.",
+              "explication": "Effet inotrope positif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'adrénaline et la noradrénaline se fixent sur des récepteurs alpha-1 pour augmenter la contractilité.",
+              "explication": "Ce sont les récepteurs bêta-1."
+            },
+            {
+              "reponse": "Le second messager de la cascade est le GMPc.",
+              "explication": "C'est l'AMPc."
+            },
+            {
+              "reponse": "La cascade raccourcit la durée d'ouverture des canaux calciques voltage-dépendants.",
+              "explication": "Elle l'allonge."
+            },
+            {
+              "reponse": "L'entrée de calcium dans la cellule diminue sous l'effet du sympathique.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "Le stock de calcium du réticulum sarcoplasmique diminue, ce qui renforce la contraction.",
+              "explication": "Il augmente."
+            },
+            {
+              "reponse": "Moins de calcium se fixe sur la troponine C lors de la stimulation bêta-1.",
+              "explication": "Davantage de calcium s'y fixe."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-031"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant l'effet lusitrope positif du sympathique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "non phosphorylé freine la pompe"
+          },
+          "bonnes": [
+            {
+              "reponse": "La captation du calcium cytoplasmique par la pompe calcium-ATPase du réticulum est augmentée.",
+              "explication": "Mécanisme de l'effet lusitrope."
+            },
+            {
+              "reponse": "Le calcium se détache plus vite de la troponine.",
+              "explication": "La contraction est plus courte, la relaxation meilleure."
+            },
+            {
+              "reponse": "Le phospholamban non phosphorylé freine la pompe calcium-ATPase du réticulum.",
+              "explication": "Précision des sources."
+            },
+            {
+              "reponse": "La phosphorylation du phospholamban, déclenchée par la voie bêta-adrénergique, lève le frein sur la pompe.",
+              "explication": "La recapture du calcium est accélérée."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La captation du calcium par la pompe calcium-ATPase du réticulum est diminuée.",
+              "explication": "Elle est augmentée."
+            },
+            {
+              "reponse": "Le calcium reste plus longtemps fixé à la troponine sous l'effet lusitrope.",
+              "explication": "Il s'en détache plus vite."
+            },
+            {
+              "reponse": "Le phospholamban non phosphorylé accélère la recapture du calcium.",
+              "explication": "Il freine la pompe."
+            },
+            {
+              "reponse": "La phosphorylation du phospholamban freine la pompe calcium-ATPase.",
+              "explication": "Elle lève le frein."
+            },
+            {
+              "reponse": "L'effet lusitrope positif allonge la durée de la contraction.",
+              "explication": "Il la raccourcit."
+            },
+            {
+              "reponse": "L'effet lusitrope positif correspond à une augmentation de la force de contraction.",
+              "explication": "C'est l'effet inotrope ; le lusitropisme concerne la relaxation."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-032"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le cœur du transplanté cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "leur fréquence cardiaque peut tout de même accélérer"
+          },
+          "bonnes": [
+            {
+              "reponse": "Son cœur n'a plus d'innervation sympathique ni parasympathique.",
+              "explication": "Cœur dénervé."
+            },
+            {
+              "reponse": "Sa fréquence cardiaque peut tout de même accélérer grâce aux hormones de la médullo-surrénale.",
+              "explication": "Catécholamines circulantes."
+            },
+            {
+              "reponse": "Cette accélération se fait avec un délai plus long qu'avec l'innervation.",
+              "explication": "Les hormones agissent plus lentement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sa fréquence cardiaque ne peut plus du tout s'accélérer.",
+              "explication": "Elle peut accélérer grâce aux catécholamines."
+            },
+            {
+              "reponse": "Son accélération est plus rapide que celle d'un cœur innervé.",
+              "explication": "Elle est retardée."
+            },
+            {
+              "reponse": "Il conserve son innervation parasympathique par le nerf vague.",
+              "explication": "Il n'a plus d'innervation."
+            },
+            {
+              "reponse": "Son accélération passe par le nerf cardiaque sympathique.",
+              "explication": "Il est dénervé."
+            },
+            {
+              "reponse": "Son accélération est due à la sécrétion d'acétylcholine.",
+              "explication": "Elle est due à l'adrénaline et à la noradrénaline."
+            },
+            {
+              "reponse": "Il ne répond à aucune hormone circulante.",
+              "explication": "Il répond aux hormones de la médullo-surrénale."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-033"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les anomalies du calcium intracellulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "anomalie du calcium intracellulaire entraîne des troubles de la relaxation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une anomalie du calcium intracellulaire entraîne des troubles de la relaxation.",
+              "explication": "Point dit à l'oral."
+            },
+            {
+              "reponse": "Une anomalie du calcium intracellulaire expose davantage aux arythmies.",
+              "explication": "Point dit à l'oral."
+            },
+            {
+              "reponse": "Pour bien se contracter, une fibre musculaire doit d'abord bien se relâcher.",
+              "explication": "Message de la diapositive n°18."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une anomalie du calcium intracellulaire améliore la relaxation.",
+              "explication": "Elle entraîne des troubles de la relaxation."
+            },
+            {
+              "reponse": "Une anomalie du calcium intracellulaire protège des arythmies.",
+              "explication": "Elle expose davantage aux arythmies."
+            },
+            {
+              "reponse": "Une anomalie du calcium intracellulaire n'altère que la contractilité, jamais la relaxation.",
+              "explication": "Elle touche aussi la relaxation."
+            },
+            {
+              "reponse": "La relaxation est indépendante du calcium intracellulaire.",
+              "explication": "Le calcium est retiré du cytosol pour relâcher."
+            },
+            {
+              "reponse": "Une fibre se contracte d'autant mieux qu'elle se relâche mal.",
+              "explication": "Elle doit d'abord bien se relâcher."
+            },
+            {
+              "reponse": "Les anomalies du calcium n'entraînent que des bradycardies.",
+              "explication": "Elles exposent aux arythmies."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-034"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les autres cellules et la matrice du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "la concentration en collagène augmente"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur contient des fibroblastes, qui interviennent notamment dans la production de collagène.",
+              "explication": "Cellules non contractiles."
+            },
+            {
+              "reponse": "Le cœur contient des cellules endothéliales, en contact avec le sang.",
+              "explication": "Comme dans les vaisseaux."
+            },
+            {
+              "reponse": "Les artères coronaires contiennent des cellules musculaires lisses vasculaires.",
+              "explication": "Cellules non myocardiques du cœur."
+            },
+            {
+              "reponse": "La matrice extracellulaire cardiaque est riche en collagène de type 1.",
+              "explication": "Elle assure la cohésion du cœur."
+            },
+            {
+              "reponse": "Avec le vieillissement ou en cas de pathologie, la concentration en collagène augmente.",
+              "explication": "La rigidité myocardique augmente."
+            },
+            {
+              "reponse": "L'augmentation du collagène diminue la qualité de la relaxation.",
+              "explication": "Rigidité plus importante."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cœur ne contient que des cardiomyocytes contractiles.",
+              "explication": "Il contient aussi fibroblastes, cellules endothéliales, cellules musculaires lisses."
+            },
+            {
+              "reponse": "Les fibroblastes interviennent dans la production d'actine.",
+              "explication": "Ils interviennent dans la production de collagène."
+            },
+            {
+              "reponse": "La matrice extracellulaire cardiaque est riche en collagène de type 4.",
+              "explication": "Elle est riche en collagène de type 1."
+            },
+            {
+              "reponse": "Avec le vieillissement, la concentration en collagène diminue.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "L'augmentation du collagène améliore la relaxation.",
+              "explication": "Elle la détériore par rigidité accrue."
+            },
+            {
+              "reponse": "Les cellules endothéliales du cœur sont des cellules contractiles.",
+              "explication": "Ce sont des cellules en contact avec le sang."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-035"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Circulation du sang et cycle cardiaque"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant les pressions et les valves cardiaques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "L'ouverture des valves est passive"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les variations de pression sont dues à l'alternance des contractions et des relâchements du myocarde.",
+              "explication": "Elles s'accompagnent de variations de volume."
+            },
+            {
+              "reponse": "Le sang s'écoule des régions de haute pression vers les régions de basse pression.",
+              "explication": "Gradient de pression."
+            },
+            {
+              "reponse": "L'ouverture des valves est passive.",
+              "explication": "Elle se fait selon la pression."
+            },
+            {
+              "reponse": "Une valve ne s'ouvre que si la pression en amont est supérieure à la pression en aval.",
+              "explication": "Règle de la diapositive n°23."
+            },
+            {
+              "reponse": "Les pressions sont beaucoup plus élevées dans le cœur gauche que dans le cœur droit.",
+              "explication": "Point de vigilance."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sang s'écoule des régions de basse pression vers les régions de haute pression.",
+              "explication": "Il s'écoule de haut en bas."
+            },
+            {
+              "reponse": "L'ouverture des valves est commandée activement par un influx électrique.",
+              "explication": "Elle est passive."
+            },
+            {
+              "reponse": "Une valve s'ouvre dès que la pression en aval est supérieure à la pression en amont.",
+              "explication": "Elle s'ouvre quand l'amont dépasse l'aval."
+            },
+            {
+              "reponse": "Les pressions sont plus élevées dans le cœur droit que dans le cœur gauche.",
+              "explication": "Elles sont plus élevées à gauche."
+            },
+            {
+              "reponse": "La valve tricuspide favorise le reflux du sang vers l'oreillette lors de la contraction ventriculaire.",
+              "explication": "Elle l'évite."
+            },
+            {
+              "reponse": "Les variations de pression sont indépendantes de la contraction du myocarde.",
+              "explication": "Elles en sont la conséquence."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-036"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la définition du cycle cardiaque, de la systole et de la diastole, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Au repos, la systole occupe environ 1/3 du cycle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cycle cardiaque est l'ensemble des phénomènes mécaniques successifs, initiés par des événements électriques, entre 2 contractions successives.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La diastole est la phase de repos : repolarisation et relaxation du muscle.",
+              "explication": "Elle permet le remplissage des cavités."
+            },
+            {
+              "reponse": "La systole est la phase d'activité : dépolarisation et contraction du muscle.",
+              "explication": "Elle permet l'éjection du sang."
+            },
+            {
+              "reponse": "Au repos, la systole occupe environ 1/3 du cycle et la diastole environ 2/3.",
+              "explication": "Répartition du cours."
+            },
+            {
+              "reponse": "La dépolarisation débute dans les oreillettes, qui se contractent en premier.",
+              "explication": "Ordre de la contraction."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La systole correspond à la repolarisation et à la relaxation du muscle.",
+              "explication": "C'est la diastole."
+            },
+            {
+              "reponse": "La diastole correspond à la dépolarisation et à la contraction du muscle.",
+              "explication": "C'est la systole."
+            },
+            {
+              "reponse": "Au repos, la systole occupe environ 2/3 du cycle.",
+              "explication": "Elle occupe environ 1/3."
+            },
+            {
+              "reponse": "La systole est la phase de remplissage des cavités.",
+              "explication": "La systole permet l'éjection."
+            },
+            {
+              "reponse": "La dépolarisation débute dans les ventricules, qui se contractent en premier.",
+              "explication": "Elle débute dans les oreillettes."
+            },
+            {
+              "reponse": "Le cycle cardiaque ne comprend que des événements électriques.",
+              "explication": "Ce sont des phénomènes mécaniques initiés par des événements électriques."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-037"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les phases de la systole et de la diastole, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "AVANT la contraction simultanée des 2 ventricules"
+          },
+          "bonnes": [
+            {
+              "reponse": "La systole comporte 2 phases : la contraction des oreillettes, puis celle des ventricules.",
+              "explication": "Contractions simultanées des 2 oreillettes puis des 2 ventricules."
+            },
+            {
+              "reponse": "La diastole comporte 3 phases : relaxation des oreillettes, relaxation des ventricules, repos des 4 cavités.",
+              "explication": "Slide n°25."
+            },
+            {
+              "reponse": "On distingue pour la diastole et la systole des moments proto- (début), méso- (milieu) et télé- (fin).",
+              "explication": "Classification utilisée aussi pour les souffles."
+            },
+            {
+              "reponse": "Le préfixe holo- désigne toute la durée de la systole ou de la diastole.",
+              "explication": "Précision orale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction des ventricules précède celle des oreillettes.",
+              "explication": "Les oreillettes se contractent avant les ventricules."
+            },
+            {
+              "reponse": "La systole comporte 3 phases et la diastole 2.",
+              "explication": "Systole 2 phases, diastole 3 phases."
+            },
+            {
+              "reponse": "Le préfixe proto- désigne la fin de la systole ou de la diastole.",
+              "explication": "Proto- = début."
+            },
+            {
+              "reponse": "Le préfixe télé- désigne le début de la systole ou de la diastole.",
+              "explication": "Télé- = fin."
+            },
+            {
+              "reponse": "Il n'existe jamais de période où les 4 cavités sont relâchées.",
+              "explication": "Il existe une phase de repos des 4 cavités."
+            },
+            {
+              "reponse": "La classification proto-, méso-, télé- ne sert jamais à décrire les souffles cardiaques.",
+              "explication": "Elle sert aussi à les décrire."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-038"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les durées des systoles et diastoles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "la durée de la systole auriculaire est inférieure à celle"
+          },
+          "bonnes": [
+            {
+              "reponse": "La durée de la systole auriculaire est inférieure à celle de la systole ventriculaire.",
+              "explication": "Remarque de la diapositive n°33. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les systoles auriculaire et ventriculaire ne se produisent pas en même temps.",
+              "explication": "La systole auriculaire précède la ventriculaire."
+            },
+            {
+              "reponse": "Au repos, la diastole est plus longue que la systole.",
+              "explication": "Remarque de la diapositive n°33."
+            },
+            {
+              "reponse": "Les oreillettes relâchées se remplissent pendant que les ventricules éjectent.",
+              "explication": "Alternance entre cavités."
+            },
+            {
+              "reponse": "À la fin du cycle, il existe une période où les 4 cavités sont relâchées.",
+              "explication": "Phase de repos."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La systole mécanique auriculaire est plus longue que la systole ventriculaire.",
+              "explication": "Elle est plus courte. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Au cours d'un cycle, les durées des systoles auriculaire et ventriculaire sont identiques.",
+              "explication": "Elles diffèrent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les systoles auriculaire et ventriculaire se produisent exactement en même temps.",
+              "explication": "Elles ne se produisent pas en même temps."
+            },
+            {
+              "reponse": "Au repos, la systole est plus longue que la diastole.",
+              "explication": "La diastole est plus longue."
+            },
+            {
+              "reponse": "Les oreillettes se remplissent uniquement pendant leur propre contraction.",
+              "explication": "Elles se remplissent quand elles sont relâchées."
+            },
+            {
+              "reponse": "Les 4 cavités se contractent en permanence sans phase de repos.",
+              "explication": "Il existe une phase de repos des 4 cavités."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-039"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les débits et les pressions des 2 ventricules, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "sont identiques, sauf pathologie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit du ventricule gauche et celui du ventricule droit sont identiques, sauf pathologie.",
+              "explication": "Le débit sanguin est le même dans les circulations pulmonaire et systémique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La pression doit être nettement plus élevée dans le ventricule gauche pour éjecter le sang dans l'aorte.",
+              "explication": "Les pressions sont plus basses à droite."
+            },
+            {
+              "reponse": "Le travail externe du cœur gauche est supérieur à celui du cœur droit.",
+              "explication": "Mêmes volumes mais pressions bien plus élevées à gauche : aire de boucle plus grande. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les volumes d'éjection systolique des 2 ventricules sont identiques.",
+              "explication": "Pressions différentes, volumes proches."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débit du ventricule droit est supérieur à celui du ventricule gauche en situation normale.",
+              "explication": "Ils sont identiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le débit de la circulation pulmonaire est inférieur à celui de la circulation systémique en situation normale.",
+              "explication": "Même débit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le travail externe du cœur gauche est inférieur à celui du cœur droit.",
+              "explication": "Il est supérieur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le travail externe du cœur gauche est égal à celui du cœur droit.",
+              "explication": "Les aires de boucle diffèrent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La pression est plus basse dans le ventricule gauche que dans le droit.",
+              "explication": "Elle est beaucoup plus élevée à gauche."
+            },
+            {
+              "reponse": "Les volumes d'éjection systolique des 2 ventricules sont très différents.",
+              "explication": "Ils sont identiques."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-040"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les 5 étapes du cycle ventriculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "les veines remplissent les oreillettes et la pression chute"
+          },
+          "bonnes": [
+            {
+              "reponse": "La diastole ventriculaire comprend la relaxation isovolumique, le remplissage passif et le remplissage actif.",
+              "explication": "Étapes 1 à 3."
+            },
+            {
+              "reponse": "La systole ventriculaire comprend la contraction isovolumique puis l'éjection.",
+              "explication": "Étapes 4 et 5."
+            },
+            {
+              "reponse": "Pendant la relaxation isovolumique, toutes les valves sont fermées.",
+              "explication": "La pression chute sans changement de volume."
+            },
+            {
+              "reponse": "Pendant la contraction isovolumique, la pression ventriculaire reste inférieure à celle des artères aortique et pulmonaire.",
+              "explication": "Toutes les valves sont fermées."
+            },
+            {
+              "reponse": "Le remplissage passif commence quand la pression des oreillettes devient supérieure à celle des ventricules.",
+              "explication": "Gradient de pression."
+            },
+            {
+              "reponse": "Le remplissage actif est dû à la contraction des oreillettes.",
+              "explication": "Systole auriculaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le remplissage actif fait partie de la systole ventriculaire.",
+              "explication": "Il fait partie de la diastole ventriculaire."
+            },
+            {
+              "reponse": "La relaxation isovolumique se fait valves auriculo-ventriculaires ouvertes.",
+              "explication": "Toutes les valves sont fermées."
+            },
+            {
+              "reponse": "Pendant la contraction isovolumique, les valves aortique et pulmonaire sont ouvertes.",
+              "explication": "Elles sont fermées."
+            },
+            {
+              "reponse": "Le remplissage passif commence quand la pression ventriculaire devient supérieure à celle des oreillettes.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "L'éjection ventriculaire se fait par l'ouverture des valves tricuspide et mitrale.",
+              "explication": "Elle passe par les valves aortique et pulmonaire."
+            },
+            {
+              "reponse": "Pendant la relaxation isovolumique, le volume ventriculaire diminue.",
+              "explication": "Le volume est constant."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-041"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la relation entre le cycle cardiaque et l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "se prolongent jusqu'à la fin de l'onde T"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction des oreillettes commence après l'onde P.",
+              "explication": "Elle se termine vers le complexe QRS."
+            },
+            {
+              "reponse": "L'éjection ventriculaire commence après le complexe QRS.",
+              "explication": "Elle se prolonge jusqu'à la fin de l'onde T."
+            },
+            {
+              "reponse": "En clinique, il est utile de comparer le remplissage (échographie) à l'électrocardiogramme.",
+              "explication": "Propos oral."
+            },
+            {
+              "reponse": "Le cycle représenté en fonction du temps illustre le couplage excitation-contraction à l'échelle du cœur entier.",
+              "explication": "Diapositive n°34."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction des oreillettes commence après l'onde T.",
+              "explication": "Elle commence après l'onde P."
+            },
+            {
+              "reponse": "L'éjection ventriculaire commence avant l'onde P.",
+              "explication": "Elle commence après QRS."
+            },
+            {
+              "reponse": "L'éjection ventriculaire se termine à la fin du complexe QRS.",
+              "explication": "Elle se prolonge jusqu'à la fin de l'onde T."
+            },
+            {
+              "reponse": "La contraction des oreillettes débute après le complexe QRS.",
+              "explication": "Elle débute après l'onde P."
+            },
+            {
+              "reponse": "Le remplissage ventriculaire ne peut pas être comparé à l'électrocardiogramme.",
+              "explication": "Cette comparaison est utile en clinique."
+            },
+            {
+              "reponse": "L'onde P correspond à l'éjection ventriculaire.",
+              "explication": "L'onde P précède la contraction auriculaire."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-042"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Courbe pression-volume du ventricule gauche"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant la diastole sur la courbe pression-volume du ventricule gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "la pression du ventricule gauche baisse à volume constant"
+          },
+          "bonnes": [
+            {
+              "reponse": "La diastole comporte 3 temps : relaxation isovolumique, remplissage passif et contraction auriculaire.",
+              "explication": "Résumé du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pendant la relaxation isovolumique, les valves aortique et mitrale sont fermées.",
+              "explication": "La pression baisse à volume constant."
+            },
+            {
+              "reponse": "La valve mitrale s'ouvre quand la pression de l'oreillette gauche devient supérieure à celle du ventricule gauche.",
+              "explication": "Début du remplissage."
+            },
+            {
+              "reponse": "Dans un cœur sain, la pression ventriculaire n'augmente que très légèrement pendant le remplissage.",
+              "explication": "Le volume augmente jusqu'au volume télédiastolique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La diastole comporte 2 temps seulement.",
+              "explication": "Elle comporte 3 temps."
+            },
+            {
+              "reponse": "Pendant la relaxation isovolumique, la valve mitrale est ouverte.",
+              "explication": "Elle est fermée."
+            },
+            {
+              "reponse": "La valve mitrale s'ouvre quand la pression du ventricule gauche devient supérieure à celle de l'oreillette gauche.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Pendant le remplissage, la pression ventriculaire augmente fortement dans un cœur sain.",
+              "explication": "Elle n'augmente que très légèrement."
+            },
+            {
+              "reponse": "La relaxation isovolumique s'accompagne d'une augmentation de volume ventriculaire.",
+              "explication": "Le volume est constant."
+            },
+            {
+              "reponse": "Le remplissage débute par la contraction auriculaire.",
+              "explication": "Il débute par le remplissage passif."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-043"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le remplissage ventriculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "le remplissage passif, qui représente 70 % du remplissage"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le remplissage passif représente environ 70 % du remplissage.",
+              "explication": "Le sang est aspiré grâce au gradient de pression."
+            },
+            {
+              "reponse": "Le remplissage actif, dû à la contraction auriculaire, représente environ 30 % du remplissage.",
+              "explication": "Il achève le remplissage en fin de diastole."
+            },
+            {
+              "reponse": "Plus le cœur est souple, plus le remplissage passif est important.",
+              "explication": "Compliance et remplissage."
+            },
+            {
+              "reponse": "La perte de l'activité auriculaire n'est pas dramatique mais fait perdre environ 30 % du débit cardiaque.",
+              "explication": "Point pathologie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction atriale assure la plus grande partie du remplissage ventriculaire.",
+              "explication": "Elle n'en assure qu'environ 30 %. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le remplissage passif représente environ 30 % du remplissage.",
+              "explication": "Il représente 70 %."
+            },
+            {
+              "reponse": "La contraction auriculaire a lieu au début de la diastole.",
+              "explication": "Elle a lieu à la fin ; au début, le ventricule aspire."
+            },
+            {
+              "reponse": "La perte de l'activité auriculaire est immédiatement fatale.",
+              "explication": "Elle n'est pas dramatique."
+            },
+            {
+              "reponse": "Plus le cœur est rigide, plus le remplissage passif est important.",
+              "explication": "Plus le cœur est souple, plus il est important."
+            },
+            {
+              "reponse": "Le remplissage actif correspond à l'aspiration du sang par le ventricule.",
+              "explication": "Il correspond à la contraction des oreillettes."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-044"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la systole sur la courbe pression-volume du ventricule gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "la pression monte mais le volume ne change pas"
+          },
+          "bonnes": [
+            {
+              "reponse": "Lors de la contraction isovolumique, la pression intraventriculaire augmente sans modification du volume ventriculaire.",
+              "explication": "Valves mitrale et aortique fermées. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pendant la contraction isovolumique, la valve mitrale est fermée car la pression du ventricule gauche dépasse celle de l'oreillette gauche.",
+              "explication": "Évite le reflux."
+            },
+            {
+              "reponse": "Pendant la contraction isovolumique, la valve aortique est encore fermée car la pression ventriculaire reste inférieure à la pression aortique.",
+              "explication": "Elle n'est pas assez haute."
+            },
+            {
+              "reponse": "La valve aortique s'ouvre quand la pression ventriculaire dépasse la pression aortique.",
+              "explication": "Début de l'éjection."
+            },
+            {
+              "reponse": "La valve aortique se ferme quand la pression du ventricule gauche redevient inférieure à celle de l'aorte.",
+              "explication": "Début d'une nouvelle relaxation isovolumique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression ventriculaire n'augmente pas pendant la contraction isovolumique.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "Le volume ventriculaire diminue pendant la contraction isovolumique.",
+              "explication": "Il est constant."
+            },
+            {
+              "reponse": "La valve mitrale est ouverte pendant la contraction isovolumique.",
+              "explication": "Elle est fermée."
+            },
+            {
+              "reponse": "La valve aortique s'ouvre quand la pression ventriculaire dépasse celle de l'oreillette gauche.",
+              "explication": "Elle s'ouvre quand elle dépasse la pression aortique."
+            },
+            {
+              "reponse": "La valve aortique se ferme quand la pression ventriculaire est supérieure à la pression aortique.",
+              "explication": "Elle se ferme quand elle lui devient inférieure."
+            },
+            {
+              "reponse": "L'éjection se fait à volume ventriculaire croissant.",
+              "explication": "Le volume diminue pendant l'éjection."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-045"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la pression d'ouverture de la valve aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "s'ouvre dès que la pression ventriculaire dépasse la pression aortique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La valve aortique s'ouvre dès que la pression ventriculaire dépasse la pression aortique.",
+              "explication": "La pression aortique est alors minimale (proche de la pression diastolique)."
+            },
+            {
+              "reponse": "La valeur d'environ 120 mmHg correspond à la pression télésystolique.",
+              "explication": "Elle correspond à la fermeture de la valve aortique."
+            },
+            {
+              "reponse": "À l'ouverture de la valve aortique, la pression aortique est proche de sa valeur diastolique.",
+              "explication": "Le ventricule gauche rejoint l'aorte à ce niveau."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il faut au moins 120 mmHg dans le ventricule pour ouvrir la valve aortique.",
+              "explication": "120 mmHg est la pression télésystolique."
+            },
+            {
+              "reponse": "La valve aortique s'ouvre à une pression ventriculaire supérieure à la pression systolique aortique.",
+              "explication": "Elle s'ouvre dès que la pression dépasse la pression aortique, alors basse."
+            },
+            {
+              "reponse": "La pression télésystolique correspond à l'ouverture de la valve aortique.",
+              "explication": "Elle correspond à sa fermeture."
+            },
+            {
+              "reponse": "La valve aortique s'ouvre quand la pression ventriculaire égale la pression de l'oreillette gauche.",
+              "explication": "Elle s'ouvre quand elle égale la pression aortique."
+            },
+            {
+              "reponse": "La pression aortique est maximale au moment de l'ouverture de la valve aortique.",
+              "explication": "Elle est minimale à ce moment."
+            },
+            {
+              "reponse": "La valve aortique s'ouvre à une pression constante de 121 mmHg quelles que soient les conditions.",
+              "explication": "Elle s'ouvre dès que la pression ventriculaire dépasse la pression aortique."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-046"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le volume d'éjection systolique et les volumes ventriculaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "égal au volume télédiastolique moins le volume télésystolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le volume d'éjection systolique est égal au volume télédiastolique moins le volume télésystolique.",
+              "explication": "En situation physiologique."
+            },
+            {
+              "reponse": "Le cœur n'est pas vide à la fin de la systole.",
+              "explication": "Il contient encore un volume télésystolique de sang."
+            },
+            {
+              "reponse": "Le volume télédiastolique est toujours le plus grand volume du ventricule.",
+              "explication": "Le volume télésystolique est le plus petit."
+            },
+            {
+              "reponse": "L'égalité VES = VTD − VTS n'est pas toujours vraie, par exemple en cas de fuite mitrale.",
+              "explication": "Une partie du volume reflue vers l'oreillette."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le volume d'éjection systolique est égal à la somme du volume télédiastolique et du volume télésystolique.",
+              "explication": "C'est leur différence."
+            },
+            {
+              "reponse": "Le ventricule est totalement vide à la fin de la systole.",
+              "explication": "Il contient encore du sang."
+            },
+            {
+              "reponse": "Le volume télésystolique est le plus grand volume du ventricule.",
+              "explication": "C'est le plus petit."
+            },
+            {
+              "reponse": "En cas de fuite, le volume télésystolique est plus grand que le volume télédiastolique.",
+              "explication": "Impossible par définition : le VTD est le plus grand."
+            },
+            {
+              "reponse": "L'égalité VES = VTD − VTS est toujours vraie, même en cas de fuite.",
+              "explication": "Elle ne l'est pas en cas de fuite."
+            },
+            {
+              "reponse": "En cas de fuite mitrale, VTD − VTS sous-estime le volume éjecté dans l'aorte.",
+              "explication": "Il le surestime."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-047"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Travail cardiaque, précharge et postcharge"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant le travail cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "somme du travail externe et du travail interne"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le travail cardiaque est la somme du travail externe et du travail interne.",
+              "explication": "Travail cardiaque = We + Wi."
+            },
+            {
+              "reponse": "Le travail interne correspond au coût énergétique de la formation des ponts actine-myosine, de l'ouverture des canaux ioniques et de la propagation du potentiel d'action.",
+              "explication": "Il consomme de l'ATP."
+            },
+            {
+              "reponse": "Le travail interne n'apparaît pas sur la courbe pression-volume.",
+              "explication": "Il est interne aux fibres."
+            },
+            {
+              "reponse": "Le travail externe est le travail fourni pour éjecter le sang et se remplir.",
+              "explication": "Il est représenté sur la courbe pression-volume."
+            },
+            {
+              "reponse": "Le travail cardiaque représente la dépense énergétique du cœur.",
+              "explication": "Il augmente si la pression artérielle, le volume ventriculaire et/ou la fréquence cardiaque augmentent."
+            },
+            {
+              "reponse": "Le travail externe correspond à l'aire contenue à l'intérieur de la boucle pression-volume.",
+              "explication": "Correction des notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le travail externe correspond à la surface sous la courbe pression-volume.",
+              "explication": "C'est l'aire à l'intérieur de la boucle."
+            },
+            {
+              "reponse": "Le travail interne est représenté par l'aire de la boucle pression-volume.",
+              "explication": "Il n'apparaît pas sur la courbe."
+            },
+            {
+              "reponse": "Le travail interne ne consomme pas d'ATP.",
+              "explication": "Il en consomme."
+            },
+            {
+              "reponse": "Le travail cardiaque est égal au seul travail externe.",
+              "explication": "Il comprend aussi le travail interne."
+            },
+            {
+              "reponse": "Le travail cardiaque diminue lorsque la pression artérielle augmente.",
+              "explication": "Il augmente si la pression artérielle, le volume ventriculaire et/ou la fréquence augmentent."
+            },
+            {
+              "reponse": "Le travail externe correspond au coût énergétique de l'ouverture des canaux ioniques.",
+              "explication": "C'est le travail interne."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-048"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les déterminants du travail cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Le travail cardiaque représente la dépense énergétique du cœur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le travail ventriculaire augmente si la fréquence cardiaque augmente.",
+              "explication": "Le travail cardiaque augmente si la pression artérielle, le volume ventriculaire et/ou la fréquence augmentent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le travail cardiaque augmente si la pression artérielle augmente.",
+              "explication": "La pression artérielle systémique intervient via la postcharge."
+            },
+            {
+              "reponse": "La postcharge a une influence sur le travail cardiaque externe.",
+              "explication": "Le travail peut être augmenté par la postcharge. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le travail cardiaque augmente si le volume ventriculaire augmente.",
+              "explication": "Facteur cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le travail ventriculaire diminue si la fréquence cardiaque augmente.",
+              "explication": "Il augmente. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La postcharge n'a aucune influence sur le travail cardiaque.",
+              "explication": "Elle peut l'augmenter. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le travail cardiaque est indépendant de la fréquence cardiaque.",
+              "explication": "La fréquence est un déterminant."
+            },
+            {
+              "reponse": "Le travail cardiaque est indépendant de la pression artérielle systémique.",
+              "explication": "Il augmente avec la pression artérielle."
+            },
+            {
+              "reponse": "Le travail cardiaque diminue quand le volume ventriculaire augmente.",
+              "explication": "Il augmente."
+            },
+            {
+              "reponse": "Le travail cardiaque ne représente pas la dépense énergétique du cœur.",
+              "explication": "Il représente cette dépense."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-049"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la précharge ventriculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "l'ensemble des facteurs contribuant au volume télédiastolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La précharge est l'ensemble des facteurs contribuant au volume télédiastolique.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La précharge dépend du volume sanguin et de la compliance ventriculaire.",
+              "explication": "Il faut que le ventricule se laisse remplir et que la volémie soit suffisante."
+            },
+            {
+              "reponse": "Physiologiquement, la précharge est maximale en fin de diastole.",
+              "explication": "Moment du remplissage maximal."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La précharge est l'ensemble des résistances qui s'opposent à l'éjection ventriculaire.",
+              "explication": "C'est la postcharge."
+            },
+            {
+              "reponse": "La précharge est représentée par la pression aortique.",
+              "explication": "La pression aortique représente la postcharge."
+            },
+            {
+              "reponse": "La précharge est maximale en début de systole.",
+              "explication": "Elle est maximale en fin de diastole."
+            },
+            {
+              "reponse": "La précharge dépend uniquement du volume sanguin, la compliance n'intervenant pas.",
+              "explication": "La compliance ventriculaire intervient."
+            },
+            {
+              "reponse": "La précharge dépend de la contractilité ventriculaire.",
+              "explication": "Elle dépend de la volémie et de la compliance."
+            },
+            {
+              "reponse": "La précharge est maximale en début de diastole.",
+              "explication": "Elle est maximale en fin de diastole."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-050"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la postcharge ventriculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "l'ensemble des résistances qui s'opposent à l'éjection"
+          },
+          "bonnes": [
+            {
+              "reponse": "La postcharge est l'ensemble des résistances qui s'opposent à l'éjection ventriculaire.",
+              "explication": "Elle est représentée par la pression aortique."
+            },
+            {
+              "reponse": "Physiologiquement, la postcharge est maximale en début de systole.",
+              "explication": "Moment de l'ouverture contre la pression aortique."
+            },
+            {
+              "reponse": "La postcharge est indépendante de la contractilité ventriculaire.",
+              "explication": "Elle se situe en dehors du ventricule."
+            },
+            {
+              "reponse": "Face à une forte postcharge, le ventricule éjecte moins bien.",
+              "explication": "Elle peut influencer l'éjection."
+            },
+            {
+              "reponse": "La postcharge ventriculaire gauche est majorée en cas d'hypertension artérielle.",
+              "explication": "Exemple cité à l'oral. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La postcharge ventriculaire gauche est majorée en cas de rétrécissement aortique.",
+              "explication": "Le ventricule doit éjecter plus fort à travers une valve rétrécie. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La postcharge est l'ensemble des facteurs contribuant au volume télédiastolique.",
+              "explication": "C'est la précharge."
+            },
+            {
+              "reponse": "La postcharge est maximale en fin de diastole.",
+              "explication": "Elle est maximale en début de systole."
+            },
+            {
+              "reponse": "C'est la contractilité ventriculaire qui crée la postcharge.",
+              "explication": "La postcharge est indépendante de la contractilité."
+            },
+            {
+              "reponse": "Une forte postcharge facilite l'éjection ventriculaire.",
+              "explication": "Le ventricule éjecte moins bien."
+            },
+            {
+              "reponse": "La postcharge ventriculaire gauche est majorée en cas d'insuffisance mitrale.",
+              "explication": "Dans une fuite mitrale, le ventricule éjecte plus facilement vers l'oreillette gauche à basse pression. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La postcharge est représentée par la pression de l'oreillette.",
+              "explication": "Elle est représentée par la pression aortique."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-051"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant l'effet de la précharge et de la postcharge sur l'éjection, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "modifient le volume d'éjection systolique sans modification de la contractilité"
+          },
+          "bonnes": [
+            {
+              "reponse": "La précharge et la postcharge modifient le volume d'éjection systolique sans modification de la contractilité.",
+              "explication": "Point d'insistance du cours."
+            },
+            {
+              "reponse": "L'évaluation de la contraction se fait toujours en connaissant la précharge et la postcharge.",
+              "explication": "Elles influencent la performance du myocarde."
+            },
+            {
+              "reponse": "Une augmentation de la précharge augmente le volume d'éjection systolique selon la loi de Starling.",
+              "explication": "Dans les limites physiologiques."
+            },
+            {
+              "reponse": "Une baisse de la postcharge favorise l'éjection en diminuant le volume télésystolique.",
+              "explication": "Postcharge basse, VTS bas."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le niveau de précharge ventriculaire modifie le volume d'éjection systolique en modifiant la contractilité.",
+              "explication": "Il le modifie sans modifier la contractilité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les conditions de charge modifient la contractilité intrinsèque des cardiomyocytes.",
+              "explication": "Elles modifient le VES sans modifier la contractilité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une baisse du retour veineux permet une augmentation du volume d'éjection systolique.",
+              "explication": "Moins de retour veineux, moins de VTD, moins de VES. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une augmentation de la postcharge diminue le volume télésystolique.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La précharge et la postcharge n'ont aucun effet sur la performance du myocarde.",
+              "explication": "Elles l'influencent."
+            },
+            {
+              "reponse": "On évalue la contraction sans tenir compte des conditions de charge.",
+              "explication": "Il faut connaître précharge et postcharge."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-052"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les situations cliniques modifiant précharge et postcharge, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "une poussée hypertensive sévère peut diminuer la performance contractile"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une poussée hypertensive sévère peut diminuer la performance contractile.",
+              "explication": "Postcharge très élevée."
+            },
+            {
+              "reponse": "Chez un patient en choc hémorragique, la volémie est insuffisante et l'éjection est moins bonne.",
+              "explication": "Précharge diminuée."
+            },
+            {
+              "reponse": "Les calcifications de la valve aortique augmentent la postcharge.",
+              "explication": "Exemple cité à l'oral."
+            },
+            {
+              "reponse": "Le rétrécissement aortique augmente la postcharge du ventricule gauche.",
+              "explication": "Le ventricule doit éjecter plus fort."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un choc hémorragique augmente la précharge.",
+              "explication": "La volémie est insuffisante, la précharge diminue."
+            },
+            {
+              "reponse": "Une poussée hypertensive sévère améliore la performance contractile.",
+              "explication": "Elle peut la diminuer."
+            },
+            {
+              "reponse": "Les calcifications de la valve aortique diminuent la postcharge.",
+              "explication": "Elles l'augmentent."
+            },
+            {
+              "reponse": "Le rétrécissement aortique diminue la postcharge du ventricule gauche.",
+              "explication": "Il l'augmente."
+            },
+            {
+              "reponse": "L'hypotension artérielle majore la postcharge.",
+              "explication": "La postcharge est liée à la pression aortique, elle s'abaisse."
+            },
+            {
+              "reponse": "La performance du myocarde est indépendante de la précharge.",
+              "explication": "Elle en dépend."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-053"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Du muscle isolé au cœur entier"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant l'architecture myocardique et la contraction du ventricule, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "le ventricule se contracte en se tordant"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fibres myocardiques sont organisées en couches dont l'orientation varie entre le sous-endocarde et le sous-épicarde.",
+              "explication": "Orientation oblique différente dans les 2 couches."
+            },
+            {
+              "reponse": "La contraction se propage comme une vague.",
+              "explication": "Zone de contractilité qui progresse à la surface du ventricule."
+            },
+            {
+              "reponse": "Le ventricule se contracte en se tordant, à la manière d'une serpillère qu'on essore.",
+              "explication": "Effet « serpillère »."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Toutes les fibres myocardiques ont la même orientation du sous-endocarde au sous-épicarde.",
+              "explication": "L'orientation varie progressivement."
+            },
+            {
+              "reponse": "La contraction du ventricule est simultanée et sans propagation.",
+              "explication": "Elle se propage comme une vague."
+            },
+            {
+              "reponse": "L'effet « serpillère » désigne la relaxation ventriculaire.",
+              "explication": "Il désigne la torsion du ventricule en contraction."
+            },
+            {
+              "reponse": "Le ventricule se contracte uniquement par raccourcissement longitudinal, sans torsion.",
+              "explication": "Il se contracte en se tordant."
+            },
+            {
+              "reponse": "Le sous-endocarde est la couche la plus externe du ventricule.",
+              "explication": "C'est le sous-épicarde."
+            },
+            {
+              "reponse": "L'effet « serpillère » concerne uniquement les oreillettes.",
+              "explication": "Il concerne le ventricule."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-054"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la comparaison entre la fibre isolée et le cœur entier, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Le cœur entier se comporte comme la fibre isolée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur entier se comporte comme la fibre isolée.",
+              "explication": "Il obéit aux mêmes principes."
+            },
+            {
+              "reponse": "La courbe pression-volume est encadrée par une relation « active » et une relation « passive ».",
+              "explication": "Équivalents de la tension active et de la tension passive de la fibre."
+            },
+            {
+              "reponse": "Plus le remplissage est grand, plus la boucle pression-volume est large.",
+              "explication": "Boucles de volumes télédiastoliques croissants."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cœur entier n'obéit à aucune des lois de la fibre isolée.",
+              "explication": "Il se comporte comme la fibre isolée."
+            },
+            {
+              "reponse": "La relation « active » correspond à la tension passive de la fibre.",
+              "explication": "Elle correspond à la tension active."
+            },
+            {
+              "reponse": "La relation « passive » correspond à la tension active de la fibre.",
+              "explication": "Elle correspond à la tension passive."
+            },
+            {
+              "reponse": "Plus le remplissage est grand, plus la boucle pression-volume est étroite.",
+              "explication": "Elle est plus large."
+            },
+            {
+              "reponse": "La boucle pression-volume est située au-dessus de la relation active.",
+              "explication": "Elle est encadrée par les 2 relations."
+            },
+            {
+              "reponse": "Le point télésystolique des boucles est aligné sur la relation passive.",
+              "explication": "Il est aligné sur la relation active."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-055"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la loi de Starling pour le cœur entier, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "l'adaptation du volume d'éjection systolique battement à battement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans des limites physiologiques, le cœur adapte sa force de contraction à son volume de remplissage.",
+              "explication": "Énoncé de la diapositive n°38."
+            },
+            {
+              "reponse": "La loi de Starling explique l'adaptation du volume d'éjection systolique battement à battement.",
+              "explication": "Adaptation rapide."
+            },
+            {
+              "reponse": "Quand le volume télédiastolique ventriculaire gauche augmente, la force de contraction du ventricule gauche augmente.",
+              "explication": "Application de la loi de Frank-Starling. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans la zone de précharge-dépendance, une petite augmentation de précharge augmente beaucoup le volume d'éjection.",
+              "explication": "Partie montante de la courbe."
+            },
+            {
+              "reponse": "Dans la zone de précharge-indépendance, augmenter la précharge n'augmente presque plus le volume d'éjection.",
+              "explication": "Plateau de la courbe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Quand le volume télédiastolique augmente, la force de contraction du ventricule gauche diminue.",
+              "explication": "Elle augmente. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Quand le volume télédiastolique augmente, le débit cardiaque diminue d'après la loi de Starling.",
+              "explication": "La force augmente donc le VES. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La loi de Starling explique une adaptation lente sur plusieurs semaines.",
+              "explication": "Adaptation battement à battement."
+            },
+            {
+              "reponse": "Dans la zone de précharge-indépendance, une petite augmentation de précharge augmente beaucoup le volume d'éjection.",
+              "explication": "C'est la zone de précharge-dépendance."
+            },
+            {
+              "reponse": "La loi de Starling ne s'applique qu'à la fibre isolée, jamais au cœur entier.",
+              "explication": "Elle s'applique au cœur entier."
+            },
+            {
+              "reponse": "La loi de Starling est valable sans limite de volume de remplissage.",
+              "explication": "Elle vaut dans des limites physiologiques."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-056"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la contractilité (inotropisme) sur la courbe pression-volume, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "droite qui relie l'origine au point télésystolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contractilité correspond à la pente Emax.",
+              "explication": "Pente de la droite reliant l'origine au point télésystolique."
+            },
+            {
+              "reponse": "Un cœur à fonction inotrope diminuée a une pente Emax plus faible (droite moins raide).",
+              "explication": "Cœur pathologique de la diapositive n°39."
+            },
+            {
+              "reponse": "Dans un cœur à fonction inotrope diminuée, la boucle est plus petite et décalée vers la droite.",
+              "explication": "Volume télésystolique plus grand, pression télésystolique plus basse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contractilité correspond à l'aire de la boucle pression-volume.",
+              "explication": "Elle correspond à la pente Emax."
+            },
+            {
+              "reponse": "La pente Emax est la pente de la relation passive de remplissage.",
+              "explication": "C'est la droite origine - point télésystolique."
+            },
+            {
+              "reponse": "Un cœur à fonction inotrope diminuée a une pente Emax plus raide.",
+              "explication": "La pente est moins raide."
+            },
+            {
+              "reponse": "Dans un cœur à fonction inotrope diminuée, la boucle est décalée vers la gauche.",
+              "explication": "Elle est décalée vers la droite."
+            },
+            {
+              "reponse": "La contractilité se mesure par la pression télédiastolique.",
+              "explication": "Elle se lit sur la pente Emax."
+            },
+            {
+              "reponse": "La pente Emax correspond au volume d'éjection systolique.",
+              "explication": "C'est un indice de contractilité."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-057"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la régulation de la relation pression-volume, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "dépend de la pression veineuse centrale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le contrôle extrinsèque correspond à l'inotropie, sous l'influence des hormones, du système nerveux et des médicaments.",
+              "explication": "Il déplace la courbe de tension active vers le haut."
+            },
+            {
+              "reponse": "Le contrôle intrinsèque correspond à la loi de Starling.",
+              "explication": "Il dépend de la pression veineuse centrale, liée à la volémie."
+            },
+            {
+              "reponse": "La force d'éjection systolique est réglée à la fois par un contrôle extrinsèque et par un contrôle intrinsèque.",
+              "explication": "Organigramme de la diapositive n°40."
+            },
+            {
+              "reponse": "Le contrôle intrinsèque agit par le remplissage, le long de la courbe de tension passive.",
+              "explication": "Schéma de la diapositive n°40."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le contrôle intrinsèque correspond à l'inotropie sous l'influence des médicaments.",
+              "explication": "C'est le contrôle extrinsèque."
+            },
+            {
+              "reponse": "Le contrôle extrinsèque correspond à la loi de Starling.",
+              "explication": "C'est le contrôle intrinsèque."
+            },
+            {
+              "reponse": "Le contrôle extrinsèque agit par le remplissage le long de la courbe de tension passive.",
+              "explication": "C'est le contrôle intrinsèque."
+            },
+            {
+              "reponse": "La force d'éjection systolique dépend uniquement du contrôle extrinsèque.",
+              "explication": "Les 2 contrôles interviennent."
+            },
+            {
+              "reponse": "La pression veineuse centrale détermine l'inotropie sous influence hormonale.",
+              "explication": "Elle intervient dans la loi de Starling (contrôle intrinsèque)."
+            },
+            {
+              "reponse": "Le contrôle extrinsèque déplace la courbe de tension passive.",
+              "explication": "Il déplace la courbe de tension active vers le haut."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-058"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le lusitropisme et la compliance du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "atteint un volume télédiastolique plus grand"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au niveau du cœur, le lusitropisme correspond à la relaxation ou compliance cardiaque.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Pour une même pression de remplissage, un cœur très compliant atteint un volume télédiastolique plus grand.",
+              "explication": "Il se laisse distendre."
+            },
+            {
+              "reponse": "Un cœur très compliant se remplit beaucoup sans augmenter sa pression.",
+              "explication": "Exemple : le sportif d'endurance."
+            },
+            {
+              "reponse": "Dans un cœur très peu compliant, la moindre augmentation de volume fait beaucoup monter la pression.",
+              "explication": "Remplissage difficile."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le lusitropisme correspond à la contractilité cardiaque.",
+              "explication": "Il correspond à la relaxation."
+            },
+            {
+              "reponse": "Dans un cœur très compliant, la pression monte très vite quand le volume augmente.",
+              "explication": "Elle monte lentement."
+            },
+            {
+              "reponse": "Pour une même pression de remplissage, un cœur peu compliant atteint un volume télédiastolique plus grand.",
+              "explication": "C'est un cœur très compliant."
+            },
+            {
+              "reponse": "Un cœur très peu compliant se laisse distendre sans augmentation de pression.",
+              "explication": "La pression monte beaucoup."
+            },
+            {
+              "reponse": "La compliance cardiaque est indépendante de la relaxation.",
+              "explication": "Lusitropisme = relaxation ou compliance."
+            },
+            {
+              "reponse": "Un cœur très compliant remplit moins bien le ventricule.",
+              "explication": "Il se remplit davantage à pression égale."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-059"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Débit cardiaque, fraction d'éjection et facteurs d'adaptation"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant le débit cardiaque et ses relations, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "si l'un des 2 facteurs varie, l'autre peut compenser"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit cardiaque est égal au produit de la fréquence cardiaque par le volume d'éjection systolique.",
+              "explication": "DC = FC × VES."
+            },
+            {
+              "reponse": "Si la fréquence cardiaque ou le volume d'éjection systolique varie, l'autre facteur peut compenser.",
+              "explication": "Relation du cours."
+            },
+            {
+              "reponse": "Le volume d'éjection systolique est égal au volume télédiastolique moins le volume télésystolique.",
+              "explication": "Le plus grand volume moins le plus petit."
+            },
+            {
+              "reponse": "Les débits cardiaques droit et gauche sont identiques sur 1 minute.",
+              "explication": "Les ventricules éjectent la même quantité de sang."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débit cardiaque est égal à la somme de la fréquence cardiaque et du volume d'éjection systolique.",
+              "explication": "C'est un produit."
+            },
+            {
+              "reponse": "Le débit cardiaque est égal au produit de la fréquence cardiaque par le volume télédiastolique.",
+              "explication": "DC = FC × VES."
+            },
+            {
+              "reponse": "Le volume d'éjection systolique est égal au produit du volume télédiastolique par le volume télésystolique.",
+              "explication": "C'est leur différence."
+            },
+            {
+              "reponse": "Le volume d'éjection systolique est le plus petit volume moins le plus grand.",
+              "explication": "C'est le plus grand moins le plus petit."
+            },
+            {
+              "reponse": "Le débit cardiaque du ventricule droit est nettement plus faible que celui du ventricule gauche.",
+              "explication": "Les débits sont identiques."
+            },
+            {
+              "reponse": "Une variation de la fréquence cardiaque ne peut jamais être compensée par le volume d'éjection.",
+              "explication": "L'un peut compenser l'autre."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-060"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le débit cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "pour augmenter le débit cardiaque et mieux perfuser les muscles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit cardiaque est plus important à l'effort qu'au repos.",
+              "explication": "À l'effort, la stimulation sympathique augmente fréquence et contractilité."
+            },
+            {
+              "reponse": "À volume d'éjection systolique constant, une bradycardie diminue le débit cardiaque.",
+              "explication": "DC = FC × VES."
+            },
+            {
+              "reponse": "Une baisse de la postcharge peut augmenter le volume d'éjection systolique et donc le débit cardiaque.",
+              "explication": "Elle diminue le volume télésystolique."
+            },
+            {
+              "reponse": "Une augmentation de la précharge peut augmenter le volume d'éjection systolique et donc le débit cardiaque.",
+              "explication": "Loi de Starling."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débit cardiaque augmente en cas de bradycardie.",
+              "explication": "À VES constant, il diminue. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le débit cardiaque augmente en cas d'élévation de la postcharge.",
+              "explication": "Une forte postcharge gêne l'éjection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le débit cardiaque est plus faible à l'effort qu'au repos.",
+              "explication": "Il augmente à l'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une baisse de la précharge augmente le débit cardiaque.",
+              "explication": "Elle diminue le VTD donc le VES. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le débit cardiaque est indépendant de la fréquence cardiaque.",
+              "explication": "DC = FC × VES."
+            },
+            {
+              "reponse": "Le débit cardiaque est indépendant du volume d'éjection systolique.",
+              "explication": "DC = FC × VES."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-061"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la fraction d'éjection (FE), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "La fraction d'éjection n'est pas synonyme de contractilité"
+          },
+          "bonnes": [
+            {
+              "reponse": "La FE est la proportion de sang éjectée par un ventricule à chaque contraction.",
+              "explication": "Elle s'exprime en pourcentage."
+            },
+            {
+              "reponse": "La FE est égale à (VTD − VTS) / VTD.",
+              "explication": "Formule du cours."
+            },
+            {
+              "reponse": "La FE est souvent mesurée en échographie cardiaque.",
+              "explication": "Moyen technique simple."
+            },
+            {
+              "reponse": "La FE n'est pas synonyme de contractilité.",
+              "explication": "Elle ne mesure pas la contractilité intrinsèque des fibres."
+            },
+            {
+              "reponse": "La FE dépend des conditions de charge.",
+              "explication": "Elle doit être interprétée en fonction de la précharge et de la postcharge."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La FE est égale à VES / VTS.",
+              "explication": "Elle est égale à (VTD − VTS) / VTD."
+            },
+            {
+              "reponse": "La FE est synonyme de contractilité.",
+              "explication": "Elle n'en est pas synonyme."
+            },
+            {
+              "reponse": "La FE est indépendante de la précharge et de la postcharge.",
+              "explication": "Elle en dépend."
+            },
+            {
+              "reponse": "La FE mesure la contractilité intrinsèque des fibres.",
+              "explication": "Elle ne la mesure pas."
+            },
+            {
+              "reponse": "La FE s'exprime en litres par minute.",
+              "explication": "Elle s'exprime en pourcentage."
+            },
+            {
+              "reponse": "La FE est égale au produit de la fréquence cardiaque par le volume d'éjection.",
+              "explication": "C'est le débit cardiaque."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-062"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la fuite mitrale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "d'éjecter vers l'oreillette gauche, où la pression est basse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Lors de la systole, il est plus facile pour le ventricule d'éjecter vers l'oreillette gauche que vers l'aorte.",
+              "explication": "Pression basse dans l'oreillette."
+            },
+            {
+              "reponse": "En cas de fuite mitrale, la fraction d'éjection paraît meilleure alors que le débit cardiaque réel est moins bon.",
+              "explication": "Une partie du volume repasse dans l'oreillette."
+            },
+            {
+              "reponse": "En cas de fuite, une fraction d'éjection « normale » est anormale.",
+              "explication": "On s'attend à une FE supérieure à la normale."
+            },
+            {
+              "reponse": "En Doppler, on mesure le débit qui passe réellement par la valve aortique.",
+              "explication": "Il détecte mieux les fuites."
+            },
+            {
+              "reponse": "Dans la fuite mitrale, le reflux se fait vers l'oreillette gauche.",
+              "explication": "Correction des notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans la fuite mitrale, le reflux se fait vers l'oreillette droite.",
+              "explication": "Il se fait vers l'oreillette gauche."
+            },
+            {
+              "reponse": "En cas de fuite mitrale, la fraction d'éjection est toujours abaissée.",
+              "explication": "Elle paraît meilleure."
+            },
+            {
+              "reponse": "En cas de fuite mitrale, une FE normale est rassurante.",
+              "explication": "Elle est anormale."
+            },
+            {
+              "reponse": "L'échographie, avec la différence VTD − VTS, mesure le débit réellement éjecté dans l'aorte.",
+              "explication": "Elle surestime le volume aortique ; c'est le Doppler qui le mesure."
+            },
+            {
+              "reponse": "En cas de fuite, le volume télésystolique est plus grand que le volume télédiastolique.",
+              "explication": "Impossible par définition."
+            },
+            {
+              "reponse": "En cas de fuite mitrale, le ventricule éjecte plus facilement vers l'aorte que vers l'oreillette.",
+              "explication": "Le contraire."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-063"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les déterminants des volumes télédiastolique et télésystolique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "télésystolique dépend de la contractilité et de la postcharge"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le volume télésystolique dépend de la contractilité et de la postcharge.",
+              "explication": "Point d'insistance."
+            },
+            {
+              "reponse": "Plus le cœur se contracte, mieux il se vide et plus le volume télésystolique est faible.",
+              "explication": "Effet de la contractilité."
+            },
+            {
+              "reponse": "Plus la postcharge est faible, plus le volume télésystolique est faible.",
+              "explication": "Éjection plus facile."
+            },
+            {
+              "reponse": "Le volume télédiastolique dépend de la volémie, de la précharge et de la compliance.",
+              "explication": "Il peut être anormal si le cœur n'est pas compliant."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le volume télésystolique dépend de la précharge et de la compliance.",
+              "explication": "Il dépend de contractilité et postcharge."
+            },
+            {
+              "reponse": "Plus le cœur se contracte, plus le volume télésystolique est grand.",
+              "explication": "Il est plus faible."
+            },
+            {
+              "reponse": "Plus la postcharge est faible, plus le volume télésystolique est grand.",
+              "explication": "Il est plus faible."
+            },
+            {
+              "reponse": "Le volume télédiastolique dépend de la contractilité et de la postcharge.",
+              "explication": "Il dépend de volémie, précharge, compliance."
+            },
+            {
+              "reponse": "Le volume télédiastolique est normal quelle que soit la compliance du cœur.",
+              "explication": "Il peut être anormal si le cœur n'est pas compliant."
+            },
+            {
+              "reponse": "Un volume télésystolique grand est favorable à l'éjection.",
+              "explication": "Le VTS doit être petit."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-064"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la fréquence cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "c'est un déterminant du débit cardiaque"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fréquence cardiaque dépend de la vitesse de dépolarisation des cellules pacemaker.",
+              "explication": "Déterminant du débit cardiaque."
+            },
+            {
+              "reponse": "La fréquence cardiaque diminue sous l'effet du parasympathique.",
+              "explication": "Frein cardiaque."
+            },
+            {
+              "reponse": "La fréquence cardiaque augmente sous l'effet du sympathique et de l'adrénaline.",
+              "explication": "Accélérateur cardiaque."
+            },
+            {
+              "reponse": "La fréquence cardiaque dépend de la fréquence intrinsèque et du système nerveux autonome (catécholamines).",
+              "explication": "Arbre de la diapositive n°44."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fréquence cardiaque dépend de la vitesse de contraction des cardiomyocytes.",
+              "explication": "Elle dépend de la vitesse de dépolarisation des cellules pacemaker."
+            },
+            {
+              "reponse": "La fréquence cardiaque augmente sous l'effet du parasympathique.",
+              "explication": "Elle diminue."
+            },
+            {
+              "reponse": "La fréquence cardiaque diminue sous l'effet de l'adrénaline.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "La fréquence cardiaque dépend de la précharge et de la compliance.",
+              "explication": "Elle dépend de la fréquence intrinsèque et du SNA."
+            },
+            {
+              "reponse": "La fréquence cardiaque n'a pas d'influence sur le débit cardiaque.",
+              "explication": "Elle en est un déterminant."
+            },
+            {
+              "reponse": "La fréquence cardiaque est indépendante du système nerveux autonome.",
+              "explication": "Elle en dépend."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-065"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant l'effet de la fréquence cardiaque sur la durée de la systole et de la diastole, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "systole et diastole ont presque la même durée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au repos, la systole occupe environ 1/3 du cycle et la diastole environ 2/3.",
+              "explication": "Pour 75 battements par minute."
+            },
+            {
+              "reponse": "En cas de tachycardie sinusale, le raccourcissement du cycle cardiaque se fait surtout aux dépens de la diastole.",
+              "explication": "La diastole est très dépendante de la fréquence. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Quand le rythme ralentit, c'est surtout la durée de la diastole qui augmente.",
+              "explication": "Réciproque."
+            },
+            {
+              "reponse": "À 150 battements par minute, la systole et la diastole ont presque la même durée.",
+              "explication": "Les 2 durées deviennent presque égales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En cas de tachycardie, le raccourcissement du cycle se fait uniquement aux dépens de la systole.",
+              "explication": "Il se fait surtout aux dépens de la diastole. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La durée de la diastole est indépendante de la fréquence cardiaque.",
+              "explication": "La diastole est très dépendante de la fréquence."
+            },
+            {
+              "reponse": "Quand le rythme ralentit, c'est surtout la durée de la systole qui augmente.",
+              "explication": "C'est surtout la diastole."
+            },
+            {
+              "reponse": "À 150 battements par minute, la diastole dure 2 fois plus longtemps que la systole.",
+              "explication": "Les 2 durées sont presque égales."
+            },
+            {
+              "reponse": "Au repos, la systole occupe 2/3 du cycle.",
+              "explication": "Elle occupe environ 1/3."
+            },
+            {
+              "reponse": "Quand la fréquence augmente, la durée de la diastole reste inchangée.",
+              "explication": "Elle diminue beaucoup."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-066"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le volume d'éjection systolique et le retour veineux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "favorisent le retour veineux : la pompe musculaire squelettique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le volume d'éjection systolique augmente quand la force de contraction du myocarde ventriculaire augmente.",
+              "explication": "Elle dépend de la contractilité et du volume télédiastolique."
+            },
+            {
+              "reponse": "L'innervation sympathique et les catécholamines augmentent la contractilité.",
+              "explication": "Le volume télésystolique diminue."
+            },
+            {
+              "reponse": "Le sympathique provoque une constriction des veines, qui augmente le retour veineux.",
+              "explication": "Veinoconstriction."
+            },
+            {
+              "reponse": "L'augmentation du retour veineux augmente le volume télédiastolique, donc la précharge.",
+              "explication": "Chaîne retour veineux - VTD - précharge."
+            },
+            {
+              "reponse": "La pompe musculaire squelettique et la pompe respiratoire favorisent le retour veineux.",
+              "explication": "2 facteurs du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sympathique provoque une dilatation des veines qui diminue le retour veineux.",
+              "explication": "Il provoque une constriction des veines."
+            },
+            {
+              "reponse": "Les catécholamines diminuent la contractilité.",
+              "explication": "Elles l'augmentent."
+            },
+            {
+              "reponse": "La pompe musculaire squelettique diminue le retour veineux.",
+              "explication": "Elle l'augmente en comprimant les veines."
+            },
+            {
+              "reponse": "La pompe respiratoire diminue le remplissage du cœur droit.",
+              "explication": "Plus on respire, plus le cœur droit se remplit."
+            },
+            {
+              "reponse": "Une augmentation du retour veineux diminue le volume télédiastolique.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "Le volume d'éjection systolique augmente quand le volume télésystolique augmente.",
+              "explication": "Il augmente quand le VTS diminue."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-067"
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Hémodynamique cardiovasculaire"
+      },
+      "questions": [
+        {
+          "type": "qcm",
+          "question": "Concernant les pressions dans les cavités cardiaques et les artères (ordres de grandeur), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "La pression artérielle pulmonaire est inférieure à la pression périphérique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression artérielle pulmonaire est inférieure à la pression artérielle systémique.",
+              "explication": "La pression est plus importante à gauche qu'à droite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La pression systolique du ventricule gauche est beaucoup plus élevée que celle du ventricule droit.",
+              "explication": "Cœur gauche à haute pression."
+            },
+            {
+              "reponse": "La pression de l'oreillette droite est basse (quelques mmHg).",
+              "explication": "Valeurs à retenir en ordre de grandeur seulement."
+            },
+            {
+              "reponse": "Les pressions sont plus basses à droite qu'à gauche.",
+              "explication": "Circulation pulmonaire à basse pression."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression artérielle pulmonaire est supérieure à la pression artérielle systémique.",
+              "explication": "Elle est inférieure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La pression systolique du ventricule droit est supérieure à celle du ventricule gauche.",
+              "explication": "Elle est beaucoup plus basse."
+            },
+            {
+              "reponse": "La pression de l'oreillette droite est de l'ordre de 100 mmHg.",
+              "explication": "Elle est basse (quelques mmHg)."
+            },
+            {
+              "reponse": "Les pressions des 2 ventricules sont identiques.",
+              "explication": "Elles sont très différentes."
+            },
+            {
+              "reponse": "La pression dans le cœur droit est plus élevée que dans le cœur gauche.",
+              "explication": "Les pressions sont plus élevées à gauche."
+            },
+            {
+              "reponse": "La pression moyenne de l'artère pulmonaire est proche de celle de l'aorte.",
+              "explication": "Elle est beaucoup plus basse."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-068"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant les circulations à haute et à basse pression, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "la majeure partie du sang se trouve dans les veines"
+          },
+          "bonnes": [
+            {
+              "reponse": "La circulation à haute pression et fortes résistances comprend le ventricule gauche, les artères et les artérioles.",
+              "explication": "Secteur artériel."
+            },
+            {
+              "reponse": "La circulation à basse pression comprend les capillaires, les veines, le cœur droit et la circulation pulmonaire.",
+              "explication": "Faibles résistances, volume de sang important."
+            },
+            {
+              "reponse": "La majeure partie du sang se trouve dans les veines.",
+              "explication": "Elles ont une grande compliance et une faible pression."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les veines appartiennent à la circulation à haute pression.",
+              "explication": "Basse pression."
+            },
+            {
+              "reponse": "La majeure partie du sang se trouve dans les artères.",
+              "explication": "Dans les veines."
+            },
+            {
+              "reponse": "Les artérioles appartiennent à la circulation à basse pression et faibles résistances.",
+              "explication": "Haute pression, fortes résistances."
+            },
+            {
+              "reponse": "Les veines ont une faible compliance.",
+              "explication": "Elles ont une grande compliance."
+            },
+            {
+              "reponse": "La circulation pulmonaire est une circulation à haute pression.",
+              "explication": "Basse pression."
+            },
+            {
+              "reponse": "Le cœur droit appartient à la circulation à haute pression.",
+              "explication": "Basse pression."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-069"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la courbe pression-volume du ventricule droit, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "C'est quasiment la même courbe que pour le ventricule gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "La courbe est quasiment la même que pour le ventricule gauche, avec des pressions beaucoup plus faibles.",
+              "explication": "Même forme de boucle."
+            },
+            {
+              "reponse": "Les volumes d'éjection systolique des 2 ventricules sont les mêmes.",
+              "explication": "Pressions différentes, volumes d'éjection identiques."
+            },
+            {
+              "reponse": "Le ventricule droit est un peu plus petit mais a surtout une forme différente.",
+              "explication": "En volume, les 2 ventricules sont proches."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les pressions du ventricule droit sont plus élevées que celles du ventricule gauche.",
+              "explication": "Elles sont beaucoup plus faibles."
+            },
+            {
+              "reponse": "Le volume d'éjection systolique du ventricule droit est nettement plus faible que celui du gauche.",
+              "explication": "Ils sont les mêmes."
+            },
+            {
+              "reponse": "La boucle du ventricule droit a une forme radicalement différente de celle du gauche.",
+              "explication": "Même forme, pressions plus basses."
+            },
+            {
+              "reponse": "Les pressions des 2 ventricules sont identiques.",
+              "explication": "Elles sont très différentes."
+            },
+            {
+              "reponse": "En volume, les 2 ventricules sont très différents.",
+              "explication": "Ils sont proches."
+            },
+            {
+              "reponse": "Le ventricule droit éjecte à une pression supérieure à celle de l'aorte.",
+              "explication": "Il éjecte à basse pression dans l'artère pulmonaire."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-070"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la pression le long des vaisseaux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "chute surtout au niveau des artérioles"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression est élevée et pulsatile dans les artères systémiques.",
+              "explication": "Elle oscille entre pression diastolique et systolique."
+            },
+            {
+              "reponse": "La pression chute surtout au niveau des artérioles.",
+              "explication": "Lieu des fortes résistances."
+            },
+            {
+              "reponse": "La pression est très basse et non pulsatile dans le secteur veineux.",
+              "explication": "Elle approche 0 dans les veines caves."
+            },
+            {
+              "reponse": "La circulation pulmonaire fonctionne à des pressions beaucoup plus basses que la circulation systémique.",
+              "explication": "Artères pulmonaires à basse pression."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression artérielle augmente le long de l'arbre artériel.",
+              "explication": "Elle diminue, surtout dans les artérioles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La pression chute surtout dans l'aorte.",
+              "explication": "Elle chute surtout dans les artérioles."
+            },
+            {
+              "reponse": "La pression est fortement pulsatile dans les grosses veines.",
+              "explication": "Elle est non pulsatile dans le secteur veineux."
+            },
+            {
+              "reponse": "La pression est élevée dans les veines caves.",
+              "explication": "Elle est proche de 0."
+            },
+            {
+              "reponse": "La circulation pulmonaire fonctionne à des pressions plus hautes que la circulation systémique.",
+              "explication": "Pressions beaucoup plus basses."
+            },
+            {
+              "reponse": "Les oscillations de pression sont maximales dans les capillaires.",
+              "explication": "Elles disparaissent dans les artérioles."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-071"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant le rôle des ventricules dans l'hémodynamique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "la contraction ventriculaire compense la perte de charge"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction ventriculaire compense la perte de charge entre le retour veineux et le secteur artériel.",
+              "explication": "Rôle principal de la contraction ventriculaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le retour veineux correspond à la précharge.",
+              "explication": "Début du circuit pour le ventricule."
+            },
+            {
+              "reponse": "Le secteur artériel correspond à la postcharge.",
+              "explication": "Fin du circuit pour le ventricule."
+            },
+            {
+              "reponse": "Le système circulatoire est pulsatile et amorti par l'élasticité des vaisseaux.",
+              "explication": "Remarque de la diapositive n°51."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction ventriculaire crée la perte de charge entre secteurs veineux et artériel.",
+              "explication": "Elle la compense."
+            },
+            {
+              "reponse": "Le retour veineux correspond à la postcharge.",
+              "explication": "Il correspond à la précharge."
+            },
+            {
+              "reponse": "Le secteur artériel correspond à la précharge.",
+              "explication": "Il correspond à la postcharge."
+            },
+            {
+              "reponse": "Le système circulatoire est non pulsatile dans sa totalité.",
+              "explication": "Il est pulsatile, amorti par l'élasticité des vaisseaux."
+            },
+            {
+              "reponse": "La pression de l'oreillette droite est égale à la pression aortique.",
+              "explication": "Elle est très basse."
+            },
+            {
+              "reponse": "Le ventricule gauche élève la pression du sang jusqu'à la pression artérielle pulmonaire.",
+              "explication": "Il l'élève jusqu'à la pression aortique."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-072"
+        },
+        {
+          "type": "qcm",
+          "question": "Concernant la vitesse du sang le long des vaisseaux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "La vitesse du sang est minimale dans les capillaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "La vitesse du sang est minimale dans les capillaires.",
+              "explication": "Là où la section cumulée est maximale."
+            },
+            {
+              "reponse": "La section cumulée des vaisseaux est maximale au niveau des capillaires.",
+              "explication": "Elle est très supérieure à celle de l'aorte."
+            },
+            {
+              "reponse": "La vitesse du sang est élevée dans l'aorte et dans les veines.",
+              "explication": "Leur section totale est faible."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La vitesse du sang est maximale dans les capillaires.",
+              "explication": "Elle y est minimale."
+            },
+            {
+              "reponse": "La section cumulée est minimale dans les capillaires.",
+              "explication": "Elle y est maximale."
+            },
+            {
+              "reponse": "La vitesse du sang est la même dans tous les segments vasculaires.",
+              "explication": "Elle varie fortement."
+            },
+            {
+              "reponse": "La vitesse du sang est faible dans l'aorte car sa section est la plus grande.",
+              "explication": "Elle est élevée dans l'aorte, dont la section est faible."
+            },
+            {
+              "reponse": "La section cumulée des veines est supérieure à celle des capillaires.",
+              "explication": "Celle des capillaires est maximale."
+            },
+            {
+              "reponse": "La vitesse du sang est minimale dans les veines.",
+              "explication": "Elle y est élevée ; minimale dans les capillaires."
+            }
+          ],
+          "id": "cardio-physio-mecahemo-073"
+        }
+      ]
+    }
+  ]
+}
