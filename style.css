@@ -48,7 +48,7 @@ input[type=number]{width:56px;height:44px;text-align:center;font-size:1.1rem;fon
 /* ----- QCM ----- */
 .qlayout{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
 .qmain{flex:1 1 560px;min-width:0;max-width:780px;margin:0 auto}
-#quiz.course-open .qmain{flex:999 1 520px;max-width:none;margin:0}
+#quiz.course-open .qmain{flex:1 1 440px;max-width:none;margin:0}
 .endcard{max-width:780px;margin:14px auto}
 #nav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
 .sq{width:42px;height:42px;padding:0;border-radius:8px;background:var(--card);color:var(--text);border:1px solid var(--line);font-size:.95rem;font-weight:700}
@@ -68,11 +68,16 @@ label.opt.missed{border-color:var(--ok);border-style:dashed}
 label.opt.locked{cursor:default}
 .why{font-size:.88rem;color:var(--muted);margin-top:2px}
 /* ----- volet cours (PDF) ----- */
-#course{flex:1 1 420px;min-width:0;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:16px;overflow:hidden;position:sticky;top:12px;max-height:calc(100vh - 24px)}
+#course{flex:1.4 1 520px;min-width:0;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:16px;overflow:hidden;position:sticky;top:12px;max-height:calc(100vh - 24px)}
 .chead{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 12px;background:#14202b;color:#fff}
 .chead #cname{flex:1 1 140px;min-width:0;font-size:.9rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .chead button{width:44px;height:44px;padding:0;font-size:1.3rem;background:#2b3a48;color:#fff}
-#cpage{font-size:.9rem;white-space:nowrap}
+.chead button.txt{width:auto;padding:0 12px;font-size:.85rem;font-weight:600}
+.cnum{display:flex;align-items:center;gap:4px;font-size:.9rem;white-space:nowrap}
+.cnum input{width:56px;height:36px;font-size:1rem;background:#fff;color:#14202b;border:0}
+#pdfpage canvas{cursor:zoom-in}
+#course.big{position:fixed;inset:12px;max-height:none;z-index:40;box-shadow:0 0 0 100vmax rgba(0,0,0,.6)}
+#course.big #pdfpage canvas{cursor:default}
 #cnote{padding:4px 12px}
 #pdfbody{overflow:auto;background:#dce3e8;padding:12px;flex:1;min-height:200px}
 #pdfpage{position:relative;margin:0 auto;width:max-content;max-width:none;box-shadow:0 2px 10px rgba(20,32,43,.25);background:#fff}
@@ -84,4 +89,6 @@ label.opt.locked{cursor:default}
   #chips{display:none}
   .item{flex-wrap:wrap}.item.lvl1{margin-left:14px}.item.lvl2{margin-left:28px}
   #course{position:fixed;inset:0;max-height:none;border-radius:0;z-index:30;top:0}
+  #cbig{display:none}
+  #pdfpage canvas{cursor:default}
 }

@@ -27,7 +27,6 @@ function ans(a){
 function uniq(list){const seen=new Set();return list.filter(a=>!seen.has(a.reponse)&&seen.add(a.reponse))}
 // Lien vers le cours : "cours": { "fichier": "cours/x.pdf", "page": 12, "surligner": "texte à retrouver sur la page" }
 // "fichier" (et "page") peuvent être donnés une fois pour tout le fichier ou pour un chapitre, dans leur "meta.cours".
-// Le chemin du PDF est relatif à la page HTML (et non au dossier data/).
 function asCours(v){
   if(typeof v==="string")return{fichier:v};
   if(typeof v==="number")return{page:v};
@@ -77,16 +76,11 @@ function groupFiles(files){
   files.forEach(f=>{
     let t=f.theme?byKey.get(f.theme.toLowerCase()):null;
     if(!t){t={nom:f.theme||f.titre,description:f.theme?"":f.description,sections:[],chapitres:[]};out.push(t);if(f.theme)byKey.set(f.theme.toLowerCase(),t)}
-    const sec={nom:f.section||f.titre,titre:f.titre,description:f.theme?f.description:"",explicit:!!f.section,chapitres:[]};
+    const sec={nom:f.section||f.titre,description:f.theme?f.description:"",explicit:!!f.section,chapitres:[]};
     f.chapitres.forEach(c=>{sec.chapitres.push(c)});
     if(sec.chapitres.length)t.sections.push(sec);
   });
   out.forEach(t=>{
-    // Plusieurs fichiers avec la même section dans un thème : on ajoute le titre du cours pour les distinguer
-    // (ex. « Physiologie · Consommation d’oxygène (V’O2) »)
-    const nb=new Map();
-    t.sections.forEach(s=>{const k=s.nom.toLowerCase();nb.set(k,(nb.get(k)||0)+1)});
-    t.sections.forEach(s=>{if(nb.get(s.nom.toLowerCase())>1&&s.titre!==s.nom)s.nom+=" · "+s.titre});
     t.sections.forEach(sec=>{
       sec.show=t.sections.length>1||sec.explicit;   // titre de section affiché seulement s’il y en a plusieurs (ou si "section" est renseignée)
       sec.chapitres.forEach(c=>c.questions.forEach(q=>{q.theme=t.nom;q.path=[t.nom,...(sec.show?[sec.nom]:[]),c.titre].join(" › ")}));
@@ -323,19 +317,19 @@ function finish(){
 }
 
 // ----- Volet « Cours » : le PDF s’ouvre à la bonne page, le passage est surligné -----
-// Recherche d’un texte dans les éléments de texte d’une page PDF (accents, majuscules, espaces, tirets et césures ignorés).
+// Recherche d’un texte dans les éléments de texte d’une page PDF (accents, majuscules, espaces et césures ignorés).
 // Renvoie les morceaux à surligner : [{i: numéro de l’élément, k0, k1: positions des caractères}]
 function normChars(s){
-  // Les tirets sont ignorés : ainsi « endo-derme » (césure) et « sous-endocarde » coupé en fin de ligne sont retrouvés
-  return[...s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[’‘ʼ´`]/g,"'").replace(/[-‐‑–—−]/g,"")].filter(c=>!/\s/.test(c)&&c!=="\u00ad");
+  return[...s.normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[’‘ʼ´`]/g,"'").replace(/[‐‑–—−]/g,"-")].filter(c=>!/\s/.test(c)&&c!=="\u00ad");
 }
 function matchSpans(items,term){
   const t=normChars(term);if(!t.length)return[];
   const text=[],src=[];
   items.forEach((it,idx)=>{
     if(typeof it.str!=="string")return;
-    const s=it.str;
+    const s=it.str,hyph=it.hasEOL&&s.length>1&&/[-\u00ad]$/.test(s);   // mot coupé en fin de ligne : on ignore le tiret
     for(let k=0;k<s.length;k++){
+      if(hyph&&k===s.length-1)break;
       normChars(s[k]).forEach(c=>{text.push(c);src.push({i:idx,k})});
     }
   });
@@ -355,7 +349,8 @@ function matchSpans(items,term){
 }
 let pdfLibP=null;
 const pdfDocs=new Map();
-let cv={file:"",page:1,target:1,term:"",token:0};
+let cv={file:"",page:1,target:1,term:"",token:0,zoom:1};   // zoom : 1 = largeur du volet
+let big=false;                                            // volet agrandi (plein écran sur ordinateur)
 function loadPdfJs(){
   if(window.pdfjsLib)return Promise.resolve(window.pdfjsLib);
   if(!pdfLibP)pdfLibP=new Promise((res,rej)=>{
@@ -372,8 +367,14 @@ function openCourse(c){
   $("cname").textContent=c.fichier.split("/").pop();
   showPage(c.page);
 }
-function closeCourse(){cv.token++;$("course").classList.add("hidden");$("quiz").classList.remove("course-open")}
-async function showPage(n){
+function closeCourse(){cv.token++;setBig(false,true);$("course").classList.add("hidden");$("quiz").classList.remove("course-open")}
+const isNarrow=()=>window.matchMedia&&window.matchMedia("(max-width:860px)").matches;
+function setBig(on,quiet){   // agrandir / réduire le volet (le zoom revient à « ajusté à la largeur »)
+  big=on;$("course").classList.toggle("big",on);$("cbig").textContent=on?"Réduire":"Agrandir";
+  if(quiet)return;cv.zoom=1;showPage(cv.page);
+}
+function zoomBy(d){cv.zoom=Math.min(4,Math.max(0.5,Math.round((cv.zoom+d)*100)/100));showPage(cv.page,true)}
+async function showPage(n,keep){
   const token=++cv.token,box=$("pdfpage");
   $("cnote").textContent="Chargement du cours…";
   try{
@@ -382,17 +383,17 @@ async function showPage(n){
     if(!doc){doc=await lib.getDocument(encodeURI(cv.file)).promise;pdfDocs.set(cv.file,doc)}
     if(token!==cv.token)return;
     n=Math.min(Math.max(1,n),doc.numPages);cv.page=n;
-    $("cpage").textContent="p. "+n+" / "+doc.numPages;
+    $("cnum").value=n;$("cnum").max=doc.numPages;$("ctotal").textContent=doc.numPages;$("cfit").textContent=Math.round(cv.zoom*100)+" %";
     $("cprev").disabled=n<=1;$("cnext").disabled=n>=doc.numPages;
     const page=await doc.getPage(n);
     const width=Math.max(280,$("pdfbody").clientWidth-24),base=page.getViewport({scale:1});
-    const vp=page.getViewport({scale:Math.min(2.4,width/base.width)}),ratio=window.devicePixelRatio||1;
+    const vp=page.getViewport({scale:Math.min(6,Math.min(3,width/base.width)*cv.zoom)}),ratio=window.devicePixelRatio||1;
     const canvas=document.createElement("canvas");
     canvas.width=Math.floor(vp.width*ratio);canvas.height=Math.floor(vp.height*ratio);
     canvas.style.width=vp.width+"px";canvas.style.height=vp.height+"px";
     await page.render({canvasContext:canvas.getContext("2d"),viewport:vp,transform:ratio!==1?[ratio,0,0,ratio,0,0]:null}).promise;
     if(token!==cv.token)return;
-    box.innerHTML="";box.append(canvas);$("cnote").textContent="";
+    box.innerHTML="";box.append(canvas);$("cnote").textContent="";if(!keep)$("pdfbody").scrollTop=0;
     if(cv.term&&n===cv.target){
       const items=(await page.getTextContent()).items,rects=[];
       matchSpans(items,cv.term).forEach(sp=>{
@@ -403,7 +404,7 @@ async function showPage(n){
       });
       rects.forEach(r=>{const d=document.createElement("div");d.className="hl";
         d.style.cssText="left:"+(r.l-2)+"px;top:"+(r.t-1)+"px;width:"+(r.w+4)+"px;height:"+(r.h+2)+"px";box.append(d)});
-      if(rects.length)box.querySelector(".hl").scrollIntoView({block:"center"});
+      if(rects.length){if(!keep)box.querySelector(".hl").scrollIntoView({block:"center",inline:"center"})}
       else $("cnote").textContent="Passage « "+cv.term+" » introuvable sur cette page (le PDF contient-il du texte sélectionnable ?).";
     }
   }catch(e){
@@ -430,6 +431,20 @@ document.querySelectorAll(".step").forEach(b=>b.onclick=()=>{
 ["nq","total","kmax"].forEach(id=>$(id).oninput=updateStart);
 $("seecourse").onclick=()=>{const q=quiz[i];if(q&&q.cours)openCourse(q.cours)};
 $("cclose").onclick=closeCourse;
+$("cbig").onclick=()=>setBig(!big);
+$("cminus").onclick=()=>zoomBy(-0.25);$("cplus").onclick=()=>zoomBy(0.25);
+$("cfit").onclick=()=>{cv.zoom=1;showPage(cv.page,true)};
+$("cnum").onchange=()=>showPage(Math.round(+$("cnum").value)||cv.page);
+$("pdfpage").onclick=()=>{if(!big&&!isNarrow())setBig(true)};   // un clic sur la page agrandit le volet
+document.addEventListener("keydown",e=>{   // clavier : ← → pages, + − zoom, Échap réduit
+  if($("course").classList.contains("hidden"))return;
+  const t=e.target,tag=t&&t.tagName;if(tag==="INPUT"||tag==="TEXTAREA"||(t&&t.isContentEditable))return;
+  if(e.key==="Escape"&&big)setBig(false);
+  else if(e.key==="ArrowLeft"){e.preventDefault();showPage(cv.page-1)}
+  else if(e.key==="ArrowRight"){e.preventDefault();showPage(cv.page+1)}
+  else if(e.key==="+"||e.key==="="){zoomBy(0.25)}
+  else if(e.key==="-"){zoomBy(-0.25)}
+});
 $("cprev").onclick=()=>showPage(cv.page-1);
 $("cnext").onclick=()=>showPage(cv.page+1);
 init();

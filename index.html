@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QCM de révision</title>
-<link rel="stylesheet" href="style.css?v=9">
+<link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
 <main>
@@ -58,7 +58,17 @@
 </div>
 </div>
 <aside id="course" class="hidden" aria-label="Cours">
-<div class="chead"><div id="cname"></div><button id="cprev" aria-label="Page précédente">‹</button><span id="cpage"></span><button id="cnext" aria-label="Page suivante">›</button><button id="cclose" aria-label="Fermer le cours">×</button></div>
+<div class="chead">
+<div id="cname"></div>
+<button id="cprev" aria-label="Page précédente">‹</button>
+<label class="cnum">p. <input id="cnum" type="number" min="1" aria-label="Numéro de page"> / <span id="ctotal"></span></label>
+<button id="cnext" aria-label="Page suivante">›</button>
+<button id="cminus" aria-label="Zoom arrière">−</button>
+<button id="cfit" class="txt" title="Ajuster à la largeur" aria-label="Ajuster à la largeur">100 %</button>
+<button id="cplus" aria-label="Zoom avant">+</button>
+<button id="cbig" class="txt">Agrandir</button>
+<button id="cclose" aria-label="Fermer le cours">×</button>
+</div>
 <div id="cnote" class="hint"></div>
 <div id="pdfbody"><div id="pdfpage"></div></div>
 </aside>
@@ -71,6 +81,6 @@
 </section>
 </main>
 
-<script src="script.js?v=9"></script>
+<script src="script.js?v=10"></script>
 </body>
 </html>

@@ -1,0 +1,2743 @@
+{
+  "meta": {
+    "theme": "Appareil respiratoire",
+    "section": "Histologie",
+    "titre": "Histologie de l'appareil respiratoire",
+    "description": "Structure histologique des voies aériennes, de la trachée, de l'arbre bronchique et des alvéoles, de la muqueuse nasale à la barrière alvéolo-capillaire.",
+    "cours": {
+      "fichier": "cours/respi-histoembryo-histo.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-histo-001",
+          "type": "qcm",
+          "question": "Concernant les 2 secteurs de l'appareil respiratoire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "acheminent l'air jusqu'au 2e secteur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les voies de conduction acheminent l'air jusqu'aux alvéoles en le modifiant.",
+              "explication": "Humidification, réchauffement, filtration et défense."
+            },
+            {
+              "reponse": "Les voies de conduction restent ouvertes grâce à un squelette fibreux ou cartilagineux.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Au niveau des bronchioles, les voies de conduction sont maintenues par du muscle.",
+              "explication": "Les bronchioles n'ont pas de cartilage."
+            },
+            {
+              "reponse": "Les voies respiratoires proprement dites correspondent aux alvéoles pulmonaires.",
+              "explication": "C'est là que se font les échanges gazeux."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les voies de conduction sont le lieu des échanges gazeux.",
+              "explication": "Les échanges ont lieu dans les alvéoles."
+            },
+            {
+              "reponse": "Les voies de conduction restent ouvertes uniquement grâce à du muscle strié.",
+              "explication": "Elles restent ouvertes grâce à un squelette fibreux ou cartilagineux, et à du muscle (lisse) dans les bronchioles."
+            },
+            {
+              "reponse": "Les bronchioles sont maintenues ouvertes par des anneaux cartilagineux.",
+              "explication": "Les bronchioles n'ont pas de cartilage ; c'est le muscle qui intervient."
+            },
+            {
+              "reponse": "Les alvéoles appartiennent aux voies de conduction.",
+              "explication": "Elles constituent les voies respiratoires proprement dites."
+            },
+            {
+              "reponse": "Les voies de conduction transmettent l'air aux alvéoles sans le modifier.",
+              "explication": "Elles l'humidifient, le réchauffent, le filtrent et assurent la défense."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-002",
+          "type": "qcm",
+          "question": "Quels sont les rôles des voies aériennes supérieures ?",
+          "cours": {
+            "page": 1,
+            "surligner": "particules de plus de 7 microns ont été éliminées"
+          },
+          "bonnes": [
+            {
+              "reponse": "Humidifier l'air inspiré.",
+              "explication": "Rôle des voies de conduction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Réchauffer l'air inspiré.",
+              "explication": "Rôle des voies de conduction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Filtrer les particules et les micro-organismes.",
+              "explication": "Filtration et défense contre particules, virus et bactéries. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Participer aux défenses immunologiques de l'organisme.",
+              "explication": "Le chorion des fosses nasales contient des cellules de défense et immunitaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Éliminer les particules de plus de 7 microns avant la sortie des fosses nasales.",
+              "explication": "Chiffre du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Rendre l'air inspiré plus sec.",
+              "explication": "Elles l'humidifient. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Permettre les échanges gazeux.",
+              "explication": "Les échanges gazeux se font dans les alvéoles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fosses nasales ne participent pas aux défenses immunitaires.",
+              "explication": "Leur chorion contient du tissu lymphoïde associé aux muqueuses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Seules les particules de plus de 70 microns sont éliminées à la sortie des fosses nasales.",
+              "explication": "Le seuil est de 7 microns."
+            },
+            {
+              "reponse": "Refroidir l'air inspiré.",
+              "explication": "Elles le réchauffent, notamment grâce au plexus veineux du chorion."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-003",
+          "type": "qcm",
+          "question": "Concernant l'hématose et les alvéoles pulmonaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "Ne pas confondre l'hématose"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hématose désigne les échanges gazeux entre l'air et le sang au niveau des alvéoles.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'hémostase désigne la coagulation.",
+              "explication": "À ne pas confondre avec l'hématose."
+            },
+            {
+              "reponse": "On compte environ 300 millions d'alvéoles chez l'adulte.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "La surface alvéolaire est d'environ 100 mètres carrés.",
+              "explication": "Chiffre du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hématose désigne la coagulation du sang.",
+              "explication": "C'est l'hémostase ; l'hématose désigne les échanges gazeux."
+            },
+            {
+              "reponse": "L'hémostase désigne les échanges gazeux alvéolaires.",
+              "explication": "C'est l'hématose."
+            },
+            {
+              "reponse": "On compte environ 3 millions d'alvéoles chez l'adulte.",
+              "explication": "Environ 300 millions."
+            },
+            {
+              "reponse": "La surface alvéolaire est d'environ 100 centimètres carrés.",
+              "explication": "Erreur d'unité : environ 100 mètres carrés."
+            },
+            {
+              "reponse": "L'hématose se fait au niveau des bronches cartilagineuses.",
+              "explication": "Elle se fait au niveau des alvéoles."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-004",
+          "type": "qcm",
+          "question": "Concernant la ventilation et les échanges gazeux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "qui renouvelle l'air alvéolaire en permanence"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'appareil respiratoire assure un apport continu en oxygène.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'appareil respiratoire assure une élimination continue du dioxyde de carbone produit par la respiration cellulaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La ventilation pulmonaire renouvelle l'air alvéolaire en permanence.",
+              "explication": "C'est ce qui rend les échanges possibles."
+            },
+            {
+              "reponse": "La ventilation pulmonaire comprend l'inspiration et l'expiration.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'apport en oxygène assuré par l'appareil respiratoire est discontinu.",
+              "explication": "Il est continu."
+            },
+            {
+              "reponse": "Le dioxyde de carbone éliminé est produit par la ventilation pulmonaire.",
+              "explication": "Il est produit par la respiration cellulaire."
+            },
+            {
+              "reponse": "La ventilation pulmonaire ne concerne que l'inspiration.",
+              "explication": "Elle comprend inspiration et expiration."
+            },
+            {
+              "reponse": "Les échanges gazeux sont possibles sans renouvellement de l'air alvéolaire.",
+              "explication": "Ils sont possibles grâce à la ventilation qui renouvelle l'air alvéolaire."
+            },
+            {
+              "reponse": "L'oxygène est accessoire au métabolisme cellulaire.",
+              "explication": "Il est indispensable au métabolisme cellulaire."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-005",
+          "type": "qcm",
+          "question": "Synthèse : quelles associations entre un segment de l'arbre respiratoire et son épithélium sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "épithélium pavimenteux simple formé de"
+          },
+          "bonnes": [
+            {
+              "reponse": "Vestibule nasal : épithélium pavimenteux stratifié kératinisé.",
+              "explication": "En continuité avec la peau."
+            },
+            {
+              "reponse": "Fosses nasales proprement dites : épithélium prismatique pseudostratifié cilié à cellules caliciformes.",
+              "explication": "Épithélium de type respiratoire."
+            },
+            {
+              "reponse": "Cordes vocales : épithélium malpighien.",
+              "explication": "Comme l'épiglotte."
+            },
+            {
+              "reponse": "Bronchioles : épithélium cubique.",
+              "explication": "L'épithélium devient cubique dans les bronchioles."
+            },
+            {
+              "reponse": "Alvéoles : épithélium pavimenteux simple.",
+              "explication": "Formé de pneumocytes de type 1 et 2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Vestibule nasal : épithélium de type respiratoire.",
+              "explication": "Il est pavimenteux stratifié kératinisé."
+            },
+            {
+              "reponse": "Cordes vocales : épithélium de type respiratoire.",
+              "explication": "Elles ont un épithélium malpighien."
+            },
+            {
+              "reponse": "Bronchioles : épithélium prismatique pseudostratifié.",
+              "explication": "Il est cubique."
+            },
+            {
+              "reponse": "Alvéoles : épithélium cubique stratifié.",
+              "explication": "Il est pavimenteux simple."
+            },
+            {
+              "reponse": "Trachée : épithélium pavimenteux stratifié.",
+              "explication": "Il est prismatique pseudostratifié cilié à cellules caliciformes."
+            },
+            {
+              "reponse": "Bronches cartilagineuses : épithélium pavimenteux simple.",
+              "explication": "Il passe de prismatique pseudostratifié à prismatique simple, cilié."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le nez et les fosses nasales"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-histo-006",
+          "type": "qcm",
+          "question": "Concernant le nez et la notion de muqueuse, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Une muqueuse associe un épithélium et un chorion"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une muqueuse associe un épithélium et un chorion (tissu conjonctif).",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'épithélium et le chorion sont séparés par une membrane basale.",
+              "explication": "Version retenue ([Correction])."
+            },
+            {
+              "reponse": "Selon le type de muqueuse, le chorion contient des glandes et quelques fibres musculaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les fosses nasales comprennent le vestibule, les fosses nasales proprement dites, les sinus de la face et l'organe olfactif.",
+              "explication": "Les 4 éléments du cours."
+            },
+            {
+              "reponse": "Le nez est formé d'os, de cartilage, de muscles et d'une muqueuse.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'épithélium et le chorion sont séparés par une membrane nasale.",
+              "explication": "Erreur des notes : il s'agit de la membrane basale."
+            },
+            {
+              "reponse": "Le chorion d'une muqueuse est un épithélium.",
+              "explication": "C'est un tissu conjonctif."
+            },
+            {
+              "reponse": "Le chorion d'une muqueuse contient de nombreuses fibres musculaires.",
+              "explication": "Les fibres musculaires y sont peu nombreuses."
+            },
+            {
+              "reponse": "Le vestibule nasal est situé en arrière des fosses nasales proprement dites.",
+              "explication": "Il est situé en avant."
+            },
+            {
+              "reponse": "Les fosses nasales comprennent seulement 2 éléments : le vestibule et les sinus.",
+              "explication": "Elles en comprennent 4."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-007",
+          "type": "qcm",
+          "question": "Concernant le vestibule nasal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "épithélium pavimenteux stratifié kératinisé"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est revêtu d'un épithélium pavimenteux stratifié kératinisé.",
+              "explication": "De type malpighien, en continuité avec la peau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Son épithélium devient progressivement non kératinisé.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il porte des vibrisses.",
+              "explication": "Ce sont des poils. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les vibrisses réalisent un 1er dépoussiérage de l'air inhalé.",
+              "explication": "Elles retiennent les particules. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Son chorion contient de nombreuses glandes sébacées.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il est revêtu d'un épithélium de type respiratoire.",
+              "explication": "Il est revêtu d'un épithélium pavimenteux stratifié kératinisé. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est dépourvu de glandes sébacées.",
+              "explication": "Son chorion en contient de nombreuses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les vibrisses sont des cils vibratiles qui battent vers le pharynx.",
+              "explication": "Ce sont des poils ; les cils vibratiles appartiennent à l'épithélium respiratoire."
+            },
+            {
+              "reponse": "Il est revêtu d'un épithélium pavimenteux simple.",
+              "explication": "L'épithélium est stratifié."
+            },
+            {
+              "reponse": "Il est situé en arrière des fosses nasales proprement dites.",
+              "explication": "Il est situé en avant."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-008",
+          "type": "qcm",
+          "question": "Concernant l'épithélium des fosses nasales proprement dites, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "prismatique pseudostratifié, cilié, avec des cellules caliciformes"
+          },
+          "bonnes": [
+            {
+              "reponse": "C'est un épithélium de type respiratoire.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est prismatique pseudostratifié cilié à cellules caliciformes.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules ciliées.",
+              "explication": "Les plus nombreuses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules caliciformes.",
+              "explication": "Elles sécrètent le mucus. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cils battent tous vers le pharynx, où les particules entraînées sont dégluties.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans cet épithélium, toutes les cellules reposent sur la membrane basale, mais toutes n'atteignent pas la lumière.",
+              "explication": "Définition d'un épithélium pseudostratifié."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "C'est un épithélium pavimenteux stratifié.",
+              "explication": "C'est le cas du vestibule ; les fosses nasales ont un épithélium respiratoire."
+            },
+            {
+              "reponse": "Dans un épithélium pseudostratifié, toutes les cellules atteignent la lumière.",
+              "explication": "Toutes reposent sur la membrane basale, mais toutes n'atteignent pas la lumière."
+            },
+            {
+              "reponse": "Dans un épithélium pseudostratifié, certaines cellules ne reposent pas sur la membrane basale.",
+              "explication": "Toutes reposent sur la membrane basale."
+            },
+            {
+              "reponse": "Les cils battent vers les narines.",
+              "explication": "Ils battent vers le pharynx."
+            },
+            {
+              "reponse": "Les cils battent dans des sens différents selon les cellules.",
+              "explication": "Ils battent tous dans le même sens."
+            },
+            {
+              "reponse": "Il contient des cellules de Clara.",
+              "explication": "Les cellules de Clara apparaissent dans l'épithélium des bronchioles. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-009",
+          "type": "qcm",
+          "question": "Concernant le chorion des fosses nasales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "de très nombreuses veines dilatées en plexus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il contient des glandes séro-muqueuses tubulo-acineuses.",
+              "explication": "Leur mucus participe au tapis mucociliaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le mucus de ses glandes participe au tapis mucociliaire et hydrate l'air.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il contient des cellules de défense et immunitaires (tissu lymphoïde associé aux muqueuses).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il contient de très nombreuses veines dilatées en plexus et des capillaires, qui réchauffent l'air inspiré.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le plexus veineux peut gonfler fortement en cas d'infection ou d'allergie.",
+              "explication": "C'est la congestion nasale."
+            },
+            {
+              "reponse": "Il adhère directement à l'os ou au cartilage par une zone riche en collagène.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le réseau capillaire y est très peu développé.",
+              "explication": "Il contient de très nombreuses veines et des capillaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est dépourvu de glandes.",
+              "explication": "Il contient des glandes séro-muqueuses tubulo-acineuses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est séparé de l'os par une sous-muqueuse lâche.",
+              "explication": "Il adhère directement à l'os ou au cartilage."
+            },
+            {
+              "reponse": "Son plexus veineux refroidit l'air inspiré.",
+              "explication": "Il le réchauffe."
+            },
+            {
+              "reponse": "Il ne contient pas de cellules immunitaires.",
+              "explication": "Il contient du tissu lymphoïde associé aux muqueuses."
+            },
+            {
+              "reponse": "Son plexus veineux se rétracte en cas d'allergie.",
+              "explication": "Il peut gonfler fortement (congestion nasale)."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-010",
+          "type": "qcm",
+          "question": "Concernant l'aspect de la muqueuse des fosses nasales sur une coupe colorée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "une vacuole de mucus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules ciliées sont les plus nombreuses de l'épithélium.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La cellule caliciforme contient une vacuole de mucus qui apparaît pâle.",
+              "explication": "Le mucus est fait de glycoprotéines."
+            },
+            {
+              "reponse": "Dans la cellule caliciforme, le noyau et les organites sont refoulés au pôle basal.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le chorion est séparé de l'épithélium par une membrane basale.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules caliciformes sont les plus nombreuses de l'épithélium.",
+              "explication": "Ce sont les cellules ciliées."
+            },
+            {
+              "reponse": "Dans la cellule caliciforme, le noyau est refoulé au pôle apical.",
+              "explication": "Il est refoulé au pôle basal."
+            },
+            {
+              "reponse": "Le mucus de la cellule caliciforme est fait de phospholipides.",
+              "explication": "Il est fait de glycoprotéines."
+            },
+            {
+              "reponse": "La vacuole de mucus apparaît très sombre sur la coupe colorée.",
+              "explication": "Elle apparaît pâle."
+            },
+            {
+              "reponse": "Le chorion est directement au contact de l'épithélium, sans membrane basale.",
+              "explication": "Une membrane basale les sépare."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-011",
+          "type": "qcm",
+          "question": "Concernant les sinus paranasaux (sinus de la face), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Les sinus paranasaux ont une muqueuse semblable"
+          },
+          "bonnes": [
+            {
+              "reponse": "Leur muqueuse est semblable à celle des fosses nasales.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Leur épithélium est de type respiratoire.",
+              "explication": "Leur muqueuse est semblable à celle des fosses nasales. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur chorion est moins riche en glandes séro-muqueuses tubulo-acineuses que celui des fosses nasales.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils font partie des 4 éléments des fosses nasales.",
+              "explication": "Avec le vestibule, les fosses nasales proprement dites et l'organe olfactif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Leur épithélium est pavimenteux pluristratifié.",
+              "explication": "Leur muqueuse est semblable à celle des fosses nasales (épithélium respiratoire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur chorion est plus riche en glandes que celui des fosses nasales.",
+              "explication": "Il en est moins riche."
+            },
+            {
+              "reponse": "Ils sont dépourvus de muqueuse.",
+              "explication": "Ils ont une muqueuse semblable à celle des fosses nasales."
+            },
+            {
+              "reponse": "Leur épithélium est malpighien kératinisé.",
+              "explication": "C'est l'épithélium du vestibule."
+            },
+            {
+              "reponse": "Ils correspondent à l'organe olfactif.",
+              "explication": "Ce sont 2 éléments distincts des fosses nasales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le rhinopharynx et le larynx"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-histo-012",
+          "type": "qcm",
+          "question": "Concernant le rhinopharynx, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "qui forme l'amygdale pharyngée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il continue les fosses nasales en arrière.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il se poursuit par l'oropharynx au niveau du palais mou.",
+              "explication": "Puis par le laryngopharynx."
+            },
+            {
+              "reponse": "C'est la partie supérieure du carrefour des voies aériennes et digestives.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Sa muqueuse comporte principalement un épithélium respiratoire, avec des plages malpighiennes non kératinisées sur la paroi postérieure.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Son chorion contient du tissu lymphoïde bien organisé qui forme l'amygdale pharyngée.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La trompe d'Eustache s'ouvre dans sa paroi latérale.",
+              "explication": "L'épithélium y est de type respiratoire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il est uniquement recouvert par un épithélium de type respiratoire.",
+              "explication": "Il présente aussi des plages d'épithélium malpighien sur la paroi postérieure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les plages d'épithélium malpighien de sa paroi postérieure sont kératinisées.",
+              "explication": "Elles sont non kératinisées."
+            },
+            {
+              "reponse": "Le tissu lymphoïde de son chorion forme l'amygdale palatine.",
+              "explication": "Il forme l'amygdale pharyngée."
+            },
+            {
+              "reponse": "La trompe d'Eustache s'ouvre dans sa paroi postérieure.",
+              "explication": "Elle s'ouvre dans sa paroi latérale."
+            },
+            {
+              "reponse": "C'est la partie inférieure du carrefour aéro-digestif.",
+              "explication": "C'en est la partie supérieure."
+            },
+            {
+              "reponse": "Il se poursuit par l'oropharynx au niveau du palais dur.",
+              "explication": "Au niveau du palais mou."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-013",
+          "type": "qcm",
+          "question": "Concernant l'organisation générale du larynx, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Le larynx est l'organe de la phonation"
+          },
+          "bonnes": [
+            {
+              "reponse": "C'est l'organe de la phonation.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ses muscles sont de type strié.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte 11 cartilages.",
+              "explication": "3 impairs et médians, 4 pairs et latéraux."
+            },
+            {
+              "reponse": "Les cartilages cricoïde, thyroïde et épiglottique sont impairs et médians.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cartilages aryténoïdes sont pairs et latéraux.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ses muscles sont de type lisse.",
+              "explication": "Ils sont de type strié. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte 9 cartilages.",
+              "explication": "Il en comporte 11."
+            },
+            {
+              "reponse": "Les cartilages aryténoïdes sont impairs et médians.",
+              "explication": "Ils sont pairs et latéraux."
+            },
+            {
+              "reponse": "Le cartilage cricoïde est pair et latéral.",
+              "explication": "Il est impair et médian."
+            },
+            {
+              "reponse": "Les cartilages corniculés sont aussi appelés cartilages de Morgani.",
+              "explication": "Les corniculés sont dits de Santorini ; les cunéiformes sont dits de Morgani."
+            },
+            {
+              "reponse": "Le cartilage thyroïde est pair.",
+              "explication": "Il est impair et médian."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-014",
+          "type": "qcm",
+          "question": "Concernant la muqueuse du larynx, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "un épithélium malpighien pour l'épiglotte"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'épiglotte est revêtue d'un épithélium malpighien.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cordes vocales sont revêtues d'un épithélium malpighien.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les autres parties du larynx sont revêtues d'un épithélium respiratoire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cils de l'épithélium respiratoire laryngé battent vers le pharynx.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le chorion laryngé contient des glandes séro-muqueuses tubulo-acineuses.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La totalité de la muqueuse laryngée est revêtue d'un épithélium de type respiratoire.",
+              "explication": "L'épiglotte et les cordes vocales ont un épithélium malpighien. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cordes vocales sont revêtues d'un épithélium respiratoire.",
+              "explication": "Elles ont un épithélium malpighien."
+            },
+            {
+              "reponse": "L'épiglotte est revêtue d'un épithélium respiratoire.",
+              "explication": "Elle a un épithélium malpighien."
+            },
+            {
+              "reponse": "Les cils laryngés battent vers la trachée.",
+              "explication": "Ils battent vers le pharynx."
+            },
+            {
+              "reponse": "Le chorion laryngé est dépourvu de glandes.",
+              "explication": "Il contient des glandes séro-muqueuses tubulo-acineuses."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-015",
+          "type": "qcm",
+          "question": "Concernant les cordes vocales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "élastiques et n'ont pas de vaisseaux lymphatiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles sont formées majoritairement de fibres élastiques.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles n'ont pas de vaisseaux lymphatiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elles contiennent du muscle strié.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elles sont formées majoritairement de fibres de collagène.",
+              "explication": "Elles sont formées majoritairement de fibres élastiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles sont riches en vaisseaux lymphatiques.",
+              "explication": "Elles n'en ont pas."
+            },
+            {
+              "reponse": "Elles contiennent du muscle lisse.",
+              "explication": "Elles contiennent du muscle strié."
+            },
+            {
+              "reponse": "Elles sont revêtues d'un épithélium prismatique pseudostratifié cilié.",
+              "explication": "Elles ont un épithélium malpighien."
+            },
+            {
+              "reponse": "Elles sont constituées de cartilage hyalin.",
+              "explication": "Elles sont formées de fibres élastiques et de muscle strié."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-016",
+          "type": "qcm",
+          "question": "Concernant l'organisation du larynx en coupe frontale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "bande ventriculaire ou fausse corde vocale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La bande ventriculaire correspond à la fausse corde vocale.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Les fausses cordes vocales sont situées au-dessus des vraies cordes vocales.",
+              "explication": "Ordre de la coupe frontale : vestibule, bande ventriculaire, ventricule, corde vocale, glotte. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les vraies cordes vocales sont les cordes vocales inférieures.",
+              "explication": "Elles sont situées sous le ventricule, de part et d'autre de la fente glottique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les ventricules laryngés (de Morgagni) s'ouvrent entre les fausses et les vraies cordes vocales.",
+              "explication": "Diapositives n°31 et 32."
+            },
+            {
+              "reponse": "L'étage sous-glottique est situé sous la glotte.",
+              "explication": "Diapositive n°32."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cordes vocales supérieures sont les vraies cordes vocales.",
+              "explication": "Ce sont les fausses cordes vocales (bandes ventriculaires). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cordes vocales inférieures sont les fausses cordes vocales.",
+              "explication": "Ce sont les vraies cordes vocales. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le ventricule de Morgagni est situé sous les vraies cordes vocales.",
+              "explication": "Il est situé entre les fausses et les vraies cordes vocales."
+            },
+            {
+              "reponse": "La bande ventriculaire correspond à la vraie corde vocale.",
+              "explication": "Elle correspond à la fausse corde vocale."
+            },
+            {
+              "reponse": "Le vestibule laryngé est situé sous la glotte.",
+              "explication": "Il est situé au-dessus des bandes ventriculaires."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "La trachée"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-histo-017",
+          "type": "qcm",
+          "question": "Concernant l'organisation générale de la trachée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "incomplets en fer à cheval, ouverts en arrière"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle mesure 10 à 12 centimètres.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Elle est située en avant de l'œsophage.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle comporte 16 à 20 anneaux cartilagineux.",
+              "explication": "Chiffre du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ses anneaux cartilagineux sont incomplets, en fer à cheval, ouverts vers l'arrière.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En arrière, le cartilage est remplacé par un tissu fibro-musculaire.",
+              "explication": "Paroi membranacée postérieure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Son diamètre interne est de 13 à 22 millimètres.",
+              "explication": "Chiffre du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ses anneaux cartilagineux sont incomplets vers l'avant.",
+              "explication": "Ils sont ouverts en arrière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ses anneaux cartilagineux sont complets.",
+              "explication": "Ils sont incomplets, en fer à cheval. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est située en arrière de l'œsophage.",
+              "explication": "Elle est en avant de l'œsophage."
+            },
+            {
+              "reponse": "Elle mesure 10 à 12 millimètres de long.",
+              "explication": "Elle mesure 10 à 12 centimètres."
+            },
+            {
+              "reponse": "Elle comporte 6 à 8 anneaux cartilagineux.",
+              "explication": "Elle en comporte 16 à 20."
+            },
+            {
+              "reponse": "Elle est séparée de l'œsophage en arrière par une membrane musculaire striée.",
+              "explication": "Le muscle trachéal est lisse. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-018",
+          "type": "qcm",
+          "question": "Concernant les limites de la trachée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "marquée par un éperon médian : la carène"
+          },
+          "bonnes": [
+            {
+              "reponse": "La trachée va du larynx jusqu'à sa bifurcation.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La carène correspond au niveau de la bifurcation trachéale.",
+              "explication": "C'est un éperon médian. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Selon les notes, la bifurcation se situe vers la 5e vertèbre thoracique.",
+              "explication": "Précision des notes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La trachée donne 2 bronches principales (souches).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Selon les notes, la trachée est plus longue chez l'homme.",
+              "explication": "Précision des notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La carène marque l'origine de la trachée au contact du larynx.",
+              "explication": "Elle marque la bifurcation trachéale."
+            },
+            {
+              "reponse": "La bifurcation trachéale donne 3 bronches principales.",
+              "explication": "Elle en donne 2."
+            },
+            {
+              "reponse": "La bifurcation trachéale donne directement des bronches lobaires.",
+              "explication": "Elle donne 2 bronches principales ou souches."
+            },
+            {
+              "reponse": "Selon les notes, la trachée est plus longue chez la femme.",
+              "explication": "Elle est plus longue chez l'homme selon les notes."
+            },
+            {
+              "reponse": "La carène est le premier anneau cartilagineux de la trachée.",
+              "explication": "C'est l'éperon médian de la bifurcation."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-019",
+          "type": "qcm",
+          "question": "Concernant les tuniques de la paroi trachéale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "une tunique myo-fibro-cartilagineuse et une adventice"
+          },
+          "bonnes": [
+            {
+              "reponse": "De l'intérieur vers l'extérieur : muqueuse, tunique myo-fibro-cartilagineuse, adventice.",
+              "explication": "Les 3 tuniques retenues par le cours."
+            },
+            {
+              "reponse": "Une adventice constitue la couche la plus externe de la trachée.",
+              "explication": "C'est la tunique la plus superficielle. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'adventice est un tissu conjonctif lâche contenant vaisseaux sanguins, lymphatiques et nerfs.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En arrière, l'adventice de la trachée se confond avec celle de l'œsophage.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Certains auteurs décrivent une sous-muqueuse, mais le cours retient 3 tuniques.",
+              "explication": "Point de vigilance de la diapositive n°36."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une séreuse constitue la couche la plus externe de la trachée.",
+              "explication": "C'est une adventice. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'adventice trachéale est non vascularisée.",
+              "explication": "Elle contient des vaisseaux sanguins et lymphatiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'adventice est la tunique la plus profonde de la trachée.",
+              "explication": "C'est la plus superficielle."
+            },
+            {
+              "reponse": "Le cours retient 4 tuniques, dont une sous-muqueuse.",
+              "explication": "Le cours retient 3 tuniques."
+            },
+            {
+              "reponse": "L'adventice trachéale est un tissu conjonctif dense dépourvu de nerfs.",
+              "explication": "C'est un tissu conjonctif lâche contenant des nerfs."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-020",
+          "type": "qcm",
+          "question": "Concernant la composition de l'épithélium trachéal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "comporte 5 types cellulaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est prismatique pseudostratifié cilié à cellules caliciformes.",
+              "explication": "Épithélium de type respiratoire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules ciliées.",
+              "explication": "Les plus nombreuses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules caliciformes.",
+              "explication": "Environ 1 pour 5 cellules ciliées. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules basales.",
+              "explication": "Cellules souches assurant le renouvellement. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules chromaffines.",
+              "explication": "Cellules neuroendocrines. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules à brosse.",
+              "explication": "L'un des 5 types cellulaires de la diapositive n°35."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il comporte des myocytes.",
+              "explication": "Le muscle trachéal est dans la tunique myo-fibro-cartilagineuse, pas dans l'épithélium. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il comporte des cellules de Clara.",
+              "explication": "Elles apparaissent dans les bronchioles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est stratifié.",
+              "explication": "Il est pseudostratifié. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est prismatique simple cilié.",
+              "explication": "Il est prismatique pseudostratifié. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est pavimenteux stratifié non kératinisé.",
+              "explication": "Il est prismatique pseudostratifié cilié."
+            },
+            {
+              "reponse": "Il comporte 3 types cellulaires seulement selon la diapositive.",
+              "explication": "La diapositive n°35 en décrit 5."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-021",
+          "type": "qcm",
+          "question": "Concernant les cellules ciliées et caliciformes de la trachée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "pôle apical porte 200 à 300 cils vibratiles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules ciliées sont les plus nombreuses.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Chaque cellule ciliée porte 200 à 300 cils vibratiles.",
+              "explication": "Chiffre du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cils sont formés de microtubules et naissent des corpuscules basaux.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "On compte environ 1 cellule caliciforme pour 5 cellules ciliées.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Les cellules caliciformes sécrètent des mucoprotéines.",
+              "explication": "Elles s'hydratent dans la lumière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le nombre et la sécrétion des cellules caliciformes augmentent chez le fumeur.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules caliciformes sont les plus nombreuses de l'épithélium.",
+              "explication": "Ce sont les cellules ciliées. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Chez les fumeurs, le nombre de cellules caliciformes diminue.",
+              "explication": "Il augmente. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Chaque cellule ciliée porte 20 à 30 cils vibratiles.",
+              "explication": "Elle en porte 200 à 300."
+            },
+            {
+              "reponse": "On compte environ 5 cellules caliciformes pour 1 cellule ciliée.",
+              "explication": "C'est l'inverse : 1 caliciforme pour 5 ciliées."
+            },
+            {
+              "reponse": "Les mucoprotéines diminuent de volume en s'hydratant dans la lumière.",
+              "explication": "Elles augmentent fortement de volume (environ 100 fois)."
+            },
+            {
+              "reponse": "Les cils sont formés de microfilaments d'actine.",
+              "explication": "Ils sont formés de microtubules."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-022",
+          "type": "qcm",
+          "question": "Concernant le tapis mucociliaire et le mucus des voies aériennes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "le tapis mucociliaire, essentiel à l'épuration pulmonaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le tapis mucociliaire est formé par la sécrétion des cellules caliciformes et des glandes séro-muqueuses.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le tapis mucociliaire est essentiel à l'épuration pulmonaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans la trachée, le battement ciliaire se fait vers le haut, en direction du larynx.",
+              "explication": "Les cils battent vers le pharynx, situé au-dessus du larynx. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La clairance mucociliaire amène le mucus au carrefour aéro-digestif, où il est dégluti.",
+              "explication": "Les cils battent vers le pharynx, où les particules sont dégluties. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le mucus bronchique est sécrété par les cellules ciliées.",
+              "explication": "Il est sécrété par les cellules caliciformes et les glandes séro-muqueuses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le mucus est entraîné par les cils vers les alvéoles.",
+              "explication": "Il est entraîné vers le pharynx. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le mucus est sécrété par les cellules chromaffines.",
+              "explication": "Les cellules chromaffines sont neuroendocrines. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le tapis mucociliaire ne fait pas intervenir les glandes séro-muqueuses.",
+              "explication": "Leur sécrétion y participe."
+            },
+            {
+              "reponse": "Le mucus trachéal est évacué vers les bronches pour y être résorbé.",
+              "explication": "Il est évacué vers le pharynx et dégluti."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-023",
+          "type": "qcm",
+          "question": "Concernant les cellules chromaffines et les cellules basales de l'épithélium trachéal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Elles ont une polarité inversée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules chromaffines sont des cellules neuroendocrines.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules chromaffines appartiennent au système endocrinien diffus.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules chromaffines ont une polarité inversée : leurs grains de sécrétion sont au pôle basal.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules chromaffines libèrent notamment de la calcitonine et de la sérotonine vers les capillaires du chorion.",
+              "explication": "Ainsi que de la leucine-enképhaline."
+            },
+            {
+              "reponse": "Les cellules basales souches assurent le renouvellement de l'épithélium.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les grains de sécrétion des cellules chromaffines sont libérés dans la lumière trachéale.",
+              "explication": "Ils sont libérés vers les capillaires du chorion."
+            },
+            {
+              "reponse": "Les cellules chromaffines ont leurs grains de sécrétion au pôle apical.",
+              "explication": "Leurs grains sont au pôle basal (polarité inversée)."
+            },
+            {
+              "reponse": "Les cellules chromaffines sécrètent du mucus.",
+              "explication": "Elles sécrètent des hormones (calcitonine, sérotonine, leucine-enképhaline). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules chromaffines appartiennent au système exocrine.",
+              "explication": "Elles appartiennent au système endocrinien diffus."
+            },
+            {
+              "reponse": "Le renouvellement de l'épithélium est assuré par les cellules chromaffines.",
+              "explication": "Il est assuré par les cellules basales souches."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-024",
+          "type": "qcm",
+          "question": "Concernant le chorion et le cartilage de la trachée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "couche élastique sous-épithéliale continue"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le chorion est très riche en fibres élastiques, qui forment une couche élastique sous-épithéliale continue.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les glandes du chorion sont séro-muqueuses tubulo-acineuses.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le chorion a une vascularisation abondante qui réchauffe l'air.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le cartilage trachéal est de type hyalin.",
+              "explication": "Anneaux de cartilage hyalin. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les anneaux sont entourés d'un périchondre fibreux riche en collagène de type 1.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les glandes sont absentes du chorion trachéal.",
+              "explication": "Il contient de nombreuses glandes séro-muqueuses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le cartilage trachéal est de type élastique.",
+              "explication": "Il est de type hyalin. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le chorion trachéal est pauvre en fibres élastiques.",
+              "explication": "Il en est très riche."
+            },
+            {
+              "reponse": "Le périchondre des anneaux est riche en collagène de type 3.",
+              "explication": "Il est riche en collagène de type 1."
+            },
+            {
+              "reponse": "Les glandes du chorion trachéal sont des glandes sébacées.",
+              "explication": "Ce sont des glandes séro-muqueuses tubulo-acineuses."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-025",
+          "type": "qcm",
+          "question": "Concernant le muscle trachéal et la partie postérieure de la trachée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "muscle lisse trachéal relie les 2 extrémités de chaque anneau"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le muscle trachéal est un muscle lisse.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En arrière, le muscle trachéal relie les 2 extrémités de chaque anneau.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le muscle trachéal module le calibre de la trachée et intervient dans la toux.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Entre les anneaux, un tissu fibreux renforce la paroi et lui donne de la flexibilité.",
+              "explication": "Collagène et fibres élastiques."
+            },
+            {
+              "reponse": "L'absence de cartilage en arrière permet à la trachée de se déformer au passage du bol alimentaire dans l'œsophage.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le muscle trachéal est constitué de fibres musculaires striées.",
+              "explication": "Il est lisse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le muscle trachéal relie les extrémités des anneaux en avant.",
+              "explication": "Il les relie en arrière."
+            },
+            {
+              "reponse": "Le muscle trachéal entoure toute la circonférence de la trachée.",
+              "explication": "Il ne relie que les extrémités des anneaux en arrière ; c'est le muscle de Reissessen qui entoure toute la paroi bronchique."
+            },
+            {
+              "reponse": "Le muscle trachéal n'intervient pas dans la toux.",
+              "explication": "Il intervient dans la toux."
+            },
+            {
+              "reponse": "Le tissu situé entre les anneaux rend la trachée rigide et inextensible.",
+              "explication": "Il lui donne de la flexibilité."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-026",
+          "type": "qcm",
+          "question": "Concernant la structure du cil vibratile, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "comporte 9 doublets périphériques et 2 tubules"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'axonème comporte 9 doublets périphériques et 2 tubules centraux (structure 9 + 2).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La partie centrale de l'axonème est une paire de 2 microtubules simples.",
+              "explication": "Version retenue ([Vigilance])."
+            },
+            {
+              "reponse": "La mobilité du cil dépend des bras de dynéine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La mobilité du cil consomme de l'énergie (ATP).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les doublets périphériques sont reliés entre eux par la nexine.",
+              "explication": "Diapositive n°37."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le centre de l'axonème est formé d'un doublet de microtubules identique aux doublets périphériques.",
+              "explication": "Erreur des notes : il s'agit de 2 microtubules simples."
+            },
+            {
+              "reponse": "L'axonème comporte 9 triplets périphériques.",
+              "explication": "Il comporte 9 doublets."
+            },
+            {
+              "reponse": "L'axonème a une structure 9 + 0.",
+              "explication": "Sa structure est 9 + 2."
+            },
+            {
+              "reponse": "La mobilité du cil ne consomme pas d'énergie.",
+              "explication": "Elle consomme de l'ATP."
+            },
+            {
+              "reponse": "La mobilité du cil dépend de l'actine et de la myosine.",
+              "explication": "Elle dépend des bras de dynéine."
+            },
+            {
+              "reponse": "Les bras de dynéine sont portés par la paire centrale de microtubules.",
+              "explication": "Ils sont portés par les doublets périphériques."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-027",
+          "type": "qcm",
+          "question": "Concernant la dyskinésie ciliaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "c'est la dyskinésie ciliaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Toute altération de la structure du cil perturbe son mouvement.",
+              "explication": "C'est la dyskinésie ciliaire."
+            },
+            {
+              "reponse": "Dans la dyskinésie ciliaire, le mouvement des cils est anormal, voire absent.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "En l'absence de bras de dynéine, le mucus stagne et n'est plus évacué.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dyskinésie ciliaire entraîne des infections respiratoires à répétition.",
+              "explication": "Conséquence de la stagnation du mucus."
+            },
+            {
+              "reponse": "Une immobilité totale des cils est observée par exemple dans le syndrome de Kartagener.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dyskinésie ciliaire correspond à un excès de sécrétion des cellules caliciformes.",
+              "explication": "Elle correspond à une altération du mouvement des cils."
+            },
+            {
+              "reponse": "L'absence de bras de dynéine accélère l'évacuation du mucus.",
+              "explication": "Le mucus stagne."
+            },
+            {
+              "reponse": "La gravité de la dyskinésie ciliaire est toujours identique quelle que soit l'atteinte.",
+              "explication": "Elle varie selon l'atteinte."
+            },
+            {
+              "reponse": "Le syndrome de Kartagener se caractérise par une hyperactivité ciliaire.",
+              "explication": "Il se caractérise par une immobilité totale des cils."
+            },
+            {
+              "reponse": "La dyskinésie ciliaire protège contre les infections respiratoires.",
+              "explication": "Elle favorise les infections à répétition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'arbre bronchique, les bronches et les bronchioles"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-histo-028",
+          "type": "qcm",
+          "question": "Concernant l'organisation de l'arbre bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "plus petite voie purement conductrice"
+          },
+          "bonnes": [
+            {
+              "reponse": "La trachée donne 2 bronches principales ou souches, une pour chaque poumon.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les divisions de l'arbre bronchique sont dichotomiques, au nombre de 20 à 25.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les bronchioles ont un diamètre inférieur à 1 millimètre.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La bronchiole terminale est la plus petite voie purement conductrice.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Une bronchiole respiratoire donne 2 à 11 canaux alvéolaires.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Un canal alvéolaire donne 5 à 6 sacs alvéolaires.",
+              "explication": "Chiffre du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les divisions de l'arbre bronchique sont trichotomiques.",
+              "explication": "Elles sont dichotomiques (en 2)."
+            },
+            {
+              "reponse": "Les bronchioles ont un diamètre supérieur à 1 centimètre.",
+              "explication": "Leur diamètre est inférieur à 1 millimètre."
+            },
+            {
+              "reponse": "La bronchiole respiratoire est la plus petite voie purement conductrice.",
+              "explication": "C'est la bronchiole terminale ; la bronchiole respiratoire assure aussi des échanges."
+            },
+            {
+              "reponse": "Les bronchioles respiratoires se divisent en bronchioles terminales.",
+              "explication": "C'est l'inverse : la bronchiole terminale donne les bronchioles respiratoires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un canal alvéolaire donne 2 à 11 bronchioles respiratoires.",
+              "explication": "C'est une bronchiole respiratoire qui donne 2 à 11 canaux alvéolaires."
+            },
+            {
+              "reponse": "Les divisions de l'arbre bronchique sont au nombre de 5 à 6.",
+              "explication": "Elles sont au nombre de 20 à 25."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-029",
+          "type": "qcm",
+          "question": "Concernant la classification histologique des voies bronchiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "les bronchioles sont non cartilagineuses"
+          },
+          "bonnes": [
+            {
+              "reponse": "En histologie, les bronches sont cartilagineuses et les bronchioles non cartilagineuses.",
+              "explication": "Diapositive n°41."
+            },
+            {
+              "reponse": "La distinction entre bronches et bronchioles se situe dans les dernières divisions, avant la bronchiole terminale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Selon les notes, les 9 à 12 premières divisions correspondent aux bronches cartilagineuses.",
+              "explication": "Précision des notes."
+            },
+            {
+              "reponse": "La classification histologique diffère de la classification anatomique.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "De la bronche souche aux bronchioles, la paroi garde la structure de la trachée en s'amincissant et en se simplifiant.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La distinction entre bronches et bronchioles se situe après la bronchiole terminale.",
+              "explication": "Elle se situe avant la bronchiole terminale."
+            },
+            {
+              "reponse": "La classification histologique des bronches est identique à la classification anatomique.",
+              "explication": "Elle en diffère."
+            },
+            {
+              "reponse": "Les bronchioles possèdent des plaques de cartilage.",
+              "explication": "Elles sont non cartilagineuses."
+            },
+            {
+              "reponse": "La paroi bronchique a une structure totalement différente de celle de la trachée.",
+              "explication": "Elle garde la structure de la trachée en se simplifiant."
+            },
+            {
+              "reponse": "Selon les notes, les bronches cartilagineuses ne représentent que les 2 premières divisions.",
+              "explication": "Selon les notes, ce sont les 9 à 12 premières divisions."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-030",
+          "type": "qcm",
+          "question": "Concernant la muqueuse des bronches cartilagineuses, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "il reste cilié avec des cellules caliciformes"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'épithélium perd peu à peu son caractère pseudostratifié.",
+              "explication": "Il devient prismatique simple. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épithélium reste cilié.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules caliciformes se raréfient.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le chorion contient des fibres élastiques.",
+              "explication": "Il est riche en élastine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Du tissu lymphoïde est présent dans leur paroi.",
+              "explication": "Follicules lymphoïdes et tissu lymphoïde associé aux muqueuses. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'épithélium est pavimenteux.",
+              "explication": "Il est prismatique, d'abord pseudostratifié puis simple. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules ciliées disparaissent de l'épithélium.",
+              "explication": "L'épithélium reste cilié. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibres élastiques disparaissent du chorion.",
+              "explication": "Le chorion est riche en élastine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épithélium contient des cellules de Clara.",
+              "explication": "Les cellules de Clara apparaissent dans les bronchioles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules caliciformes disparaissent complètement.",
+              "explication": "Elles se raréfient mais persistent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules caliciformes deviennent plus nombreuses que dans la trachée.",
+              "explication": "Elles se raréfient."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-031",
+          "type": "qcm",
+          "question": "Concernant le muscle de Reissessen, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "c'est le muscle de Reissessen"
+          },
+          "bonnes": [
+            {
+              "reponse": "C'est un muscle lisse.",
+              "explication": "Muscle bronchique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est disposé en spirale, en 2 nappes obliques superposées.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il apparaît dans les bronches cartilagineuses et est de plus en plus présent vers la périphérie.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est présent dans la paroi des bronchioles.",
+              "explication": "Il y occupe proportionnellement une place importante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il règle le calibre des bronches et des bronchioles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Sa contraction est responsable du bronchospasme de l'asthme.",
+              "explication": "Respiration sifflante."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il est riche en fibres musculaires striées.",
+              "explication": "C'est un muscle lisse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est absent de la paroi des bronches cartilagineuses.",
+              "explication": "Il y apparaît. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est absent de la paroi des bronchioles.",
+              "explication": "Il est présent et occupe une place importante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il disparaît au niveau des bronchioles.",
+              "explication": "Il y est présent et contrôle leur calibre. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il ne relie que les extrémités des anneaux en arrière.",
+              "explication": "C'est le muscle trachéal ; le muscle de Reissessen entoure toute la paroi."
+            },
+            {
+              "reponse": "Son relâchement est responsable du bronchospasme de l'asthme.",
+              "explication": "C'est sa contraction."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-032",
+          "type": "qcm",
+          "question": "Concernant le cartilage et les glandes des bronches cartilagineuses, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "en plaques réparties dans la paroi"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cartilage est disposé en plaques réparties dans la paroi et unies par du collagène.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les plaques cartilagineuses diminuent de taille jusqu'à des îlots situés aux zones de division.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le cartilage disparaît dans les bronchioles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les glandes séro-muqueuses tubulo-acineuses diminuent progressivement.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "On trouve toujours du tissu lymphoïde associé aux muqueuses.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cartilage est absent de la paroi des bronches cartilagineuses.",
+              "explication": "Il y est présent sous forme de plaques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les plaques cartilagineuses augmentent de taille vers la périphérie.",
+              "explication": "Elles diminuent jusqu'à des îlots."
+            },
+            {
+              "reponse": "Les glandes séro-muqueuses augmentent en nombre vers la périphérie.",
+              "explication": "Elles diminuent progressivement."
+            },
+            {
+              "reponse": "Le cartilage persiste sous forme d'îlots dans les bronchioles.",
+              "explication": "Il disparaît dans les bronchioles."
+            },
+            {
+              "reponse": "Les plaques cartilagineuses sont unies par du muscle strié.",
+              "explication": "Elles sont unies par du collagène."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-033",
+          "type": "qcm",
+          "question": "Concernant les bronchioles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "l'épithélium devient cubique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles ont un diamètre inférieur à 1 millimètre.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elles n'ont plus de cartilage dans leur paroi.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur épithélium devient cubique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules ciliées persistent dans leur épithélium.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules caliciformes et neuroendocrines y deviennent rares.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Leur adventice contient des cellules migratrices (plasmocytes, lymphocytes, mastocytes).",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Leur armature cartilagineuse est fine.",
+              "explication": "Elles n'ont pas de cartilage. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules ciliées disparaissent de leur épithélium.",
+              "explication": "Les cellules ciliées persistent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles sont dépourvues de couche musculaire.",
+              "explication": "Le muscle de Reissessen y occupe une place importante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules caliciformes y sont plus nombreuses que dans les bronches.",
+              "explication": "Elles y deviennent rares. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur épithélium est prismatique pseudostratifié.",
+              "explication": "Il est cubique."
+            },
+            {
+              "reponse": "Leur chorion est épais et pauvre en tissu élastique.",
+              "explication": "Il est très réduit mais riche en tissu élastique."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-034",
+          "type": "qcm",
+          "question": "Concernant les cellules de Clara, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "les cellules de Clara, riches en mitochondries"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles apparaissent dans l'épithélium des bronchioles.",
+              "explication": "C'est un nouveau type cellulaire à ce niveau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles sont riches en mitochondries et en réticulum endoplasmique lisse.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Leur rôle reste encore peu défini.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elles pourraient jouer un rôle de cellules souches de l'épithélium.",
+              "explication": "Piste donnée à l'oral."
+            },
+            {
+              "reponse": "Elles pourraient intervenir dans la détoxification.",
+              "explication": "Piste donnée à l'oral (richesse en enzymes)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elles sont présentes dans l'épithélium de la trachée.",
+              "explication": "Elles apparaissent dans les bronchioles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles sont absentes de l'épithélium des bronchioles.",
+              "explication": "Elles y apparaissent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles apparaissent dans l'épithélium des bronches cartilagineuses.",
+              "explication": "Elles apparaissent dans les bronchioles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles sont pauvres en mitochondries.",
+              "explication": "Elles en sont riches."
+            },
+            {
+              "reponse": "Leur rôle est parfaitement établi.",
+              "explication": "Il reste encore peu défini."
+            },
+            {
+              "reponse": "Elles correspondent aux cellules caliciformes des bronchioles.",
+              "explication": "C'est un type cellulaire distinct."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les zones d'échanges gazeux"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-histo-035",
+          "type": "qcm",
+          "question": "Concernant les bronchioles terminales et respiratoires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Les premiers échanges gazeux se font au niveau"
+          },
+          "bonnes": [
+            {
+              "reponse": "La bronchiole terminale est le dernier segment purement conducteur.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les bronchioles respiratoires ont une double fonction, de conduction et d'échanges.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La paroi des bronchioles respiratoires est interrompue par les premières alvéoles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les premiers échanges gazeux se font au niveau des bronchioles respiratoires.",
+              "explication": "Point sur lequel l'intervenant a insisté. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des alvéoles peuvent être observées au niveau des bronchioles respiratoires.",
+              "explication": "Leur paroi est interrompue par des alvéoles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Entre les alvéoles, l'épithélium des bronchioles respiratoires est fait de quelques cellules cubiques ciliées.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les premiers échanges gazeux se font au niveau des bronchioles terminales.",
+              "explication": "Ils se font au niveau des bronchioles respiratoires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les bronchioles terminales assurent une fonction de conduction et d'échanges.",
+              "explication": "Elles sont purement conductrices. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les bronchioles respiratoires sont purement conductrices.",
+              "explication": "Elles ont une double fonction."
+            },
+            {
+              "reponse": "Les premiers échanges gazeux se font au niveau des sacs alvéolaires.",
+              "explication": "Ils se font dès les bronchioles respiratoires."
+            },
+            {
+              "reponse": "Entre les alvéoles, l'épithélium des bronchioles respiratoires est prismatique pseudostratifié.",
+              "explication": "Il est fait de quelques cellules cubiques ciliées."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-036",
+          "type": "qcm",
+          "question": "Concernant les canaux alvéolaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "les pieds d'insertion ou bourrelets alvéolaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "De très nombreuses alvéoles s'ouvrent dans leur paroi.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils sont marqués par la présence de pieds d'insertion (bourrelets alvéolaires).",
+              "explication": "Reliquats de muqueuse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les bourrelets sont faits de quelques cellules cubiques recouvrant des fibres élastiques, musculaires lisses, de collagène et de réticuline.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les bourrelets permettent l'expansion des alvéoles à l'inspiration et leur rétraction passive à l'expiration.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le collagène des bourrelets limite une expansion excessive.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les canaux alvéolaires sont dépourvus de bourrelets.",
+              "explication": "Ils portent des pieds d'insertion ou bourrelets."
+            },
+            {
+              "reponse": "Les bourrelets contiennent des fibres musculaires striées.",
+              "explication": "Ils contiennent des fibres musculaires lisses."
+            },
+            {
+              "reponse": "Les bourrelets sont recouverts d'un épithélium pseudostratifié cilié.",
+              "explication": "Ils sont recouverts de quelques cellules cubiques."
+            },
+            {
+              "reponse": "La rétraction des alvéoles à l'expiration est active.",
+              "explication": "Elle est passive."
+            },
+            {
+              "reponse": "Le collagène des bourrelets favorise une expansion excessive des alvéoles.",
+              "explication": "Il la limite."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-037",
+          "type": "qcm",
+          "question": "Concernant les sacs alvéolaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "uniquement formés d'alvéoles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les sacs alvéolaires sont uniquement formés d'alvéoles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le revêtement des sacs alvéolaires est uniquement de type alvéolaire.",
+              "explication": "Sans muqueuse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les sacs alvéolaires n'ont pas de cellules musculaires lisses.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les sacs alvéolaires n'ont pas de bourrelets.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les sacs alvéolaires contiennent des bourrelets alvéolaires.",
+              "explication": "Les bourrelets caractérisent les canaux alvéolaires."
+            },
+            {
+              "reponse": "Les sacs alvéolaires sont revêtus d'une muqueuse de type respiratoire.",
+              "explication": "Ils n'ont pas de muqueuse."
+            },
+            {
+              "reponse": "Les sacs alvéolaires contiennent des fibres musculaires lisses.",
+              "explication": "Ils n'en contiennent pas."
+            },
+            {
+              "reponse": "Les sacs alvéolaires sont des segments purement conducteurs.",
+              "explication": "Ils sont uniquement formés d'alvéoles."
+            },
+            {
+              "reponse": "Les sacs alvéolaires se divisent en canaux alvéolaires.",
+              "explication": "Ce sont les canaux alvéolaires qui donnent les sacs."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-038",
+          "type": "qcm",
+          "question": "Synthèse : concernant l'enchaînement des voies aériennes distales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "dont la paroi est interrompue par des alvéoles"
+          },
+          "bonnes": [
+            {
+              "reponse": "La bronchiole terminale se divise en bronchioles respiratoires.",
+              "explication": "Diapositives n°46 et 47."
+            },
+            {
+              "reponse": "Les bronchioles respiratoires donnent des canaux alvéolaires, qui aboutissent à des sacs alvéolaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Une bronchiole terminale donne plusieurs générations de bronchioles respiratoires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Selon les notes, la bronche segmentaire précède la bronche sous-lobaire.",
+              "explication": "Enchaînement des notes."
+            },
+            {
+              "reponse": "Dans les sacs alvéolaires, les alvéoles sont groupées en grappes.",
+              "explication": "Diapositive n°46."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les canaux alvéolaires précèdent les bronchioles respiratoires.",
+              "explication": "Ils leur font suite."
+            },
+            {
+              "reponse": "La bronchiole terminale donne directement des sacs alvéolaires.",
+              "explication": "Elle donne d'abord des bronchioles respiratoires."
+            },
+            {
+              "reponse": "Les sacs alvéolaires donnent des canaux alvéolaires.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Une bronchiole terminale ne donne qu'une seule génération de bronchioles respiratoires.",
+              "explication": "Elle en donne plusieurs générations."
+            },
+            {
+              "reponse": "La bronche sous-lobaire précède la bronche lobaire.",
+              "explication": "La bronche lobaire précède la bronche segmentaire puis sous-lobaire."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-039",
+          "type": "qcm",
+          "question": "Synthèse : concernant l'évolution de la paroi de la trachée jusqu'aux alvéoles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "la paroi garde la structure de la trachée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cartilage passe des anneaux trachéaux à des plaques bronchiques, puis disparaît dans les bronchioles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les glandes séro-muqueuses diminuent progressivement le long des bronches.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Des cellules ciliées persistent jusqu'aux bronchioles respiratoires.",
+              "explication": "Quelques cellules cubiques ciliées entre les alvéoles."
+            },
+            {
+              "reponse": "Le muscle lisse occupe une place proportionnellement importante dans les bronchioles.",
+              "explication": "Muscle de Reissessen."
+            },
+            {
+              "reponse": "Les sacs alvéolaires ne contiennent ni muqueuse ni muscle lisse.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cartilage persiste jusqu'aux canaux alvéolaires.",
+              "explication": "Il disparaît dans les bronchioles."
+            },
+            {
+              "reponse": "Les cellules ciliées disparaissent dès les bronches cartilagineuses.",
+              "explication": "Elles persistent jusqu'aux bronchioles respiratoires."
+            },
+            {
+              "reponse": "Les glandes séro-muqueuses augmentent le long de l'arbre bronchique.",
+              "explication": "Elles diminuent progressivement."
+            },
+            {
+              "reponse": "Le muscle lisse est absent de toute la paroi bronchique.",
+              "explication": "Le muscle de Reissessen apparaît dans les bronches."
+            },
+            {
+              "reponse": "L'épithélium s'épaissit progressivement de la trachée vers les bronchioles.",
+              "explication": "Il passe de prismatique pseudostratifié à cubique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les alvéoles et le septum interalvéolaire"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-histo-040",
+          "type": "qcm",
+          "question": "Concernant les alvéoles pulmonaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "seules structures responsables des échanges gazeux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce sont les seules structures responsables des échanges gazeux.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce sont de petites cavités ouvertes sur une face.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Leur épithélium est constitué de pneumocytes de type 1 et de type 2.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pour comprendre les alvéoles, il faut comprendre le septum interalvéolaire.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Leur nombre est d'environ 30 milliards chez l'adulte.",
+              "explication": "Environ 300 millions. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "On ne trouve d'alvéoles qu'au niveau des sacs alvéolaires.",
+              "explication": "On en trouve aussi dans la paroi des bronchioles respiratoires et des canaux alvéolaires."
+            },
+            {
+              "reponse": "Leur épithélium est prismatique pseudostratifié cilié.",
+              "explication": "Il est pavimenteux simple, formé de pneumocytes."
+            },
+            {
+              "reponse": "Les échanges gazeux se font aussi à travers la paroi des bronches cartilagineuses.",
+              "explication": "Seules les alvéoles en sont responsables."
+            },
+            {
+              "reponse": "Ce sont des cavités closes de toutes parts.",
+              "explication": "Elles sont ouvertes sur une face."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-041",
+          "type": "qcm",
+          "question": "Concernant le septum interalvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "revêtements épithéliaux recouvrent un interstitium"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il sépare 2 alvéoles voisines.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il est constitué de 2 couches épithéliales séparées par l'interstitium.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires de l'hématose sont situés dans l'interstitium.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires de l'hématose ont un endothélium continu, non fenêtré.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules septales sont des fibroblastes particuliers à longs prolongements.",
+              "explication": "Elles synthétisent la matrice."
+            },
+            {
+              "reponse": "L'interstitium contient des fibres élastiques abondantes et des fibres de collagène.",
+              "explication": "Notamment de réticuline (collagène de type 3)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les capillaires de l'interstitium sont de type sinusoïde.",
+              "explication": "Leur endothélium est continu, non fenêtré. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La matrice extracellulaire ne contient pas de fibres d'élastine.",
+              "explication": "Elle en contient d'abondantes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La matrice extracellulaire ne contient pas de fibres de collagène.",
+              "explication": "Elle en contient, notamment de la réticuline. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibroblastes du septum sont appelés cellules mésangiales.",
+              "explication": "Ils sont appelés cellules septales. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La réticuline correspond au collagène de type 1.",
+              "explication": "C'est du collagène de type 3."
+            },
+            {
+              "reponse": "Les capillaires de l'hématose ont un endothélium fenêtré.",
+              "explication": "Il est continu, non fenêtré."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-042",
+          "type": "qcm",
+          "question": "Concernant la barrière alvéolo-capillaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "La barrière alvéolo-capillaire que traverse l'oxygène"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle comprend le cytoplasme du pneumocyte de type 1.",
+              "explication": "1er élément de la barrière."
+            },
+            {
+              "reponse": "Elle comprend la membrane basale du pneumocyte de type 1.",
+              "explication": "2e élément de la barrière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle comprend la membrane basale du capillaire.",
+              "explication": "3e élément de la barrière."
+            },
+            {
+              "reponse": "Elle comprend le cytoplasme de la cellule endothéliale.",
+              "explication": "4e élément de la barrière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Son épaisseur totale est de 0,2 à 0,5 micromètre.",
+              "explication": "Chiffre du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les échanges se font par diffusion passive, là où les membranes basales sont accolées.",
+              "explication": "Zone de passage, où l'épaisseur est la plus faible. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle comprend le cytoplasme des hématies.",
+              "explication": "Les hématies ne font pas partie de la barrière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle comprend la membrane basale des cellules chromaffines.",
+              "explication": "Les cellules chromaffines sont dans l'épithélium des voies de conduction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle comprend le cytoplasme des cellules septales.",
+              "explication": "Les cellules septales sont dans l'interstitium, hors de la zone de passage. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle comprend le cytoplasme des pneumocytes de type 2.",
+              "explication": "Elle comprend celui des pneumocytes de type 1."
+            },
+            {
+              "reponse": "Les échanges gazeux à travers la barrière se font par transport actif.",
+              "explication": "Ils se font par diffusion passive."
+            },
+            {
+              "reponse": "Son épaisseur totale est de 2 à 5 micromètres.",
+              "explication": "Elle est de 0,2 à 0,5 micromètre."
+            },
+            {
+              "reponse": "Les échanges se font là où l'épaisseur de la paroi est la plus forte.",
+              "explication": "Ils se font là où elle est la plus faible."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-043",
+          "type": "qcm",
+          "question": "Concernant les pneumocytes de type 1, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "des jonctions serrées qui assurent l'étanchéité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce sont des cellules très pavimenteuses, au cytoplasme très aplati.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils sont unis par des jonctions serrées qui assurent l'étanchéité de la barrière.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils sont incapables de se diviser.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils recouvrent la majorité de la surface alvéolaire.",
+              "explication": "Environ 95 % de la surface (version retenue). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les gaz les traversent par diffusion passive.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ce sont des cellules cubiques.",
+              "explication": "Ils sont très pavimenteux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils sécrètent le surfactant.",
+              "explication": "C'est le rôle des pneumocytes de type 2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils gardent la capacité à se diviser.",
+              "explication": "Ils sont incapables de se diviser. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils contiennent des corps lamellaires.",
+              "explication": "Les corps lamellaires caractérisent les pneumocytes de type 2."
+            },
+            {
+              "reponse": "Ils sont unis par des jonctions lâches qui laissent passer le plasma.",
+              "explication": "Ils sont unis par des jonctions serrées étanches."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-044",
+          "type": "qcm",
+          "question": "Concernant les pneumocytes de type 2, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "contiennent des corps lamellaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce sont des cellules cubiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils contiennent des corps lamellaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils sécrètent le surfactant pulmonaire par exocytose.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils peuvent se diviser.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils donnent, tout au long de la vie, de nouveaux pneumocytes de type 1 ou de type 2.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ce sont des cellules pavimenteuses.",
+              "explication": "Ils sont cubiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils sont incapables de se diviser.",
+              "explication": "Ils peuvent se diviser. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils ne donnent que de nouveaux pneumocytes de type 2.",
+              "explication": "Ils donnent aussi des pneumocytes de type 1."
+            },
+            {
+              "reponse": "Ils sécrètent le surfactant par diffusion passive à travers leur membrane.",
+              "explication": "Ils le sécrètent par exocytose."
+            },
+            {
+              "reponse": "Ils recouvrent 80 % de la surface alvéolaire.",
+              "explication": "Ils couvrent une petite partie de la surface ; ce sont les pneumocytes de type 1 qui en couvrent la majorité. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-045",
+          "type": "qcm",
+          "question": "Concernant les volumes et surfaces des pneumocytes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "mais la surface couverte est de"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le pneumocyte de type 1 a un volume d'environ 1800 micromètres cubes.",
+              "explication": "Chiffre de la diapositive n°50."
+            },
+            {
+              "reponse": "Le volume du pneumocyte de type 1 est environ le double de celui du type 2.",
+              "explication": "1800 contre 800 micromètres cubes."
+            },
+            {
+              "reponse": "Un pneumocyte de type 1 couvre environ 5000 micromètres carrés.",
+              "explication": "Chiffre de la diapositive n°50."
+            },
+            {
+              "reponse": "Un pneumocyte de type 2 couvre une surface environ 30 fois plus faible qu'un pneumocyte de type 1.",
+              "explication": "183 contre 5000 micromètres carrés."
+            },
+            {
+              "reponse": "Les pneumocytes de type 1 couvrent environ 95 % de la surface alvéolaire.",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les pneumocytes de type 2 couvrent environ 95 % de la surface alvéolaire.",
+              "explication": "Erreur des notes : ce sont les pneumocytes de type 1."
+            },
+            {
+              "reponse": "Le pneumocyte de type 2 est plus volumineux que le pneumocyte de type 1.",
+              "explication": "Il est environ 2 fois moins volumineux."
+            },
+            {
+              "reponse": "Un pneumocyte de type 1 couvre environ 183 micromètres carrés.",
+              "explication": "C'est la surface couverte par un pneumocyte de type 2."
+            },
+            {
+              "reponse": "Le rapport des surfaces couvertes par un pneumocyte de type 2 et un pneumocyte de type 1 est d'environ 1/3.",
+              "explication": "Il est d'environ 1/30."
+            },
+            {
+              "reponse": "Un pneumocyte de type 1 couvre environ 5000 micromètres cubes.",
+              "explication": "Erreur d'unité : 5000 micromètres carrés."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-046",
+          "type": "qcm",
+          "question": "Concernant le surfactant pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "environ 90 % de phospholipides et 10 % de protéines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est composé principalement de phospholipides et de protéines.",
+              "explication": "Environ 90 % de phospholipides et 10 % de protéines. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est synthétisé et sécrété par les pneumocytes de type 2.",
+              "explication": "Lipides et protéines (version retenue). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il abaisse la tension superficielle.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il facilite l'expansion des alvéoles à l'inspiration.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il empêche le collapsus des alvéoles à l'expiration.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules de Clara participent à une partie de la sécrétion protéique du surfactant.",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il est sécrété par les pneumocytes de type 1.",
+              "explication": "Il est sécrété par les pneumocytes de type 2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est sécrété par les parois bronchiques.",
+              "explication": "Il est sécrété par les pneumocytes de type 2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ses protéines sont exclusivement sécrétées par les cellules de Clara.",
+              "explication": "Erreur des notes : les pneumocytes de type 2 sécrètent lipides et protéines."
+            },
+            {
+              "reponse": "Il est composé d'environ 90 % de protéines et 10 % de phospholipides.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Il augmente la tension superficielle dans l'alvéole.",
+              "explication": "Il l'abaisse."
+            },
+            {
+              "reponse": "Il favorise le collapsus des alvéoles à l'expiration.",
+              "explication": "Il l'empêche."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-047",
+          "type": "qcm",
+          "question": "Concernant la maladie des membranes hyalines et la réparation alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "défaut de surfactant chez le prématuré"
+          },
+          "bonnes": [
+            {
+              "reponse": "La maladie des membranes hyalines est due à un défaut de surfactant chez le prématuré.",
+              "explication": "Pneumocytes de type 2 immatures."
+            },
+            {
+              "reponse": "L'immaturité du surfactant chez le prématuré est responsable d'une détresse respiratoire.",
+              "explication": "Maladie des membranes hyalines. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La maturation du surfactant est accélérée par les corticoïdes administrés à la mère.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Selon les notes, les corticoïdes sont administrés 48 heures avant l'accouchement.",
+              "explication": "Précision des notes."
+            },
+            {
+              "reponse": "Une lésion de la paroi alvéolaire touchant la membrane basale se répare par cicatrisation fibreuse.",
+              "explication": "Elle altère définitivement les alvéoles."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La maturation du surfactant est ralentie par les corticoïdes.",
+              "explication": "Elle est accélérée par les corticoïdes."
+            },
+            {
+              "reponse": "La maladie des membranes hyalines est due à l'immaturité des pneumocytes de type 1.",
+              "explication": "Elle est due à l'immaturité des pneumocytes de type 2."
+            },
+            {
+              "reponse": "La cicatrisation fibreuse restitue intégralement la structure des alvéoles.",
+              "explication": "Elle les altère définitivement."
+            },
+            {
+              "reponse": "Selon les notes, les corticoïdes sont administrés 48 jours avant l'accouchement.",
+              "explication": "48 heures selon les notes."
+            },
+            {
+              "reponse": "La maladie des membranes hyalines touche surtout le sujet âgé.",
+              "explication": "Elle touche le prématuré."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-048",
+          "type": "qcm",
+          "question": "Concernant le macrophage alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "peu nombreux dans un poumon normal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les macrophages alvéolaires sont peu nombreux dans un poumon normal.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils sont volumineux et émettent de longs pseudopodes.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils adhèrent aux pneumocytes de type 1.",
+              "explication": "Ils semblent flotter dans la lumière."
+            },
+            {
+              "reponse": "Ils sont riches en lysosomes et phagolysosomes.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils prennent en charge ce que le tapis mucociliaire n'a pas éliminé.",
+              "explication": "Agents infectieux, particules toxiques et minérales."
+            },
+            {
+              "reponse": "Ils sont éliminés par expectoration ou par voie lymphatique.",
+              "explication": "Puis déglutis en cas d'expectoration."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les macrophages alvéolaires sont très nombreux dans un poumon normal.",
+              "explication": "Ils sont peu nombreux."
+            },
+            {
+              "reponse": "Ils adhèrent aux pneumocytes de type 2.",
+              "explication": "Ils adhèrent aux pneumocytes de type 1."
+            },
+            {
+              "reponse": "Ils sont pauvres en lysosomes.",
+              "explication": "Ils en sont riches."
+            },
+            {
+              "reponse": "Ils sont incapables de se diviser dans l'alvéole.",
+              "explication": "Ils peuvent se diviser dans l'alvéole."
+            },
+            {
+              "reponse": "Ils sont éliminés uniquement par voie sanguine.",
+              "explication": "Ils sont éliminés par expectoration ou par voie lymphatique."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-histo-049",
+          "type": "qcm",
+          "question": "Concernant les pathologies du septum interalvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "un excès de tissu conjonctif épaissit le septum"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans une pneumopathie interstitielle, un excès de tissu conjonctif épaissit le septum interalvéolaire.",
+              "explication": "C'est la fibrose."
+            },
+            {
+              "reponse": "La fibrose épaissit la zone de passage.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La fibrose pulmonaire diminue la capacité de diffusion alvéolo-capillaire.",
+              "explication": "Les échanges gazeux diminuent quand la zone de passage s'épaissit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épaisseur de la membrane alvéolo-capillaire influence directement la diffusion de l'oxygène.",
+              "explication": "Les échanges se font là où l'épaisseur est la plus faible. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fibrose amincit le septum interalvéolaire.",
+              "explication": "Elle l'épaissit."
+            },
+            {
+              "reponse": "La fibrose augmente les échanges gazeux.",
+              "explication": "Elle les diminue."
+            },
+            {
+              "reponse": "L'épaississement de la zone de passage améliore la diffusion.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "La fibrose correspond à une raréfaction du tissu conjonctif du septum.",
+              "explication": "Elle correspond à un excès de tissu conjonctif."
+            },
+            {
+              "reponse": "La fibrose touche principalement l'épithélium des bronches cartilagineuses.",
+              "explication": "Elle touche le septum interalvéolaire."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
