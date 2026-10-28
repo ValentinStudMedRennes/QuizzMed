@@ -1,0 +1,2026 @@
+{
+  "meta": {
+    "theme": "Appareil respiratoire",
+    "section": "Histologie et embryologie",
+    "titre": "Embryologie de l'appareil respiratoire",
+    "description": "Développement des cavités nasales, du larynx, de la trachée et de l'appareil broncho-pulmonaire, maturation pulmonaire et principales anomalies.",
+    "cours": {
+      "fichier": "cours/respi-histoembryo-embryo.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-embryo-001",
+          "type": "qcm",
+          "question": "Concernant l'organisation générale de l'appareil respiratoire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "alvéoles pulmonaires sont le lieu des échanges"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les voies de conduction humidifient et réchauffent l'air inspiré.",
+              "explication": "Elles modifient l'air pour permettre le bon fonctionnement du secteur alvéolaire."
+            },
+            {
+              "reponse": "Les voies de conduction participent à la défense contre les particules, les virus et les bactéries.",
+              "explication": "C'est l'un de leurs trois rôles avec l'humidification et le réchauffement."
+            },
+            {
+              "reponse": "Les voies respiratoires proprement dites sont représentées par les alvéoles pulmonaires.",
+              "explication": "Le 2e secteur correspond aux alvéoles, lieu des échanges gazeux."
+            },
+            {
+              "reponse": "L'hématose correspond aux échanges gazeux entre l'air alvéolaire et le sang.",
+              "explication": "Définition donnée dans l'introduction du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les voies de conduction sont le siège de l'hématose.",
+              "explication": "L'hématose a lieu dans les alvéoles, pas dans les voies de conduction."
+            },
+            {
+              "reponse": "Les voies respiratoires proprement dites regroupent les fosses nasales, le larynx et la trachée.",
+              "explication": "Ces structures appartiennent aux voies de conduction."
+            },
+            {
+              "reponse": "Les échanges gazeux restent possibles sans renouvellement de l'air alvéolaire.",
+              "explication": "Ils ne sont possibles que parce que l'air alvéolaire est renouvelé en permanence par la ventilation."
+            },
+            {
+              "reponse": "L'appareil respiratoire assure un apport discontinu en oxygène.",
+              "explication": "L'apport en oxygène et l'élimination du CO2 sont continus."
+            },
+            {
+              "reponse": "L'hématose désigne l'humidification de l'air dans les voies aériennes supérieures.",
+              "explication": "L'hématose désigne les échanges gazeux alvéolaires."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-002",
+          "type": "qcm",
+          "question": "Concernant les fosses nasales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "grâce au système mucociliaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles permettent l'humidification de l'air inspiré.",
+              "explication": "Rôle des voies de conduction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles permettent le réchauffement de l'air inspiré.",
+              "explication": "Rôle des voies de conduction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles contribuent à l'épuration des particules de l'air inspiré.",
+              "explication": "Les particules de 7 microns ou plus sont normalement éliminées à leur sortie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles participent à la défense de l'organisme contre les virus et les bactéries.",
+              "explication": "La défense de l'organisme fait partie des rôles des voies de conduction. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elles permettent la déshydratation de l'air inspiré.",
+              "explication": "Elles l'humidifient au contraire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles sont le lieu de l'hématose.",
+              "explication": "L'hématose a lieu dans les alvéoles pulmonaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elles ne participent pas aux défenses de l'organisme.",
+              "explication": "Les voies de conduction assurent la défense contre les particules, virus et bactéries. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À la sortie des fosses nasales, les particules de 7 microns ou plus sont normalement encore présentes.",
+              "explication": "Elles ont normalement été éliminées grâce au système mucociliaire."
+            },
+            {
+              "reponse": "Seules les particules de 70 microns ou plus sont éliminées à la sortie des fosses nasales.",
+              "explication": "Le seuil donné est de 7 microns, pas 70."
+            },
+            {
+              "reponse": "L'élimination des particules dans les fosses nasales repose sur les pneumocytes de type 2.",
+              "explication": "Elle repose sur le système mucociliaire ; les pneumocytes sont alvéolaires."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-003",
+          "type": "qcm",
+          "question": "Concernant les alvéoles pulmonaires de l'adulte, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "C'est la taille d'un terrain de tennis"
+          },
+          "bonnes": [
+            {
+              "reponse": "Leur nombre est de l'ordre de plusieurs centaines de millions.",
+              "explication": "Le cours retient environ 300 millions d'alvéoles."
+            },
+            {
+              "reponse": "La surface alvéolaire totale est de l'ordre de 100 mètres carrés.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "D'après le professeur, la surface alvéolaire correspond à peu près à celle d'un terrain de tennis.",
+              "explication": "Image donnée à l'oral pour une surface d'environ 100 m²."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Leur nombre est d'environ 30 milliards.",
+              "explication": "Ordre de grandeur faux : il s'agit de centaines de millions. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur nombre est d'environ 3 millions.",
+              "explication": "Ordre de grandeur trop faible : il s'agit de centaines de millions."
+            },
+            {
+              "reponse": "La surface alvéolaire totale est de l'ordre de 100 centimètres carrés.",
+              "explication": "Erreur d'unité : environ 100 mètres carrés."
+            },
+            {
+              "reponse": "La surface alvéolaire totale est de l'ordre de 1 mètre carré.",
+              "explication": "La surface est d'environ 100 m²."
+            },
+            {
+              "reponse": "D'après le professeur, la surface alvéolaire correspond à celle d'un terrain de football.",
+              "explication": "La comparaison donnée à l'oral est un terrain de tennis."
+            },
+            {
+              "reponse": "Les alvéoles sont des structures des voies de conduction.",
+              "explication": "Elles constituent les voies respiratoires proprement dites."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-004",
+          "type": "qcm",
+          "question": "Concernant l'épithélium alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "épithélium pavimenteux simple formé de"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est constitué de pneumocytes de type 1 et de pneumocytes de type 2.",
+              "explication": "Ce sont les 2 types cellulaires de l'épithélium alvéolaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les pneumocytes de type 2 sécrètent le surfactant pulmonaire.",
+              "explication": "Rôle des pneumocytes de type 2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les pneumocytes de type 1 sont des cellules très aplaties qui se laissent traverser par les gaz.",
+              "explication": "Les échanges gazeux dépendent de ces cellules."
+            },
+            {
+              "reponse": "Les pneumocytes de type 2 sont des cellules cubiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il s'agit d'un épithélium pavimenteux simple.",
+              "explication": "Les alvéoles sont tapissées d'un épithélium pavimenteux simple."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le pneumocyte de type 1 est une cellule cubique.",
+              "explication": "C'est une cellule très aplatie ; le type 2 est cubique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le pneumocyte de type 2 est une cellule pavimenteuse.",
+              "explication": "Il est cubique ; c'est le type 1 qui est très aplati. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le pneumocyte de type 1 sécrète le surfactant.",
+              "explication": "Le surfactant est sécrété par les pneumocytes de type 2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épithélium alvéolaire est un épithélium cylindrique stratifié.",
+              "explication": "C'est un épithélium pavimenteux simple."
+            },
+            {
+              "reponse": "Les gaz traversent préférentiellement les pneumocytes de type 2.",
+              "explication": "Les gaz traversent les pneumocytes de type 1, très aplatis."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-005",
+          "type": "qcm",
+          "question": "Concernant le surfactant pulmonaire et le collapsus alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "substance tensioactive qui abaisse la tension superficielle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le surfactant abaisse la tension superficielle dans l'alvéole.",
+              "explication": "C'est une substance tensioactive."
+            },
+            {
+              "reponse": "Le surfactant évite le collapsus alvéolaire, notamment à l'expiration.",
+              "explication": "Rôle principal du surfactant décrit dans le cours."
+            },
+            {
+              "reponse": "Le collapsus correspond à l'affaissement et à l'accolement des parois alvéolaires.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le collapsus rend difficile la réexpansion des alvéoles à l'inspiration.",
+              "explication": "Conséquence de l'accolement des parois."
+            },
+            {
+              "reponse": "Un déficit quantitatif en surfactant peut entraîner un collapsus alvéolaire.",
+              "explication": "Le collapsus survient en cas de déficit quantitatif en surfactant."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le surfactant augmente la tension superficielle dans l'alvéole.",
+              "explication": "Il l'abaisse."
+            },
+            {
+              "reponse": "Le collapsus alvéolaire survient surtout à l'inspiration.",
+              "explication": "Le risque de collapsus concerne surtout l'expiration."
+            },
+            {
+              "reponse": "Le surfactant est sécrété par les pneumocytes de type 1.",
+              "explication": "Il est sécrété par les pneumocytes de type 2."
+            },
+            {
+              "reponse": "Le collapsus facilite la réexpansion des alvéoles à l'inspiration.",
+              "explication": "Il la rend difficile."
+            },
+            {
+              "reponse": "Le collapsus correspond à une distension excessive des alvéoles.",
+              "explication": "Il correspond à un affaissement des parois."
+            },
+            {
+              "reponse": "Un excès de surfactant est la cause du collapsus alvéolaire.",
+              "explication": "C'est un déficit en surfactant qui en est la cause."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les cavités nasales"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-embryo-006",
+          "type": "qcm",
+          "question": "Concernant le début du développement des cavités nasales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "épaississements locaux de l'ectoblaste apparaissent"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il commence à la fin de la 4e semaine de développement.",
+              "explication": "Le nez et les fosses nasales commencent à se former à la fin de la 4e semaine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les placodes olfactives sont des épaississements locaux de l'ectoblaste.",
+              "explication": "Définition du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les placodes olfactives apparaissent de part et d'autre du bourgeon frontal.",
+              "explication": "Elles sont paires, situées de chaque côté du bourgeon frontal. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les placodes olfactives apparaissent juste au-dessus du stomodeum.",
+              "explication": "Le stomodeum est la bouche primitive."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il commence à la fin de la 6e semaine de développement.",
+              "explication": "Il commence à la fin de la 4e semaine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les placodes olfactives sont des épaississements de l'entoblaste.",
+              "explication": "Ce sont des épaississements de l'ectoblaste. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les placodes olfactives dérivent du mésoblaste.",
+              "explication": "Elles sont ectoblastiques."
+            },
+            {
+              "reponse": "Les placodes olfactives apparaissent sous le stomodeum.",
+              "explication": "Elles apparaissent juste au-dessus du stomodeum."
+            },
+            {
+              "reponse": "Il existe une placode olfactive unique, médiane, au centre du bourgeon frontal.",
+              "explication": "Il y a 2 placodes, de part et d'autre du bourgeon frontal."
+            },
+            {
+              "reponse": "Le stomodeum correspond à la narine primitive.",
+              "explication": "Le stomodeum est la bouche primitive."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-007",
+          "type": "qcm",
+          "question": "Concernant les bourgeons nasaux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "prennent le nom de cupules olfactives"
+          },
+          "bonnes": [
+            {
+              "reponse": "Pendant la 5e semaine, le bord des placodes s'épaissit pour former les bourgeons nasaux internes et externes.",
+              "explication": "Chronologie du cours."
+            },
+            {
+              "reponse": "Les placodes, en retrait des bourgeons nasaux, prennent le nom de cupules olfactives.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Pendant les 6e et 7e semaines, les bourgeons maxillaires supérieurs se développent en dedans et rapprochent les bourgeons nasaux de la ligne médiane.",
+              "explication": "Croissance de la face décrite dans le cours."
+            },
+            {
+              "reponse": "Les bourgeons nasaux externes forment les ailes du nez.",
+              "explication": "Ils ne participent pas à la lèvre supérieure."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bourgeons nasaux apparaissent pendant la 8e semaine.",
+              "explication": "Ils apparaissent pendant la 5e semaine."
+            },
+            {
+              "reponse": "Les bourgeons nasaux se forment à partir du centre des placodes olfactives.",
+              "explication": "Ils se forment à partir du bord des placodes."
+            },
+            {
+              "reponse": "Les cupules olfactives correspondent aux bourgeons nasaux externes.",
+              "explication": "Les cupules sont les placodes en retrait des bourgeons."
+            },
+            {
+              "reponse": "Les bourgeons maxillaires supérieurs se développent en dehors et éloignent les bourgeons nasaux de la ligne médiane.",
+              "explication": "Ils se développent en dedans et rapprochent les bourgeons nasaux de la ligne médiane."
+            },
+            {
+              "reponse": "Les bourgeons nasaux internes forment les ailes du nez.",
+              "explication": "Les ailes du nez dérivent des bourgeons nasaux externes."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-008",
+          "type": "qcm",
+          "question": "Concernant la formation de la lèvre supérieure, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "pour former la lèvre supérieure"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bourgeons maxillaires supérieurs participent à la formation de la lèvre supérieure.",
+              "explication": "Ils fusionnent avec les bourgeons nasaux internes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La lèvre supérieure résulte de la fusion des bourgeons maxillaires supérieurs avec les bourgeons nasaux internes.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le philtrum de la lèvre supérieure dérive des bourgeons nasaux internes.",
+              "explication": "Les bourgeons nasaux internes donnent le philtrum. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bourgeons nasaux externes participent à la formation de la lèvre supérieure.",
+              "explication": "Ils ne participent pas à la lèvre supérieure ; ils forment les ailes du nez. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fusion des 2 bourgeons nasaux externes donne une partie de la lèvre supérieure.",
+              "explication": "Les bourgeons nasaux externes forment les ailes du nez. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La lèvre supérieure est formée par les bourgeons nasaux internes et externes.",
+              "explication": "Elle est formée par les bourgeons nasaux internes et les bourgeons maxillaires supérieurs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La lèvre supérieure est formée par les 2 bourgeons nasaux externes et les 2 bourgeons maxillaires supérieurs.",
+              "explication": "Les bourgeons nasaux externes n'y participent pas. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le philtrum dérive des bourgeons maxillaires supérieurs.",
+              "explication": "Il dérive des bourgeons nasaux internes."
+            },
+            {
+              "reponse": "Le philtrum dérive des bourgeons nasaux externes.",
+              "explication": "Il dérive des bourgeons nasaux internes."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-009",
+          "type": "qcm",
+          "question": "Concernant les dérivés des bourgeons nasaux internes et le palais primaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "le palais primaire, de forme triangulaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bourgeons nasaux internes donnent la partie de la gencive qui porte les 4 incisives supérieures.",
+              "explication": "Dérivé des bourgeons nasaux internes (segment intermaxillaire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le palais primaire dérive des bourgeons nasaux internes.",
+              "explication": "C'est leur composante palatine."
+            },
+            {
+              "reponse": "Le palais primaire est de forme triangulaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le palais primaire persiste toute la vie.",
+              "explication": "Il est dit primaire parce qu'il apparaît en premier, pas parce qu'il disparaît. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le palais primaire résulte de la fusion des processus palatins.",
+              "explication": "Les processus palatins forment le palais secondaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les processus palatins forment le palais primaire.",
+              "explication": "Ils forment le palais secondaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le palais primaire est une structure transitoire.",
+              "explication": "Il persiste toute la vie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le palais primaire est ainsi nommé parce qu'il disparaît avant la naissance.",
+              "explication": "Il est nommé ainsi parce qu'il apparaît en premier ; il persiste."
+            },
+            {
+              "reponse": "Les bourgeons nasaux internes donnent la gencive qui porte les 4 incisives inférieures.",
+              "explication": "Il s'agit des incisives supérieures."
+            },
+            {
+              "reponse": "Le palais primaire dérive des bourgeons maxillaires supérieurs.",
+              "explication": "Il dérive des bourgeons nasaux internes ; les bourgeons maxillaires donnent les processus palatins."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-010",
+          "type": "qcm",
+          "question": "Concernant la formation des fosses nasales et des choanes primaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "membrane bucco-nasale, qui s'effondre et disparaît"
+          },
+          "bonnes": [
+            {
+              "reponse": "Pendant la 6e semaine, les cupules olfactives s'étendent vers l'arrière pour former les fosses nasales.",
+              "explication": "Chronologie du cours."
+            },
+            {
+              "reponse": "Les fosses nasales sont d'abord séparées de la cavité buccale primitive par la membrane bucco-nasale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La membrane bucco-nasale s'effondre et disparaît au cours de la 6e semaine.",
+              "explication": "Elle laisse place aux choanes primaires."
+            },
+            {
+              "reponse": "Après la disparition de la membrane bucco-nasale, les fosses nasales communiquent avec la cavité buccale primitive par les choanes primaires.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le palais primaire et le palais secondaire restent séparés par la membrane bucco-nasale.",
+              "explication": "La membrane bucco-nasale disparaît au cours de la 6e semaine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fosses nasales se forment par extension des cupules olfactives vers l'avant.",
+              "explication": "Les cupules s'étendent vers l'arrière."
+            },
+            {
+              "reponse": "La membrane bucco-nasale disparaît vers la 10e semaine.",
+              "explication": "Elle disparaît au cours de la 6e semaine."
+            },
+            {
+              "reponse": "Les choanes primaires persistent après la formation du palais secondaire.",
+              "explication": "Elles disparaissent quand le palais secondaire se forme."
+            },
+            {
+              "reponse": "La membrane bucco-nasale sépare la fosse nasale droite de la fosse nasale gauche.",
+              "explication": "Les 2 fosses nasales sont séparées par le septum nasal."
+            },
+            {
+              "reponse": "La membrane bucco-nasale persiste toute la vie.",
+              "explication": "Elle s'effondre et disparaît au cours de la 6e semaine."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-011",
+          "type": "qcm",
+          "question": "Concernant le palais secondaire et les choanes définitives, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "fusionnent sur la ligne médiane et en avant"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les processus palatins proviennent des bourgeons maxillaires supérieurs.",
+              "explication": "Ce sont des lames cellulaires aplaties issues de ces bourgeons."
+            },
+            {
+              "reponse": "Les processus palatins se rejoignent sur la ligne médiane et fusionnent.",
+              "explication": "Ils forment ainsi le palais secondaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les processus palatins fusionnent en avant avec le palais primaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Des choanes définitives se forment à la jonction du pharynx et des fosses nasales.",
+              "explication": "Elles permettent le passage de l'air du nez vers le larynx. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les processus palatins se forment à partir des bourgeons mandibulaires.",
+              "explication": "Ils se forment à partir des bourgeons maxillaires supérieurs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le palais secondaire provient de la fusion des 2 bourgeons nasaux externes.",
+              "explication": "Il provient de la fusion des processus palatins issus des bourgeons maxillaires supérieurs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les processus palatins proviennent des bourgeons nasaux internes.",
+              "explication": "Ils proviennent des bourgeons maxillaires supérieurs."
+            },
+            {
+              "reponse": "Les choanes définitives se forment à la jonction des fosses nasales et de la cavité buccale.",
+              "explication": "Elles se forment à la jonction des fosses nasales et du pharynx."
+            },
+            {
+              "reponse": "Les choanes définitives coexistent durablement avec les choanes primaires.",
+              "explication": "Les choanes primaires disparaissent lors de la formation du palais secondaire."
+            },
+            {
+              "reponse": "Les processus palatins se développent en dehors avant de fusionner.",
+              "explication": "Ils se développent en dedans."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-012",
+          "type": "qcm",
+          "question": "Concernant la chronologie de formation du palais secondaire (version retenue par le cours), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "début du palais secondaire à la 6e semaine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le palais secondaire commence à se former à la 6e semaine.",
+              "explication": "Version retenue après correction des notes."
+            },
+            {
+              "reponse": "La fusion des processus palatins a lieu plus tardivement, entre la 8e et la 10e semaine.",
+              "explication": "Version retenue ([Correction])."
+            },
+            {
+              "reponse": "À 6 semaines et demie, les lames palatines sont encore séparées, de part et d'autre de la langue.",
+              "explication": "D'après les diapositives n°8 et 9."
+            },
+            {
+              "reponse": "Les lames palatines sont d'abord verticales puis deviennent horizontales avant de fusionner.",
+              "explication": "Diapositive n°8 : verticales puis horizontales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fusion des processus palatins a lieu au cours de la 6e semaine.",
+              "explication": "Erreur des notes corrigée : la fusion est plus tardive (8e à 10e semaine)."
+            },
+            {
+              "reponse": "La fusion des processus palatins a lieu dès la 5e semaine.",
+              "explication": "Elle a lieu entre la 8e et la 10e semaine."
+            },
+            {
+              "reponse": "La fusion des processus palatins a lieu après la naissance.",
+              "explication": "Elle a lieu entre la 8e et la 10e semaine de développement."
+            },
+            {
+              "reponse": "Les lames palatines sont d'abord horizontales puis deviennent verticales.",
+              "explication": "C'est l'inverse : d'abord verticales, puis horizontales."
+            },
+            {
+              "reponse": "À 10 semaines, les lames palatines sont encore séparées.",
+              "explication": "À 10 semaines, elles sont fusionnées."
+            },
+            {
+              "reponse": "Le palais secondaire est achevé avant la disparition de la membrane bucco-nasale.",
+              "explication": "La membrane disparaît à la 6e semaine, la fusion palatine est plus tardive."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-013",
+          "type": "qcm",
+          "question": "Concernant le septum nasal et les cornets, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "fusionne vers la 10e semaine avec le palais secondaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le septum nasal commence à se former à partir de la 5e semaine.",
+              "explication": "Chronologie du cours."
+            },
+            {
+              "reponse": "Le septum nasal fusionne vers la 10e semaine avec le palais secondaire.",
+              "explication": "Cette fusion sépare définitivement les 2 fosses nasales."
+            },
+            {
+              "reponse": "Les cornets apparaissent à partir de la 7e semaine sur la paroi latérale des fosses nasales.",
+              "explication": "Ce sont des élévations de la paroi latérale."
+            },
+            {
+              "reponse": "On distingue un cornet supérieur, un cornet moyen et un cornet inférieur.",
+              "explication": "Les 3 cornets du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le septum nasal ne fusionne pas avec le palais.",
+              "explication": "Il fusionne vers la 10e semaine avec le palais secondaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le septum nasal fusionne avec le palais secondaire dès la 6e semaine.",
+              "explication": "Cette fusion a lieu vers la 10e semaine."
+            },
+            {
+              "reponse": "Les cornets apparaissent sur la paroi médiale des fosses nasales, c'est-à-dire sur le septum.",
+              "explication": "Ils apparaissent sur la paroi latérale."
+            },
+            {
+              "reponse": "Les cornets apparaissent dès la 4e semaine.",
+              "explication": "Ils apparaissent à partir de la 7e semaine."
+            },
+            {
+              "reponse": "On distingue 4 cornets de chaque côté.",
+              "explication": "Le cours décrit 3 cornets : supérieur, moyen et inférieur."
+            },
+            {
+              "reponse": "La séparation définitive des fosses nasales droite et gauche est assurée par la membrane bucco-nasale.",
+              "explication": "Elle est assurée par la fusion du septum nasal avec le palais secondaire."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-014",
+          "type": "qcm",
+          "question": "Concernant les sinus de la face, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "cavités creusées dans l'os frontal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce sont des cavités creusées dans l'os frontal, l'ethmoïde, le maxillaire supérieur et le sphénoïde.",
+              "explication": "Les 4 os cités dans le cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils augmentent de volume au cours de l'enfance.",
+              "explication": "Ils se développent jusqu'à la puberté. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils s'ouvrent par de petits orifices au fond des cornets.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils jouent un rôle de caisse de résonance pour la voix.",
+              "explication": "Rôle cité dans le cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils allègent les os du crâne.",
+              "explication": "Rôle cité dans le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils cessent d'augmenter de volume après la naissance.",
+              "explication": "Ils se développent jusqu'à la puberté. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils sont creusés dans l'os temporal et l'os occipital.",
+              "explication": "Ils sont creusés dans le frontal, l'ethmoïde, le maxillaire supérieur et le sphénoïde."
+            },
+            {
+              "reponse": "Ils diminuent la surface de muqueuse au contact de l'air.",
+              "explication": "Ils l'augmentent, ce qui favorise l'humidification et le réchauffement."
+            },
+            {
+              "reponse": "Ils s'ouvrent directement dans la cavité buccale.",
+              "explication": "Ils s'ouvrent au fond des cornets."
+            },
+            {
+              "reponse": "Ils contribuent peu à la morphologie faciale.",
+              "explication": "Ils contribuent fortement à la morphologie faciale."
+            },
+            {
+              "reponse": "Ils alourdissent les os du crâne.",
+              "explication": "Ils les allègent."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-015",
+          "type": "qcm",
+          "question": "Concernant les anomalies du développement des fosses nasales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "défaut de fusion entre les bourgeons nasaux internes"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fente labiale résulte d'un défaut de fusion entre les bourgeons nasaux internes et les bourgeons maxillaires supérieurs.",
+              "explication": "Définition du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fente palatine résulte d'un défaut de suture des processus palatins sur la ligne médiane.",
+              "explication": "Elle aboutit à une division palatine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fente labiale peut être unilatérale ou bilatérale.",
+              "explication": "Elle peut aussi être partielle ou complète. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une fente labiale peut s'accompagner d'une fente du palais antérieur (primaire).",
+              "explication": "Formes illustrées sur la diapositive n°12. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ces anomalies concernent environ 1 naissance sur 1000.",
+              "explication": "Elles sont relativement fréquentes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fentes labiales et les fentes palatines ne sont jamais associées.",
+              "explication": "Les 2 types peuvent être combinés. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fente labiale résulte d'un défaut de fusion entre les bourgeons nasaux externes et les bourgeons maxillaires supérieurs.",
+              "explication": "Elle concerne les bourgeons nasaux internes."
+            },
+            {
+              "reponse": "La fente palatine résulte d'un défaut de fusion des bourgeons nasaux internes.",
+              "explication": "Elle résulte d'un défaut de suture des processus palatins."
+            },
+            {
+              "reponse": "La fente labiale est toujours complète.",
+              "explication": "Elle peut être partielle ou complète."
+            },
+            {
+              "reponse": "Ces anomalies sont exceptionnelles, de l'ordre de 1 naissance sur 1 million.",
+              "explication": "Elles concernent environ 1 naissance sur 1000."
+            },
+            {
+              "reponse": "Ces anomalies surviennent lors de la séparation de la trachée et de l'œsophage.",
+              "explication": "Elles surviennent lors du cloisonnement de la bouche primitive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le larynx et la trachée"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-embryo-016",
+          "type": "qcm",
+          "question": "Concernant la mise en place du larynx, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "ébauche du futur appareil respiratoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le larynx se met en place au début de la 4e semaine.",
+              "explication": "Chronologie du cours."
+            },
+            {
+              "reponse": "Il apparaît sur le plancher du pharynx primitif, au niveau du 4e arc branchial.",
+              "explication": "Localisation donnée par le cours."
+            },
+            {
+              "reponse": "La gouttière laryngo-trachéale est la première ébauche du futur appareil respiratoire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La gouttière laryngo-trachéale provient d'une excroissance de la paroi ventrale de l'intestin antérieur.",
+              "explication": "Ce qui explique l'origine entoblastique des épithéliums respiratoires."
+            },
+            {
+              "reponse": "La gouttière laryngo-trachéale est d'abord longitudinale puis prend une forme en T.",
+              "explication": "Évolution décrite dans le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La gouttière laryngo-trachéale provient de la paroi dorsale de l'intestin antérieur.",
+              "explication": "Elle provient de sa paroi ventrale."
+            },
+            {
+              "reponse": "La gouttière laryngo-trachéale provient de l'intestin postérieur.",
+              "explication": "Elle provient de l'intestin antérieur."
+            },
+            {
+              "reponse": "Le larynx apparaît au niveau du 1er arc branchial.",
+              "explication": "Il apparaît au niveau du 4e arc."
+            },
+            {
+              "reponse": "Le larynx se met en place au début de la 8e semaine.",
+              "explication": "Il se met en place au début de la 4e semaine."
+            },
+            {
+              "reponse": "La gouttière laryngo-trachéale a d'abord une forme en T puis devient longitudinale.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "La gouttière laryngo-trachéale se développe en direction crâniale pour donner la trachée.",
+              "explication": "Elle se développe en direction caudale."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-017",
+          "type": "qcm",
+          "question": "Concernant l'origine des constituants du larynx, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "L'épiglotte dérive de l'éminence hypobranchiale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cartilages thyroïde, cricoïde et aryténoïdes proviennent des 4e et 6e arcs branchiaux.",
+              "explication": "Diapositive n°14 : 4e et 6e arcs."
+            },
+            {
+              "reponse": "Les muscles du larynx proviennent des 4e et 6e arcs branchiaux.",
+              "explication": "Même origine que les cartilages."
+            },
+            {
+              "reponse": "L'épiglotte dérive de l'éminence hypobranchiale.",
+              "explication": "Aussi appelée furcula."
+            },
+            {
+              "reponse": "L'épithélium laryngé est d'origine entoblastique.",
+              "explication": "Il dérive de l'intestin antérieur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cartilages laryngés proviennent du 4e arc branchial seulement.",
+              "explication": "Ils proviennent des 4e et 6e arcs (erreur de la figure des notes)."
+            },
+            {
+              "reponse": "Les cartilages laryngés proviennent des 1er et 2e arcs branchiaux.",
+              "explication": "Ils proviennent des 4e et 6e arcs."
+            },
+            {
+              "reponse": "L'épiglotte dérive du tuberculum impar.",
+              "explication": "Le tuberculum impar est le bourgeon lingual médian ; l'épiglotte dérive de l'éminence hypobranchiale."
+            },
+            {
+              "reponse": "L'épiglotte dérive du 6e arc branchial.",
+              "explication": "Elle dérive de l'éminence hypobranchiale."
+            },
+            {
+              "reponse": "L'épithélium laryngé est d'origine ectoblastique.",
+              "explication": "Il est d'origine entoblastique."
+            },
+            {
+              "reponse": "Les muscles du larynx proviennent du mésenchyme splanchnique situé en avant de l'intestin antérieur.",
+              "explication": "Ce mésenchyme donne la paroi de la trachée ; les muscles du larynx viennent des 4e et 6e arcs."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-018",
+          "type": "qcm",
+          "question": "Concernant l'orifice laryngé et les cordes vocales au cours du développement, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "forment les ventricules laryngés"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'orifice de la gouttière laryngo-trachéale s'obstrue secondairement par épaississement de l'entoblaste.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'orifice laryngé obstrué réapparaît ensuite.",
+              "explication": "L'obstruction est transitoire."
+            },
+            {
+              "reponse": "Des masses muqueuses persistent et forment les ventricules laryngés.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cordes vocales correspondent à des replis qui persistent au niveau des ventricules laryngés.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'orifice laryngé s'obstrue par épaississement de l'ectoblaste.",
+              "explication": "Il s'obstrue par épaississement de l'entoblaste."
+            },
+            {
+              "reponse": "L'orifice laryngé reste définitivement obstrué.",
+              "explication": "Il réapparaît secondairement."
+            },
+            {
+              "reponse": "L'orifice laryngé ne s'obstrue jamais au cours du développement.",
+              "explication": "Il s'obstrue secondairement puis réapparaît."
+            },
+            {
+              "reponse": "Les cordes vocales dérivent de l'éminence hypobranchiale.",
+              "explication": "C'est l'épiglotte qui en dérive ; les cordes vocales sont des replis des ventricules laryngés."
+            },
+            {
+              "reponse": "L'obstruction de l'orifice laryngé est due à une prolifération du mésoblaste.",
+              "explication": "Elle est due à un épaississement de l'entoblaste."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-019",
+          "type": "qcm",
+          "question": "Concernant l'origine embryologique de la trachée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "poche branchiale entoblastique et le renflement hépatique"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'épithélium de la trachée est d'origine endodermique (entoblastique).",
+              "explication": "Il provient de l'intestin antérieur."
+            },
+            {
+              "reponse": "L'ébauche trachéale naît de la paroi ventrale de l'intestin antérieur, entre la 4e poche branchiale et le renflement hépatique.",
+              "explication": "Localisation donnée par le cours."
+            },
+            {
+              "reponse": "Le tissu conjonctif, le cartilage et les muscles lisses de la trachée proviennent du mésenchyme splanchnique.",
+              "explication": "Mésenchyme situé en avant de l'intestin antérieur."
+            },
+            {
+              "reponse": "La trachée se met en place à la 4e semaine.",
+              "explication": "Toujours à la 4e semaine, comme le larynx."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La trachée se forme à partir de l'intestin postérieur.",
+              "explication": "Elle se forme à partir de l'intestin antérieur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épithélium de la trachée est d'origine mésoblastique.",
+              "explication": "Il est d'origine entoblastique."
+            },
+            {
+              "reponse": "L'épithélium de la trachée est d'origine ectoblastique.",
+              "explication": "Il est d'origine entoblastique."
+            },
+            {
+              "reponse": "Le cartilage trachéal est d'origine entoblastique.",
+              "explication": "Il provient du mésenchyme splanchnique."
+            },
+            {
+              "reponse": "Le cartilage trachéal dérive des 4e et 6e arcs branchiaux.",
+              "explication": "Ce sont les cartilages du larynx qui en dérivent ; celui de la trachée vient du mésenchyme splanchnique."
+            },
+            {
+              "reponse": "L'ébauche trachéale naît de la paroi dorsale de l'intestin antérieur.",
+              "explication": "Elle naît de sa paroi ventrale."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-020",
+          "type": "qcm",
+          "question": "Concernant la séparation de la trachée et de l'œsophage, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Ce septum sépare la trachée, en avant"
+          },
+          "bonnes": [
+            {
+              "reponse": "La gouttière laryngo-trachéale est délimitée par 2 crêtes œsophago-trachéales.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le septum œsophago-trachéal se forme de la partie caudale vers la partie crâniale.",
+              "explication": "Sens de formation donné par le cours."
+            },
+            {
+              "reponse": "La trachée est située en avant de l'œsophage.",
+              "explication": "Le septum sépare la trachée en avant de l'œsophage en arrière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'œsophage est situé en arrière de la trachée.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le septum œsophago-trachéal se forme de la partie crâniale vers la partie caudale.",
+              "explication": "Il se forme de la partie caudale vers la partie crâniale."
+            },
+            {
+              "reponse": "La trachée est située en arrière de l'œsophage.",
+              "explication": "Elle est en avant de l'œsophage."
+            },
+            {
+              "reponse": "La séparation de la trachée et de l'œsophage est assurée par une seule crête médiane.",
+              "explication": "Elle fait intervenir 2 crêtes œsophago-trachéales."
+            },
+            {
+              "reponse": "Le septum œsophago-trachéal sépare le larynx du pharynx.",
+              "explication": "Il sépare la trachée de l'œsophage."
+            },
+            {
+              "reponse": "La trachée et l'œsophage dérivent de l'intestin postérieur.",
+              "explication": "Ils dérivent de l'intestin antérieur."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-021",
+          "type": "qcm",
+          "question": "Concernant le développement de l'œsophage, de la trachée et des poumons par rapport au cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "qu'après l'allongement de l'intestin antérieur"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'œsophage, la trachée et l'estomac ne peuvent se développer qu'après l'allongement de l'intestin antérieur.",
+              "explication": "Diapositive n°16."
+            },
+            {
+              "reponse": "L'allongement de l'intestin antérieur accompagne la descente du cœur.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La descente du cœur dégage l'espace nécessaire au développement des poumons en arrière du cœur.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'allongement de l'intestin antérieur accompagne la montée du cœur.",
+              "explication": "Il accompagne la descente du cœur."
+            },
+            {
+              "reponse": "Les poumons se développent en avant du cœur.",
+              "explication": "Ils se développent en arrière du cœur."
+            },
+            {
+              "reponse": "Le développement de la trachée nécessite un raccourcissement de l'intestin antérieur.",
+              "explication": "Il nécessite un allongement de l'intestin antérieur."
+            },
+            {
+              "reponse": "Le développement des poumons précède l'allongement de l'intestin antérieur.",
+              "explication": "Les organes dérivés ne se développent qu'après cet allongement."
+            },
+            {
+              "reponse": "C'est la descente du foie qui dégage l'espace nécessaire aux poumons.",
+              "explication": "C'est la descente du cœur."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-022",
+          "type": "qcm",
+          "question": "Concernant l'atrésie de l'œsophage, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Atrésie de l'œsophage, et non de la trachée"
+          },
+          "bonnes": [
+            {
+              "reponse": "En cas d'anomalie de séparation de la trachée et de l'œsophage, c'est une atrésie de l'œsophage qui se produit.",
+              "explication": "Point de vigilance du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sa fréquence est de l'ordre de 1 naissance sur quelques milliers.",
+              "explication": "Le cours donne environ 1 naissance sur 4000."
+            },
+            {
+              "reponse": "Dans la forme majoritaire, la partie supérieure de l'œsophage se termine en cul-de-sac.",
+              "explication": "Atrésie complète, forme la plus fréquente."
+            },
+            {
+              "reponse": "Dans la forme majoritaire, la partie inférieure de l'œsophage communique avec la trachée par une fistule œso-trachéale.",
+              "explication": "Description de la forme la plus fréquente."
+            },
+            {
+              "reponse": "Selon les notes, elle a été classée par Ladd en 5 types.",
+              "explication": "Classification citée dans le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En cas d'anomalie de séparation de la trachée et de l'œsophage, c'est l'atrésie de la trachée qui se produit.",
+              "explication": "Il s'agit d'une atrésie de l'œsophage. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans la forme majoritaire, la partie inférieure de l'œsophage se termine en cul-de-sac et la partie supérieure communique avec la trachée.",
+              "explication": "C'est l'inverse : cul-de-sac supérieur, fistule inférieure."
+            },
+            {
+              "reponse": "La forme majoritaire ne comporte aucune fistule œso-trachéale.",
+              "explication": "La forme majoritaire comporte une fistule entre l'œsophage inférieur et la trachée."
+            },
+            {
+              "reponse": "Sa fréquence est d'environ 1 naissance sur 40.",
+              "explication": "Elle est beaucoup plus rare : environ 1 sur 4000."
+            },
+            {
+              "reponse": "Elle a été classée par Ladd en 3 types.",
+              "explication": "La classification de Ladd comporte 5 types."
+            },
+            {
+              "reponse": "Elle est plus rare que les sténoses trachéales.",
+              "explication": "Ce sont les sténoses trachéales qui sont plus rares."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-023",
+          "type": "qcm",
+          "question": "Concernant le diagnostic de l'atrésie de l'œsophage, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "visible à l'échographie anténatale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Normalement, le fœtus déglutit le liquide amniotique.",
+              "explication": "Base physiopathologique du diagnostic."
+            },
+            {
+              "reponse": "En cas d'atrésie, le liquide amniotique non dégluti s'accumule : c'est l'hydramnios.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'hydramnios est visible à l'échographie anténatale.",
+              "explication": "Il permet d'évoquer le diagnostic avant la naissance."
+            },
+            {
+              "reponse": "Si elle n'a pas été vue avant la naissance, l'atrésie se révèle lors de la 1re tétée.",
+              "explication": "Le lait fait fausse route et ne passe pas dans le tube digestif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'atrésie de l'œsophage entraîne une diminution du volume de liquide amniotique.",
+              "explication": "Elle entraîne une accumulation (hydramnios)."
+            },
+            {
+              "reponse": "L'hydramnios correspond à un défaut de liquide amniotique.",
+              "explication": "Il correspond à un excès de liquide amniotique."
+            },
+            {
+              "reponse": "L'atrésie de l'œsophage n'est jamais décelable avant la naissance.",
+              "explication": "L'hydramnios est visible à l'échographie anténatale."
+            },
+            {
+              "reponse": "Physiologiquement, le fœtus ne déglutit pas le liquide amniotique.",
+              "explication": "Le fœtus déglutit normalement le liquide amniotique."
+            },
+            {
+              "reponse": "En cas d'atrésie méconnue, le lait de la 1re tétée passe normalement dans le tube digestif.",
+              "explication": "Il fait fausse route et ne passe pas dans le tube digestif."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-024",
+          "type": "qcm",
+          "question": "Concernant les sténoses trachéales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Les sténoses trachéales sont plus rares"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les sténoses trachéales sont plus rares que l'atrésie de l'œsophage.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les sténoses trachéales peuvent toucher la trachée à différentes hauteurs.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Une sténose trachéale correspond à un rétrécissement localisé de la trachée.",
+              "explication": "Diapositive n°17."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les sténoses trachéales sont plus fréquentes que l'atrésie de l'œsophage.",
+              "explication": "Elles sont plus rares."
+            },
+            {
+              "reponse": "Les sténoses trachéales siègent uniquement au niveau de la bifurcation trachéale.",
+              "explication": "Elles peuvent toucher la trachée à différentes hauteurs."
+            },
+            {
+              "reponse": "Une sténose trachéale correspond à une absence totale de trachée.",
+              "explication": "C'est un rétrécissement localisé."
+            },
+            {
+              "reponse": "Une sténose trachéale correspond à une communication entre la trachée et l'œsophage.",
+              "explication": "Cette communication est une fistule œso-trachéale."
+            },
+            {
+              "reponse": "Une sténose trachéale résulte d'un défaut de suture des processus palatins.",
+              "explication": "Ce défaut donne une fente palatine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Mise en place et développement de l'appareil broncho-pulmonaire"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-embryo-025",
+          "type": "qcm",
+          "question": "Concernant les bourgeons bronchiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "le bourgeon droit sera à l'origine de"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ébauche laryngo-trachéale se développe en direction caudale et donne 2 bourgeons bronchiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le bourgeon bronchique droit est à l'origine de 3 bronches lobaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le bourgeon bronchique gauche est à l'origine de 2 bronches lobaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les bourgeons bronchiques pénètrent dans la cavité cœlomique.",
+              "explication": "Ils y pénètrent en direction caudale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le bourgeon bronchique droit est à l'origine de 2 bronches lobaires.",
+              "explication": "Il est à l'origine de 3 bronches lobaires."
+            },
+            {
+              "reponse": "Le bourgeon bronchique gauche est à l'origine de 3 bronches lobaires.",
+              "explication": "Il est à l'origine de 2 bronches lobaires."
+            },
+            {
+              "reponse": "L'ébauche laryngo-trachéale donne 4 bourgeons bronchiques.",
+              "explication": "Elle en donne 2."
+            },
+            {
+              "reponse": "Les bourgeons bronchiques se développent en direction crâniale.",
+              "explication": "Ils se développent en direction caudale."
+            },
+            {
+              "reponse": "Les bourgeons bronchiques pénètrent dans la cavité amniotique.",
+              "explication": "Ils pénètrent dans la cavité cœlomique."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-026",
+          "type": "qcm",
+          "question": "Concernant la formation de la cavité pleurale primitive, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "la plèvre viscérale entoure les bourgeons"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le développement des bourgeons repousse la paroi de la cavité cœlomique et la transforme en une double enveloppe.",
+              "explication": "C'est la cavité pleurale primitive."
+            },
+            {
+              "reponse": "La plèvre viscérale entoure les bourgeons pulmonaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La plèvre pariétale est accolée à la paroi.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les bourgeons pulmonaires empruntent les canaux péricardo-péritonéaux.",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La plèvre pariétale entoure les bourgeons pulmonaires.",
+              "explication": "C'est la plèvre viscérale qui les entoure."
+            },
+            {
+              "reponse": "La plèvre viscérale est accolée à la paroi.",
+              "explication": "C'est la plèvre pariétale."
+            },
+            {
+              "reponse": "Les bourgeons pulmonaires empruntent des canaux péri-abdominaux et péritonéaux.",
+              "explication": "Formulation erronée des notes : il s'agit des canaux péricardo-péritonéaux."
+            },
+            {
+              "reponse": "La cavité pleurale primitive dérive de la cavité amniotique.",
+              "explication": "Elle dérive de la cavité cœlomique."
+            },
+            {
+              "reponse": "Les bourgeons pulmonaires se développent en dehors de la cavité cœlomique.",
+              "explication": "Ils pénètrent dans la cavité cœlomique."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-027",
+          "type": "qcm",
+          "question": "Concernant le hile pulmonaire et le diaphragme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "crée le hile autour de chaque bronche souche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rapprochement des 2 feuillets pleuraux crée le hile autour de chaque bronche souche.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les artères et les veines pulmonaires pénètrent au niveau du hile.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le diaphragme se met en place à partir du pli pleuro-péritonéal.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le diaphragme se met en place entre la cavité pleurale et la cavité péritonéale.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le hile se forme autour de chaque bronche segmentaire.",
+              "explication": "Il se forme autour de chaque bronche souche."
+            },
+            {
+              "reponse": "Les vaisseaux pulmonaires pénètrent dans le poumon par son apex.",
+              "explication": "Ils pénètrent au niveau du hile."
+            },
+            {
+              "reponse": "Le diaphragme se met en place à partir de l'éminence hypobranchiale.",
+              "explication": "L'éminence hypobranchiale donne l'épiglotte ; le diaphragme vient du pli pleuro-péritonéal."
+            },
+            {
+              "reponse": "Le diaphragme sépare la cavité pleurale de la cavité péricardique.",
+              "explication": "Il se met en place entre la cavité pleurale et la cavité péritonéale."
+            },
+            {
+              "reponse": "Le diaphragme se met en place après la naissance.",
+              "explication": "Il se met en place dans le même temps que les plèvres, pendant le développement."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-028",
+          "type": "qcm",
+          "question": "Concernant le développement de l'arbre bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "se divise de façon dichotomique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Chaque bourgeon bronchique se divise de façon dichotomique.",
+              "explication": "Division en 2."
+            },
+            {
+              "reponse": "Vers la 7e semaine, on compte 10 bronches segmentaires à droite et 8 à 9 à gauche.",
+              "explication": "Version retenue ([Vigilance])."
+            },
+            {
+              "reponse": "À la 24e semaine, on compte 17 niveaux de dichotomie.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "À la 24e semaine, les bronchioles respiratoires sont présentes.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "De la 24e semaine au terme, les canaux alvéolaires et les alvéoles se multiplient.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Chaque bourgeon bronchique se divise de façon trichotomique.",
+              "explication": "La division est dichotomique (en 2)."
+            },
+            {
+              "reponse": "Vers la 7e semaine, on compte 8 à 9 bronches segmentaires à droite et 10 à gauche.",
+              "explication": "C'est l'inverse : 10 à droite, 8 à 9 à gauche."
+            },
+            {
+              "reponse": "À la 24e semaine, on compte 7 niveaux de dichotomie.",
+              "explication": "On en compte 17."
+            },
+            {
+              "reponse": "Les bronchioles respiratoires sont présentes dès la 7e semaine.",
+              "explication": "Elles sont présentes à la 24e semaine."
+            },
+            {
+              "reponse": "Les canaux alvéolaires cessent de se multiplier à la 24e semaine.",
+              "explication": "Ils se multiplient de la 24e semaine jusqu'au terme et au-delà."
+            },
+            {
+              "reponse": "Les 17 niveaux de dichotomie sont atteints dès la 7e semaine.",
+              "explication": "Ils sont atteints à la 24e semaine."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-029",
+          "type": "qcm",
+          "question": "Concernant les alvéoles à la naissance et après, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "représente 1/6 de celui de l'adulte"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le nombre d'alvéoles à la naissance représente 1/6 de celui de l'adulte.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "La multiplication des alvéoles se poursuit après la naissance.",
+              "explication": "Les alvéoles se développent beaucoup pendant la petite enfance."
+            },
+            {
+              "reponse": "Les alvéoles se développent beaucoup pendant la petite enfance.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le nombre définitif d'alvéoles est atteint à la naissance.",
+              "explication": "Il ne représente que 1/6 du nombre adulte."
+            },
+            {
+              "reponse": "Le nombre d'alvéoles à la naissance représente la moitié de celui de l'adulte.",
+              "explication": "Il en représente 1/6."
+            },
+            {
+              "reponse": "Le nombre d'alvéoles à la naissance représente 5/6 de celui de l'adulte.",
+              "explication": "Il en représente 1/6."
+            },
+            {
+              "reponse": "La multiplication des alvéoles s'arrête au terme de la grossesse.",
+              "explication": "Elle se poursuit après la naissance."
+            },
+            {
+              "reponse": "De nouvelles alvéoles ne se forment qu'à partir de la puberté.",
+              "explication": "Elles se multiplient dès la vie fœtale et pendant la petite enfance."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-030",
+          "type": "qcm",
+          "question": "Concernant la maturation des pneumocytes et le début de la respiration, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "La respiration devient possible vers le 7e mois"
+          },
+          "bonnes": [
+            {
+              "reponse": "La respiration devient possible vers le 7e mois du développement.",
+              "explication": "Lorsque les pneumocytes de type 1 sont différenciés."
+            },
+            {
+              "reponse": "Les échanges gazeux ne deviennent possibles qu'à partir de la différenciation des pneumocytes de type 1.",
+              "explication": "Les gaz traversent ces cellules."
+            },
+            {
+              "reponse": "Selon les notes, les pneumocytes de type 2 se différencient au 6e mois.",
+              "explication": "Ils produisent et sécrètent le surfactant."
+            },
+            {
+              "reponse": "Les gaz traversent les pneumocytes de type 1 par diffusion passive.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les pneumocytes de type 1 se différencient avant les pneumocytes de type 2.",
+              "explication": "Selon le cours, type 2 au 6e mois, type 1 au 7e mois."
+            },
+            {
+              "reponse": "La respiration devient possible dès le 4e mois.",
+              "explication": "Elle devient possible vers le 7e mois."
+            },
+            {
+              "reponse": "Les pneumocytes de type 1 se différencient au 6e mois et les pneumocytes de type 2 au 7e mois.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Les gaz traversent les pneumocytes de type 1 par transport actif.",
+              "explication": "Ils les traversent par diffusion passive."
+            },
+            {
+              "reponse": "Les échanges gazeux deviennent possibles dès la différenciation des pneumocytes de type 2.",
+              "explication": "Ils dépendent de la différenciation des pneumocytes de type 1."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-031",
+          "type": "qcm",
+          "question": "Concernant le liquide alvéolaire fœtal et son devenir à la naissance, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "liquide riche en protéines et en mucus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Avant la naissance, les alvéoles contiennent un liquide riche en protéines et en mucus, avec du surfactant.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "À la naissance, ce liquide est en partie réabsorbé par les capillaires et en partie expectoré.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Après la naissance, seul le surfactant demeure à la surface des cellules alvéolaires.",
+              "explication": "Il empêche alors le collapsus."
+            },
+            {
+              "reponse": "L'évacuation du liquide et l'expansion alvéolaire sont liées aux mouvements respiratoires.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Avant la naissance, les alvéoles contiennent de l'air.",
+              "explication": "Elles contiennent un liquide riche en protéines et en mucus."
+            },
+            {
+              "reponse": "Le liquide alvéolaire fœtal est pauvre en protéines.",
+              "explication": "Il est riche en protéines et en mucus."
+            },
+            {
+              "reponse": "Le liquide alvéolaire est entièrement conservé dans les alvéoles après la naissance.",
+              "explication": "Il est réabsorbé ou expectoré ; seul le surfactant demeure."
+            },
+            {
+              "reponse": "Le surfactant est éliminé avec le liquide alvéolaire à la naissance.",
+              "explication": "Le surfactant demeure à la surface des cellules alvéolaires."
+            },
+            {
+              "reponse": "L'expansion alvéolaire à la naissance est indépendante des mouvements respiratoires.",
+              "explication": "Elle est liée aux mouvements respiratoires."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-032",
+          "type": "qcm",
+          "question": "Concernant la maladie des membranes hyalines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "La maladie des membranes hyalines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est aujourd'hui appelée syndrome de détresse respiratoire du nouveau-né.",
+              "explication": "Terminologie actuelle donnée par le cours."
+            },
+            {
+              "reponse": "Elle est liée à une immaturité quantitative et qualitative du surfactant.",
+              "explication": "Le surfactant est insuffisant et inefficace."
+            },
+            {
+              "reponse": "Elle touche les grands prématurés.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les alvéoles s'affaissent à l'expiration.",
+              "explication": "Conséquence du défaut de surfactant."
+            },
+            {
+              "reponse": "Des dépôts hyalins de fibrine apparaissent dans les alvéoles.",
+              "explication": "Le surfactant a normalement un effet anti-œdémateux."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle touche surtout les nouveau-nés à terme.",
+              "explication": "Elle touche les grands prématurés."
+            },
+            {
+              "reponse": "Elle est liée à une immaturité uniquement qualitative du surfactant.",
+              "explication": "L'immaturité est quantitative et qualitative."
+            },
+            {
+              "reponse": "Elle est liée à un excès de surfactant.",
+              "explication": "Elle est liée à un surfactant insuffisant et inefficace."
+            },
+            {
+              "reponse": "Les alvéoles s'affaissent à l'inspiration.",
+              "explication": "Elles s'affaissent à l'expiration."
+            },
+            {
+              "reponse": "Les dépôts hyalins alvéolaires sont constitués de collagène.",
+              "explication": "Ils sont constitués de fibrine."
+            },
+            {
+              "reponse": "Le surfactant a normalement un effet pro-œdémateux.",
+              "explication": "Il a un effet anti-œdémateux."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-033",
+          "type": "qcm",
+          "question": "Concernant la prise en charge de la maladie des membranes hyalines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Le pronostic est généralement bon"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le traitement repose sur une assistance respiratoire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "On administre du surfactant exogène au nouveau-né.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En prévention, on administre des corticoïdes à la mère avant l'accouchement.",
+              "explication": "Ils accélèrent la maturation du surfactant."
+            },
+            {
+              "reponse": "Le pronostic est généralement bon.",
+              "explication": "Précisé à l'oral par le professeur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En prévention, on administre des corticoïdes au nouveau-né après la naissance.",
+              "explication": "Les corticoïdes préventifs sont administrés à la mère avant l'accouchement."
+            },
+            {
+              "reponse": "Les corticoïdes ralentissent la maturation du surfactant.",
+              "explication": "Ils l'accélèrent."
+            },
+            {
+              "reponse": "Le traitement repose sur l'administration de surfactant à la mère.",
+              "explication": "Le surfactant exogène est administré au nouveau-né."
+            },
+            {
+              "reponse": "Le pronostic est généralement très mauvais.",
+              "explication": "Le pronostic est généralement bon."
+            },
+            {
+              "reponse": "Aucun traitement n'est possible une fois la détresse installée.",
+              "explication": "Assistance respiratoire et surfactant exogène sont possibles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Anomalies de l'appareil broncho-pulmonaire"
+      },
+      "questions": [
+        {
+          "id": "respi-histoembryo-embryo-034",
+          "type": "qcm",
+          "question": "Concernant les anomalies par défaut de développement de l'ébauche pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "par l'existence d'un moignon de bronche"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'agénésie correspond à une absence totale d'arbre bronchique, de tissu alvéolaire et de système vasculaire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'aplasie se distingue de l'agénésie par l'existence d'un moignon de bronche.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'aplasie est généralement unilatérale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'hypoplasie correspond à un développement insuffisant, partiel ou total.",
+              "explication": "Elle peut toucher un segment ou tout le poumon."
+            },
+            {
+              "reponse": "Les agénésies totales sont létales.",
+              "explication": "Diapositive n°21."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'agénésie comporte un moignon d'ébauche pulmonaire.",
+              "explication": "C'est l'aplasie qui comporte un moignon."
+            },
+            {
+              "reponse": "L'aplasie est généralement bilatérale.",
+              "explication": "Elle est généralement unilatérale."
+            },
+            {
+              "reponse": "L'hypoplasie correspond à une absence totale de poumon.",
+              "explication": "C'est un développement insuffisant ; l'absence totale est l'agénésie."
+            },
+            {
+              "reponse": "L'hypoplasie touche toujours la totalité du poumon.",
+              "explication": "Elle peut être partielle (un segment) ou totale."
+            },
+            {
+              "reponse": "Dans l'agénésie, le système vasculaire pulmonaire est conservé.",
+              "explication": "L'agénésie associe l'absence d'arbre bronchique, de tissu alvéolaire et de vaisseaux."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-035",
+          "type": "qcm",
+          "question": "Concernant les anomalies bronchiques par malposition, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "fréquentes et sans conséquence"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les variations bronchiques ne concernent que la division de l'arbre.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les variations bronchiques sont fréquentes et sans conséquence.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les anomalies de la division bronchique peuvent constituer des bronches ou des poumons surnuméraires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les bronches ou poumons surnuméraires ont un impact généralement pathologique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Une bronche trachéale accessoire naît de la trachée et se destine au lobe supérieur.",
+              "explication": "Diapositive n°23."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les variations bronchiques sont rares et graves.",
+              "explication": "Elles sont fréquentes et sans conséquence."
+            },
+            {
+              "reponse": "Les bronches surnuméraires sont toujours sans conséquence.",
+              "explication": "Leur impact est généralement pathologique."
+            },
+            {
+              "reponse": "Une bronche trachéale accessoire naît de la bronche lobaire inférieure.",
+              "explication": "Elle naît de la trachée."
+            },
+            {
+              "reponse": "Les variations bronchiques correspondent à une absence totale d'arbre bronchique.",
+              "explication": "Cette absence correspond à l'agénésie."
+            },
+            {
+              "reponse": "Une bronche trachéale accessoire se destine au lobe inférieur.",
+              "explication": "Elle se destine au lobe supérieur."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-036",
+          "type": "qcm",
+          "question": "Concernant les séquestrations pulmonaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Leur vascularisation est systémique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles sont le plus souvent intralobaires.",
+              "explication": "Parfois extralobaires."
+            },
+            {
+              "reponse": "Leurs bronches ne font pas partie de l'arbre trachéo-bronchique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Leur vascularisation est systémique, issue de l'aorte ou de l'une de ses collatérales.",
+              "explication": "Et non de l'artère pulmonaire."
+            },
+            {
+              "reponse": "Elles forment des territoires peu ou pas ventilés, qui ne peuvent pas oxygéner le sang.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Leurs conséquences dépendent de la taille de la séquestration.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elles montrent le plus souvent une nette prédominance des structures bronchiques, avec des kystes.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elles sont le plus souvent extralobaires.",
+              "explication": "Elles sont le plus souvent intralobaires."
+            },
+            {
+              "reponse": "Elles sont vascularisées par l'artère pulmonaire.",
+              "explication": "Leur vascularisation est systémique, issue de l'aorte."
+            },
+            {
+              "reponse": "Leurs bronches sont normalement connectées à l'arbre trachéo-bronchique.",
+              "explication": "Elles n'en font pas partie."
+            },
+            {
+              "reponse": "Elles participent normalement à l'oxygénation du sang.",
+              "explication": "Ce sont des territoires peu ou pas ventilés."
+            },
+            {
+              "reponse": "Leurs conséquences sont indépendantes de leur taille.",
+              "explication": "Elles dépendent de la taille de la séquestration."
+            },
+            {
+              "reponse": "Elles sont vascularisées par les veines pulmonaires.",
+              "explication": "Leur vascularisation est artérielle systémique, issue de l'aorte."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-037",
+          "type": "qcm",
+          "question": "À ne pas confondre : quelles associations entre une anomalie et son mécanisme sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "il existe un moignon d'ébauche pulmonaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fente palatine résulte d'un défaut de suture des processus palatins.",
+              "explication": "Mécanisme décrit dans le cours."
+            },
+            {
+              "reponse": "La fente labiale résulte d'un défaut de fusion entre bourgeons nasaux internes et bourgeons maxillaires supérieurs.",
+              "explication": "Mécanisme décrit dans le cours."
+            },
+            {
+              "reponse": "L'atrésie de l'œsophage résulte d'une anomalie de séparation de la trachée et de l'œsophage.",
+              "explication": "Mécanisme décrit dans le cours."
+            },
+            {
+              "reponse": "L'aplasie pulmonaire comporte un moignon d'ébauche pulmonaire.",
+              "explication": "C'est ce qui la distingue de l'agénésie."
+            },
+            {
+              "reponse": "La maladie des membranes hyalines résulte d'une immaturité du surfactant.",
+              "explication": "Immaturité quantitative et qualitative."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fente labiale résulte d'un défaut de suture des processus palatins.",
+              "explication": "C'est le mécanisme de la fente palatine."
+            },
+            {
+              "reponse": "L'hypoplasie pulmonaire correspond à une absence totale d'ébauche pulmonaire.",
+              "explication": "C'est l'agénésie ; l'hypoplasie est un développement insuffisant."
+            },
+            {
+              "reponse": "La séquestration pulmonaire est vascularisée par l'artère pulmonaire.",
+              "explication": "Sa vascularisation est systémique, issue de l'aorte."
+            },
+            {
+              "reponse": "La maladie des membranes hyalines résulte d'un excès de surfactant.",
+              "explication": "Elle résulte d'un surfactant insuffisant et inefficace."
+            },
+            {
+              "reponse": "L'hydramnios est une conséquence de la fente palatine.",
+              "explication": "L'hydramnios est une conséquence de l'atrésie de l'œsophage."
+            },
+            {
+              "reponse": "L'agénésie pulmonaire se distingue de l'aplasie par la présence d'un moignon bronchique.",
+              "explication": "C'est l'aplasie qui comporte un moignon."
+            }
+          ]
+        },
+        {
+          "id": "respi-histoembryo-embryo-038",
+          "type": "qcm",
+          "question": "Concernant la fréquence et la gravité des anomalies du développement respiratoire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "des agénésies totales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fentes labiales et palatines sont relativement fréquentes, environ 1 naissance sur 1000.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Les variations bronchiques sont fréquentes et sans conséquence.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les agénésies pulmonaires totales sont létales.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Le pronostic de la maladie des membranes hyalines est généralement bon.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Les sténoses trachéales sont plus rares que l'atrésie de l'œsophage.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fentes labiales et palatines sont exceptionnelles.",
+              "explication": "Elles sont relativement fréquentes (environ 1/1000)."
+            },
+            {
+              "reponse": "Les variations bronchiques ont généralement des conséquences pathologiques graves.",
+              "explication": "Elles sont sans conséquence ; ce sont les bronches surnuméraires qui sont pathologiques."
+            },
+            {
+              "reponse": "Les agénésies pulmonaires totales sont compatibles avec une vie normale.",
+              "explication": "Elles sont létales."
+            },
+            {
+              "reponse": "Les sténoses trachéales sont plus fréquentes que l'atrésie de l'œsophage.",
+              "explication": "Elles sont plus rares."
+            },
+            {
+              "reponse": "Les conséquences d'une séquestration pulmonaire sont toujours graves, quelle que soit sa taille.",
+              "explication": "Elles dépendent de la taille de la séquestration."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
