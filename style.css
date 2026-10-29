@@ -87,7 +87,15 @@ label.opt.locked{cursor:default}
   .split{display:block}
   #panel{position:sticky;bottom:0;max-width:none;margin:12px -16px 0;border-radius:16px 16px 0 0;z-index:5;padding:14px 16px}
   #chips{display:none}
-  .item{flex-wrap:wrap}.item.lvl1{margin-left:14px}.item.lvl2{margin-left:28px}.item.lvl3{margin-left:42px}
+  #tree{padding:12px}
+  /* ligne en deux étages : [flèche][case][titre sur toute la largeur] puis [nombre de QCM] [▶ Lancer] */
+  .item{display:grid;grid-template-columns:44px 24px minmax(0,1fr) auto;column-gap:8px;row-gap:6px;align-items:start;padding:8px}
+  .item.lvl1{margin-left:8px}.item.lvl2{margin-left:16px}.item.lvl3{margin-left:24px}
+  .item>.chev,.item>.sp{grid-column:1;grid-row:1/3}
+  .item>input[type=checkbox]{grid-column:2;grid-row:1/3;margin:11px 0 0}
+  .item>.main{grid-column:3/5;grid-row:1;padding-top:4px}
+  .item>.cnt{grid-column:3;grid-row:2;justify-self:start;align-self:center}
+  .item>.play{grid-column:4;grid-row:2;justify-self:end}
   #course{position:fixed;inset:0;max-height:none;border-radius:0;z-index:30;top:0}
   #cbig{display:none}
   #pdfpage canvas{cursor:default}
