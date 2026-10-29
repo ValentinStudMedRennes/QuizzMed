@@ -8,7 +8,7 @@ const PDFJS_VERSION="3.11.174";   // bibliothèque d’affichage des PDF (charg�
 const PDFJS_CDN="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/"+PDFJS_VERSION+"/";
 let themes=[],quiz=[],i=0;
 const sel=new Set();             // chapitres cochés (tous thèmes confondus)
-const openT=new Set(),openS=new Set();   // thèmes et sections dépliés (fermés par défaut)
+const openT=new Set(),openS=new Set(),openF=new Set();   // thèmes, sections et cours dépliés (fermés par défaut)
 let current=[];                  // chapitres du QCM en cours
 const rnd=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
 function shuffle(a){a=a.slice();for(let j=a.length-1;j>0;j--){const k=rnd(0,j);[a[j],a[k]]=[a[k],a[j]]}return a}
@@ -70,22 +70,31 @@ function parseFile(raw,file,warns){
   });
   return f;
 }
-// Thème > sections (un fichier chacune) > chapitres
+// Thème > section > cours (un fichier JSON chacun, affiché par son "titre") > chapitres
+// Les fichiers qui ont le même "theme" sont regroupés dans un thème ; ceux qui ont aussi la même "section" sont regroupés dans une section.
 function groupFiles(files){
-  const out=[],byKey=new Map();
+  const out=[],byTheme=new Map();
   files.forEach(f=>{
-    let t=f.theme?byKey.get(f.theme.toLowerCase()):null;
-    if(!t){t={nom:f.theme||f.titre,description:f.theme?"":f.description,sections:[],chapitres:[]};out.push(t);if(f.theme)byKey.set(f.theme.toLowerCase(),t)}
-    const sec={nom:f.section||f.titre,description:f.theme?f.description:"",explicit:!!f.section,chapitres:[]};
-    f.chapitres.forEach(c=>{sec.chapitres.push(c)});
-    if(sec.chapitres.length)t.sections.push(sec);
+    let t=f.theme?byTheme.get(f.theme.toLowerCase()):null;
+    if(!t){t={nom:f.theme||f.titre,description:f.theme?"":f.description,grouped:!!f.theme,sections:[],chapitres:[],_sec:new Map()};out.push(t);if(f.theme)byTheme.set(f.theme.toLowerCase(),t)}
+    const key=f.section?f.section.toLowerCase():"\u0000"+t.sections.length;   // sans "section", chaque fichier a sa propre section
+    let sec=t._sec.get(key);
+    if(!sec){sec={nom:f.section||f.titre,explicit:!!f.section,files:[],chapitres:[]};t._sec.set(key,sec);t.sections.push(sec)}
+    if(f.chapitres.length)sec.files.push({titre:f.titre,description:f.description,chapitres:f.chapitres});
   });
   out.forEach(t=>{
+    delete t._sec;
+    t.sections=t.sections.filter(s=>s.files.length);
     t.sections.forEach(sec=>{
-      sec.show=t.sections.length>1||sec.explicit;   // titre de section affiché seulement s’il y en a plusieurs (ou si "section" est renseignée)
-      sec.chapitres.forEach(c=>c.questions.forEach(q=>{q.theme=t.nom;q.path=[t.nom,...(sec.show?[sec.nom]:[]),c.titre].join(" › ")}));
+      sec.show=t.sections.length>1||sec.explicit;   // titre de section affiché s’il y en a plusieurs (ou si "section" est renseignée)
+      sec.showFiles=sec.files.length>1;             // sous-groupes par titre de cours quand une section réunit plusieurs fichiers
+      sec.description=sec.files.length===1&&t.grouped?sec.files[0].description:"";
+      sec.chapitres=sec.files.flatMap(x=>x.chapitres);
+      sec.files.forEach(fl=>fl.chapitres.forEach(c=>c.questions.forEach(q=>{
+        q.theme=t.nom;q.path=[t.nom,...(sec.show?[sec.nom]:[]),...(sec.showFiles?[fl.titre]:[]),c.titre].join(" › ");
+      })));
     });
-    t.chapitres=t.sections.flatMap(sec=>sec.chapitres);
+    t.chapitres=t.sections.flatMap(s=>s.chapitres);
   });
   return out.filter(t=>t.chapitres.length);
 }
@@ -137,28 +146,42 @@ function row(o){   // une ligne : flèche (ouvrir/fermer), case à cocher, titre
 }
 function renderTree(){
   const L=$("treelist");L.innerHTML="";
+  const ck=(chs)=>{const k=chs.filter(c=>sel.has(c)).length;return{k,all:chs.length>0&&k===chs.length,partial:k>0&&k<chs.length}};
   themes.forEach(t=>{
-    const n=t.chapitres.filter(c=>sel.has(c)).length,tot=t.chapitres.length,opened=openT.has(t);
-    L.append(row({lvl:0,open:opened,onChev:()=>toggleSet(openT,t),checked:n===tot,partial:n>0&&n<tot,title:t.nom,
-      sub:[t.description,t.sections.length>1?t.sections.length+" sections":"",tot+" chapitre(s)",n>0&&n<tot?n+" coché(s)":""].filter(Boolean).join(" · "),
+    const a=ck(t.chapitres),opened=openT.has(t);
+    L.append(row({lvl:0,open:opened,onChev:()=>toggleSet(openT,t),checked:a.all,partial:a.partial,title:t.nom,
+      sub:[t.description,t.sections.length>1?t.sections.length+" sections":"",t.chapitres.length+" chapitre(s)",a.partial?a.k+" coché(s)":""].filter(Boolean).join(" · "),
       count:qcount(t.chapitres),onToggle:e=>{setAll(t.chapitres,e.target.checked);renderTree()},
       onMain:()=>toggleSet(openT,t),onPlay:()=>launch(t.chapitres)}));
     if(!opened)return;
     t.sections.forEach(sec=>{
-      const sOpen=!sec.show||openS.has(sec);   // sans en-tête de section, les chapitres sont directement visibles
+      const sOpen=!sec.show||openS.has(sec);   // sans en-tête de section, son contenu est directement visible
       if(sec.show){
-        const k=sec.chapitres.filter(c=>sel.has(c)).length,st=sec.chapitres.length;
-        L.append(row({lvl:1,open:sOpen,onChev:()=>toggleSet(openS,sec),checked:k===st,partial:k>0&&k<st,title:sec.nom,
-          sub:[sec.description,st+" chapitre(s)",k>0?k+" coché(s)":""].filter(Boolean).join(" · "),count:qcount(sec.chapitres),
+        const b=ck(sec.chapitres);
+        L.append(row({lvl:1,open:sOpen,onChev:()=>toggleSet(openS,sec),checked:b.all,partial:b.partial,title:sec.nom,
+          sub:[sec.description,sec.showFiles?sec.files.length+" cours":"",sec.chapitres.length+" chapitre(s)",b.k>0?b.k+" coché(s)":""].filter(Boolean).join(" · "),count:qcount(sec.chapitres),
           onToggle:e=>{setAll(sec.chapitres,e.target.checked);renderTree()},onMain:()=>toggleSet(openS,sec),onPlay:()=>launch(sec.chapitres)}));
       }
-      if(sOpen)sec.chapitres.forEach(c=>L.append(row({lvl:sec.show?2:1,checked:sel.has(c),title:c.titre,count:c.questions.length,
-        onToggle:e=>{setAll([c],e.target.checked);renderTree()},onMain:()=>{setAll([c],!sel.has(c));renderTree()},onPlay:()=>launch([c])})));
+      if(!sOpen)return;
+      const l=sec.show?2:1;
+      sec.files.forEach(fl=>{
+        let cl=l;
+        if(sec.showFiles){   // plusieurs cours dans la même section : un sous-groupe par titre
+          const c=ck(fl.chapitres),fOpen=openF.has(fl);
+          L.append(row({lvl:l,open:fOpen,onChev:()=>toggleSet(openF,fl),checked:c.all,partial:c.partial,title:fl.titre,
+            sub:[fl.description,fl.chapitres.length+" chapitre(s)",c.k>0?c.k+" coché(s)":""].filter(Boolean).join(" · "),count:qcount(fl.chapitres),
+            onToggle:e=>{setAll(fl.chapitres,e.target.checked);renderTree()},onMain:()=>toggleSet(openF,fl),onPlay:()=>launch(fl.chapitres)}));
+          if(!fOpen)return;
+          cl=l+1;
+        }
+        fl.chapitres.forEach(c=>L.append(row({lvl:cl,checked:sel.has(c),title:c.titre,count:c.questions.length,
+          onToggle:e=>{setAll([c],e.target.checked);renderTree()},onMain:()=>{setAll([c],!sel.has(c));renderTree()},onPlay:()=>launch([c])})));
+      });
     });
   });
   renderPanel();
 }
-function chipGroups(){   // résumé de la sélection : un thème entier = une étiquette, sinon section entière ou chapitre
+function chipGroups(){   // résumé de la sélection : un thème, une section ou un cours entier = une étiquette, sinon chapitre par chapitre
   const out=[];
   themes.forEach(t=>{
     const inc=t.chapitres.filter(c=>sel.has(c));
@@ -167,8 +190,14 @@ function chipGroups(){   // résumé de la sélection : un thème entier = une �
     t.sections.forEach(s=>{
       const k=s.chapitres.filter(c=>sel.has(c));
       if(!k.length)return;
-      if(s.show&&k.length===s.chapitres.length)out.push({label:t.nom+" › "+s.nom,chs:k});
-      else k.forEach(c=>out.push({label:[t.nom,...(s.show?[s.nom]:[]),c.titre].join(" › "),chs:[c]}));
+      if(s.show&&k.length===s.chapitres.length){out.push({label:t.nom+" › "+s.nom,chs:k});return}
+      s.files.forEach(f=>{
+        const kf=f.chapitres.filter(c=>sel.has(c));
+        if(!kf.length)return;
+        const base=[t.nom,...(s.show?[s.nom]:[]),...(s.showFiles?[f.titre]:[])];
+        if(s.showFiles&&kf.length===f.chapitres.length)out.push({label:base.join(" › "),chs:kf});
+        else kf.forEach(c=>out.push({label:[...base,c.titre].join(" › "),chs:[c]}));
+      });
     });
   });
   return out;
@@ -203,7 +232,12 @@ function quizLabel(cs){   // ex. « Thème : Appareil respiratoire (Histologie) 
     t.sections.forEach(sec=>{
       const k=sec.chapitres.filter(c=>cs.includes(c));
       if(!k.length)return;
-      if(sec.show&&k.length===sec.chapitres.length)names.push(sec.nom);else names.push(...k.map(c=>c.titre));
+      if(sec.show&&k.length===sec.chapitres.length){names.push(sec.nom);return}
+      sec.files.forEach(f=>{
+        const kf=f.chapitres.filter(c=>cs.includes(c));
+        if(!kf.length)return;
+        if(sec.showFiles&&kf.length===f.chapitres.length)names.push(f.titre);else names.push(...kf.map(c=>c.titre));
+      });
     });
     parts.push(t.nom+" ("+names.join(", ")+")");
   });
@@ -423,8 +457,8 @@ $("again").onclick=start;
 $("back").onclick=showSetup;
 $("selall").onclick=()=>{setAll(allChaps(),true);renderTree()};
 $("selnone").onclick=()=>{sel.clear();renderTree()};
-$("expall").onclick=()=>{themes.forEach(t=>{openT.add(t);t.sections.forEach(s=>openS.add(s))});renderTree()};
-$("colall").onclick=()=>{openT.clear();openS.clear();renderTree()};
+$("expall").onclick=()=>{themes.forEach(t=>{openT.add(t);t.sections.forEach(s=>{openS.add(s);s.files.forEach(f=>openF.add(f))})});renderTree()};
+$("colall").onclick=()=>{openT.clear();openS.clear();openF.clear();renderTree()};
 document.querySelectorAll(".step").forEach(b=>b.onclick=()=>{
   const inp=$(b.dataset.for);inp.value=Math.max(+inp.min||0,(+inp.value||0)+(+b.dataset.d));updateStart();
 });

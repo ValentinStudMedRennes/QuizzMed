@@ -1,0 +1,2228 @@
+{
+  "meta": {
+    "theme": "Appareil respiratoire",
+    "section": "Physiologie",
+    "titre": "Physiologie respiratoire : ventilation et échanges gazeux",
+    "description": "Rôles des voies aériennes, mécanique ventilatoire, ventilation alvéolaire, spirométrie et échanges gazeux pulmonaires.",
+    "cours": {
+      "fichier": "cours/respi-physio-ventil.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Les rôles des voies aériennes"
+      },
+      "questions": [
+        {
+          "id": "respi-physio-ventil-001",
+          "type": "qcm",
+          "question": "Quels sont les rôles des voies aériennes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "Les voies aériennes ont 3 rôles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Conduire l'air jusqu'aux zones d'échanges.",
+              "explication": "1er rôle cité par le cours."
+            },
+            {
+              "reponse": "Humidifier l'air inspiré.",
+              "explication": "Rôle des muqueuses nasale et bronchique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Réchauffer l'air inspiré.",
+              "explication": "Rôle de la muqueuse nasale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Filtrer les particules et les micro-organismes.",
+              "explication": "Filtration et purification de l'air. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Rendre l'air inspiré plus sec.",
+              "explication": "Elles l'humidifient. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Permettre les échanges gazeux dans la zone de conduction.",
+              "explication": "Il n'y a pas d'échanges gazeux dans la zone de conduction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Refroidir l'air inspiré.",
+              "explication": "Elles le réchauffent."
+            },
+            {
+              "reponse": "Assurer uniquement la conduction de l'air, sans le modifier.",
+              "explication": "Elles le réchauffent, l'humidifient et le filtrent."
+            },
+            {
+              "reponse": "Absorber l'azote de l'air inspiré.",
+              "explication": "L'azote est un gaz inerte, sans échange."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-002",
+          "type": "qcm",
+          "question": "Concernant l'espace mort anatomique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "Cette zone constitue l'espace mort anatomique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il correspond à la zone de conduction, de la bouche ou du nez jusqu'à la bronchiole terminale.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il ne participe pas aux échanges gazeux.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Chez l'adulte sain, il représente environ 150 millilitres.",
+              "explication": "Chiffre du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les échanges gazeux ne commencent qu'à partir de la bronchiole respiratoire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La totalité de l'air inspiré pénètre jusqu'à la zone respiratoire.",
+              "explication": "Une partie reste dans l'espace mort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les échanges gazeux commencent au niveau de la trachée.",
+              "explication": "Ils commencent à la bronchiole respiratoire."
+            },
+            {
+              "reponse": "Chez l'adulte sain, il représente environ 500 millilitres.",
+              "explication": "C'est le volume courant ; l'espace mort est d'environ 150 millilitres."
+            },
+            {
+              "reponse": "Il s'étend jusqu'aux sacs alvéolaires.",
+              "explication": "Il s'arrête à la bronchiole terminale."
+            },
+            {
+              "reponse": "Les échanges gazeux commencent au niveau de la bronchiole terminale.",
+              "explication": "La bronchiole terminale fait encore partie de la zone de conduction."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-003",
+          "type": "qcm",
+          "question": "Concernant le réchauffement de l'air inspiré, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "saturé à 100 % en vapeur d'eau"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'air qui arrive aux alvéoles est chaud et saturé à 100 % en vapeur d'eau.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La muqueuse nasale possède un réseau artério-capillaire très développé.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Une vasodilatation de la muqueuse nasale réchauffe l'air jusqu'à environ 30 degrés Celsius au rhinopharynx.",
+              "explication": "Dans les conditions physiologiques."
+            },
+            {
+              "reponse": "La vasodilatation augmente l'apport de sang chaud, qui cède sa chaleur à l'air inspiré.",
+              "explication": "Version retenue ([Vigilance])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La vasodilatation de la muqueuse nasale produit de la chaleur.",
+              "explication": "Erreur des notes : elle augmente l'apport de sang chaud, sans produire de chaleur."
+            },
+            {
+              "reponse": "Les bronches participent au réchauffement de l'air.",
+              "explication": "Elles ne participent qu'à l'humidification."
+            },
+            {
+              "reponse": "L'air qui arrive aux alvéoles est sec.",
+              "explication": "Il est saturé à 100 % en vapeur d'eau."
+            },
+            {
+              "reponse": "Le réchauffement de l'air est assuré par une vasoconstriction de la muqueuse nasale.",
+              "explication": "Il est assuré par une vasodilatation."
+            },
+            {
+              "reponse": "L'air est encore à température ambiante au niveau du rhinopharynx.",
+              "explication": "Il atteint environ 30 degrés Celsius au rhinopharynx."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-004",
+          "type": "qcm",
+          "question": "Concernant l'humidification de l'air inspiré, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "ne participent qu'à l'humidification"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle se fait au niveau des muqueuses nasale et bronchique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elle est favorisée par le mucus bronchique, composé à 96 % d'eau.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le taux d'humidité atteint environ 80 % au rhinopharynx et près de 100 % au niveau alvéolaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le nez assure à la fois le réchauffement et l'humidification de l'air.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Chez l'insuffisant respiratoire chronique, une atteinte nasale aggrave la gêne respiratoire.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bronches assurent à la fois le réchauffement et l'humidification de l'air.",
+              "explication": "Elles ne participent qu'à l'humidification."
+            },
+            {
+              "reponse": "Le mucus bronchique est composé à environ 50 % d'eau.",
+              "explication": "Il est composé à 96 % d'eau."
+            },
+            {
+              "reponse": "Le taux d'humidité est d'environ 20 % au niveau alvéolaire.",
+              "explication": "Il est proche de 100 %."
+            },
+            {
+              "reponse": "Le nez ne participe pas à l'humidification de l'air.",
+              "explication": "Il assure réchauffement et humidification."
+            },
+            {
+              "reponse": "Une rhinite chronique n'a aucun retentissement chez l'insuffisant respiratoire chronique.",
+              "explication": "Elle aggrave la gêne respiratoire."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-005",
+          "type": "qcm",
+          "question": "Concernant la toux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "effort expiratoire contre la glotte fermée"
+          },
+          "bonnes": [
+            {
+              "reponse": "La toux est un mécanisme réflexe de défense.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est déclenchée par l'irritation mécanique ou chimique de récepteurs trachéo-bronchiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elle comporte un effort expiratoire contre la glotte fermée, puis l'ouverture de la glotte.",
+              "explication": "L'air est alors expulsé à grande vitesse."
+            },
+            {
+              "reponse": "Les récepteurs trachéo-bronchiques sont surtout proximaux.",
+              "explication": "Trachée, carène, bronches souches et lobaires."
+            },
+            {
+              "reponse": "Chez l'enfant, un corps étranger qui progresse dans l'arbre bronchique peut passer inaperçu.",
+              "explication": "Les récepteurs sont rares en distalité."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La toux comporte un effort inspiratoire contre la glotte fermée.",
+              "explication": "C'est un effort expiratoire."
+            },
+            {
+              "reponse": "Les récepteurs trachéo-bronchiques sont surtout distaux.",
+              "explication": "Ils sont surtout proximaux."
+            },
+            {
+              "reponse": "La glotte reste ouverte pendant toute la durée de la toux.",
+              "explication": "L'effort expiratoire se fait d'abord contre la glotte fermée."
+            },
+            {
+              "reponse": "Pendant l'effort contre la glotte fermée, la pression alvéolaire diminue.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "Un corps étranger distal provoque toujours une toux intense.",
+              "explication": "Il peut passer inaperçu, faute de récepteurs distaux."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-006",
+          "type": "qcm",
+          "question": "Concernant le tapis mucociliaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "vers le pharynx : ils font remonter le mucus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cils des cellules ciliées battent tous dans le même sens, vers le pharynx.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La clairance mucociliaire fait remonter le mucus vers les voies aériennes proximales et le pharynx.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les particules qui ont échappé à la toux sont captées par le mucus.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le tapis mucociliaire joue un rôle important dans la défense antibactérienne.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules caliciformes contiennent des grains de mucus riches en eau.",
+              "explication": "Le mucus est sécrété par les cellules caliciformes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules basales de réserve peuvent se différencier en cellules ciliées ou en cellules à mucus.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le mucus bronchique est sécrété par les cellules ciliées.",
+              "explication": "Il est sécrété par les cellules caliciformes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cils font descendre le mucus jusqu'aux alvéoles.",
+              "explication": "Ils le font remonter vers le pharynx. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cils battent dans des sens opposés selon les cellules.",
+              "explication": "Ils battent tous dans le même sens."
+            },
+            {
+              "reponse": "Le tapis mucociliaire ne joue aucun rôle dans la défense antibactérienne.",
+              "explication": "Il y joue un rôle important."
+            },
+            {
+              "reponse": "Les cellules basales sont des cellules ciliées matures.",
+              "explication": "Ce sont des cellules de réserve, de forme triangulaire."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-007",
+          "type": "qcm",
+          "question": "Concernant la mucoviscidose et le tabagisme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "trop de mucus et pas assez de cils"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la mucoviscidose, maladie génétique, le mucus moins riche en eau est visqueux, ce qui limite la clairance mucociliaire.",
+              "explication": "Les particules s'accumulent, d'où des infections. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le tabagisme provoque une inflammation, surtout de l'épithélium.",
+              "explication": "Les cellules sécrètent des médiateurs pro-inflammatoires."
+            },
+            {
+              "reponse": "Chez le fumeur, les cellules de réserve se différencient surtout en cellules à mucus.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le fumeur a trop de mucus et pas assez de cils, ce qui aboutit à une bronchite chronique.",
+              "explication": "Encombrement permanent et toux."
+            },
+            {
+              "reponse": "La bronchite chronique du fumeur est différente des bronchites à répétition d'origine infectieuse.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans la mucoviscidose, le mucus est plus riche en eau et plus fluide.",
+              "explication": "Il est moins riche en eau et visqueux."
+            },
+            {
+              "reponse": "Chez le fumeur, les cellules de réserve se différencient surtout en cellules ciliées.",
+              "explication": "Elles se différencient surtout en cellules à mucus."
+            },
+            {
+              "reponse": "La bronchite chronique du fumeur correspond à des bronchites infectieuses à répétition.",
+              "explication": "Ce sont 2 entités différentes."
+            },
+            {
+              "reponse": "La bronchite chronique ne survient que chez les fumeurs anciens.",
+              "explication": "Elle peut survenir chez des fumeurs anciens comme récents."
+            },
+            {
+              "reponse": "La mucoviscidose est une maladie acquise liée au tabagisme.",
+              "explication": "C'est une maladie génétique."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-008",
+          "type": "qcm",
+          "question": "Concernant la défense cellulaire et le dépistage de la BPCO, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "phagocytent et digèrent les particules"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les macrophages phagocytent et digèrent les particules arrivant dans les voies aériennes.",
+              "explication": "Cellules « à poussière »."
+            },
+            {
+              "reponse": "La paroi alvéolaire est bordée de pneumocytes de type 1 aplatis.",
+              "explication": "Figure n°2."
+            },
+            {
+              "reponse": "Le dépistage de la BPCO est recommandé à partir de 10 à 15 paquets-années.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "De plus en plus de cas de BPCO sont dépistés avant 40 ans.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Il existe un lien entre la durée du tabagisme et ses conséquences.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les macrophages sont des cellules ciliées qui font remonter le mucus.",
+              "explication": "Ils phagocytent et digèrent les particules."
+            },
+            {
+              "reponse": "Les pneumocytes de type 1 sont des cellules cubiques.",
+              "explication": "Ils sont aplatis."
+            },
+            {
+              "reponse": "Le dépistage de la BPCO n'est recommandé qu'à partir de 60 paquets-années.",
+              "explication": "Il l'est à partir de 10 à 15 paquets-années."
+            },
+            {
+              "reponse": "La BPCO n'est jamais dépistée avant 40 ans.",
+              "explication": "De plus en plus de cas sont dépistés avant 40 ans."
+            },
+            {
+              "reponse": "Il n'existe aucun lien entre la durée du tabagisme et ses conséquences.",
+              "explication": "Il en existe un."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les résistances et les mécanismes de déplacement de l'air"
+      },
+      "questions": [
+        {
+          "id": "respi-physio-ventil-009",
+          "type": "qcm",
+          "question": "Concernant la loi de Poiseuille et la résistance des voies aériennes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "surtout du rayon, élevé à la puissance"
+          },
+          "bonnes": [
+            {
+              "reponse": "La loi de Poiseuille décrit le débit d'un fluide visqueux dans un tuyau cylindrique lorsque l'écoulement est laminaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Un écoulement laminaire correspond à des filets d'air parallèles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le débit laminaire est égal à la différence de pression divisée par la résistance.",
+              "explication": "Figure n°3 : débit = ΔP / R."
+            },
+            {
+              "reponse": "La résistance dépend de la viscosité du gaz, du type d'écoulement et surtout du rayon.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le rayon intervient à la puissance 4 : une petite variation de diamètre modifie considérablement le débit.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rayon intervient au carré dans la résistance.",
+              "explication": "Il intervient à la puissance 4."
+            },
+            {
+              "reponse": "Un écoulement turbulent correspond à des filets d'air parallèles.",
+              "explication": "C'est l'écoulement laminaire."
+            },
+            {
+              "reponse": "La résistance est indépendante de la viscosité du gaz.",
+              "explication": "Elle en dépend."
+            },
+            {
+              "reponse": "Le débit laminaire est égal à la différence de pression multipliée par la résistance.",
+              "explication": "Il est égal à ΔP divisé par R."
+            },
+            {
+              "reponse": "Une petite variation du diamètre bronchique n'a que peu d'effet sur le débit.",
+              "explication": "Elle le modifie considérablement."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-010",
+          "type": "qcm",
+          "question": "Concernant la répartition des résistances dans l'arbre bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "représentent qu'environ 10 à 20 % des résistances totales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les voies distales, de petit calibre, ne sont pas le siège des plus fortes résistances.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les voies distales représentent environ 10 à 20 % des résistances totales.",
+              "explication": "On considère la surface de section de toutes les bronchioles côte à côte."
+            },
+            {
+              "reponse": "Les résistances sont élevées dans les voies proximales.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans les voies proximales, le débit élevé dans des conduits tortueux crée des turbulences.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Un écoulement turbulent augmente les résistances.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les voies distales sont le siège des plus fortes résistances.",
+              "explication": "Elles ne représentent que 10 à 20 % des résistances totales."
+            },
+            {
+              "reponse": "Les voies distales représentent environ 80 à 90 % des résistances totales.",
+              "explication": "Elles en représentent environ 10 à 20 %."
+            },
+            {
+              "reponse": "Les résistances sont faibles dans les voies proximales.",
+              "explication": "Elles y sont élevées."
+            },
+            {
+              "reponse": "Un écoulement turbulent diminue les résistances.",
+              "explication": "Il les augmente."
+            },
+            {
+              "reponse": "Le passage vers des voies de petit calibre augmente énormément le débit.",
+              "explication": "Erreur des notes : le raisonnement porte sur les résistances."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-011",
+          "type": "qcm",
+          "question": "Concernant les conséquences d'une augmentation des résistances des voies aériennes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "travail des muscles respiratoires augmente"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il faut développer une différence de pression plus importante pour faire entrer le même débit d'air.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le travail des muscles respiratoires augmente.",
+              "explication": "Notamment dans l'asthme et la BPCO."
+            },
+            {
+              "reponse": "Le diaphragme consomme alors plus d'énergie et d'oxygène, au détriment des autres muscles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La résistance des voies aériennes influence directement la fatigue des muscles respiratoires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le trouble ventilatoire obstructif s'accompagne d'une augmentation des résistances des voies aériennes.",
+              "explication": "La résistance est augmentée dans les pathologies obstructives. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La même différence de pression suffit pour faire entrer le même débit d'air.",
+              "explication": "Il faut une différence de pression plus importante."
+            },
+            {
+              "reponse": "Le travail des muscles respiratoires diminue.",
+              "explication": "Il augmente."
+            },
+            {
+              "reponse": "Le diaphragme consomme alors moins d'oxygène.",
+              "explication": "Il en consomme plus."
+            },
+            {
+              "reponse": "La résistance des voies aériennes est sans effet sur la fatigue des muscles respiratoires.",
+              "explication": "Elle l'influence directement."
+            },
+            {
+              "reponse": "Les résistances des voies aériennes sont diminuées dans l'asthme et la BPCO.",
+              "explication": "Elles y sont augmentées."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-012",
+          "type": "qcm",
+          "question": "Concernant les lois du déplacement de l'air et le volume courant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "à température constante, pression × volume = constante"
+          },
+          "bonnes": [
+            {
+              "reponse": "Selon la loi de Boyle-Mariotte, à température constante, pression × volume = constante.",
+              "explication": "Nom à connaître."
+            },
+            {
+              "reponse": "L'air se déplace toujours des zones de haute pression vers les zones de basse pression.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le volume courant est d'environ 500 millilitres chez l'adulte sain au repos.",
+              "explication": "Chiffre du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sigle VT signifie « tidal volume », de « tide » (marée).",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Selon la loi de Boyle-Mariotte, à température constante, pression / volume = constante.",
+              "explication": "C'est le produit pression × volume qui est constant."
+            },
+            {
+              "reponse": "L'air se déplace des zones de basse pression vers les zones de haute pression.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le volume courant est d'environ 5 litres au repos.",
+              "explication": "Il est d'environ 0,5 litre. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le volume courant est d'environ 2,5 litres au repos.",
+              "explication": "Il est d'environ 0,5 litre. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sigle VT signifie « titled », c'est-à-dire aller-retour.",
+              "explication": "Erreur des notes : « tidal volume »."
+            },
+            {
+              "reponse": "Le volume courant est d'environ 150 millilitres au repos.",
+              "explication": "C'est le volume de l'espace mort."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-013",
+          "type": "qcm",
+          "question": "Concernant les mouvements de l'air lors de l'inspiration et de l'expiration, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "le diaphragme se contracte, la cage thoracique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction du diaphragme augmente le volume de la cage thoracique.",
+              "explication": "Les poumons suivent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'augmentation du volume thoracique entraîne une diminution de la pression alvéolaire.",
+              "explication": "Loi de Boyle-Mariotte. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sens du débit d'air dépend de la différence entre la pression alvéolaire et la pression barométrique.",
+              "explication": "L'air va de la haute vers la basse pression. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À l'inspiration, la pression alvéolaire devient inférieure à la pression à la bouche.",
+              "explication": "L'air entre."
+            },
+            {
+              "reponse": "En fin d'expiration normale, la pression alvéolaire est égale à la pression à la bouche.",
+              "explication": "Pas de mouvement d'air."
+            },
+            {
+              "reponse": "À l'expiration, la pression alvéolaire devient supérieure à la pression atmosphérique.",
+              "explication": "L'air sort."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction du diaphragme diminue le volume de la cage thoracique.",
+              "explication": "Elle l'augmente. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La diminution du volume thoracique entraîne une diminution de la pression alvéolaire.",
+              "explication": "Elle entraîne une augmentation de la pression alvéolaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À l'inspiration, la pression alvéolaire devient supérieure à la pression à la bouche.",
+              "explication": "Elle devient inférieure."
+            },
+            {
+              "reponse": "En fin d'inspiration, la pression alvéolaire reste inférieure à la pression à la bouche.",
+              "explication": "Elle est égale (équilibre)."
+            },
+            {
+              "reponse": "L'air continue d'entrer tant que la pression alvéolaire est égale à la pression à la bouche.",
+              "explication": "Sans différence de pression, il n'y a pas de mouvement d'air."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-014",
+          "type": "qcm",
+          "question": "Concernant la position de repos et l'expiration, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "la position de repos du système thoraco-pulmonaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Chez le sujet sain au repos, l'expiration est passive, par relâchement du diaphragme.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À l'effort, l'expiration devient active grâce aux muscles accessoires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La fin d'expiration normale est la position de repos du système thoraco-pulmonaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En position de repos, la force de rétraction des poumons est équilibrée par les forces élastiques de la cage thoracique et des muscles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La force de rétraction élastique du poumon participe à l'expiration spontanée.",
+              "explication": "Les poumons tendent à se rétracter. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les maladies neuromusculaires altèrent progressivement les mouvements respiratoires et la ventilation.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Lors d'une respiration calme, l'expiration est active, par contraction des muscles expiratoires.",
+              "explication": "Elle est passive. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En position de repos, les poumons tendent à s'expandre et la cage thoracique à se rétracter.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "À l'effort, l'expiration reste passive.",
+              "explication": "Elle devient active."
+            },
+            {
+              "reponse": "En fin d'expiration normale, il existe un mouvement d'air continu.",
+              "explication": "Il n'y a pas de mouvement d'air."
+            },
+            {
+              "reponse": "Sans mouvements respiratoires, la pression alvéolaire varie quand même suffisamment pour assurer la ventilation.",
+              "explication": "Sans mouvements respiratoires, il n'y aurait ni variation de pression ni mouvement d'air."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Ventilation totale, ventilation alvéolaire et rapports ventilation-perfusion"
+      },
+      "questions": [
+        {
+          "id": "respi-physio-ventil-015",
+          "type": "qcm",
+          "question": "Concernant la ventilation totale au repos chez l'adulte sain, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "volume courant × fréquence respiratoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La ventilation totale est le volume d'air inspiré ou expiré par minute.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La ventilation dépend du volume courant et de la fréquence respiratoire.",
+              "explication": "Ventilation totale = volume courant × fréquence respiratoire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ventilation totale au repos est de 6 à 8 litres par minute.",
+              "explication": "Chiffre du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fréquence respiratoire au repos est d'environ 15 à 16 cycles par minute.",
+              "explication": "Le cours prend 16 cycles par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ventilation totale s'exprime en litres par minute, en conditions BTPS.",
+              "explication": "Unité importante à connaître."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La ventilation totale au repos est de 3 litres par minute.",
+              "explication": "Elle est de 6 à 8 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fréquence respiratoire au repos est d'environ 35 à 45 cycles par minute.",
+              "explication": "Elle est d'environ 16 cycles par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fréquence respiratoire au repos est de 2 à 8 cycles par minute.",
+              "explication": "Elle est d'environ 16 cycles par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fréquence respiratoire au repos est de 20 cycles par minute.",
+              "explication": "Le cours retient 16 cycles par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ventilation totale s'exprime en conditions STPD.",
+              "explication": "Elle s'exprime en conditions BTPS."
+            },
+            {
+              "reponse": "La ventilation totale est la somme du volume courant et de la fréquence respiratoire.",
+              "explication": "C'est leur produit."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-016",
+          "type": "qcm",
+          "question": "Concernant les conditions physiques des gaz, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "c'est la condition du gaz alvéolaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les conditions BTPS correspondent à la température corporelle, à la pression ambiante et à un gaz saturé en vapeur d'eau.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les conditions BTPS sont celles du gaz alvéolaire, intrathoracique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les conditions STPD correspondent à 0 degré Celsius, 760 millimètres de mercure et un gaz sec.",
+              "explication": "Condition standard des chimistes."
+            },
+            {
+              "reponse": "Les conditions ATP correspondent à la température, la pression et l'humidité ambiantes, variables.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans l'alvéole, on est en conditions STPD.",
+              "explication": "On est en conditions BTPS."
+            },
+            {
+              "reponse": "Les conditions STPD correspondent à 37 degrés Celsius.",
+              "explication": "Elles correspondent à 0 degré Celsius."
+            },
+            {
+              "reponse": "Les conditions BTPS correspondent à un gaz sec.",
+              "explication": "Le gaz est saturé en vapeur d'eau."
+            },
+            {
+              "reponse": "Les conditions STPD correspondent à un gaz saturé en vapeur d'eau.",
+              "explication": "Le gaz est sec."
+            },
+            {
+              "reponse": "Les conditions ATP sont fixes et standardisées.",
+              "explication": "Elles sont ambiantes et variables."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-017",
+          "type": "qcm",
+          "question": "Concernant la ventilation alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "la part de la ventilation qui participe aux échanges"
+          },
+          "bonnes": [
+            {
+              "reponse": "La ventilation alvéolaire est la part de la ventilation qui participe aux échanges gazeux.",
+              "explication": "C'est la ventilation efficace. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ventilation alvéolaire = fréquence respiratoire × (volume courant − volume de l'espace mort).",
+              "explication": "Formule du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'espace mort est compris dans le volume courant.",
+              "explication": "Volume courant = volume alvéolaire + volume de l'espace mort."
+            },
+            {
+              "reponse": "Si l'espace mort augmente, la ventilation alvéolaire diminue et la ventilation est moins efficace.",
+              "explication": "À volume courant et fréquence constants. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est plus efficace de respirer avec un volume courant plus grand et une fréquence respiratoire plus faible.",
+              "explication": "La part de l'espace mort diminue (exercices types 1 et 2). (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ventilation alvéolaire = fréquence respiratoire × (volume courant + volume de l'espace mort).",
+              "explication": "On soustrait l'espace mort."
+            },
+            {
+              "reponse": "Il est plus efficace de respirer avec un volume courant plus petit et une fréquence respiratoire plus grande.",
+              "explication": "L'espace mort fixe occupe alors une plus grande part de chaque cycle. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Si l'espace mort augmente, la ventilation est plus efficace.",
+              "explication": "Elle est moins efficace. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'espace mort s'ajoute au volume courant.",
+              "explication": "Il est compris dans le volume courant."
+            },
+            {
+              "reponse": "La ventilation alvéolaire est égale à la ventilation totale.",
+              "explication": "Elle en est une partie (environ 70 % chez le sujet sain au repos)."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-018",
+          "type": "qcm",
+          "question": "Application (sujet sain au repos : fréquence de 16 par minute, volume courant de 0,5 litre, espace mort de 0,15 litre) : quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Exercice type 1, sujet sain au repos"
+          },
+          "bonnes": [
+            {
+              "reponse": "La ventilation totale est de 8 litres par minute.",
+              "explication": "16 × 0,5 = 8."
+            },
+            {
+              "reponse": "La ventilation alvéolaire est de 5,6 litres par minute.",
+              "explication": "16 × (0,5 − 0,15) = 5,6."
+            },
+            {
+              "reponse": "Environ 70 % de la ventilation totale servent aux échanges.",
+              "explication": "5,6 / 8 = 70 %."
+            },
+            {
+              "reponse": "Environ 30 % de la ventilation totale restent dans l'espace mort.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La ventilation alvéolaire est de 10,4 litres par minute.",
+              "explication": "Erreur : on a ajouté l'espace mort au lieu de le soustraire."
+            },
+            {
+              "reponse": "La ventilation alvéolaire est de 2,4 litres par minute.",
+              "explication": "16 × 0,15 correspond à la ventilation de l'espace mort."
+            },
+            {
+              "reponse": "La ventilation totale est de 32 litres par minute.",
+              "explication": "Elle est de 8 litres par minute."
+            },
+            {
+              "reponse": "Environ 30 % de la ventilation totale servent aux échanges.",
+              "explication": "C'est environ 70 %."
+            },
+            {
+              "reponse": "La ventilation alvéolaire est égale à la ventilation totale, soit 8 litres par minute.",
+              "explication": "Elle est de 5,6 litres par minute."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-019",
+          "type": "qcm",
+          "question": "Application (patient : fréquence de 32 par minute, volume courant de 0,25 litre, espace mort de 0,15 litre) : quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Exercice type 2, patient avec pathologie respiratoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La ventilation totale est de 8 litres par minute, comme chez le sujet sain.",
+              "explication": "32 × 0,25 = 8."
+            },
+            {
+              "reponse": "La ventilation alvéolaire est de 3,2 litres par minute.",
+              "explication": "32 × (0,25 − 0,15) = 3,2."
+            },
+            {
+              "reponse": "Seuls 40 % de la ventilation totale servent aux échanges.",
+              "explication": "3,2 / 8 = 40 %."
+            },
+            {
+              "reponse": "Il s'agit d'une hypoventilation alvéolaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En cas d'hypoventilation alvéolaire, il peut y avoir une hypoxémie puis une hypercapnie.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La ventilation alvéolaire est identique à celle du sujet sain.",
+              "explication": "Elle passe de 5,6 à 3,2 litres par minute."
+            },
+            {
+              "reponse": "La ventilation alvéolaire est de 8 litres par minute.",
+              "explication": "C'est la ventilation totale."
+            },
+            {
+              "reponse": "Environ 70 % de la ventilation totale servent aux échanges.",
+              "explication": "Seuls 40 % servent aux échanges."
+            },
+            {
+              "reponse": "En cas d'hypoventilation alvéolaire, il peut y avoir une hypocapnie.",
+              "explication": "Il peut y avoir une hypercapnie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Quand le volume courant diminue de moitié, l'espace mort diminue aussi de moitié.",
+              "explication": "L'espace mort reste de 150 millilitres."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-020",
+          "type": "qcm",
+          "question": "Concernant les rapports ventilation-perfusion, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "rapport ventilation/perfusion infini, effet espace mort"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une alvéole ventilée mais mal perfusée a un rapport ventilation/perfusion infini : c'est l'effet espace mort.",
+              "explication": "Figure n°6."
+            },
+            {
+              "reponse": "Une alvéole perfusée mais mal ventilée a un rapport ventilation/perfusion nul : c'est l'effet shunt.",
+              "explication": "Figure n°6."
+            },
+            {
+              "reponse": "Une embolie pulmonaire (vaisseau bouché) crée un effet espace mort.",
+              "explication": "L'air alvéolaire ne peut pas passer dans le sang. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une bronche obstruée par une tumeur crée un effet shunt.",
+              "explication": "Le sang repart désoxygéné."
+            },
+            {
+              "reponse": "Dans un poumon sain, la pression artérielle en oxygène reste supérieure à 90 millimètres de mercure malgré l'hétérogénéité.",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une alvéole ventilée mais non perfusée a un rapport ventilation/perfusion nul.",
+              "explication": "Ce rapport est infini."
+            },
+            {
+              "reponse": "L'effet shunt correspond à un vaisseau obstrué.",
+              "explication": "Il correspond à une ventilation défaillante."
+            },
+            {
+              "reponse": "Une obstruction bronchique par des sécrétions crée un effet espace mort.",
+              "explication": "Elle crée un effet shunt (alvéole perfusée mal ventilée). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans un poumon sain, la ventilation et la perfusion sont parfaitement homogènes.",
+              "explication": "Elles sont hétérogènes, avec des conséquences modestes."
+            },
+            {
+              "reponse": "Dans un poumon sain, c'est la pression artérielle moyenne qui reste toujours supérieure à 90 millimètres de mercure.",
+              "explication": "Erreur des notes : il s'agit de la pression artérielle en oxygène."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "La spirométrie"
+      },
+      "questions": [
+        {
+          "id": "respi-physio-ventil-021",
+          "type": "qcm",
+          "question": "Concernant les principes de la spirométrie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "mesure les volumes d'air mobilisés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle mesure les volumes d'air mobilisés au cours des différents temps de la respiration.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elle comprend des mesures statiques et des mesures dynamiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "C'est un examen complémentaire fréquent qui explore la fonction ventilatoire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elle ne mesure pas le volume résiduel.",
+              "explication": "Volume non mobilisable."
+            },
+            {
+              "reponse": "Elle ne mesure pas la capacité pulmonaire totale.",
+              "explication": "Elle inclut le volume résiduel."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle mesure tous les volumes pulmonaires, y compris le volume résiduel.",
+              "explication": "Elle ne mesure pas les volumes non mobilisables."
+            },
+            {
+              "reponse": "Elle mesure la capacité pulmonaire totale.",
+              "explication": "Celle-ci inclut le volume résiduel, non mobilisable."
+            },
+            {
+              "reponse": "Elle ne comprend que des mesures statiques.",
+              "explication": "Elle comprend aussi des mesures dynamiques."
+            },
+            {
+              "reponse": "C'est un examen rare, réservé aux centres spécialisés.",
+              "explication": "C'est un examen fréquent, qui se développe en médecine générale."
+            },
+            {
+              "reponse": "Elle mesure directement les échanges gazeux alvéolaires.",
+              "explication": "Elle mesure les volumes et débits mobilisés."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-022",
+          "type": "qcm",
+          "question": "Concernant le déroulement de la spirométrie et le débitmètre de pointe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Un pince-nez supprime les fuites nasales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sujet doit être coopérant.",
+              "explication": "Il doit bien comprendre l'examen."
+            },
+            {
+              "reponse": "Un pince-nez supprime les fuites nasales.",
+              "explication": "On ne mesure que l'air passant par la bouche."
+            },
+            {
+              "reponse": "Il existe des manœuvres lentes et des manœuvres forcées.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La spirométrie se développe en médecine générale pour dépister la BPCO.",
+              "explication": "Des appareils portables fiables existent."
+            },
+            {
+              "reponse": "Le débitmètre de pointe mesure le débit expiratoire de pointe et sert au suivi de l'asthme.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débitmètre de pointe (« peak-flow ») est un spiromètre.",
+              "explication": "Ce n'est pas un spiromètre."
+            },
+            {
+              "reponse": "Le débitmètre de pointe permet de dépister la BPCO.",
+              "explication": "Il ne la dépiste pas."
+            },
+            {
+              "reponse": "Le pince-nez est inutile en spirométrie.",
+              "explication": "Il supprime les fuites nasales."
+            },
+            {
+              "reponse": "La spirométrie ne comporte que des manœuvres forcées.",
+              "explication": "Elle comporte aussi des manœuvres lentes."
+            },
+            {
+              "reponse": "La spirométrie ne nécessite pas la coopération du sujet.",
+              "explication": "Le sujet doit être coopérant."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-023",
+          "type": "qcm",
+          "question": "Concernant les conditions de réalisation de la spirométrie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "au moins 3 essais acceptables et reproductibles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le patient est en position assise.",
+              "explication": "Les manœuvres répétées peuvent provoquer une hyperventilation et un malaise."
+            },
+            {
+              "reponse": "Les volumes et débits sont comparés à des normes calculées à partir de la taille, de l'âge et du sexe.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il faut stimuler vocalement le patient.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Il faut obtenir au moins 3 essais acceptables et reproductibles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il faut bien expliquer l'examen au patient.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le patient est de préférence debout.",
+              "explication": "Il est en position assise."
+            },
+            {
+              "reponse": "Les normes sont calculées à partir du poids seul.",
+              "explication": "Elles dépendent de la taille, de l'âge et du sexe."
+            },
+            {
+              "reponse": "Un seul essai suffit.",
+              "explication": "Il en faut au moins 3."
+            },
+            {
+              "reponse": "Il faut éviter de parler au patient pendant les manœuvres.",
+              "explication": "Il faut le stimuler vocalement."
+            },
+            {
+              "reponse": "Les normes de spirométrie sont indépendantes du sexe.",
+              "explication": "Elles dépendent du sexe."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-024",
+          "type": "qcm",
+          "question": "Concernant la spirométrie lente et les volumes mobilisables, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Capacité vitale = volume de réserve inspiratoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Capacité vitale = volume de réserve inspiratoire + volume courant + volume de réserve expiratoire.",
+              "explication": "Formule du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La capacité vitale est le volume maximal mobilisable entre une inspiration forcée et une expiration forcée.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le volume de réserve inspiratoire est le volume maximal pouvant être inspiré au-delà de la fin d'inspiration normale.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le volume de réserve expiratoire est le volume maximal pouvant être expiré au-delà de la fin d'expiration normale.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Il est recommandé d'enregistrer au moins 3 capacités vitales.",
+              "explication": "Davantage si la reproductibilité est mauvaise."
+            },
+            {
+              "reponse": "Dans les notes, le sigle VC désigne le volume courant et le sigle CV la capacité vitale.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Capacité vitale = volume de réserve inspiratoire + volume courant + volume de réserve expiratoire + volume résiduel.",
+              "explication": "Le volume résiduel n'est pas mobilisable ; il ne fait pas partie de la capacité vitale."
+            },
+            {
+              "reponse": "Le volume de réserve expiratoire est mesuré au-delà de la fin d'inspiration normale.",
+              "explication": "Il est mesuré au-delà de la fin d'expiration normale."
+            },
+            {
+              "reponse": "Le volume résiduel peut être mesuré par spirométrie lente.",
+              "explication": "Il n'est pas mobilisable."
+            },
+            {
+              "reponse": "Dans les notes, le sigle VC désigne la capacité vitale.",
+              "explication": "Il désigne le volume courant ; CV désigne la capacité vitale."
+            },
+            {
+              "reponse": "Le volume courant ne comprend pas l'espace mort.",
+              "explication": "Il comprend l'espace mort."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-025",
+          "type": "qcm",
+          "question": "Concernant la spirométrie forcée et le VEMS, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "expiration aussi forte et prolongée que possible"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le patient fait une inspiration maximale, puis une expiration aussi forte et prolongée que possible.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'expiration forcée doit durer au moins 6 secondes chez l'adulte et 3 secondes chez l'enfant.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'expiration doit montrer une montée rapide du débit de pointe, sans toux ni obstacle.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le VEMS est le volume maximal d'air expiré pendant la 1re seconde d'une expiration forcée, après une inspiration forcée.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le VEMS ne se mesure qu'en spirométrie forcée.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La spirométrie forcée est plus rapide que la spirométrie lente.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'expiration forcée doit durer au moins 1 seconde chez l'adulte.",
+              "explication": "Elle doit durer au moins 6 secondes."
+            },
+            {
+              "reponse": "L'expiration forcée doit durer au moins 6 secondes chez l'enfant et 3 secondes chez l'adulte.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le VEMS peut se mesurer en spirométrie lente.",
+              "explication": "Il ne se mesure qu'en spirométrie forcée."
+            },
+            {
+              "reponse": "Le VEMS est le volume total expiré en 6 secondes.",
+              "explication": "C'est le volume expiré pendant la 1re seconde."
+            },
+            {
+              "reponse": "La spirométrie lente est plus rapide que la spirométrie forcée.",
+              "explication": "C'est la spirométrie forcée qui est plus rapide."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-026",
+          "type": "qcm",
+          "question": "Concernant le coefficient de Tiffeneau, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "c'est le coefficient de Tiffeneau"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le coefficient de Tiffeneau est le rapport VEMS / capacité vitale.",
+              "explication": "Le VEMS est toujours rapporté à la capacité vitale."
+            },
+            {
+              "reponse": "Normalement, le coefficient de Tiffeneau est supérieur à 70 %.",
+              "explication": "En 1 seconde, le patient expire plus de 70 % de sa capacité vitale."
+            },
+            {
+              "reponse": "Lors d'une spirométrie, l'obstruction bronchique est définie par un rapport VEMS / capacité vitale inférieur à 70 %.",
+              "explication": "En dessous de 70 %, c'est pathologique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'obstruction bronchique est définie par un rapport VEMS / capacité vitale inférieur à 80 %.",
+              "explication": "Le seuil est de 70 %. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'obstruction bronchique est définie par un rapport VEMS / capacité vitale supérieur à 0,7.",
+              "explication": "Un rapport supérieur à 0,7 est normal. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le coefficient de Tiffeneau est le rapport capacité vitale / VEMS.",
+              "explication": "C'est VEMS / capacité vitale."
+            },
+            {
+              "reponse": "Normalement, le coefficient de Tiffeneau est inférieur à 70 %.",
+              "explication": "Il est normalement supérieur à 70 %."
+            },
+            {
+              "reponse": "Le coefficient de Tiffeneau est le rapport VEMS / capacité pulmonaire totale.",
+              "explication": "Le VEMS est rapporté à la capacité vitale."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-027",
+          "type": "qcm",
+          "question": "Concernant les capacités vitales lente et forcée et les représentations de la spirométrie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "meilleure valeur de capacité vitale"
+          },
+          "bonnes": [
+            {
+              "reponse": "On retient la meilleure valeur de capacité vitale, qu'elle provienne d'une manœuvre lente ou forcée.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Chez le sujet sain, capacité vitale lente et capacité vitale forcée donnent le même résultat.",
+              "explication": "Seule la méthode diffère."
+            },
+            {
+              "reponse": "La spirométrie comporte 2 représentations enregistrées en même temps : le spirogramme et la courbe débit-volume.",
+              "explication": "Elles sont complémentaires."
+            },
+            {
+              "reponse": "Sur la courbe volume-temps, le VEMS se lit à 1 seconde.",
+              "explication": "Figure n°11."
+            },
+            {
+              "reponse": "Lors d'une expiration forcée, la courbe volume-temps chute brutalement.",
+              "explication": "Figure n°10."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On retient toujours la capacité vitale lente, quelle que soit sa valeur.",
+              "explication": "On retient la meilleure valeur."
+            },
+            {
+              "reponse": "Chez le sujet sain, la capacité vitale forcée est toujours très supérieure à la capacité vitale lente.",
+              "explication": "Le résultat est le même."
+            },
+            {
+              "reponse": "Le spirogramme et la courbe débit-volume sont enregistrés lors de 2 examens séparés.",
+              "explication": "Ils sont enregistrés en même temps."
+            },
+            {
+              "reponse": "Sur la courbe volume-temps, le VEMS se lit à 6 secondes.",
+              "explication": "Il se lit à 1 seconde."
+            },
+            {
+              "reponse": "Lors d'une expiration lente, la courbe chute brutalement.",
+              "explication": "Elle descend progressivement."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-028",
+          "type": "qcm",
+          "question": "Concernant la courbe débit-volume, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "le volume est en abscisse et le débit instantané"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le volume est en abscisse et le débit instantané en ordonnée.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'expiration est au-dessus de l'axe, l'inspiration en dessous.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le débit expiratoire de pointe est le débit maximal atteint lors d'une expiration forcée débutée après une inspiration maximale.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le DEM 75 est le débit instantané quand il reste 75 % de la capacité vitale à expirer.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les DEM 75, 50 et 25 aident à distinguer une atteinte des grosses ou des petites bronches.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La spirométrie forcée donne le VEMS, le coefficient de Tiffeneau et la courbe débit-volume.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débit est en abscisse et le volume en ordonnée.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "L'expiration est représentée en dessous de l'axe.",
+              "explication": "Elle est au-dessus."
+            },
+            {
+              "reponse": "Le DEM 75 est le débit instantané quand 75 % de la capacité vitale ont déjà été expirés.",
+              "explication": "Il reste 75 % à expirer."
+            },
+            {
+              "reponse": "Le débit expiratoire de pointe est atteint en fin d'expiration.",
+              "explication": "Il est atteint très vite, en début d'expiration."
+            },
+            {
+              "reponse": "Le débit expiratoire maximal médian est mesuré entre 0 et 25 % de la capacité vitale.",
+              "explication": "Il est mesuré entre 25 et 75 %."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-029",
+          "type": "qcm",
+          "question": "Concernant la spirométrie chez l'enfant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Possible à partir de 5 ans"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est possible à partir de 5 ans.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'enfant est éveillé et assis, avec un pince-nez.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il faut une mesure fiable de la taille le jour de l'examen.",
+              "explication": "Les normes en dépendent."
+            },
+            {
+              "reponse": "Des méthodes ludiques (souffler des bougies) aident l'enfant.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les premiers examens sont souvent imparfaits ; il suffit de les refaire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est possible dès l'âge de 1 an.",
+              "explication": "Elle est possible à partir de 5 ans."
+            },
+            {
+              "reponse": "Elle se fait chez l'enfant endormi.",
+              "explication": "L'enfant est éveillé."
+            },
+            {
+              "reponse": "La mesure de la taille est inutile chez l'enfant.",
+              "explication": "Les normes dépendent de la taille."
+            },
+            {
+              "reponse": "Chez l'enfant, l'expiration forcée doit durer au moins 6 secondes.",
+              "explication": "Au moins 3 secondes chez l'enfant ; 6 secondes chez l'adulte."
+            },
+            {
+              "reponse": "Un premier examen imparfait contre-indique de le refaire.",
+              "explication": "Il suffit de le refaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les échanges gazeux : mise en évidence et pressions partielles"
+      },
+      "questions": [
+        {
+          "id": "respi-physio-ventil-030",
+          "type": "qcm",
+          "question": "Concernant la comparaison du gaz inspiré et du gaz expiré, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "il n'y a pas d'échange d'azote"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fraction en oxygène est plus élevée dans le gaz inspiré que dans le gaz expiré.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La fraction en dioxyde de carbone est plus élevée dans le gaz expiré.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La fraction en azote reste à peu près identique : il n'y a pas d'échange d'azote.",
+              "explication": "L'azote est un gaz inerte."
+            },
+            {
+              "reponse": "L'air expiré est chaud et enrichi en vapeur d'eau.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Une fraction est le pourcentage d'un gaz dans un mélange gazeux.",
+              "explication": "Définition du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fraction en oxygène est plus élevée dans le gaz expiré.",
+              "explication": "Elle est plus élevée dans le gaz inspiré."
+            },
+            {
+              "reponse": "La fraction en dioxyde de carbone est plus élevée dans le gaz inspiré.",
+              "explication": "Elle est plus élevée dans le gaz expiré."
+            },
+            {
+              "reponse": "L'azote est massivement absorbé au niveau alvéolaire.",
+              "explication": "Il n'y a pas d'échange d'azote."
+            },
+            {
+              "reponse": "L'air expiré est plus sec que l'air inspiré.",
+              "explication": "Il est enrichi en vapeur d'eau."
+            },
+            {
+              "reponse": "Dans le sang, on parle de fractions plutôt que de contenus.",
+              "explication": "Dans le sang, on parle de contenus."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-031",
+          "type": "qcm",
+          "question": "Concernant la circulation pulmonaire et la circulation bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "reçoit 100 % du débit cardiaque"
+          },
+          "bonnes": [
+            {
+              "reponse": "La circulation pulmonaire reçoit la totalité du débit cardiaque.",
+              "explication": "Elle reçoit 100 % du débit cardiaque. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La circulation pulmonaire participe à l'hématose.",
+              "explication": "Elle assure les échanges alvéolo-capillaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La circulation pulmonaire amène le sang au poumon par les artères pulmonaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La circulation bronchique est nourricière et rattachée à la grande circulation.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La circulation bronchique ne reçoit qu'environ 1 % du débit cardiaque, mais elle est indispensable.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La circulation pulmonaire reçoit 75 % du débit cardiaque.",
+              "explication": "Elle en reçoit 100 %. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La circulation bronchique reçoit 100 % du débit cardiaque.",
+              "explication": "Elle en reçoit environ 1 %."
+            },
+            {
+              "reponse": "La circulation bronchique assure les échanges alvéolo-capillaires.",
+              "explication": "C'est la circulation pulmonaire."
+            },
+            {
+              "reponse": "La circulation bronchique n'est pas indispensable.",
+              "explication": "Elle est indispensable."
+            },
+            {
+              "reponse": "La circulation pulmonaire est la circulation nourricière du poumon.",
+              "explication": "C'est la circulation fonctionnelle ; la circulation bronchique est nourricière."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-032",
+          "type": "qcm",
+          "question": "Concernant la comparaison du sang entrant et sortant du poumon, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "le poumon est un échangeur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sang de l'artère pulmonaire est du sang veineux mêlé.",
+              "explication": "Tableau du cours."
+            },
+            {
+              "reponse": "Le sang qui entre dans le poumon est moins riche en oxygène que celui qui en sort.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le sang qui entre dans le poumon est plus riche en dioxyde de carbone que celui qui en sort.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le contenu en azote du sang est le même à l'entrée et à la sortie du poumon.",
+              "explication": "Pas d'échange d'azote."
+            },
+            {
+              "reponse": "Ces comparaisons prouvent l'existence d'échanges gazeux pulmonaires.",
+              "explication": "Le poumon est un échangeur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sang de l'artère pulmonaire est du sang artériel oxygéné.",
+              "explication": "C'est du sang veineux mêlé."
+            },
+            {
+              "reponse": "Le sang qui sort du poumon est plus riche en dioxyde de carbone que celui qui y entre.",
+              "explication": "Il en est moins riche."
+            },
+            {
+              "reponse": "Le sang qui entre dans le poumon est plus riche en oxygène que celui qui en sort.",
+              "explication": "Il en est moins riche."
+            },
+            {
+              "reponse": "Le contenu en azote du sang augmente fortement à la traversée du poumon.",
+              "explication": "Il reste identique."
+            },
+            {
+              "reponse": "Les veines pulmonaires transportent du sang pauvre en oxygène.",
+              "explication": "Elles ramènent le sang oxygéné."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-033",
+          "type": "qcm",
+          "question": "Concernant le mécanisme des échanges gazeux pulmonaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "chaque gaz se comporte de façon indépendante"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les échanges gazeux pulmonaires se font par diffusion.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La diffusion se fait de la zone où la pression partielle est la plus élevée vers celle où elle est la plus basse, jusqu'à l'équilibre.",
+              "explication": "1er principe."
+            },
+            {
+              "reponse": "La diffusion est proportionnelle au gradient de pression et au temps de contact.",
+              "explication": "Ainsi qu'aux caractéristiques de la membrane et du gaz."
+            },
+            {
+              "reponse": "La différence de pression partielle en oxygène influence directement la diffusion alvéolo-capillaire de l'oxygène.",
+              "explication": "C'est le gradient de pression. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans un mélange gazeux, chaque gaz se comporte de façon indépendante.",
+              "explication": "2e principe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les échanges gazeux pulmonaires se font par transport actif.",
+              "explication": "Ils se font par diffusion."
+            },
+            {
+              "reponse": "La diffusion se fait de la zone de plus basse pression partielle vers la zone de plus haute pression partielle.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Dans un mélange gazeux, la diffusion d'un gaz dépend de celle des autres gaz.",
+              "explication": "Chaque gaz se comporte de façon indépendante."
+            },
+            {
+              "reponse": "Le volume d'air dans l'espace mort influence directement la diffusion alvéolo-capillaire.",
+              "explication": "L'espace mort concerne la ventilation, pas les facteurs de la diffusion. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La diffusion est indépendante du temps de contact entre le gaz et la membrane.",
+              "explication": "Elle lui est proportionnelle."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-034",
+          "type": "qcm",
+          "question": "Concernant la pression partielle des gaz, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "pression partielle = fraction du gaz × pression totale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression barométrique vaut 760 millimètres de mercure, soit 1 atmosphère ou 1013 hectopascals.",
+              "explication": "Valeur importante pour les calculs."
+            },
+            {
+              "reponse": "La pression partielle d'un gaz est égale à sa fraction multipliée par la pression totale.",
+              "explication": "Formule du cours."
+            },
+            {
+              "reponse": "La pression partielle en oxygène de l'air ambiant est d'environ 760 × 0,21 = 160 millimètres de mercure.",
+              "explication": "Calcul du cours."
+            },
+            {
+              "reponse": "En altitude, la pression partielle en oxygène de l'air diminue.",
+              "explication": "La pression totale diminue, la fraction restant de 21 %. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En altitude, la pression alvéolaire en oxygène diminue par rapport au niveau de la mer.",
+              "explication": "Conséquence de la baisse de pression barométrique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression barométrique vaut 760 hectopascals.",
+              "explication": "Elle vaut 760 millimètres de mercure, soit 1013 hectopascals."
+            },
+            {
+              "reponse": "La pression partielle d'un gaz est égale à sa fraction divisée par la pression totale.",
+              "explication": "Elle est égale au produit."
+            },
+            {
+              "reponse": "La pression partielle en oxygène de l'air ambiant est d'environ 21 millimètres de mercure.",
+              "explication": "Elle est d'environ 160 millimètres de mercure."
+            },
+            {
+              "reponse": "En altitude, la pression partielle en oxygène de l'air augmente.",
+              "explication": "Elle diminue. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La pression barométrique vaut 1013 millimètres de mercure.",
+              "explication": "1013 hectopascals, soit 760 millimètres de mercure."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-035",
+          "type": "qcm",
+          "question": "Concernant le calcul des pressions partielles alvéolaires (fraction alvéolaire en oxygène de 14 %, en dioxyde de carbone de 5,6 %), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "il faut systématiquement la soustraire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans l'alvéole, la pression de vapeur d'eau de 47 millimètres de mercure doit être soustraite avant le calcul.",
+              "explication": "Point du travail personnel guidé."
+            },
+            {
+              "reponse": "La pression partielle alvéolaire en oxygène est d'environ 100 millimètres de mercure.",
+              "explication": "(760 − 47) × 0,14 ≈ 100."
+            },
+            {
+              "reponse": "La pression partielle alvéolaire en dioxyde de carbone est d'environ 40 millimètres de mercure.",
+              "explication": "(760 − 47) × 0,056 ≈ 40."
+            },
+            {
+              "reponse": "Le gaz expiré est un mélange de gaz inspiré (espace mort) et de gaz alvéolaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La pression partielle alvéolaire en azote est d'environ 573 millimètres de mercure.",
+              "explication": "Tableau du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression partielle alvéolaire en oxygène se calcule par 760 × 0,14, sans tenir compte de la vapeur d'eau.",
+              "explication": "Il faut soustraire les 47 millimètres de mercure de vapeur d'eau."
+            },
+            {
+              "reponse": "La pression partielle alvéolaire en dioxyde de carbone est d'environ 5,6 millimètres de mercure.",
+              "explication": "Elle est d'environ 40 millimètres de mercure."
+            },
+            {
+              "reponse": "La pression partielle alvéolaire en oxygène est d'environ 160 millimètres de mercure.",
+              "explication": "C'est la pression partielle de l'air ambiant ; dans l'alvéole, elle est d'environ 100."
+            },
+            {
+              "reponse": "La composition normale du gaz alvéolaire comporte environ 21 % d'oxygène et 0 % de dioxyde de carbone.",
+              "explication": "Le gaz alvéolaire est appauvri en oxygène et enrichi en CO2 (14 % et 5,6 % dans l'exercice). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La pression de vapeur d'eau alvéolaire est négligeable.",
+              "explication": "Elle occupe une part fixe de 47 millimètres de mercure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les échanges d'oxygène et de dioxyde de carbone, l'exercice et les anomalies de la diffusion"
+      },
+      "questions": [
+        {
+          "id": "respi-physio-ventil-036",
+          "type": "qcm",
+          "question": "Concernant la membrane alvéolo-capillaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "très faible épaisseur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle comprend des pneumocytes de type 1 et 2, des fibroblastes, des capillaires et des macrophages alvéolaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elle a une très grande surface, de 80 à 100 mètres carrés.",
+              "explication": "Si l'on déploie toutes les alvéoles."
+            },
+            {
+              "reponse": "Elle a une très faible épaisseur, d'environ 0,5 micromètre.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Sa grande surface et sa faible épaisseur la rendent propice aux échanges.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sa surface est d'environ 1 mètre carré.",
+              "explication": "Elle est de 80 à 100 mètres carrés."
+            },
+            {
+              "reponse": "Son épaisseur est d'environ 50 micromètres.",
+              "explication": "Elle est d'environ 0,5 micromètre."
+            },
+            {
+              "reponse": "Elle n'est formée que de pneumocytes de type 1.",
+              "explication": "Elle comprend aussi pneumocytes de type 2, fibroblastes, capillaires et macrophages."
+            },
+            {
+              "reponse": "Le gaz traverse toujours exactement les mêmes structures, quel que soit l'endroit.",
+              "explication": "Selon l'endroit, il traverse plus ou moins de structures."
+            },
+            {
+              "reponse": "Son épaisseur importante la rend peu propice aux échanges.",
+              "explication": "Elle est très fine et propice aux échanges."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-037",
+          "type": "qcm",
+          "question": "Concernant les échanges d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "constante, à 100 millimètres de mercure"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression partielle alvéolaire en oxygène est constante, à environ 100 millimètres de mercure.",
+              "explication": "La ventilation renouvelle l'air alvéolaire."
+            },
+            {
+              "reponse": "Dans le sang veineux, la pression partielle en oxygène est de 40 millimètres de mercure.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'oxygène diffuse en permanence de l'alvéole vers le sang.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En pratique, la pression artérielle en oxygène est supérieure ou égale à 90 millimètres de mercure.",
+              "explication": "On perd 5 à 10 millimètres de mercure par rapport à la théorie."
+            },
+            {
+              "reponse": "La pression artérielle en oxygène baisse avec l'âge.",
+              "explication": "Les anomalies de ventilation-perfusion augmentent."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans le sang veineux, la pression partielle en oxygène est de 100 millimètres de mercure.",
+              "explication": "Elle est de 40 millimètres de mercure."
+            },
+            {
+              "reponse": "L'oxygène diffuse du sang vers l'alvéole.",
+              "explication": "Il diffuse de l'alvéole vers le sang."
+            },
+            {
+              "reponse": "La pression artérielle en oxygène augmente avec l'âge.",
+              "explication": "Elle baisse avec l'âge."
+            },
+            {
+              "reponse": "La perte entre pression alvéolaire et artérielle en oxygène est normalement de 30 à 40 millimètres de mercure.",
+              "explication": "Elle est de 5 à 10 millimètres de mercure."
+            },
+            {
+              "reponse": "La pression partielle alvéolaire en oxygène varie fortement à chaque battement cardiaque.",
+              "explication": "Elle est constante, à environ 100 millimètres de mercure."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-038",
+          "type": "qcm",
+          "question": "Concernant les échanges de dioxyde de carbone, l'azote et les gaz du sang, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "carbone diffuse vers l'alvéole jusqu'à l'équilibre"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression partielle en dioxyde de carbone est de 40 millimètres de mercure dans l'alvéole et de 46 dans le sang veineux.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le dioxyde de carbone diffuse du sang vers l'alvéole.",
+              "explication": "Jusqu'à l'équilibre."
+            },
+            {
+              "reponse": "La pression artérielle en dioxyde de carbone est d'environ 40 millimètres de mercure.",
+              "explication": "À la sortie du poumon."
+            },
+            {
+              "reponse": "L'azote est un gaz inerte : sa pression partielle est la même dans l'alvéole et dans le sang.",
+              "explication": "Environ 573 millimètres de mercure."
+            },
+            {
+              "reponse": "Le sang artériel normal a une pression partielle en oxygène proche de 100 millimètres de mercure et une pression partielle en CO2 d'environ 40.",
+              "explication": "PaO2 ≥ 90 en pratique, PaCO2 ≈ 40. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le dioxyde de carbone diffuse de l'alvéole vers le sang.",
+              "explication": "Il diffuse du sang vers l'alvéole."
+            },
+            {
+              "reponse": "La pression partielle en CO2 est de 46 millimètres de mercure dans l'alvéole et de 40 dans le sang veineux.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "L'azote diffuse librement de l'alvéole vers le sang.",
+              "explication": "Il n'y a pas d'échange d'azote."
+            },
+            {
+              "reponse": "Le sang artériel normal a une pression partielle en oxygène de 60 millimètres de mercure et en CO2 de 80.",
+              "explication": "PaO2 ≥ 90 et PaCO2 ≈ 40. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pour mesurer les gaz du sang veineux mêlé, il suffit de prélever une veine périphérique.",
+              "explication": "Le sang veineux mêlé est celui de l'artère pulmonaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pour mesurer les gaz du sang artériel, on prélève le sang de l'artère pulmonaire.",
+              "explication": "L'artère pulmonaire contient du sang veineux mêlé. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-039",
+          "type": "qcm",
+          "question": "Concernant la diffusion comparée de l'oxygène et du dioxyde de carbone, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "diffuse beaucoup plus facilement que l'oxygène"
+          },
+          "bonnes": [
+            {
+              "reponse": "La diffusion est d'autant plus importante que le gradient est élevé.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le gradient de l'oxygène est d'environ 60 millimètres de mercure (100 − 40).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le gradient du dioxyde de carbone est d'environ 6 millimètres de mercure (46 − 40).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le dioxyde de carbone diffuse beaucoup plus facilement que l'oxygène, malgré un gradient bien plus faible.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Pour l'oxygène comme pour le dioxyde de carbone, l'équilibre est atteint très vite, en une fraction de seconde.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'oxygène diffuse beaucoup plus facilement que le dioxyde de carbone.",
+              "explication": "C'est le dioxyde de carbone qui diffuse plus facilement."
+            },
+            {
+              "reponse": "Le gradient du dioxyde de carbone est d'environ 60 millimètres de mercure.",
+              "explication": "Il est d'environ 6."
+            },
+            {
+              "reponse": "Le gradient de l'oxygène est d'environ 6 millimètres de mercure.",
+              "explication": "Il est d'environ 60."
+            },
+            {
+              "reponse": "La diffusion est indépendante du gradient de pression.",
+              "explication": "Elle est d'autant plus importante que le gradient est élevé."
+            },
+            {
+              "reponse": "Au repos, l'équilibre des pressions n'est jamais atteint dans le capillaire pulmonaire.",
+              "explication": "Il est atteint très vite."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-040",
+          "type": "qcm",
+          "question": "Concernant l'adaptation de la diffusion pulmonaire à l'exercice, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "des capillaires sont recrutés et se distendent"
+          },
+          "bonnes": [
+            {
+              "reponse": "La diffusion augmente avec l'exercice.",
+              "explication": "Figure n°16."
+            },
+            {
+              "reponse": "L'adaptation fait intervenir d'abord un recrutement capillaire, puis une distension capillaire.",
+              "explication": "Figure n°16."
+            },
+            {
+              "reponse": "La limite de la diffusion à l'exercice est liée à la limitation cardiaque, à l'œdème interstitiel et à un transit capillaire trop court.",
+              "explication": "Figure n°16."
+            },
+            {
+              "reponse": "La diffusion n'est jamais un facteur limitant à l'exercice chez le sujet normal.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La diffusion peut devenir limitante chez le sportif de haut niveau fournissant des efforts très importants.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La diffusion diminue à l'exercice.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "La distension capillaire précède le recrutement capillaire.",
+              "explication": "Le recrutement vient d'abord."
+            },
+            {
+              "reponse": "La diffusion est le principal facteur limitant à l'exercice chez le sujet normal.",
+              "explication": "Elle n'est jamais limitante chez le sujet normal."
+            },
+            {
+              "reponse": "À l'effort, des capillaires se ferment pour ralentir le débit sanguin.",
+              "explication": "Des capillaires sont recrutés et se distendent."
+            },
+            {
+              "reponse": "Un allongement du transit capillaire limite la diffusion à l'exercice.",
+              "explication": "C'est un transit trop court qui la limite."
+            }
+          ]
+        },
+        {
+          "id": "respi-physio-ventil-041",
+          "type": "qcm",
+          "question": "Concernant les anomalies de la diffusion, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "de l'épaisseur de la membrane alvéolo-capillaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La surface d'échange alvéolaire influence directement la diffusion de l'oxygène.",
+              "explication": "Sa diminution altère la diffusion (emphysème). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épaisseur de la membrane alvéolo-capillaire influence directement la diffusion de l'oxygène.",
+              "explication": "Son augmentation altère la diffusion (fibrose). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fibrose pulmonaire diminue la capacité de diffusion alvéolo-capillaire.",
+              "explication": "L'excès de fibres épaissit le tissu conjonctif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans l'emphysème, le parenchyme disparaît, ce qui réduit la surface d'échange.",
+              "explication": "Moins de surface, donc moins d'échanges."
+            },
+            {
+              "reponse": "Au scanner, l'emphysème se traduit par de nombreuses zones noires, là où le parenchyme a disparu.",
+              "explication": "Figure n°17."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'emphysème augmente la surface d'échange.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "La fibrose pulmonaire amincit la membrane alvéolo-capillaire.",
+              "explication": "Elle l'épaissit."
+            },
+            {
+              "reponse": "L'emphysème altère la diffusion par épaississement de la membrane.",
+              "explication": "Il l'altère par diminution de la surface d'échange."
+            },
+            {
+              "reponse": "La fibrose pulmonaire augmente les échanges gazeux.",
+              "explication": "Elle les diminue."
+            },
+            {
+              "reponse": "Au scanner, l'emphysème se traduit par des zones blanches et denses.",
+              "explication": "Il se traduit par des zones noires (air)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

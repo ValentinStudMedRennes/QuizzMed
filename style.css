@@ -26,7 +26,7 @@ button.link{background:none;color:var(--accent);padding:0 8px;min-height:36px;fo
 .tip{background:var(--tint);border-radius:10px;padding:10px 12px;font-size:.9rem;margin-bottom:10px}
 .item{display:flex;align-items:center;gap:10px;min-height:52px;padding:4px 10px;border:1px solid var(--border);border-radius:10px;margin:6px 0;background:var(--card)}
 .item.on{border-color:var(--accent);background:color-mix(in srgb,var(--tint) 60%,var(--card))}
-.item.lvl1{margin-left:26px}.item.lvl2{margin-left:52px}
+.item.lvl1{margin-left:26px}.item.lvl2{margin-left:52px}.item.lvl3{margin-left:78px}
 .item input[type=checkbox]{width:22px;height:22px;flex:none;accent-color:var(--accent)}
 .item .main{flex:1;min-width:0;cursor:pointer}
 .item .main strong{display:block}
@@ -87,7 +87,7 @@ label.opt.locked{cursor:default}
   .split{display:block}
   #panel{position:sticky;bottom:0;max-width:none;margin:12px -16px 0;border-radius:16px 16px 0 0;z-index:5;padding:14px 16px}
   #chips{display:none}
-  .item{flex-wrap:wrap}.item.lvl1{margin-left:14px}.item.lvl2{margin-left:28px}
+  .item{flex-wrap:wrap}.item.lvl1{margin-left:14px}.item.lvl2{margin-left:28px}.item.lvl3{margin-left:42px}
   #course{position:fixed;inset:0;max-height:none;border-radius:0;z-index:30;top:0}
   #cbig{display:none}
   #pdfpage canvas{cursor:default}

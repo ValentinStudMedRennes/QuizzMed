@@ -1,0 +1,1741 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Physiologie",
+    "titre": "Consommation d'oxygène (V'O2)",
+    "description": "Définition, mesure et facteurs limitants de la consommation d'oxygène, réponse à l'exercice et variations physiologiques de la consommation maximale.",
+    "cours": {
+      "fichier": "cours/cardio-physio-vo2.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Définition"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-vo2-001",
+          "type": "qcm",
+          "question": "Concernant la définition de la consommation d'oxygène (V'O2), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "prélevé par le système ventilatoire, transporté par le sang"
+          },
+          "bonnes": [
+            {
+              "reponse": "C'est le volume d'oxygène prélevé par le système ventilatoire, transporté par le sang et utilisé par l'organisme par unité de temps.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Elle s'exprime en litres par minute.",
+              "explication": "C'est un débit."
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène est un bon reflet du processus énergétique aérobie.",
+              "explication": "La V'O2 reflète les oxydations cellulaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'oxygène est utilisé par les mitochondries.",
+              "explication": "Après avoir été prélevé par les poumons et transporté par l'hémoglobine."
+            },
+            {
+              "reponse": "La notation V'O2 (avec « prime ») désigne un débit.",
+              "explication": "Volume d'oxygène consommé par unité de temps."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La consommation maximale d'oxygène est un bon reflet du processus énergétique anaérobie.",
+              "explication": "Elle reflète le processus aérobie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle s'exprime en litres, sans référence au temps.",
+              "explication": "Elle s'exprime en litres par minute."
+            },
+            {
+              "reponse": "L'oxygène est utilisé par l'hémoglobine.",
+              "explication": "L'hémoglobine le transporte ; les mitochondries l'utilisent."
+            },
+            {
+              "reponse": "La notation V'O2 désigne le volume total d'oxygène cumulé au cours d'un effort.",
+              "explication": "Elle désigne un débit (volume par unité de temps)."
+            },
+            {
+              "reponse": "La consommation d'oxygène ne dépend que de la fonction pulmonaire.",
+              "explication": "Elle dépend des poumons, du cœur et des vaisseaux, et du muscle."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-002",
+          "type": "qcm",
+          "question": "Concernant la place du métabolisme aérobie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "l'essentiel de l'apport énergétique au repos"
+          },
+          "bonnes": [
+            {
+              "reponse": "La consommation d'oxygène reflète les oxydations cellulaires.",
+              "explication": "Processus énergétique aérobie."
+            },
+            {
+              "reponse": "Le métabolisme aérobie assure l'essentiel de l'apport énergétique au repos.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le métabolisme aérobie assure l'essentiel de l'énergie des exercices de la vie courante qui durent plus de 2 à 3 minutes.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le métabolisme aérobie a une part négligeable dans l'apport énergétique au repos.",
+              "explication": "Il en assure l'essentiel."
+            },
+            {
+              "reponse": "Le métabolisme aérobie assure surtout les efforts maximaux de moins de 10 secondes.",
+              "explication": "Ceux-ci reposent sur la filière anaérobie alactique."
+            },
+            {
+              "reponse": "Les exercices de la vie courante de plus de 2 à 3 minutes reposent principalement sur le métabolisme anaérobie.",
+              "explication": "Ils reposent principalement sur le métabolisme aérobie."
+            },
+            {
+              "reponse": "La consommation d'oxygène reflète la production de lactate.",
+              "explication": "Le lactate relève du métabolisme anaérobie."
+            },
+            {
+              "reponse": "Le métabolisme aérobie n'intervient que pour des efforts de plus de 20 minutes.",
+              "explication": "Il intervient au repos et dans tous les exercices de plus de 2 à 3 minutes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-003",
+          "type": "qcm",
+          "question": "Concernant les 3 niveaux dont dépend la consommation d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "reflète donc le fonctionnement de"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au niveau pulmonaire, la ventilation est le produit de la fréquence respiratoire par le volume courant.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "Au niveau pulmonaire, les gaz diffusent à travers la membrane alvéolo-capillaire jusqu'à l'hémoglobine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Au niveau circulatoire, le débit cardiaque est le produit de la fréquence cardiaque par le volume d'éjection systolique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Au niveau circulatoire, une quantité suffisante d'hémoglobine et des vaisseaux fonctionnels sont nécessaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Au niveau périphérique, la différence artério-veineuse en oxygène suppose un muscle de bonne qualité et des mitochondries fonctionnelles.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La ventilation est le produit de la fréquence respiratoire par le volume d'éjection systolique.",
+              "explication": "Elle est le produit de la fréquence respiratoire par le volume courant."
+            },
+            {
+              "reponse": "Le débit cardiaque est le produit de la fréquence respiratoire par le volume courant.",
+              "explication": "C'est la ventilation ; le débit cardiaque = fréquence cardiaque × volume d'éjection systolique."
+            },
+            {
+              "reponse": "La différence artério-veineuse en oxygène relève de l'étage pulmonaire.",
+              "explication": "Elle relève de l'étage périphérique (muscle)."
+            },
+            {
+              "reponse": "Les mitochondries musculaires produisent de l'oxygène.",
+              "explication": "Elles consomment l'oxygène et produisent ATP, eau et CO2."
+            },
+            {
+              "reponse": "L'étage circulatoire assure la diffusion alvéolo-capillaire.",
+              "explication": "Il assure le transport par convection (débit sanguin)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-004",
+          "type": "qcm",
+          "question": "Concernant l'intérêt clinique de la consommation d'oxygène et du test d'effort, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "donne une vision globale de l'état du patient"
+          },
+          "bonnes": [
+            {
+              "reponse": "La consommation maximale d'oxygène peut être mesurée au cours d'une épreuve d'effort.",
+              "explication": "Test d'effort avec mesure des échanges gazeux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'atteinte d'un seul système peut rester asymptomatique grâce à des mécanismes compensatoires.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "De nombreuses maladies touchant ces systèmes peuvent causer une dyspnée.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le test d'effort avec mesure des échanges gazeux donne une vision globale de l'état du patient.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le test d'effort est peu spécifique mais peut montrer l'origine multifactorielle d'une gêne à l'effort ou orienter vers sa cause.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le test d'effort avec mesure des échanges gazeux est très spécifique d'une maladie donnée.",
+              "explication": "Il est peu spécifique."
+            },
+            {
+              "reponse": "L'atteinte d'un seul système est toujours symptomatique.",
+              "explication": "Elle peut être compensée et rester asymptomatique."
+            },
+            {
+              "reponse": "Le test d'effort ne permet pas d'orienter vers la cause d'une gêne à l'effort.",
+              "explication": "Il permet de l'orienter."
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène ne peut être mesurée qu'au repos.",
+              "explication": "Elle se mesure à l'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une dyspnée d'effort est toujours d'origine pulmonaire.",
+              "explication": "Elle peut avoir une origine cardiaque, pulmonaire ou musculaire, souvent multifactorielle."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-005",
+          "type": "qcm",
+          "question": "Concernant les métabolismes énergétiques selon la durée de l'exercice (diapositive n°7), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Les métabolismes énergétiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "La puissance anaérobie alactique correspond à environ 6 à 8 secondes d'effort.",
+              "explication": "Elle repose sur l'ATP et la phosphocréatine."
+            },
+            {
+              "reponse": "La capacité anaérobie lactique correspond à environ 3 minutes.",
+              "explication": "Elle repose sur le glycogène, avec production d'acide lactique."
+            },
+            {
+              "reponse": "La puissance aérobie maximale correspond à environ 7 minutes d'effort.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "La capacité aérobie, au-delà de 7 minutes, utilise le glycogène et les acides gras libres.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "La part anaérobie décroît pendant que la part aérobie croît puis atteint un plateau.",
+              "explication": "Diapositive n°7."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La filière anaérobie alactique utilise principalement les acides gras libres.",
+              "explication": "Elle utilise l'ATP et la phosphocréatine."
+            },
+            {
+              "reponse": "La capacité aérobie correspond aux efforts de moins de 30 secondes.",
+              "explication": "Elle concerne les efforts de plus de 7 minutes."
+            },
+            {
+              "reponse": "La part aérobie décroît au cours de l'exercice prolongé.",
+              "explication": "Elle croît puis atteint un plateau."
+            },
+            {
+              "reponse": "La puissance aérobie maximale correspond à environ 10 secondes d'effort.",
+              "explication": "Elle correspond à environ 7 minutes."
+            },
+            {
+              "reponse": "La phosphocréatine est le substrat principal de la capacité aérobie.",
+              "explication": "La capacité aérobie utilise le glycogène et les acides gras libres."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Mesure de la consommation d'oxygène"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-vo2-006",
+          "type": "qcm",
+          "question": "Concernant le calcul de la consommation d'oxygène à partir des gaz expirés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "le débit inspiré est égal au débit expiré"
+          },
+          "bonnes": [
+            {
+              "reponse": "La consommation d'oxygène est égale au volume d'oxygène inspiré par minute moins le volume d'oxygène expiré par minute.",
+              "explication": "L'oxygène consommé = ce qui entre − ce qui ressort."
+            },
+            {
+              "reponse": "On considère que le débit inspiré est égal au débit expiré, en volume.",
+              "explication": "Mais pas en composition."
+            },
+            {
+              "reponse": "La consommation d'oxygène = débit ventilatoire expiré × (fraction inspirée − fraction expirée en oxygène).",
+              "explication": "Formule simplifiée du cours."
+            },
+            {
+              "reponse": "La fraction inspirée en oxygène vaut 21 % dans l'air ambiant.",
+              "explication": "Sauf mélange appauvri."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La consommation d'oxygène est égale au volume d'oxygène expiré moins le volume d'oxygène inspiré.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Les gaz inspirés et expirés ont la même composition.",
+              "explication": "Seuls les débits sont considérés égaux, pas les compositions."
+            },
+            {
+              "reponse": "La consommation d'oxygène = débit ventilatoire expiré × (fraction expirée − fraction inspirée en oxygène).",
+              "explication": "Il faut faire fraction inspirée − fraction expirée."
+            },
+            {
+              "reponse": "La fraction inspirée en oxygène vaut 78 % dans l'air ambiant.",
+              "explication": "78 % correspond à l'azote ; l'oxygène représente 21 %."
+            },
+            {
+              "reponse": "La fraction inspirée en oxygène diminue en altitude.",
+              "explication": "Elle reste de 21 % ; c'est la pression atmosphérique qui diminue."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-007",
+          "type": "qcm",
+          "question": "Application : quelles valeurs de consommation d'oxygène sont correctement calculées (air ambiant, fraction inspirée en oxygène de 21 %) ?",
+          "cours": {
+            "page": 3,
+            "surligner": "il suffit donc de mesurer la ventilation du sujet"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ventilation de 100 litres par minute et fraction expirée de 17 % : consommation d'environ 4 litres par minute.",
+              "explication": "100 × (0,21 − 0,17) = 4 litres par minute."
+            },
+            {
+              "reponse": "Ventilation de 8 litres par minute et fraction expirée de 16 % : consommation d'environ 0,4 litre par minute.",
+              "explication": "8 × (0,21 − 0,16) = 0,4 litre par minute."
+            },
+            {
+              "reponse": "Ventilation de 50 litres par minute et fraction expirée de 17 % : consommation d'environ 2 litres par minute.",
+              "explication": "50 × 0,04 = 2 litres par minute."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ventilation de 100 litres par minute et fraction expirée de 17 % : consommation d'environ 40 litres par minute.",
+              "explication": "Erreur de facteur 10 : 4 litres par minute."
+            },
+            {
+              "reponse": "Ventilation de 100 litres par minute et fraction expirée de 17 % : consommation d'environ 38 litres par minute.",
+              "explication": "Il faut soustraire les fractions (0,21 − 0,17), pas les additionner."
+            },
+            {
+              "reponse": "Ventilation de 8 litres par minute et fraction expirée de 16 % : consommation d'environ 4 litres par minute.",
+              "explication": "8 × 0,05 = 0,4 litre par minute."
+            },
+            {
+              "reponse": "Ventilation de 50 litres par minute et fraction expirée de 17 % : consommation d'environ 8,5 litres par minute.",
+              "explication": "50 × 0,17 utilise la fraction expirée seule ; la bonne valeur est 2 litres par minute."
+            },
+            {
+              "reponse": "Ventilation de 50 litres par minute et fraction expirée de 17 % : consommation d'environ 10,5 litres par minute.",
+              "explication": "50 × 0,21 utilise la fraction inspirée seule ; la bonne valeur est 2 litres par minute."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-008",
+          "type": "qcm",
+          "question": "Concernant les conditions de mesure des volumes gazeux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Les volumes sont exprimés en conditions STPD"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les volumes de la consommation d'oxygène sont exprimés en conditions STPD.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les conditions STPD correspondent à 0 degré Celsius, 1013 hectopascals et un gaz sec.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les conditions BTPS correspondent à 37 degrés Celsius, à la pression ambiante et à un gaz saturé.",
+              "explication": "« B » pour « body »."
+            },
+            {
+              "reponse": "Les conditions ATPS correspondent à la température et à la pression ambiantes, avec un gaz saturé.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "L'appareil doit être calibré en pression, en hygrométrie et en température.",
+              "explication": "Les propriétés des gaz en dépendent."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les conditions STPD correspondent à 37 degrés Celsius.",
+              "explication": "Elles correspondent à 0 degré Celsius ; 37 °C correspond à BTPS."
+            },
+            {
+              "reponse": "Les conditions STPD correspondent à un gaz saturé en vapeur d'eau.",
+              "explication": "STPD correspond à un gaz sec."
+            },
+            {
+              "reponse": "Les conditions STPD correspondent à une pression de 1013 millimètres de mercure.",
+              "explication": "1013 hectopascals, soit 760 millimètres de mercure."
+            },
+            {
+              "reponse": "Les conditions BTPS correspondent à 0 degré Celsius.",
+              "explication": "Elles correspondent à 37 degrés Celsius."
+            },
+            {
+              "reponse": "Le calibrage de l'appareil est inutile car les propriétés des gaz ne varient pas.",
+              "explication": "Elles varient avec la température, la pression et l'humidité."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-009",
+          "type": "qcm",
+          "question": "Concernant la composition de l'air (diapositive n°9), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Composition de l'air : azote"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'azote représente environ 78 % de l'air.",
+              "explication": "Fraction de 0,78101, constante."
+            },
+            {
+              "reponse": "L'oxygène représente environ 21 % de l'air.",
+              "explication": "Fraction de 0,20946, constante."
+            },
+            {
+              "reponse": "La vapeur d'eau est un composant très variable de l'air.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Le dioxyde de carbone est un composant variable de l'air.",
+              "explication": "Diapositive n°9."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fraction d'oxygène de l'air est très variable.",
+              "explication": "Elle est constante."
+            },
+            {
+              "reponse": "L'azote représente environ 21 % de l'air.",
+              "explication": "Il en représente environ 78 %."
+            },
+            {
+              "reponse": "Le dioxyde de carbone représente environ 3 % de l'air.",
+              "explication": "Sa fraction est de l'ordre de 3,3 × 10-4, soit environ 0,03 %."
+            },
+            {
+              "reponse": "La fraction d'azote est très variable.",
+              "explication": "Elle est constante."
+            },
+            {
+              "reponse": "La vapeur d'eau est un composant constant de l'air.",
+              "explication": "Elle est très variable."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-010",
+          "type": "qcm",
+          "question": "Concernant la mesure « directe » de la consommation d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "pneumotachographie en circuit ouvert"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit ventilatoire est mesuré par pneumotachographie en circuit ouvert.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La consommation d'oxygène est analysée cycle à cycle.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il faut toujours étalonner le débitmètre et les analyseurs de gaz.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le sujet porte un masque hermétique sur la bouche et le nez.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Une turbine dont les ailettes tournent selon le débit mesure le volume ventilé.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Un analyseur mesure les concentrations d'oxygène et de dioxyde de carbone de l'air expiré.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débit ventilatoire est mesuré en circuit fermé.",
+              "explication": "Il est mesuré en circuit ouvert."
+            },
+            {
+              "reponse": "L'étalonnage du débitmètre et des analyseurs est inutile.",
+              "explication": "Il faut toujours les étalonner."
+            },
+            {
+              "reponse": "Le masque recouvre uniquement la bouche.",
+              "explication": "Il recouvre la bouche et le nez."
+            },
+            {
+              "reponse": "La turbine mesure la concentration d'oxygène de l'air expiré.",
+              "explication": "Elle mesure le débit ; un analyseur mesure les concentrations."
+            },
+            {
+              "reponse": "La consommation d'oxygène est calculée sur une moyenne de 24 heures.",
+              "explication": "Elle est analysée cycle à cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Consommation d'oxygène et exercice musculaire"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-vo2-011",
+          "type": "qcm",
+          "question": "Concernant la consommation maximale d'oxygène et les types d'exercice, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "quantité maximale d'oxygène que le sujet peut capter"
+          },
+          "bonnes": [
+            {
+              "reponse": "La consommation maximale d'oxygène est la quantité maximale d'oxygène que le sujet peut capter lorsque l'effort devient de plus en plus intense.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La consommation d'oxygène dépend de la masse musculaire mise en jeu.",
+              "explication": "Un effort des jambes consomme plus qu'un effort des bras."
+            },
+            {
+              "reponse": "L'exercice rectangulaire se fait à charge constante.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'exercice triangulaire se fait à charge croissante.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'exercice triangulaire permet de déterminer la consommation maximale d'oxygène.",
+              "explication": "Ainsi que la puissance ou la vitesse maximale aérobie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un effort des bras consomme plus d'oxygène qu'un effort des jambes.",
+              "explication": "C'est l'inverse : la masse musculaire des jambes est plus importante."
+            },
+            {
+              "reponse": "L'exercice rectangulaire se fait à charge croissante.",
+              "explication": "Il se fait à charge constante."
+            },
+            {
+              "reponse": "L'exercice triangulaire se fait à charge constante.",
+              "explication": "Il se fait à charge croissante."
+            },
+            {
+              "reponse": "Un exercice rectangulaire sous-maximal permet de déterminer la consommation maximale d'oxygène.",
+              "explication": "Ce test ne sert pas à déterminer les capacités maximales."
+            },
+            {
+              "reponse": "La consommation d'oxygène est indépendante de la masse musculaire mise en jeu.",
+              "explication": "Elle en dépend."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-012",
+          "type": "qcm",
+          "question": "Concernant l'exercice rectangulaire sous-maximal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "représente le déficit en oxygène du début"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au début de l'exercice, la consommation d'oxygène monte progressivement et n'atteint son plateau qu'après quelques minutes.",
+              "explication": "Diapositive n°13."
+            },
+            {
+              "reponse": "Le déficit en oxygène correspond au début de l'exercice.",
+              "explication": "Les cellules utilisent le métabolisme anaérobie et les réserves d'énergie."
+            },
+            {
+              "reponse": "La consommation d'oxygène reste constante tant que l'effort se poursuit.",
+              "explication": "Phase d'équilibre."
+            },
+            {
+              "reponse": "Après l'arrêt, la consommation d'oxygène reste un temps supérieure à sa valeur de repos.",
+              "explication": "C'est le paiement de la dette d'oxygène."
+            },
+            {
+              "reponse": "La dette d'oxygène sert à reconstituer les réserves mobilisées en anaérobie au début de l'exercice.",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La consommation d'oxygène est maximale dès le début de l'exercice.",
+              "explication": "Elle monte progressivement."
+            },
+            {
+              "reponse": "Le déficit en oxygène correspond à la période qui suit l'arrêt de l'effort.",
+              "explication": "Il correspond au début de l'exercice ; après l'arrêt, c'est la dette."
+            },
+            {
+              "reponse": "À l'arrêt, la consommation d'oxygène revient instantanément à sa valeur de repos.",
+              "explication": "Elle diminue progressivement."
+            },
+            {
+              "reponse": "La décroissance lente après l'effort sert à reformer toutes les filières aérobies.",
+              "explication": "Erreur des notes : elle correspond au paiement de la dette d'oxygène."
+            },
+            {
+              "reponse": "Ce test sert à déterminer la consommation maximale d'oxygène.",
+              "explication": "Il ne sert pas à déterminer les capacités maximales."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-013",
+          "type": "qcm",
+          "question": "Concernant l'exercice triangulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "augmente de moins de 150 millilitres par minute"
+          },
+          "bonnes": [
+            {
+              "reponse": "La charge augmente progressivement jusqu'à l'épuisement.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La consommation d'oxygène évolue d'abord de façon linéaire avec la charge.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le plateau est défini par une augmentation de consommation de moins de 150 millilitres par minute pour une augmentation de charge de plus de 20 watts.",
+              "explication": "Ou de plus de 1 km/h de vitesse."
+            },
+            {
+              "reponse": "Une fois le plateau atteint, le sujet poursuit l'effort grâce au métabolisme anaérobie.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le plateau est rarement atteint ; on l'observe surtout chez les sujets entraînés.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "La puissance maximale aérobie est placée au début du plateau.",
+              "explication": "Diapositive n°14."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le plateau est défini par une augmentation de moins de 1500 millilitres par minute.",
+              "explication": "Le seuil est de 150 millilitres par minute."
+            },
+            {
+              "reponse": "La plupart des sujets atteignent le plateau de consommation maximale d'oxygène.",
+              "explication": "La plupart, moins entraînés, s'arrêtent avant."
+            },
+            {
+              "reponse": "Après le plateau, l'effort se poursuit grâce au métabolisme aérobie.",
+              "explication": "Il se poursuit grâce au métabolisme anaérobie."
+            },
+            {
+              "reponse": "La consommation d'oxygène évolue d'emblée de façon exponentielle avec la charge.",
+              "explication": "Elle évolue d'abord de façon linéaire."
+            },
+            {
+              "reponse": "La puissance maximale aérobie est placée à l'arrêt de l'effort.",
+              "explication": "Elle est placée au début du plateau."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-014",
+          "type": "qcm",
+          "question": "Concernant les valeurs prédites de consommation maximale d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "elle surestime donc les valeurs attendues"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles dépendent du sexe, de l'âge et du poids.",
+              "explication": "Notamment à cause des différences de masse grasse."
+            },
+            {
+              "reponse": "Chez le sujet obèse, on utilise la taille plutôt que le poids.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Une machine qui utilise le poids surestime les valeurs attendues chez l'obèse.",
+              "explication": "Le poids de l'obèse est augmenté par le tissu adipeux."
+            },
+            {
+              "reponse": "Elles varient selon le type d'exercice (vélo ou tapis roulant).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les formules présentées sont tirées de Wasserman (1986).",
+              "explication": "Diapositive n°15."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Chez le sujet obèse, on utilise le poids plutôt que la taille.",
+              "explication": "On utilise la taille."
+            },
+            {
+              "reponse": "Une machine qui utilise le poids sous-estime les valeurs attendues chez l'obèse.",
+              "explication": "Elle les surestime."
+            },
+            {
+              "reponse": "Les valeurs prédites sont indépendantes de l'âge.",
+              "explication": "Elles en dépendent."
+            },
+            {
+              "reponse": "Les valeurs prédites sont identiques sur vélo et sur tapis roulant.",
+              "explication": "Elles varient selon le type d'exercice."
+            },
+            {
+              "reponse": "Les valeurs prédites sont indépendantes du sexe.",
+              "explication": "Elles dépendent du sexe."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-015",
+          "type": "qcm",
+          "question": "Concernant l'expression et l'ordre de grandeur de la consommation maximale d'oxygène (classification de Wasserman, valeurs à ne pas apprendre), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "valeur absolue, indépendante du poids"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle peut s'exprimer en litres par minute, en valeur absolue indépendante du poids.",
+              "explication": "1re ligne de chaque tranche d'âge."
+            },
+            {
+              "reponse": "Elle peut s'exprimer en millilitres par minute et par kilogramme.",
+              "explication": "2e ligne de chaque tranche d'âge."
+            },
+            {
+              "reponse": "Pour une même tranche d'âge, les valeurs moyennes sont plus élevées chez l'homme que chez la femme.",
+              "explication": "Diapositive n°16."
+            },
+            {
+              "reponse": "Les valeurs moyennes diminuent avec l'âge.",
+              "explication": "Diapositive n°16."
+            },
+            {
+              "reponse": "Chez l'adulte, la valeur absolue moyenne est de l'ordre de quelques litres par minute.",
+              "explication": "Ordre de grandeur de la diapositive n°16."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'expression en millilitres par minute et par kilogramme est indépendante du poids.",
+              "explication": "C'est l'expression en litres par minute qui est indépendante du poids."
+            },
+            {
+              "reponse": "Pour une même tranche d'âge, les valeurs moyennes sont plus élevées chez la femme.",
+              "explication": "Elles sont plus élevées chez l'homme."
+            },
+            {
+              "reponse": "Les valeurs moyennes augmentent après 30 ans.",
+              "explication": "Elles diminuent avec l'âge."
+            },
+            {
+              "reponse": "Chez l'adulte, la valeur absolue moyenne est de l'ordre de plusieurs dizaines de litres par minute.",
+              "explication": "Elle est de l'ordre de quelques litres par minute."
+            },
+            {
+              "reponse": "Chez l'adulte, la valeur moyenne est de l'ordre de quelques millilitres par minute et par kilogramme.",
+              "explication": "Elle est de l'ordre de quelques dizaines de millilitres par minute et par kilogramme."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Consommation maximale d'oxygène et variations physiologiques"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-vo2-016",
+          "type": "qcm",
+          "question": "Concernant l'influence de la génétique sur la consommation maximale d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "La génétique explique 25 % de la variabilité"
+          },
+          "bonnes": [
+            {
+              "reponse": "La génétique explique 25 % de la variabilité des valeurs initiales.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "La part génétique s'exprime notamment par le débit cardiaque et les enzymes du cycle de Krebs.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Après entraînement, la part génétique de la réponse varie de 0 à 30 %.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Certaines personnes progressent moins que d'autres avec l'entraînement.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La génétique explique 75 % de la variabilité des valeurs initiales.",
+              "explication": "Elle en explique 25 %."
+            },
+            {
+              "reponse": "Après entraînement, la part génétique de la réponse varie de 50 à 80 %.",
+              "explication": "Elle varie de 0 à 30 %."
+            },
+            {
+              "reponse": "L'entraînement n'a aucun effet sur la consommation maximale d'oxygène.",
+              "explication": "Il a un effet important."
+            },
+            {
+              "reponse": "Tous les sujets progressent de façon identique avec l'entraînement.",
+              "explication": "Certains progressent moins que d'autres."
+            },
+            {
+              "reponse": "La part génétique s'exprime principalement par la fréquence respiratoire.",
+              "explication": "Elle passe notamment par le débit cardiaque et les enzymes du cycle de Krebs."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-017",
+          "type": "qcm",
+          "question": "Concernant les variations de la consommation maximale d'oxygène selon le sexe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "plus basse chez la femme après la puberté"
+          },
+          "bonnes": [
+            {
+              "reponse": "Après la puberté, elle est 10 à 20 % plus basse chez la femme lorsqu'elle est rapportée au poids.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Elle est équivalente chez l'homme et la femme lorsqu'elle est rapportée à la masse musculaire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est plus basse chez la femme même lorsqu'elle est rapportée à la masse musculaire.",
+              "explication": "Elle est alors équivalente."
+            },
+            {
+              "reponse": "Après la puberté, elle est environ 50 % plus basse chez la femme rapportée au poids.",
+              "explication": "Elle est 10 à 20 % plus basse."
+            },
+            {
+              "reponse": "Après la puberté, elle est plus élevée chez la femme rapportée au poids.",
+              "explication": "Elle est plus basse."
+            },
+            {
+              "reponse": "Rapportée au poids, elle est identique chez l'homme et la femme adultes.",
+              "explication": "Elle est 10 à 20 % plus basse chez la femme."
+            },
+            {
+              "reponse": "La différence entre les sexes rapportée au poids est de l'ordre de 1 à 2 %.",
+              "explication": "Elle est de 10 à 20 %."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-018",
+          "type": "qcm",
+          "question": "Concernant l'évolution de la consommation maximale d'oxygène avec l'âge, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "puis diminue d'environ 10 % tous les 10 ans"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle augmente avant 20 ans.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Elle reste stable de 20 à 30 ans.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Après 30 ans, elle diminue d'environ 10 % tous les 10 ans, à entraînement constant.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le sujet âgé qui arrête le sport la perd 3 fois plus vite qu'un sujet jeune.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Un sujet de 60 ans sédentaire qui reprend une activité régulière peut l'améliorer.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle augmente jusqu'à l'âge de 40 ans.",
+              "explication": "Elle augmente avant 20 ans, puis reste stable jusqu'à 30 ans. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle augmente jusqu'à l'âge de 50 ans.",
+              "explication": "Elle augmente avant 20 ans, puis reste stable jusqu'à 30 ans. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Après 30 ans, elle diminue d'environ 10 % par an.",
+              "explication": "Environ 10 % tous les 10 ans."
+            },
+            {
+              "reponse": "Le sujet âgé qui arrête le sport la perd moins vite qu'un sujet jeune.",
+              "explication": "Il la perd 3 fois plus vite."
+            },
+            {
+              "reponse": "Après 60 ans, toute amélioration est impossible.",
+              "explication": "L'adaptation à l'effort est possible à tout âge."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-019",
+          "type": "qcm",
+          "question": "Concernant l'étude longitudinale de Katzel (diapositive n°19), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "sportifs ayant arrêté l'entraînement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les spécialistes de course à pied ont les valeurs les plus élevées.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "Les sportifs ayant arrêté l'entraînement présentent une chute rapide de leur consommation maximale.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "Les sujets non entraînés ont les valeurs les plus basses.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "La consommation maximale y est exprimée en millilitres par minute et par kilogramme.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "Dans tous les groupes, la consommation maximale diminue avec l'âge.",
+              "explication": "Diapositive n°19."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'arrêt de l'entraînement n'a pas d'effet sur l'évolution de la consommation maximale.",
+              "explication": "Il entraîne une chute rapide."
+            },
+            {
+              "reponse": "Les sujets non entraînés ont les valeurs les plus élevées.",
+              "explication": "Ils ont les plus basses."
+            },
+            {
+              "reponse": "Les spécialistes de course à pied présentent la chute la plus rapide.",
+              "explication": "C'est le cas des sportifs ayant arrêté l'entraînement."
+            },
+            {
+              "reponse": "Il s'agit d'une étude transversale.",
+              "explication": "C'est une étude longitudinale."
+            },
+            {
+              "reponse": "Dans tous les groupes, la consommation maximale augmente avec l'âge.",
+              "explication": "Elle diminue avec l'âge."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-020",
+          "type": "qcm",
+          "question": "Concernant l'effet de l'entraînement sur la consommation maximale d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "à au moins 75 % de la fréquence cardiaque maximale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle augmente avec l'entraînement.",
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il faut 2 à 3 semaines d'activité physique d'au moins 30 minutes, plusieurs fois par semaine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'activité doit être réalisée à au moins 75 % de la fréquence cardiaque maximale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'entraînement augmente la consommation maximale d'oxygène de 10 à 20 %.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Le gain maximal est atteint à 6 mois.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le gain est plus important chez le sujet jeune peu entraîné.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'entraînement augmente la consommation maximale d'oxygène de 50 à 60 %.",
+              "explication": "Elle augmente de 10 à 20 %."
+            },
+            {
+              "reponse": "Une activité à 30 % de la fréquence cardiaque maximale suffit.",
+              "explication": "Il faut au moins 75 % de la fréquence cardiaque maximale."
+            },
+            {
+              "reponse": "Le gain maximal est atteint dès 2 semaines.",
+              "explication": "Il est atteint à 6 mois."
+            },
+            {
+              "reponse": "Le gain est plus important chez le sportif déjà entraîné.",
+              "explication": "Il est plus important chez le sujet jeune peu entraîné."
+            },
+            {
+              "reponse": "L'entraînement ne modifie pas la consommation maximale d'oxygène.",
+              "explication": "Il l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-021",
+          "type": "qcm",
+          "question": "Concernant le désentraînement et l'activité physique chez le malade, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "le désentraînement a un effet négatif marqué"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le désentraînement a un effet négatif marqué sur la consommation maximale d'oxygène.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les études d'alitement montrent une nette dégradation des capacités fonctionnelles.",
+              "explication": "Précisé à l'oral (médecine aérospatiale)."
+            },
+            {
+              "reponse": "L'adaptation à l'effort est possible à tout âge.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La prescription d'activité physique chez un patient atteint de maladie chronique améliore la morbi-mortalité.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Dans le cancer du sein, une activité physique adaptée diminue la récidive et la mortalité.",
+              "explication": "Et améliore la qualité de vie."
+            },
+            {
+              "reponse": "Un sujet malade a une consommation plus faible et s'arrête plus tôt qu'un sujet sain.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un alitement prolongé n'a pas d'effet sur la consommation maximale d'oxygène.",
+              "explication": "Il la diminue nettement."
+            },
+            {
+              "reponse": "L'adaptation à l'effort est impossible après 60 ans.",
+              "explication": "Elle est possible à tout âge."
+            },
+            {
+              "reponse": "L'activité physique aggrave la morbi-mortalité des maladies chroniques.",
+              "explication": "Elle l'améliore."
+            },
+            {
+              "reponse": "Dans le cancer du sein, l'activité physique adaptée augmente le risque de récidive.",
+              "explication": "Elle le diminue."
+            },
+            {
+              "reponse": "Un sujet malade s'arrête plus tard qu'un sujet sain lors d'un test d'effort.",
+              "explication": "Il s'arrête plus tôt."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-022",
+          "type": "qcm",
+          "question": "Concernant les effets de l'entraînement observés lors d'un exercice triangulaire (diapositive n°21), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Après entraînement : diminution de la pente"
+          },
+          "bonnes": [
+            {
+              "reponse": "Pour un même niveau d'effort, le sujet entraîné consomme moins d'oxygène.",
+              "explication": "Meilleur rendement des fibres musculaires et meilleure qualité du geste."
+            },
+            {
+              "reponse": "La pente « consommation d'oxygène / puissance » diminue après entraînement.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Le sujet entraîné atteint une consommation maximale d'oxygène plus élevée.",
+              "explication": "Plateau plus haut."
+            },
+            {
+              "reponse": "Le sujet entraîné prolonge l'effort jusqu'à une puissance plus élevée.",
+              "explication": "Gain de puissance."
+            },
+            {
+              "reponse": "Le sujet entraîné récupère plus vite après l'arrêt.",
+              "explication": "Décroissance plus rapide."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pente « consommation d'oxygène / puissance » augmente après entraînement.",
+              "explication": "Elle diminue."
+            },
+            {
+              "reponse": "Pour un même niveau d'effort, le sujet entraîné consomme plus d'oxygène.",
+              "explication": "Il en consomme moins."
+            },
+            {
+              "reponse": "Le sujet entraîné récupère plus lentement.",
+              "explication": "Il récupère plus vite."
+            },
+            {
+              "reponse": "Le plateau de consommation maximale est plus bas chez le sujet entraîné.",
+              "explication": "Il est plus haut."
+            },
+            {
+              "reponse": "Le sujet entraîné arrête l'effort à une puissance plus faible.",
+              "explication": "L'effort se prolonge plus loin."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-023",
+          "type": "qcm",
+          "question": "Concernant la consommation maximale d'oxygène en altitude, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "L'acclimatation l'améliore sans la normaliser"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle diminue de 1,5 à 3,5 % tous les 300 mètres.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "L'acclimatation l'améliore sans la normaliser.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En altitude, la fraction d'oxygène de l'air reste de 21 %.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "En altitude, la baisse de pression atmosphérique fait baisser la pression partielle en oxygène de l'air puis des alvéoles.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En altitude, la fraction d'oxygène de l'air diminue.",
+              "explication": "Elle reste de 21 % ; c'est la pression qui diminue."
+            },
+            {
+              "reponse": "L'acclimatation normalise la consommation maximale d'oxygène.",
+              "explication": "Elle l'améliore sans la normaliser."
+            },
+            {
+              "reponse": "Elle diminue de 15 à 35 % tous les 300 mètres.",
+              "explication": "Elle diminue de 1,5 à 3,5 % tous les 300 mètres."
+            },
+            {
+              "reponse": "Elle augmente en altitude grâce à l'hyperventilation.",
+              "explication": "Elle diminue."
+            },
+            {
+              "reponse": "En altitude, la pression partielle alvéolaire en oxygène augmente.",
+              "explication": "Elle diminue."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-024",
+          "type": "qcm",
+          "question": "Concernant les mécanismes de la baisse de la consommation maximale d'oxygène en altitude, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "travail ventilatoire stable jusqu'à 5500 mètres"
+          },
+          "bonnes": [
+            {
+              "reponse": "Son origine est plurifactorielle.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "En hypoxie prolongée, le débit cardiaque maximal diminue par baisse de la fréquence cardiaque maximale.",
+              "explication": "Le volume d'éjection systolique reste relativement stable."
+            },
+            {
+              "reponse": "Le travail ventilatoire reste stable jusqu'à 5500 mètres.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'augmentation de la ventilation est compensée par la baisse de la densité de l'air.",
+              "explication": "C'est ce qui maintient le travail ventilatoire stable."
+            },
+            {
+              "reponse": "La capacité de diffusion de l'oxygène diminue.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La baisse du débit cardiaque maximal est due à une chute du volume d'éjection systolique.",
+              "explication": "Elle est due à la baisse de la fréquence cardiaque maximale."
+            },
+            {
+              "reponse": "L'augmentation de la ventilation est une cause de la baisse de la consommation maximale.",
+              "explication": "Erreur des notes : elle explique que le travail ventilatoire reste stable."
+            },
+            {
+              "reponse": "Le travail ventilatoire augmente fortement dès 1000 mètres.",
+              "explication": "Il reste stable jusqu'à 5500 mètres."
+            },
+            {
+              "reponse": "La capacité de diffusion de l'oxygène augmente en altitude.",
+              "explication": "Elle diminue."
+            },
+            {
+              "reponse": "La baisse est due à une cause unique, ventilatoire.",
+              "explication": "Son origine est plurifactorielle."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-025",
+          "type": "qcm",
+          "question": "Concernant l'exemple du sommet de l'Everest, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "le niveau d'un patient qu'on doit greffer"
+          },
+          "bonnes": [
+            {
+              "reponse": "Avec 50 millilitres par minute et par kilogramme au niveau de la mer, la consommation maximale serait d'environ 15 au sommet de l'Everest.",
+              "explication": "Valeur retenue ([Vigilance])."
+            },
+            {
+              "reponse": "Au sommet de l'Everest, la consommation maximale atteint le niveau d'un patient qu'on doit greffer.",
+              "explication": "Exemple donné à l'oral."
+            },
+            {
+              "reponse": "Le graphique de West représente la consommation maximale d'oxygène en fonction de la pression barométrique.",
+              "explication": "Diapositive n°23."
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène diminue quand la pression barométrique diminue.",
+              "explication": "Diapositive n°23."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Au sommet de l'Everest, la consommation maximale est d'environ 45 millilitres par minute et par kilogramme pour un sujet à 50 au niveau de la mer.",
+              "explication": "Elle serait d'environ 15."
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène augmente au sommet de l'Everest.",
+              "explication": "Elle diminue fortement."
+            },
+            {
+              "reponse": "La valeur retenue au sommet de l'Everest est celle lue sur le graphique, vers 5 à 6 millilitres par minute et par kilogramme.",
+              "explication": "La valeur retenue est d'environ 15 (oral et sources)."
+            },
+            {
+              "reponse": "Le graphique de West représente la consommation maximale en fonction de la fraction inspirée en oxygène.",
+              "explication": "Il la représente en fonction de la pression barométrique."
+            },
+            {
+              "reponse": "Au sommet de l'Everest, la consommation maximale reste comparable à celle d'un sportif entraîné.",
+              "explication": "Elle atteint le niveau d'un patient à greffer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Facteurs limitants de la consommation maximale d'oxygène et conclusion"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-vo2-026",
+          "type": "qcm",
+          "question": "Concernant les facteurs limitants de la consommation maximale d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "ventilation, diffusion alvéolo-capillaire, débit cardiaque"
+          },
+          "bonnes": [
+            {
+              "reponse": "4 facteurs sont envisagés : ventilation, diffusion alvéolo-capillaire, débit cardiaque et extraction musculaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Identifier le facteur limitant est utile en pathologie, car un patient essoufflé peut avoir un problème cardiaque, pulmonaire ou musculaire.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le débit cardiaque est le principal facteur limitant chez le sportif.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le muscle est le principal facteur limitant chez le sédentaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Chez le sujet sain, la ventilation n'est pas un facteur limitant.",
+              "explication": "Il reste une réserve ventilatoire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La ventilation est le principal facteur limitant chez le sujet sain.",
+              "explication": "Elle n'est pas limitante chez le sujet sain."
+            },
+            {
+              "reponse": "Le débit cardiaque est le principal facteur limitant chez le sédentaire.",
+              "explication": "Chez le sédentaire, c'est le muscle."
+            },
+            {
+              "reponse": "Le muscle est le principal facteur limitant chez le sportif.",
+              "explication": "Chez le sportif, c'est le débit cardiaque."
+            },
+            {
+              "reponse": "Une anémie isolée explique souvent une anomalie du test d'effort.",
+              "explication": "Elle l'explique rarement ; elle est en général découverte avant."
+            },
+            {
+              "reponse": "Seuls 2 facteurs limitants sont envisagés : le cœur et le poumon.",
+              "explication": "Il y en a 4, dont la diffusion et l'extraction musculaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-027",
+          "type": "qcm",
+          "question": "Concernant la ventilation, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "En fin d'effort : 150 à 200 litres par minute"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit ventilatoire est le produit de la fréquence respiratoire par le volume courant.",
+              "explication": "Rappel du cours."
+            },
+            {
+              "reponse": "Au repos, le débit ventilatoire est d'environ 8 litres par minute (16 × 0,5).",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "En fin d'effort, le débit ventilatoire atteint 150 à 200 litres par minute.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Dans la formule de la consommation d'oxygène, le débit ventilatoire est le débit ventilatoire minute.",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Au repos, le débit ventilatoire est d'environ 80 litres par minute.",
+              "explication": "Il est d'environ 8 litres par minute."
+            },
+            {
+              "reponse": "En fin d'effort, le débit ventilatoire atteint 15 à 20 litres par minute.",
+              "explication": "Il atteint 150 à 200 litres par minute."
+            },
+            {
+              "reponse": "Dans la formule de la consommation d'oxygène, le débit ventilatoire correspond toujours à la ventilation maximale.",
+              "explication": "Erreur des notes : c'est le débit minute, maximal seulement à l'effort maximal."
+            },
+            {
+              "reponse": "Le débit ventilatoire est le produit de la fréquence cardiaque par le volume d'éjection systolique.",
+              "explication": "C'est le débit cardiaque."
+            },
+            {
+              "reponse": "Au repos, le volume courant est d'environ 5 litres.",
+              "explication": "Il est d'environ 0,5 litre."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-028",
+          "type": "qcm",
+          "question": "Concernant la réserve ventilatoire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "il reste une réserve ventilatoire de"
+          },
+          "bonnes": [
+            {
+              "reponse": "Chez le sujet sain, il reste une réserve ventilatoire de 20 à 30 % en fin d'effort.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'athlète de haut niveau peut ne pas avoir de réserve ventilatoire en fin d'effort.",
+              "explication": "Exception citée par le cours (et plus ou moins l'enfant)."
+            },
+            {
+              "reponse": "La ventilation maximale théorique peut être estimée en multipliant par 35 le VEMS mesuré en spirométrie.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "En l'absence de réserve ventilatoire chez un patient qui se plaint, la cause est généralement pulmonaire.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Chez le sujet sain, la réserve ventilatoire en fin d'effort est de 70 à 80 %.",
+              "explication": "Elle est de 20 à 30 %."
+            },
+            {
+              "reponse": "Chez le sujet sain, il ne reste aucune réserve ventilatoire en fin d'effort.",
+              "explication": "Il reste 20 à 30 %."
+            },
+            {
+              "reponse": "La ventilation maximale théorique s'estime en multipliant le VEMS par 3,5.",
+              "explication": "On le multiplie par 35."
+            },
+            {
+              "reponse": "En l'absence de réserve ventilatoire chez un patient qui se plaint, la cause est généralement cardiaque.",
+              "explication": "Elle est généralement pulmonaire."
+            },
+            {
+              "reponse": "La méthode la plus courante pour connaître la ventilation maximale est de faire hyperventiler le sujet pendant 10 minutes.",
+              "explication": "On utilise plutôt le VEMS × 35 ; l'hyperventilation (1 minute) est rarement faite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-029",
+          "type": "qcm",
+          "question": "Concernant la diffusion alvéolo-capillaire à l'effort, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "hypoxémie d'effort, avec une légère désaturation"
+          },
+          "bonnes": [
+            {
+              "reponse": "On observe parfois une hypoxémie d'effort avec une légère désaturation artérielle en fin d'effort.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Cette hypoxémie pourrait être liée à l'augmentation du débit sanguin capillaire.",
+              "explication": "Hypothèse du cours."
+            },
+            {
+              "reponse": "Un œdème pulmonaire peut altérer la barrière alvéolo-capillaire à l'effort.",
+              "explication": "Hypothèse du cours."
+            },
+            {
+              "reponse": "La diffusion s'explore par des gaz du sang à l'effort, à l'artère radiale ou en capillaire au lobe de l'oreille.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On observe à l'effort une hyperoxémie constante.",
+              "explication": "On observe parfois une hypoxémie d'effort."
+            },
+            {
+              "reponse": "Une désaturation artérielle majeure est constante chez tous les sujets à l'effort.",
+              "explication": "Elle est parfois observée, et légère."
+            },
+            {
+              "reponse": "La diffusion s'explore par des gaz du sang au repos uniquement.",
+              "explication": "Elle s'explore par des gaz du sang à l'effort."
+            },
+            {
+              "reponse": "Selon West, il est surprenant que les capillaires pulmonaires cèdent à l'effort.",
+              "explication": "Ce qui est surprenant, c'est qu'ils ne cèdent pas plus souvent."
+            },
+            {
+              "reponse": "Le prélèvement des gaz du sang d'effort se fait au pli du coude, en veineux.",
+              "explication": "Il se fait à l'artère radiale ou en capillaire au lobe de l'oreille."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-030",
+          "type": "qcm",
+          "question": "Concernant l'équation de Fick et le transport de l'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Selon l'équation de Fick"
+          },
+          "bonnes": [
+            {
+              "reponse": "Selon l'équation de Fick, consommation d'oxygène = fréquence cardiaque × volume d'éjection systolique × différence artério-veineuse en oxygène.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le transport de l'oxygène influence la consommation maximale par le taux d'hémoglobine et le débit cardiaque.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La fréquence cardiaque et le volume d'éjection systolique influencent directement le débit cardiaque.",
+              "explication": "Débit cardiaque = volume d'éjection systolique × fréquence cardiaque. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Chez le sujet entraîné, le volume d'éjection systolique atteint 120 à 130 millilitres.",
+              "explication": "Par battement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Selon l'équation de Fick, consommation d'oxygène = fréquence respiratoire × volume courant × différence artério-veineuse.",
+              "explication": "Elle fait intervenir la fréquence cardiaque et le volume d'éjection systolique."
+            },
+            {
+              "reponse": "Le volume d'éjection systolique s'exprime en millilitres par minute.",
+              "explication": "Erreur des notes : il s'exprime en millilitres (par battement)."
+            },
+            {
+              "reponse": "Chez le sujet entraîné, le volume d'éjection systolique atteint 12 à 13 millilitres.",
+              "explication": "Il atteint 120 à 130 millilitres."
+            },
+            {
+              "reponse": "Le taux d'hémoglobine n'intervient pas dans le transport de l'oxygène.",
+              "explication": "Il l'influence."
+            },
+            {
+              "reponse": "Le débit cardiaque augmente en cas de bradycardie.",
+              "explication": "À volume d'éjection égal, une baisse de la fréquence cardiaque diminue le débit cardiaque. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-031",
+          "type": "qcm",
+          "question": "Concernant les valeurs du débit cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "le débit cardiaque passe d'environ"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au repos, chez l'adulte sain, le débit cardiaque est d'environ 5 à 6 litres par minute.",
+              "explication": "70 × 70 à 80 millilitres ≈ 5 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le débit cardiaque est plus important à l'effort qu'au repos.",
+              "explication": "Il passe d'environ 5 à 25 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À l'effort, le débit cardiaque peut atteindre environ 25 litres par minute.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Au repos, le débit cardiaque est de 2 à 3 litres par minute.",
+              "explication": "Il est d'environ 5 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Au repos, le débit cardiaque est de 8 à 10 litres par minute.",
+              "explication": "Il est d'environ 5 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Au repos, le débit cardiaque est de 12 à 15 litres par minute.",
+              "explication": "Il est d'environ 5 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À l'effort, le débit cardiaque peut atteindre environ 250 litres par minute.",
+              "explication": "Il atteint environ 25 litres par minute."
+            },
+            {
+              "reponse": "Le débit cardiaque est identique au repos et à l'effort.",
+              "explication": "Il est multiplié par environ 5 à l'effort."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-032",
+          "type": "qcm",
+          "question": "Concernant l'extraction musculaire de l'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Le muscle est le principal facteur limitant"
+          },
+          "bonnes": [
+            {
+              "reponse": "La captation de l'oxygène par le muscle influence la consommation maximale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le muscle est le principal facteur limitant de la consommation maximale chez le sédentaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'entraînement augmente la capillarisation du muscle.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'entraînement augmente l'extraction de l'oxygène par le muscle.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Quand les fonctions respiratoire et cardiaque sont normales, il s'agit souvent d'une atteinte musculaire.",
+              "explication": "Pathologie musculaire ou manque d'activité (oral)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'entraînement diminue la capillarisation du muscle.",
+              "explication": "Il l'augmente."
+            },
+            {
+              "reponse": "L'extraction musculaire de l'oxygène est indépendante de l'entraînement.",
+              "explication": "L'entraînement l'augmente."
+            },
+            {
+              "reponse": "Le muscle est le principal facteur limitant chez le sportif.",
+              "explication": "Chez le sportif, c'est le débit cardiaque."
+            },
+            {
+              "reponse": "Quand les fonctions respiratoire et cardiaque sont normales, la limitation est généralement pulmonaire.",
+              "explication": "Elle est souvent musculaire."
+            },
+            {
+              "reponse": "L'entraînement diminue l'extraction de l'oxygène par le muscle.",
+              "explication": "Il l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-vo2-033",
+          "type": "qcm",
+          "question": "Concernant l'intérêt global de la consommation d'oxygène (conclusion), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "évaluation des capacités fonctionnelles globales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle permet l'évaluation des capacités fonctionnelles globales.",
+              "explication": "Conclusion du cours."
+            },
+            {
+              "reponse": "Elle a des applications dans les pathologies chroniques.",
+              "explication": "Conclusion du cours."
+            },
+            {
+              "reponse": "Elle a un intérêt pronostique dans les cardiopathies et les pathologies pulmonaires.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "C'est un bon marqueur pronostique : meilleure est la capacité fonctionnelle, plus l'espérance de vie est longue.",
+              "explication": "Précisé à l'oral (diapositive n°9)."
+            },
+            {
+              "reponse": "Elle aide à cerner le problème pour proposer le traitement adapté.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle n'a aucun intérêt pronostique.",
+              "explication": "C'est un bon marqueur pronostique."
+            },
+            {
+              "reponse": "Meilleure est la capacité fonctionnelle, plus l'espérance de vie est courte.",
+              "explication": "Elle est plus longue."
+            },
+            {
+              "reponse": "Elle n'est utile que chez le sportif de haut niveau.",
+              "explication": "Elle a des applications dans les pathologies chroniques."
+            },
+            {
+              "reponse": "Elle évalue une fonction isolée, de façon très spécifique.",
+              "explication": "Elle évalue les capacités fonctionnelles globales."
+            },
+            {
+              "reponse": "Elle reflète principalement le processus énergétique anaérobie.",
+              "explication": "Elle reflète le processus aérobie."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

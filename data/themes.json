@@ -1,5 +1,7 @@
 [
   "cardio-physio-mecahemo.json",
   "respi-embryo.json",
-  "respi-histo.json"
+  "respi-histo.json",
+  "cardio-physio-vo2.json",
+  "respi-physio-ventil.json"
 ]
