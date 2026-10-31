@@ -7,6 +7,12 @@ const NONE_PROB=1/15;   // probabilité que « Toutes les réponses précédente
 const PDFJS_VERSION="3.11.174";   // bibliothèque d’affichage des PDF (chargée seulement quand on ouvre un cours)
 const PDFJS_CDN="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/"+PDFJS_VERSION+"/";
 let themes=[],quiz=[],i=0;
+let minRefs=0,favor=false;              // tombée au moins N fois · tirage favorisant les plus tombées
+const yearsOff=new Set();       // années d’annales décochées (par défaut toutes sont cochées)
+let srcFilter="all";            // filtre d’origine des questions : "all", "annale", "genere"…
+const years=new Set();          // années d’annales rencontrées dans les données (ex. « 2023-2024 »)
+const yr=a=>{const m=/\d{4}/.exec(a||"");return m?+m[0]:0};
+const srcLabels=new Map();      // clé d’origine → libellé affiché
 const sel=new Set();             // chapitres cochés (tous thèmes confondus)
 const openT=new Set(),openS=new Set(),openF=new Set();   // thèmes, sections et cours dépliés (fermés par défaut)
 let current=[];                  // chapitres du QCM en cours
@@ -22,7 +28,7 @@ async function getJSON(name){
 function ans(a){
   if(!a||typeof a!=="object"||Array.isArray(a))return null;
   if(typeof a.reponse!=="string"&&typeof a.reponse!=="number")return null;
-  return{reponse:String(a.reponse),explication:typeof a.explication==="string"?a.explication:""};
+  return{reponse:String(a.reponse),explication:typeof a.explication==="string"?a.explication:"",annale:a.annale===true};
 }
 function uniq(list){const seen=new Set();return list.filter(a=>!seen.has(a.reponse)&&seen.add(a.reponse))}
 // Lien vers le cours : "cours": { "fichier": "cours/x.pdf", "page": 12, "surligner": "texte à retrouver sur la page" }
@@ -39,6 +45,28 @@ function coursOf(c,def){
   if(!fichier||page<1)return null;
   return{fichier,page,surligner:typeof x.surligner==="string"?x.surligner.trim():""};
 }
+// Origine de la question : "source": { "type": "annale" | "généré" | …, "references": [ { "sujet", "annee", "qcm" } ] }
+function parseSource(s){
+  const raw=s&&typeof s==="object"&&!Array.isArray(s)?s:(typeof s==="string"?{type:s}:{});
+  const type=typeof raw.type==="string"?raw.type.trim():"";
+  const n=type.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  let key=n,label=type?type.charAt(0).toUpperCase()+type.slice(1):"Non précisée";
+  if(/^annales?$/.test(n)){key="annale";label="Annale"}
+  else if(/^gener/.test(n)){key="genere";label="Généré"}
+  else if(!n)key="inconnue";
+  const refs=(Array.isArray(raw.references)?raw.references:[]).filter(r=>r&&typeof r==="object").map(r=>({
+    sujet:typeof r.sujet==="string"?r.sujet.trim():"",
+    annee:r.annee!==undefined&&r.annee!==null?String(r.annee).trim():"",
+    qcm:r.qcm!==undefined&&r.qcm!==null?String(r.qcm).trim():""
+  }));
+  refs.forEach(r=>{if(r.annee)years.add(r.annee)});
+  srcLabels.set(key,label);
+  return{key,label,refs};
+}
+const yearList=()=>[...years].sort((a,b)=>yr(b)-yr(a)||b.localeCompare(a));   // du plus récent au plus ancien
+const srcName=k=>k==="annale"?"Annales":k==="genere"?"Générées":(srcLabels.get(k)||k);
+const SRC_ORDER=["annale","genere"];
+const srcSort=(a,b)=>{const x=SRC_ORDER.indexOf(a),y=SRC_ORDER.indexOf(b);return(x<0?99:x)-(y<0?99:y)||(a==="inconnue")-(b==="inconnue")||a.localeCompare(b)};
 function clean(list,where,warns,def){
   if(!Array.isArray(list)){warns.push(where+" : « questions » doit être une liste [ … ]");return[]}
   const out=[];
@@ -48,7 +76,7 @@ function clean(list,where,warns,def){
     const ok=x&&typeof x.question==="string"&&Array.isArray(x.bonnes)&&Array.isArray(x.mauvaises);
     const b=ok?x.bonnes.map(ans):[],m=ok?x.mauvaises.map(ans):[];
     if(!ok||b.includes(null)||m.includes(null)||b.length+m.length===0){warns.push(where+" : question n°"+(n+1)+" ignorée (attendu : question, bonnes et mauvaises, avec « reponse » dans chaque réponse)");return}
-    out.push({id:x.id!==undefined?String(x.id):null,type:"qcm",question:x.question,bonnes:uniq(b),mauvaises:uniq(m),cours:coursOf(x.cours,def)});
+    out.push({id:x.id!==undefined?String(x.id):null,type:"qcm",question:x.question,bonnes:uniq(b),mauvaises:uniq(m),cours:coursOf(x.cours,def),source:parseSource(x.source)});
   });
   return out;
 }
@@ -64,9 +92,11 @@ function parseFile(raw,file,warns){
   const fdef=asCours(meta.cours);
   raw.chapitres.forEach((c,n)=>{
     const titre=str(c&&c.meta&&c.meta.titre)||"Chapitre "+(n+1);
-    const questions=clean(c&&c.questions,file+" › "+titre,warns,{...fdef,...asCours(c&&c.meta&&c.meta.cours)});
+    const cc=asCours(c&&c.meta&&c.meta.cours);
+    const questions=clean(c&&c.questions,file+" › "+titre,warns,{...fdef,...cc});
     questions.forEach(q=>{q.chapitre=titre});
-    if(questions.length)f.chapitres.push({titre,questions});
+    const fichier=[cc.fichier,fdef.fichier].find(x=>typeof x==="string"&&x.trim());   // PDF du chapitre (sinon celui du fichier)
+    if(questions.length)f.chapitres.push({titre,questions,fichier:fichier?fichier.trim():""});
   });
   return f;
 }
@@ -117,16 +147,26 @@ async function init(){
   themes=groupFiles(files);
   $("load").textContent=warns.length?"⚠ "+warns.join(" — "):"";
   $("load").style.color="var(--ko)";
-  $("settings").open=window.matchMedia?window.matchMedia("(min-width:861px)").matches:true;   // réglages repliés sur téléphone
+  $("settings").open=$("annset").open=window.matchMedia?window.matchMedia("(min-width:861px)").matches:true;   // réglages repliés sur téléphone
   showSetup();
 }
 
 // ----- Accueil : arbre thèmes › sections › chapitres + panneau « Ton QCM » -----
-const qcount=cs=>cs.reduce((n,c)=>n+c.questions.length,0);
+function passBy(q,skip){   // une question passe si elle respecte tous les filtres (sauf celui qu’on ignore, pour compter les choix d’un menu)
+  if(skip!=="src"&&srcFilter!=="all"&&q.source.key!==srcFilter)return false;
+  if(skip!=="refs"&&minRefs>0&&q.source.refs.length<minRefs)return false;
+  if(skip!=="year"&&yearsOff.size>0&&!q.source.refs.some(r=>r.annee&&!yearsOff.has(r.annee)))return false;   // il faut au moins une référence dans une année cochée
+  return true;
+}
+const pass=q=>passBy(q,"");
+const filtersOn=()=>srcFilter!=="all"||minRefs>0||yearsOff.size>0;
+const qlist=c=>c.questions.filter(pass);          // questions d’un chapitre qui respectent le filtre d’origine
+const qcount=cs=>cs.reduce((n,c)=>n+qlist(c).length,0);
 const allChaps=()=>themes.flatMap(t=>t.chapitres);
 const selected=()=>allChaps().filter(c=>sel.has(c));
 function setAll(chs,on){chs.forEach(c=>on?sel.add(c):sel.delete(c))}
 function toggleSet(set,x){set.has(x)?set.delete(x):set.add(x);renderTree()}
+const courseOf=chs=>{const f=[...new Set(chs.map(c=>c.fichier))];return f.length===1&&f[0]?f[0]:""};   // le PDF d’un groupe, s’il n’y en a qu’un et que tous ses chapitres y sont rattachés
 const DOWN="m6 9 6 6 6-6",UP="m18 15-6-6-6 6";
 function row(o){   // une ligne : flèche (ouvrir/fermer), case à cocher, titre, nombre de QCM, bouton Lancer
   const d=document.createElement("div");d.className="item lvl"+o.lvl+(o.checked||o.partial?" on":"");
@@ -142,14 +182,16 @@ function row(o){   // une ligne : flèche (ouvrir/fermer), case à cocher, titre
   if(o.sub){const x=document.createElement("small");x.textContent=o.sub;m.append(x)}
   const n=document.createElement("span");n.className="cnt";n.textContent=o.count+" QCM";
   const p=document.createElement("button");p.className="play";p.textContent="▶ Lancer";p.disabled=o.count===0;p.onclick=o.onPlay;
-  d.append(c,m,n,p);return d;
+  let k=null;
+  if(o.course){k=document.createElement("button");k.className="play crs";k.textContent="📖 Cours";k.title="Consulter le cours";k.setAttribute("aria-label","Ouvrir le cours : "+o.title);k.onclick=()=>openCourseMenu(o.course)}
+  d.append(c,m,n,...(k?[k]:[]),p);return d;
 }
 function renderTree(){
   const L=$("treelist");L.innerHTML="";
   const ck=(chs)=>{const k=chs.filter(c=>sel.has(c)).length;return{k,all:chs.length>0&&k===chs.length,partial:k>0&&k<chs.length}};
   themes.forEach(t=>{
     const a=ck(t.chapitres),opened=openT.has(t);
-    L.append(row({lvl:0,open:opened,onChev:()=>toggleSet(openT,t),checked:a.all,partial:a.partial,title:t.nom,
+    L.append(row({lvl:0,open:opened,onChev:()=>toggleSet(openT,t),checked:a.all,partial:a.partial,title:t.nom,course:courseOf(t.chapitres),
       sub:[t.description,t.sections.length>1?t.sections.length+" sections":"",t.chapitres.length+" chapitre(s)",a.partial?a.k+" coché(s)":""].filter(Boolean).join(" · "),
       count:qcount(t.chapitres),onToggle:e=>{setAll(t.chapitres,e.target.checked);renderTree()},
       onMain:()=>toggleSet(openT,t),onPlay:()=>launch(t.chapitres)}));
@@ -158,7 +200,7 @@ function renderTree(){
       const sOpen=!sec.show||openS.has(sec);   // sans en-tête de section, son contenu est directement visible
       if(sec.show){
         const b=ck(sec.chapitres);
-        L.append(row({lvl:1,open:sOpen,onChev:()=>toggleSet(openS,sec),checked:b.all,partial:b.partial,title:sec.nom,
+        L.append(row({lvl:1,open:sOpen,onChev:()=>toggleSet(openS,sec),checked:b.all,partial:b.partial,title:sec.nom,course:courseOf(sec.chapitres),
           sub:[sec.description,sec.showFiles?sec.files.length+" cours":"",sec.chapitres.length+" chapitre(s)",b.k>0?b.k+" coché(s)":""].filter(Boolean).join(" · "),count:qcount(sec.chapitres),
           onToggle:e=>{setAll(sec.chapitres,e.target.checked);renderTree()},onMain:()=>toggleSet(openS,sec),onPlay:()=>launch(sec.chapitres)}));
       }
@@ -168,13 +210,13 @@ function renderTree(){
         let cl=l;
         if(sec.showFiles){   // plusieurs cours dans la même section : un sous-groupe par titre
           const c=ck(fl.chapitres),fOpen=openF.has(fl);
-          L.append(row({lvl:l,open:fOpen,onChev:()=>toggleSet(openF,fl),checked:c.all,partial:c.partial,title:fl.titre,
+          L.append(row({lvl:l,open:fOpen,onChev:()=>toggleSet(openF,fl),checked:c.all,partial:c.partial,title:fl.titre,course:courseOf(fl.chapitres),
             sub:[fl.description,fl.chapitres.length+" chapitre(s)",c.k>0?c.k+" coché(s)":""].filter(Boolean).join(" · "),count:qcount(fl.chapitres),
             onToggle:e=>{setAll(fl.chapitres,e.target.checked);renderTree()},onMain:()=>toggleSet(openF,fl),onPlay:()=>launch(fl.chapitres)}));
           if(!fOpen)return;
           cl=l+1;
         }
-        fl.chapitres.forEach(c=>L.append(row({lvl:cl,checked:sel.has(c),title:c.titre,count:c.questions.length,
+        fl.chapitres.forEach(c=>L.append(row({lvl:cl,checked:sel.has(c),title:c.titre,count:qlist(c).length,
           onToggle:e=>{setAll([c],e.target.checked);renderTree()},onMain:()=>{setAll([c],!sel.has(c));renderTree()},onPlay:()=>launch([c])})));
       });
     });
@@ -204,7 +246,8 @@ function chipGroups(){   // résumé de la sélection : un thème, une section o
 }
 function renderPanel(){
   const cs=selected(),n=qcount(cs);
-  $("selinfo").textContent=n?cs.length+" chapitre(s) · "+n+" QCM disponible(s)":"Rien de sélectionné : coche des thèmes, des sections ou des chapitres, ou utilise « ▶ Lancer » sur une ligne.";
+  renderSrc(cs);
+  $("selinfo").textContent=n?cs.length+" chapitre(s) · "+n+" QCM disponible(s)"+(filtersOn()?" · filtres actifs":""):cs.length?"Aucun QCM ne correspond à ces filtres.":"Rien de sélectionné : coche des thèmes, des sections ou des chapitres, ou utilise « ▶ Lancer » sur une ligne.";
   $("chips").innerHTML="";
   chipGroups().forEach(g=>{
     const c=document.createElement("span");c.className="chip";c.append(document.createTextNode(g.label));
@@ -212,6 +255,26 @@ function renderPanel(){
     b.onclick=()=>{setAll(g.chs,false);renderTree()};c.append(b);$("chips").append(c);
   });
   updateStart();
+}
+function renderSrc(cs){   // menus de filtre : chaque choix affiche le nombre de QCM obtenu sur la sélection (ou sur tout si rien n’est coché), en tenant compte des autres filtres
+  const all=allChaps().flatMap(c=>c.questions),allKeys=new Set(all.map(q=>q.source.key)),hasRefs=all.some(q=>q.source.refs.length);
+  $("srcrow").classList.toggle("hidden",allKeys.size<2&&srcFilter==="all");   // inutile si toutes les questions ont la même origine
+  $("annset").classList.toggle("hidden",!hasRefs&&!minRefs&&!yearsOff.size);      // filtres d’annales : seulement si les données ont des références
+  const base=(cs.length?cs:allChaps()).flatMap(c=>c.questions);
+  const fill=(el,items,cur)=>{el.innerHTML="";items.forEach(([v,t])=>{const o=document.createElement("option");o.value=v;o.textContent=t;el.append(o)});el.value=cur};
+  const ps=base.filter(q=>passBy(q,"src")),cnt=new Map();
+  ps.forEach(q=>cnt.set(q.source.key,(cnt.get(q.source.key)||0)+1));
+  fill($("srcsel"),[["all","Toutes les origines · "+ps.length],...[...allKeys].sort(srcSort).map(k=>[k,srcName(k)+" uniquement · "+(cnt.get(k)||0)])],srcFilter);
+  const py=base.filter(q=>passBy(q,"year")),box=$("yrlist"),fo=document.activeElement&&document.activeElement.dataset?document.activeElement.dataset.yr:undefined;
+  box.innerHTML="";   // une case par année, avec le nombre de QCM concernés
+  yearList().forEach(y=>{
+    const n=py.filter(q=>q.source.refs.some(r=>r.annee===y)).length;
+    const l=document.createElement("label");l.className="chk yr";
+    const c=document.createElement("input");c.type="checkbox";c.checked=!yearsOff.has(y);c.dataset.yr=y;
+    c.onchange=()=>{c.checked?yearsOff.delete(y):yearsOff.add(y);renderTree()};
+    l.append(c,document.createTextNode(y+" · "+n));box.append(l);
+    if(fo===y)c.focus();   // le clavier garde sa place après le rafraîchissement
+  });
 }
 function updateStart(){
   const n=qcount(selected()),k=Math.min(Math.max(1,+$("nq").value||5),n);
@@ -255,7 +318,7 @@ function build(q,o){
   const hi=Math.min(o.kmax,G,total);
   const k=lo<=hi?rnd(lo,hi):hi;             // nombre de bonnes réponses tiré au hasard
   const m=Math.min(M,total-k);              // le reste : mauvaises réponses
-  const mk=v=>a=>({t:a.reponse,why:a.explication,ok:v});
+  const mk=v=>a=>({t:a.reponse,why:a.explication,ok:v,annale:a.annale});
   const good=shuffle(q.bonnes).slice(0,k).map(mk(true));
   let opts;
   if(k===0&&m>=2){
@@ -272,15 +335,26 @@ function build(q,o){
       opts.push({t:NONE_TEXT,why:NONE_WHY_FALSE,ok:false});
     }
   }
-  return{question:q.question,path:q.path,cours:q.cours,opts,answered:false,skipped:false,sel:[],perfect:false};
+  return{question:q.question,path:q.path,cours:q.cours,source:q.source,opts,answered:false,skipped:false,sel:[],perfect:false};
+}
+function wshuffle(a){   // tirage au hasard favorisant les questions les plus souvent tombées (poids = 1 + 2 × nombre de références)
+  return a.map(q=>({q,k:Math.pow(Math.random(),1/(1+2*q.source.refs.length))})).sort((x,y)=>y.k-x.k).map(x=>x.q);
+}
+function filterLabel(){
+  const p=[];
+  if(srcFilter!=="all")p.push(srcName(srcFilter)+" uniquement");
+  if(yearsOff.size){const on=yearList().filter(y=>!yearsOff.has(y));p.push("annales "+(on.length===0?"(aucune année cochée)":on.length>3?on.length+" années":on.join(", ")))}
+  if(minRefs)p.push("tombées au moins "+minRefs+" fois");
+  if(favor)p.push("favorise les plus tombées");
+  return p.length?" · "+p.join(" · "):"";
 }
 function start(){
-  const qs=current.flatMap(c=>c.questions);
+  const qs=current.flatMap(qlist);
   const o={total:Math.max(2,+$("total").value||5),kmax:Math.max(0,$("kmax").value===""?5:+$("kmax").value)};
   const nq=Math.max(1,Math.min(+$("nq").value||5,qs.length));
-  quiz=shuffle(qs).slice(0,nq).map(q=>build(q,o));
+  quiz=(favor?wshuffle(qs):shuffle(qs)).slice(0,nq).map(q=>build(q,o));
   i=0;$("err").textContent="";closeCourse();
-  $("curtheme").textContent=quizLabel(current);$("curdesc").textContent="";$("sub").classList.add("hidden");
+  $("curtheme").textContent=quizLabel(current)+filterLabel();$("curdesc").textContent="";$("sub").classList.add("hidden");
   $("setup").classList.add("hidden");$("end").classList.add("hidden");$("quiz").classList.remove("hidden");
   show();
 }
@@ -296,7 +370,7 @@ function go(n){i=n;show()}
 function show(){
   const q=quiz[i];
   $("count").textContent="Question "+(i+1)+" / "+quiz.length;
-  $("q").textContent=q.question;$("qtags").textContent=q.path;$("fb").textContent="";$("opts").innerHTML="";
+  $("q").textContent=q.question;$("qtags").textContent=q.path;renderSource(q.source);$("fb").textContent="";$("opts").innerHTML="";
   const cb=$("seecourse");cb.classList.toggle("hidden",!q.cours);if(q.cours)cb.textContent="Voir dans le cours · p. "+q.cours.page;
   if(q.cours&&!$("course").classList.contains("hidden"))openCourse(q.cours);   // volet déjà ouvert : il suit la question
   q.opts.forEach((o,n)=>{
@@ -323,6 +397,16 @@ function show(){
   $("prev").disabled=i===0;
   renderNav();
 }
+function renderSource(s){   // pastille d’origine + références d’annales
+  const b=$("qsrc");b.innerHTML="";
+  if(!s||s.key==="inconnue"){b.classList.add("hidden");return}
+  b.classList.remove("hidden");
+  const t=document.createElement("span");t.className="badge "+s.key;t.textContent=(s.key==="annale"?"📚 ":s.key==="genere"?"✨ ":"")+s.label;b.append(t);
+  if(s.refs.length){
+    const r=document.createElement("span");r.className="refs";
+    r.textContent=s.refs.map(x=>[x.sujet,x.annee,x.qcm?"QCM "+x.qcm:""].filter(Boolean).join(" ")).join(" · ");b.append(r);
+  }
+}
 function validate(){
   const q=quiz[i];if(q.answered)return;
   q.sel=[...$("opts").querySelectorAll("input")].map(c=>c.checked);
@@ -346,6 +430,14 @@ function finish(){
   closeCourse();$("quiz").classList.add("hidden");$("end").classList.remove("hidden");
   $("score").textContent="Score : "+ok+" / "+quiz.length+" ("+Math.round(ok/quiz.length*100)+" %)";
   $("unans").textContent=un?un+" question(s) sans réponse.":"";
+  const g=new Map();   // résultats par origine (annale / généré…)
+  quiz.forEach(q=>{const x=g.get(q.source.key)||{n:0,ok:0,un:0};x.n++;if(q.perfect)x.ok++;if(!q.answered)x.un++;g.set(q.source.key,x)});
+  const bs=$("bysrc");bs.innerHTML="";
+  if(g.size>1){
+    const h=document.createElement("strong");h.textContent="Par origine";bs.append(h);
+    [...g.keys()].sort(srcSort).forEach(k=>{const x=g.get(k),d=document.createElement("div");
+      d.textContent=(srcLabels.get(k)||k)+" : "+x.ok+" / "+x.n+" juste(s)"+(x.n-x.un?" ("+Math.round(x.ok/(x.n-x.un)*100)+" % des questions répondues)":"")+(x.un?" · "+x.un+" sans réponse":"");bs.append(d)});
+  }
   const ko=quiz.map((q,n)=>q.answered&&!q.perfect?"n°"+(n+1)+" "+q.question:null).filter(Boolean);
   $("miss").textContent=ko.length?"À revoir : "+ko.join(" · "):(un?"":"Sans faute, bravo !");
 }
@@ -401,7 +493,10 @@ function openCourse(c){
   $("cname").textContent=c.fichier.split("/").pop();
   showPage(c.page);
 }
-function closeCourse(){cv.token++;setBig(false,true);$("course").classList.add("hidden");$("quiz").classList.remove("course-open")}
+let cmenu=false;   // cours ouvert depuis l’accueil (en plein écran par-dessus la page) et non pendant un QCM
+function placeCourse(inQuiz){const c=$("course"),t=document.querySelector(inQuiz?".qlayout":"main");if(c.parentNode!==t)t.append(c)}
+function openCourseMenu(f){cv.zoom=1;placeCourse(false);cmenu=true;$("course").classList.add("menu");setBig(true,true);openCourse({fichier:f,page:1})}
+function closeCourse(){cv.token++;setBig(false,true);cmenu=false;$("course").classList.remove("menu");$("course").classList.add("hidden");$("quiz").classList.remove("course-open");placeCourse(true)}
 const isNarrow=()=>window.matchMedia&&window.matchMedia("(max-width:860px)").matches;
 function setBig(on,quiet){   // agrandir / réduire le volet (le zoom revient à « ajusté à la largeur »)
   big=on;$("course").classList.toggle("big",on);$("cbig").textContent=on?"Réduire":"Agrandir";
@@ -460,9 +555,14 @@ $("selnone").onclick=()=>{sel.clear();renderTree()};
 $("expall").onclick=()=>{themes.forEach(t=>{openT.add(t);t.sections.forEach(s=>{openS.add(s);s.files.forEach(f=>openF.add(f))})});renderTree()};
 $("colall").onclick=()=>{openT.clear();openS.clear();openF.clear();renderTree()};
 document.querySelectorAll(".step").forEach(b=>b.onclick=()=>{
-  const inp=$(b.dataset.for);inp.value=Math.max(+inp.min||0,(+inp.value||0)+(+b.dataset.d));updateStart();
+  const inp=$(b.dataset.for);inp.value=Math.max(+inp.min||0,(+inp.value||0)+(+b.dataset.d));inp.dispatchEvent(new Event("input"));
 });
 ["nq","total","kmax"].forEach(id=>$(id).oninput=updateStart);
+$("srcsel").onchange=e=>{srcFilter=e.target.value;renderTree()};
+$("yrall").onclick=()=>{yearsOff.clear();renderTree()};
+$("yrnone").onclick=()=>{years.forEach(y=>yearsOff.add(y));renderTree()};
+$("minref").oninput=e=>{minRefs=Math.max(0,Math.floor(+e.target.value||0));renderTree()};
+$("favor").onchange=e=>{favor=e.target.checked};
 $("seecourse").onclick=()=>{const q=quiz[i];if(q&&q.cours)openCourse(q.cours)};
 $("cclose").onclick=closeCourse;
 $("cbig").onclick=()=>setBig(!big);
@@ -473,7 +573,7 @@ $("pdfpage").onclick=()=>{if(!big&&!isNarrow())setBig(true)};   // un clic sur l
 document.addEventListener("keydown",e=>{   // clavier : ← → pages, + − zoom, Échap réduit
   if($("course").classList.contains("hidden"))return;
   const t=e.target,tag=t&&t.tagName;if(tag==="INPUT"||tag==="TEXTAREA"||(t&&t.isContentEditable))return;
-  if(e.key==="Escape"&&big)setBig(false);
+  if(e.key==="Escape"){if(cmenu)closeCourse();else if(big)setBig(false)}
   else if(e.key==="ArrowLeft"){e.preventDefault();showPage(cv.page-1)}
   else if(e.key==="ArrowRight"){e.preventDefault();showPage(cv.page+1)}
   else if(e.key==="+"||e.key==="="){zoomBy(0.25)}

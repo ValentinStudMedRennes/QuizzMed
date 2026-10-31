@@ -17,6 +17,9 @@
         {
           "id": "cardio-physio-vo2-001",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la définition de la consommation d'oxygène (V'O2), quelles propositions sont exactes ?",
           "cours": {
             "page": 1,
@@ -32,10 +35,6 @@
               "explication": "C'est un débit."
             },
             {
-              "reponse": "La consommation maximale d'oxygène est un bon reflet du processus énergétique aérobie.",
-              "explication": "La V'O2 reflète les oxydations cellulaires. (réponse déduite du cours)"
-            },
-            {
               "reponse": "L'oxygène est utilisé par les mitochondries.",
               "explication": "Après avoir été prélevé par les poumons et transporté par l'hémoglobine."
             },
@@ -45,10 +44,6 @@
             }
           ],
           "mauvaises": [
-            {
-              "reponse": "La consommation maximale d'oxygène est un bon reflet du processus énergétique anaérobie.",
-              "explication": "Elle reflète le processus aérobie. (réponse déduite du cours)"
-            },
             {
               "reponse": "Elle s'exprime en litres, sans référence au temps.",
               "explication": "Elle s'exprime en litres par minute."
@@ -64,12 +59,19 @@
             {
               "reponse": "La consommation d'oxygène ne dépend que de la fonction pulmonaire.",
               "explication": "Elle dépend des poumons, du cœur et des vaisseaux, et du muscle."
+            },
+            {
+              "reponse": "L'oxygène est prélevé par le cœur puis transporté par les poumons.",
+              "explication": "Il est prélevé par les poumons et transporté par le sang grâce au cœur."
             }
           ]
         },
         {
           "id": "cardio-physio-vo2-002",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la place du métabolisme aérobie, quelles propositions sont exactes ?",
           "cours": {
             "page": 1,
@@ -115,6 +117,9 @@
         {
           "id": "cardio-physio-vo2-003",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les 3 niveaux dont dépend la consommation d'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 2,
@@ -168,16 +173,15 @@
         {
           "id": "cardio-physio-vo2-004",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'intérêt clinique de la consommation d'oxygène et du test d'effort, quelles propositions sont exactes ?",
           "cours": {
             "page": 2,
             "surligner": "donne une vision globale de l'état du patient"
           },
           "bonnes": [
-            {
-              "reponse": "La consommation maximale d'oxygène peut être mesurée au cours d'une épreuve d'effort.",
-              "explication": "Test d'effort avec mesure des échanges gazeux. (réponse déduite du cours)"
-            },
             {
               "reponse": "L'atteinte d'un seul système peut rester asymptomatique grâce à des mécanismes compensatoires.",
               "explication": "Précisé à l'oral."
@@ -209,18 +213,21 @@
               "explication": "Il permet de l'orienter."
             },
             {
-              "reponse": "La consommation maximale d'oxygène ne peut être mesurée qu'au repos.",
-              "explication": "Elle se mesure à l'effort. (réponse déduite du cours)"
-            },
-            {
               "reponse": "Une dyspnée d'effort est toujours d'origine pulmonaire.",
               "explication": "Elle peut avoir une origine cardiaque, pulmonaire ou musculaire, souvent multifactorielle."
+            },
+            {
+              "reponse": "L'épreuve d'effort avec mesure des échanges gazeux ne s'intéresse qu'à la fonction cardiaque.",
+              "explication": "Elle donne une vision globale (poumon, cœur, muscle)."
             }
           ]
         },
         {
           "id": "cardio-physio-vo2-005",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les métabolismes énergétiques selon la durée de l'exercice (diapositive n°7), quelles propositions sont exactes ?",
           "cours": {
             "page": 2,
@@ -281,6 +288,9 @@
         {
           "id": "cardio-physio-vo2-006",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant le calcul de la consommation d'oxygène à partir des gaz expirés, quelles propositions sont exactes ?",
           "cours": {
             "page": 3,
@@ -330,6 +340,9 @@
         {
           "id": "cardio-physio-vo2-007",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Application : quelles valeurs de consommation d'oxygène sont correctement calculées (air ambiant, fraction inspirée en oxygène de 21 %) ?",
           "cours": {
             "page": 3,
@@ -375,6 +388,9 @@
         {
           "id": "cardio-physio-vo2-008",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les conditions de mesure des volumes gazeux, quelles propositions sont exactes ?",
           "cours": {
             "page": 3,
@@ -428,6 +444,9 @@
         {
           "id": "cardio-physio-vo2-009",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la composition de l'air (diapositive n°9), quelles propositions sont exactes ?",
           "cours": {
             "page": 3,
@@ -477,6 +496,9 @@
         {
           "id": "cardio-physio-vo2-010",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la mesure « directe » de la consommation d'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 3,
@@ -541,6 +563,9 @@
         {
           "id": "cardio-physio-vo2-011",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la consommation maximale d'oxygène et les types d'exercice, quelles propositions sont exactes ?",
           "cours": {
             "page": 4,
@@ -594,6 +619,9 @@
         {
           "id": "cardio-physio-vo2-012",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'exercice rectangulaire sous-maximal, quelles propositions sont exactes ?",
           "cours": {
             "page": 4,
@@ -647,6 +675,9 @@
         {
           "id": "cardio-physio-vo2-013",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'exercice triangulaire, quelles propositions sont exactes ?",
           "cours": {
             "page": 4,
@@ -704,6 +735,9 @@
         {
           "id": "cardio-physio-vo2-014",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les valeurs prédites de consommation maximale d'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 5,
@@ -757,6 +791,9 @@
         {
           "id": "cardio-physio-vo2-015",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'expression et l'ordre de grandeur de la consommation maximale d'oxygène (classification de Wasserman, valeurs à ne pas apprendre), quelles propositions sont exactes ?",
           "cours": {
             "page": 5,
@@ -817,6 +854,9 @@
         {
           "id": "cardio-physio-vo2-016",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'influence de la génétique sur la consommation maximale d'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 6,
@@ -866,6 +906,9 @@
         {
           "id": "cardio-physio-vo2-017",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les variations de la consommation maximale d'oxygène selon le sexe, quelles propositions sont exactes ?",
           "cours": {
             "page": 6,
@@ -907,6 +950,9 @@
         {
           "id": "cardio-physio-vo2-018",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'évolution de la consommation maximale d'oxygène avec l'âge, quelles propositions sont exactes ?",
           "cours": {
             "page": 6,
@@ -936,14 +982,6 @@
           ],
           "mauvaises": [
             {
-              "reponse": "Elle augmente jusqu'à l'âge de 40 ans.",
-              "explication": "Elle augmente avant 20 ans, puis reste stable jusqu'à 30 ans. (réponse déduite du cours)"
-            },
-            {
-              "reponse": "Elle augmente jusqu'à l'âge de 50 ans.",
-              "explication": "Elle augmente avant 20 ans, puis reste stable jusqu'à 30 ans. (réponse déduite du cours)"
-            },
-            {
               "reponse": "Après 30 ans, elle diminue d'environ 10 % par an.",
               "explication": "Environ 10 % tous les 10 ans."
             },
@@ -954,12 +992,23 @@
             {
               "reponse": "Après 60 ans, toute amélioration est impossible.",
               "explication": "L'adaptation à l'effort est possible à tout âge."
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène diminue dès l'âge de 10 ans.",
+              "explication": "Elle augmente avant 20 ans."
+            },
+            {
+              "reponse": "Un sujet âgé qui arrête le sport perd sa consommation maximale 3 fois moins vite qu'un sujet jeune.",
+              "explication": "Il la perd 3 fois plus vite."
             }
           ]
         },
         {
           "id": "cardio-physio-vo2-019",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'étude longitudinale de Katzel (diapositive n°19), quelles propositions sont exactes ?",
           "cours": {
             "page": 7,
@@ -1013,16 +1062,15 @@
         {
           "id": "cardio-physio-vo2-020",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'effet de l'entraînement sur la consommation maximale d'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 7,
             "surligner": "à au moins 75 % de la fréquence cardiaque maximale"
           },
           "bonnes": [
-            {
-              "reponse": "Elle augmente avec l'entraînement.",
-              "explication": "Description du cours. (réponse déduite du cours)"
-            },
             {
               "reponse": "Il faut 2 à 3 semaines d'activité physique d'au moins 30 minutes, plusieurs fois par semaine.",
               "explication": "Description du cours."
@@ -1070,6 +1118,9 @@
         {
           "id": "cardio-physio-vo2-021",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant le désentraînement et l'activité physique chez le malade, quelles propositions sont exactes ?",
           "cours": {
             "page": 7,
@@ -1127,6 +1178,9 @@
         {
           "id": "cardio-physio-vo2-022",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les effets de l'entraînement observés lors d'un exercice triangulaire (diapositive n°21), quelles propositions sont exactes ?",
           "cours": {
             "page": 7,
@@ -1180,6 +1234,9 @@
         {
           "id": "cardio-physio-vo2-023",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la consommation maximale d'oxygène en altitude, quelles propositions sont exactes ?",
           "cours": {
             "page": 7,
@@ -1229,6 +1286,9 @@
         {
           "id": "cardio-physio-vo2-024",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les mécanismes de la baisse de la consommation maximale d'oxygène en altitude, quelles propositions sont exactes ?",
           "cours": {
             "page": 7,
@@ -1282,6 +1342,9 @@
         {
           "id": "cardio-physio-vo2-025",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'exemple du sommet de l'Everest, quelles propositions sont exactes ?",
           "cours": {
             "page": 8,
@@ -1327,6 +1390,74 @@
               "explication": "Elle atteint le niveau d'un patient à greffer."
             }
           ]
+        },
+        {
+          "id": "cardio-physio-vo2-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2020-2021",
+                "qcm": 13
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2018-2019",
+                "qcm": 21
+              }
+            ]
+          },
+          "question": "Concernant la consommation maximale d'oxygène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "augmente avant 20 ans, reste stable de 20 à"
+          },
+          "bonnes": [
+            {
+              "reponse": "La consommation maximale d'oxygène est un bon reflet des processus énergétiques aérobies.",
+              "annale": true,
+              "explication": "Elle reflète les oxydations cellulaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène peut être mesurée au cours d'une épreuve d'effort.",
+              "annale": true,
+              "explication": "Test d'effort avec mesure des échanges gazeux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène augmente avec l'entraînement.",
+              "annale": true,
+              "explication": "De 10 à 20 %. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La consommation maximale d'oxygène est un bon reflet du processus énergétique anaérobie.",
+              "annale": true,
+              "explication": "Elle reflète le processus aérobie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène augmente jusqu'à l'âge de 50 ans.",
+              "annale": true,
+              "explication": "Elle augmente avant 20 ans et reste stable jusqu'à 30 ans. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La consommation maximale d'oxygène augmente jusqu'à l'âge de 40 ans.",
+              "annale": true,
+              "explication": "Elle augmente avant 20 ans et reste stable jusqu'à 30 ans. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Après 30 ans, la consommation maximale d'oxygène diminue d'environ 10 % par an.",
+              "explication": "Environ 10 % tous les 10 ans."
+            },
+            {
+              "reponse": "Le gain de consommation maximale lié à l'entraînement est maximal dès 2 semaines.",
+              "explication": "Il est maximal à 6 mois."
+            }
+          ]
         }
       ]
     },
@@ -1338,6 +1469,9 @@
         {
           "id": "cardio-physio-vo2-026",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant les facteurs limitants de la consommation maximale d'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 8,
@@ -1391,6 +1525,9 @@
         {
           "id": "cardio-physio-vo2-027",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la ventilation, quelles propositions sont exactes ?",
           "cours": {
             "page": 8,
@@ -1440,6 +1577,9 @@
         {
           "id": "cardio-physio-vo2-028",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la réserve ventilatoire, quelles propositions sont exactes ?",
           "cours": {
             "page": 9,
@@ -1489,6 +1629,9 @@
         {
           "id": "cardio-physio-vo2-029",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant la diffusion alvéolo-capillaire à l'effort, quelles propositions sont exactes ?",
           "cours": {
             "page": 9,
@@ -1538,6 +1681,9 @@
         {
           "id": "cardio-physio-vo2-030",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'équation de Fick et le transport de l'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 9,
@@ -1551,10 +1697,6 @@
             {
               "reponse": "Le transport de l'oxygène influence la consommation maximale par le taux d'hémoglobine et le débit cardiaque.",
               "explication": "Description du cours."
-            },
-            {
-              "reponse": "La fréquence cardiaque et le volume d'éjection systolique influencent directement le débit cardiaque.",
-              "explication": "Débit cardiaque = volume d'éjection systolique × fréquence cardiaque. (réponse déduite du cours)"
             },
             {
               "reponse": "Chez le sujet entraîné, le volume d'éjection systolique atteint 120 à 130 millilitres.",
@@ -1579,27 +1721,92 @@
               "explication": "Il l'influence."
             },
             {
-              "reponse": "Le débit cardiaque augmente en cas de bradycardie.",
-              "explication": "À volume d'éjection égal, une baisse de la fréquence cardiaque diminue le débit cardiaque. (réponse déduite du cours)"
+              "reponse": "Le volume d'éjection systolique s'exprime en litres par minute.",
+              "explication": "Il s'exprime en millilitres par battement."
             }
           ]
         },
         {
           "id": "cardio-physio-vo2-031",
           "type": "qcm",
-          "question": "Concernant les valeurs du débit cardiaque, quelles propositions sont exactes ?",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2024-2025",
+                "qcm": 37
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2024-2025",
+                "qcm": 36
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2023-2024",
+                "qcm": 22
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2022-2023",
+                "qcm": 47
+              }
+            ]
+          },
+          "question": "Concernant le débit cardiaque, quelles propositions sont exactes ?",
           "cours": {
             "page": 9,
             "surligner": "le débit cardiaque passe d'environ"
           },
           "bonnes": [
             {
-              "reponse": "Au repos, chez l'adulte sain, le débit cardiaque est d'environ 5 à 6 litres par minute.",
+              "reponse": "Chez l'adulte sain au repos, le débit cardiaque est d'environ 5 à 6 litres par minute.",
+              "annale": true,
               "explication": "70 × 70 à 80 millilitres ≈ 5 litres par minute. (réponse déduite du cours)"
             },
             {
+              "reponse": "La fréquence cardiaque influence directement le débit cardiaque.",
+              "annale": true,
+              "explication": "Débit cardiaque = fréquence cardiaque × volume d'éjection systolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le volume d'éjection systolique influence directement le débit cardiaque.",
+              "annale": true,
+              "explication": "Débit cardiaque = fréquence cardiaque × volume d'éjection systolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le volume télédiastolique ventriculaire influence directement le débit cardiaque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il conditionne la précharge, donc le volume d'éjection systolique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les résistances périphériques totales influencent directement le débit cardiaque.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Elles déterminent la postcharge ; le caractère « direct » attendu par le sujet n'a pas pu être confirmé. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le débit cardiaque augmente en cas d'élévation de la précharge.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Loi de Frank-Starling. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
               "reponse": "Le débit cardiaque est plus important à l'effort qu'au repos.",
+              "annale": true,
               "explication": "Il passe d'environ 5 à 25 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le débit cardiaque peut être mesuré en échocardiographie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'échocardiographie-Doppler permet d'estimer le volume d'éjection et le débit. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
             },
             {
               "reponse": "À l'effort, le débit cardiaque peut atteindre environ 25 litres par minute.",
@@ -1608,16 +1815,30 @@
           ],
           "mauvaises": [
             {
-              "reponse": "Au repos, le débit cardiaque est de 2 à 3 litres par minute.",
+              "reponse": "Chez l'adulte sain au repos, le débit cardiaque est de 2 à 3 litres par minute.",
+              "annale": true,
               "explication": "Il est d'environ 5 litres par minute. (réponse déduite du cours)"
             },
             {
-              "reponse": "Au repos, le débit cardiaque est de 8 à 10 litres par minute.",
+              "reponse": "Chez l'adulte sain au repos, le débit cardiaque est de 8 à 10 litres par minute.",
+              "annale": true,
               "explication": "Il est d'environ 5 litres par minute. (réponse déduite du cours)"
             },
             {
-              "reponse": "Au repos, le débit cardiaque est de 12 à 15 litres par minute.",
+              "reponse": "Chez l'adulte sain au repos, le débit cardiaque est de 12 à 15 litres par minute.",
+              "annale": true,
               "explication": "Il est d'environ 5 litres par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le débit cardiaque augmente en cas d'élévation de la postcharge.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Une postcharge plus élevée diminue le volume d'éjection. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le débit cardiaque augmente en cas de bradycardie.",
+              "annale": true,
+              "explication": "À volume d'éjection égal, une baisse de la fréquence diminue le débit. (réponse déduite du cours)"
             },
             {
               "reponse": "À l'effort, le débit cardiaque peut atteindre environ 250 litres par minute.",
@@ -1632,6 +1853,9 @@
         {
           "id": "cardio-physio-vo2-032",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'extraction musculaire de l'oxygène, quelles propositions sont exactes ?",
           "cours": {
             "page": 9,
@@ -1685,6 +1909,9 @@
         {
           "id": "cardio-physio-vo2-033",
           "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
           "question": "Concernant l'intérêt global de la consommation d'oxygène (conclusion), quelles propositions sont exactes ?",
           "cours": {
             "page": 10,

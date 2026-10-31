@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QCM de révision</title>
-<link rel="stylesheet" href="style.css?v=12">
+<link rel="stylesheet" href="style.css?v=15">
 </head>
 <body>
 <main>
@@ -26,6 +26,15 @@
 <strong>Ton QCM</strong>
 <div class="hint" id="selinfo"></div>
 <div id="chips" class="chips"></div>
+<div class="stepper" id="srcrow"><label for="srcsel">Origine des questions</label><select id="srcsel"></select></div>
+<details id="annset" class="hidden" open>
+<summary>Annales : filtres et tirage</summary>
+<div class="rowhead"><strong>Années d’annales</strong><span><button class="link" id="yrall">Toutes</button><button class="link" id="yrnone">Aucune</button></span></div>
+<div id="yrlist" class="yrlist"></div>
+<div class="hint">Décocher une année écarte aussi les questions sans référence d’annale.</div>
+<div class="stepper"><label for="minref">Tombée au moins … fois <span class="hint">(0 = peu importe)</span></label><span><button class="step" data-for="minref" data-d="-1" aria-label="Moins de fois">−</button><input type="number" id="minref" value="0" min="0"><button class="step" data-for="minref" data-d="1" aria-label="Plus de fois">+</button></span></div>
+<label class="chk"><input type="checkbox" id="favor"> Favoriser les questions les plus souvent tombées</label>
+</details>
 <details id="settings" open>
 <summary>Réglages</summary>
 <div class="stepper"><label for="nq">Nombre de questions</label><span><button class="step" data-for="nq" data-d="-1" aria-label="Moins de questions">−</button><input type="number" id="nq" value="5" min="1"><button class="step" data-for="nq" data-d="1" aria-label="Plus de questions">+</button></span></div>
@@ -45,6 +54,7 @@
 <div class="card">
 <div class="hint" id="count"></div>
 <div class="qhead"><div class="qtags" id="qtags"></div><button class="alt cbtn hidden" id="seecourse">Voir dans le cours</button></div>
+<div id="qsrc" class="qsrc hidden"></div>
 <h2 id="q" style="font-size:1.2rem"></h2>
 <div class="hint">Coche toutes les bonnes réponses.</div>
 <div id="opts"></div>
@@ -77,10 +87,11 @@
 
 <section id="end" class="hidden">
 <div class="card endcard"><h2 id="score"></h2><div id="unans" class="hint"></div><div id="miss" class="hint" style="margin-top:6px"></div>
+<div id="bysrc" class="bysrc"></div>
 <div class="row"><button id="review">Revoir les questions</button><button class="alt" id="again">Refaire un QCM</button><button class="alt" id="back">Retour aux thèmes</button></div></div>
 </section>
 </main>
 
-<script src="script.js?v=12"></script>
+<script src="script.js?v=15"></script>
 </body>
 </html>
