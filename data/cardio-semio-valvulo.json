@@ -1,0 +1,3284 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Sémiologie",
+    "titre": "Valvulopathies : sémiologie et raisonnement clinique",
+    "description": "Repères, mécanismes, souffles, diagnostic et prise en charge des principales valvulopathies (rétrécissement et insuffisance aortiques, insuffisance et rétrécissement mitraux, fuite tricuspide).",
+    "cours": {
+      "fichier": "cours/cardio-semio-valvulo.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction et repères"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-valvulo-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'approche d'un patient porteur d'un souffle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "repérer ce qui a changé dans la vie du patient"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle cardiaque n'est pas anodin : il peut conduire à une décision thérapeutique importante.",
+              "explication": "Introduction du cours."
+            },
+            {
+              "reponse": "Un patient peut réduire progressivement son activité sans se considérer comme malade.",
+              "explication": "« Je ne monte plus les escaliers… mais c'est sûrement l'âge »."
+            },
+            {
+              "reponse": "Le 1er enjeu de l'interrogatoire est de repérer ce qui a changé dans la vie du patient, notamment sa capacité à l'effort.",
+              "explication": "Introduction du cours."
+            },
+            {
+              "reponse": "Pour chaque valve, on raisonne selon la séquence mécanisme → souffle → retentissement.",
+              "explication": "Objectifs du cours."
+            },
+            {
+              "reponse": "Il faut écouter le patient avant d'écouter son souffle.",
+              "explication": "Message de la diapositive n°41."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle cardiaque est le plus souvent anodin et ne justifie pas d'exploration.",
+              "explication": "Il peut conduire à une décision thérapeutique importante."
+            },
+            {
+              "reponse": "Un patient qui attribue sa gêne à l'âge n'a pas de valvulopathie significative.",
+              "explication": "Cette phrase peut révéler une valvulopathie devenue symptomatique."
+            },
+            {
+              "reponse": "L'interrogatoire porte avant tout sur les symptômes de repos.",
+              "explication": "Il commence à l'effort."
+            },
+            {
+              "reponse": "On raisonne d'abord sur l'intensité du souffle, qui détermine la sévérité.",
+              "explication": "On raisonne mécanisme → souffle → retentissement ; l'intensité ne reflète pas la sévérité."
+            },
+            {
+              "reponse": "Il faut ausculter le souffle avant d'interroger le patient sur ses capacités.",
+              "explication": "Il faut écouter le patient avant d'écouter son souffle."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les valves cardiaques et les bruits du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "fermeture des valves mitrale et tricuspide"
+          },
+          "bonnes": [
+            {
+              "reponse": "La mitrale (à gauche) et la tricuspide (à droite) sont les valves atrioventriculaires.",
+              "explication": "Diapositive n°4."
+            },
+            {
+              "reponse": "Les valves aortique et pulmonaire sont ouvertes pendant l'éjection systolique.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "Les valves mitrale et tricuspide sont ouvertes pendant le remplissage diastolique.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "Le 1er bruit du cœur correspond à la fermeture des valves mitrale et tricuspide.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le 2e bruit du cœur correspond à la fermeture des valves aortique et pulmonaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les valves s'ouvrent et se ferment selon les différences de pression.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La valve mitrale est la valve atrioventriculaire droite.",
+              "explication": "Elle est à gauche ; la tricuspide est à droite."
+            },
+            {
+              "reponse": "Le 1er bruit du cœur correspond à la fermeture des valves aortique et pulmonaire.",
+              "explication": "C'est le 2e bruit."
+            },
+            {
+              "reponse": "Les valves mitrale et tricuspide sont ouvertes pendant la systole ventriculaire.",
+              "explication": "Elles sont fermées en systole."
+            },
+            {
+              "reponse": "Les valves aortique et pulmonaire sont ouvertes pendant la diastole ventriculaire.",
+              "explication": "Elles sont fermées en diastole."
+            },
+            {
+              "reponse": "La tricuspide est une valve artérielle.",
+              "explication": "C'est une valve atrioventriculaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les 2 mécanismes des valvulopathies (obstacle ou fuite), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "crée une surcharge de pression du ventricule gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un rétrécissement crée un obstacle, avec une pression élevée en amont.",
+              "explication": "Diapositive n°6."
+            },
+            {
+              "reponse": "Une insuffisance laisse une partie du sang revenir en arrière, d'où une surcharge de volume.",
+              "explication": "Diapositive n°6."
+            },
+            {
+              "reponse": "Le rétrécissement aortique crée une surcharge de pression du ventricule gauche, d'où une hypertrophie.",
+              "explication": "Obstacle à l'éjection en systole."
+            },
+            {
+              "reponse": "L'insuffisance mitrale chronique crée une surcharge de volume de l'oreillette gauche et du ventricule gauche.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rétrécissement aortique crée une surcharge de volume du ventricule gauche.",
+              "explication": "Il crée une surcharge de pression."
+            },
+            {
+              "reponse": "L'insuffisance aortique chronique crée une surcharge de pression responsable d'une hypertrophie concentrique.",
+              "explication": "Elle crée une surcharge de volume, avec dilatation."
+            },
+            {
+              "reponse": "L'insuffisance mitrale crée une surcharge de volume de l'oreillette droite.",
+              "explication": "Elle concerne l'oreillette gauche et le ventricule gauche."
+            },
+            {
+              "reponse": "Un rétrécissement entraîne une pression basse en amont de l'obstacle.",
+              "explication": "La pression est élevée en amont."
+            },
+            {
+              "reponse": "Un rétrécissement crée une surcharge de volume en amont.",
+              "explication": "Il crée une pression élevée en amont."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'interrogatoire d'un patient valvulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "On recherche la capacité fonctionnelle"
+          },
+          "bonnes": [
+            {
+              "reponse": "On recherche la capacité fonctionnelle : escaliers, marche, sport, activités quotidiennes.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Les symptômes à rechercher sont la dyspnée, l'angor, la syncope ou le malaise et les palpitations.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Le contexte compte : fièvre, maladie valvulaire connue, antécédents familiaux, chirurgie valvulaire.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Un patient « asymptomatique » doit être vérifié, car il a pu réduire son activité.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Une prise en charge précoce a un bon pronostic ; traitée au stade d'insuffisance cardiaque, la récupération est moins bonne.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un patient qui se dit asymptomatique n'a pas besoin d'être interrogé plus avant.",
+              "explication": "Il a pu réduire son activité pour éviter ses symptômes."
+            },
+            {
+              "reponse": "Les antécédents familiaux n'ont pas d'intérêt dans l'interrogatoire valvulaire.",
+              "explication": "Le contexte familial compte."
+            },
+            {
+              "reponse": "Traitée au stade de décompensation, la valvulopathie récupère aussi bien qu'au stade précoce.",
+              "explication": "La récupération est moins bonne et plus longue."
+            },
+            {
+              "reponse": "Seule la dyspnée doit être recherchée.",
+              "explication": "Il faut aussi rechercher angor, syncope ou malaise et palpitations."
+            },
+            {
+              "reponse": "Une fièvre chez un patient valvulaire est sans intérêt diagnostique.",
+              "explication": "Elle fait évoquer une endocardite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-005",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Devant une syncope d'effort chez un homme de 75 ans, à quoi pense-t-on avant tout ?",
+          "cours": {
+            "page": 3,
+            "surligner": "associations de symptômes à savoir reconnaître"
+          },
+          "bonnes": [
+            {
+              "reponse": "À un rétrécissement aortique, d'autant qu'il présente un souffle systolique.",
+              "annale": true,
+              "explication": "Syncope d'effort + souffle systolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dyspnée + angor + syncope ou lipothymie évoquent un rétrécissement aortique.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Dyspnée + palpitations évoquent une insuffisance mitrale.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "L'insuffisance mitrale ne donne ni angor ni syncope.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À une insuffisance cardiaque gauche à fraction d'éjection préservée.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le tableau évoque avant tout un rétrécissement aortique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "À un rétrécissement pulmonaire, d'autant qu'il présente un souffle diastolique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le rétrécissement aortique donne un souffle systolique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "À une insuffisance mitrale, d'autant qu'il présente un souffle systolique.",
+              "annale": true,
+              "explication": "L'insuffisance mitrale ne donne pas de syncope. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À une insuffisance tricuspide, d'autant qu'il présente un souffle systolique.",
+              "annale": true,
+              "explication": "Le tableau évoque un rétrécissement aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dyspnée + palpitations évoquent un rétrécissement aortique.",
+              "explication": "Elles évoquent une insuffisance mitrale."
+            },
+            {
+              "reponse": "Dyspnée + angor + syncope évoquent une insuffisance mitrale.",
+              "explication": "Elles évoquent un rétrécissement aortique."
+            },
+            {
+              "reponse": "L'angor d'effort est un signe typique de l'insuffisance mitrale.",
+              "explication": "L'insuffisance mitrale ne donne pas d'angor."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les souffles à reconnaître, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Pour chaque souffle, on décrit le temps"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est systolique d'éjection, au foyer aortique, irradiant aux carotides.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est diastolique, décroissant, au bord sternal gauche.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance mitrale est souvent holosystolique, à la pointe, irradiant vers l'aisselle.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Le rétrécissement mitral donne un roulement diastolique à la pointe.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Pour chaque souffle, on décrit le temps, le foyer et l'irradiation.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique irradie vers l'aisselle.",
+              "explication": "Il irradie aux carotides ; c'est l'insuffisance mitrale qui irradie vers l'aisselle."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est systolique.",
+              "explication": "Il est diastolique."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance mitrale irradie aux carotides.",
+              "explication": "Il irradie vers l'aisselle."
+            },
+            {
+              "reponse": "Le rétrécissement mitral donne un roulement systolique.",
+              "explication": "C'est un roulement diastolique."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est maximal à la pointe et irradie vers l'aisselle.",
+              "explication": "Il est maximal au bord sternal gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-007",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 17
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 11
+              }
+            ]
+          },
+          "question": "Concernant les ultrasons (échocardiographie) en cardiologie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "examen de 1re intention devant une valvulopathie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les ultrasons permettent, grâce au Doppler, d'analyser les flux sanguins.",
+              "annale": true,
+              "explication": "Le Doppler couleur visualise le flux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'échocardiographie 2D et 3D est particulièrement adaptée à l'étude des valves.",
+              "annale": true,
+              "explication": "Images 2D et 3D des valves dans le cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'échocardiographie est applicable au lit du malade.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Technique non invasive et portable. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les examens ultrasonores permettent une analyse de la mécanique cardiaque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Contraction, remplissage, fonctionnement valvulaire. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les examens ultrasonores permettent une analyse des valvulopathies.",
+              "annale": true,
+              "explication": "L'échocardiographie est l'examen de 1re intention. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'échocardiographie transthoracique est l'examen de 1re intention devant une valvulopathie suspectée.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Elle répond à 3 questions : pourquoi, quelle sévérité, quel retentissement.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "La sévérité repose sur plusieurs paramètres concordants, et non sur la seule taille d'un jet.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "On ne déduit pas la sévérité du volume sonore du souffle.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les ultrasons sont une technique invasive, comportant un risque pour le patient.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'échocardiographie transthoracique est non invasive et sans risque. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les ultrasons sont une technique irradiante.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Ils n'utilisent pas de rayonnements ionisants. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les examens ultrasonores permettent surtout une analyse statique des cavités cardiaques.",
+              "annale": true,
+              "explication": "Le Doppler analyse aussi les flux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les examens ultrasonores sont potentiellement dangereux et ne doivent pas être répétés.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Ils sont sans danger et peuvent être répétés. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La sévérité d'une fuite se juge sur la seule taille du jet.",
+              "explication": "Elle repose sur plusieurs paramètres concordants."
+            },
+            {
+              "reponse": "Un souffle peu intense exclut une valvulopathie sévère.",
+              "explication": "Un souffle peu intense peut accompagner une valvulopathie sévère."
+            },
+            {
+              "reponse": "L'échocardiographie est un examen de 2e intention, après la coronarographie.",
+              "explication": "C'est l'examen de 1re intention."
+            },
+            {
+              "reponse": "L'échocardiographie n'évalue pas le retentissement sur les pressions pulmonaires.",
+              "explication": "Le retentissement inclut les pressions pulmonaires."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les situations valvulaires qui doivent alerter, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "penser à une fuite aiguë, surtout en cas"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une dyspnée aiguë ou un œdème pulmonaire doit faire penser à une fuite aiguë, surtout en cas d'hypotension.",
+              "explication": "Diapositive n°10."
+            },
+            {
+              "reponse": "Une syncope ou un angor d'effort doit faire rechercher un rétrécissement aortique sévère.",
+              "explication": "Diapositive n°10."
+            },
+            {
+              "reponse": "Une fièvre chez un porteur de prothèse doit faire évoquer une endocardite et organiser une évaluation urgente.",
+              "explication": "Diapositive n°10."
+            },
+            {
+              "reponse": "Une instabilité hémodynamique impose une prise en charge hospitalière immédiate.",
+              "explication": "Diapositive n°10."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une fièvre chez un porteur de prothèse valvulaire est banale et peut être surveillée en ville.",
+              "explication": "Elle fait évoquer une endocardite, avec évaluation urgente."
+            },
+            {
+              "reponse": "Une syncope d'effort chez un patient porteur d'un souffle justifie une simple réassurance.",
+              "explication": "Elle fait rechercher un rétrécissement aortique sévère."
+            },
+            {
+              "reponse": "Une instabilité hémodynamique se prend en charge en consultation programmée.",
+              "explication": "Elle impose une prise en charge hospitalière immédiate."
+            },
+            {
+              "reponse": "Un œdème pulmonaire avec hypotension exclut une fuite valvulaire aiguë.",
+              "explication": "Il doit faire penser à une fuite aiguë."
+            },
+            {
+              "reponse": "Fièvre + souffle orientent avant tout vers une péricardite virale bénigne.",
+              "explication": "Ils font évoquer une endocardite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-045",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Devant un souffle systolique intense chez une femme de 35 ans qui a des palpitations, à quoi pense-t-on avant tout ?",
+          "cours": {
+            "page": 3,
+            "surligner": "dyspnée + palpitations = insuffisance mitrale"
+          },
+          "bonnes": [
+            {
+              "reponse": "À une insuffisance mitrale.",
+              "annale": true,
+              "explication": "Souffle systolique + palpitations évoquent une insuffisance mitrale. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À une sténose aortique.",
+              "annale": true,
+              "explication": "Elle donne dyspnée, angor et syncope d'effort, pas des palpitations. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À une insuffisance tricuspide.",
+              "annale": true,
+              "explication": "L'association évoque avant tout une insuffisance mitrale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À un infarctus du myocarde.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Ce n'est pas une cause de souffle systolique avec palpitations chez une femme jeune. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "À une insuffisance cardiaque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "C'est une conséquence possible, pas le diagnostic du souffle. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "À un rétrécissement mitral.",
+              "explication": "Il donne un roulement diastolique, pas un souffle systolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-046",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 37
+              }
+            ]
+          },
+          "question": "À propos du souffle systolique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Pour chaque souffle, on décrit le temps"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle systolique est présent en cas de fuite mitrale.",
+              "annale": true,
+              "explication": "Souffle holosystolique à la pointe. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est un souffle systolique d'éjection.",
+              "explication": "Diapositive n°8."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle systolique signe une fuite aortique.",
+              "annale": true,
+              "explication": "La fuite aortique donne un souffle diastolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle systolique est rude et râpeux dans la fuite mitrale.",
+              "annale": true,
+              "explication": "C'est le souffle du rétrécissement aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle systolique est doux et aspiratif dans la sténose aortique.",
+              "annale": true,
+              "explication": "Il est rude et râpeux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le rétrécissement mitral donne un souffle systolique.",
+              "explication": "Il donne un roulement diastolique."
+            },
+            {
+              "reponse": "Un souffle systolique peu intense exclut une valvulopathie sévère.",
+              "explication": "L'intensité ne reflète pas la sévérité."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le rétrécissement aortique"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-valvulo-009",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 18
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 41
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2019-2020",
+                "qcm": 31
+              }
+            ]
+          },
+          "question": "Concernant le rétrécissement aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "rétrécissement aortique = surcharge de pression"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il donne des symptômes à l'effort.",
+              "annale": true,
+              "explication": "Dyspnée, angor, syncope d'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut être la conséquence d'une malformation congénitale.",
+              "annale": true,
+              "explication": "Bicuspidie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est d'autant plus fréquent que la population vieillit.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Forme dégénérative calcifiée. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut être responsable d'un angor.",
+              "annale": true,
+              "explication": "Même sans coronaropathie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut être responsable d'une syncope d'effort.",
+              "annale": true,
+              "explication": "Signal d'alarme. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est responsable d'un souffle systolique râpeux.",
+              "annale": true,
+              "explication": "Souffle rude. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est responsable d'une hypertrophie du ventricule gauche.",
+              "annale": true,
+              "explication": "Surcharge de pression. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le ventricule gauche éjecte contre un obstacle : sa pression systolique augmente.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "L'hypertrophie maintient d'abord la fonction, puis le remplissage devient difficile.",
+              "explication": "Le ventricule devient moins compliant."
+            },
+            {
+              "reponse": "Une défaillance du ventricule gauche est possible à un stade évolué.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le professeur compare le ventricule gauche du rétrécissement aortique à un « bodybuilder ».",
+              "explication": "Il pousse contre un obstacle et s'hypertrophie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "C'est une valvulopathie moins fréquente de nos jours en France.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Sa fréquence augmente avec le vieillissement. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il est responsable d'un souffle diastolique.",
+              "annale": true,
+              "explication": "Le souffle est systolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "C'est une valvulopathie rare.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "C'est l'une des plus fréquentes chez le sujet âgé. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il ne donne que très peu de symptômes.",
+              "annale": true,
+              "explication": "Il donne dyspnée, angor et syncope d'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "C'est une maladie du sujet jeune.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "C'est surtout une maladie dégénérative du sujet âgé. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le rétrécissement aortique entraîne avant tout une dilatation du ventricule gauche.",
+              "explication": "Il entraîne une hypertrophie."
+            },
+            {
+              "reponse": "L'hypertrophie du rétrécissement aortique est plutôt excentrique.",
+              "explication": "Elle est plutôt concentrique."
+            },
+            {
+              "reponse": "Le ventricule hypertrophié devient plus compliant et se remplit plus facilement.",
+              "explication": "Il devient moins compliant."
+            },
+            {
+              "reponse": "Le professeur compare le ventricule gauche du rétrécissement aortique à une « danseuse étoile ».",
+              "explication": "La danseuse étoile illustre l'insuffisance aortique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-010",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 38
+              }
+            ]
+          },
+          "question": "Quels sont les 3 symptômes typiques du rétrécissement aortique ?",
+          "cours": {
+            "page": 5,
+            "surligner": "le symptôme le plus fréquent, à rechercher activement"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'angor d'effort.",
+              "annale": true,
+              "explication": "Trio dyspnée, angor, syncope. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La syncope d'effort.",
+              "annale": true,
+              "explication": "Trio dyspnée, angor, syncope. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dyspnée d'effort.",
+              "annale": true,
+              "explication": "Le symptôme le plus fréquent. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La prise de poids.",
+              "annale": true,
+              "explication": "Elle ne fait pas partie du trio. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fatigue.",
+              "annale": true,
+              "explication": "Elle ne fait pas partie du trio. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'angor du rétrécissement aortique signe toujours une coronaropathie associée.",
+              "explication": "Il est possible sans coronaropathie."
+            },
+            {
+              "reponse": "La syncope est le symptôme le plus fréquent du rétrécissement aortique.",
+              "explication": "C'est la dyspnée d'effort."
+            },
+            {
+              "reponse": "La syncope d'effort du rétrécissement aortique est sans gravité.",
+              "explication": "C'est un signal d'alarme."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-011",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 39
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 38
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant l'auscultation du rétrécissement aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "systolique d'éjection, rude, irradiant aux carotides"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'auscultation typique est un souffle systolique éjectionnel au foyer aortique.",
+              "annale": true,
+              "explication": "Diapositive n°8. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle est systolique.",
+              "annale": true,
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle est maximal au 2e espace intercostal droit.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Localisation du foyer aortique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le souffle peut s'accompagner d'une diminution de B2 au foyer aortique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La valve calcifiée ferme mal. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il irradie aux carotides.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'auscultation typique est un souffle holosystolique au foyer mitral.",
+              "annale": true,
+              "explication": "C'est l'insuffisance mitrale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'auscultation typique est un roulement diastolique à l'apex.",
+              "annale": true,
+              "explication": "C'est le rétrécissement mitral. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'auscultation typique est un frottement péricardique.",
+              "annale": true,
+              "explication": "C'est un souffle systolique d'éjection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'auscultation typique ne retrouve aucun souffle.",
+              "annale": true,
+              "explication": "Le souffle systolique rude est typique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle est diastolique.",
+              "annale": true,
+              "explication": "Il est systolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle est maximal au 2e espace intercostal gauche.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le foyer aortique est au 2e espace intercostal droit. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le souffle est doux, en jet de vapeur.",
+              "annale": true,
+              "explication": "Il est rude et râpeux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle irradie vers l'aisselle.",
+              "annale": true,
+              "explication": "Il irradie aux carotides. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle s'accompagne d'un dédoublement de B2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le QCM d'origine n'admettait qu'une réponse (« systolique ») ; B2 est plutôt diminué. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le cas clinique d'une syncope dans les escaliers (patient de 78 ans), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "souffle systolique rude au foyer aortique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le diagnostic à évoquer est un rétrécissement aortique.",
+              "explication": "Dyspnée d'effort, syncope d'effort, souffle systolique rude irradiant aux carotides."
+            },
+            {
+              "reponse": "L'examen à demander rapidement est une échocardiographie.",
+              "explication": "Correction du cas."
+            },
+            {
+              "reponse": "Le patient aurait pu être pris en charge plus tôt, dès le stade de dyspnée.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "La syncope traduit un bas débit cérébral à l'effort.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "La sédentarité, le tabagisme, l'hypercholestérolémie et un facteur familial sont cités comme facteurs de risque.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le diagnostic à évoquer est une insuffisance mitrale.",
+              "explication": "Le tableau est celui d'un rétrécissement aortique."
+            },
+            {
+              "reponse": "L'examen de 1re intention est une coronarographie.",
+              "explication": "C'est l'échocardiographie."
+            },
+            {
+              "reponse": "Il fallait attendre la syncope pour prendre en charge ce patient.",
+              "explication": "Il aurait pu être pris en charge dès la dyspnée."
+            },
+            {
+              "reponse": "La syncope traduit un hyperdébit cérébral à l'effort.",
+              "explication": "Elle traduit un bas débit cérébral."
+            },
+            {
+              "reponse": "Aucun facteur familial n'est décrit dans le rétrécissement aortique.",
+              "explication": "Un facteur familial est cité."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le diagnostic échographique du rétrécissement aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "vitesse maximale ≥ 4 mètres par seconde"
+          },
+          "bonnes": [
+            {
+              "reponse": "On recherche la mobilité de la valve, ses calcifications et son ouverture, puis on réalise les mesures Doppler.",
+              "explication": "Diapositive n°14."
+            },
+            {
+              "reponse": "Une vitesse maximale ≥ 4 mètres par seconde fait partie des critères de sévérité.",
+              "explication": "Rétrécissement aortique sévère à haut gradient."
+            },
+            {
+              "reponse": "Un gradient moyen ≥ 40 millimètres de mercure fait partie des critères de sévérité.",
+              "explication": "Diapositive n°15."
+            },
+            {
+              "reponse": "Une surface valvulaire ≤ 1 centimètre carré fait partie des critères de sévérité.",
+              "explication": "Diapositive n°15."
+            },
+            {
+              "reponse": "En cas de discordance des paramètres, il faut vérifier les mesures et le débit.",
+              "explication": "Les paramètres s'interprètent ensemble."
+            },
+            {
+              "reponse": "Un faible gradient n'exclut pas un rétrécissement aortique sévère si le débit est bas.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une vitesse maximale ≥ 4 centimètres par seconde fait partie des critères de sévérité.",
+              "explication": "Il s'agit de 4 mètres par seconde."
+            },
+            {
+              "reponse": "Un gradient moyen ≥ 4 millimètres de mercure suffit à définir un rétrécissement aortique sévère.",
+              "explication": "Le seuil est de 40 millimètres de mercure."
+            },
+            {
+              "reponse": "Une surface valvulaire ≤ 4 centimètres carrés définit un rétrécissement aortique sévère.",
+              "explication": "Le seuil est de 1 centimètre carré."
+            },
+            {
+              "reponse": "Un faible gradient exclut toujours un rétrécissement aortique sévère.",
+              "explication": "Pas si le débit est bas."
+            },
+            {
+              "reponse": "Un seul paramètre Doppler suffit, sans tenir compte des autres.",
+              "explication": "Les paramètres s'interprètent ensemble."
+            },
+            {
+              "reponse": "Une surface inférieure à 1 centimètre carré impose une chirurgie immédiate, même sans symptôme.",
+              "explication": "En l'absence de symptômes, la situation peut être surveillée (oral)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la prise en charge du rétrécissement aortique sévère, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "évaluation spécialisée pour remplacement valvulaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une syncope d'effort avec un souffle évocateur impose une échocardiographie rapidement.",
+              "explication": "Correction du cas."
+            },
+            {
+              "reponse": "Si le rétrécissement aortique sévère est confirmé, une évaluation spécialisée pour remplacement valvulaire s'impose.",
+              "explication": "Correction du cas."
+            },
+            {
+              "reponse": "Un traitement symptomatique seul ne corrige pas l'obstacle.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Un rétrécissement aortique sévère symptomatique fait discuter une intervention sans attendre la défaillance.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Les 2 options sont la chirurgie et le TAVI (bioprothèse implantée par cathéter).",
+              "explication": "Diapositive n°16."
+            },
+            {
+              "reponse": "Le choix est partagé ; la Heart Team propose la stratégie avec le patient.",
+              "explication": "Anatomie, risque opératoire, espérance de vie, préférences."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un traitement médical symptomatique suffit à corriger l'obstacle.",
+              "explication": "Il ne corrige pas l'obstacle."
+            },
+            {
+              "reponse": "Il faut attendre l'apparition d'une défaillance cardiaque avant d'intervenir.",
+              "explication": "On discute l'intervention sans attendre la défaillance."
+            },
+            {
+              "reponse": "Le TAVI correspond à l'implantation d'une prothèse mécanique par cathéter.",
+              "explication": "Il s'agit d'une bioprothèse."
+            },
+            {
+              "reponse": "Le TAVI se pose par chirurgie à cœur ouvert.",
+              "explication": "Il s'implante par cathéter."
+            },
+            {
+              "reponse": "Le choix de la technique est fait par le chirurgien seul, sans le patient.",
+              "explication": "La décision est partagée avec le patient."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les prothèses valvulaires (diapositive n°17 et commentaires oraux), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "dégénère à partir de 10 à 15 ans"
+          },
+          "bonnes": [
+            {
+              "reponse": "La valve biologique est d'origine porcine ou bovine.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "La valve biologique a une durée de vie limitée et dégénère à partir de 10 à 15 ans.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "La valve mécanique ne dégénère pas mais impose des anticoagulants à vie.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Chez le patient âgé, la valve biologique (TAVI) est généralement préférée.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Chez le sujet jeune, la valve mécanique évite des réinterventions tous les 10 à 15 ans.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La valve mécanique dégénère à partir de 10 à 15 ans.",
+              "explication": "C'est la valve biologique."
+            },
+            {
+              "reponse": "La valve biologique impose des anticoagulants à vie.",
+              "explication": "Ce sont les valves mécaniques."
+            },
+            {
+              "reponse": "Chez le sujet jeune, la valve biologique est généralement préférée.",
+              "explication": "La valve mécanique évite les réinterventions."
+            },
+            {
+              "reponse": "La valve biologique a une durée de vie illimitée.",
+              "explication": "Elle est limitée."
+            },
+            {
+              "reponse": "Le TAVI implante une valve mécanique.",
+              "explication": "Il implante une bioprothèse."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la bicuspidie aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "évaluer l'aorte et envisager le dépistage des apparentés"
+          },
+          "bonnes": [
+            {
+              "reponse": "C'est une valve aortique à 2 cuspides au lieu de 3.",
+              "explication": "Diapositive n°18."
+            },
+            {
+              "reponse": "Elle peut entraîner une sténose, une fuite, ou les 2.",
+              "explication": "Diapositive n°18."
+            },
+            {
+              "reponse": "Elle est parfois familiale : il faut envisager le dépistage des apparentés.",
+              "explication": "Diapositive n°18."
+            },
+            {
+              "reponse": "Elle peut entraîner une dilatation de l'aorte ascendante.",
+              "explication": "Il faut évaluer l'aorte."
+            },
+            {
+              "reponse": "En cas de bicuspidie, on surveille la valve et l'aorte.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La bicuspidie est une valve aortique à 4 cuspides.",
+              "explication": "Elle en a 2."
+            },
+            {
+              "reponse": "La bicuspidie ne peut entraîner qu'une sténose.",
+              "explication": "Elle peut entraîner une sténose, une fuite ou les 2."
+            },
+            {
+              "reponse": "La bicuspidie n'est jamais familiale.",
+              "explication": "Elle est parfois familiale."
+            },
+            {
+              "reponse": "En cas de bicuspidie, la surveillance de la valve seule suffit.",
+              "explication": "On surveille la valve et l'aorte."
+            },
+            {
+              "reponse": "La bicuspidie concerne la valve mitrale.",
+              "explication": "Elle concerne la valve aortique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-047",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2021-2022",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Quand il est sévère, le rétrécissement aortique peut s'accompagner de quels éléments ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Syncope d'effort : un signal d'alarme"
+          },
+          "bonnes": [
+            {
+              "reponse": "D'une syncope d'effort, bien qu'il n'y ait pas de signe au repos.",
+              "annale": true,
+              "explication": "Symptômes d'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "D'une dyspnée d'effort accompagnée d'un angor.",
+              "annale": true,
+              "explication": "Trio clinique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "D'un souffle sans lien avec la sévérité de la sténose.",
+              "annale": true,
+              "explication": "L'intensité ne reflète pas la sévérité. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "De signes cliniques de repos avant tout.",
+              "annale": true,
+              "explication": "Les symptômes sont des symptômes d'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "D'un souffle dont l'intensité est, dans la grande majorité des cas, corrélée à la sévérité de l'obstacle.",
+              "annale": true,
+              "explication": "On ne déduit pas la sévérité du volume sonore. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "D'un souffle diastolique décroissant au bord sternal gauche.",
+              "explication": "C'est l'insuffisance aortique."
+            },
+            {
+              "reponse": "D'un angor qui signe toujours une coronaropathie associée.",
+              "explication": "L'angor est possible sans coronaropathie."
+            },
+            {
+              "reponse": "D'une syncope de repos, symptôme le plus fréquent.",
+              "explication": "Le symptôme le plus fréquent est la dyspnée d'effort."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-048",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 40
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 30
+              }
+            ]
+          },
+          "question": "Concernant l'électrocardiogramme dans le rétrécissement aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "hypertrophie plutôt concentrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une hypertrophie ventriculaire gauche avec surcharge est évocatrice d'un rétrécissement aortique évolué.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Hypertrophie de type systolique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'hypertrophie ventriculaire gauche du rétrécissement aortique est de type systolique, avec des ondes T négatives.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Surcharge de pression. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un bloc de branche gauche est le signe ECG le plus évocateur d'un rétrécissement aortique évolué.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le QCM d'origine n'admettait qu'une réponse : l'hypertrophie ventriculaire gauche avec surcharge. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Une hypertrophie atriale droite est évocatrice d'un rétrécissement aortique évolué.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le retentissement concerne les cavités gauches. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Une fibrillation atriale est le signe ECG le plus évocateur d'un rétrécissement aortique évolué.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "C'est l'hypertrophie ventriculaire gauche avec surcharge. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Un sus-décalage du segment ST est évocateur d'un rétrécissement aortique évolué.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il évoque un syndrome coronarien aigu. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le rétrécissement aortique n'est associé à aucune modification ECG.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il donne souvent une hypertrophie ventriculaire gauche, même si l'ECG peut être normal. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'hypertrophie ventriculaire gauche du rétrécissement aortique est de type diastolique, avec des ondes T positives pointues.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle est de type systolique, avec des ondes T négatives. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La fibrillation atriale est exceptionnelle dans le rétrécissement aortique.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Elle est possible, surtout chez le sujet âgé ; le caractère « exceptionnel » attendu par le sujet n'a pas pu être confirmé. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Un ECG normal est rassurant : il n'y a pas lieu de poursuivre les explorations.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'ECG peut être normal ; l'échocardiographie reste indispensable. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-049",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 41
+              }
+            ]
+          },
+          "question": "Quelle est la cause la plus fréquente de rétrécissement aortique chez une personne âgée ?",
+          "cours": {
+            "page": 4,
+            "surligner": "la valve se calcifie un peu comme une plaque"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dégénérescence calcifiée.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La valve se calcifie avec l'âge. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rhumatisme articulaire aigu.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il est devenu rare dans les pays industrialisés. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La bicuspidie aortique congénitale.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Cause possible, mais pas la plus fréquente chez le sujet âgé. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'endocardite infectieuse.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle cause plutôt des fuites. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La dissection aortique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle cause une insuffisance aortique aiguë. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Une hypertrophie primitive du ventricule gauche.",
+              "explication": "L'hypertrophie est la conséquence de l'obstacle, pas sa cause."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'insuffisance aortique"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-valvulo-017",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 28
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2019-2020",
+                "qcm": 33
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 14
+              }
+            ]
+          },
+          "question": "Concernant la fuite (insuffisance) aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "fuite aortique survient en diastole"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fuite aortique entraîne une dilatation du ventricule gauche.",
+              "annale": true,
+              "explication": "Surcharge de volume. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fuite aortique se manifeste par un souffle diastolique doux.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Souffle doux et aspiratif. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La fuite aortique est responsable d'un souffle diastolique.",
+              "annale": true,
+              "explication": "Diapositive n°8. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fuite aortique peut être associée à une dilatation de l'aorte ascendante.",
+              "annale": true,
+              "explication": "Racine aortique dilatée. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle d'insuffisance aortique est doux, humé, lointain et aspiratif.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Description classique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le souffle d'insuffisance aortique s'entend mieux en position assise, penchée en avant.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Cette position rapproche la base du cœur de la paroi. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La fuite aortique survient en diastole, de l'aorte vers le ventricule gauche.",
+              "explication": "Diapositive n°20."
+            },
+            {
+              "reponse": "Le ventricule gauche reçoit le remplissage normal et le volume qui revient de l'aorte.",
+              "explication": "Diapositive n°20."
+            },
+            {
+              "reponse": "Dans le cas clinique, la pression artérielle de 130/45 témoigne d'une pression pulsée large.",
+              "explication": "Pouls très ample."
+            },
+            {
+              "reponse": "Le signe de Musset correspond à des mouvements rythmiques de la tête dans une insuffisance aortique sévère.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fuite aortique entraîne une hypertrophie concentrique.",
+              "annale": true,
+              "explication": "Elle entraîne une dilatation du ventricule gauche. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fuite aortique se manifeste par un souffle systolique intense.",
+              "annale": true,
+              "explication": "Le souffle est diastolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fuite aortique donne un éclat de B2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'éclat de B2 évoque une hypertension pulmonaire. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La fuite aortique donne des symptômes très précoces dans l'évolution de la maladie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle reste longtemps asymptomatique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La fuite aortique est souvent associée à des morts subites.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La mort subite y est rare. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le souffle d'insuffisance aortique est systolique.",
+              "annale": true,
+              "explication": "Il est diastolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle d'insuffisance aortique irradie dans les carotides.",
+              "annale": true,
+              "explication": "C'est le rétrécissement aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fuite aortique survient en systole.",
+              "explication": "Elle survient en diastole."
+            },
+            {
+              "reponse": "La fuite aortique se fait du ventricule gauche vers l'aorte.",
+              "explication": "Elle se fait de l'aorte vers le ventricule gauche."
+            },
+            {
+              "reponse": "L'insuffisance aortique sévère donne typiquement une pression diastolique élevée.",
+              "explication": "Elle donne une pression diastolique basse (pression pulsée large)."
+            },
+            {
+              "reponse": "Le signe de Musset est un signe d'insuffisance mitrale.",
+              "explication": "C'est un signe d'insuffisance aortique sévère."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le souffle de l'insuffisance aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "souffle diastolique décroissant"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est décroissant.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il est maximal au bord sternal gauche.",
+              "explication": "Diapositive n°8."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il est holosystolique et irradie vers l'aisselle.",
+              "explication": "C'est le souffle de l'insuffisance mitrale."
+            },
+            {
+              "reponse": "Il s'agit d'un roulement entendu à la pointe.",
+              "explication": "C'est le rétrécissement mitral."
+            },
+            {
+              "reponse": "Il est maximal à la pointe.",
+              "explication": "Il est maximal au bord sternal gauche."
+            },
+            {
+              "reponse": "Il est croissant.",
+              "explication": "Il est décroissant."
+            },
+            {
+              "reponse": "C'est un souffle d'éjection au foyer aortique.",
+              "explication": "C'est le souffle du rétrécissement aortique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les causes de l'insuffisance aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "la fermeture des cuspides devient incomplète"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une valve anormale (bicuspidie, dégénérescence, endocardite) peut causer une insuffisance aortique.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Une racine aortique dilatée rend la fermeture des cuspides incomplète.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Une insuffisance aortique aiguë doit faire rechercher en urgence une endocardite ou une dissection.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Dans l'insuffisance aortique aiguë, le ventricule gauche n'a pas eu le temps de s'adapter.",
+              "explication": "Diapositive n°21."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une dilatation de la racine aortique n'a pas d'effet sur la fermeture des cuspides.",
+              "explication": "Elle rend la fermeture incomplète."
+            },
+            {
+              "reponse": "Dans l'insuffisance aortique aiguë, le ventricule gauche est déjà dilaté et adapté.",
+              "explication": "Il n'a pas eu le temps de s'adapter."
+            },
+            {
+              "reponse": "La dissection aortique n'est jamais responsable d'une insuffisance aortique.",
+              "explication": "C'est une cause d'installation aiguë."
+            },
+            {
+              "reponse": "L'endocardite est la seule cause d'insuffisance aortique.",
+              "explication": "Il existe d'autres causes (bicuspidie, dégénérescence, racine dilatée, dissection)."
+            },
+            {
+              "reponse": "Une insuffisance aortique aiguë peut attendre une consultation programmée.",
+              "explication": "Les causes aiguës sont à rechercher en urgence."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'évaluation de l'insuffisance aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "plusieurs mesures concordantes évaluent la sévérité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le flux de régurgitation revient dans le ventricule gauche en diastole.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "Le Doppler couleur montre le flux ; plusieurs mesures concordantes évaluent la sévérité.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "L'échocardiographie recherche la cause, la sévérité, le retentissement sur le ventricule gauche et les dimensions de l'aorte.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "Des symptômes attribuables à une insuffisance aortique sévère font évaluer une intervention.",
+              "explication": "Diapositive n°23."
+            },
+            {
+              "reponse": "En cas de retentissement sur le ventricule gauche (dilatation ou baisse de fonction), il ne faut pas attendre trop longtemps.",
+              "explication": "Diapositive n°23."
+            },
+            {
+              "reponse": "L'évolution de l'aorte associée peut modifier la stratégie.",
+              "explication": "Diapositive n°23."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le flux de régurgitation aortique revient dans le ventricule gauche en systole.",
+              "explication": "Il revient en diastole."
+            },
+            {
+              "reponse": "La sévérité d'une insuffisance aortique se juge sur la seule taille du jet.",
+              "explication": "Plusieurs mesures concordantes sont nécessaires."
+            },
+            {
+              "reponse": "L'échocardiographie n'a pas à évaluer les dimensions de l'aorte dans l'insuffisance aortique.",
+              "explication": "Elle les évalue."
+            },
+            {
+              "reponse": "En cas de dilatation du ventricule gauche, on peut attendre sans limite.",
+              "explication": "Il ne faut pas attendre trop longtemps."
+            },
+            {
+              "reponse": "L'aorte associée n'influence pas la stratégie thérapeutique.",
+              "explication": "Son évolution peut modifier la stratégie."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse, à ne pas confondre : rétrécissement aortique et insuffisance aortique. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "aussi musclée que le bodybuilder mais autrement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rétrécissement aortique entraîne une hypertrophie, l'insuffisance aortique une dilatation du ventricule gauche.",
+              "explication": "Surcharge de pression contre surcharge de volume."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est systolique, celui de l'insuffisance aortique diastolique.",
+              "explication": "Tableau récapitulatif."
+            },
+            {
+              "reponse": "Le rétrécissement aortique est le « bodybuilder », l'insuffisance aortique la « danseuse étoile ».",
+              "explication": "Images du professeur."
+            },
+            {
+              "reponse": "Dans l'insuffisance aortique, le ventricule gauche se dilate au lieu de s'hypertrophier.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rétrécissement aortique entraîne une dilatation, l'insuffisance aortique une hypertrophie concentrique.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est diastolique, celui de l'insuffisance aortique systolique.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "L'insuffisance aortique est le « bodybuilder ».",
+              "explication": "C'est le rétrécissement aortique."
+            },
+            {
+              "reponse": "Les 2 lésions créent une surcharge de pression du ventricule gauche.",
+              "explication": "Seul le rétrécissement crée une surcharge de pression ; l'insuffisance crée une surcharge de volume."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique irradie aux carotides comme celui du rétrécissement aortique.",
+              "explication": "Il est maximal au bord sternal gauche."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'insuffisance mitrale"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-valvulo-022",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 42
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 45
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Quels sont les symptômes les plus fréquents de l'insuffisance mitrale chronique sévère ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Trouble du rythme à rechercher"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les palpitations.",
+              "annale": true,
+              "explication": "Elles font rechercher une fibrillation atriale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dyspnée d'effort.",
+              "annale": true,
+              "explication": "Signe clé de l'insuffisance mitrale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans le cas clinique, un pouls irrégulier fait rechercher une fibrillation atriale.",
+              "explication": "Diapositive n°25."
+            },
+            {
+              "reponse": "Le cas associe dyspnée progressive, palpitations et souffle holosystolique apical irradiant à l'aisselle.",
+              "explication": "Diapositive n°25."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hémoptysie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Ce n'est pas un symptôme fréquent de l'insuffisance mitrale. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La douleur thoracique.",
+              "annale": true,
+              "explication": "L'insuffisance mitrale ne donne pas d'angor. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La syncope.",
+              "annale": true,
+              "explication": "L'insuffisance mitrale ne donne pas de syncope. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le trouble du rythme à rechercher est une tachycardie ventriculaire.",
+              "explication": "C'est une fibrillation atriale."
+            },
+            {
+              "reponse": "L'angor d'effort est un signe clé de l'insuffisance mitrale.",
+              "explication": "L'insuffisance mitrale ne donne pas d'angor."
+            },
+            {
+              "reponse": "Le souffle du cas clinique irradie aux carotides.",
+              "explication": "Il irradie à l'aisselle."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-023",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 45
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2021-2022",
+                "qcm": 2
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 29
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2019-2020",
+                "qcm": 32
+              }
+            ]
+          },
+          "question": "Concernant la fuite (insuffisance) mitrale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "La fuite mitrale survient en systole"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est responsable d'un souffle systolique.",
+              "annale": true,
+              "explication": "Souffle holosystolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut être liée à une anomalie des feuillets ou de l'anneau valvulaire.",
+              "annale": true,
+              "explication": "Lésion de la valve (primaire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut être liée à la dilatation et à la sphérification du ventricule gauche.",
+              "annale": true,
+              "explication": "Remodelage (secondaire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut être responsable d'une arythmie atriale.",
+              "annale": true,
+              "explication": "Fibrillation atriale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut être associée à une pathologie du ventricule gauche.",
+              "annale": true,
+              "explication": "Insuffisance mitrale secondaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Son souffle peut être faussement inquiétant ou rassurant.",
+              "annale": true,
+              "explication": "L'intensité ne reflète pas la sévérité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle est intense dans la fuite mitrale primitive.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Souvent vrai, mais le cours rappelle qu'un souffle faible n'exclut pas une fuite sévère ; réponse attendue non confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Elle peut être liée à un prolapsus.",
+              "annale": true,
+              "explication": "Cause primaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut rester asymptomatique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notamment au stade chronique compensé. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Elle entraîne une dilatation de l'oreillette gauche et du ventricule gauche.",
+              "annale": true,
+              "explication": "Surcharge de volume. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fuite mitrale survient en systole, du ventricule gauche vers l'oreillette gauche.",
+              "explication": "Diapositive n°26."
+            },
+            {
+              "reponse": "Pendant l'éjection, le débit vers l'aorte peut diminuer.",
+              "explication": "Une partie du volume retourne vers l'oreillette gauche."
+            },
+            {
+              "reponse": "Le ventricule gauche « feignant » dispose de 2 portes de sortie ; après l'opération, il perd la 2e et peut présenter une dysfonction.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Il faut opérer avant que le cœur ne soit trop dilaté.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est responsable avant tout de douleurs thoraciques.",
+              "annale": true,
+              "explication": "Ses signes clés sont la dyspnée et les palpitations. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est toujours liée à une pathologie des feuillets valvulaires.",
+              "annale": true,
+              "explication": "Elle peut être secondaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle est intense dans une fuite mitrale secondaire.",
+              "annale": true,
+              "explication": "Il peut être peu intense malgré une fuite importante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est fréquente dans la bicuspidie.",
+              "annale": true,
+              "explication": "La bicuspidie concerne la valve aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "C'est une pathologie exclusive du sujet âgé.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle peut toucher le sujet jeune (prolapsus, endocardite). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Elle donne un souffle systolique intense en télésystole.",
+              "annale": true,
+              "explication": "Le souffle est holosystolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fuite mitrale survient en diastole.",
+              "explication": "Elle survient en systole."
+            },
+            {
+              "reponse": "La fuite mitrale se fait de l'oreillette gauche vers le ventricule gauche.",
+              "explication": "Elle se fait du ventricule gauche vers l'oreillette gauche."
+            },
+            {
+              "reponse": "L'insuffisance mitrale entraîne une hypertrophie concentrique du ventricule gauche.",
+              "explication": "Elle entraîne une dilatation."
+            },
+            {
+              "reponse": "L'insuffisance mitrale augmente le débit vers l'aorte.",
+              "explication": "Le débit vers l'aorte peut diminuer."
+            },
+            {
+              "reponse": "Il vaut mieux opérer une insuffisance mitrale quand le ventricule gauche est très dilaté.",
+              "explication": "Il faut opérer avant que le cœur ne soit trop dilaté."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-024",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 44
+              }
+            ]
+          },
+          "question": "Quelles sont les causes fréquentes d'insuffisance mitrale ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Même fuite, mais mécanismes et stratégies différents"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le prolapsus de la valve mitrale.",
+              "annale": true,
+              "explication": "Cause primaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'endocardite infectieuse.",
+              "annale": true,
+              "explication": "Destruction valvulaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cardiomyopathie dilatée.",
+              "annale": true,
+              "explication": "Cause secondaire (remodelage). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'infarctus du myocarde.",
+              "annale": true,
+              "explication": "Ischémie (cause secondaire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'insuffisance mitrale primaire est liée à une lésion de la valve ou des cordages.",
+              "explication": "Diapositive n°27."
+            },
+            {
+              "reponse": "Une valve myxoïde entraîne un prolapsus et une fuite mitrale.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dégénérescence calcifiante.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le sujet demandait la cause qui n'est PAS fréquente ; réponse probable, non confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "La rupture de cordage est une cause d'insuffisance mitrale secondaire.",
+              "explication": "C'est une cause primaire."
+            },
+            {
+              "reponse": "La cardiomyopathie est une cause d'insuffisance mitrale primaire.",
+              "explication": "C'est une cause secondaire."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale secondaire, on remplace la valve d'emblée sans traiter la cardiopathie.",
+              "explication": "On traite la cardiopathie, puis on discute la valve."
+            },
+            {
+              "reponse": "Le prolapsus valvulaire est une cause d'insuffisance mitrale secondaire.",
+              "explication": "C'est une cause primaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-025",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 43
+              }
+            ]
+          },
+          "question": "Quelle est l'auscultation typique de l'insuffisance mitrale ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Un souffle faible peut accompagner une insuffisance"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle holosystolique à l'apex irradiant vers l'aisselle.",
+              "annale": true,
+              "explication": "Diapositive n°28. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle faible peut accompagner une insuffisance mitrale importante.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale secondaire, le souffle peut être peu intense malgré une fuite importante.",
+              "explication": "Le débit et les pressions sont modifiés."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle diastolique au foyer aortique.",
+              "annale": true,
+              "explication": "C'est l'insuffisance aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle systolique éjectionnel au foyer pulmonaire.",
+              "annale": true,
+              "explication": "Le souffle est holosystolique, apexien. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un roulement diastolique au foyer mitral.",
+              "annale": true,
+              "explication": "C'est le rétrécissement mitral. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle holodiastolique irradiant vers la base.",
+              "annale": true,
+              "explication": "Le souffle est holosystolique et irradie vers l'aisselle. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance mitrale est diastolique.",
+              "explication": "Il est systolique."
+            },
+            {
+              "reponse": "Un souffle faible exclut une insuffisance mitrale sévère.",
+              "explication": "Un souffle faible n'exclut pas une fuite sévère."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le diagnostic de l'insuffisance mitrale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "un pouls irrégulier fait rechercher"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'électrocardiogramme recherche une fibrillation atriale devant un pouls irrégulier.",
+              "explication": "Diapositive n°28."
+            },
+            {
+              "reponse": "L'échocardiographie précise la cause, la sévérité, la taille de l'oreillette et du ventricule gauches, la fonction et les pressions pulmonaires.",
+              "explication": "Diapositive n°28."
+            },
+            {
+              "reponse": "Mécanisme, quantification et retentissement sont tous les 3 nécessaires.",
+              "explication": "Diapositive n°29."
+            },
+            {
+              "reponse": "Le jet de régurgitation mitrale est dirigé vers l'oreillette gauche.",
+              "explication": "Diapositive n°29."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le jet de régurgitation mitrale est dirigé vers l'aorte.",
+              "explication": "Il est dirigé vers l'oreillette gauche."
+            },
+            {
+              "reponse": "La seule analyse du jet suffit à évaluer une fuite mitrale.",
+              "explication": "Mécanisme, quantification et retentissement sont nécessaires."
+            },
+            {
+              "reponse": "L'électrocardiogramme est inutile dans l'insuffisance mitrale.",
+              "explication": "Il recherche une fibrillation atriale."
+            },
+            {
+              "reponse": "L'échocardiographie n'évalue pas les pressions pulmonaires dans l'insuffisance mitrale.",
+              "explication": "Elle les évalue."
+            },
+            {
+              "reponse": "La fibrillation atriale est exceptionnelle dans l'insuffisance mitrale.",
+              "explication": "Elle fait partie du retentissement à rechercher."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la fraction d'éjection dans l'insuffisance mitrale sévère, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "n'est pas forcément rassurante"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une fraction d'éjection du ventricule gauche à 60 % n'est pas forcément rassurante.",
+              "explication": "Diapositive n°30."
+            },
+            {
+              "reponse": "Une partie du volume est éjectée vers l'oreillette gauche.",
+              "explication": "Diapositive n°30."
+            },
+            {
+              "reponse": "La fraction d'éjection totale peut surestimer la performance utile du ventricule gauche.",
+              "explication": "Diapositive n°30."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale primaire sévère, on suit les symptômes, le ventricule gauche, la fibrillation atriale et les pressions pulmonaires.",
+              "explication": "Diapositive n°30."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une fraction d'éjection à 60 % est toujours rassurante dans l'insuffisance mitrale sévère.",
+              "explication": "Elle peut surestimer la performance utile."
+            },
+            {
+              "reponse": "La fraction d'éjection totale sous-estime la performance utile en cas d'insuffisance mitrale.",
+              "explication": "Elle la surestime."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale primaire sévère, seule l'intensité du souffle est surveillée.",
+              "explication": "On suit symptômes, ventricule gauche, fibrillation atriale et pressions pulmonaires."
+            },
+            {
+              "reponse": "La fibrillation atriale n'a pas à être surveillée dans l'insuffisance mitrale primaire sévère.",
+              "explication": "Elle fait partie du suivi."
+            },
+            {
+              "reponse": "Une fraction d'éjection normale exclut tout retentissement de la fuite mitrale.",
+              "explication": "Elle peut être faussement rassurante."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-028",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "Après des suites immédiates simples, un patient présente un tableau dyspnéique brutal avec un souffle intense, holosystolique, maximal à la pointe et irradiant vers l'aisselle. Qu'évoque ce souffle ?",
+          "cours": {
+            "page": 12,
+            "surligner": "rupture de cordage ou de pilier"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une insuffisance mitrale.",
+              "annale": true,
+              "explication": "Souffle holosystolique apexien irradiant à l'aisselle, d'installation brutale (rupture de cordage ou de pilier). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut être due à une rupture de cordage ou de pilier.",
+              "explication": "Fuite importante brutale."
+            },
+            {
+              "reponse": "Elle peut être due à une endocardite.",
+              "explication": "Destruction valvulaire."
+            },
+            {
+              "reponse": "Elle peut se compliquer d'œdème aigu du poumon et d'hypotension.",
+              "explication": "Diapositive n°31."
+            },
+            {
+              "reponse": "Elle impose une échocardiographie et une prise en charge spécialisée en urgence.",
+              "explication": "Diapositive n°31."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale aiguë, l'absence de dilatation ne signifie pas l'absence de gravité.",
+              "explication": "Le cœur n'a pas eu le temps de se dilater."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un rétrécissement aortique.",
+              "annale": true,
+              "explication": "Souffle systolique d'éjection au foyer aortique, irradiant aux carotides. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance aortique.",
+              "annale": true,
+              "explication": "Elle donne un souffle diastolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance tricuspide.",
+              "annale": true,
+              "explication": "Le souffle décrit est celui de l'insuffisance mitrale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une maladie aortique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le souffle décrit est celui de l'insuffisance mitrale. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale aiguë, le ventricule gauche est toujours très dilaté.",
+              "explication": "Le cœur n'a pas eu le temps de se dilater."
+            },
+            {
+              "reponse": "L'absence de dilatation cardiaque est rassurante dans une insuffisance mitrale aiguë.",
+              "explication": "Absence de dilatation ≠ absence de gravité."
+            },
+            {
+              "reponse": "L'insuffisance mitrale aiguë se prend en charge en consultation programmée.",
+              "explication": "Elle relève d'une prise en charge urgente."
+            },
+            {
+              "reponse": "L'insuffisance mitrale aiguë est surtout due à une cardiomyopathie dilatée ancienne.",
+              "explication": "Elle est due à une rupture de cordage ou de pilier, ou à une endocardite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le traitement de l'insuffisance mitrale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "réparation chirurgicale privilégiée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans l'insuffisance mitrale primaire sévère, la réparation chirurgicale est privilégiée si elle peut être durable.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Réparer plutôt que remplacer redonne une espérance de vie normale.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "En cas de risque opératoire élevé, une réparation par cathéter peut être proposée à certains patients.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale secondaire, on traite la cardiopathie, puis on sélectionne une intervention si besoin.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Le bon moment compte autant que la technique.",
+              "explication": "Diapositive n°32."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans l'insuffisance mitrale primaire sévère, le remplacement valvulaire est préféré à la réparation.",
+              "explication": "La réparation est privilégiée si elle peut être durable."
+            },
+            {
+              "reponse": "La réparation par cathéter est proposée à tous les patients.",
+              "explication": "Elle est proposée à certains patients à risque opératoire élevé."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale secondaire, la chirurgie valvulaire est faite d'emblée, avant de traiter la cardiopathie.",
+              "explication": "On traite d'abord la cardiopathie."
+            },
+            {
+              "reponse": "Réparer la valve mitrale diminue l'espérance de vie par rapport au remplacement.",
+              "explication": "Réparer redonne une espérance de vie normale."
+            },
+            {
+              "reponse": "Le moment de l'intervention est sans importance si la technique est bonne.",
+              "explication": "Le bon moment compte autant que la technique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Autres valvulopathies"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-valvulo-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rétrécissement mitral, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "obstacle au remplissage du ventricule gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rétrécissement mitral crée un obstacle au remplissage du ventricule gauche.",
+              "explication": "Diapositive n°33."
+            },
+            {
+              "reponse": "La pression augmente dans l'oreillette gauche puis dans la circulation pulmonaire.",
+              "explication": "Diapositive n°33."
+            },
+            {
+              "reponse": "Il se manifeste par une dyspnée et un roulement diastolique à la pointe.",
+              "explication": "Diapositive n°33."
+            },
+            {
+              "reponse": "Ses complications sont la fibrillation atriale et le risque thromboembolique.",
+              "explication": "Diapositive n°33."
+            },
+            {
+              "reponse": "Le ventricule gauche n'est pas soumis à la même surcharge de pression que dans le rétrécissement aortique.",
+              "explication": "Diapositive n°33."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rétrécissement mitral crée un obstacle à l'éjection du ventricule gauche.",
+              "explication": "C'est un obstacle au remplissage."
+            },
+            {
+              "reponse": "Le rétrécissement mitral donne un souffle holosystolique.",
+              "explication": "Il donne un roulement diastolique."
+            },
+            {
+              "reponse": "La pression de l'oreillette gauche diminue dans le rétrécissement mitral.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "Dans le rétrécissement mitral, le ventricule gauche développe une hypertrophie concentrique comme dans le rétrécissement aortique.",
+              "explication": "Il n'est pas soumis à la même surcharge de pression."
+            },
+            {
+              "reponse": "Le rétrécissement mitral n'expose à aucun risque thromboembolique.",
+              "explication": "Il expose à un risque thromboembolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la fuite tricuspide, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "régurgitation systolique du ventricule droit"
+          },
+          "bonnes": [
+            {
+              "reponse": "C'est une régurgitation systolique du ventricule droit vers l'oreillette droite.",
+              "explication": "Diapositive n°34."
+            },
+            {
+              "reponse": "Elle entraîne une congestion systémique.",
+              "explication": "Diapositive n°34."
+            },
+            {
+              "reponse": "Elle peut donner des œdèmes, une turgescence jugulaire, une hépatomégalie, parfois une ascite.",
+              "explication": "Diapositive n°34."
+            },
+            {
+              "reponse": "Il faut évaluer le ventricule droit et les pressions pulmonaires.",
+              "explication": "Ainsi que le mécanisme, la sévérité et le retentissement."
+            },
+            {
+              "reponse": "Une fuite tricuspide sévère mérite une évaluation dédiée.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fuite tricuspide est une régurgitation diastolique.",
+              "explication": "Elle est systolique."
+            },
+            {
+              "reponse": "La fuite tricuspide se fait de l'oreillette droite vers le ventricule droit.",
+              "explication": "Elle se fait du ventricule droit vers l'oreillette droite."
+            },
+            {
+              "reponse": "La fuite tricuspide entraîne avant tout une congestion pulmonaire.",
+              "explication": "Elle entraîne une congestion systémique."
+            },
+            {
+              "reponse": "Une fuite tricuspide sévère est banale et ne nécessite pas d'évaluation particulière.",
+              "explication": "Elle n'est pas banale."
+            },
+            {
+              "reponse": "L'évaluation du ventricule droit est inutile dans la fuite tricuspide.",
+              "explication": "Il faut évaluer le ventricule droit."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : concernant les congestions liées aux valvulopathies, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "pression en amont dans le rétrécissement mitral"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans le rétrécissement mitral, la pression s'élève en amont, dans l'oreillette gauche, d'où une congestion pulmonaire.",
+              "explication": "Tableau récapitulatif."
+            },
+            {
+              "reponse": "La fuite tricuspide entraîne une congestion systémique.",
+              "explication": "Tableau récapitulatif."
+            },
+            {
+              "reponse": "Le rétrécissement mitral et l'insuffisance mitrale exposent tous 2 à la fibrillation atriale.",
+              "explication": "Synthèse des notes."
+            },
+            {
+              "reponse": "Le roulement du rétrécissement mitral est diastolique, la fuite tricuspide est systolique.",
+              "explication": "Synthèse du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rétrécissement mitral entraîne avant tout une congestion systémique.",
+              "explication": "Il entraîne une congestion pulmonaire."
+            },
+            {
+              "reponse": "La fuite tricuspide entraîne avant tout une congestion pulmonaire.",
+              "explication": "Elle entraîne une congestion systémique."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement mitral est systolique.",
+              "explication": "C'est un roulement diastolique."
+            },
+            {
+              "reponse": "La fuite tricuspide est une régurgitation diastolique.",
+              "explication": "Elle est systolique."
+            },
+            {
+              "reponse": "Dans le rétrécissement mitral, la pression de l'oreillette gauche est abaissée.",
+              "explication": "Elle est élevée (pression en amont)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse, à ne pas confondre : obstacles et fuites. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "obstacle diastolique, pression de l'oreillette gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rétrécissement aortique est un obstacle systolique.",
+              "explication": "Synthèse des notes."
+            },
+            {
+              "reponse": "Le rétrécissement mitral est un obstacle diastolique.",
+              "explication": "Synthèse des notes."
+            },
+            {
+              "reponse": "L'insuffisance mitrale est une fuite systolique.",
+              "explication": "Synthèse des notes."
+            },
+            {
+              "reponse": "L'insuffisance aortique est une fuite diastolique.",
+              "explication": "Synthèse des notes."
+            },
+            {
+              "reponse": "Les rétrécissements créent une pression élevée en amont, les insuffisances une surcharge de volume.",
+              "explication": "Diapositive n°6."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rétrécissement mitral est un obstacle systolique.",
+              "explication": "C'est un obstacle diastolique."
+            },
+            {
+              "reponse": "L'insuffisance aortique est une fuite systolique.",
+              "explication": "C'est une fuite diastolique."
+            },
+            {
+              "reponse": "La fuite tricuspide est une fuite diastolique.",
+              "explication": "C'est une régurgitation systolique."
+            },
+            {
+              "reponse": "Les rétrécissements créent avant tout une surcharge de volume.",
+              "explication": "Ils créent une pression élevée en amont."
+            },
+            {
+              "reponse": "L'insuffisance mitrale est un obstacle au remplissage.",
+              "explication": "C'est une fuite ; l'obstacle au remplissage est le rétrécissement mitral."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-034",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À ne pas confondre : quels souffles s'entendent à la pointe ?",
+          "cours": {
+            "page": 13,
+            "surligner": "roulement diastolique à la pointe"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le souffle holosystolique de l'insuffisance mitrale.",
+              "explication": "Pointe, irradiant vers l'aisselle."
+            },
+            {
+              "reponse": "Le roulement diastolique du rétrécissement mitral.",
+              "explication": "Diapositives n°8 et 33."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle systolique d'éjection du rétrécissement aortique.",
+              "explication": "Il siège au foyer aortique."
+            },
+            {
+              "reponse": "Le souffle diastolique décroissant de l'insuffisance aortique.",
+              "explication": "Il siège au bord sternal gauche."
+            },
+            {
+              "reponse": "Le souffle systolique d'une bicuspidie sténosante, irradiant aux carotides.",
+              "explication": "C'est un rétrécissement aortique, entendu au foyer aortique."
+            },
+            {
+              "reponse": "Le souffle rude irradiant aux carotides.",
+              "explication": "C'est le rétrécissement aortique, au foyer aortique."
+            },
+            {
+              "reponse": "Le souffle diastolique entendu au bord sternal gauche.",
+              "explication": "C'est l'insuffisance aortique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Soins et suivi"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-valvulo-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la prévention et la détection de l'endocardite, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "hémocultures et échocardiographie rapidement"
+          },
+          "bonnes": [
+            {
+              "reponse": "La prévention repose sur l'hygiène bucco-dentaire et des soins réguliers.",
+              "explication": "Diapositive n°35."
+            },
+            {
+              "reponse": "Une fièvre persistante doit alerter, surtout chez un porteur de prothèse ou en cas d'antécédent d'endocardite.",
+              "explication": "Diapositive n°35."
+            },
+            {
+              "reponse": "En cas de suspicion, il faut réaliser des hémocultures et une échocardiographie rapidement.",
+              "explication": "Diapositive n°35."
+            },
+            {
+              "reponse": "L'antibioprophylaxie concerne les patients à haut risque lors de gestes dentaires à risque.",
+              "explication": "Selon les recommandations."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'antibioprophylaxie est systématique chez tout patient valvulaire, pour tout geste.",
+              "explication": "Elle concerne les patients à haut risque, lors de gestes dentaires à risque."
+            },
+            {
+              "reponse": "Une fièvre chez un porteur de prothèse se traite par antibiotiques d'emblée, sans prélèvement.",
+              "explication": "Il faut des hémocultures et une échocardiographie."
+            },
+            {
+              "reponse": "L'hygiène bucco-dentaire n'a pas de rôle dans la prévention de l'endocardite.",
+              "explication": "C'est la base de la prévention."
+            },
+            {
+              "reponse": "L'échocardiographie est inutile en cas de suspicion d'endocardite.",
+              "explication": "Elle doit être réalisée rapidement."
+            },
+            {
+              "reponse": "Un antécédent d'endocardite n'augmente pas la vigilance devant une fièvre.",
+              "explication": "Il doit faire évoquer une récidive."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme et la gravité de l'endocardite (commentaires oraux), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "une bactérie circulante peut s'y fixer"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une valve malade crée un flux turbulent sur lequel une bactérie circulante peut se fixer.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "La mortalité de l'endocardite est d'environ 25 %.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Les infections dentaires peuvent entraîner une infection systémique.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "L'endocardite peut causer une insuffisance aortique ou mitrale aiguë.",
+              "explication": "Destruction valvulaire (diapositives n°21 et 31)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le flux sanguin normal à travers une valve saine est turbulent.",
+              "explication": "Le flux normal n'est pas turbulent."
+            },
+            {
+              "reponse": "La mortalité de l'endocardite est inférieure à 1 %.",
+              "explication": "Elle est d'environ 25 %."
+            },
+            {
+              "reponse": "Les infections dentaires n'ont aucun lien avec le risque d'endocardite.",
+              "explication": "Elles peuvent entraîner une infection systémique."
+            },
+            {
+              "reponse": "L'endocardite ne touche que les prothèses valvulaires.",
+              "explication": "Elle touche aussi les valves natives malades."
+            },
+            {
+              "reponse": "L'endocardite ne donne jamais de fuite valvulaire aiguë.",
+              "explication": "Elle peut détruire la valve."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'éducation du patient valvulaire (commentaires oraux et diapositive n°37), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "soins dentaires au moins 2 fois par an"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le patient doit faire des soins dentaires au moins 2 fois par an.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le patient doit éviter de prendre des antibiotiques sans avis, surtout s'il a été opéré d'une valve.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le patient doit éviter tout risque infectieux.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "On donne au patient une conduite à tenir : qui contacter, quels symptômes imposent une consultation rapide.",
+              "explication": "Diapositive n°37."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Des soins dentaires tous les 5 ans suffisent chez un patient valvulaire.",
+              "explication": "Au moins 2 fois par an."
+            },
+            {
+              "reponse": "Le patient opéré d'une valve peut prendre des antibiotiques sans avis dès qu'il a de la fièvre.",
+              "explication": "Il doit éviter les antibiotiques sans avis."
+            },
+            {
+              "reponse": "Il est inutile d'indiquer au patient qui contacter en cas de symptôme.",
+              "explication": "C'est une partie de la conduite à tenir."
+            },
+            {
+              "reponse": "Le risque infectieux n'a pas d'importance chez le patient valvulaire.",
+              "explication": "Il doit éviter tout risque infectieux."
+            },
+            {
+              "reponse": "Un patient valvulaire n'a pas besoin de signaler un épisode de fièvre.",
+              "explication": "Les épisodes de fièvre font partie du suivi."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le suivi après un remplacement valvulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "antivitamine K à vie, suivi de l'INR"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une prothèse mécanique impose un traitement par antivitamine K à vie, avec suivi de l'INR.",
+              "explication": "Diapositive n°36."
+            },
+            {
+              "reponse": "Une bioprothèse a une durabilité limitée et nécessite une surveillance clinique et échographique.",
+              "explication": "Diapositive n°36."
+            },
+            {
+              "reponse": "Pour toutes les prothèses, il faut informer le patient, prévenir l'endocardite et repérer une dysfonction.",
+              "explication": "Diapositive n°36."
+            },
+            {
+              "reponse": "Les anticoagulants oraux directs sont contre-indiqués avec une valve mécanique.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anticoagulants oraux directs sont recommandés avec une valve mécanique.",
+              "explication": "Ils sont contre-indiqués."
+            },
+            {
+              "reponse": "Une bioprothèse impose obligatoirement des antivitamines K à vie.",
+              "explication": "C'est le cas des prothèses mécaniques."
+            },
+            {
+              "reponse": "Une bioprothèse a une durabilité illimitée.",
+              "explication": "Sa durabilité est limitée."
+            },
+            {
+              "reponse": "Une prothèse mécanique ne nécessite aucun suivi.",
+              "explication": "Elle nécessite un suivi de l'INR."
+            },
+            {
+              "reponse": "Une endocardite ne peut pas survenir sur une prothèse valvulaire.",
+              "explication": "Il faut prévenir l'endocardite pour toutes les prothèses."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le suivi actif d'une valvulopathie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Un symptôme nouveau fait réévaluer la situation"
+          },
+          "bonnes": [
+            {
+              "reponse": "À chaque suivi, on interroge à nouveau sur la capacité d'effort, les symptômes, les palpitations et la fièvre.",
+              "explication": "Diapositive n°37."
+            },
+            {
+              "reponse": "On compare les échocardiographies : sévérité, évolution des dimensions et de la fonction.",
+              "explication": "Diapositive n°37."
+            },
+            {
+              "reponse": "Un symptôme nouveau fait réévaluer la situation avant le prochain rendez-vous prévu.",
+              "explication": "Diapositive n°37."
+            },
+            {
+              "reponse": "Il faut savoir quand demander de l'aide.",
+              "explication": "Message de la diapositive n°41."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un symptôme nouveau peut attendre le prochain rendez-vous prévu.",
+              "explication": "Il fait réévaluer la situation avant."
+            },
+            {
+              "reponse": "Il est inutile de comparer les échocardiographies successives.",
+              "explication": "Il faut les comparer."
+            },
+            {
+              "reponse": "Une fois le diagnostic posé, l'interrogatoire n'a plus d'intérêt au suivi.",
+              "explication": "Il faut interroger à nouveau."
+            },
+            {
+              "reponse": "Le suivi ne porte que sur l'intensité du souffle.",
+              "explication": "Il porte sur les symptômes, les échographies et la conduite à tenir."
+            },
+            {
+              "reponse": "Les palpitations n'ont pas à être recherchées au cours du suivi.",
+              "explication": "Elles font partie de l'interrogatoire de suivi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "À retenir et autoévaluation"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-valvulo-040",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2021-2022",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant le ventricule gauche dans les valvulopathies, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Le mécanisme explique le souffle et les conséquences"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il se dilate en cas de fuite mitrale sévère.",
+              "annale": true,
+              "explication": "Surcharge de volume. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il s'épaissit en cas de sténose aortique.",
+              "annale": true,
+              "explication": "Surcharge de pression. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il se dilate en cas de fuite aortique.",
+              "annale": true,
+              "explication": "Surcharge de volume. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il s'hypertrophie de manière excentrique dans la fuite aortique.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Les sources décrivent une hypertrophie excentrique (dilatation + hypertrophie), mais le cours insiste sur la dilatation « au lieu » de l'hypertrophie : à vérifier. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'insuffisance mitrale s'accompagne d'une dilatation de l'oreillette gauche et peut se compliquer de fibrillation atriale.",
+              "explication": "Tableau récapitulatif."
+            },
+            {
+              "reponse": "Le rétrécissement mitral élève la pression de l'oreillette gauche, d'où une congestion pulmonaire.",
+              "explication": "Tableau récapitulatif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il ne s'hypertrophie jamais.",
+              "annale": true,
+              "explication": "Il s'hypertrophie dans le rétrécissement aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le ventricule gauche s'hypertrophie de façon concentrique dans la fuite aortique.",
+              "explication": "La fuite aortique entraîne une dilatation (surcharge de volume)."
+            },
+            {
+              "reponse": "Le rétrécissement aortique entraîne avant tout une dilatation de l'oreillette gauche.",
+              "explication": "Il entraîne une hypertrophie du ventricule gauche."
+            },
+            {
+              "reponse": "La fuite mitrale épargne l'oreillette gauche.",
+              "explication": "Elle entraîne une dilatation de l'oreillette gauche."
+            },
+            {
+              "reponse": "Le rétrécissement mitral entraîne une surcharge de volume du ventricule gauche.",
+              "explication": "Il élève la pression de l'oreillette gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les images mnémotechniques du professeur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Moyens mnémotechniques : ventricule gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le ventricule gauche « bodybuilder » correspond au rétrécissement aortique (hypertrophie).",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le ventricule gauche « danseuse étoile » correspond à l'insuffisance aortique (dilatation).",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le ventricule gauche « feignant » correspond à l'insuffisance mitrale, avec 2 portes de sortie.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le rétrécissement mitral se résume par une pression en amont.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le ventricule gauche « bodybuilder » correspond à l'insuffisance aortique.",
+              "explication": "Il correspond au rétrécissement aortique."
+            },
+            {
+              "reponse": "Le ventricule gauche « danseuse étoile » correspond au rétrécissement aortique.",
+              "explication": "Il correspond à l'insuffisance aortique."
+            },
+            {
+              "reponse": "Le ventricule gauche « feignant » correspond au rétrécissement aortique.",
+              "explication": "Il correspond à l'insuffisance mitrale."
+            },
+            {
+              "reponse": "Le ventricule « feignant » est ainsi nommé car il n'a qu'une seule porte de sortie.",
+              "explication": "Il a 2 portes de sortie (mitrale et aortique)."
+            },
+            {
+              "reponse": "La « danseuse étoile » illustre une hypertrophie concentrique.",
+              "explication": "Elle illustre une dilatation."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Questions d'autoévaluation : quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Un souffle peu intense exclut-il une fuite sévère"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une insuffisance mitrale donne une fuite en systole.",
+              "explication": "Le ventricule gauche éjecte aussi vers l'oreillette gauche."
+            },
+            {
+              "reponse": "Un souffle peu intense n'exclut pas une fuite sévère.",
+              "explication": "Le souffle dépend du débit et des pressions."
+            },
+            {
+              "reponse": "L'examen qui confirme une valvulopathie suspectée est l'échocardiographie transthoracique.",
+              "explication": "Cause, sévérité, retentissement."
+            },
+            {
+              "reponse": "Décrire un souffle oriente ; l'échographie confirme et mesure.",
+              "explication": "Autoévaluation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une insuffisance mitrale donne une fuite en diastole.",
+              "explication": "Elle donne une fuite en systole."
+            },
+            {
+              "reponse": "Un souffle peu intense exclut une fuite sévère.",
+              "explication": "Il ne l'exclut pas."
+            },
+            {
+              "reponse": "L'examen qui confirme une valvulopathie suspectée est l'électrocardiogramme.",
+              "explication": "C'est l'échocardiographie transthoracique."
+            },
+            {
+              "reponse": "L'auscultation suffit à mesurer la sévérité d'une valvulopathie.",
+              "explication": "Elle oriente ; l'échographie mesure."
+            },
+            {
+              "reponse": "La radiographie thoracique est l'examen de confirmation d'une valvulopathie.",
+              "explication": "C'est l'échocardiographie transthoracique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-043",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : quelles situations imposent une évaluation urgente ou rapide ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Absence de dilatation ≠ absence de gravité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un œdème aigu du poumon brutal avec hypotension, évocateur d'une fuite aiguë.",
+              "explication": "Diapositives n°10 et 31."
+            },
+            {
+              "reponse": "Une insuffisance aortique aiguë, qui fait rechercher une endocardite ou une dissection.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Une fièvre chez un porteur de prothèse valvulaire.",
+              "explication": "Évoquer une endocardite."
+            },
+            {
+              "reponse": "Une syncope d'effort avec un souffle évocateur de rétrécissement aortique.",
+              "explication": "Échocardiographie rapidement."
+            },
+            {
+              "reponse": "Une instabilité hémodynamique.",
+              "explication": "Prise en charge hospitalière immédiate."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une fuite aiguë est rassurante si le cœur n'est pas dilaté.",
+              "explication": "Absence de dilatation ≠ absence de gravité."
+            },
+            {
+              "reponse": "Une insuffisance aortique aiguë est bien tolérée car le ventricule gauche est déjà adapté.",
+              "explication": "Il n'a pas eu le temps de s'adapter."
+            },
+            {
+              "reponse": "Une syncope d'effort avec souffle aortique peut être réévaluée à 6 mois.",
+              "explication": "Elle impose une échocardiographie rapidement."
+            },
+            {
+              "reponse": "Une fièvre chez un porteur de prothèse peut attendre la consultation de suivi annuelle.",
+              "explication": "Elle impose une évaluation urgente."
+            },
+            {
+              "reponse": "Une instabilité hémodynamique peut être prise en charge en ambulatoire.",
+              "explication": "Elle impose une prise en charge hospitalière immédiate."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-valvulo-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : quelles stratégies thérapeutiques sont correctement associées à leur situation ?",
+          "cours": {
+            "page": 15,
+            "surligner": "écouter le patient avant d'écouter son souffle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Rétrécissement aortique sévère symptomatique : discuter une intervention (chirurgie ou TAVI) sans attendre la défaillance.",
+              "explication": "Diapositives n°16 et 17."
+            },
+            {
+              "reponse": "Insuffisance mitrale primaire sévère : réparation chirurgicale privilégiée si elle peut être durable.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Insuffisance mitrale secondaire : traiter d'abord la cardiopathie.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Insuffisance aortique avec retentissement sur le ventricule gauche : ne pas attendre trop longtemps.",
+              "explication": "Diapositive n°23."
+            },
+            {
+              "reponse": "Prothèse mécanique : antivitamine K à vie, sans anticoagulant oral direct.",
+              "explication": "Diapositive n°36."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Rétrécissement aortique sévère symptomatique : traitement médical seul.",
+              "explication": "Il ne corrige pas l'obstacle."
+            },
+            {
+              "reponse": "Insuffisance mitrale primaire sévère : remplacement privilégié même si une réparation durable est possible.",
+              "explication": "La réparation est privilégiée."
+            },
+            {
+              "reponse": "Insuffisance mitrale secondaire : chirurgie valvulaire d'emblée.",
+              "explication": "On traite d'abord la cardiopathie."
+            },
+            {
+              "reponse": "Prothèse mécanique : anticoagulant oral direct.",
+              "explication": "Les anticoagulants oraux directs sont contre-indiqués."
+            },
+            {
+              "reponse": "Bicuspidie : surveillance de la valve seule, sans l'aorte.",
+              "explication": "On surveille la valve et l'aorte."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
