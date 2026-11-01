@@ -5,5 +5,8 @@
   "cardio-physio-vo2.json",
   "respi-physio-ventil.json",
   "cardio-semio-valvulo.json",
-  "cardio-semio-syncope.json"
+  "cardio-semio-syncope.json",
+  "cardio-pharmaco-aht.json",
+  "cardio-pharmaco-aht-ei.json",
+  "cardio-pharmaco-ic.json"
 ]
