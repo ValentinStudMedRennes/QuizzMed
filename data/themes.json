@@ -4,5 +4,6 @@
   "respi-histoembryo-histo.json",
   "cardio-physio-vo2.json",
   "respi-physio-ventil.json",
-  "cardio-semio-valvulo.json"
+  "cardio-semio-valvulo.json",
+  "cardio-semio-syncope.json"
 ]
