@@ -155,7 +155,7 @@ async function init(){
 function passBy(q,skip){   // une question passe si elle respecte tous les filtres (sauf celui qu’on ignore, pour compter les choix d’un menu)
   if(skip!=="src"&&srcFilter!=="all"&&q.source.key!==srcFilter)return false;
   if(skip!=="refs"&&minRefs>0&&q.source.refs.length<minRefs)return false;
-  if(skip!=="year"&&yearsOff.size>0&&!q.source.refs.some(r=>r.annee&&!yearsOff.has(r.annee)))return false;   // il faut au moins une référence dans une année cochée
+  if(skip!=="year"&&yearsOff.size>0&&q.source.refs.length&&!q.source.refs.some(r=>r.annee&&!yearsOff.has(r.annee)))return false;   // les années ne concernent que les annales (questions avec références) : il leur faut au moins une référence dans une année cochée ; les autres questions (générées…) ne sont pas touchées
   return true;
 }
 const pass=q=>passBy(q,"");

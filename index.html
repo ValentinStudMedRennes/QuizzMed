@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QCM de révision</title>
-<link rel="stylesheet" href="style.css?v=15">
+<link rel="stylesheet" href="style.css?v=16">
 </head>
 <body>
 <main>
@@ -31,7 +31,7 @@
 <summary>Annales : filtres et tirage</summary>
 <div class="rowhead"><strong>Années d’annales</strong><span><button class="link" id="yrall">Toutes</button><button class="link" id="yrnone">Aucune</button></span></div>
 <div id="yrlist" class="yrlist"></div>
-<div class="hint">Décocher une année écarte aussi les questions sans référence d’annale.</div>
+<div class="hint">Décocher une année n’écarte que les annales de cette année : les questions générées ne sont pas touchées.</div>
 <div class="stepper"><label for="minref">Tombée au moins … fois <span class="hint">(0 = peu importe)</span></label><span><button class="step" data-for="minref" data-d="-1" aria-label="Moins de fois">−</button><input type="number" id="minref" value="0" min="0"><button class="step" data-for="minref" data-d="1" aria-label="Plus de fois">+</button></span></div>
 <label class="chk"><input type="checkbox" id="favor"> Favoriser les questions les plus souvent tombées</label>
 </details>
@@ -92,6 +92,6 @@
 </section>
 </main>
 
-<script src="script.js?v=15"></script>
+<script src="script.js?v=16"></script>
 </body>
 </html>
