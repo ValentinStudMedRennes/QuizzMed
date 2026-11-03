@@ -4,9 +4,16 @@ Site de QCM de révision, front-end pur, en français.
 Dépôt : https://github.com/ValentinStudMedRennes/QuizzMed
 
 Contenu du dépôt : `index.html`, `script.js`, `style.css`, `data/` (un JSON par cours, sous-dossiers permis, plus `data/themes.json` facultatif), `cours/` (les PDF, sous-dossiers permis : `cours/cardio/`, `cours/pneumo/`…), `genindex.py` et `.github/workflows/deploy.yml`.
-Le site est statique, sans framework. Seule étape automatique : `genindex.py` écrit `index.json` (liste de tous les PDF de `cours/` et de tous les JSON de `data/`). L'Action `deploy.yml` le lance à chaque push sur `main` puis déploie GitHub Pages (réglage Pages › Source : « GitHub Actions »). `index.json` n'est donc pas versionné ; en local, lancer `python3 genindex.py` avant `python3 -m http.server`.
-- `genindex.py` affiche aussi un **bilan** (informatif, ne bloque jamais le déploiement, visible dans les logs de l'Action) : pour chaque JSON, cours trouvé ✔ / ✘ (introuvable ou en double) et résumé ✔ / —, puis la liste des PDF rattachés à aucun cours (fautes de frappe, fichiers en trop) et les JSON illisibles.
-- **Résumés** : `cours/…/X-resume.pdf` est le résumé du cours `X.pdf` (même nom + `-resume`, dossier libre). Ils figurent dans `index.json` mais **le site ne les utilise pas** pour l'instant. Les données se chargent par `fetch` : il faut un serveur HTTP (GitHub Pages ou `python3 -m http.server`), pas `file://`.
+Le site est statique, sans framework. Les données se chargent par `fetch` : il faut un serveur HTTP (GitHub Pages ou `python3 -m http.server`), pas `file://`.
+
+### Index et déploiement
+
+- `genindex.py` écrit `index.json` : la liste de tous les PDF de `cours/` et de tous les JSON de `data/`. Le site s'en sert pour retrouver un PDF à partir de son seul nom.
+- **Déploiement automatique** : l'Action `.github/workflows/deploy.yml` installe `pypdf`, lance `genindex.py` à chaque push sur `main`, puis déploie GitHub Pages (réglage Settings › Pages › Source : « GitHub Actions »). Un workflow placé ailleurs que dans `.github/workflows/` est ignoré par GitHub.
+- `index.json` est aussi versionné dans le dépôt, pour les tests locaux ; l'Action le régénère et l'écrase au déploiement. En local, lancer `python3 genindex.py` avant `python3 -m http.server`.
+- `genindex.py` affiche un **bilan** (informatif, ne bloque jamais le déploiement, visible dans les logs de l'Action à l'étape `python genindex.py`) : pour chaque JSON, cours trouvé ✔ / ✘ (introuvable ou en double), résumé ✔ / —, versions ; puis les PDF rattachés à aucun cours (fautes de frappe, fichiers en trop) et les JSON illisibles.
+- **Résumés** : `cours/…/X-resume.pdf` est le résumé du cours `X.pdf` (même nom + `-resume`, dossier libre). Ils figurent dans `index.json` mais **le site ne les utilise pas** pour l'instant.
+- **Versions du prompt** (colonnes cours / résumé / json du bilan) : pour un PDF, métadonnée « Keywords » (ex. « prompt v4.1 »), sinon en-tête de la 1re page (« Version du prompt v4.1 ») ; lecture avec `pypdf` (`pip install pypdf` ; sans lui, les versions des PDF ne sont pas lues). Pour un JSON : champ **`meta.version`** (`"4.1"`, `"v4.1"` ou `"prompt v4.1"`), ignoré par le site. `⚠` = plus ancienne que la plus récente trouvée, calculée séparément pour les cours, les résumés et les JSON ; `v?` = version non indiquée. Comparaison numérique (4.10 > 4.9).
 
 > Mettre ce fichier à jour à chaque évolution notable (fonctions ajoutées, règles de filtrage, format des données).
 
@@ -35,6 +42,7 @@ Chaque cours est un fichier :
     "section": "Physiologie",
     "titre": "...",
     "description": "...",
+    "version": "4.1",
     "cours": { "fichier": "xxx.pdf" }
   },
   "chapitres": [
