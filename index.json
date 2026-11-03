@@ -1,0 +1,36 @@
+{
+ "cours": [
+  "cours/cardio/Resume_Mecanique_cardiaque.pdf",
+  "cours/cardio/cardio-pharmaco-aht-ei.pdf",
+  "cours/cardio/cardio-pharmaco-aht-resume.pdf",
+  "cours/cardio/cardio-pharmaco-aht.pdf",
+  "cours/cardio/cardio-pharmaco-antiangineux-resume.pdf",
+  "cours/cardio/cardio-pharmaco-antiangineux.pdf",
+  "cours/cardio/cardio-pharmaco-ic.pdf",
+  "cours/cardio/cardio-physio-mecahemo-resume.pdf",
+  "cours/cardio/cardio-physio-mecahemo.pdf",
+  "cours/cardio/cardio-physio-vo2-resume.pdf",
+  "cours/cardio/cardio-physio-vo2.pdf",
+  "cours/cardio/cardio-semio-syncope.pdf",
+  "cours/cardio/cardio-semio-valvulo.pdf",
+  "cours/pneumo/respi-histoembryo-embryo-resume.pdf",
+  "cours/pneumo/respi-histoembryo-embryo.pdf",
+  "cours/pneumo/respi-histoembryo-histo-resume.pdf",
+  "cours/pneumo/respi-histoembryo-histo.pdf",
+  "cours/pneumo/respi-physio-ventil-resume.pdf",
+  "cours/pneumo/respi-physio-ventil.pdf"
+ ],
+ "data": [
+  "data/cardio-pharmaco-aht-ei.json",
+  "data/cardio-pharmaco-aht.json",
+  "data/cardio-pharmaco-antiangineux.json",
+  "data/cardio-pharmaco-ic.json",
+  "data/cardio-physio-mecahemo.json",
+  "data/cardio-physio-vo2.json",
+  "data/cardio-semio-syncope.json",
+  "data/cardio-semio-valvulo.json",
+  "data/respi-histoembryo-embryo.json",
+  "data/respi-histoembryo-histo.json",
+  "data/respi-physio-ventil.json"
+ ]
+}

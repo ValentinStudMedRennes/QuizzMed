@@ -5,7 +5,7 @@
     "titre": "Mécanique cardiaque et hémodynamique cardiovasculaire",
     "description": "Propriétés mécaniques du cardiomyocyte, couplage excitation-contraction, cycle cardiaque, courbe pression-volume, précharge/postcharge, débit cardiaque et hémodynamique.",
     "cours": {
-      "fichier": "cours/cardio-physio-mecahemo.pdf"
+      "fichier": "cardio-physio-mecahemo.pdf"
     }
   },
   "chapitres": [

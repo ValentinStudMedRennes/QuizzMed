@@ -5,7 +5,7 @@
     "titre": "Consommation d'oxygène (V'O2)",
     "description": "Définition, mesure et facteurs limitants de la consommation d'oxygène, réponse à l'exercice et variations physiologiques de la consommation maximale.",
     "cours": {
-      "fichier": "cours/cardio-physio-vo2.pdf"
+      "fichier": "cardio-physio-vo2.pdf"
     }
   },
   "chapitres": [

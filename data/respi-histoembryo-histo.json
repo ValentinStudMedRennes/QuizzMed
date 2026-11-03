@@ -5,7 +5,7 @@
     "titre": "Histologie de l'appareil respiratoire",
     "description": "Structure histologique des voies aériennes, de la trachée, de l'arbre bronchique et des alvéoles, de la muqueuse nasale à la barrière alvéolo-capillaire.",
     "cours": {
-      "fichier": "cours/respi-histoembryo-histo.pdf"
+      "fichier": "respi-histoembryo-histo.pdf"
     }
   },
   "chapitres": [

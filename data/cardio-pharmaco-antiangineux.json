@@ -5,7 +5,7 @@
     "titre": "Pharmacologie des anti-angineux",
     "description": "Rappels sur la maladie coronarienne et l'angor, principes du traitement, puis bêtabloquants, inhibiteurs calciques, dérivés nitrés et apparentés : mécanismes, pharmacocinétique, effets indésirables et précautions.",
     "cours": {
-      "fichier": "cours/cardio-pharmaco-antiangineux.pdf"
+      "fichier": "cardio-pharmaco-antiangineux.pdf"
     }
   },
   "chapitres": [

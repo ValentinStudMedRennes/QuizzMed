@@ -5,7 +5,7 @@
     "titre": "Physiologie respiratoire : ventilation et échanges gazeux",
     "description": "Rôles des voies aériennes, mécanique ventilatoire, ventilation alvéolaire, spirométrie et échanges gazeux pulmonaires.",
     "cours": {
-      "fichier": "cours/respi-physio-ventil.pdf"
+      "fichier": "respi-physio-ventil.pdf"
     }
   },
   "chapitres": [

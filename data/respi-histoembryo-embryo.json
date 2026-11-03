@@ -5,7 +5,7 @@
     "titre": "Embryologie de l'appareil respiratoire",
     "description": "Développement des cavités nasales, du larynx, de la trachée et de l'appareil broncho-pulmonaire, maturation pulmonaire et principales anomalies.",
     "cours": {
-      "fichier": "cours/respi-histoembryo-embryo.pdf"
+      "fichier": "respi-histoembryo-embryo.pdf"
     }
   },
   "chapitres": [

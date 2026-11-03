@@ -1,5 +1,10 @@
 const $=id=>document.getElementById(id);
 const DATA_DIR="data/";
+const INDEX_FILE="index.json";   // généré par genindex.py (et par l’Action de déploiement) : chemins de tous les PDF (cours/…) et JSON (data/…)
+const pdfByName=new Map();       // nom de PDF (en minuscules) → chemins trouvés dans l’index
+const pathWarns=new Set();       // PDF introuvables ou en double
+let hasIndex=false;
+const baseName=p=>String(p).split("/").pop();
 const NONE_TEXT="Toutes les réponses précédentes sont fausses";   // proposition ajoutée quand 0 bonne réponse est tirée
 const NONE_WHY="Aucune des autres propositions n’est correcte.";
 const NONE_WHY_FALSE="Faux : au moins une des propositions précédentes est correcte.";
@@ -19,8 +24,10 @@ let current=[];                  // chapitres du QCM en cours
 const rnd=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
 function shuffle(a){a=a.slice();for(let j=a.length-1;j>0;j--){const k=rnd(0,j);[a[j],a[k]]=[a[k],a[j]]}return a}
 
-async function getJSON(name){
-  const r=await fetch(DATA_DIR+name,{cache:"no-store"});
+async function getJSON(name,optional){   // optional : renvoie null si le fichier n’existe pas
+  let r;
+  try{r=await fetch(name,{cache:"no-store"})}catch(e){if(optional)return null;throw e}
+  if(!r.ok&&optional)return null;
   if(!r.ok)throw new Error("fichier « "+name+" » introuvable ("+r.status+")");
   try{return await r.json()}catch(e){throw new Error("« "+name+" » n’est pas un JSON valide : "+e.message)}
 }
@@ -32,6 +39,15 @@ function ans(a){
 }
 function uniq(list){const seen=new Set();return list.filter(a=>!seen.has(a.reponse)&&seen.add(a.reponse))}
 // Lien vers le cours : "cours": { "fichier": "cours/x.pdf", "page": 12, "surligner": "texte à retrouver sur la page" }
+// "fichier" est un simple nom ("x.pdf") : son dossier (cours/, cours/cardio/…) est retrouvé grâce à index.json. Un chemin avec « / » est gardé tel quel (ancien format).
+function pdfPath(f){
+  if(!f||f.includes("/"))return f;
+  if(!hasIndex)return"cours/"+f;   // sans index : on suppose cours/ à plat
+  const l=pdfByName.get(f.toLowerCase())||[];
+  if(l.length===1)return l[0];
+  pathWarns.add(l.length?"PDF « "+f+" » en double : "+l.join(" et ")+" (renomme l’un des deux)":"PDF « "+f+" » introuvable dans cours/");
+  return"";
+}
 // "fichier" (et "page") peuvent être donnés une fois pour tout le fichier ou pour un chapitre, dans leur "meta.cours".
 function asCours(v){
   if(typeof v==="string")return{fichier:v};
@@ -40,7 +56,7 @@ function asCours(v){
 }
 function coursOf(c,def){
   const x={...def,...asCours(c)};
-  const fichier=typeof x.fichier==="string"?x.fichier.trim():"";
+  const fichier=pdfPath(typeof x.fichier==="string"?x.fichier.trim():"");
   const page=Math.round(+x.page||0);
   if(!fichier||page<1)return null;
   return{fichier,page,surligner:typeof x.surligner==="string"?x.surligner.trim():""};
@@ -96,7 +112,7 @@ function parseFile(raw,file,warns){
     const questions=clean(c&&c.questions,file+" › "+titre,warns,{...fdef,...cc});
     questions.forEach(q=>{q.chapitre=titre});
     const fichier=[cc.fichier,fdef.fichier].find(x=>typeof x==="string"&&x.trim());   // PDF du chapitre (sinon celui du fichier)
-    if(questions.length)f.chapitres.push({titre,questions,fichier:fichier?fichier.trim():""});
+    if(questions.length)f.chapitres.push({titre,questions,fichier:fichier?pdfPath(fichier.trim()):""});
   });
   return f;
 }
@@ -131,14 +147,28 @@ function groupFiles(files){
 async function init(){
   const warns=[],files=[];
   try{
-    const list=await getJSON("themes.json");
-    if(!Array.isArray(list))throw new Error("« themes.json » doit être une liste de noms de fichiers");
+    const idx=await getJSON(INDEX_FILE,true);
+    let list;
+    if(idx){   // index présent : tous les JSON de data/ (sous-dossiers compris) sont chargés, themes.json ne sert plus qu’à l’ordre
+      if(!Array.isArray(idx.cours)||!Array.isArray(idx.data))throw new Error("« index.json » mal formé (relance python3 genindex.py)");
+      hasIndex=true;
+      idx.cours.forEach(p=>{const k=baseName(p).toLowerCase();pdfByName.set(k,[...(pdfByName.get(k)||[]),p])});
+      const order=await getJSON(DATA_DIR+"themes.json",true);   // facultatif : ordre d’affichage ; les cours absents de la liste viennent ensuite, par ordre alphabétique
+      const rank=n=>{const k=Array.isArray(order)?order.indexOf(baseName(n)):-1;return k<0?1e9:k};
+      list=idx.data.filter(f=>typeof f==="string").sort((a,b)=>rank(a)-rank(b)||a.localeCompare(b));
+    }else{   // sans index (test local sans genindex.py) : ancien fonctionnement avec themes.json
+      const t=await getJSON(DATA_DIR+"themes.json");
+      if(!Array.isArray(t))throw new Error("« themes.json » doit être une liste de noms de fichiers");
+      warns.push("index.json absent : les PDF sont cherchés directement dans cours/ (lance python3 genindex.py)");
+      list=t.map(f=>typeof f==="string"?DATA_DIR+f:f);
+    }
     for(const f of list){
       try{
         if(typeof f!=="string")throw new Error("themes.json : chaque entrée doit être un nom de fichier, par exemple \"cardiologie.json\"");
-        files.push(parseFile(await getJSON(f),f,warns));
+        files.push(parseFile(await getJSON(f),baseName(f),warns));
       }catch(err){warns.push(err.message)}
     }
+    warns.push(...pathWarns);
   }catch(e){
     $("load").style.color="var(--ko)";
     $("load").textContent="Impossible de charger les données : "+e.message+". Si tu ouvres le fichier directement depuis ton disque, lance un petit serveur local (python3 -m http.server) ou héberge le dossier en ligne.";

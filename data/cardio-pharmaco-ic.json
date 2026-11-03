@@ -5,7 +5,7 @@
     "titre": "Pharmacologie de l'insuffisance cardiaque",
     "description": "Physiopathologie et mécanismes moléculaires, inotropes positifs, vasodilatateurs, diurétiques, gliflozines, sacubitril, bêtabloquants et ivabradine dans l'insuffisance cardiaque.",
     "cours": {
-      "fichier": "cours/cardio-pharmaco-ic.pdf"
+      "fichier": "cardio-pharmaco-ic.pdf"
     }
   },
   "chapitres": [

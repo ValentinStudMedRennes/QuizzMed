@@ -3,8 +3,8 @@
 Site de QCM de révision, front-end pur, en français.
 Dépôt : https://github.com/ValentinStudMedRennes/QuizzMed
 
-Contenu du dépôt : `index.html`, `script.js`, `style.css`, `data/` (un JSON par cours, plus `data/themes.json`) et `cours/` (les PDF).
-Le site est statique, sans framework ni build. Les données se chargent par `fetch` : il faut un serveur HTTP (GitHub Pages ou `python3 -m http.server`), pas `file://`.
+Contenu du dépôt : `index.html`, `script.js`, `style.css`, `data/` (un JSON par cours, sous-dossiers permis, plus `data/themes.json` facultatif), `cours/` (les PDF, sous-dossiers permis : `cours/cardio/`, `cours/pneumo/`…), `genindex.py` et `.github/workflows/deploy.yml`.
+Le site est statique, sans framework. Seule étape automatique : `genindex.py` écrit `index.json` (liste de tous les PDF de `cours/` et de tous les JSON de `data/`). L'Action `deploy.yml` le lance à chaque push sur `main` puis déploie GitHub Pages (réglage Pages › Source : « GitHub Actions »). `index.json` n'est donc pas versionné ; en local, lancer `python3 genindex.py` avant `python3 -m http.server`. Les données se chargent par `fetch` : il faut un serveur HTTP (GitHub Pages ou `python3 -m http.server`), pas `file://`.
 
 > Mettre ce fichier à jour à chaque évolution notable (fonctions ajoutées, règles de filtrage, format des données).
 
@@ -17,7 +17,7 @@ Le site est statique, sans framework ni build. Les données se chargent par `fet
 - Le code est volontairement compact (une fonction par ligne ou presque, commentaires en français). Garder ce style.
 - Modifier par remplacements ciblés avec des `assert` (la chaîne doit apparaître une seule fois) plutôt que réécrire le fichier.
 - Après chaque changement : vérifier la syntaxe (`node -e "new Function(require('fs').readFileSync('script.js','utf8'))"`), puis tester dans un navigateur simulé (**jsdom**) sur les vraies données du dépôt (voir « Méthode de test »).
-- À chaque livraison, **incrémenter `?v=N`** dans `index.html` (`style.css?v=` et `script.js?v=`), actuellement **16**, pour casser le cache.
+- À chaque livraison, **incrémenter `?v=N`** dans `index.html` (`style.css?v=` et `script.js?v=`), actuellement **17**, pour casser le cache.
 - Ne rien implémenter qui n'a pas été demandé. En cas de choix de comportement, l'annoncer avant ou le dire clairement après.
 - Messages à l'écran en français. L'interface doit rester utilisable sur téléphone (cibles tactiles d'au moins 44 px, thème clair et sombre via variables CSS).
 
@@ -33,7 +33,7 @@ Chaque cours est un fichier :
     "section": "Physiologie",
     "titre": "...",
     "description": "...",
-    "cours": { "fichier": "cours/xxx.pdf" }
+    "cours": { "fichier": "xxx.pdf" }
   },
   "chapitres": [
     {
@@ -59,13 +59,15 @@ Chaque cours est un fichier :
 
 - `source.type` vaut `annale` ou `generee` (les variantes « généré », « générée » sont reconnues). `references` n'existe que pour les annales.
 - `meta.cours` d'un chapitre est facultatif : il remplace celui du fichier.
+- **`fichier` est un simple nom de PDF, sans dossier.** Le site retrouve son chemin grâce à `index.json`, où que le PDF soit rangé dans `cours/`. Deux PDF de même nom dans deux dossiers : erreur affichée, pas de lien vers le cours. Un `fichier` contenant `/` est utilisé tel quel (ancien format, toujours accepté).
+- Avec `index.json`, tous les JSON de `data/` sont chargés. `data/themes.json` (liste de noms) ne sert plus qu'à l'ordre d'affichage ; les cours absents de la liste viennent après, par ordre alphabétique de chemin. Sans `index.json`, ancien fonctionnement (liste `themes.json`, PDF cherchés dans `cours/` à plat) avec un avertissement.
 - Hiérarchie affichée : **thème > section > cours (un fichier JSON) > chapitre**. Les fichiers ayant le même `theme` (puis la même `section`) sont regroupés.
 - État des données réelles : 80 annales (avec références), 254 questions « generee » (sans références) et 73 questions avec `"source": {}` (fichier `cardio-physio-mecahemo.json`), affichées comme « Non précisée ».
 - Le champ `annale` sur chaque réponse existe dans les données, mais **l'interface ne l'utilise pas**. Ce choix est volontaire : l'affichage sur chaque proposition a été refusé, le tag sur la question suffit.
 
 ## Architecture de `script.js` (par ordre du fichier)
 
-- **Chargement et normalisation** : `getJSON`, `ans`, `asCours` / `coursOf`, `parseSource` (normalise la clé d'origine : `annale`, `genere`, `inconnue` ou autre ; remplit l'ensemble des années et les libellés), `clean`, `parseFile` (chaque chapitre porte `fichier` = son PDF), `groupFiles`, `init`.
+- **Chargement et normalisation** : `getJSON(chemin, facultatif)`, `pdfPath` (nom de PDF → chemin via l'index `pdfByName`, avertissements dans `pathWarns`), `ans`, `asCours` / `coursOf`, `parseSource` (normalise la clé d'origine : `annale`, `genere`, `inconnue` ou autre ; remplit l'ensemble des années et les libellés), `clean`, `parseFile` (chaque chapitre porte `fichier` = son PDF), `groupFiles`, `init` (charge `index.json`, sinon se replie sur `themes.json`).
 - **Filtres** : `passBy(q, skip)` applique l'origine (`srcFilter`), « tombée au moins N fois » (`minRefs`) et les années décochées (`yearsOff`). L'argument `skip` ignore un filtre, ce qui sert à compter les choix de chaque menu. `pass`, `qlist(c)`, `qcount(cs)` et `filtersOn()` en dérivent.
   - **Règle des années** : elle ne s'applique qu'aux questions qui ont des références. Une annale reste si au moins une de ses références tombe dans une année cochée. Les questions sans référence (générées, non précisées) ne sont jamais touchées.
   - Avec `minRefs` > 0, en revanche, les questions sans référence sont écartées (elles sont « tombées 0 fois »).
@@ -91,7 +93,8 @@ Chaque cours est un fichier :
 mkdir t && cd t
 npm i jsdom
 cp ../index.html ../script.js ../style.css .   # un par un, /bin/sh ne développe pas {a,b}
-cp -r ../data .
+cp -r ../data ../cours ../genindex.py .
+python3 genindex.py
 ```
 
 `run.js` :
@@ -100,7 +103,7 @@ cp -r ../data .
 const {JSDOM}=require("jsdom"),fs=require("fs");
 const html=fs.readFileSync("index.html","utf8").replace(/<script src.*<\/script>/,"").replace(/<link.*>/,"");
 const w=new JSDOM(html,{runScripts:"outside-only",pretendToBeVisual:true}).window;
-w.fetch=async n=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(n,"utf8"))});
+w.fetch=async n=>fs.existsSync(n)?{ok:true,json:async()=>JSON.parse(fs.readFileSync(n,"utf8"))}:{ok:false,status:404};   // les fichiers facultatifs (index.json, themes.json) doivent pouvoir manquer
 w.matchMedia=()=>({matches:true});
 w.eval(fs.readFileSync("script.js","utf8"));
 const $=id=>w.document.getElementById(id);
@@ -118,3 +121,5 @@ setTimeout(()=>{
 - Dans la grille mobile de `.item`, la règle `.crs` (bouton cours) doit rester déclarée **après** `.play` dans le CSS, car les deux partagent la classe de base.
 - Dans le JSON, échapper les guillemets doubles à l'intérieur des textes.
 - `/bin/sh` ne développe pas `{a,b}` : copier les fichiers un par un.
+- Pour lire une variable `let` du script dans jsdom (ex. `themes`), l'exposer : `w.eval(script+"\nwindow.__t=()=>themes;")`.
+- Si le site en ligne ne voit pas un nouveau PDF ou cours : vérifier que l'Action « Déploiement » a réussi (onglet Actions).
