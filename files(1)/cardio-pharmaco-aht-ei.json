@@ -1,0 +1,1576 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Pharmacologie",
+    "titre": "Antihypertenseurs : effets indésirables et précautions d'emploi",
+    "description": "Effets indésirables, précautions d'emploi et contre-indications des diurétiques, inhibiteurs calciques, bêtabloquants, alphabloquants, antihypertenseurs centraux, IEC et ARA II, et effets sur les comorbidités.",
+    "cours": {
+      "fichier": "cardio-pharmaco-aht-ei.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Les diurétiques"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-ei-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des diurétiques de l'anse (furosémide), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "Hyponatrémie et hypokaliémie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils agissent sur environ 30 % du sodium filtré, d'où une diurèse majeure.",
+              "explication": "Diapositive n°3."
+            },
+            {
+              "reponse": "Donnés de manière prolongée ou répétée, ils peuvent entraîner une hypovolémie avec déshydratation.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Ils entraînent une hyponatrémie et une hypokaliémie.",
+              "explication": "Diapositive n°3."
+            },
+            {
+              "reponse": "Ils entraînent une alcalose hypochlorémique.",
+              "explication": "Pertes de chlore et de protons."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une hyperglycémie, via l'hypokaliémie.",
+              "explication": "Problématique chez le diabétique."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une hyperuricémie, avec des crises de goutte chez les patients prédisposés.",
+              "explication": "Diapositive n°3."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils entraînent une hyperkaliémie.",
+              "explication": "Ils entraînent une hypokaliémie."
+            },
+            {
+              "reponse": "Ils entraînent une acidose hyperchlorémique.",
+              "explication": "C'est le cas des anti-aldostérone ; l'anse donne une alcalose."
+            },
+            {
+              "reponse": "Ils entraînent une hypoglycémie.",
+              "explication": "Ils entraînent une hyperglycémie."
+            },
+            {
+              "reponse": "Ils diminuent l'uricémie et protègent de la goutte.",
+              "explication": "Ils entraînent une hyperuricémie."
+            },
+            {
+              "reponse": "L'hyperaldostéronisme réactionnel diminue la fuite de potassium.",
+              "explication": "Il l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-002",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 27
+              }
+            ]
+          },
+          "question": "Concernant le furosémide (diurétique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "la fuite sodée déclenche un hyperaldostéronisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il induit un hyperaldostéronisme secondaire.",
+              "annale": true,
+              "explication": "Réaction à la fuite sodée. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire une hypokaliémie.",
+              "annale": true,
+              "explication": "Hyperaldostéronisme réactionnel. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut entraîner une hyperuricémie.",
+              "explication": "Diapositive n°3."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il inhibe la réabsorption du sodium au niveau du tube contourné distal.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il agit sur la partie médullaire de l'anse de Henlé (cours sur les mécanismes). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut induire une gynécomastie.",
+              "annale": true,
+              "explication": "C'est un effet hormonal de la spironolactone. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire des troubles gastro-intestinaux.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours attribue les troubles gastro-intestinaux à l'amiloride ; réponse attendue pour le furosémide non confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Il induit une acidose hyperchlorémique.",
+              "explication": "Il induit une alcalose hypochlorémique."
+            },
+            {
+              "reponse": "Il est hyperkaliémiant.",
+              "explication": "Il est hypokaliémiant."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des diurétiques thiazidiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "moins puissants et plus lents"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils ont les mêmes effets indésirables que les diurétiques de l'anse, mais moins puissants et plus lents à apparaître.",
+              "explication": "Diapositive n°3."
+            },
+            {
+              "reponse": "Ils augmentent les triglycérides et le cholestérol.",
+              "explication": "À surveiller, surtout en association avec un bêtabloquant."
+            },
+            {
+              "reponse": "L'hypokaliémie qu'ils induisent peut provoquer des troubles du rythme cardiaque.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "L'hydrochlorothiazide est le chef de file des thiazidiques.",
+              "explication": "Diapositive n°3."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Leurs effets indésirables sont plus puissants et plus rapides que ceux des diurétiques de l'anse.",
+              "explication": "Ils sont moins puissants et plus lents."
+            },
+            {
+              "reponse": "Ils diminuent le cholestérol.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Ils entraînent une hyperkaliémie.",
+              "explication": "Ils entraînent une hypokaliémie."
+            },
+            {
+              "reponse": "Leurs effets indésirables sont opposés à ceux des diurétiques de l'anse.",
+              "explication": "Ce sont les mêmes, en moins puissant."
+            },
+            {
+              "reponse": "L'hypokaliémie sous thiazidique ne peut pas entraîner de trouble du rythme.",
+              "explication": "Elle le peut."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des diurétiques anti-aldostérone, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "les « inverses » des diurétiques de l'anse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils entraînent une hyperkaliémie.",
+              "explication": "Le potassium n'est plus excrété."
+            },
+            {
+              "reponse": "Ils entraînent une acidose hyperchlorémique.",
+              "explication": "L'exact contraire des diurétiques de l'anse."
+            },
+            {
+              "reponse": "La spironolactone, de structure stéroïde, peut entraîner une gynécomastie, une galactorrhée, des troubles des règles et une impuissance.",
+              "explication": "Effets hormonaux."
+            },
+            {
+              "reponse": "L'amiloride (pseudo-anti-aldostérone) peut entraîner des troubles gastro-intestinaux et des réactions cutanées, sans effet hormonal.",
+              "explication": "Diapositive n°4."
+            },
+            {
+              "reponse": "L'hypokaliémie (anse, thiazidiques) et l'hyperkaliémie (anti-aldostérone) sont des effets indésirables graves.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La spironolactone entraîne une hypokaliémie.",
+              "explication": "Elle entraîne une hyperkaliémie."
+            },
+            {
+              "reponse": "L'amiloride entraîne une gynécomastie.",
+              "explication": "Il n'a pas d'effet hormonal."
+            },
+            {
+              "reponse": "Les anti-aldostérone entraînent une alcalose hypochlorémique.",
+              "explication": "Ils entraînent une acidose hyperchlorémique."
+            },
+            {
+              "reponse": "La spironolactone n'a pas de structure stéroïdienne.",
+              "explication": "C'est une molécule stéroïde."
+            },
+            {
+              "reponse": "L'amiloride est un antagoniste direct, de structure stéroïde.",
+              "explication": "C'est un pseudo-anti-aldostérone non stéroïdien."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-005",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 30
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Concernant la spironolactone et les diurétiques anti-aldostérone, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "agissent sur le récepteur de l'aldostérone"
+          },
+          "bonnes": [
+            {
+              "reponse": "La spironolactone peut entraîner une gynécomastie.",
+              "annale": true,
+              "explication": "Effet hormonal. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La spironolactone peut entraîner des troubles gastro-intestinaux.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours les attribue à l'amiloride ; réponse attendue pour la spironolactone non confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Les anti-aldostérone peuvent induire une hyperkaliémie.",
+              "annale": true,
+              "explication": "Diapositive n°4. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les anti-aldostérone peuvent induire une acidose hyperchlorémique.",
+              "annale": true,
+              "explication": "Diapositive n°4. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La spironolactone inhibe la réabsorption du sodium dans le tube contourné proximal.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle agit au tube contourné distal (cours sur les mécanismes). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La spironolactone peut entraîner un hyperaldostéronisme secondaire.",
+              "annale": true,
+              "explication": "L'hyperaldostéronisme réactionnel concerne les diurétiques de l'anse et thiazidiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La spironolactone peut entraîner une hypokaliémie.",
+              "annale": true,
+              "explication": "Elle est hyperkaliémiante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les anti-aldostérone peuvent induire une hypovolémie par déshydratation.",
+              "annale": true,
+              "explication": "C'est un effet des diurétiques de l'anse ; les anti-aldostérone ont un effet diurétique modeste. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les anti-aldostérone peuvent induire une hyperglycémie.",
+              "annale": true,
+              "explication": "C'est un effet de l'anse et des thiazidiques, via l'hypokaliémie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les anti-aldostérone peuvent induire une hyperuricémie.",
+              "annale": true,
+              "explication": "C'est un effet de l'anse et des thiazidiques. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les associations comportant un ou des diurétiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "un hypokaliémiant et l'autre hyperkaliémiant"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'association idéale associe un diurétique hypokaliémiant et un diurétique hyperkaliémiant.",
+              "explication": "Excrétion sodée plus importante, kaliémie neutre."
+            },
+            {
+              "reponse": "Il faut vérifier l'ionogramme, car les effets sur le potassium ne se compensent pas parfaitement.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "Avec un bêtabloquant, la réponse est variable ; l'association n'est pas conseillée sur le plan pharmacologique.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Un inhibiteur de l'enzyme de conversion ou un antagoniste AT1 limite le risque d'hypokaliémie d'un diurétique.",
+              "explication": "Ils sont hyperkaliémiants."
+            },
+            {
+              "reponse": "Avec un diurétique anti-aldostérone, l'ajout d'un inhibiteur de l'enzyme de conversion expose à une hyperkaliémie.",
+              "explication": "Point de vigilance."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les effets sur le potassium se compensent parfaitement : le ionogramme est inutile.",
+              "explication": "Il faut le vérifier."
+            },
+            {
+              "reponse": "Un inhibiteur de l'enzyme de conversion majore l'hypokaliémie d'un thiazidique.",
+              "explication": "Il la limite."
+            },
+            {
+              "reponse": "L'association diurétique + bêtabloquant est particulièrement recommandée sur le plan pharmacologique.",
+              "explication": "Elle n'est pas conseillée."
+            },
+            {
+              "reponse": "Un inhibiteur de l'enzyme de conversion associé à un anti-aldostérone expose à une hypokaliémie.",
+              "explication": "Il expose à une hyperkaliémie."
+            },
+            {
+              "reponse": "On associe d'emblée 2 diurétiques chez tout hypertendu.",
+              "explication": "On le fait quand un seul ne suffit pas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les inhibiteurs calciques"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-ei-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables cardiaques du vérapamil et du diltiazem, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "effet dromotrope négatif"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent entraîner une bradycardie sinusale (effet chronotrope négatif).",
+              "explication": "Diapositive n°6."
+            },
+            {
+              "reponse": "Ils peuvent entraîner des troubles de conduction auriculo-ventriculaire (effet dromotrope négatif).",
+              "explication": "Risque de bloc."
+            },
+            {
+              "reponse": "Ils peuvent décompenser une insuffisance cardiaque latente (effet inotrope négatif).",
+              "explication": "Comme les bêtabloquants."
+            },
+            {
+              "reponse": "Ils agissent sur le nœud sinusal et le nœud auriculo-ventriculaire.",
+              "explication": "Diapositive n°6."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils entraînent une tachycardie sinusale.",
+              "explication": "Ils entraînent une bradycardie."
+            },
+            {
+              "reponse": "Ils ont un effet dromotrope positif.",
+              "explication": "Il est négatif."
+            },
+            {
+              "reponse": "Ils ont un effet inotrope positif.",
+              "explication": "Il est négatif."
+            },
+            {
+              "reponse": "Les dihydropyridines partagent ces effets cardiaques.",
+              "explication": "Les dihydropyridines ont des effets uniquement vasculaires."
+            },
+            {
+              "reponse": "Ils n'agissent pas sur le nœud auriculo-ventriculaire.",
+              "explication": "Ils y agissent (risque de bloc)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des dihydropyridines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Bouffées vasomotrices et céphalées"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elles peuvent entraîner des bouffées vasomotrices et des céphalées.",
+              "explication": "Diapositive n°6."
+            },
+            {
+              "reponse": "Elles peuvent entraîner une hypotension orthostatique avec vertiges, liée à leur effet vasodilatateur.",
+              "explication": "Version retenue ([Correction])."
+            },
+            {
+              "reponse": "Elles peuvent entraîner des œdèmes des membres inférieurs, mal supportés par le patient.",
+              "explication": "Ils peuvent limiter le suivi du traitement."
+            },
+            {
+              "reponse": "Nausées, augmentation des transaminases et asthénie sont des effets moins caractéristiques.",
+              "explication": "Non spécifiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hypotension orthostatique des dihydropyridines est sans lien avec la vasodilatation.",
+              "explication": "Erreur des notes : elle découle de l'effet vasodilatateur."
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs sont toujours très bien tolérés.",
+              "explication": "Ils sont mal supportés."
+            },
+            {
+              "reponse": "Les dihydropyridines entraînent typiquement une bradycardie sinusale.",
+              "explication": "Leurs effets sont uniquement vasculaires."
+            },
+            {
+              "reponse": "Les dihydropyridines entraînent typiquement des blocs auriculo-ventriculaires.",
+              "explication": "C'est le cas du vérapamil et du diltiazem."
+            },
+            {
+              "reponse": "L'augmentation des transaminases est spécifique des dihydropyridines.",
+              "explication": "Elle n'est pas spécifique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-009",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "qcm": 8
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Concernant le vérapamil (inhibiteur calcique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Ces médicaments agissent sur le nœud sinusal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il induit une vasodilatation artériolaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les mécanismes d'action. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut induire une bradycardie sinusale.",
+              "annale": true,
+              "explication": "Effet chronotrope négatif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire des troubles de conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Effet dromotrope négatif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire la décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet inotrope négatif. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il bloque les canaux calciques ouverts par un récepteur.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il bloque les canaux voltage-dépendants (cours sur les mécanismes). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il a des effets uniquement vasculaires.",
+              "explication": "Il a aussi des effets cardiaques."
+            },
+            {
+              "reponse": "Il provoque une tachycardie réflexe importante.",
+              "explication": "Il est bradycardisant."
+            },
+            {
+              "reponse": "Il entraîne typiquement des œdèmes et des bouffées vasomotrices comme principal effet indésirable.",
+              "explication": "Ce sont surtout les effets des dihydropyridines."
+            },
+            {
+              "reponse": "Il peut être prescrit sans précaution en cas de bloc auriculo-ventriculaire.",
+              "explication": "Il est contre-indiqué en cas de bloc."
+            },
+            {
+              "reponse": "Il a un effet inotrope positif.",
+              "explication": "Il est inotrope négatif."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-010",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 28
+              }
+            ]
+          },
+          "question": "Concernant le diltiazem (inhibiteur calcique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "bradycardie sinusale : ralentissement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il induit une vasodilatation artériolaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les mécanismes d'action. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut induire des troubles de conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Effet dromotrope négatif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire la décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet inotrope négatif. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il bloque les canaux calciques ouverts par un récepteur.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il bloque les canaux voltage-dépendants (cours sur les mécanismes). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il induit une tachycardie.",
+              "annale": true,
+              "explication": "Il est bradycardisant. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "C'est une dihydropyridine.",
+              "explication": "C'est un inhibiteur calcique non sélectif."
+            },
+            {
+              "reponse": "Il a un effet dromotrope positif.",
+              "explication": "Il est négatif."
+            },
+            {
+              "reponse": "Il n'a aucun effet cardiaque.",
+              "explication": "Il agit sur les nœuds sinusal et auriculo-ventriculaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-011",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2023-2024",
+                "qcm": 5
+              }
+            ]
+          },
+          "question": "Concernant la nifédipine (inhibiteur calcique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Effets uniquement vasculaires : dihydropyridines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle induit une vasodilatation artériolaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les mécanismes d'action. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Elle peut entraîner des œdèmes des membres inférieurs.",
+              "explication": "Effet des dihydropyridines."
+            },
+            {
+              "reponse": "Elle peut entraîner des bouffées vasomotrices et des céphalées.",
+              "explication": "Effet des dihydropyridines."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle bloque les canaux calciques ouverts par un récepteur.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle bloque les canaux voltage-dépendants (cours sur les mécanismes). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Elle peut induire une bradycardie.",
+              "annale": true,
+              "explication": "Les dihydropyridines ont des effets uniquement vasculaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut induire des troubles de la conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Effet du vérapamil et du diltiazem. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut induire la décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet du vérapamil et du diltiazem. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle a un effet inotrope négatif marqué in vivo.",
+              "explication": "Les dihydropyridines ont des effets uniquement vasculaires."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Bêtabloquants, alphabloquants et antihypertenseurs centraux"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-ei-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables généraux des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "début progressif des doses"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent entraîner une bradycardie sinusale excessive, d'où une introduction progressive.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Des troubles de conduction préexistants sont une contre-indication formelle.",
+              "explication": "Risque de décompensation brutale."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque est une contre-indication non formelle, qui impose un début progressif.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "4 bêtabloquants ont une autorisation de mise sur le marché dans l'insuffisance cardiaque.",
+              "explication": "Point de vigilance."
+            },
+            {
+              "reponse": "Même une insuffisance cardiaque bien compensée peut se décompenser sous bêtabloquant.",
+              "explication": "Point de vigilance."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Des troubles de conduction préexistants n'empêchent pas la prescription.",
+              "explication": "C'est une contre-indication formelle."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque est une contre-indication absolue à tout bêtabloquant.",
+              "explication": "C'est une contre-indication non formelle ; 4 molécules y sont indiquées."
+            },
+            {
+              "reponse": "Aucun bêtabloquant n'est indiqué dans l'insuffisance cardiaque.",
+              "explication": "4 le sont."
+            },
+            {
+              "reponse": "Les bêtabloquants doivent être introduits d'emblée à pleine dose.",
+              "explication": "L'introduction est progressive."
+            },
+            {
+              "reponse": "La fréquence cardiaque n'a pas à être surveillée sous bêtabloquant.",
+              "explication": "Il faut la surveiller, notamment au repos."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets respiratoires et circulatoires des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Troubles circulatoires périphériques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent entraîner dyspnée et bronchospasme.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Chez le patient atteint de BPCO, on privilégie un bêtabloquant cardiosélectif.",
+              "explication": "Même s'il vaut mieux une autre classe."
+            },
+            {
+              "reponse": "Ils sont contre-indiqués dans l'asthme et en cas d'antécédent de réaction anaphylactique.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Ils peuvent induire ou aggraver un syndrome de Raynaud.",
+              "explication": "Vasoconstriction des extrémités."
+            },
+            {
+              "reponse": "Ils peuvent aggraver une artériopathie des membres inférieurs (claudication intermittente).",
+              "explication": "Diapositive n°7."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bêtabloquants cardiosélectifs sont autorisés dans l'asthme.",
+              "explication": "Ils sont contre-indiqués."
+            },
+            {
+              "reponse": "Les bêtabloquants améliorent le syndrome de Raynaud.",
+              "explication": "Ils peuvent l'aggraver."
+            },
+            {
+              "reponse": "Chez le patient atteint de BPCO, on privilégie un bêtabloquant non sélectif.",
+              "explication": "On privilégie un cardiosélectif."
+            },
+            {
+              "reponse": "Les bêtabloquants entraînent une vasodilatation périphérique bénéfique dans l'artériopathie.",
+              "explication": "Ils aggravent l'artériopathie."
+            },
+            {
+              "reponse": "Les bêtabloquants allongent le périmètre de marche de l'artéritique.",
+              "explication": "Ils peuvent aggraver la claudication."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets centraux et métaboliques des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "masquer les signes annonciateurs d'une hypoglycémie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent entraîner asthénie, syndrome dépressif et troubles du sommeil.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Ils peuvent masquer les signes annonciateurs d'une hypoglycémie (palpitations, tachycardie, sueurs).",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Chez le diabétique, il faut privilégier les bêtabloquants cardiosélectifs.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Ils augmentent les triglycérides, sans augmenter le cholestérol.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une hypoglycémie, ou une hyperglycémie chez le diabétique de type 2.",
+              "explication": "Diapositive n°8."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bêtabloquants augmentent le cholestérol.",
+              "explication": "Ils augmentent les triglycérides, pas le cholestérol."
+            },
+            {
+              "reponse": "Les bêtabloquants rendent les signes d'hypoglycémie plus visibles.",
+              "explication": "Ils les masquent."
+            },
+            {
+              "reponse": "Chez le diabétique, il faut privilégier les bêtabloquants non sélectifs.",
+              "explication": "On privilégie les cardiosélectifs."
+            },
+            {
+              "reponse": "Les bêtabloquants diminuent les triglycérides.",
+              "explication": "Ils les augmentent."
+            },
+            {
+              "reponse": "Les bêtabloquants ont un effet euphorisant.",
+              "explication": "Ils peuvent entraîner un syndrome dépressif."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : comparaison des effets indésirables des bêtabloquants et des inhibiteurs calciques. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "ressemblent à ceux des inhibiteurs calciques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Bêtabloquants et vérapamil/diltiazem peuvent entraîner une bradycardie sinusale.",
+              "explication": "Effets généraux comparables."
+            },
+            {
+              "reponse": "Bêtabloquants et vérapamil/diltiazem peuvent entraîner des troubles de conduction auriculo-ventriculaire.",
+              "explication": "Effets généraux comparables."
+            },
+            {
+              "reponse": "Bêtabloquants et vérapamil/diltiazem peuvent décompenser une insuffisance cardiaque latente.",
+              "explication": "Effet inotrope négatif."
+            },
+            {
+              "reponse": "Le bronchospasme est un effet propre aux bêtabloquants.",
+              "explication": "Il n'est pas décrit avec les inhibiteurs calciques."
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs sont un effet des dihydropyridines.",
+              "explication": "Diapositive n°6."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le bronchospasme est un effet typique des dihydropyridines.",
+              "explication": "C'est un effet des bêtabloquants."
+            },
+            {
+              "reponse": "Les dihydropyridines entraînent des troubles de conduction comme les bêtabloquants.",
+              "explication": "Leurs effets sont uniquement vasculaires."
+            },
+            {
+              "reponse": "Les bêtabloquants entraînent une tachycardie.",
+              "explication": "Ils entraînent une bradycardie."
+            },
+            {
+              "reponse": "Le syndrome de Raynaud est un effet typique du vérapamil.",
+              "explication": "C'est un effet des bêtabloquants."
+            },
+            {
+              "reponse": "Les effets généraux des bêtabloquants sont opposés à ceux des inhibiteurs calciques.",
+              "explication": "Ils se ressemblent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des alphabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "débuter le traitement le soir au coucher"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils entraînent une hypotension orthostatique, car l'adaptation à l'orthostatisme dépend des récepteurs alpha.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "L'hypotension orthostatique s'accompagne de tachycardie, de palpitations et de vertiges.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Il faut débuter le traitement le soir au coucher.",
+              "explication": "Pour limiter les conséquences de l'hypotension orthostatique."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une incontinence urinaire.",
+              "explication": "Récepteurs alpha du tractus urinaire."
+            },
+            {
+              "reponse": "Ils peuvent entraîner œdèmes, prise de poids, asthénie, syndrome dépressif et sécheresse buccale.",
+              "explication": "Diapositive n°9."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il faut débuter le traitement le matin au réveil.",
+              "explication": "Il faut le débuter le soir au coucher."
+            },
+            {
+              "reponse": "Les alphabloquants entraînent une rétention urinaire.",
+              "explication": "Ils favorisent plutôt l'incontinence."
+            },
+            {
+              "reponse": "L'hypotension orthostatique sous alphabloquant s'accompagne d'une bradycardie.",
+              "explication": "Elle s'accompagne d'une tachycardie."
+            },
+            {
+              "reponse": "Les alphabloquants ne peuvent pas entraîner d'hypotension orthostatique.",
+              "explication": "C'est leur effet indésirable principal."
+            },
+            {
+              "reponse": "Les alphabloquants entraînent une perte de poids.",
+              "explication": "Ils peuvent entraîner une prise de poids."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des antihypertenseurs centraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "peut induire des signes extrapyramidaux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent entraîner somnolence, asthénie et syndrome dépressif.",
+              "explication": "Diapositive n°10."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une sécheresse buccale.",
+              "explication": "Diapositive n°10."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une baisse de la libido et des difficultés érectiles.",
+              "explication": "Diapositive n°10."
+            },
+            {
+              "reponse": "La méthyldopa peut induire des signes extrapyramidaux.",
+              "explication": "Effets sur le système dopaminergique."
+            },
+            {
+              "reponse": "La méthyldopa peut induire une galactorrhée par hyperprolactinémie.",
+              "explication": "Diapositive n°10."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antihypertenseurs centraux entraînent une insomnie.",
+              "explication": "Ils entraînent une somnolence."
+            },
+            {
+              "reponse": "Les antihypertenseurs centraux augmentent la libido.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "La méthyldopa entraîne une hypoprolactinémie.",
+              "explication": "Elle entraîne une hyperprolactinémie."
+            },
+            {
+              "reponse": "Les antihypertenseurs centraux entraînent une hypersalivation.",
+              "explication": "Ils entraînent une sécheresse buccale."
+            },
+            {
+              "reponse": "La méthyldopa n'a aucun effet sur le système dopaminergique.",
+              "explication": "Ses effets indésirables en découlent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Inhibiteurs de l'enzyme de conversion et antagonistes de l'angiotensine II"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-ei-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'hypotension et l'insuffisance rénale sous inhibiteur de l'enzyme de conversion, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "vasoconstriction de l'artériole efférente"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une hypotension de 1re dose peut survenir en cas d'hypertension rénovasculaire (sténose de l'artère rénale).",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Une hypotension de 1re dose peut survenir en cas de déplétion sodée.",
+              "explication": "Patient déshydraté."
+            },
+            {
+              "reponse": "En aval d'une sténose, l'angiotensine II maintient la pression de perfusion par vasoconstriction de l'artériole efférente.",
+              "explication": "Diapositive n°11."
+            },
+            {
+              "reponse": "Une sténose bilatérale de l'artère rénale expose à une insuffisance rénale.",
+              "explication": "Diapositive n°11."
+            },
+            {
+              "reponse": "Un diurétique ou un régime désodé associés exposent à une insuffisance rénale.",
+              "explication": "Baisse de la volémie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'angiotensine II maintient la perfusion glomérulaire par vasoconstriction de l'artériole afférente.",
+              "explication": "Il s'agit de l'artériole efférente."
+            },
+            {
+              "reponse": "L'insuffisance rénale sous inhibiteur de l'enzyme de conversion ne concerne que la sténose unilatérale avec 2 reins.",
+              "explication": "Elle concerne la sténose bilatérale ou sur rein unique."
+            },
+            {
+              "reponse": "Un régime riche en sel favorise l'hypotension de 1re dose.",
+              "explication": "C'est la déplétion sodée."
+            },
+            {
+              "reponse": "Un traitement diurétique associé protège de l'insuffisance rénale sous inhibiteur de l'enzyme de conversion.",
+              "explication": "Il l'expose."
+            },
+            {
+              "reponse": "L'hypotension de 1re dose survient surtout chez le patient hyperhydraté.",
+              "explication": "Elle survient en cas de déplétion sodée."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'hyperkaliémie, la toux et les troubles du goût sous inhibiteur de l'enzyme de conversion, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Toux irritative : les médecins passent"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent entraîner une hyperkaliémie, par diminution de l'aldostérone.",
+              "explication": "Diapositive n°11."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une toux irritative, souvent méconnue des médecins.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "La toux est liée à l'augmentation des bradykinines bronchiques.",
+              "explication": "Diapositive n°11."
+            },
+            {
+              "reponse": "Ils peuvent entraîner une agueusie, surtout avec le captopril.",
+              "explication": "Diapositive n°11."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils entraînent une hypokaliémie.",
+              "explication": "Ils entraînent une hyperkaliémie."
+            },
+            {
+              "reponse": "La toux est liée à l'augmentation de l'angiotensine II.",
+              "explication": "Elle est liée à l'augmentation des bradykinines."
+            },
+            {
+              "reponse": "L'agueusie est surtout décrite avec le losartan.",
+              "explication": "Elle est surtout décrite avec le captopril."
+            },
+            {
+              "reponse": "Ils diminuent les taux de bradykinines.",
+              "explication": "Ils les augmentent."
+            },
+            {
+              "reponse": "La toux sous inhibiteur de l'enzyme de conversion est toujours rapidement reconnue.",
+              "explication": "Elle est souvent méconnue."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des antagonistes des récepteurs de l'angiotensine II, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Également appelés AT1 bloqueurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils ont le même profil que les inhibiteurs de l'enzyme de conversion, avec des cas rapportés de toux et de troubles du goût.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "Ils peuvent entraîner des angio-œdèmes, parfois croisés avec les inhibiteurs de l'enzyme de conversion.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "Ils peuvent entraîner des troubles gastro-intestinaux, des arthralgies et des myalgies.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "C'est une classe plutôt très bien tolérée.",
+              "explication": "Point de vigilance."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils n'entraînent jamais de toux.",
+              "explication": "Des cas sont rapportés."
+            },
+            {
+              "reponse": "Les angio-œdèmes ne sont jamais croisés avec les inhibiteurs de l'enzyme de conversion.",
+              "explication": "Ils le sont parfois."
+            },
+            {
+              "reponse": "C'est une classe mal tolérée, aux effets indésirables fréquents.",
+              "explication": "Elle est très bien tolérée."
+            },
+            {
+              "reponse": "Ce sont des bloqueurs des récepteurs AT2.",
+              "explication": "Ce sont des AT1 bloqueurs."
+            },
+            {
+              "reponse": "Ils entraînent typiquement une hypokaliémie.",
+              "explication": "Même profil hyperkaliémiant que les inhibiteurs de l'enzyme de conversion."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : quels antihypertenseurs peuvent entraîner une hyperkaliémie ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Hyperkaliémie : à cause d'une diminution"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les diurétiques anti-aldostérone.",
+              "explication": "Diapositive n°4."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion.",
+              "explication": "Diminution de l'aldostérone."
+            },
+            {
+              "reponse": "Les antagonistes des récepteurs de l'angiotensine II.",
+              "explication": "Même profil que les inhibiteurs de l'enzyme de conversion."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le furosémide.",
+              "explication": "Il est hypokaliémiant."
+            },
+            {
+              "reponse": "L'hydrochlorothiazide.",
+              "explication": "Il est hypokaliémiant."
+            },
+            {
+              "reponse": "Les dihydropyridines.",
+              "explication": "Leurs effets indésirables sont vasculaires."
+            },
+            {
+              "reponse": "Les alphabloquants.",
+              "explication": "Ils donnent surtout une hypotension orthostatique."
+            },
+            {
+              "reponse": "Les antihypertenseurs centraux.",
+              "explication": "Ce n'est pas un de leurs effets décrits."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse, à ne pas confondre : inhibiteurs de l'enzyme de conversion et antagonistes AT1. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "parfois croisés avec les inhibiteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les 2 classes peuvent entraîner une hyperkaliémie.",
+              "explication": "Même profil."
+            },
+            {
+              "reponse": "La toux est un effet indésirable classique des inhibiteurs de l'enzyme de conversion, plus rarement rapporté avec les antagonistes AT1.",
+              "explication": "Diapositives n°11 et 12."
+            },
+            {
+              "reponse": "Les angio-œdèmes peuvent être croisés entre les 2 classes.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "Les 2 classes sont globalement bien tolérées.",
+              "explication": "Point de vigilance."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antagonistes AT1 sont hypokaliémiants alors que les inhibiteurs de l'enzyme de conversion sont hyperkaliémiants.",
+              "explication": "Les 2 sont hyperkaliémiants."
+            },
+            {
+              "reponse": "La toux des inhibiteurs de l'enzyme de conversion est due à une baisse des bradykinines.",
+              "explication": "Elle est due à leur augmentation."
+            },
+            {
+              "reponse": "Les antagonistes AT1 sont mal tolérés.",
+              "explication": "Ils sont très bien tolérés."
+            },
+            {
+              "reponse": "L'agueusie est surtout décrite avec l'énalapril.",
+              "explication": "Elle est surtout décrite avec le captopril."
+            },
+            {
+              "reponse": "Les 2 classes entraînent un syndrome extrapyramidal.",
+              "explication": "C'est un effet de la méthyldopa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Effets sur les comorbidités"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-ei-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les comorbidités qui orientent favorablement le choix de l'antihypertenseur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Hypertension artérielle et migraine"
+          },
+          "bonnes": [
+            {
+              "reponse": "En cas d'hypertension et d'angor, les bêtabloquants et les inhibiteurs calciques sont intéressants.",
+              "explication": "Diapositive n°13."
+            },
+            {
+              "reponse": "En cas d'hypertension et de tachycardie, les bêtabloquants sont utilisés en 1re intention.",
+              "explication": "Diapositive n°13."
+            },
+            {
+              "reponse": "En cas d'hypertension et de tachycardie, le vérapamil, bradycardisant, est une option.",
+              "explication": "Diapositive n°13."
+            },
+            {
+              "reponse": "En cas d'hypertension et de migraine, certains bêtabloquants comme le propranolol sont indiqués.",
+              "explication": "Diapositive n°13."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En cas d'hypertension et de tachycardie, les dihydropyridines sont le meilleur choix car bradycardisantes.",
+              "explication": "Elles ne sont pas bradycardisantes ; c'est le vérapamil."
+            },
+            {
+              "reponse": "En cas d'hypertension et de migraine, les inhibiteurs de l'enzyme de conversion sont la classe de référence.",
+              "explication": "Ce sont certains bêtabloquants (propranolol)."
+            },
+            {
+              "reponse": "Les bêtabloquants sont inefficaces dans l'angor.",
+              "explication": "Ce sont d'excellents antiangineux."
+            },
+            {
+              "reponse": "En cas d'hypertension et d'angor, les inhibiteurs calciques sont contre-indiqués.",
+              "explication": "Ils sont intéressants."
+            },
+            {
+              "reponse": "Le propranolol est contre-indiqué dans la migraine.",
+              "explication": "Il est indiqué dans certaines formes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les comorbidités qui contre-indiquent ou limitent certains antihypertenseurs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "bêtabloquants contre-indiqués, même cardiosélectifs"
+          },
+          "bonnes": [
+            {
+              "reponse": "En cas d'asthme, les bêtabloquants sont contre-indiqués, même cardiosélectifs.",
+              "explication": "Risque de bronchoconstriction."
+            },
+            {
+              "reponse": "En cas de dépression, il faut éviter les alphabloquants, les bêtabloquants et les antihypertenseurs centraux.",
+              "explication": "Diapositive n°14."
+            },
+            {
+              "reponse": "En cas de diabète, il faut être prudent avec les bêtabloquants.",
+              "explication": "Diapositive n°14."
+            },
+            {
+              "reponse": "En cas de bloc auriculo-ventriculaire, les bêtabloquants et les inhibiteurs calciques cardiospécifiques sont contre-indiqués.",
+              "explication": "Diapositive n°14."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En cas d'asthme, les bêtabloquants cardiosélectifs sont autorisés.",
+              "explication": "Ils sont contre-indiqués."
+            },
+            {
+              "reponse": "En cas de dépression, les inhibiteurs de l'enzyme de conversion sont contre-indiqués.",
+              "explication": "Ce sont les alphabloquants, bêtabloquants et centraux."
+            },
+            {
+              "reponse": "En cas de bloc auriculo-ventriculaire, les dihydropyridines sont contre-indiquées.",
+              "explication": "Ce sont les inhibiteurs calciques cardiospécifiques."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque chronique contre-indique tous les bêtabloquants.",
+              "explication": "Erreur des notes : 4 bêtabloquants y sont indiqués."
+            },
+            {
+              "reponse": "En cas de bloc auriculo-ventriculaire, les inhibiteurs de l'enzyme de conversion sont contre-indiqués.",
+              "explication": "Ce sont les bêtabloquants et le vérapamil/diltiazem."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : quels antihypertenseurs peuvent entraîner une hypotension orthostatique ou une hypotension de 1re dose ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Précaution : débuter le traitement le soir"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les alphabloquants (hypotension orthostatique).",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Les dihydropyridines (hypotension orthostatique par vasodilatation).",
+              "explication": "Diapositive n°6."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion (hypotension de 1re dose en cas de déplétion sodée ou de sténose de l'artère rénale).",
+              "explication": "Diapositive n°11."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les alphabloquants doivent être débutés le matin pour éviter l'hypotension.",
+              "explication": "Ils sont débutés le soir."
+            },
+            {
+              "reponse": "L'hypotension de 1re dose des inhibiteurs de l'enzyme de conversion survient chez le patient en surcharge sodée.",
+              "explication": "Elle survient en cas de déplétion sodée."
+            },
+            {
+              "reponse": "L'hypotension orthostatique sous alphabloquant s'accompagne d'une bradycardie.",
+              "explication": "Elle s'accompagne d'une tachycardie."
+            },
+            {
+              "reponse": "Les dihydropyridines ne peuvent pas entraîner d'hypotension orthostatique.",
+              "explication": "Elles le peuvent."
+            },
+            {
+              "reponse": "L'hypotension orthostatique des alphabloquants est due au blocage des récepteurs bêta-2.",
+              "explication": "Elle est due au blocage des récepteurs alpha."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : quels antihypertenseurs peuvent entraîner un syndrome dépressif ?",
+          "cours": {
+            "page": 7,
+            "surligner": "éviter les médicaments qui induisent un syndrome"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bêtabloquants.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Les alphabloquants.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Les antihypertenseurs centraux.",
+              "explication": "Diapositive n°10."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les diurétiques thiazidiques.",
+              "explication": "Ce n'est pas un de leurs effets décrits."
+            },
+            {
+              "reponse": "Les antagonistes des récepteurs de l'angiotensine II.",
+              "explication": "Ce n'est pas un de leurs effets décrits."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion.",
+              "explication": "Ce n'est pas un de leurs effets décrits."
+            },
+            {
+              "reponse": "Les dihydropyridines.",
+              "explication": "Ce n'est pas un de leurs effets décrits."
+            },
+            {
+              "reponse": "Le furosémide.",
+              "explication": "Ce n'est pas un de ses effets décrits."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-ei-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : concernant les effets métaboliques des antihypertenseurs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Tolérance lipidique : pas d'augmentation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les diurétiques de l'anse peuvent entraîner une hyperglycémie via l'hypokaliémie.",
+              "explication": "Diapositive n°3."
+            },
+            {
+              "reponse": "Les thiazidiques augmentent les triglycérides et le cholestérol.",
+              "explication": "Diapositive n°3."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent les triglycérides, sans augmenter le cholestérol.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Les bêtabloquants masquent les signes annonciateurs d'une hypoglycémie.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Les diurétiques de l'anse peuvent entraîner une hyperuricémie.",
+              "explication": "Diapositive n°3."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bêtabloquants augmentent le cholestérol.",
+              "explication": "Ils augmentent les triglycérides."
+            },
+            {
+              "reponse": "Les thiazidiques diminuent les triglycérides.",
+              "explication": "Ils les augmentent."
+            },
+            {
+              "reponse": "Les anti-aldostérone entraînent une hyperuricémie.",
+              "explication": "C'est un effet de l'anse et des thiazidiques."
+            },
+            {
+              "reponse": "Les diurétiques de l'anse entraînent une hypoglycémie.",
+              "explication": "Ils entraînent une hyperglycémie."
+            },
+            {
+              "reponse": "Les bêtabloquants révèlent les hypoglycémies en accentuant la tachycardie.",
+              "explication": "Ils les masquent."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

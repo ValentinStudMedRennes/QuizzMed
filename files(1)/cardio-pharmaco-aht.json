@@ -1,0 +1,2370 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Pharmacologie",
+    "titre": "Pharmacologie des antihypertenseurs : mécanismes d'action",
+    "description": "Hypertension artérielle, équations hémodynamiques et mécanismes d'action des diurétiques, antagonistes calciques, médicaments du système sympathique et du système rénine-angiotensine.",
+    "cours": {
+      "fichier": "cardio-pharmaco-aht.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "L'hypertension artérielle et l'hémodynamique"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition de l'hypertension artérielle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "lors de 3 consultations successives"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hypertension se définit par une pression systolique supérieure à 140 mmHg ou une pression diastolique supérieure à 90 mmHg.",
+              "explication": "Diapositive n°3."
+            },
+            {
+              "reponse": "L'élévation des 2 paramètres (systolique et diastolique) n'est pas nécessaire.",
+              "explication": "L'un ou l'autre suffit."
+            },
+            {
+              "reponse": "Les mesures doivent être retrouvées lors de 3 consultations successives, sur une période de 3 à 6 mois.",
+              "explication": "Délai raccourci si l'hypertension est très importante."
+            },
+            {
+              "reponse": "C'est une maladie chronique, indolore, souvent non diagnostiquée au départ.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hypertension se définit par une pression systolique supérieure à 160 mmHg.",
+              "explication": "Le seuil est de 140 mmHg."
+            },
+            {
+              "reponse": "Il faut une élévation simultanée des pressions systolique et diastolique.",
+              "explication": "L'une ou l'autre suffit."
+            },
+            {
+              "reponse": "Une seule mesure élevée suffit à poser le diagnostic.",
+              "explication": "Il faut 3 consultations successives."
+            },
+            {
+              "reponse": "L'hypertension artérielle est une maladie douloureuse.",
+              "explication": "Elle est indolore."
+            },
+            {
+              "reponse": "Le diagnostic impose 10 consultations sur 2 ans.",
+              "explication": "3 consultations sur 3 à 6 mois."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les causes et les facteurs de risque de l'hypertension artérielle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "sans cause organique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Environ 90 % des hypertensions sont essentielles, sans cause organique.",
+              "explication": "Diapositive n°4."
+            },
+            {
+              "reponse": "Environ 10 % des hypertensions sont secondaires, et il faut en traiter la cause.",
+              "explication": "Diapositive n°4."
+            },
+            {
+              "reponse": "Le syndrome de Conn correspond à un adénome sécrétant de l'aldostérone.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "La sténose de l'artère rénale est une cause d'hypertension secondaire.",
+              "explication": "Diapositive n°4."
+            },
+            {
+              "reponse": "Le vieillissement favorise l'hypertension systolique par perte d'élasticité des artères.",
+              "explication": "Un système rigide augmente la pression systolique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Environ 90 % des hypertensions sont secondaires.",
+              "explication": "Elles sont essentielles."
+            },
+            {
+              "reponse": "Le syndrome de Conn correspond à une hypersécrétion de cortisol.",
+              "explication": "C'est le syndrome de Cushing ; Conn = aldostérone."
+            },
+            {
+              "reponse": "Le vieillissement diminue la pression artérielle systolique.",
+              "explication": "Il l'augmente (rigidité artérielle)."
+            },
+            {
+              "reponse": "La coarctation de l'aorte est une cause rénale d'hypertension.",
+              "explication": "C'est une cause vasculaire."
+            },
+            {
+              "reponse": "Les estrogènes protègent toujours contre l'hypertension.",
+              "explication": "Ils font partie des causes iatrogènes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les complications de l'hypertension artérielle (classification OMS 1993), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "On traite l'hypertension pour prévenir"
+          },
+          "bonnes": [
+            {
+              "reponse": "On traite l'hypertension pour prévenir les complications organiques, car elle reste asymptomatique pendant des années.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "L'accident vasculaire cérébral correspond au stade III.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "L'hypertrophie ventriculaire gauche correspond au stade II.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "Un rétrécissement des artères rétiniennes au fond d'œil correspond au stade II.",
+              "explication": "Diapositive n°5."
+            },
+            {
+              "reponse": "L'insuffisance rénale correspond au stade III.",
+              "explication": "Diapositive n°5."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hypertension est symptomatique dès son début.",
+              "explication": "Elle est asymptomatique pendant des années."
+            },
+            {
+              "reponse": "L'accident vasculaire cérébral correspond au stade I.",
+              "explication": "Il correspond au stade III."
+            },
+            {
+              "reponse": "L'hypertrophie ventriculaire gauche correspond au stade III.",
+              "explication": "Elle correspond au stade II."
+            },
+            {
+              "reponse": "Les exsudats et hémorragies rétiniens correspondent au stade I.",
+              "explication": "Ils correspondent au stade III."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque correspond au stade I.",
+              "explication": "Elle correspond au stade III."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les équations de l'hémodynamique systémique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "débit cardiaque × résistances périphériques totales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Pression artérielle moyenne = débit cardiaque × résistances périphériques totales.",
+              "explication": "Équation à bien connaître."
+            },
+            {
+              "reponse": "Débit cardiaque = fréquence cardiaque × volume d'éjection systolique.",
+              "explication": "Équation à bien connaître."
+            },
+            {
+              "reponse": "Le rayon des artérioles intervient à la puissance 4 dans les résistances.",
+              "explication": "Une vasodilatation diminue fortement les résistances."
+            },
+            {
+              "reponse": "À volémie constante, les 3 cibles sont le volume d'éjection, la fréquence cardiaque et la vasodilatation.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Tous les antihypertenseurs agissent sur le débit cardiaque, les résistances, ou les 2.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Pression artérielle moyenne = débit cardiaque + résistances périphériques totales.",
+              "explication": "C'est un produit."
+            },
+            {
+              "reponse": "Le rayon des artérioles intervient au carré dans les résistances.",
+              "explication": "Il intervient à la puissance 4."
+            },
+            {
+              "reponse": "La viscosité du sang est la principale cible des antihypertenseurs.",
+              "explication": "Elle est considérée comme constante."
+            },
+            {
+              "reponse": "Débit cardiaque = fréquence cardiaque / volume d'éjection systolique.",
+              "explication": "C'est un produit."
+            },
+            {
+              "reponse": "La longueur de l'arbre artériel varie fortement chez l'adulte et sert de cible thérapeutique.",
+              "explication": "Elle est constante chez l'adulte."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les grandes classes d'antihypertenseurs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Action sur la volémie : diurétiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les diurétiques agissent sur la volémie.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Les antagonistes calciques agissent sur les fibres musculaires lisses vasculaires.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Bêtabloquants, alphabloquants et antihypertenseurs centraux agissent sur le système sympathique.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Inhibiteurs de l'enzyme de conversion et antagonistes des récepteurs de l'angiotensine II agissent sur le système rénine-angiotensine-aldostérone.",
+              "explication": "Diapositive n°7."
+            },
+            {
+              "reponse": "Le système sympathique régule la pression artérielle immédiatement ; le système rénine-angiotensine-aldostérone met plus de temps.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion agissent sur le système sympathique.",
+              "explication": "Ils agissent sur le système rénine-angiotensine-aldostérone."
+            },
+            {
+              "reponse": "Les antihypertenseurs centraux agissent sur la volémie.",
+              "explication": "Ils agissent sur le système sympathique."
+            },
+            {
+              "reponse": "Les antagonistes calciques agissent sur la volémie.",
+              "explication": "Ils agissent sur les fibres musculaires lisses."
+            },
+            {
+              "reponse": "Le système rénine-angiotensine-aldostérone régule la pression plus vite que le système sympathique.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Les alphabloquants agissent sur le système rénine-angiotensine-aldostérone.",
+              "explication": "Ils agissent sur le système sympathique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les diurétiques"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les mouvements ioniques du néphron, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "aucun diurétique n'y agit"
+          },
+          "bonnes": [
+            {
+              "reponse": "Aucun diurétique n'agit sur le tube contourné proximal.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "La partie médullaire de la branche ascendante réabsorbe environ 30 % du sodium filtré.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "La partie corticale de la branche ascendante réabsorbe 5 à 10 % du sodium filtré.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Au tube contourné distal, l'aldostérone commande une réabsorption de sodium contre une excrétion de potassium.",
+              "explication": "Diapositive n°8."
+            },
+            {
+              "reponse": "Plus le site d'action est distal, plus l'effet des diurétiques est limité.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le furosémide agit sur le tube contourné proximal.",
+              "explication": "Il agit sur la partie médullaire de l'anse."
+            },
+            {
+              "reponse": "La partie corticale de l'anse réabsorbe environ 30 % du sodium filtré.",
+              "explication": "Elle en réabsorbe 5 à 10 %."
+            },
+            {
+              "reponse": "L'hormone antidiurétique commande une réabsorption de sodium au tube collecteur.",
+              "explication": "Elle commande une réabsorption d'eau sans sodium."
+            },
+            {
+              "reponse": "Plus le site d'action est distal, plus l'effet diurétique est puissant.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Au tube contourné distal, l'aldostérone fait excréter le sodium et réabsorber le potassium.",
+              "explication": "Elle fait réabsorber le sodium contre une excrétion de potassium."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les diurétiques de l'anse, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "d'où le terme de salidiurétiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les diurétiques sont des inhibiteurs spécifiques de la réabsorption du sodium (salidiurétiques).",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Le furosémide est le chef de file des diurétiques de l'anse.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Les diurétiques de l'anse sont très puissants.",
+              "explication": "Fuite hydrosodée massive."
+            },
+            {
+              "reponse": "La fuite sodée déclenche un hyperaldostéronisme réactionnel, à l'origine d'une hypokaliémie.",
+              "explication": "Il faut supplémenter en potassium."
+            },
+            {
+              "reponse": "Le furosémide est utilisé surtout en urgence et dans l'hypertension avec insuffisance rénale avancée.",
+              "explication": "Diapositive n°9."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le furosémide est le traitement de base de l'hypertension chronique.",
+              "explication": "C'est l'hydrochlorothiazide."
+            },
+            {
+              "reponse": "L'hyperaldostéronisme réactionnel entraîne une hyperkaliémie.",
+              "explication": "Il entraîne une fuite de potassium."
+            },
+            {
+              "reponse": "Les diurétiques de l'anse sont peu puissants.",
+              "explication": "Ils sont très puissants."
+            },
+            {
+              "reponse": "Le furosémide est contre-indiqué dans l'hypertension avec insuffisance rénale avancée.",
+              "explication": "C'est le seul médicament capable de la traiter."
+            },
+            {
+              "reponse": "L'hyperaldostéronisme réactionnel renforce l'effet du diurétique.",
+              "explication": "Il le limite (contre-régulation)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les diurétiques thiazidiques et anti-aldostérone, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "C'est le traitement de base de l'hypertension"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hydrochlorothiazide est le traitement de base de l'hypertension, seul ou en association.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Les thiazidiques sont moins puissants et plus progressifs que le furosémide.",
+              "explication": "Adaptés au traitement chronique."
+            },
+            {
+              "reponse": "La spironolactone bloque la réabsorption de sodium pilotée par l'aldostérone : c'est un diurétique hyperkaliémiant.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "L'effet diurétique de la spironolactone est modeste : c'est un médicament d'appoint.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "L'association thiazidique + anti-aldostérone majore la fuite sodée tout en respectant la kaliémie.",
+              "explication": "Association « intelligente »."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La spironolactone est un diurétique hypokaliémiant.",
+              "explication": "Elle est hyperkaliémiante."
+            },
+            {
+              "reponse": "L'hydrochlorothiazide est plus puissant que le furosémide.",
+              "explication": "Il est moins puissant."
+            },
+            {
+              "reponse": "L'association thiazidique + anti-aldostérone majore l'hypokaliémie.",
+              "explication": "Les effets sur le potassium s'annulent."
+            },
+            {
+              "reponse": "La spironolactone agit sur la partie médullaire de l'anse de Henlé.",
+              "explication": "Elle agit au tube contourné distal."
+            },
+            {
+              "reponse": "Les thiazidiques n'induisent pas d'hyperaldostéronisme.",
+              "explication": "Ils en induisent un, moins brutal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets pharmacologiques des diurétiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "activation de l'échangeur sodium-calcium"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les diurétiques diminuent la volémie, surtout en administration aiguë.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "Les diurétiques entraînent une vasodilatation artériolaire.",
+              "explication": "Activation de l'échangeur sodium-calcium."
+            },
+            {
+              "reponse": "Dans la cellule musculaire lisse, l'échangeur fait entrer du sodium et sortir du calcium, d'où une relaxation.",
+              "explication": "Diapositive n°9."
+            },
+            {
+              "reponse": "La fuite sodée détectée par la macula densa stimule la rénine, d'où l'hyperaldostéronisme sous diurétiques.",
+              "explication": "Diapositive n°23."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les diurétiques entraînent une vasoconstriction artériolaire.",
+              "explication": "Ils entraînent une vasodilatation."
+            },
+            {
+              "reponse": "Les diurétiques augmentent la volémie.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "L'échangeur sodium-calcium fait entrer du calcium dans la cellule musculaire lisse sous diurétique.",
+              "explication": "Il fait sortir le calcium."
+            },
+            {
+              "reponse": "La fuite sodée inhibe la sécrétion de rénine.",
+              "explication": "Elle la stimule."
+            },
+            {
+              "reponse": "Les diurétiques agissent en bloquant la réabsorption d'eau seule sans sodium.",
+              "explication": "Ce sont des salidiurétiques."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-010",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2020-2021",
+                "qcm": 23
+              }
+            ]
+          },
+          "question": "Concernant les diurétiques utilisés dans l'hypertension artérielle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Plus on va du proximal vers le distal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils possèdent tous un effet natriurétique.",
+              "annale": true,
+              "explication": "Ce sont des inhibiteurs de la réabsorption du sodium. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils peuvent être répartis en 3 classes définies par des sites d'action différents.",
+              "annale": true,
+              "explication": "Anse, thiazidiques, anti-aldostérone. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur site d'action permet de prédire l'intensité maximale de leur effet diurétique.",
+              "annale": true,
+              "explication": "Plus le site est distal, plus l'effet est limité. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les diurétiques de l'anse et les thiazidiques sont généralement prescrits en association.",
+              "annale": true,
+              "explication": "L'association pertinente est thiazidique + anti-aldostérone. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En administration chronique, leur effet antihypertenseur s'explique par une hypovolémie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "En chronique, la volémie revient à la normale ; la baisse de pression est surtout due à la baisse des résistances (passage non abordé cette année). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les diurétiques de l'anse agissent sur le tube contourné distal.",
+              "explication": "Ils agissent sur la partie médullaire de l'anse."
+            },
+            {
+              "reponse": "Les anti-aldostérone sont les diurétiques les plus puissants.",
+              "explication": "Leur effet est modeste."
+            },
+            {
+              "reponse": "Les anti-aldostérone sont hypokaliémiants.",
+              "explication": "Ils sont hyperkaliémiants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les antagonistes calciques"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les mouvements du calcium dans la cellule musculaire lisse, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "C'est le calcium qui commande la contraction"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le calcium est très concentré dans le milieu extracellulaire et tend à entrer dans la cellule.",
+              "explication": "Diapositive n°10."
+            },
+            {
+              "reponse": "La concentration intracellulaire de calcium est d'environ 10-7 mole par litre au repos et 10-5 pendant la contraction.",
+              "explication": "Diapositive n°11."
+            },
+            {
+              "reponse": "Le calcium entre par des canaux, notamment voltage-dépendants, dans le sens du gradient.",
+              "explication": "Diapositive n°11."
+            },
+            {
+              "reponse": "Le calcium sort par des pompes et par l'échangeur sodium-calcium, contre le gradient.",
+              "explication": "Diapositive n°11."
+            },
+            {
+              "reponse": "L'entrée de calcium provoque le relargage du calcium du réticulum sarcoplasmique.",
+              "explication": "« Calcium-induced calcium release »."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le calcium est plus concentré dans la cellule qu'à l'extérieur.",
+              "explication": "Il est très concentré à l'extérieur."
+            },
+            {
+              "reponse": "Le calcium sort de la cellule par des canaux passifs.",
+              "explication": "Il sort par des pompes consommant de l'énergie."
+            },
+            {
+              "reponse": "L'entrée de calcium provoque la relaxation de la cellule.",
+              "explication": "Elle provoque la contraction."
+            },
+            {
+              "reponse": "Le calcium entre dans la cellule par des pompes consommant de l'ATP.",
+              "explication": "Il entre par des canaux."
+            },
+            {
+              "reponse": "L'échangeur sodium-calcium fait entrer le calcium contre la sortie de sodium.",
+              "explication": "Il fait sortir le calcium contre l'entrée de sodium."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les potentiels d'action cardiaques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "phase calcique, qui correspond à la contraction"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la cellule cardiaque rapide, la phase 0 est une dépolarisation brutale par entrée de sodium.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "Le plateau (phase 2) est la phase calcique, qui correspond à la contraction.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "La repolarisation (phase 3) se fait par sortie de potassium.",
+              "explication": "Diapositive n°12."
+            },
+            {
+              "reponse": "Agir sur l'entrée de calcium pendant le plateau donne un effet inotrope négatif.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Dans la cellule nodale, atténuer la pente de dépolarisation diastolique fait baisser la fréquence cardiaque.",
+              "explication": "Diapositive n°13."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La phase 0 de la cellule rapide est due à une entrée de calcium.",
+              "explication": "Elle est due à une entrée de sodium."
+            },
+            {
+              "reponse": "Le plateau est dû à une sortie de potassium.",
+              "explication": "Il est dû à une entrée de calcium."
+            },
+            {
+              "reponse": "La repolarisation est due à une entrée de sodium.",
+              "explication": "Elle est due à une sortie de potassium."
+            },
+            {
+              "reponse": "Le nœud sinusal et le nœud auriculo-ventriculaire sont une seule et même structure.",
+              "explication": "Ce sont 2 structures distinctes."
+            },
+            {
+              "reponse": "La cellule nodale présente une dépolarisation diastolique rapide sodique.",
+              "explication": "Elle est lente et calcique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dihydropyridines (antagonistes calciques sélectifs), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "tous les antagonistes calciques sont vasodilatateurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "In vitro, tous les antagonistes calciques sont vasodilatateurs, inotropes négatifs et chronotropes négatifs.",
+              "explication": "Point essentiel du cours."
+            },
+            {
+              "reponse": "La nifédipine est le chef de file des dihydropyridines (DCI en « -dipine »).",
+              "explication": "Diapositive n°14."
+            },
+            {
+              "reponse": "In vivo, les dihydropyridines se comportent comme s'ils n'agissaient que sur les vaisseaux.",
+              "explication": "Tropisme vasculaire."
+            },
+            {
+              "reponse": "Sous dihydropyridine, la fréquence cardiaque peut augmenter par un effet réflexe (baroréflexe).",
+              "explication": "Stimulation sympathique réflexe."
+            },
+            {
+              "reponse": "La nifédipine fait baisser la pression uniquement par la baisse des résistances.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "In vitro, les dihydropyridines n'agissent que sur les vaisseaux.",
+              "explication": "In vitro, tous ont des effets cardiaques et vasculaires."
+            },
+            {
+              "reponse": "La nifédipine est bradycardisante in vivo.",
+              "explication": "La fréquence peut augmenter par effet réflexe."
+            },
+            {
+              "reponse": "Les DCI des dihydropyridines se terminent par « -pril ».",
+              "explication": "Elles se terminent par « -dipine »."
+            },
+            {
+              "reponse": "Les dihydropyridines sont des antagonistes des canaux calciques ouverts par un récepteur.",
+              "explication": "Ce sont des antagonistes des canaux voltage-dépendants."
+            },
+            {
+              "reponse": "In vivo, la nifédipine a un effet inotrope négatif marqué.",
+              "explication": "L'effet cardiaque est masqué, voire inversé, par le réflexe."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antagonistes calciques non sélectifs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Ils bloquent in vivo les canaux des cellules"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le vérapamil et le diltiazem sont les chefs de file des antagonistes calciques non sélectifs.",
+              "explication": "Diapositive n°14."
+            },
+            {
+              "reponse": "Ils baissent la fréquence cardiaque par blocage des nœuds sinusal et auriculo-ventriculaire.",
+              "explication": "Bradycardisants."
+            },
+            {
+              "reponse": "Ils ont un effet inotrope négatif qui diminue le volume d'éjection systolique.",
+              "explication": "Diapositive n°14."
+            },
+            {
+              "reponse": "Leur vasodilatation est insuffisante pour déclencher une stimulation sympathique réflexe.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Ils font baisser la pression par les 3 paramètres : fréquence, volume d'éjection et résistances.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les antagonistes calciques traitent aussi l'angor.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le vérapamil n'a qu'un effet vasculaire in vivo.",
+              "explication": "Il bloque aussi les canaux du cœur et du tissu nodal."
+            },
+            {
+              "reponse": "Le diltiazem entraîne une tachycardie réflexe importante.",
+              "explication": "Il est bradycardisant."
+            },
+            {
+              "reponse": "La baisse de pression obtenue avec le vérapamil est très supérieure à celle de la nifédipine.",
+              "explication": "Elle est similaire."
+            },
+            {
+              "reponse": "Le vérapamil a un effet inotrope positif.",
+              "explication": "Il a un effet inotrope négatif."
+            },
+            {
+              "reponse": "Le vérapamil fait baisser la pression uniquement par la baisse des résistances.",
+              "explication": "Il agit sur les 3 paramètres."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-015",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Concernant les antagonistes calciques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "antagonistes spécifiques des canaux calciques voltage-dépendants"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent être classés en fonction de leur structure chimique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Dihydropyridines, phénylalkylamines (vérapamil), benzothiazépines (diltiazem). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Ils ont tous, in vivo, des effets vasodilatateurs.",
+              "annale": true,
+              "explication": "Sélectifs comme non sélectifs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur effet antihypertenseur s'explique partiellement ou exclusivement par une baisse des résistances périphériques totales.",
+              "annale": true,
+              "explication": "Exclusivement pour la nifédipine, partiellement pour le vérapamil. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils bloquent à la fois les canaux voltage-dépendants et les canaux ouverts par un récepteur.",
+              "annale": true,
+              "explication": "Ce sont des antagonistes spécifiques des canaux voltage-dépendants. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils ont tous, in vitro, des effets chronotropes et inotropes positifs.",
+              "annale": true,
+              "explication": "Ils sont tous chronotropes et inotropes négatifs in vitro. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "In vivo, tous les antagonistes calciques sont bradycardisants.",
+              "explication": "Les dihydropyridines ne le sont pas."
+            },
+            {
+              "reponse": "La propriété clinique importante est leur sélectivité vis-à-vis des récepteurs bêta.",
+              "explication": "C'est leur sélectivité vis-à-vis du muscle lisse vasculaire."
+            },
+            {
+              "reponse": "Le diltiazem est une dihydropyridine.",
+              "explication": "C'est un antagoniste non sélectif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le système sympathique : bêtabloquants, alphabloquants et antihypertenseurs centraux"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les neuromédiateurs et récepteurs adrénergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Seule la noradrénaline agit sur les récepteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "La noradrénaline est le neuromédiateur des terminaisons sympathiques ; l'adrénaline est une hormone de la médullosurrénale.",
+              "explication": "Point de vigilance."
+            },
+            {
+              "reponse": "La stimulation des récepteurs alpha-2 présynaptiques diminue la libération de noradrénaline.",
+              "explication": "Rétrocontrôle négatif."
+            },
+            {
+              "reponse": "La stimulation des récepteurs bêta-2 présynaptiques augmente la libération de noradrénaline.",
+              "explication": "Rétrocontrôle positif."
+            },
+            {
+              "reponse": "Au cœur, les récepteurs bêta-1 ont un effet chronotrope et inotrope positif.",
+              "explication": "Diapositive n°16."
+            },
+            {
+              "reponse": "Au niveau des artérioles, les alpha-1 donnent une vasoconstriction et les bêta-2 une vasodilatation.",
+              "explication": "Diapositive n°16."
+            },
+            {
+              "reponse": "Les bêta-1 de l'appareil juxtaglomérulaire augmentent la production de rénine.",
+              "explication": "Diapositive n°16."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'adrénaline agit sur les récepteurs présynaptiques.",
+              "explication": "Seule la noradrénaline y agit."
+            },
+            {
+              "reponse": "La stimulation des alpha-2 présynaptiques augmente la libération de noradrénaline.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Le cœur porte surtout des récepteurs alpha-1.",
+              "explication": "Il porte presque exclusivement des bêta-1."
+            },
+            {
+              "reponse": "Les récepteurs bêta-2 artériolaires entraînent une vasoconstriction.",
+              "explication": "Ils entraînent une vasodilatation."
+            },
+            {
+              "reponse": "Les récepteurs alpha-1 de l'appareil juxtaglomérulaire commandent la sécrétion de rénine.",
+              "explication": "Ce sont des bêta-1."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le système sympathique et l'arc baroréflexe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "le baroréflexe entraîne vasodilatation et bradycardie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le système sympathique est hypertenseur : l'inhiber fait baisser la pression.",
+              "explication": "Diapositive n°15."
+            },
+            {
+              "reponse": "Les barorécepteurs sont situés dans le sinus carotidien et la crosse aortique.",
+              "explication": "Diapositive n°17."
+            },
+            {
+              "reponse": "Le message des barorécepteurs gagne le noyau du tractus solitaire dans le tronc cérébral.",
+              "explication": "Diapositive n°17."
+            },
+            {
+              "reponse": "Quand la pression monte, le baroréflexe entraîne vasodilatation et bradycardie.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Quand la pression baisse, le sympathique est stimulé : vasoconstriction et tachycardie.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Quand la pression monte, le baroréflexe entraîne une tachycardie.",
+              "explication": "Il entraîne une bradycardie."
+            },
+            {
+              "reponse": "Les barorécepteurs sont situés dans l'oreillette droite.",
+              "explication": "Ils sont dans le sinus carotidien et la crosse aortique."
+            },
+            {
+              "reponse": "Quand la pression baisse, le baroréflexe entraîne une bradycardie.",
+              "explication": "Il entraîne une tachycardie."
+            },
+            {
+              "reponse": "Le système sympathique est hypotenseur.",
+              "explication": "Il est hypertenseur."
+            },
+            {
+              "reponse": "Le sympathique inhibe le système rénine-angiotensine-aldostérone.",
+              "explication": "Il le stimule."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la classification des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "capacité de certains bêtabloquants à stimuler légèrement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le propranolol est non sélectif, sans activité sympathomimétique intrinsèque.",
+              "explication": "Tableau de la diapositive n°18."
+            },
+            {
+              "reponse": "Le pindolol est non sélectif, avec activité sympathomimétique intrinsèque.",
+              "explication": "Tableau de la diapositive n°18."
+            },
+            {
+              "reponse": "L'aténolol est cardiosélectif, sans activité sympathomimétique intrinsèque.",
+              "explication": "Tableau de la diapositive n°18."
+            },
+            {
+              "reponse": "L'acébutolol est cardiosélectif, avec activité sympathomimétique intrinsèque.",
+              "explication": "Tableau de la diapositive n°18."
+            },
+            {
+              "reponse": "L'activité sympathomimétique intrinsèque minore l'effet de blocage et la bradycardie.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le propranolol est cardiosélectif.",
+              "explication": "Il est non sélectif."
+            },
+            {
+              "reponse": "L'aténolol possède une activité sympathomimétique intrinsèque.",
+              "explication": "Il n'en a pas."
+            },
+            {
+              "reponse": "Le pindolol est dépourvu d'activité sympathomimétique intrinsèque.",
+              "explication": "Il en possède une."
+            },
+            {
+              "reponse": "L'acébutolol est non sélectif.",
+              "explication": "Il est cardiosélectif."
+            },
+            {
+              "reponse": "L'activité sympathomimétique intrinsèque majore la bradycardie.",
+              "explication": "Elle la minore."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets pharmacologiques des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "inhibition de la production de rénine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les non sélectifs bloquent les bêta-2 présynaptiques, ce qui diminue la noradrénaline dans la fente synaptique.",
+              "explication": "Effet favorable."
+            },
+            {
+              "reponse": "Le blocage bêta-1 cardiaque baisse surtout la fréquence cardiaque.",
+              "explication": "Effet majeur."
+            },
+            {
+              "reponse": "L'effet inotrope négatif est discret, visible surtout chez l'insuffisant cardiaque.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le blocage des bêta-2 artériolaires (non sélectifs) entraîne une vasoconstriction.",
+              "explication": "Effet défavorable."
+            },
+            {
+              "reponse": "Le blocage bêta-1 de l'appareil juxtaglomérulaire inhibe la production de rénine.",
+              "explication": "Effet essentiel dans l'hypertension."
+            },
+            {
+              "reponse": "On peut traiter l'hypertension avec des bêtabloquants cardiosélectifs comme non sélectifs.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'effet inotrope négatif des bêtabloquants est majeur chez le sujet sain.",
+              "explication": "Il est discret."
+            },
+            {
+              "reponse": "Le blocage des bêta-2 postsynaptiques artériolaires entraîne une vasodilatation.",
+              "explication": "Il entraîne une vasoconstriction."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent la production de rénine.",
+              "explication": "Ils l'inhibent."
+            },
+            {
+              "reponse": "Le blocage des bêta-2 présynaptiques augmente la libération de noradrénaline.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "Les bêtabloquants non sélectifs ne peuvent pas être utilisés dans l'hypertension.",
+              "explication": "Ils peuvent l'être."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les bêtabloquants à propriétés vasodilatatrices, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "La vasodilatation qu'ils induisent compense"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le carvédilol bloque aussi les récepteurs alpha-1.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "Le nébivolol libère du monoxyde d'azote.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "Le céliprolol bloque les alpha-1, stimule les bêta-2 et libère du monoxyde d'azote.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "Le bétaxolol possède un effet antagoniste calcique.",
+              "explication": "Diapositive n°19."
+            },
+            {
+              "reponse": "Leur vasodilatation compense la vasoconstriction des bêtabloquants non sélectifs.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le nébivolol bloque les récepteurs alpha-1.",
+              "explication": "Il libère du monoxyde d'azote."
+            },
+            {
+              "reponse": "Le carvédilol est cardiosélectif.",
+              "explication": "Il est non sélectif."
+            },
+            {
+              "reponse": "Le bétaxolol libère du monoxyde d'azote.",
+              "explication": "Il a un effet antagoniste calcique."
+            },
+            {
+              "reponse": "Le labétalol est un bêtabloquant cardiosélectif.",
+              "explication": "Il est non sélectif."
+            },
+            {
+              "reponse": "Le céliprolol est un bêtabloquant non sélectif.",
+              "explication": "Il est cardiosélectif."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les alphabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Catégorie mineure : antagonistes spécifiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "La prazosine est un alphabloquant alpha-1 sélectif.",
+              "explication": "Diapositive n°20."
+            },
+            {
+              "reponse": "Le blocage des alpha-2 présynaptiques augmente la libération de noradrénaline : effet hypertenseur.",
+              "explication": "Sans intérêt thérapeutique."
+            },
+            {
+              "reponse": "Les alphabloquants n'ont pas d'effet cardiaque direct.",
+              "explication": "Très peu de récepteurs alpha dans le myocarde."
+            },
+            {
+              "reponse": "Le blocage des alpha-1 donne une vasodilatation, donc une baisse des résistances.",
+              "explication": "Diapositive n°20."
+            },
+            {
+              "reponse": "La yohimbine est un alpha-2 sélectif et la phentolamine un alphabloquant non sélectif.",
+              "explication": "Diapositive n°20."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La prazosine est un alpha-2 sélectif.",
+              "explication": "Elle est alpha-1 sélective."
+            },
+            {
+              "reponse": "Le blocage des alpha-2 présynaptiques est l'effet antihypertenseur recherché.",
+              "explication": "Il est hypertenseur."
+            },
+            {
+              "reponse": "Les alphabloquants ont un effet cardiaque majeur.",
+              "explication": "Ils n'en ont pas."
+            },
+            {
+              "reponse": "Le blocage des alpha-1 entraîne une vasoconstriction.",
+              "explication": "Il entraîne une vasodilatation."
+            },
+            {
+              "reponse": "Les alphabloquants sont une classe majeure de l'hypertension.",
+              "explication": "C'est une catégorie mineure."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antihypertenseurs centraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "agonistes des récepteurs alpha-2 centraux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce sont des agonistes des récepteurs alpha-2 centraux et des récepteurs aux imidazolines.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "La clonidine et la méthyldopa sont des molécules anciennes ; la moxonidine et la rilménidine plus récentes.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Ils diminuent la libération de noradrénaline : inhibition sympathique centrale.",
+              "explication": "Diapositive n°21."
+            },
+            {
+              "reponse": "Ils entraînent une vasodilatation avec baisse des résistances.",
+              "explication": "Diapositive n°21."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ce sont des antagonistes des récepteurs alpha-2 centraux.",
+              "explication": "Ce sont des agonistes."
+            },
+            {
+              "reponse": "Ils augmentent la libération de noradrénaline.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "La clonidine est un antagoniste des récepteurs aux imidazolines.",
+              "explication": "Elle est agoniste."
+            },
+            {
+              "reponse": "Ils entraînent une vasoconstriction.",
+              "explication": "Ils entraînent une vasodilatation."
+            },
+            {
+              "reponse": "La rilménidine est un bêtabloquant.",
+              "explication": "C'est un antihypertenseur central."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-023",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Concernant le pindolol (bêtabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "capacité de certains bêtabloquants à stimuler légèrement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "explication": "Bêtabloquant non sélectif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il possède une activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "explication": "Tableau de la diapositive n°18. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il diminue les taux de noradrénaline au niveau présynaptique.",
+              "annale": true,
+              "explication": "Les non sélectifs bloquent les bêta-2 présynaptiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire des troubles de conduction auriculo-ventriculaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les effets indésirables des antihypertenseurs. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut induire la décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les effets indésirables. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "C'est un bêtabloquant cardiosélectif.",
+              "explication": "Il est non sélectif."
+            },
+            {
+              "reponse": "Il est dépourvu d'activité sympathomimétique intrinsèque.",
+              "explication": "Il en possède une."
+            },
+            {
+              "reponse": "Il augmente la production de rénine.",
+              "explication": "Les bêtabloquants l'inhibent."
+            },
+            {
+              "reponse": "C'est un alphabloquant.",
+              "explication": "C'est un bêtabloquant."
+            },
+            {
+              "reponse": "Il bloque les canaux calciques voltage-dépendants.",
+              "explication": "Il bloque les récepteurs bêta."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-024",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2023-2024",
+                "qcm": 6
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 28
+              }
+            ]
+          },
+          "question": "Concernant l'acébutolol (bêtabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Avec activité sympathomimétique intrinsèque"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il possède une activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "explication": "Tableau de la diapositive n°18. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut entraîner des troubles de la conduction auriculo-ventriculaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les effets indésirables. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut induire la décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les effets indésirables. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "explication": "Il est cardiosélectif (bêta-1). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il diminue le taux de noradrénaline au niveau présynaptique.",
+              "annale": true,
+              "explication": "Cet effet passe par le blocage bêta-2, propre aux non sélectifs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il provoque une vasoconstriction au niveau artériolaire.",
+              "annale": true,
+              "explication": "La vasoconstriction vient du blocage bêta-2 des non sélectifs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est dépourvu d'activité sympathomimétique intrinsèque.",
+              "explication": "Il en possède une."
+            },
+            {
+              "reponse": "Il augmente la production de rénine.",
+              "explication": "Les bêtabloquants l'inhibent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-025",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Concernant l'aténolol, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Tableau à bien connaître"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il peut induire la décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les effets indésirables. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "C'est un bêtabloquant cardiosélectif, sans activité sympathomimétique intrinsèque.",
+              "explication": "Tableau de la diapositive n°18."
+            },
+            {
+              "reponse": "Il inhibe la production de rénine.",
+              "explication": "Blocage bêta-1 juxtaglomérulaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "explication": "Il est cardiosélectif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il possède une activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "explication": "Il n'en a pas. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il diminue les taux de noradrénaline au niveau présynaptique.",
+              "annale": true,
+              "explication": "Effet propre aux non sélectifs (bêta-2). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il induit une vasoconstriction au niveau artériolaire.",
+              "annale": true,
+              "explication": "Effet propre aux non sélectifs (bêta-2). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il stimule les récepteurs bêta-2.",
+              "explication": "C'est un bêtabloquant cardiosélectif sans activité sympathomimétique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-026",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant le céliprolol (bêtabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "bloque les alpha-1, stimule les bêta-2, libère"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il bloque les récepteurs alpha-1.",
+              "annale": true,
+              "explication": "Diapositive n°19. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est donneur de monoxyde d'azote.",
+              "annale": true,
+              "explication": "Diapositive n°19. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il stimule les récepteurs bêta-2.",
+              "explication": "Diapositive n°19."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "explication": "Il est cardiosélectif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il bloque les canaux calciques voltage-dépendants.",
+              "annale": true,
+              "explication": "C'est le bétaxolol qui a un effet antagoniste calcique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il ne possède pas d'activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "explication": "Il en possède une (stimulation bêta-2). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il est non sélectif.",
+              "explication": "Il est cardiosélectif."
+            },
+            {
+              "reponse": "Il est dépourvu d'effet vasodilatateur.",
+              "explication": "Il est vasodilatateur (alpha-1, bêta-2, monoxyde d'azote)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-027",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 7
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant les bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Classe majeure, à bien connaître"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent être répartis en 4 groupes selon leur sélectivité bêta-1 et leur activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "explication": "Tableau de la diapositive n°18. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils diminuent la production de rénine.",
+              "annale": true,
+              "explication": "Blocage bêta-1 juxtaglomérulaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-2 présynaptiques diminue la libération de noradrénaline.",
+              "annale": true,
+              "explication": "Effet favorable des non sélectifs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 postsynaptiques cardiaques entraîne une bradycardie.",
+              "annale": true,
+              "explication": "Effet majeur. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils bloquent tous les récepteurs bêta-2.",
+              "annale": true,
+              "explication": "Les cardiosélectifs ne bloquent que les bêta-1. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le pindolol est un bêtabloquant non sélectif sans activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "explication": "Il en possède une. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Leur effet antihypertenseur chronique s'explique exclusivement par une diminution du débit cardiaque.",
+              "annale": true,
+              "explication": "L'inhibition de la rénine est aussi essentielle. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-2 postsynaptiques vasculaires entraîne une vasodilatation.",
+              "annale": true,
+              "explication": "Il entraîne une vasoconstriction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 cardiaques entraîne un effet inotrope négatif marqué.",
+              "annale": true,
+              "explication": "Il est discret. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-028",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2023-2024",
+                "qcm": 7
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 30
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 27
+              }
+            ]
+          },
+          "question": "Concernant la prazosine (alphabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "prazosine, alpha-1 sélectif"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle bloque les récepteurs alpha-1 de façon sélective.",
+              "annale": true,
+              "explication": "Diapositive n°20. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle induit une vasodilatation artériolaire.",
+              "annale": true,
+              "explication": "Blocage alpha-1. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut induire des palpitations.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Hypotension orthostatique avec tachycardie (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Elle peut induire une incontinence urinaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Récepteurs alpha du tractus urinaire (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle bloque les récepteurs alpha-1 et alpha-2.",
+              "annale": true,
+              "explication": "Elle est alpha-1 sélective. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle augmente les taux de noradrénaline au niveau présynaptique.",
+              "annale": true,
+              "explication": "Cet effet relève du blocage alpha-2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle induit une vasoconstriction artériolaire.",
+              "annale": true,
+              "explication": "Elle induit une vasodilatation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut induire une bradycardie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle donne plutôt tachycardie et palpitations (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Elle peut induire une rétention urinaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle favorise plutôt l'incontinence (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le système rénine-angiotensine"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la cascade rénine-angiotensine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "synthétisée par le foie en grande quantité"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'angiotensinogène est synthétisé par le foie en grande quantité, sans régulation.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "La rénine transforme l'angiotensinogène en angiotensine I, peptide inactif.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "L'enzyme de conversion, surtout pulmonaire, transforme l'angiotensine I en angiotensine II.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "L'angiotensine II augmente le tonus artériolaire et la sécrétion d'aldostérone.",
+              "explication": "Diapositive n°22."
+            },
+            {
+              "reponse": "Les effets vasoconstricteurs de l'angiotensine II passent par les récepteurs AT1.",
+              "explication": "Version retenue ([Correction])."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'angiotensine I est le peptide actif.",
+              "explication": "C'est l'angiotensine II."
+            },
+            {
+              "reponse": "La rénine est produite par le foie.",
+              "explication": "Elle est produite par l'appareil juxtaglomérulaire."
+            },
+            {
+              "reponse": "L'angiotensine II est vasodilatatrice.",
+              "explication": "Elle est vasoconstrictrice."
+            },
+            {
+              "reponse": "Les effets vasoconstricteurs de l'angiotensine II passent par les récepteurs AT2.",
+              "explication": "Erreur des notes : ils passent par les AT1."
+            },
+            {
+              "reponse": "L'aldostérone diminue la volémie.",
+              "explication": "Elle l'augmente (réabsorption de sodium et d'eau)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la régulation de la sécrétion de rénine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "composition de l'urine distale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La noradrénaline stimule la sécrétion de rénine via les récepteurs bêta-1.",
+              "explication": "Diapositive n°23."
+            },
+            {
+              "reponse": "La macula densa analyse la composition de l'urine distale.",
+              "explication": "Diapositive n°23."
+            },
+            {
+              "reponse": "Toute fuite sodée, hydrique ou chlorée déclenche la production de rénine.",
+              "explication": "D'où l'hyperaldostéronisme sous diurétiques."
+            },
+            {
+              "reponse": "Une baisse de pression dans l'artériole afférente stimule la sécrétion de rénine.",
+              "explication": "Diapositive n°23."
+            },
+            {
+              "reponse": "Une sténose de l'artère rénale peut entraîner une hypertension secondaire.",
+              "explication": "Le rein interprète la baisse de pression comme systémique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs alpha-1 stimulent la sécrétion de rénine.",
+              "explication": "Ce sont les bêta-1."
+            },
+            {
+              "reponse": "Une hausse de pression dans l'artériole afférente stimule la rénine.",
+              "explication": "C'est une baisse."
+            },
+            {
+              "reponse": "Une fuite sodée inhibe la sécrétion de rénine.",
+              "explication": "Elle la stimule."
+            },
+            {
+              "reponse": "Une sténose de l'artère rénale diminue la sécrétion de rénine.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La macula densa mesure directement la pression artérielle systémique.",
+              "explication": "Elle analyse la composition de l'urine distale."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les interactions avec le système des kinines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "L'enzyme de conversion est doublement hypertensive"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'enzyme de conversion produit l'angiotensine II.",
+              "explication": "Diapositive n°24."
+            },
+            {
+              "reponse": "L'enzyme de conversion dégrade la bradykinine.",
+              "explication": "Elle est aussi appelée bradykininase II."
+            },
+            {
+              "reponse": "La bradykinine est natriurétique et vasodilatatrice.",
+              "explication": "Diapositive n°24."
+            },
+            {
+              "reponse": "L'enzyme de conversion est doublement hypertensive : c'est une cible très intéressante.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'enzyme de conversion synthétise la bradykinine.",
+              "explication": "Elle la dégrade."
+            },
+            {
+              "reponse": "La bradykinine est vasoconstrictrice.",
+              "explication": "Elle est vasodilatatrice."
+            },
+            {
+              "reponse": "La bradykinine fait monter la pression artérielle.",
+              "explication": "Elle la fait baisser."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion diminuent les taux de bradykinine.",
+              "explication": "Ils les augmentent (moindre dégradation)."
+            },
+            {
+              "reponse": "L'enzyme de conversion n'a qu'un seul substrat, l'angiotensine I.",
+              "explication": "Elle dégrade aussi la bradykinine."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les inhibiteurs de l'enzyme de conversion et les antagonistes des récepteurs AT1, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "augmentation des taux de rénine ET d'angiotensine II"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les DCI des inhibiteurs de l'enzyme de conversion se terminent par « -pril » (captopril, énalapril).",
+              "explication": "Diapositive n°25."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion entraînent une vasodilatation et une baisse de la volémie, sans effet cardiaque.",
+              "explication": "Diapositive n°25."
+            },
+            {
+              "reponse": "Le losartan est un antagoniste des récepteurs AT1 (DCI en « -sartan »).",
+              "explication": "Diapositive n°26."
+            },
+            {
+              "reponse": "Les antagonistes AT1 augmentent les taux de rénine et d'angiotensine II.",
+              "explication": "Ils n'inhibent pas l'enzyme de conversion."
+            },
+            {
+              "reponse": "Certains individus produisent de l'angiotensine II par des chymases, non bloquées par les inhibiteurs de l'enzyme de conversion.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antagonistes des récepteurs de l'angiotensine II diminuent les taux d'angiotensine II.",
+              "explication": "Ils les augmentent."
+            },
+            {
+              "reponse": "Le losartan bloque les récepteurs AT2.",
+              "explication": "Il bloque les AT1."
+            },
+            {
+              "reponse": "Les DCI en « -sartan » désignent des inhibiteurs de l'enzyme de conversion.",
+              "explication": "Ce sont des antagonistes AT1."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion ont un effet inotrope négatif marqué.",
+              "explication": "Ils n'ont pas d'effet cardiaque."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion bloquent les chymases.",
+              "explication": "Les chymases ne sont pas bloquées."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-033",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2023-2024",
+                "qcm": 8
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 26
+              }
+            ]
+          },
+          "question": "Concernant l'énalapril (inhibiteur de l'enzyme de conversion), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Chefs de file : captopril et énalapril"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il induit une diminution des taux d'angiotensine II circulants.",
+              "annale": true,
+              "explication": "Il bloque l'enzyme de conversion. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il induit une augmentation des taux de rénine circulants.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Rétrocontrôle (passage non abordé cette année). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il induit une vasodilatation artériolaire.",
+              "annale": true,
+              "explication": "Diapositive n°25. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire une insuffisance rénale.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Notion du cours sur les effets indésirables. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut induire une toux irritative.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Augmentation des bradykinines (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il induit une diminution des taux de rénine circulants.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le blocage augmente la rénine par rétrocontrôle (passage non abordé cette année). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il peut induire une hypokaliémie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il est hyperkaliémiant (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il bloque les récepteurs AT1 de l'angiotensine II.",
+              "explication": "Il inhibe l'enzyme de conversion."
+            },
+            {
+              "reponse": "Il augmente les taux d'angiotensine II.",
+              "explication": "Il les diminue."
+            },
+            {
+              "reponse": "Il entraîne une vasoconstriction artériolaire.",
+              "explication": "Il entraîne une vasodilatation."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "qcm": 11
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 31
+              }
+            ]
+          },
+          "question": "Concernant le losartan (antagoniste des récepteurs AT1 de l'angiotensine II), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "Molécule de référence : losartan"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il induit une augmentation des taux de rénine circulants.",
+              "annale": true,
+              "explication": "Diapositive n°26. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il induit une vasodilatation artériolaire.",
+              "annale": true,
+              "explication": "Diapositive n°26. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire une toux.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Des cas sont rapportés (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il induit une diminution des taux d'angiotensine II circulants.",
+              "annale": true,
+              "explication": "Il les augmente. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il peut induire une hypokaliémie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Même profil hyperkaliémiant que les inhibiteurs de l'enzyme de conversion (cours sur les effets indésirables). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Il bloque les récepteurs AT2.",
+              "explication": "Il bloque les AT1."
+            },
+            {
+              "reponse": "Il inhibe l'enzyme de conversion.",
+              "explication": "Il bloque les récepteurs AT1."
+            },
+            {
+              "reponse": "Il entraîne une vasoconstriction artériolaire.",
+              "explication": "Il entraîne une vasodilatation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Repères et synthèse"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-aht-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'efficacité comparée des antihypertenseurs en monothérapie (Materson, 1993), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "des patients sont normalisés sous placebo"
+          },
+          "bonnes": [
+            {
+              "reponse": "Environ 25 % des patients sont normalisés sous placebo.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Les taux de normalisation oscillent entre 40 et 60 % selon les classes.",
+              "explication": "Diapositive n°32."
+            },
+            {
+              "reponse": "Une monothérapie normalise environ 1 patient sur 2.",
+              "explication": "Soit 1 de plus sur 4 par rapport au placebo."
+            },
+            {
+              "reponse": "Ces résultats justifient les associations d'antihypertenseurs.",
+              "explication": "Contre-régulations."
+            },
+            {
+              "reponse": "Les différences entre classes ne sont pas significatives.",
+              "explication": "Seule la comparaison au placebo l'est."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Aucun patient n'est normalisé sous placebo.",
+              "explication": "Environ 25 % le sont."
+            },
+            {
+              "reponse": "Une monothérapie normalise environ 90 % des patients.",
+              "explication": "Environ 1 sur 2."
+            },
+            {
+              "reponse": "Le diltiazem est significativement supérieur à toutes les autres classes.",
+              "explication": "Les différences ne sont pas significatives."
+            },
+            {
+              "reponse": "Les associations d'antihypertenseurs sont inutiles.",
+              "explication": "Elles sont justifiées."
+            },
+            {
+              "reponse": "L'effet des antihypertenseurs n'est pas différent de celui du placebo.",
+              "explication": "La différence est significative."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dénominations et les chefs de file, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "dénominations communes internationales le sont"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dénominations communes internationales sont à connaître, pas les noms de spécialités.",
+              "explication": "Consigne donnée en cours."
+            },
+            {
+              "reponse": "Les DCI en « -dipine » désignent des dihydropyridines.",
+              "explication": "Diapositive n°14."
+            },
+            {
+              "reponse": "Les DCI en « -pril » désignent des inhibiteurs de l'enzyme de conversion.",
+              "explication": "Diapositive n°25."
+            },
+            {
+              "reponse": "Les DCI en « -sartan » désignent des antagonistes des récepteurs de l'angiotensine II.",
+              "explication": "Diapositive n°26."
+            },
+            {
+              "reponse": "Furosémide, hydrochlorothiazide et spironolactone sont les chefs de file des 3 classes de diurétiques.",
+              "explication": "Diapositive n°9."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les noms de spécialités sont à connaître pour l'examen.",
+              "explication": "Seules les DCI le sont."
+            },
+            {
+              "reponse": "Les DCI en « -pril » désignent des antagonistes des récepteurs de l'angiotensine II.",
+              "explication": "Ce sont des inhibiteurs de l'enzyme de conversion."
+            },
+            {
+              "reponse": "Les DCI en « -sartan » désignent des inhibiteurs de l'enzyme de conversion.",
+              "explication": "Ce sont des antagonistes AT1."
+            },
+            {
+              "reponse": "Le propranolol est un inhibiteur de l'enzyme de conversion.",
+              "explication": "C'est un bêtabloquant."
+            },
+            {
+              "reponse": "La clonidine est une dihydropyridine.",
+              "explication": "C'est un antihypertenseur central."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : par quel mécanisme hémodynamique ces médicaments baissent-ils la pression artérielle ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Tous les antihypertenseurs agissent sur l'un"
+          },
+          "bonnes": [
+            {
+              "reponse": "La nifédipine baisse la pression par la seule baisse des résistances.",
+              "explication": "Dihydropyridine."
+            },
+            {
+              "reponse": "Le vérapamil baisse la pression par la fréquence, le volume d'éjection et les résistances.",
+              "explication": "Antagoniste non sélectif."
+            },
+            {
+              "reponse": "La prazosine baisse la pression par la baisse des résistances (blocage alpha-1).",
+              "explication": "Diapositive n°20."
+            },
+            {
+              "reponse": "Les bêtabloquants baissent la pression notamment par la baisse de fréquence et l'inhibition de la rénine.",
+              "explication": "Diapositive n°18."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion baissent la pression par vasodilatation et baisse de la volémie.",
+              "explication": "Diapositive n°25."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La nifédipine baisse la pression par une bradycardie marquée.",
+              "explication": "Elle agit par la baisse des résistances."
+            },
+            {
+              "reponse": "La prazosine baisse la pression par un effet inotrope négatif.",
+              "explication": "Elle n'a pas d'effet cardiaque."
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion baissent la pression par un effet chronotrope négatif.",
+              "explication": "Ils n'ont pas d'effet cardiaque."
+            },
+            {
+              "reponse": "Les diurétiques augmentent les résistances périphériques.",
+              "explication": "Ils entraînent une vasodilatation."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent la production de rénine.",
+              "explication": "Ils l'inhibent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : concernant les systèmes de régulation de la pression artérielle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Quand la pression monte, le baroréflexe"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le système sympathique régule la pression immédiatement, par exemple au passage en position debout.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "Le système rénine-angiotensine-aldostérone met plus de temps à agir, par exemple lors d'une hémorragie.",
+              "explication": "Précisé à l'oral."
+            },
+            {
+              "reponse": "La tachycardie sous dihydropyridine traduit la mise en jeu du baroréflexe.",
+              "explication": "Stimulation sympathique réflexe."
+            },
+            {
+              "reponse": "Le sympathique stimule le système rénine-angiotensine par les récepteurs bêta-1.",
+              "explication": "Diapositive n°16."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le système rénine-angiotensine régule la pression de façon immédiate.",
+              "explication": "Il met plus de temps."
+            },
+            {
+              "reponse": "La tachycardie sous dihydropyridine est due à un effet chronotrope positif direct.",
+              "explication": "C'est un effet réflexe."
+            },
+            {
+              "reponse": "Le baroréflexe n'intervient pas lors d'une baisse brutale de pression.",
+              "explication": "Il stimule alors le sympathique."
+            },
+            {
+              "reponse": "Le sympathique inhibe la sécrétion de rénine.",
+              "explication": "Il la stimule."
+            },
+            {
+              "reponse": "Le système sympathique est un système hypotenseur.",
+              "explication": "Il est hypertenseur."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-aht-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : concernant les contre-régulations, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "composition de l'urine distale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Sous diurétique, la fuite sodée déclenche un hyperaldostéronisme réactionnel qui limite l'effet du médicament.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'hyperaldostéronisme réactionnel explique l'hypokaliémie sous diurétique de l'anse ou thiazidique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'association thiazidique + anti-aldostérone bloque cette contre-régulation.",
+              "explication": "Association « intelligente »."
+            },
+            {
+              "reponse": "Les antagonistes AT1 augmentent la rénine et l'angiotensine II.",
+              "explication": "Diapositive n°26."
+            },
+            {
+              "reponse": "Les contre-régulations justifient les associations d'antihypertenseurs.",
+              "explication": "Diapositive n°32."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hyperaldostéronisme réactionnel majore l'effet des diurétiques.",
+              "explication": "Il le limite."
+            },
+            {
+              "reponse": "L'hyperaldostéronisme réactionnel explique une hyperkaliémie sous diurétique de l'anse.",
+              "explication": "Il explique une hypokaliémie."
+            },
+            {
+              "reponse": "Les antagonistes AT1 diminuent la rénine.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Les contre-régulations rendent les associations inutiles.",
+              "explication": "Elles les justifient."
+            },
+            {
+              "reponse": "L'association thiazidique + anti-aldostérone renforce l'hyperaldostéronisme.",
+              "explication": "Elle le bloque."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3130 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Pharmacologie",
+    "titre": "Pharmacologie des anti-angineux",
+    "description": "Rappels sur la maladie coronarienne et l'angor, principes du traitement, puis bêtabloquants, inhibiteurs calciques, dérivés nitrés et apparentés : mécanismes, pharmacocinétique, effets indésirables et précautions.",
+    "cours": {
+      "fichier": "cours/cardio-pharmaco-antiangineux.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Rappels physiopathologiques"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-antiangineux-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la maladie coronarienne, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "atteinte athéromateuse sténosante des artères coronaires épicardiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "La maladie coronarienne est une atteinte athéromateuse sténosante des artères coronaires épicardiques.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La maladie coronarienne touche environ 3 millions de personnes en France.",
+              "explication": "Chiffre donné par le cours (diapositive n°3)."
+            },
+            {
+              "reponse": "La plaque d'athérome se développe dans la paroi artérielle et réduit progressivement la lumière de l'artère.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Une occlusion coronaire peut conduire à un infarctus, avec nécrose du tissu myocardique.",
+              "explication": "Évolution possible décrite dans le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La maladie coronarienne est une atteinte inflammatoire non athéromateuse des artères coronaires intramyocardiques.",
+              "explication": "C'est une atteinte athéromateuse des artères coronaires épicardiques."
+            },
+            {
+              "reponse": "La maladie coronarienne touche environ 300 000 personnes en France.",
+              "explication": "Le cours donne 3 millions de personnes."
+            },
+            {
+              "reponse": "La plaque d'athérome obstrue d'emblée et brutalement la lumière artérielle, sans phase de rétrécissement progressif.",
+              "explication": "Elle réduit progressivement la lumière ; le débit devient insuffisant quand la sténose est importante."
+            },
+            {
+              "reponse": "Une maladie coronarienne ne peut pas apparaître chez un patient sans facteur de risque identifié.",
+              "explication": "Le cours précise qu'elle peut apparaître sans facteur de risque identifié."
+            },
+            {
+              "reponse": "Le stade d'angor étudié dans ce cours correspond à une nécrose myocardique constituée.",
+              "explication": "L'angor correspond à des douleurs transitoires, sans nécrose myocardique constituée."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les facteurs de risque de la maladie coronarienne, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "sédentarité, dyslipidémies, diabète, obésité, tabagisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sédentarité est un facteur de risque de maladie coronarienne.",
+              "explication": "Cité dans la liste du cours."
+            },
+            {
+              "reponse": "Les dyslipidémies sont un facteur de risque de maladie coronarienne.",
+              "explication": "Cité dans la liste du cours."
+            },
+            {
+              "reponse": "Le diabète est un facteur de risque de maladie coronarienne.",
+              "explication": "Cité dans la liste du cours."
+            },
+            {
+              "reponse": "Le tabagisme et l'obésité sont des facteurs de risque de maladie coronarienne.",
+              "explication": "Cités dans la liste du cours."
+            },
+            {
+              "reponse": "Les facteurs de risque doivent être corrigés ou traités systématiquement pour ralentir la progression de l'athérosclérose.",
+              "explication": "Message du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les facteurs de risque ne sont à corriger qu'en présence de symptômes.",
+              "explication": "Ils doivent être corrigés ou traités systématiquement."
+            },
+            {
+              "reponse": "Une fois la maladie coronarienne installée, corriger les facteurs de risque n'a plus d'intérêt.",
+              "explication": "La correction ralentit la progression de l'athérosclérose."
+            },
+            {
+              "reponse": "L'absence de facteur de risque identifié exclut une maladie coronarienne.",
+              "explication": "Une maladie coronarienne peut apparaître sans facteur de risque identifié."
+            },
+            {
+              "reponse": "L'anémie est citée dans le cours comme facteur de risque d'athérosclérose.",
+              "explication": "L'anémie est citée comme cause fonctionnelle d'angor, pas comme facteur de risque d'athérosclérose."
+            },
+            {
+              "reponse": "La pratique d'une activité physique régulière est un facteur de risque de maladie coronarienne.",
+              "explication": "C'est la sédentarité qui est un facteur de risque ; l'activité physique fait partie des mesures conseillées."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les manifestations de la maladie coronarienne, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "douleur thoracique, qui traduit une ischémie transitoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La maladie coronarienne peut être totalement asymptomatique : on parle d'ischémie silencieuse.",
+              "explication": "Premier stade cité par le cours."
+            },
+            {
+              "reponse": "L'ischémie silencieuse peut être découverte de façon fortuite à l'électrocardiogramme.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "L'angor traduit une ischémie myocardique transitoire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Un essoufflement à l'effort peut être une manifestation de la maladie coronarienne.",
+              "explication": "La dyspnée fait partie des manifestations citées."
+            },
+            {
+              "reponse": "Le syndrome coronarien aigu avec sus-décalage du segment ST correspond à une thrombose coronaire pouvant entraîner une nécrose.",
+              "explication": "Distinction donnée à l'oral."
+            },
+            {
+              "reponse": "Une arythmie ou une insuffisance cardiaque peuvent être des manifestations de la maladie coronarienne.",
+              "explication": "Citées sur la diapositive n°4."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'angor correspond à une nécrose myocardique constituée.",
+              "explication": "L'angor correspond à une ischémie transitoire, sans nécrose constituée."
+            },
+            {
+              "reponse": "L'ischémie silencieuse se révèle toujours par une douleur thoracique.",
+              "explication": "Elle est par définition sans symptôme."
+            },
+            {
+              "reponse": "Le syndrome coronarien aigu sans sus-décalage du segment ST correspond à une thrombose coronaire avec nécrose constituée.",
+              "explication": "Les notes l'associent à une souffrance myocardique prolongée ; la thrombose pouvant entraîner une nécrose est associée au sus-décalage du segment ST."
+            },
+            {
+              "reponse": "L'angor est la manifestation la plus sévère de la maladie coronarienne.",
+              "explication": "Le syndrome coronarien aigu est plus sévère que l'angor dans la gradation du cours."
+            },
+            {
+              "reponse": "La maladie coronarienne ne s'exprime jamais par une dyspnée.",
+              "explication": "L'essoufflement (dyspnée) fait partie des manifestations possibles."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la douleur d'origine coronarienne, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "constriction en étau"
+          },
+          "bonnes": [
+            {
+              "reponse": "La douleur d'origine coronarienne est de siège rétrosternal.",
+              "explication": "Siège indiqué par le cours."
+            },
+            {
+              "reponse": "La douleur d'origine coronarienne est à type de constriction en étau.",
+              "explication": "Type de douleur indiqué par le cours."
+            },
+            {
+              "reponse": "La douleur d'origine coronarienne peut irradier vers la mâchoire.",
+              "explication": "Irradiations : épaule, dos, bras, cou, mâchoire."
+            },
+            {
+              "reponse": "La douleur de l'angor d'effort cède à l'arrêt de l'effort.",
+              "explication": "Circonstance d'arrêt citée par le cours."
+            },
+            {
+              "reponse": "La douleur d'origine coronarienne cède à la prise de dérivés nitrés.",
+              "explication": "Circonstance d'arrêt citée par le cours."
+            },
+            {
+              "reponse": "Dans l'angor d'effort, la douleur est déclenchée par un effort physique ou un stress.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La douleur d'origine coronarienne est typiquement punctiforme, à type de piqûre.",
+              "explication": "Elle est à type de constriction en étau."
+            },
+            {
+              "reponse": "Le terme angor vient du latin « angere », qui signifie brûler.",
+              "explication": "« Angere » signifie serrer."
+            },
+            {
+              "reponse": "La douleur d'origine coronarienne est aggravée par la prise de dérivés nitrés.",
+              "explication": "Elle cède à la prise de dérivés nitrés."
+            },
+            {
+              "reponse": "La douleur de l'angor d'effort persiste après l'arrêt de l'effort.",
+              "explication": "Elle cède à l'arrêt de l'effort."
+            },
+            {
+              "reponse": "La douleur d'origine coronarienne n'irradie jamais.",
+              "explication": "Elle est irradiante (épaule, dos, bras, cou, mâchoire)."
+            },
+            {
+              "reponse": "Les circonstances de survenue de la douleur sont les mêmes quel que soit le type d'angor.",
+              "explication": "Elles dépendent du type d'angor."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la physiopathologie de l'angor, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "myocarde entre les apports et les besoins en oxygène"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'angor correspond à un déséquilibre au niveau du myocarde entre les apports et les besoins en oxygène.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Le déséquilibre entre apports et besoins en oxygène aboutit à un épisode ischémique.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Une augmentation des besoins en oxygène, par exemple lors d'un effort ou d'une tachycardie, peut provoquer un épisode ischémique.",
+              "explication": "Causes d'augmentation des besoins citées : effort, tachycardie, hypertension, stress."
+            },
+            {
+              "reponse": "Une diminution des apports en oxygène peut provoquer un épisode ischémique.",
+              "explication": "Première origine du déséquilibre citée."
+            },
+            {
+              "reponse": "Le déséquilibre peut associer une diminution des apports et une augmentation des besoins.",
+              "explication": "Le cours indique que les 2 mécanismes peuvent s'associer."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'angor correspond à un excès des apports en oxygène par rapport aux besoins du myocarde.",
+              "explication": "C'est l'inverse : les apports sont insuffisants par rapport aux besoins."
+            },
+            {
+              "reponse": "La tachycardie diminue les besoins en oxygène du myocarde.",
+              "explication": "Elle les augmente."
+            },
+            {
+              "reponse": "L'hypertension artérielle diminue les besoins en oxygène du myocarde.",
+              "explication": "Elle les augmente."
+            },
+            {
+              "reponse": "Le stress n'influence pas les besoins en oxygène du myocarde.",
+              "explication": "Le stress fait partie des causes d'augmentation des besoins."
+            },
+            {
+              "reponse": "L'épisode ischémique de l'angor résulte uniquement d'une baisse des apports, jamais d'une hausse des besoins.",
+              "explication": "Il peut venir d'une baisse des apports, d'une hausse des besoins ou des 2."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les étiologies de l'angor, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "les plaques d'athérome, de loin la cause principale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les plaques d'athérome sont de loin la cause principale d'angor.",
+              "explication": "Étiologie principale citée."
+            },
+            {
+              "reponse": "Le spasme coronaire est responsable de l'angor spastique, ou angor de Prinzmetal.",
+              "explication": "Étiologie citée par la diapositive n°6."
+            },
+            {
+              "reponse": "Le rétrécissement aortique est une cause fonctionnelle d'angor.",
+              "explication": "Cité parmi les causes fonctionnelles."
+            },
+            {
+              "reponse": "L'anémie est une cause fonctionnelle d'angor.",
+              "explication": "Citée parmi les causes fonctionnelles."
+            },
+            {
+              "reponse": "La tachycardie est une cause fonctionnelle d'angor.",
+              "explication": "Citée parmi les causes fonctionnelles."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le spasme coronaire est la cause principale d'angor.",
+              "explication": "La cause principale est, de loin, la plaque d'athérome."
+            },
+            {
+              "reponse": "L'anémie est une cause athéromateuse d'angor.",
+              "explication": "C'est une cause fonctionnelle."
+            },
+            {
+              "reponse": "Le rétrécissement aortique provoque un angor par spasme coronaire.",
+              "explication": "C'est une cause fonctionnelle, distincte du spasme coronaire."
+            },
+            {
+              "reponse": "La bradycardie fait partie des causes fonctionnelles d'angor citées dans le cours.",
+              "explication": "Le cours cite la tachycardie."
+            },
+            {
+              "reponse": "L'angor de Prinzmetal est un angor fonctionnel lié à une anémie.",
+              "explication": "L'angor de Prinzmetal est un angor spastique, lié à un spasme coronaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "D'après la carte des classes de médicaments cardiovasculaires (diapositive n°2), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "les bêtabloquants, les inhibiteurs calciques et les nitrés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bêtabloquants appartiennent à la fois aux antihypertenseurs, aux médicaments de l'insuffisance cardiaque et aux antiangineux.",
+              "explication": "Ils figurent dans les 3 groupes de la carte."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques sont à la fois des antihypertenseurs et des antiangineux.",
+              "explication": "Ils appartiennent à plusieurs groupes."
+            },
+            {
+              "reponse": "Les activateurs des canaux potassiques font partie des antiangineux.",
+              "explication": "Cités dans le groupe orange des antiangineux."
+            },
+            {
+              "reponse": "Les nitrés figurent parmi les antiangineux.",
+              "explication": "Cités dans le groupe orange des antiangineux."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les diurétiques de l'anse font partie des antiangineux.",
+              "explication": "Ils figurent parmi les antihypertenseurs et les médicaments de l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "Les alphabloquants font partie des antiangineux.",
+              "explication": "Ils figurent uniquement parmi les antihypertenseurs."
+            },
+            {
+              "reponse": "Les tonicardiaques font partie des antiangineux.",
+              "explication": "Ils figurent parmi les médicaments de l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "Les épargneurs potassiques font partie des antiangineux.",
+              "explication": "Ils figurent parmi les médicaments de l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques n'appartiennent qu'à un seul groupe de médicaments cardiovasculaires.",
+              "explication": "Ils appartiennent à plusieurs groupes à la fois."
+            },
+            {
+              "reponse": "Les médicaments du système rénine-angiotensine font partie des antiangineux sur la carte.",
+              "explication": "Ils figurent parmi les antihypertenseurs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Principes du traitement"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-antiangineux-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les objectifs du traitement de la maladie coronarienne, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Diminuer les symptômes, donc améliorer la qualité de vie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le traitement vise à améliorer le pronostic en diminuant les syndromes coronariens aigus, l'insuffisance cardiaque et les décès d'origine cardiovasculaire.",
+              "explication": "Premier objectif cité."
+            },
+            {
+              "reponse": "Le traitement vise à diminuer les symptômes, donc à améliorer la qualité de vie et la tolérance à l'effort.",
+              "explication": "Objectif cité par la diapositive n°7."
+            },
+            {
+              "reponse": "Le traitement vise à ralentir la progression de l'athérosclérose.",
+              "explication": "Objectif cité par la diapositive n°7."
+            },
+            {
+              "reponse": "Traiter une crise d'angor ne supprime pas sa cause.",
+              "explication": "Il faut distinguer le traitement symptomatique du traitement de la maladie sous-jacente."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le traitement d'une crise d'angor suffit à traiter la maladie coronarienne sous-jacente.",
+              "explication": "Traiter la crise ne supprime pas sa cause."
+            },
+            {
+              "reponse": "Le traitement anti-angineux vise à diminuer la tolérance à l'effort.",
+              "explication": "Il vise à l'améliorer."
+            },
+            {
+              "reponse": "Le seul objectif du traitement est de soulager les symptômes.",
+              "explication": "Il vise aussi le pronostic et la progression de l'athérosclérose."
+            },
+            {
+              "reponse": "L'amélioration du pronostic ne fait pas partie des objectifs du traitement.",
+              "explication": "C'est le premier objectif cité."
+            },
+            {
+              "reponse": "Le traitement anti-angineux vise à augmenter les besoins du myocarde en oxygène.",
+              "explication": "Il vise à rétablir l'adéquation apports-besoins, notamment en diminuant les besoins."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les principes d'action pour réduire l'ischémie myocardique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "réduire la précharge par vasodilatation veineuse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le principe du traitement est de rétablir l'adéquation entre apports et besoins en oxygène du myocarde.",
+              "explication": "Principe général de la diapositive n°8."
+            },
+            {
+              "reponse": "L'augmentation du flux coronaire par vasodilatation augmente les apports en oxygène.",
+              "explication": "Première voie de réduction de l'ischémie."
+            },
+            {
+              "reponse": "L'augmentation du flux coronaire est surtout obtenue avec les inhibiteurs calciques.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Les dérivés nitrés réduisent la précharge par vasodilatation veineuse.",
+              "explication": "Levier détaillé dans les notes."
+            },
+            {
+              "reponse": "L'effet inotrope négatif des bêtabloquants réduit la contractilité et donc la consommation en oxygène du myocarde.",
+              "explication": "Levier détaillé dans les notes."
+            },
+            {
+              "reponse": "La réduction de la postcharge par vasodilatation artérielle est obtenue avec les inhibiteurs calciques et les dérivés nitrés.",
+              "explication": "Levier détaillé dans les notes."
+            },
+            {
+              "reponse": "La prévention de la formation de thrombus fait partie des principes d'action du traitement.",
+              "explication": "Point C de la diapositive n°8."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bêtabloquants réduisent la précharge par vasodilatation veineuse.",
+              "explication": "C'est l'effet des dérivés nitrés ; les bêtabloquants réduisent la contractilité."
+            },
+            {
+              "reponse": "Les dérivés nitrés réduisent la contractilité par un effet inotrope négatif.",
+              "explication": "L'effet inotrope négatif concerne les bêtabloquants et certains inhibiteurs calciques."
+            },
+            {
+              "reponse": "La réduction de la postcharge augmente la consommation en oxygène du myocarde.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Un effet inotrope positif est recherché pour diminuer les besoins en oxygène du myocarde.",
+              "explication": "C'est un effet inotrope négatif qui diminue les besoins."
+            },
+            {
+              "reponse": "L'augmentation du flux coronaire repose sur une vasoconstriction coronaire.",
+              "explication": "Elle repose sur une vasodilatation."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la réduction des facteurs athérogènes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "par des modifications du style de vie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sevrage tabagique fait partie des mesures de réduction des facteurs athérogènes.",
+              "explication": "Mesure citée par le cours."
+            },
+            {
+              "reponse": "La réduction pondérale fait partie des mesures de réduction des facteurs athérogènes.",
+              "explication": "Mesure citée par le cours."
+            },
+            {
+              "reponse": "La diminution du stress fait partie des mesures de réduction des facteurs athérogènes.",
+              "explication": "Mesure citée par le cours."
+            },
+            {
+              "reponse": "Une alimentation équilibrée et riche en fibres et une activité physique régulière sont conseillées.",
+              "explication": "Précisions données à l'oral."
+            },
+            {
+              "reponse": "Des traitements hypolipémiants sont parfois nécessaires.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'arrêt de toute activité physique est conseillé pour réduire les facteurs athérogènes.",
+              "explication": "Une activité physique régulière est conseillée."
+            },
+            {
+              "reponse": "Les mesures hygiéno-diététiques deviennent inutiles dès qu'un traitement médicamenteux est instauré.",
+              "explication": "Elles font partie des principes du traitement, à côté des médicaments."
+            },
+            {
+              "reponse": "Une alimentation pauvre en fibres est recommandée.",
+              "explication": "L'alimentation conseillée est riche en fibres."
+            },
+            {
+              "reponse": "Une consommation régulière d'alcool est conseillée pour réduire les facteurs athérogènes.",
+              "explication": "Le cours conseille l'arrêt de l'alcool."
+            },
+            {
+              "reponse": "La réduction des facteurs athérogènes a pour but de soulager la crise d'angor en cours.",
+              "explication": "Elle agit sur le terrain athéromateux, pas sur la crise."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les traitements de la maladie coronarienne, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Non pharmacologiques : angioplastie, stent, pontage aorto-coronarien"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'angioplastie est un traitement non pharmacologique de la maladie coronarienne.",
+              "explication": "Citée par la diapositive n°9."
+            },
+            {
+              "reponse": "La pose d'un stent est un traitement non pharmacologique de la maladie coronarienne.",
+              "explication": "Citée par la diapositive n°9."
+            },
+            {
+              "reponse": "Le pontage aorto-coronarien est un traitement non pharmacologique de la maladie coronarienne.",
+              "explication": "Cité par la diapositive n°9."
+            },
+            {
+              "reponse": "Les médicaments anti-ischémiques comprennent les bêtabloquants, les inhibiteurs calciques, les dérivés nitrés et leurs apparentés.",
+              "explication": "Liste de la diapositive n°10."
+            },
+            {
+              "reponse": "Les médicaments antithrombotiques font partie des traitements pharmacologiques de la maladie coronarienne.",
+              "explication": "Cités, mais non développés dans ce cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le pontage aorto-coronarien est un traitement pharmacologique.",
+              "explication": "C'est un traitement non pharmacologique."
+            },
+            {
+              "reponse": "Les médicaments antithrombotiques font partie des médicaments anti-ischémiques.",
+              "explication": "Ils forment un groupe distinct des anti-ischémiques."
+            },
+            {
+              "reponse": "Les diurétiques de l'anse font partie des médicaments anti-ischémiques.",
+              "explication": "Ils ne figurent pas parmi les anti-ischémiques."
+            },
+            {
+              "reponse": "Les apparentés aux dérivés nitrés ne font pas partie des médicaments anti-ischémiques.",
+              "explication": "Ils sont cités avec les dérivés nitrés."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques sont des médicaments antithrombotiques.",
+              "explication": "Ce sont des anti-ischémiques."
+            },
+            {
+              "reponse": "Les bêtabloquants sont des médicaments antithrombotiques.",
+              "explication": "Ce sont des anti-ischémiques."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-012",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2020-2021",
+                "qcm": 21
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 27
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 5
+              }
+            ]
+          },
+          "question": "Quelles classes thérapeutiques peuvent être administrées pour traiter une insuffisance coronarienne ?",
+          "cours": {
+            "page": 4,
+            "surligner": "inhibiteurs calciques, dérivés nitrés et apparentés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés peuvent être administrés pour traiter une insuffisance coronarienne.",
+              "annale": true,
+              "explication": "Ils font partie des médicaments anti-ischémiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les bêtabloquants peuvent être administrés pour traiter une insuffisance coronarienne.",
+              "annale": true,
+              "explication": "Ce sont les anti-angineux de 1re intention. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les inhibiteurs calciques peuvent être administrés pour traiter une insuffisance coronarienne.",
+              "annale": true,
+              "explication": "Ils font partie des médicaments anti-ischémiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les inhibiteurs de l'enzyme de conversion peuvent être administrés dans la prise en charge d'une insuffisance coronarienne.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Ce ne sont pas des anti-ischémiques, mais les recommandations les proposent chez le coronarien, en particulier en cas d'hypertension, de diabète ou de dysfonction ventriculaire gauche ; la réponse attendue à l'examen n'est pas connue. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les diurétiques de l'anse sont administrés pour traiter une insuffisance coronarienne.",
+              "annale": true,
+              "explication": "Ce sont des antihypertenseurs et des médicaments de l'insuffisance cardiaque, pas des anti-ischémiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les inhibiteurs de la rénine sont administrés pour traiter une insuffisance coronarienne.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'aliskiren, inhibiteur direct de la rénine, est indiqué dans l'hypertension artérielle, pas dans l'insuffisance coronarienne. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les diurétiques épargneurs potassiques sont des médicaments anti-ischémiques.",
+              "explication": "Ce sont des médicaments de l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "Les tonicardiaques sont des médicaments anti-ischémiques.",
+              "explication": "Ce sont des médicaments de l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "Les alphabloquants sont des médicaments anti-ischémiques.",
+              "explication": "Ce sont des antihypertenseurs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les bêtabloquants"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-antiangineux-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition et la place des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "antagonistes compétitifs et spécifiques des catécholamines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le suffixe de la dénomination commune internationale des bêtabloquants est « -olol ».",
+              "explication": "Exemples : aténolol, métoprolol, bisoprolol."
+            },
+            {
+              "reponse": "Les bêtabloquants sont des antagonistes compétitifs et spécifiques des catécholamines au niveau des récepteurs bêta-adrénergiques.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les bêtabloquants sont les anti-angineux de 1re intention.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Les bêtabloquants sont utilisés en traitement de fond, en prophylaxie des crises d'angor.",
+              "explication": "Ils ne soulagent pas une crise en cours."
+            },
+            {
+              "reponse": "Le bisoprolol est un bêtabloquant.",
+              "explication": "Exemple cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bêtabloquants sont des agonistes des récepteurs bêta-adrénergiques.",
+              "explication": "Ce sont des antagonistes."
+            },
+            {
+              "reponse": "Le suffixe de la dénomination commune internationale des bêtabloquants est « -dipine ».",
+              "explication": "« -dipine » est le suffixe des dihydropyridines."
+            },
+            {
+              "reponse": "Les bêtabloquants sont des anti-angineux de 2e intention, après les inhibiteurs calciques.",
+              "explication": "Ils sont de 1re intention ; les inhibiteurs calciques sont l'alternative."
+            },
+            {
+              "reponse": "Les bêtabloquants soulagent une crise d'angor en cours.",
+              "explication": "Ce sont des traitements de fond, qui ne soulagent pas une crise en cours."
+            },
+            {
+              "reponse": "Les bêtabloquants sont des antagonistes non compétitifs des catécholamines.",
+              "explication": "Ce sont des antagonistes compétitifs."
+            },
+            {
+              "reponse": "Le métoprolol est un inhibiteur calcique.",
+              "explication": "C'est un bêtabloquant (suffixe « -olol »)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme d'action des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "effets chronotrope, inotrope et dromotrope négatifs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bêtabloquants ont un effet chronotrope négatif.",
+              "explication": "Effet cité par la diapositive n°12."
+            },
+            {
+              "reponse": "Les bêtabloquants ont un effet dromotrope négatif.",
+              "explication": "Effet cité par la diapositive n°12."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent la durée de la diastole.",
+              "explication": "Conséquence de l'effet chronotrope négatif."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent le débit coronarien.",
+              "explication": "Conséquence citée par le cours."
+            },
+            {
+              "reponse": "Les bêtabloquants diminuent la libération de rénine.",
+              "explication": "Conséquence citée par le cours."
+            },
+            {
+              "reponse": "Les effets cardiaques des bêtabloquants passent par le blocage des récepteurs bêta-1.",
+              "explication": "Mécanisme indiqué par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bêtabloquants ont un effet inotrope positif.",
+              "explication": "Leur effet inotrope est négatif."
+            },
+            {
+              "reponse": "Les bêtabloquants raccourcissent la diastole.",
+              "explication": "Ils l'allongent."
+            },
+            {
+              "reponse": "Les bêtabloquants diminuent le débit coronarien.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent la libération de rénine.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "Les effets cardiaques des bêtabloquants passent par le blocage des récepteurs bêta-2.",
+              "explication": "Ils passent par le blocage des récepteurs bêta-1."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent la consommation en oxygène du myocarde.",
+              "explication": "Ils la diminuent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'adaptation du traitement par bêtabloquant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "repos à environ 50 à 60 battements par minute"
+          },
+          "bonnes": [
+            {
+              "reponse": "Sous bêtabloquant, l'objectif de fréquence cardiaque au repos est d'environ 50 à 60 battements par minute.",
+              "explication": "Objectif chiffré donné à l'oral."
+            },
+            {
+              "reponse": "Sous bêtabloquant, l'objectif à l'effort est d'atteindre environ 75 % de la fréquence cardiaque à laquelle apparaît l'ischémie.",
+              "explication": "Objectif chiffré donné à l'oral."
+            },
+            {
+              "reponse": "La posologie d'un bêtabloquant est débutée progressivement, puis augmentée selon l'efficacité et la tolérance.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "La fréquence cardiaque est un marqueur simple du résultat d'un traitement par bêtabloquant.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sous bêtabloquant, l'objectif de fréquence cardiaque au repos est d'environ 80 à 90 battements par minute.",
+              "explication": "L'objectif est d'environ 50 à 60 battements par minute."
+            },
+            {
+              "reponse": "Sous bêtabloquant, l'objectif de fréquence cardiaque au repos est d'environ 30 à 40 battements par minute.",
+              "explication": "L'objectif est d'environ 50 à 60 battements par minute."
+            },
+            {
+              "reponse": "Sous bêtabloquant, l'objectif à l'effort est d'atteindre la fréquence cardiaque à laquelle apparaît l'ischémie.",
+              "explication": "L'objectif est d'environ 75 % de cette fréquence."
+            },
+            {
+              "reponse": "La posologie d'un bêtabloquant est débutée d'emblée à la dose maximale.",
+              "explication": "Elle est débutée progressivement."
+            },
+            {
+              "reponse": "La fréquence cardiaque n'a pas d'intérêt pour juger de l'efficacité d'un bêtabloquant.",
+              "explication": "C'est un marqueur simple du résultat du traitement."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la pharmacocinétique des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "qui détermine la voie d'élimination"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bêtabloquants sont absorbés par voie orale, avec une biodisponibilité variable.",
+              "explication": "Donnée de la diapositive n°13."
+            },
+            {
+              "reponse": "La liaison des bêtabloquants aux protéines plasmatiques est faible.",
+              "explication": "Donnée de la diapositive n°13."
+            },
+            {
+              "reponse": "La liposolubilité d'un bêtabloquant détermine sa voie d'élimination.",
+              "explication": "Donnée de la diapositive n°13."
+            },
+            {
+              "reponse": "Un bêtabloquant très hydrophile a une élimination rénale.",
+              "explication": "Exemple de l'aténolol."
+            },
+            {
+              "reponse": "Un bêtabloquant très lipophile subit une biotransformation hépatique.",
+              "explication": "Exemple du propranolol."
+            },
+            {
+              "reponse": "En cas de modification de la fonction rénale ou hépatique, on renforce la surveillance de la fréquence cardiaque pour repérer un surdosage.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bêtabloquants sont fortement liés aux protéines plasmatiques.",
+              "explication": "Leur liaison aux protéines plasmatiques est faible."
+            },
+            {
+              "reponse": "Un bêtabloquant très lipophile est éliminé principalement par voie rénale.",
+              "explication": "Il subit une biotransformation hépatique."
+            },
+            {
+              "reponse": "Un bêtabloquant très hydrophile subit principalement une biotransformation hépatique.",
+              "explication": "Il a une élimination rénale."
+            },
+            {
+              "reponse": "Tous les bêtabloquants ont la même voie d'élimination.",
+              "explication": "Elle dépend de leur liposolubilité."
+            },
+            {
+              "reponse": "La biodisponibilité orale est la même pour tous les bêtabloquants.",
+              "explication": "Elle est variable."
+            },
+            {
+              "reponse": "La voie d'élimination n'intervient pas dans le choix du bêtabloquant.",
+              "explication": "Elle conditionne le choix du traitement."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "bradycardie et troubles de conduction"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'insuffisance cardiaque est un effet indésirable grave des bêtabloquants.",
+              "explication": "Cité parmi les effets graves."
+            },
+            {
+              "reponse": "La bradycardie et les troubles de conduction sont des effets indésirables graves des bêtabloquants.",
+              "explication": "Cités parmi les effets graves."
+            },
+            {
+              "reponse": "L'asthme est une contre-indication aux bêtabloquants.",
+              "explication": "Point de vigilance de la diapositive n°14."
+            },
+            {
+              "reponse": "L'asthénie sous bêtabloquant est liée à la diminution du débit cardiaque.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Le syndrome de Raynaud, l'impuissance, la dépression et les cauchemars sont des effets indésirables bénins des bêtabloquants.",
+              "explication": "Cités parmi les effets bénins."
+            },
+            {
+              "reponse": "Les bêtabloquants peuvent donner une hypoglycémie, par diminution de la glycogénolyse.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Les bêtabloquants peuvent donner une hypotension.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La tachycardie est un effet indésirable grave des bêtabloquants.",
+              "explication": "Ils donnent au contraire une bradycardie."
+            },
+            {
+              "reponse": "Les bêtabloquants donnent une hyperglycémie par augmentation de la glycogénolyse.",
+              "explication": "Ils peuvent donner une hypoglycémie, par diminution de la glycogénolyse."
+            },
+            {
+              "reponse": "L'asthénie sous bêtabloquant est liée à une augmentation du débit cardiaque.",
+              "explication": "Elle est liée à sa diminution."
+            },
+            {
+              "reponse": "Le syndrome de Raynaud sous bêtabloquant est lié à une vasodilatation des petits vaisseaux des doigts.",
+              "explication": "Il est lié à une vasoconstriction."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque est un effet indésirable bénin des bêtabloquants.",
+              "explication": "C'est un effet indésirable grave."
+            },
+            {
+              "reponse": "Les bêtabloquants sont à privilégier chez le patient asthmatique.",
+              "explication": "L'asthme est une contre-indication."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'arrêt d'un traitement par bêtabloquant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Effet rebond à l'arrêt brutal"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'arrêt d'un bêtabloquant doit être progressif.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "L'arrêt brutal d'un bêtabloquant expose à une augmentation de la fréquence cardiaque et de la tension artérielle.",
+              "explication": "Manifestations de l'effet rebond."
+            },
+            {
+              "reponse": "L'arrêt brutal d'un bêtabloquant expose à une arythmie ou à une ischémie myocardique.",
+              "explication": "Manifestations de l'effet rebond."
+            },
+            {
+              "reponse": "L'effet rebond s'explique par une régulation à la hausse des récepteurs bêta-adrénergiques lors du blocage chronique.",
+              "explication": "Mécanisme adaptatif décrit par le cours."
+            },
+            {
+              "reponse": "Chez un patient coronarien, l'arrêt brutal d'un bêtabloquant expose à un risque de mort subite.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Les périodes péri-opératoires demandent une vigilance particulière chez un patient sous bêtabloquant.",
+              "explication": "Point de vigilance de la diapositive n°15."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'arrêt brutal d'un bêtabloquant est sans risque chez le patient coronarien.",
+              "explication": "Il expose à un risque de mort subite."
+            },
+            {
+              "reponse": "L'effet rebond s'explique par une régulation à la baisse des récepteurs bêta-adrénergiques.",
+              "explication": "Il s'agit d'une régulation à la hausse."
+            },
+            {
+              "reponse": "L'arrêt brutal d'un bêtabloquant provoque une bradycardie rebond.",
+              "explication": "Il provoque une augmentation de la fréquence cardiaque."
+            },
+            {
+              "reponse": "En cas d'interaction avec un antiviral contenant du ritonavir, il faut suspendre immédiatement le bêtabloquant.",
+              "explication": "Il faut le réévaluer sans jamais le suspendre brutalement."
+            },
+            {
+              "reponse": "Un patient sous bêtabloquant ne nécessite aucune vigilance particulière en période péri-opératoire.",
+              "explication": "Les périodes péri-opératoires sont un point de vigilance."
+            },
+            {
+              "reponse": "L'arrêt d'un bêtabloquant doit être brutal pour éviter l'effet rebond.",
+              "explication": "C'est l'arrêt brutal qui provoque l'effet rebond."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'utilisation des bêtabloquants selon le terrain, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "les signes annonciateurs d'une hypoglycémie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Chez la personne âgée, un bêtabloquant est initié à dose faible.",
+              "explication": "Précaution de la diapositive n°15."
+            },
+            {
+              "reponse": "Chez le diabétique, les bêtabloquants masquent les signes annonciateurs d'une hypoglycémie.",
+              "explication": "Tachycardie, palpitations et sueurs sont masquées."
+            },
+            {
+              "reponse": "Chez le diabétique sous bêtabloquant, l'auto-surveillance glycémique doit être renforcée.",
+              "explication": "Précaution de la diapositive n°15."
+            },
+            {
+              "reponse": "Certains bêtabloquants passent la barrière hémato-encéphalique et peuvent donner des insomnies ou des cauchemars.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Le propranolol est également utilisé dans la prévention de la migraine.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Chez la personne âgée, un bêtabloquant est initié à forte dose.",
+              "explication": "Il est initié à dose faible."
+            },
+            {
+              "reponse": "Chez le diabétique, les bêtabloquants majorent les signes annonciateurs d'une hypoglycémie.",
+              "explication": "Ils les masquent."
+            },
+            {
+              "reponse": "Chez le diabétique sous bêtabloquant, l'auto-surveillance glycémique peut être allégée.",
+              "explication": "Elle doit être renforcée."
+            },
+            {
+              "reponse": "Aucun bêtabloquant ne franchit la barrière hémato-encéphalique.",
+              "explication": "Certains la franchissent, en particulier le propranolol."
+            },
+            {
+              "reponse": "Le propranolol ne donne jamais d'effets centraux.",
+              "explication": "Il passe la barrière hémato-encéphalique et peut donner des effets centraux."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-020",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Concernant le pindolol (bêtabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "bêtabloquant non cardiosélectif bloque aussi les récepteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le pindolol bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le pindolol est un bêtabloquant non cardiosélectif. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le pindolol possède une activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le pindolol est le bêtabloquant classique doté d'une activité sympathomimétique intrinsèque. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le pindolol diminue la libération de noradrénaline au niveau présynaptique.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Un bêtabloquant non sélectif bloque les récepteurs bêta-2 présynaptiques, qui facilitent la libération de noradrénaline ; la réponse attendue à l'examen n'a pas été confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le pindolol peut induire des troubles de conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Effet dromotrope négatif des bêtabloquants ; troubles de conduction cités parmi les effets graves. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le pindolol peut induire une décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet inotrope négatif ; l'insuffisance cardiaque est un effet indésirable grave des bêtabloquants. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le pindolol a un effet dromotrope positif.",
+              "explication": "Les bêtabloquants ont un effet dromotrope négatif."
+            },
+            {
+              "reponse": "Le pindolol augmente la libération de rénine.",
+              "explication": "Les bêtabloquants diminuent la libération de rénine."
+            },
+            {
+              "reponse": "Le pindolol peut être arrêté brutalement sans risque de rebond.",
+              "explication": "L'arrêt d'un bêtabloquant doit être progressif."
+            },
+            {
+              "reponse": "Le pindolol soulage une crise d'angor en cours.",
+              "explication": "Les bêtabloquants sont des traitements de fond."
+            },
+            {
+              "reponse": "Le pindolol raccourcit la durée de la diastole.",
+              "explication": "Les bêtabloquants augmentent la durée diastolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-021",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant le céliprolol (bêtabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "antagonistes compétitifs et spécifiques des catécholamines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le céliprolol, comme tout bêtabloquant, est un antagoniste compétitif des catécholamines au niveau des récepteurs bêta-adrénergiques.",
+              "explication": "Définition des bêtabloquants."
+            },
+            {
+              "reponse": "Un traitement par céliprolol ne doit pas être arrêté brutalement.",
+              "explication": "L'arrêt d'un bêtabloquant doit être progressif (effet rebond)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le céliprolol bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le céliprolol est un bêtabloquant cardiosélectif (bêta-1), doté d'une activité agoniste partielle bêta-2. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le céliprolol bloque les récepteurs alpha-1.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Les bêtabloquants qui bloquent aussi les récepteurs alpha-1 sont notamment le labétalol et le carvédilol, pas le céliprolol. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le céliprolol bloque les canaux calciques de type VOC.",
+              "annale": true,
+              "explication": "Le blocage des canaux calciques voltage-dépendants est le mécanisme des inhibiteurs calciques ; le céliprolol agit sur les récepteurs bêta. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le céliprolol est un donneur de monoxyde d'azote.",
+              "annale": true,
+              "explication": "Les donneurs de monoxyde d'azote sont les dérivés nitrés ; le céliprolol est un antagoniste des récepteurs bêta. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le céliprolol ne possède pas d'activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le céliprolol possède une activité sympathomimétique intrinsèque (agonisme partiel bêta-2). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-022",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2023-2024",
+                "qcm": 6
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 28
+              }
+            ]
+          },
+          "question": "Concernant l'acébutolol (bêtabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "classement des bêtabloquants selon la cardiosélectivité"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'acébutolol possède une activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'acébutolol est un bêtabloquant cardiosélectif avec activité sympathomimétique intrinsèque. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'acébutolol peut entraîner des troubles de la conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Effet dromotrope négatif des bêtabloquants. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'acébutolol peut induire une décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet inotrope négatif ; effet indésirable grave des bêtabloquants. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'acébutolol bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'acébutolol est cardiosélectif : il bloque préférentiellement les récepteurs bêta-1. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'acébutolol diminue la libération de noradrénaline au niveau présynaptique.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Étant cardiosélectif, il ne bloque pas les récepteurs bêta-2 présynaptiques qui facilitent la libération de noradrénaline ; la réponse attendue à l'examen n'a pas été confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'acébutolol provoque une vasoconstriction artériolaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Cardiosélectif et doté d'une activité sympathomimétique intrinsèque, il ne bloque pas les récepteurs bêta-2 vasculaires : la vasoconstriction concerne surtout les bêtabloquants non cardiosélectifs. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'acébutolol a un effet chronotrope positif.",
+              "explication": "Les bêtabloquants ont un effet chronotrope négatif."
+            },
+            {
+              "reponse": "L'acébutolol augmente la consommation en oxygène du myocarde.",
+              "explication": "Les bêtabloquants la diminuent."
+            },
+            {
+              "reponse": "L'acébutolol peut être arrêté brutalement sans risque.",
+              "explication": "L'arrêt brutal expose à un effet rebond."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-023",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Concernant l'aténolol (bêtabloquant), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "L'aténolol, très hydrophile, a une élimination rénale"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'aténolol peut induire une décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet inotrope négatif ; effet indésirable grave des bêtabloquants. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'aténolol diminue la libération de rénine.",
+              "explication": "Effet des bêtabloquants cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'aténolol bloque les récepteurs bêta-1 et bêta-2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'aténolol est cardiosélectif : il bloque préférentiellement les récepteurs bêta-1. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'aténolol possède une activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'aténolol n'a pas d'activité sympathomimétique intrinsèque. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'aténolol diminue la libération de noradrénaline au niveau présynaptique.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Étant cardiosélectif, il ne bloque pas les récepteurs bêta-2 présynaptiques qui facilitent la libération de noradrénaline ; la réponse attendue à l'examen n'a pas été confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'aténolol induit une vasoconstriction artériolaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Cardiosélectif, il ne bloque pas les récepteurs bêta-2 vasculaires : la vasoconstriction concerne surtout les bêtabloquants non cardiosélectifs. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'aténolol est une dihydropyridine.",
+              "explication": "C'est un bêtabloquant (suffixe « -olol »)."
+            },
+            {
+              "reponse": "L'aténolol diminue la durée de la diastole.",
+              "explication": "Les bêtabloquants augmentent la durée diastolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-024",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant les bêtabloquants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "diminution de la libération de rénine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bêtabloquants peuvent être répartis en 4 groupes selon leur sélectivité pour les récepteurs bêta-1 et la présence ou non d'une activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Classement selon la cardiosélectivité et l'activité sympathomimétique intrinsèque, non abordé cette année. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les bêtabloquants diminuent la production de rénine.",
+              "annale": true,
+              "explication": "Conséquence du blocage bêta-1 citée par le cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Tous les bêtabloquants bloquent les récepteurs bêta-2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Les bêtabloquants cardiosélectifs agissent préférentiellement sur les récepteurs bêta-1. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le pindolol est un bêtabloquant non sélectif sans activité sympathomimétique intrinsèque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le pindolol est non sélectif mais possède une activité sympathomimétique intrinsèque. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'effet antihypertenseur des bêtabloquants en administration chronique s'explique exclusivement par une diminution du débit cardiaque.",
+              "annale": true,
+              "explication": "Le cours cite aussi la diminution de la libération de rénine : l'effet n'est pas exclusivement lié au débit cardiaque. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les bêtabloquants ont un effet dromotrope positif.",
+              "explication": "Leur effet dromotrope est négatif."
+            },
+            {
+              "reponse": "Les bêtabloquants augmentent la libération de rénine.",
+              "explication": "Ils la diminuent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-025",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 7
+              }
+            ]
+          },
+          "question": "Concernant les conséquences du blocage des récepteurs bêta-adrénergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "augmentation de la durée diastolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le blocage des récepteurs bêta-2 présynaptiques entraîne une diminution de la libération de noradrénaline dans la fente synaptique.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Les récepteurs bêta-2 présynaptiques facilitent la libération de noradrénaline ; la réponse attendue à l'examen n'a pas été confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 postsynaptiques cardiaques entraîne une bradycardie.",
+              "annale": true,
+              "explication": "Effet chronotrope négatif des bêtabloquants. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 postsynaptiques cardiaques entraîne un effet inotrope négatif marqué.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours décrit un effet inotrope négatif, avec un risque d'insuffisance cardiaque ; l'intensité « marquée » attendue à l'examen n'a pas été confirmée. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le blocage des récepteurs bêta-2 postsynaptiques vasculaires entraîne une vasodilatation.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il entraîne une vasoconstriction (phénomène de Raynaud avec les bêtabloquants non cardiosélectifs). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 cardiaques accélère la conduction auriculo-ventriculaire.",
+              "explication": "Il a un effet dromotrope négatif."
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 cardiaques raccourcit la diastole.",
+              "explication": "Il augmente la durée diastolique."
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 cardiaques augmente la consommation en oxygène du myocarde.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 cardiaques diminue le débit coronarien.",
+              "explication": "Il l'augmente."
+            },
+            {
+              "reponse": "Le blocage des récepteurs bêta-1 cardiaques entraîne une tachycardie.",
+              "explication": "Il entraîne une bradycardie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les inhibiteurs calciques"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-antiangineux-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les molécules inhibitrices calciques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "comprennent l'amlodipine, la félodipine et la nifédipine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le suffixe de la dénomination commune internationale des dihydropyridines est « -dipine ».",
+              "explication": "Donnée de la diapositive n°17."
+            },
+            {
+              "reponse": "L'amlodipine est une dihydropyridine.",
+              "explication": "Citée parmi les dihydropyridines."
+            },
+            {
+              "reponse": "La nifédipine est une dihydropyridine.",
+              "explication": "Citée parmi les dihydropyridines."
+            },
+            {
+              "reponse": "Le diltiazem est un inhibiteur calcique non dihydropyridine.",
+              "explication": "Cité parmi les non-dihydropyridines."
+            },
+            {
+              "reponse": "Le vérapamil et le bépridil sont des inhibiteurs calciques non dihydropyridines.",
+              "explication": "Cités parmi les non-dihydropyridines."
+            },
+            {
+              "reponse": "Les dihydropyridines ont un tropisme vasculaire.",
+              "explication": "Indiqué par le pictogramme de vaisseau."
+            },
+            {
+              "reponse": "Les non-dihydropyridines ont un double tropisme, vasculaire et cardiaque.",
+              "explication": "Indiqué par les pictogrammes de vaisseau et de cœur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le vérapamil est une dihydropyridine.",
+              "explication": "C'est une non-dihydropyridine."
+            },
+            {
+              "reponse": "Le diltiazem est une dihydropyridine.",
+              "explication": "C'est une non-dihydropyridine."
+            },
+            {
+              "reponse": "La félodipine est une non-dihydropyridine.",
+              "explication": "C'est une dihydropyridine (suffixe « -dipine »)."
+            },
+            {
+              "reponse": "Les dihydropyridines ont un tropisme essentiellement cardiaque.",
+              "explication": "Leur tropisme est vasculaire."
+            },
+            {
+              "reponse": "Le suffixe de la dénomination commune internationale des dihydropyridines est « -olol ».",
+              "explication": "« -olol » est le suffixe des bêtabloquants."
+            },
+            {
+              "reponse": "Les non-dihydropyridines ont un tropisme exclusivement vasculaire.",
+              "explication": "Elles ont un double tropisme, vasculaire et cardiaque."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme d'action des inhibiteurs calciques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "canaux calciques voltage-dépendants de type L"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les inhibiteurs calciques inhibent les canaux calciques voltage-dépendants de type L.",
+              "explication": "Mécanisme des diapositives n°18 et 19."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques s'opposent à la pénétration du calcium dans les cellules musculaires lisses vasculaires et les cardiomyocytes.",
+              "explication": "Le calcium est indispensable à la contraction musculaire."
+            },
+            {
+              "reponse": "L'effet vasodilatateur des inhibiteurs calciques est artériel beaucoup plus que veineux.",
+              "explication": "Effet vasculaire décrit par le cours."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques diminuent la postcharge.",
+              "explication": "Conséquence de la vasodilatation artérielle."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques augmentent le débit coronarien.",
+              "explication": "Conséquence de la vasodilatation artérielle."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques ont des effets chronotrope, dromotrope et inotrope négatifs.",
+              "explication": "Effets cardiaques, qui diminuent la consommation myocardique en oxygène."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les inhibiteurs calciques inhibent les canaux calciques de type T.",
+              "explication": "Ils inhibent les canaux voltage-dépendants de type L."
+            },
+            {
+              "reponse": "L'effet vasodilatateur des inhibiteurs calciques est veineux beaucoup plus qu'artériel.",
+              "explication": "Il est artériel beaucoup plus que veineux."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques augmentent la postcharge.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques favorisent l'entrée du calcium dans les cardiomyocytes.",
+              "explication": "Ils s'y opposent."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques ont des effets inotropes positifs.",
+              "explication": "Leur effet inotrope est négatif."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques diminuent le débit coronarien.",
+              "explication": "Ils l'augmentent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la prédominance des effets selon l'inhibiteur calcique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "les dihydropyridines agissent surtout sur les vaisseaux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le vérapamil a des effets cardiaques marqués.",
+              "explication": "Point de vigilance de la diapositive n°19."
+            },
+            {
+              "reponse": "Le diltiazem a des effets cardiaques marqués.",
+              "explication": "Point de vigilance de la diapositive n°19."
+            },
+            {
+              "reponse": "Les dihydropyridines agissent surtout sur les vaisseaux.",
+              "explication": "Point de vigilance de la diapositive n°19."
+            },
+            {
+              "reponse": "La vasodilatation artérielle des inhibiteurs calciques concerne au 1er plan les coronaires, ce qui augmente les apports en oxygène.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La nifédipine a des effets cardiaques plus marqués que le vérapamil.",
+              "explication": "Les dihydropyridines comme la nifédipine agissent surtout sur les vaisseaux."
+            },
+            {
+              "reponse": "Le diltiazem agit presque exclusivement sur les vaisseaux.",
+              "explication": "Il a des effets cardiaques marqués."
+            },
+            {
+              "reponse": "L'amlodipine est un inhibiteur calcique bradycardisant.",
+              "explication": "Les dihydropyridines sont non bradycardisantes."
+            },
+            {
+              "reponse": "Tous les inhibiteurs calciques ont la même prédominance d'effet.",
+              "explication": "La prédominance varie selon la molécule."
+            },
+            {
+              "reponse": "Le vérapamil n'a aucun effet sur la conduction auriculo-ventriculaire.",
+              "explication": "Il a des effets cardiaques marqués, dont l'effet dromotrope négatif."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la place des inhibiteurs calciques dans le traitement de l'angor, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Traitement de choix pour l'angor de Prinzmetal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les inhibiteurs calciques sont une alternative aux bêtabloquants en cas d'intolérance ou de contre-indication.",
+              "explication": "Place définie par la diapositive n°20."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques sont un traitement de 2e intention dans l'angor stable.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques sont le traitement de choix de l'angor de Prinzmetal.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Dans l'angor de Prinzmetal, on utilise les inhibiteurs calciques bradycardisants.",
+              "explication": "Précision de la diapositive n°20."
+            },
+            {
+              "reponse": "Avec un bêtabloquant, on associe une dihydropyridine, non bradycardisante.",
+              "explication": "Association à retenir."
+            },
+            {
+              "reponse": "Le principal effet indésirable des inhibiteurs calciques est la survenue d'œdèmes des membres inférieurs dose-dépendants.",
+              "explication": "Donnée de la diapositive n°20."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les inhibiteurs calciques sont le traitement de 1re intention de l'angor stable.",
+              "explication": "Ce sont les bêtabloquants ; les inhibiteurs calciques sont de 2e intention."
+            },
+            {
+              "reponse": "Dans l'angor de Prinzmetal, on utilise de préférence les inhibiteurs calciques non bradycardisants.",
+              "explication": "On utilise les inhibiteurs bradycardisants."
+            },
+            {
+              "reponse": "L'association d'un bêtabloquant et du vérapamil est l'association de choix.",
+              "explication": "Leurs effets bradycardisants s'additionneraient : on associe une dihydropyridine."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques ne peuvent jamais être associés aux bêtabloquants.",
+              "explication": "Ils peuvent l'être, avec un inhibiteur calcique non bradycardisant."
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs sous inhibiteur calcique sont indépendants de la dose.",
+              "explication": "Ils sont dose-dépendants."
+            },
+            {
+              "reponse": "L'association du diltiazem à un bêtabloquant est sans risque, car leurs effets bradycardisants s'annulent.",
+              "explication": "Leurs effets bradycardisants s'additionnent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le classement des anti-angineux en 1re ou 2e intention, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "ne repose pas uniquement sur le mécanisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le classement en 1re ou 2e intention tient compte du bénéfice démontré sur la mortalité, la morbidité et la qualité de vie.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Le classement en 1re ou 2e intention tient compte de la balance bénéfice-risque.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Le classement en 1re ou 2e intention tient compte du coût et des conséquences pour le système de soins.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Dans l'angor stable, les bêtabloquants sont de 1re intention et les inhibiteurs calciques de 2e intention.",
+              "explication": "Place des 2 classes dans le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le classement en 1re ou 2e intention repose uniquement sur le mécanisme d'action théorique.",
+              "explication": "Il ne repose pas uniquement sur le mécanisme d'action théorique."
+            },
+            {
+              "reponse": "Le coût n'intervient jamais dans le classement des traitements.",
+              "explication": "Le coût est pris en compte."
+            },
+            {
+              "reponse": "Dans l'angor stable, les inhibiteurs calciques sont de 1re intention et les bêtabloquants de 2e intention.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "La qualité de vie n'est pas prise en compte dans le classement des traitements.",
+              "explication": "Le bénéfice sur la qualité de vie est pris en compte."
+            },
+            {
+              "reponse": "La balance bénéfice-risque n'intervient pas dans le choix entre 1re et 2e intention.",
+              "explication": "Elle est prise en compte."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-031",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "qcm": 8
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Concernant le vérapamil (inhibiteur calcique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "le vérapamil et le diltiazem ont des effets cardiaques marqués"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le vérapamil induit une vasodilatation artériolaire.",
+              "annale": true,
+              "explication": "Effet vasodilatateur artériel des inhibiteurs calciques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le vérapamil peut induire une bradycardie sinusale.",
+              "annale": true,
+              "explication": "Effet chronotrope négatif, marqué avec le vérapamil. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le vérapamil peut induire des troubles de conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Effet dromotrope négatif, marqué avec le vérapamil. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le vérapamil peut induire une décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet inotrope négatif, marqué avec le vérapamil. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le vérapamil bloque les canaux calciques de type ROC.",
+              "annale": true,
+              "explication": "Les inhibiteurs calciques bloquent les canaux voltage-dépendants (VOC) de type L, pas les canaux activés par un récepteur (ROC). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le vérapamil est une dihydropyridine.",
+              "explication": "C'est une non-dihydropyridine."
+            },
+            {
+              "reponse": "Le vérapamil a un effet inotrope positif.",
+              "explication": "Son effet inotrope est négatif."
+            },
+            {
+              "reponse": "Le vérapamil est l'inhibiteur calcique à associer en priorité à un bêtabloquant.",
+              "explication": "On associe une dihydropyridine, non bradycardisante."
+            },
+            {
+              "reponse": "Le vérapamil agit surtout sur les vaisseaux, avec peu d'effets cardiaques.",
+              "explication": "Il a des effets cardiaques marqués."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-032",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 28
+              }
+            ]
+          },
+          "question": "Concernant le diltiazem (inhibiteur calcique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "et non un vérapamil ou un diltiazem"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le diltiazem induit une vasodilatation artériolaire.",
+              "annale": true,
+              "explication": "Effet vasodilatateur artériel des inhibiteurs calciques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le diltiazem peut induire des troubles de conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Effet dromotrope négatif, marqué avec le diltiazem. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le diltiazem peut induire une décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Effet inotrope négatif, marqué avec le diltiazem. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le diltiazem bloque les canaux calciques de type ROC.",
+              "annale": true,
+              "explication": "Les inhibiteurs calciques bloquent les canaux voltage-dépendants (VOC) de type L. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le diltiazem induit une tachycardie.",
+              "annale": true,
+              "explication": "Le diltiazem est bradycardisant (effet chronotrope négatif marqué). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le diltiazem est une dihydropyridine.",
+              "explication": "C'est une non-dihydropyridine."
+            },
+            {
+              "reponse": "Le diltiazem peut être associé sans risque à un bêtabloquant, leurs effets bradycardisants ne s'additionnant pas.",
+              "explication": "Leurs effets bradycardisants s'additionnent ; on associe une dihydropyridine."
+            },
+            {
+              "reponse": "Le diltiazem favorise l'entrée du calcium dans les cardiomyocytes.",
+              "explication": "Il s'oppose à la pénétration du calcium."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-033",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2023-2024",
+                "qcm": 5
+              }
+            ]
+          },
+          "question": "Concernant la nifédipine (inhibiteur calcique), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "un pictogramme de vaisseau indique leur tropisme vasculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La nifédipine induit une vasodilatation artériolaire.",
+              "annale": true,
+              "explication": "Les dihydropyridines agissent surtout sur les vaisseaux ; c'était la seule réponse exacte de ce QCM. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La nifédipine peut être associée à un bêtabloquant.",
+              "explication": "C'est une dihydropyridine, non bradycardisante."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La nifédipine bloque les canaux calciques de type ROC.",
+              "annale": true,
+              "explication": "Les inhibiteurs calciques bloquent les canaux voltage-dépendants (VOC) de type L. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La nifédipine peut induire une bradycardie.",
+              "annale": true,
+              "explication": "Dihydropyridine non bradycardisante ; QCM à une seule réponse exacte (la vasodilatation artériolaire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La nifédipine peut induire des troubles de la conduction auriculo-ventriculaire.",
+              "annale": true,
+              "explication": "Les dihydropyridines agissent surtout sur les vaisseaux ; QCM à une seule réponse exacte (la vasodilatation artériolaire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La nifédipine peut induire une décompensation d'une insuffisance cardiaque latente.",
+              "annale": true,
+              "explication": "Les dihydropyridines agissent surtout sur les vaisseaux, ce sont le vérapamil et le diltiazem qui ont des effets cardiaques marqués ; QCM à une seule réponse exacte. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La nifédipine est une non-dihydropyridine.",
+              "explication": "C'est une dihydropyridine (suffixe « -dipine »)."
+            },
+            {
+              "reponse": "La nifédipine a un effet vasodilatateur surtout veineux.",
+              "explication": "L'effet vasodilatateur des inhibiteurs calciques est surtout artériel."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Concernant les inhibiteurs calciques (antagonistes calciques), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "s'opposent à la pénétration du calcium"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les inhibiteurs calciques peuvent être classés selon leur structure chimique.",
+              "annale": true,
+              "explication": "Dihydropyridines et non-dihydropyridines. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les inhibiteurs calciques ont tous, in vivo, des effets vasodilatateurs.",
+              "annale": true,
+              "explication": "Effet vasodilatateur artériel commun à la classe, prédominant pour les dihydropyridines. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'effet antihypertenseur des inhibiteurs calciques en administration chronique s'explique partiellement ou exclusivement par une baisse des résistances périphériques totales.",
+              "annale": true,
+              "explication": "La vasodilatation artérielle diminue la postcharge, donc les résistances périphériques. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les inhibiteurs calciques bloquent à la fois les canaux calciques voltage-dépendants (VOC) et les canaux activés par un récepteur (ROC).",
+              "annale": true,
+              "explication": "Ils bloquent les canaux voltage-dépendants de type L. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les inhibiteurs calciques ont tous, in vitro, des effets chronotropes et inotropes positifs.",
+              "annale": true,
+              "explication": "Leurs effets cardiaques sont chronotrope et inotrope négatifs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les inhibiteurs calciques augmentent la postcharge.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "L'effet vasodilatateur des inhibiteurs calciques est surtout veineux.",
+              "explication": "Il est artériel beaucoup plus que veineux."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques augmentent la consommation myocardique en oxygène.",
+              "explication": "Ils la diminuent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les dérivés nitrés"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-antiangineux-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les molécules de la classe des dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Ce sont des prodrogues sources de monoxyde d'azote"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés sont des prodrogues sources de monoxyde d'azote.",
+              "explication": "Définition de la diapositive n°22."
+            },
+            {
+              "reponse": "Le mononitrate d'isosorbide est un dérivé nitré.",
+              "explication": "Cité par le cours (Monicor)."
+            },
+            {
+              "reponse": "Le dinitrate d'isosorbide est un dérivé nitré.",
+              "explication": "Cité par le cours (Isocard, Risordan)."
+            },
+            {
+              "reponse": "La trinitrine est un dérivé nitré.",
+              "explication": "Citée par le cours (Natispray, Discotrine)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les dérivés nitrés sont des molécules directement actives, qui ne nécessitent aucune transformation.",
+              "explication": "Ce sont des prodrogues."
+            },
+            {
+              "reponse": "Les dérivés nitrés sont des sources de monoxyde de carbone.",
+              "explication": "Ce sont des sources de monoxyde d'azote."
+            },
+            {
+              "reponse": "Le tadalafil est un dérivé nitré.",
+              "explication": "C'est un inhibiteur de la phosphodiestérase de type 5."
+            },
+            {
+              "reponse": "L'amlodipine est un dérivé nitré.",
+              "explication": "C'est une dihydropyridine (inhibiteur calcique)."
+            },
+            {
+              "reponse": "La trinitrine fait partie des apparentés aux dérivés nitrés.",
+              "explication": "Les apparentés sont la molsidomine et le nicorandil ; la trinitrine est un dérivé nitré."
+            },
+            {
+              "reponse": "Le bisoprolol est un dérivé nitré.",
+              "explication": "C'est un bêtabloquant."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme d'action des dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Dénitration des nitrates organiques, par la glutathion-S-transférase"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés subissent une dénitration par la glutathion-S-transférase.",
+              "explication": "1re étape du mécanisme."
+            },
+            {
+              "reponse": "Les dérivés nitrés libèrent du monoxyde d'azote, qui active la guanylate cyclase.",
+              "explication": "2e et 3e étapes du mécanisme."
+            },
+            {
+              "reponse": "Les dérivés nitrés augmentent la guanosine monophosphate cyclique, second messager intracellulaire.",
+              "explication": "4e étape du mécanisme."
+            },
+            {
+              "reponse": "Les dérivés nitrés diminuent le calcium cellulaire.",
+              "explication": "5e étape du mécanisme."
+            },
+            {
+              "reponse": "Les dérivés nitrés entraînent une déphosphorylation des chaînes légères de la myosine, d'où la relaxation des muscles lisses.",
+              "explication": "6e étape du mécanisme."
+            },
+            {
+              "reponse": "La guanylate cyclase transforme le guanosine triphosphate en guanosine monophosphate cyclique.",
+              "explication": "Schéma de la diapositive n°25."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dénitration des dérivés nitrés est assurée par la phosphodiestérase de type 5.",
+              "explication": "Elle est assurée par la glutathion-S-transférase ; la phosphodiestérase de type 5 dégrade la guanosine monophosphate cyclique."
+            },
+            {
+              "reponse": "Le monoxyde d'azote libéré par les dérivés nitrés active l'adénylate cyclase.",
+              "explication": "Il active la guanylate cyclase."
+            },
+            {
+              "reponse": "Les dérivés nitrés diminuent la guanosine monophosphate cyclique intracellulaire.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Les dérivés nitrés augmentent le calcium cellulaire.",
+              "explication": "Ils le diminuent."
+            },
+            {
+              "reponse": "La phosphorylation des chaînes légères de la myosine est responsable de la relaxation induite par les dérivés nitrés.",
+              "explication": "C'est la déphosphorylation qui entraîne la relaxation."
+            },
+            {
+              "reponse": "Les dérivés nitrés agissent en bloquant les canaux calciques voltage-dépendants de type L.",
+              "explication": "C'est le mécanisme des inhibiteurs calciques."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets des dérivés nitrés selon la dose, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "à faibles doses : vasodilatation veineuse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés sont de puissants vasodilatateurs, dont les effets dépendent de la dose.",
+              "explication": "Donnée de la diapositive n°26."
+            },
+            {
+              "reponse": "À faibles doses, les dérivés nitrés entraînent une vasodilatation veineuse, d'où une diminution de la précharge.",
+              "explication": "Effet de faible dose."
+            },
+            {
+              "reponse": "À fortes doses, les dérivés nitrés entraînent une vasodilatation artérielle, d'où une diminution de la postcharge.",
+              "explication": "Effet de forte dose."
+            },
+            {
+              "reponse": "À fortes doses, la vasodilatation coronaire des dérivés nitrés augmente les apports en oxygène.",
+              "explication": "Effet de forte dose."
+            },
+            {
+              "reponse": "Les dérivés nitrés redistribuent le flux coronaire au profit des zones ischémiques.",
+              "explication": "Effet de la vasodilatation coronaire."
+            },
+            {
+              "reponse": "Les dérivés nitrés ont une action anti-spastique.",
+              "explication": "Effet de la vasodilatation coronaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À faibles doses, les dérivés nitrés entraînent surtout une vasodilatation artérielle.",
+              "explication": "À faibles doses, la vasodilatation est veineuse."
+            },
+            {
+              "reponse": "À fortes doses, les dérivés nitrés augmentent la postcharge.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "La vasodilatation veineuse des dérivés nitrés augmente la précharge.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Les dérivés nitrés détournent le flux sanguin des zones ischémiques.",
+              "explication": "Ils le redistribuent au profit des zones ischémiques."
+            },
+            {
+              "reponse": "Les dérivés nitrés favorisent le spasme coronaire.",
+              "explication": "Ils ont une action anti-spastique."
+            },
+            {
+              "reponse": "Les effets des dérivés nitrés sont indépendants de la dose.",
+              "explication": "Ils dépendent de la dose."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la pharmacocinétique des dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "une mauvaise biodisponibilité orale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés subissent un effet de 1er passage hépatique important.",
+              "explication": "Donnée de la diapositive n°27."
+            },
+            {
+              "reponse": "La biodisponibilité orale des dérivés nitrés est d'environ 10 à 20 %.",
+              "explication": "Mauvaise biodisponibilité orale, liée au 1er passage hépatique."
+            },
+            {
+              "reponse": "La voie sublinguale évite le 1er passage hépatique et agit rapidement : c'est la voie du traitement de la crise.",
+              "explication": "Donnée de la diapositive n°27."
+            },
+            {
+              "reponse": "La voie transdermique évite le 1er passage hépatique et constitue le traitement de fond.",
+              "explication": "Donnée de la diapositive n°27."
+            },
+            {
+              "reponse": "La demi-vie des dérivés nitrés est très courte, de quelques minutes.",
+              "explication": "Donnée de la diapositive n°27."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La biodisponibilité orale des dérivés nitrés est d'environ 50 %.",
+              "explication": "Elle est de 10 à 20 %."
+            },
+            {
+              "reponse": "La voie sublinguale est la voie du traitement de fond.",
+              "explication": "C'est la voie du traitement de la crise."
+            },
+            {
+              "reponse": "La voie transdermique est la voie du traitement de la crise angineuse.",
+              "explication": "C'est la voie du traitement de fond."
+            },
+            {
+              "reponse": "La voie transdermique n'évite pas le 1er passage hépatique.",
+              "explication": "Elle l'évite, comme la voie sublinguale."
+            },
+            {
+              "reponse": "La demi-vie des dérivés nitrés est de plusieurs jours.",
+              "explication": "Elle est de quelques minutes."
+            },
+            {
+              "reponse": "Les dérivés nitrés ne subissent aucun effet de 1er passage hépatique.",
+              "explication": "L'effet de 1er passage hépatique est important."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la tolérance (tachyphylaxie) aux dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "interruption du traitement 8 à 12 heures par jour"
+          },
+          "bonnes": [
+            {
+              "reponse": "En cas de prise continue de dérivés nitrés, on observe une diminution de l'effet pharmacodynamique.",
+              "explication": "Définition de la tolérance, sur laquelle l'intervenant a insisté."
+            },
+            {
+              "reponse": "La tolérance aux dérivés nitrés s'observe quelle que soit la voie d'administration.",
+              "explication": "Donnée de la diapositive n°28."
+            },
+            {
+              "reponse": "Le mécanisme de la tolérance aux dérivés nitrés n'est pas élucidé.",
+              "explication": "Point d'interrogation sur la diapositive n°28."
+            },
+            {
+              "reponse": "Pour prévenir la tolérance, le traitement par dérivé nitré est interrompu 8 à 12 heures par jour.",
+              "explication": "Fourchette de la diapositive n°28, retenue par le cours."
+            },
+            {
+              "reponse": "En pratique, le patch de dérivé nitré est posé le matin et retiré le soir.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "La tolérance aux dérivés nitrés a été observée historiquement chez des personnes exposées en milieu professionnel.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La tolérance aux dérivés nitrés ne concerne que la voie transdermique.",
+              "explication": "Elle s'observe quelle que soit la voie d'administration."
+            },
+            {
+              "reponse": "Le mécanisme de la tolérance aux dérivés nitrés est parfaitement élucidé.",
+              "explication": "Il n'est pas élucidé."
+            },
+            {
+              "reponse": "Pour prévenir la tolérance, l'interruption quotidienne des dérivés nitrés est de 1 à 2 heures.",
+              "explication": "Elle est de 8 à 12 heures par jour."
+            },
+            {
+              "reponse": "Les patchs de dérivés nitrés doivent être portés 24 heures sur 24 pour éviter la tolérance.",
+              "explication": "Une interruption quotidienne est nécessaire."
+            },
+            {
+              "reponse": "L'interruption quotidienne des dérivés nitrés doit durer exactement 12 heures, sans autre durée possible.",
+              "explication": "La diapositive donne une fourchette de 8 à 12 heures ; les 12 heures des notes n'en sont qu'un cas particulier."
+            },
+            {
+              "reponse": "Les patchs de dérivés nitrés sont posés le soir et retirés le matin.",
+              "explication": "Ils sont retirés la nuit : posés le matin, retirés le soir."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'utilisation clinique des dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "s'asseoir avant de prendre le médicament"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés sont indiqués dans l'angor d'effort, la crise angineuse et le syndrome coronarien aigu.",
+              "explication": "Indications de la diapositive n°29."
+            },
+            {
+              "reponse": "Les dérivés nitrés sont indiqués dans l'œdème aigu pulmonaire.",
+              "explication": "Indication de la diapositive n°29."
+            },
+            {
+              "reponse": "Le spray sublingual de trinitrine peut être pris en prévention immédiate avant un effort à risque.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Les patchs de dérivés nitrés peuvent être associés à un bêtabloquant ou à un inhibiteur calcique en traitement de fond.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Pour traiter une crise angineuse, le patient doit s'asseoir avant de prendre le dérivé nitré.",
+              "explication": "Précaution sur laquelle l'intervenant a insisté : risque de chute de la pression artérielle."
+            },
+            {
+              "reponse": "Sous traitement de fond, les formes rapides de dérivés nitrés doivent rester à portée de main.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les dérivés nitrés sont contre-indiqués dans l'œdème aigu pulmonaire.",
+              "explication": "L'œdème aigu pulmonaire fait partie de leurs indications."
+            },
+            {
+              "reponse": "Le spray sublingual de trinitrine est le traitement de fond de l'angor.",
+              "explication": "C'est une forme rapide, pour la crise ou la prévention immédiate."
+            },
+            {
+              "reponse": "Le patient doit prendre la trinitrine debout pour en accélérer l'effet.",
+              "explication": "Il doit s'asseoir, en raison du risque de chute de la pression artérielle."
+            },
+            {
+              "reponse": "Sous traitement de fond par patch, les formes rapides de dérivés nitrés deviennent inutiles.",
+              "explication": "Elles restent à portée de main."
+            },
+            {
+              "reponse": "Les dérivés nitrés n'ont aucun intérêt dans l'angor spastique.",
+              "explication": "Ils ont un intérêt dans l'angor spastique (action anti-spastique)."
+            },
+            {
+              "reponse": "Les patchs de dérivés nitrés ne peuvent jamais être associés à un bêtabloquant.",
+              "explication": "Ils peuvent l'être en traitement de fond."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'interaction entre dérivés nitrés et inhibiteurs de la phosphodiestérase de type 5, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "risque d'hypotension sévère ou de syndrome coronarien aigu"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'association des dérivés nitrés aux inhibiteurs de la phosphodiestérase de type 5 est une contre-indication absolue.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Le sildénafil, le tadalafil, le vardénafil et l'avanafil sont des inhibiteurs de la phosphodiestérase de type 5.",
+              "explication": "Molécules citées par le cours."
+            },
+            {
+              "reponse": "La phosphodiestérase de type 5 dégrade la guanosine monophosphate cyclique en guanosine monophosphate inactive.",
+              "explication": "Schéma de la diapositive n°25."
+            },
+            {
+              "reponse": "L'association dérivés nitrés–inhibiteurs de la phosphodiestérase de type 5 entraîne une accumulation de guanosine monophosphate cyclique.",
+              "explication": "Effet synergique : production augmentée et dégradation empêchée."
+            },
+            {
+              "reponse": "L'association dérivés nitrés–inhibiteurs de la phosphodiestérase de type 5 expose à une hypotension sévère ou à un syndrome coronarien aigu.",
+              "explication": "Conséquence de la vasodilatation excessive."
+            },
+            {
+              "reponse": "La prise d'un inhibiteur de la phosphodiestérase de type 5 doit être recherchée activement chez un patient traité par dérivé nitré.",
+              "explication": "Le patient ne la signale pas forcément spontanément."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'association d'un dérivé nitré au sildénafil relève d'une simple précaution d'emploi.",
+              "explication": "C'est une contre-indication absolue."
+            },
+            {
+              "reponse": "Les inhibiteurs de la phosphodiestérase de type 5 augmentent la dégradation de la guanosine monophosphate cyclique.",
+              "explication": "Ils l'empêchent."
+            },
+            {
+              "reponse": "L'association des dérivés nitrés aux inhibiteurs de la phosphodiestérase de type 5 expose à une poussée hypertensive.",
+              "explication": "Elle expose à une hypotension sévère."
+            },
+            {
+              "reponse": "L'interaction entre dérivés nitrés et inhibiteurs de la phosphodiestérase de type 5 est un antagonisme.",
+              "explication": "C'est un effet synergique."
+            },
+            {
+              "reponse": "Un patient signale toujours spontanément la prise d'un inhibiteur de la phosphodiestérase de type 5.",
+              "explication": "Il ne la signale pas forcément, surtout si un autre médecin l'a prescrit."
+            },
+            {
+              "reponse": "Le vardénafil est un dérivé nitré.",
+              "explication": "C'est un inhibiteur de la phosphodiestérase de type 5."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets secondaires des dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Céphalées, bouffées vasomotrices, vasodilatation cutanée avec érythème"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les céphalées sont un effet secondaire des dérivés nitrés.",
+              "explication": "Cité par la diapositive n°33."
+            },
+            {
+              "reponse": "Les bouffées vasomotrices et la vasodilatation cutanée avec érythème sont des effets secondaires des dérivés nitrés.",
+              "explication": "Cités par la diapositive n°33."
+            },
+            {
+              "reponse": "Les dérivés nitrés peuvent aggraver des migraines.",
+              "explication": "Cité par la diapositive n°33."
+            },
+            {
+              "reponse": "Les dérivés nitrés peuvent provoquer une hypotension orthostatique, avec vertiges, syncope et risque de chute.",
+              "explication": "Cité par la diapositive n°33 et précisé à l'oral."
+            },
+            {
+              "reponse": "Les dérivés nitrés peuvent provoquer des nausées et des vomissements.",
+              "explication": "Cité par la diapositive n°33."
+            },
+            {
+              "reponse": "Les dérivés nitrés peuvent provoquer une méthémoglobinémie.",
+              "explication": "Cité par la diapositive n°33."
+            },
+            {
+              "reponse": "L'épuisement de l'effet thérapeutique fait partie des effets secondaires des dérivés nitrés.",
+              "explication": "Cité par la diapositive n°33."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hypertension orthostatique est un effet secondaire des dérivés nitrés.",
+              "explication": "Ils provoquent une hypotension orthostatique."
+            },
+            {
+              "reponse": "Les dérivés nitrés améliorent les migraines.",
+              "explication": "Ils peuvent les aggraver."
+            },
+            {
+              "reponse": "Les dérivés nitrés provoquent une vasoconstriction cutanée avec pâleur.",
+              "explication": "Ils provoquent une vasodilatation cutanée avec érythème."
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs dose-dépendants sont le principal effet indésirable des dérivés nitrés.",
+              "explication": "C'est le principal effet indésirable des inhibiteurs calciques."
+            },
+            {
+              "reponse": "L'effet thérapeutique des dérivés nitrés se renforce en cas de prise continue.",
+              "explication": "Il s'épuise (tolérance)."
+            },
+            {
+              "reponse": "Le syndrome de Raynaud est un effet secondaire caractéristique des dérivés nitrés.",
+              "explication": "C'est un effet indésirable des bêtabloquants."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-043",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 28
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 4
+              }
+            ]
+          },
+          "question": "Concernant les dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Libération de monoxyde d'azote"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés sont utilisés dans le traitement de l'angor.",
+              "annale": true,
+              "explication": "Indication de la diapositive n°29. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés constituent un traitement de choix de la crise d'angor.",
+              "annale": true,
+              "explication": "La voie sublinguale est le traitement de la crise. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés agissent par libération de monoxyde d'azote.",
+              "annale": true,
+              "explication": "Ce sont des prodrogues sources de monoxyde d'azote. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés induisent une réduction de la précharge.",
+              "annale": true,
+              "explication": "Vasodilatation veineuse, dès les faibles doses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La voie sublinguale permet d'améliorer la biodisponibilité des dérivés nitrés.",
+              "annale": true,
+              "explication": "Elle évite l'effet de 1er passage hépatique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les dérivés nitrés agissent par libération de monoxyde de carbone.",
+              "annale": true,
+              "explication": "Ils libèrent du monoxyde d'azote. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés sont métabolisés par la phosphodiestérase de type 5.",
+              "annale": true,
+              "explication": "Ils sont dénitrés par la glutathion-S-transférase ; la phosphodiestérase de type 5 dégrade la guanosine monophosphate cyclique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés sont métabolisés par les cyclo-oxygénases.",
+              "annale": true,
+              "explication": "Ils sont dénitrés par la glutathion-S-transférase. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La biodisponibilité orale des dérivés nitrés est importante, supérieure à 90 %.",
+              "annale": true,
+              "explication": "Elle est mauvaise, de 10 à 20 %, à cause de l'effet de 1er passage hépatique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés diminuent la guanosine monophosphate cyclique intracellulaire.",
+              "explication": "Ils l'augmentent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-044",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant les dérivés nitrés (molécules, voies d'administration, interactions), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Ce sont des prodrogues sources de monoxyde d'azote"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivés nitrés comprennent le dinitrate d'isosorbide.",
+              "annale": true,
+              "explication": "Cité par le cours (Isocard, Risordan). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés sont des prodrogues.",
+              "annale": true,
+              "explication": "Prodrogues sources de monoxyde d'azote. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés peuvent être administrés par voie sublinguale.",
+              "annale": true,
+              "explication": "C'est la voie du traitement de la crise. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés ne doivent pas être associés aux inhibiteurs de la phosphodiestérase de type 5.",
+              "annale": true,
+              "explication": "Contre-indication absolue. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les dérivés nitrés peuvent provoquer des céphalées.",
+              "annale": true,
+              "explication": "Effet secondaire cité par la diapositive n°33. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les dérivés nitrés ne peuvent être administrés que par voie orale.",
+              "explication": "Ils s'utilisent notamment par voie sublinguale et transdermique."
+            },
+            {
+              "reponse": "Les dérivés nitrés comprennent la nifédipine.",
+              "explication": "La nifédipine est une dihydropyridine."
+            },
+            {
+              "reponse": "Les dérivés nitrés sont des molécules directement actives, sans biotransformation.",
+              "explication": "Ce sont des prodrogues."
+            },
+            {
+              "reponse": "L'association d'un dérivé nitré au sildénafil est recommandée pour potentialiser l'effet anti-angineux.",
+              "explication": "C'est une contre-indication absolue."
+            },
+            {
+              "reponse": "Les dérivés nitrés provoquent typiquement une hypertension orthostatique.",
+              "explication": "Ils provoquent une hypotension orthostatique."
+            },
+            {
+              "reponse": "Les dérivés nitrés ne présentent pas de phénomène de tolérance.",
+              "explication": "Ils présentent une tolérance en prise continue."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-045",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Concernant les propriétés de la trinitrine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "vasodilatation veineuse, d'où une diminution de la précharge"
+          },
+          "bonnes": [
+            {
+              "reponse": "La trinitrine est un vasodilatateur veineux.",
+              "annale": true,
+              "explication": "Vasodilatation veineuse dès les faibles doses ; c'était la seule réponse exacte de ce QCM. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La trinitrine diminue la précharge.",
+              "explication": "Conséquence de la vasodilatation veineuse."
+            },
+            {
+              "reponse": "La trinitrine peut être administrée par voie sublinguale.",
+              "explication": "Spray sublingual (Natispray) pour la crise."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La trinitrine augmente le retour veineux.",
+              "annale": true,
+              "explication": "La vasodilatation veineuse diminue le retour veineux, donc la précharge. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La trinitrine augmente la consommation d'oxygène du myocarde.",
+              "annale": true,
+              "explication": "Elle diminue les besoins en oxygène (baisse de la précharge et de la postcharge). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La trinitrine ralentit la fréquence cardiaque.",
+              "annale": true,
+              "explication": "Le ralentissement de la fréquence cardiaque est un effet des bêtabloquants ; QCM à une seule réponse exacte (vasodilatateur veineux). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La trinitrine induit une vasoconstriction artérielle à dose thérapeutique.",
+              "annale": true,
+              "explication": "Elle induit une vasodilatation, artérielle à forte dose. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La trinitrine augmente la postcharge.",
+              "explication": "Elle la diminue à forte dose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les apparentés aux dérivés nitrés"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-antiangineux-046",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les molécules apparentées aux dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "la molsidomine (Corvasal) et le nicorandil"
+          },
+          "bonnes": [
+            {
+              "reponse": "La molsidomine est un apparenté aux dérivés nitrés.",
+              "explication": "Citée par la diapositive n°34."
+            },
+            {
+              "reponse": "Le nicorandil est un apparenté aux dérivés nitrés.",
+              "explication": "Cité par la diapositive n°34."
+            },
+            {
+              "reponse": "Les apparentés aux dérivés nitrés sont au nombre de 2 dans ce cours : molsidomine et nicorandil.",
+              "explication": "Donnée de la diapositive n°34."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La molsidomine est un inhibiteur de la phosphodiestérase de type 5.",
+              "explication": "C'est un apparenté aux dérivés nitrés."
+            },
+            {
+              "reponse": "Le nicorandil est un bêtabloquant.",
+              "explication": "C'est un apparenté aux dérivés nitrés."
+            },
+            {
+              "reponse": "Le nicorandil est une dihydropyridine.",
+              "explication": "C'est un apparenté aux dérivés nitrés."
+            },
+            {
+              "reponse": "La trinitrine est un apparenté aux dérivés nitrés.",
+              "explication": "C'est un dérivé nitré."
+            },
+            {
+              "reponse": "L'avanafil est un apparenté aux dérivés nitrés.",
+              "explication": "C'est un inhibiteur de la phosphodiestérase de type 5."
+            },
+            {
+              "reponse": "Le dinitrate d'isosorbide est un apparenté aux dérivés nitrés.",
+              "explication": "C'est un dérivé nitré."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'activation des canaux potassiques par les apparentés aux dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "activation de l'ouverture des canaux potassiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ouverture des canaux potassiques entraîne une hyperpolarisation des membranes cellulaires vasculaires.",
+              "explication": "Mécanisme de la diapositive n°34."
+            },
+            {
+              "reponse": "L'activation des canaux potassiques entraîne un relâchement des muscles de la paroi artérielle.",
+              "explication": "Mécanisme de la diapositive n°34."
+            },
+            {
+              "reponse": "L'activation des canaux potassiques entraîne une vasodilatation artérielle et une diminution de la postcharge ventriculaire.",
+              "explication": "Mécanisme de la diapositive n°34."
+            },
+            {
+              "reponse": "L'activation des canaux potassiques est la particularité du nicorandil.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Les activateurs des canaux potassiques sont classés parmi les antiangineux.",
+              "explication": "Carte de la diapositive n°2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'activation des canaux potassiques entraîne une dépolarisation des membranes cellulaires vasculaires.",
+              "explication": "Elle entraîne une hyperpolarisation."
+            },
+            {
+              "reponse": "L'ouverture des canaux potassiques augmente la postcharge ventriculaire.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Le nicorandil bloque les canaux potassiques.",
+              "explication": "Il active leur ouverture."
+            },
+            {
+              "reponse": "L'activation des canaux potassiques provoque une vasoconstriction artérielle.",
+              "explication": "Elle provoque une vasodilatation artérielle."
+            },
+            {
+              "reponse": "L'activation des canaux potassiques entraîne une contraction des muscles de la paroi artérielle.",
+              "explication": "Elle entraîne leur relâchement."
+            },
+            {
+              "reponse": "Les activateurs des canaux potassiques sont classés parmi les diurétiques.",
+              "explication": "Ils sont classés parmi les antiangineux."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les caractéristiques des apparentés aux dérivés nitrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "pas de phénomène de tolérance"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les apparentés aux dérivés nitrés sont un traitement prophylactique de la crise d'angor d'effort.",
+              "explication": "Caractéristique de la diapositive n°35."
+            },
+            {
+              "reponse": "Les apparentés aux dérivés nitrés ne présentent pas de phénomène de tolérance.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "Les apparentés aux dérivés nitrés ont la même interaction médicamenteuse que les dérivés nitrés avec les inhibiteurs de la phosphodiestérase de type 5.",
+              "explication": "Point de vigilance de la diapositive n°35."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les apparentés aux dérivés nitrés sont le traitement de la crise d'angor en cours.",
+              "explication": "Ils sont utilisés en traitement prophylactique."
+            },
+            {
+              "reponse": "Les apparentés aux dérivés nitrés exposent à une tolérance qui impose une interruption quotidienne du traitement.",
+              "explication": "Ils ne présentent pas de phénomène de tolérance."
+            },
+            {
+              "reponse": "Les apparentés aux dérivés nitrés peuvent être associés sans risque aux inhibiteurs de la phosphodiestérase de type 5.",
+              "explication": "Ils partagent la même interaction que les dérivés nitrés."
+            },
+            {
+              "reponse": "Le nicorandil est indiqué exclusivement dans l'angor de repos.",
+              "explication": "Les apparentés sont indiqués en prophylaxie de l'angor d'effort."
+            },
+            {
+              "reponse": "Le traitement par nicorandil doit être interrompu chaque nuit pour éviter une tolérance.",
+              "explication": "Les apparentés ne présentent pas de tolérance."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse — dérivés nitrés et apparentés : quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "à la différence des dérivés nitrés"
+          },
+          "bonnes": [
+            {
+              "reponse": "La tolérance concerne les dérivés nitrés mais pas leurs apparentés.",
+              "explication": "Différence soulignée par l'intervenant."
+            },
+            {
+              "reponse": "Les dérivés nitrés et leurs apparentés partagent la contre-indication d'association aux inhibiteurs de la phosphodiestérase de type 5.",
+              "explication": "Même interaction médicamenteuse."
+            },
+            {
+              "reponse": "Les dérivés nitrés comme leurs apparentés font intervenir une augmentation de la guanosine monophosphate cyclique.",
+              "explication": "Mécanisme commun cité par la diapositive n°34."
+            },
+            {
+              "reponse": "L'activation des canaux potassiques distingue le nicorandil des dérivés nitrés.",
+              "explication": "C'est la particularité du nicorandil."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les apparentés, comme les dérivés nitrés, imposent une interruption du traitement de 8 à 12 heures par jour.",
+              "explication": "Cette fenêtre concerne les dérivés nitrés ; les apparentés n'ont pas de tolérance."
+            },
+            {
+              "reponse": "Seuls les apparentés aux dérivés nitrés sont contre-indiqués avec les inhibiteurs de la phosphodiestérase de type 5.",
+              "explication": "Les dérivés nitrés le sont aussi (contre-indication absolue)."
+            },
+            {
+              "reponse": "Les dérivés nitrés activent l'ouverture des canaux potassiques, à la différence du nicorandil.",
+              "explication": "C'est l'inverse : l'activation des canaux potassiques est la particularité du nicorandil."
+            },
+            {
+              "reponse": "Les apparentés aux dérivés nitrés agissent en bloquant les récepteurs bêta-1.",
+              "explication": "C'est le mécanisme des bêtabloquants."
+            },
+            {
+              "reponse": "Les dérivés nitrés et leurs apparentés diminuent la guanosine monophosphate cyclique.",
+              "explication": "Ils l'augmentent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-antiangineux-050",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse — mécanismes des anti-ischémiques : quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "hyperpolarisation des membranes cellulaires vasculaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le nicorandil provoque une vasodilatation artérielle par hyperpolarisation des membranes cellulaires vasculaires.",
+              "explication": "Conséquence de l'ouverture des canaux potassiques."
+            },
+            {
+              "reponse": "Les dérivés nitrés provoquent une vasodilatation par la voie du monoxyde d'azote et de la guanosine monophosphate cyclique.",
+              "explication": "Mécanisme des diapositives n°24 et 25."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques provoquent une vasodilatation en s'opposant à l'entrée du calcium par les canaux de type L.",
+              "explication": "Mécanisme des diapositives n°18 et 19."
+            },
+            {
+              "reponse": "Les bêtabloquants diminuent la consommation en oxygène du myocarde par leurs effets chronotrope et inotrope négatifs.",
+              "explication": "Mécanisme de la diapositive n°12."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le nicorandil provoque une vasodilatation en bloquant les canaux calciques de type L.",
+              "explication": "Il active l'ouverture des canaux potassiques."
+            },
+            {
+              "reponse": "Les dérivés nitrés agissent exclusivement par ouverture des canaux potassiques.",
+              "explication": "Ils agissent par la voie du monoxyde d'azote et de la guanosine monophosphate cyclique."
+            },
+            {
+              "reponse": "Les inhibiteurs calciques agissent par libération de monoxyde d'azote.",
+              "explication": "Ils inhibent les canaux calciques voltage-dépendants de type L."
+            },
+            {
+              "reponse": "Les bêtabloquants agissent par activation de la guanylate cyclase.",
+              "explication": "Ils sont antagonistes des récepteurs bêta-adrénergiques."
+            },
+            {
+              "reponse": "Le nicorandil agit par antagonisme des récepteurs bêta-adrénergiques.",
+              "explication": "Il active l'ouverture des canaux potassiques et augmente la guanosine monophosphate cyclique."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
