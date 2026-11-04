@@ -64,7 +64,7 @@ sous cette forme :
     "titre": "Histologie de l'appareil respiratoire",
     "description": "Une phrase qui résume le cours.",
     "version": "1.2",
-    "cours": { "fichier": "cours/respi-histoembryo-histo.pdf" }
+    "cours": { "fichier": "respi-histoembryo-histo.pdf" }
   },
   "chapitres": [
     {

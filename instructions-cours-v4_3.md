@@ -1,4 +1,4 @@
-# Prompt de génération de cours — Version v4.1 (29/10/2026)
+# Prompt de génération de cours — Version v4.3 (04/11/2026)
 # Rappel : incrémenter la version à chaque modification de ce prompt (voir "Journal des versions").
 
 Tu vas m'aider à retravailler des notes de cours en générant 2 fichiers PDF.
@@ -47,7 +47,44 @@ Le fichier JSON de QCM généré ensuite portera le même nom de base.
   du chapitre, séparés par des points-virgules.
 - Reprend ensuite les notions clés de chaque chapitre, de façon concise.
 - Notions importantes en gras et en couleur (bleu). Abréviations autorisées.
-- Termine par un encadré "Pièges / points corrigés" et un encadré "À ne pas confondre".
+- Termine par un encadré "Pièges / points corrigés", un encadré "À ne pas confondre",
+  puis les tableaux comparatifs (voir ci-dessous).
+
+### Tableaux comparatifs (fin du résumé)
+But : récapituler le cours et surtout faire ressortir les différences entre des
+éléments semblables, faciles à confondre (ex. toutes les classes d'antihypertenseurs,
+les différents types de diurétiques, des pathologies voisines, des hormones proches).
+- À faire dans la plupart des cours : dès que le cours présente au moins 2 éléments
+  comparables selon les mêmes critères. Si ce n'est pas le cas, ne fais pas de
+  tableau et explique pourquoi dans ta réponse.
+- Place : en fin de résumé, après les encadrés "Pièges / points corrigés" et "À ne pas
+  confondre", sous un titre "Tableaux comparatifs", à partir d'une nouvelle page.
+- Ces pages ne sont pas en 3 colonnes : chaque tableau occupe toute la largeur de la
+  page, sur autant de pages que nécessaire ; police lisible à l'impression (8 pt
+  minimum).
+- Un tableau par groupe d'éléments comparables, chacun précédé d'un bandeau de titre
+  numéroté et coloré (ex. « 01 ANTIHYPERTENSEURS »), avec une couleur par groupe,
+  puis d'une phrase d'introduction (objectif, cibles communes du groupe).
+- Une ligne par élément (ex. une classe de médicaments) ; sous-lignes si l'élément se
+  subdivise (ex. sélectif / non sélectif, avec ou sans ASI).
+- Colonnes : à déduire du cours, ce sont les critères selon lesquels le cours décrit
+  et distingue les éléments. Leur nombre et leur intitulé ne sont pas fixés à l'avance
+  et peuvent varier d'un tableau à l'autre ; au sein d'un même tableau, les colonnes
+  sont identiques pour toutes les lignes.
+- 1re colonne : nom de l'élément en gras, suivi d'un court moyen mnémotechnique en
+  italique qui résume ce qui le distingue des autres (ex. « -PRIL = ↓ Ang II +
+  ↑ bradykinine → toux possible »).
+- Sous chaque tableau, une ligne "Repère :" résume les différences clés et les pièges
+  entre les lignes (ex. « Anse et thiazidiques ↓ K⁺ ; anti-aldostérone, IEC et
+  ARA II ↑ K⁺ »).
+- Style télégraphique : abréviations, flèches (↑, ↓, =>) et symbole <!> pour les
+  points de vigilance autorisés.
+- Uniquement le contenu du cours : case vide si le cours ne dit rien, jamais
+  d'information inventée pour remplir une case. Les compléments web suivent le code
+  couleur commun (vert, [Hors cours]).
+- En-tête de colonnes en couleur foncée, lignes alternées en couleur claire.
+- Un tableau peut continuer sur la page suivante : répète alors le bandeau et l'en-tête
+  de colonnes, et ne coupe jamais une ligne (un élément) entre deux pages.
 
 ## Fichier 2 : Version complète
 C'est la version de référence : le site l'affiche avec pdf.js, et les QCM y renvoient
@@ -93,17 +130,27 @@ par numéro de page et par passage surligné.
   confirmée : inclure avec [Incertain].
 
 ## Livraison
-- Vérifie le rendu visuel (pas de titre orphelin, pas de caractère manquant,
-  figures lisibles et non coupées) et l'extraction pdftotext du fichier 2.
+- Vérifie le rendu visuel de chaque fichier (pas de titre orphelin, pas de caractère
+  manquant, figures et tableaux lisibles et non coupés) et l'extraction pdftotext
+  du fichier 2.
 - Dans ta réponse, résume : désaccords tranchés, points [Incertain], schémas
-  illisibles, points à vérifier avec l'enseignant, version du prompt utilisée.
+  illisibles, points à vérifier avec l'enseignant, version du prompt utilisée, et si
+  le résumé contient des tableaux comparatifs (sinon, pourquoi).
 - Rappelle que le fichier 2 ne doit plus être régénéré une fois les QCM créés.
 
 ## Journal des versions
-Règle : MAJEUR (+1.0) quand une règle change la structure du fichier 2, donc
-potentiellement sa pagination et les renvois des QCM (ex. ajout de figures, nouvelle
-section) ; MINEUR (+0.1) pour les ajustements de forme ou de contenu qui ne touchent
-pas cette structure, et pour les reformulations.
+Règle :
+- MAJEUR (passage à X.0, ex. 4.3 → 5.0) : la modification change radicalement la
+  structure d'un fichier généré, en particulier tout ce qui peut décaler la
+  pagination du fichier 2 et donc les renvois des QCM (ex. nouvelle section ou
+  ajout de figures dans la version complète, ajout ou suppression d'un fichier).
+- MINEUR (passage à X.Y, ex. 4.3 → 4.4) : la modification ne change pas radicalement
+  la structure (ajustement de forme ou de contenu, reformulation, ajout ou
+  modification d'une partie du résumé).
+- v4.3 (04/11/2026) : tableaux comparatifs en fin de résumé (pages pleine largeur,
+  colonnes déduites du cours, moyen mnémotechnique, ligne "Repère :").
+- v4.2 (04/11/2026) : règle de versionnage simplifiée (majeur = changement radical
+  de structure, mineur = le reste).
 - v4.1 (29/10/2026) : métadonnées simplifiées : suppression de la ligne "Fichier" ;
   "Écarts au prompt" remplacé par les manques écrits dans "Sources" et une ligne
   "Remarques" affichée seulement si nécessaire ; règle de versionnage précisée.
