@@ -6,7 +6,7 @@
     "description": "Développement des voies aériennes et des poumons, puis histologie des fosses nasales à l’alvéole pulmonaire.",
     "version": "4.1",
     "cours": {
-      "fichier": "cours/respi-histoembryo-appresp.pdf"
+      "fichier": "respi-histoembryo-appresp.pdf"
     }
   },
   "chapitres": [

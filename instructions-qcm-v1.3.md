@@ -29,8 +29,7 @@ Le PDF du cours et le JSON partagent le même nom de base "<thème>-<section>-<c
 en abréviations courtes, en minuscules, sans accents ni espaces (ex : cardio-physio-vo2).
 Reprends le nom du PDF fourni s'il suit déjà cette forme.
 - Fichier JSON : "<nom de base>.json".
-- Chemin du PDF dans "meta.cours.fichier" : "cours/<nom de base>.pdf". Ce chemin est
-  relatif à la page index.html du site (dossier cours/ à côté d'index.html).
+- Chemin du PDF dans "meta.cours.fichier" : "<nom de base>.pdf".
 - Ids des questions : "<nom de base>-001", "-002", etc.
 - Si je te demande de mettre à jour un JSON existant :
   - conserve les ids des questions qui existent toujours ; numérote les nouvelles
@@ -313,3 +312,4 @@ Chaque modification de ces instructions ajoute une entrée datée ci-dessous.
 - 1.1 (03/11/2026) : ajout du journal des versions et du champ "meta.version".
 - 1.2 (03/11/2026) : "meta.version" reprend la version du cours retravaillé
   (fichier 2) ; revérification des renvois quand la version majeure du cours change.
+- 1.3 (03/11/2026) : "meta.cours" chemin relatif, et non plus absolu
