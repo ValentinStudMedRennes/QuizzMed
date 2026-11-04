@@ -12,10 +12,8 @@
   "cours/cardio/cardio-physio-vo2.pdf",
   "cours/cardio/cardio-semio-syncope.pdf",
   "cours/cardio/cardio-semio-valvulo.pdf",
-  "cours/pneumo/respi-histoembryo-embryo-resume.pdf",
-  "cours/pneumo/respi-histoembryo-embryo.pdf",
-  "cours/pneumo/respi-histoembryo-histo-resume.pdf",
-  "cours/pneumo/respi-histoembryo-histo.pdf",
+  "cours/pneumo/respi-histoembryo-appresp-resume.pdf",
+  "cours/pneumo/respi-histoembryo-appresp.pdf",
   "cours/pneumo/respi-physio-ventil-resume.pdf",
   "cours/pneumo/respi-physio-ventil.pdf"
  ],
@@ -28,8 +26,7 @@
   "data/cardio-physio-vo2.json",
   "data/cardio-semio-syncope.json",
   "data/cardio-semio-valvulo.json",
-  "data/respi-histoembryo-embryo.json",
-  "data/respi-histoembryo-histo.json",
+  "data/respi-histoembryo-appresp.json",
   "data/respi-physio-ventil.json"
  ]
 }
