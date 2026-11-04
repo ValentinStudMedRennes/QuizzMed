@@ -6,7 +6,25 @@ Nov 4, 2026 · @Valentin
 
 Un cours complet se fabrique en deux conversations séparées avec Claude, puis un dépôt de trois fichiers sur GitHub. L'exemple suivi tout du long est le cours de physiologie « VO2 ».
 
-&#91;embedded content: le parcours complet · 2 conversations, 1 fichier qui passe de l'une à l'autre\]
+```mermaid
+flowchart TB
+  subgraph C1["Conversation 1 · le cours"]
+    I1["instructions-cours-v4_3.md"] --> CL1(["Claude"])
+    D["Diapositives du professeur"] --> CL1
+    N["Prise de notes d’un élève"] --> CL1
+    CL1 --> R["cardio-physio-vo2-resume.pdf<br/>résumé"]
+    CL1 --> F2["cardio-physio-vo2.pdf<br/>fichier 2, la référence du site"]
+  end
+  subgraph C2["Conversation 2 · le QCM"]
+    F2b["cardio-physio-vo2.pdf<br/>le fichier 2, pas le résumé"] --> CL2(["Claude"])
+    I2["instructions-qcm-v1.3.md"] --> CL2
+    A["Livret d’annales (facultatif)"] --> CL2
+    CL2 --> J["cardio-physio-vo2.json"]
+  end
+  F2 -. "téléchargé puis joint à la conversation 2" .-> F2b
+  classDef cle stroke:#2f6fd6,stroke-width:3px
+  class F2,F2b cle
+```
 
 Le seul fichier qui passe d'une conversation à l'autre est la version complète du cours (le « fichier 2 ») : le QCM y renvoie par numéro de page et par passage surligné.
 
@@ -16,13 +34,13 @@ Deux fichiers d'instructions se trouvent à la racine du [dépôt QuizzMed](http
 
 | Fichier | Où le trouver | Sert à |
 | --- | --- | --- |
-| `instructions-cours-v4.1.md` | Racine du dépôt | Consignes de la conversation 1 (fabriquer le cours) |
+| `instructions-cours-v4_3.md` | Racine du dépôt | Consignes de la conversation 1 (fabriquer le cours) |
 | `instructions-qcm-v1.3.md` | Racine du dépôt | Consignes de la conversation 2 (fabriquer le QCM) |
 | Diapositives du professeur (PDF) | Chez vous | Source du cours |
 | Prise de notes d'un élève (PDF) | Chez vous | Source du cours |
 | Livret d'annales (PDF, facultatif) | Chez vous | Questions d'annales reprises dans le QCM |
 
-Pour récupérer un fichier d'instructions : l'ouvrir sur GitHub, puis cliquer sur l'icône « Download raw file » en haut à droite du fichier. Prenez toujours la version actuelle du dépôt : son numéro (v4.1, v1.3) finit inscrit dans le cours et le QCM.
+Pour récupérer un fichier d'instructions : l'ouvrir sur GitHub, puis cliquer sur l'icône « Download raw file » en haut à droite du fichier. Prenez toujours la version actuelle du dépôt : son numéro (v4.3, v1.3) finit inscrit dans le cours et le QCM.
 
 Côté Claude, l'option de création de fichiers doit être activée dans les paramètres : Claude doit rendre des PDF et un JSON téléchargeables.
 
@@ -31,12 +49,12 @@ Côté Claude, l'option de création de fichiers doit être activée dans les pa
 Cette conversation transforme les diapositives et les notes en deux PDF propres, dont un sert de référence au site.
 
 1. Ouvrez une **nouvelle conversation** avec Claude, une par cours.
-2. Joignez trois fichiers : `instructions-cours-v4.1.md`, les diapositives et la prise de notes.
+2. Joignez trois fichiers : `instructions-cours-v4_3.md`, les diapositives et la prise de notes.
 3. Envoyez un message de ce type (la première ligne est importante, elle fixe le nom et le classement du cours) :
 
 ```
 Thème : Appareil cardio-vasculaire — Section : Physiologie — Cours : VO2
-Suis les instructions du fichier instructions-cours-v4.1.md avec les diapositives et la prise de notes jointes.
+Suis les instructions du fichier instructions-cours-v4_3.md avec les diapositives et la prise de notes jointes.
 ```
 
 4. Claude rend deux PDF qui partagent le même nom de base :
@@ -69,7 +87,25 @@ La dernière ligne du message corrige un point dépassé des instructions, qui m
 
 Trois fichiers à déposer, puis tout se fait seul : le site est à jour quelques minutes après l'envoi.
 
-&#91;embedded content: où déposer les 3 fichiers · puis déploiement automatique\]
+```mermaid
+flowchart TB
+  subgraph V["Rendus par Claude"]
+    R["cardio-physio-vo2-resume.pdf"]
+    P["cardio-physio-vo2.pdf"]
+    J["cardio-physio-vo2.json"]
+  end
+  subgraph G["Dépôt QuizzMed (branche main)"]
+    C["cours/cardio/<br/>PDF complet et résumé, sous-dossier libre"]
+    DA["data/<br/>un JSON par cours (+ themes.json : ordre)"]
+  end
+  R -- push --> C
+  P -- push --> C
+  J -- push --> DA
+  G -- "à chaque push sur main" --> AC["Action « Déploiement » (automatique)<br/>genindex.py régénère index.json,<br/>puis GitHub Pages publie le site"]
+  AC --> S["Site en ligne<br/>le cours apparaît dans l’arbre,<br/>avec son QCM et le bouton Cours"]
+  classDef cle stroke:#2f6fd6,stroke-width:3px
+  class S cle
+```
 
 Le dossier sous `cours/` est libre : le site retrouve le PDF par son seul nom.
 

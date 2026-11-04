@@ -3,7 +3,7 @@
 Site de QCM de révision, front-end pur, en français.
 Dépôt : https://github.com/ValentinStudMedRennes/QuizzMed
 
-Contenu du dépôt : `index.html`, `script.js`, `style.css`, `data/` (un JSON par cours, sous-dossiers permis, plus `data/themes.json` facultatif), `cours/` (les PDF, sous-dossiers permis : `cours/cardio/`, `cours/pneumo/`…), `genindex.py`, `diag.py` et `.github/workflows/deploy.yml`.
+Contenu du dépôt : `index.html`, `script.js`, `style.css`, `data/` (un JSON par cours, sous-dossiers permis, plus `data/themes.json` facultatif), `cours/` (les PDF, sous-dossiers permis : `cours/cardio/`, `cours/pneumo/`…), `genindex.py`, `diag.py`, `.github/workflows/deploy.yml`, `README.md` (tutoriel) et les deux fichiers d'instructions (`instructions-cours-v….md`, `instructions-qcm-v….md`).
 Le site est statique, sans framework. Les données se chargent par `fetch` : il faut un serveur HTTP (GitHub Pages ou `python3 -m http.server`), pas `file://`.
 
 ### Index et déploiement
@@ -17,6 +17,21 @@ Le site est statique, sans framework. Les données se chargent par `fetch` : il 
 - **Résumés** : `cours/…/X-resume.pdf` est le résumé du cours `X.pdf` (même nom + `-resume`, dossier libre). Ils figurent dans `index.json` mais **le site ne les utilise pas** pour l'instant.
 
 > Mettre ce fichier à jour à chaque évolution notable (fonctions ajoutées, règles de filtrage, format des données).
+
+### Fichiers d'instructions et tutoriel (`README.md`)
+
+- `instructions-cours-v4_3.md` : consignes de la conversation « cours » (diapositives + notes → résumé et fichier 2). `instructions-qcm-v1.3.md` : consignes de la conversation « QCM » (fichier 2 + annales → JSON). La version figure dans le nom du fichier et dans le « Journal des versions » en fin de fichier (aussi en 1re ligne pour le cours).
+- `README.md` est le tutoriel pour ajouter un cours : deux conversations Claude, puis dépôt des fichiers. Il cite les fichiers d'instructions **par leur nom complet, version comprise** (tableau « Ce qu'il faut », étapes 1 et 2, messages types).
+- Le README contient deux schémas Mermaid (blocs ```` ```mermaid ````, affichés par GitHub) qui citent eux aussi les noms des fichiers d'instructions.
+- **Vérification par Claude, à chaque conversation sur le dépôt** (juste après le clone) : lancer les deux commandes ci-dessous. Si un nom ou une version ne correspond pas, corriger `README.md` (texte, messages types, schémas, et le rappel « son numéro (v4.3, v1.3) ») et le livrer avec les autres fichiers. Même chose après tout changement qui touche l'ajout d'un cours (dossiers, déploiement, format des données). Rien d'automatique : ni `diag.py` ni l'Action ne font ce contrôle, c'est voulu.
+
+```bash
+for n in $(grep -oE 'instructions-[a-z]+-v[0-9._]*[0-9]\.md' README.md | sort -u); do [ -f "$n" ] || echo "README cite $n, absent du dépôt"; done
+for f in instructions-*.md; do echo "$f : journal $(grep -oE '^- v?[0-9]+\.[0-9]+ \(' "$f" | grep -oE '[0-9]+\.[0-9]+' | sort -V | tail -1)"; done
+```
+
+  La 1re commande ne doit rien afficher. La 2e doit donner, pour chaque fichier, la version de son nom (dernière entrée du journal).
+  Après une modification des schémas, vérifier leur syntaxe avec le paquet npm `mermaid` (fonction `parse`, sous jsdom).
 
 ---
 
@@ -133,4 +148,5 @@ setTimeout(()=>{
 - Dans le JSON, échapper les guillemets doubles à l'intérieur des textes.
 - `/bin/sh` ne développe pas `{a,b}` : copier les fichiers un par un.
 - Pour lire une variable `let` du script dans jsdom (ex. `themes`), l'exposer : `w.eval(script+"\nwindow.__t=()=>themes;")`.
+- Les noms des fichiers d'instructions n'ont pas la même forme (`v4_3` avec tiret bas, `v1.3` avec point) : recopier le nom exact dans le README.
 - Si le site en ligne ne voit pas un nouveau PDF ou cours : vérifier que l'Action « Déploiement » a réussi (onglet Actions).
