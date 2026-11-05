@@ -1,0 +1,2988 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Pharmacologie",
+    "titre": "Pharmacologie des hypolipémiants",
+    "description": "Statines, fibrates, cholestyramine, ézétimibe et anti-PCSK9 : mécanismes, effets, indications, interactions et effets indésirables, avec les rappels sur les lipoprotéines et le risque cardiovasculaire.",
+    "cours": {
+      "fichier": "cours/cardio-pharmaco-hypolip.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Rappels physiologiques"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les lipides et leurs rôles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "Le cholestérol sert à la synthèse des hormones"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cholestérol est le précurseur des hormones stéroïdiennes.",
+              "explication": "Le cholestérol sert à la synthèse des hormones stéroïdiennes."
+            },
+            {
+              "reponse": "Le cholestérol entre dans la composition des membranes cellulaires.",
+              "explication": "Rôle structural du cholestérol cité dans le cours."
+            },
+            {
+              "reponse": "Le cholestérol est le précurseur des acides biliaires.",
+              "explication": "Le cholestérol est aussi le précurseur des acides biliaires."
+            },
+            {
+              "reponse": "Un triglycéride est formé d'une molécule de glycérol et de trois acides gras.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les triglycérides constituent la principale forme de stockage de l'énergie.",
+              "explication": "Stockage notamment dans le tissu adipeux."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un triglycéride est formé d'une molécule de glycérol et de deux acides gras.",
+              "explication": "Il y a trois acides gras."
+            },
+            {
+              "reponse": "Le cholestérol est la principale forme de stockage de l'énergie dans le tissu adipeux.",
+              "explication": "Ce sont les triglycérides."
+            },
+            {
+              "reponse": "Les lipides sont très solubles dans le plasma et y circulent sous forme libre.",
+              "explication": "Peu solubles, ils circulent sous forme de lipoprotéines."
+            },
+            {
+              "reponse": "Le cholestérol n'intervient pas dans la synthèse de la vitamine D.",
+              "explication": "Il intervient dans la synthèse de la vitamine D."
+            },
+            {
+              "reponse": "Le cholestérol appartient à la famille des phospholipides.",
+              "explication": "C'est le principal stérol."
+            },
+            {
+              "reponse": "Les acides biliaires sont synthétisés à partir des triglycérides.",
+              "explication": "Ils dérivent du cholestérol."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la structure des lipoprotéines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "contient le cholestérol estérifié et les triglycérides"
+          },
+          "bonnes": [
+            {
+              "reponse": "La surface d'une lipoprotéine est hydrophile.",
+              "explication": "Surface hydrophile, intérieur hydrophobe."
+            },
+            {
+              "reponse": "Les apolipoprotéines sont situées à la surface des lipoprotéines.",
+              "explication": "La surface contient les protéines (apolipoprotéines)."
+            },
+            {
+              "reponse": "Le cœur d'une lipoprotéine contient le cholestérol estérifié et les triglycérides.",
+              "explication": "Ce sont les lipides hydrophobes, au centre."
+            },
+            {
+              "reponse": "Le cholestérol non estérifié est situé à la surface de la lipoprotéine.",
+              "explication": "Avec les phospholipides et les apolipoprotéines."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cœur d'une lipoprotéine est hydrophile.",
+              "explication": "Il est hydrophobe."
+            },
+            {
+              "reponse": "Les triglycérides sont situés à la surface de la lipoprotéine.",
+              "explication": "Ils sont au centre, hydrophobe."
+            },
+            {
+              "reponse": "Le cholestérol estérifié est situé à la surface de la lipoprotéine.",
+              "explication": "Il est au centre ; c'est le cholestérol non estérifié qui est en surface."
+            },
+            {
+              "reponse": "Les apolipoprotéines forment le cœur hydrophobe de la lipoprotéine.",
+              "explication": "Elles sont en surface."
+            },
+            {
+              "reponse": "Il existe 3 types de lipoprotéines.",
+              "explication": "Il en existe 5."
+            },
+            {
+              "reponse": "Les lipoprotéines diffèrent uniquement par leurs apolipoprotéines.",
+              "explication": "Elles diffèrent par leur densité, leur diamètre, leur poids moléculaire et leur composition."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les 5 classes de lipoprotéines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "plus une particule est volumineuse et riche en triglycérides"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les HDL sont les lipoprotéines les plus denses.",
+              "explication": "La densité augmente des chylomicrons vers les HDL."
+            },
+            {
+              "reponse": "Les chylomicrons sont les lipoprotéines de plus grand diamètre.",
+              "explication": "Le diamètre augmente des HDL vers les chylomicrons."
+            },
+            {
+              "reponse": "Les chylomicrons sont les lipoprotéines les plus riches en triglycérides.",
+              "explication": "Environ 90 % de triglycérides."
+            },
+            {
+              "reponse": "Les LDL sont les lipoprotéines les plus riches en cholestérol.",
+              "explication": "Environ la moitié de leur masse."
+            },
+            {
+              "reponse": "Les HDL sont les lipoprotéines les plus riches en protéines.",
+              "explication": "Environ la moitié de leur masse."
+            },
+            {
+              "reponse": "Plus une lipoprotéine est riche en triglycérides, moins elle est dense.",
+              "explication": "Point à retenir du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les chylomicrons sont les lipoprotéines les plus denses.",
+              "explication": "Ce sont les moins denses."
+            },
+            {
+              "reponse": "Les HDL sont les lipoprotéines de plus grand diamètre.",
+              "explication": "Ce sont les plus petites."
+            },
+            {
+              "reponse": "La densité des lipoprotéines diminue des chylomicrons vers les HDL.",
+              "explication": "Elle augmente des chylomicrons vers les HDL."
+            },
+            {
+              "reponse": "Les VLDL sont les lipoprotéines les plus riches en cholestérol.",
+              "explication": "Ce sont les LDL."
+            },
+            {
+              "reponse": "Les LDL sont les lipoprotéines les plus riches en triglycérides.",
+              "explication": "Ce sont les chylomicrons."
+            },
+            {
+              "reponse": "Les chylomicrons sont les lipoprotéines les plus riches en protéines.",
+              "explication": "Ce sont les HDL."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les apolipoprotéines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "l’apolipoprotéine B100 est la seule apolipoprotéine des LDL"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'apolipoprotéine B48 est propre aux chylomicrons.",
+              "explication": "Point à retenir du cours."
+            },
+            {
+              "reponse": "L'apolipoprotéine B100 est la seule apolipoprotéine des LDL.",
+              "explication": "Point à retenir du cours."
+            },
+            {
+              "reponse": "Les remnants de chylomicrons portent l'apolipoprotéine E.",
+              "explication": "C'est ce qui permet leur captation par le foie."
+            },
+            {
+              "reponse": "Les HDL portent l'apolipoprotéine A.",
+              "explication": "Schéma du métabolisme des lipoprotéines."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'apolipoprotéine B48 est l'apolipoprotéine principale des LDL.",
+              "explication": "Les LDL portent la B100 ; la B48 est propre aux chylomicrons."
+            },
+            {
+              "reponse": "L'apolipoprotéine B100 est propre aux chylomicrons.",
+              "explication": "C'est la B48 qui est propre aux chylomicrons."
+            },
+            {
+              "reponse": "Les LDL portent l'apolipoprotéine B48.",
+              "explication": "Elles portent uniquement la B100."
+            },
+            {
+              "reponse": "Les LDL possèdent de nombreuses apolipoprotéines, dont A, C et E.",
+              "explication": "La B100 est leur seule apolipoprotéine."
+            },
+            {
+              "reponse": "L'apolipoprotéine B48 est présente sur les HDL.",
+              "explication": "Elle est propre aux chylomicrons."
+            },
+            {
+              "reponse": "L'apolipoprotéine A est caractéristique des LDL.",
+              "explication": "Elle caractérise les HDL."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les voies exogène et endogène du métabolisme des lipoprotéines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "La lipoprotéine lipase hydrolyse leurs triglycérides"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la voie exogène, le cholestérol d'origine intestinale est intégré dans les chylomicrons.",
+              "explication": "Voie exogène (verte) du schéma."
+            },
+            {
+              "reponse": "La lipoprotéine lipase hydrolyse les triglycérides des chylomicrons.",
+              "explication": "Il reste ensuite des remnants."
+            },
+            {
+              "reponse": "Les remnants de chylomicrons sont captés par le foie.",
+              "explication": "Grâce à l'apolipoprotéine E."
+            },
+            {
+              "reponse": "Le foie sécrète des VLDL qui, sous l'action de la lipoprotéine lipase, deviennent des IDL puis des LDL.",
+              "explication": "Voie endogène (orange)."
+            },
+            {
+              "reponse": "Les LDL apportent le cholestérol aux tissus extra-hépatiques.",
+              "explication": "Elles peuvent aussi retourner au foie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les VLDL sont sécrétées par l'intestin.",
+              "explication": "Elles sont sécrétées par le foie."
+            },
+            {
+              "reponse": "Les chylomicrons sont sécrétés par le foie.",
+              "explication": "Ils sont formés dans l'intestin (voie exogène)."
+            },
+            {
+              "reponse": "Les LDL se transforment en VLDL sous l'action de la lipoprotéine lipase.",
+              "explication": "C'est l'inverse : VLDL puis IDL puis LDL."
+            },
+            {
+              "reponse": "La lipoprotéine lipase transforme l'HMG-CoA en précurseur du cholestérol.",
+              "explication": "C'est le rôle de l'HMG-CoA réductase."
+            },
+            {
+              "reponse": "Les remnants de chylomicrons sont captés par les tissus extra-hépatiques.",
+              "explication": "Ils sont captés par le foie."
+            },
+            {
+              "reponse": "La transformation des VLDL en LDL s'accompagne d'un enrichissement en triglycérides.",
+              "explication": "Les VLDL perdent des triglycérides."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les HDL et le cycle entéro-hépatique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "ramènent le cholestérol vers le foie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les HDL ramènent le cholestérol des tissus extra-hépatiques vers le foie.",
+              "explication": "C'est le transport inverse du cholestérol."
+            },
+            {
+              "reponse": "Le retour du cholestérol vers le foie par les HDL est appelé transport inverse du cholestérol.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'HMG-CoA réductase est une enzyme hépatique de la synthèse du cholestérol.",
+              "explication": "Elle transforme l'HMG-CoA en précurseur du cholestérol dans le foie."
+            },
+            {
+              "reponse": "Le foie transforme le cholestérol en acides biliaires déversés dans l'intestin.",
+              "explication": "Cycle des acides biliaires."
+            },
+            {
+              "reponse": "Une grande partie des acides biliaires intestinaux est réabsorbée et retourne au foie.",
+              "explication": "C'est le cycle entéro-hépatique."
+            },
+            {
+              "reponse": "Les acides biliaires aident à solubiliser les lipides dans l'intestin.",
+              "explication": "Rappel fait à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les HDL apportent le cholestérol du foie vers les tissus extra-hépatiques.",
+              "explication": "C'est le rôle des LDL ; les HDL font le chemin inverse."
+            },
+            {
+              "reponse": "Le transport inverse du cholestérol est assuré par les LDL.",
+              "explication": "Il est assuré par les HDL."
+            },
+            {
+              "reponse": "Les acides biliaires sont entièrement éliminés dans les selles, sans retour vers le foie.",
+              "explication": "Une grande partie est réabsorbée (cycle entéro-hépatique)."
+            },
+            {
+              "reponse": "L'HMG-CoA réductase est l'enzyme qui hydrolyse les triglycérides des VLDL.",
+              "explication": "C'est la lipoprotéine lipase."
+            },
+            {
+              "reponse": "LCAT signifie lipoprotéine-cholestérol acyl-transférase.",
+              "explication": "LCAT : lécithine-cholestérol acyl-transférase."
+            },
+            {
+              "reponse": "Le cycle entéro-hépatique concerne les triglycérides.",
+              "explication": "Il concerne les acides biliaires."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la classification de Frederickson, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Les types IIa, IIb et III sont les causes majeures"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le type IIa correspond à une hypercholestérolémie pure par augmentation des LDL.",
+              "explication": "Tableau de Frederickson."
+            },
+            {
+              "reponse": "Le type I correspond à une augmentation des chylomicrons.",
+              "explication": "Hypertriglycéridémie."
+            },
+            {
+              "reponse": "Le type IV correspond à une augmentation des VLDL.",
+              "explication": "Hypertriglycéridémie."
+            },
+            {
+              "reponse": "Le type IIb correspond à une augmentation des LDL et des VLDL.",
+              "explication": "Hyperlipidémie mixte."
+            },
+            {
+              "reponse": "Le type III correspond à une augmentation des IDL (dysbêtalipoprotéinémie).",
+              "explication": "Hyperlipidémie mixte."
+            },
+            {
+              "reponse": "Les types IIa, IIb et III sont les causes majeures d'athérosclérose.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le type I correspond à une augmentation des LDL.",
+              "explication": "Il correspond aux chylomicrons ; les LDL, c'est le type IIa."
+            },
+            {
+              "reponse": "Le type IV est une hypercholestérolémie pure.",
+              "explication": "C'est une hypertriglycéridémie (VLDL)."
+            },
+            {
+              "reponse": "Le type V correspond à une augmentation isolée des IDL.",
+              "explication": "Il correspond aux chylomicrons et aux VLDL."
+            },
+            {
+              "reponse": "Le type IIb est une hypertriglycéridémie pure par excès de chylomicrons.",
+              "explication": "C'est une hyperlipidémie mixte (LDL et VLDL)."
+            },
+            {
+              "reponse": "Le type III correspond à une augmentation des HDL.",
+              "explication": "Il correspond aux IDL."
+            },
+            {
+              "reponse": "Les types I, IV et V sont les causes majeures d'athérosclérose.",
+              "explication": "Ce sont les types IIa, IIb et III."
+            },
+            {
+              "reponse": "La classification de Frederickson classe les dyslipidémies selon le taux de HDL-cholestérol.",
+              "explication": "Elle les classe selon la lipoprotéine en excès."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Pourquoi et quand traiter"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dyslipidémies et le risque cardiovasculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "favorise le dépôt de cholestérol dans la paroi artérielle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dyslipidémies sont des facteurs de risque de maladies cardiovasculaires.",
+              "explication": "C'est la raison de les traiter."
+            },
+            {
+              "reponse": "L'excès de LDL-cholestérol favorise le dépôt de cholestérol dans la paroi artérielle.",
+              "explication": "D'où la formation de plaques d'athérome."
+            },
+            {
+              "reponse": "La rupture d'une plaque d'athérome peut provoquer un infarctus du myocarde ou un accident vasculaire cérébral.",
+              "explication": "Par thrombose."
+            },
+            {
+              "reponse": "Le diabète, le tabac, l'hypertension artérielle et l'obésité sont des facteurs de risque cardiovasculaire.",
+              "explication": "Facteurs cités par le cours."
+            },
+            {
+              "reponse": "La sédentarité et l'âge sont des facteurs de risque cardiovasculaire.",
+              "explication": "Ajoutés par la prise de notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'excès de HDL-cholestérol favorise la formation des plaques d'athérome.",
+              "explication": "C'est l'excès de LDL-cholestérol."
+            },
+            {
+              "reponse": "La rupture d'une plaque d'athérome est sans conséquence thrombotique.",
+              "explication": "Elle peut provoquer une thrombose."
+            },
+            {
+              "reponse": "L'objectif principal du traitement hypolipémiant est de normaliser le HDL-cholestérol.",
+              "explication": "L'objectif principal porte sur le LDL-cholestérol."
+            },
+            {
+              "reponse": "La prise en charge des dyslipidémies ne concerne que la prévention secondaire.",
+              "explication": "Elle concerne aussi la prévention primaire."
+            },
+            {
+              "reponse": "L'obésité n'est pas un facteur de risque cardiovasculaire.",
+              "explication": "Elle fait partie des facteurs de risque cités."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'objectif du traitement hypolipémiant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "maintenir le LDL-cholestérol au-dessous d’une valeur seuil"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'objectif principal est de maintenir le LDL-cholestérol au-dessous d'une valeur seuil.",
+              "explication": "Afin de diminuer le risque cardiovasculaire."
+            },
+            {
+              "reponse": "Plus le risque cardiovasculaire global est élevé, plus la cible de LDL-cholestérol est basse.",
+              "explication": "Principe des recommandations."
+            },
+            {
+              "reponse": "La prévention primaire vise à éviter un premier événement cardiovasculaire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La prévention secondaire vise à éviter une récidive.",
+              "explication": "Définition du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Plus le risque cardiovasculaire global est élevé, plus la cible de LDL-cholestérol est haute.",
+              "explication": "Elle est d'autant plus basse que le risque est élevé."
+            },
+            {
+              "reponse": "La cible de LDL-cholestérol est la même quel que soit le risque cardiovasculaire.",
+              "explication": "Elle dépend du risque global."
+            },
+            {
+              "reponse": "La prévention primaire vise à éviter une récidive après un infarctus.",
+              "explication": "C'est la prévention secondaire."
+            },
+            {
+              "reponse": "La prévention secondaire vise à éviter un premier événement cardiovasculaire.",
+              "explication": "C'est la prévention primaire."
+            },
+            {
+              "reponse": "L'objectif principal est de maintenir les triglycérides au-dessous d'une valeur seuil.",
+              "explication": "L'objectif principal porte sur le LDL-cholestérol."
+            },
+            {
+              "reponse": "L'objectif de LDL-cholestérol ne concerne que la prévention secondaire.",
+              "explication": "Il concerne la prévention primaire comme secondaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'estimation du risque cardiovasculaire par SCORE2, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "on estime le risque à 10 ans avec SCORE2"
+          },
+          "bonnes": [
+            {
+              "reponse": "SCORE2 estime le risque à 10 ans d'événements cardiovasculaires mortels et non mortels.",
+              "explication": "Définition de la grille."
+            },
+            {
+              "reponse": "SCORE2 prend en compte l'âge, le sexe, le tabagisme, la pression artérielle systolique et le cholestérol non-HDL.",
+              "explication": "Variables de la grille."
+            },
+            {
+              "reponse": "SCORE2-OP est la version destinée aux personnes âgées.",
+              "explication": "OP : Older Persons."
+            },
+            {
+              "reponse": "Les grilles SCORE2 sont calibrées selon la zone géographique.",
+              "explication": "Le risque de départ varie d'un pays à l'autre."
+            },
+            {
+              "reponse": "Un patient ayant une maladie athéroscléreuse documentée est d'emblée classé à risque élevé ou très élevé.",
+              "explication": "SCORE2 sert chez les personnes sans maladie cardiovasculaire connue."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "SCORE2 estime le risque à 10 ans des seuls événements cardiovasculaires mortels.",
+              "explication": "Il inclut les événements mortels et non mortels."
+            },
+            {
+              "reponse": "La grille SCORE2 utilise le HDL-cholestérol comme variable lipidique.",
+              "explication": "Elle utilise le cholestérol non-HDL."
+            },
+            {
+              "reponse": "La grille SCORE2 utilise la pression artérielle diastolique.",
+              "explication": "Elle utilise la pression artérielle systolique."
+            },
+            {
+              "reponse": "SCORE2 estime le risque cardiovasculaire à 5 ans.",
+              "explication": "Il l'estime à 10 ans."
+            },
+            {
+              "reponse": "Les grilles SCORE2 sont identiques dans tous les pays.",
+              "explication": "Elles sont calibrées selon la zone géographique."
+            },
+            {
+              "reponse": "Le risque estimé par SCORE2 diminue avec l'âge.",
+              "explication": "Il augmente avec l'âge."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les catégories de risque cardiovasculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Maladie cardiovasculaire athéroscléreuse documentée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une maladie cardiovasculaire athéroscléreuse documentée classe le patient à très haut risque.",
+              "explication": "Tableau des catégories de risque."
+            },
+            {
+              "reponse": "Un antécédent d'accident vasculaire cérébral ou d'accident ischémique transitoire classe le patient à très haut risque.",
+              "explication": "Maladie athéroscléreuse documentée."
+            },
+            {
+              "reponse": "Une maladie rénale chronique sévère (DFG inférieur à 30 mL/min/1,73 m²) classe le patient à très haut risque.",
+              "explication": "Critère du très haut risque."
+            },
+            {
+              "reponse": "Un SCORE2 supérieur ou égal à 20 % classe le patient à très haut risque.",
+              "explication": "Critère du très haut risque."
+            },
+            {
+              "reponse": "Une hypercholestérolémie familiale sans autre facteur de risque majeur classe le patient à haut risque.",
+              "explication": "Critère du haut risque."
+            },
+            {
+              "reponse": "Un SCORE2 inférieur à 2 % correspond à un risque faible.",
+              "explication": "Critère du risque faible."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un antécédent de syndrome coronarien aigu classe le patient à risque modéré.",
+              "explication": "Il le classe à très haut risque."
+            },
+            {
+              "reponse": "Une maladie rénale chronique modérée (DFG 30 à 59) classe le patient à très haut risque.",
+              "explication": "Elle le classe à haut risque."
+            },
+            {
+              "reponse": "Un SCORE2 de 2 % à moins de 10 % correspond au haut risque.",
+              "explication": "Il correspond au risque modéré."
+            },
+            {
+              "reponse": "Un SCORE2 inférieur à 2 % correspond à un risque modéré.",
+              "explication": "Il correspond au risque faible."
+            },
+            {
+              "reponse": "Une hypercholestérolémie familiale avec maladie athéroscléreuse classe le patient à risque modéré.",
+              "explication": "Elle le classe à très haut risque."
+            },
+            {
+              "reponse": "Un patient diabétique de type 2 depuis moins de 10 ans, de moins de 50 ans et sans autre facteur de risque, est à très haut risque.",
+              "explication": "Il est à risque modéré."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la stratégie d'intervention selon le risque et le LDL-cholestérol, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "La décision se raisonne à partir du risque global"
+          },
+          "bonnes": [
+            {
+              "reponse": "La décision de traitement repose sur le risque cardiovasculaire global et le LDL-cholestérol.",
+              "explication": "Tableau ESC/EAS."
+            },
+            {
+              "reponse": "En prévention secondaire chez un patient à très haut risque, un médicament est associé aux mesures hygiéno-diététiques quel que soit le LDL-cholestérol non traité.",
+              "explication": "Case rouge sur toute la ligne."
+            },
+            {
+              "reponse": "À faible risque cardiovasculaire, les mesures hygiéno-diététiques peuvent suffire au début.",
+              "explication": "Dit à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La décision de traitement repose uniquement sur le LDL-cholestérol, indépendamment du risque global.",
+              "explication": "Elle combine risque global et LDL-cholestérol."
+            },
+            {
+              "reponse": "Chez un patient à faible risque, un médicament est toujours prescrit d'emblée.",
+              "explication": "Les mesures non médicamenteuses peuvent suffire au début."
+            },
+            {
+              "reponse": "En prévention secondaire à très haut risque, un médicament n'est envisagé que si le LDL-cholestérol non traité est très élevé.",
+              "explication": "Le médicament est indiqué quel que soit le LDL-cholestérol."
+            },
+            {
+              "reponse": "Chez un patient à risque élevé avec un LDL-cholestérol élevé, les seules mesures hygiéno-diététiques sont recommandées.",
+              "explication": "Mesures hygiéno-diététiques et médicament."
+            },
+            {
+              "reponse": "Le traitement médicamenteux dispense des mesures hygiéno-diététiques.",
+              "explication": "Elles sont toujours associées."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les mesures hygiéno-diététiques associées aux hypolipémiants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "tout hypolipémiant s’associe aux règles hygiéno-diététiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Tout traitement hypolipémiant s'associe aux règles hygiéno-diététiques.",
+              "explication": "Rappelé sur chaque diapositive d'indications."
+            },
+            {
+              "reponse": "Les règles hygiéno-diététiques comprennent un régime adapté, la perte de poids, l'exercice physique et le sevrage tabagique.",
+              "explication": "Liste du cours."
+            },
+            {
+              "reponse": "Il est conseillé de limiter les acides gras saturés (charcuterie, fritures, beurre).",
+              "explication": "Prise de notes."
+            },
+            {
+              "reponse": "Il est conseillé de privilégier les acides gras insaturés (huile d'olive, colza, poissons gras).",
+              "explication": "Prise de notes."
+            },
+            {
+              "reponse": "Il est conseillé d'augmenter l'apport en fibres.",
+              "explication": "Prise de notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les règles hygiéno-diététiques peuvent être arrêtées une fois le traitement médicamenteux débuté.",
+              "explication": "Elles sont toujours associées."
+            },
+            {
+              "reponse": "Il est conseillé de privilégier les acides gras saturés.",
+              "explication": "Il faut les limiter."
+            },
+            {
+              "reponse": "Le beurre et la charcuterie sont des sources d'acides gras insaturés à privilégier.",
+              "explication": "Ce sont des sources d'acides gras saturés à limiter."
+            },
+            {
+              "reponse": "Il est conseillé de réduire l'apport en fibres.",
+              "explication": "Il faut l'augmenter."
+            },
+            {
+              "reponse": "L'huile d'olive et les poissons gras sont à limiter car riches en acides gras saturés.",
+              "explication": "Ils apportent des acides gras insaturés, à privilégier."
+            },
+            {
+              "reponse": "Le contrôle du diabète et de l'hypertension artérielle ne fait pas partie de la prise en charge.",
+              "explication": "Il en fait partie."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les statines"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les molécules et le mécanisme d'action des statines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "inhibiteurs compétitifs de l’HMG-CoA réductase"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'atorvastatine, la fluvastatine, la pravastatine, la simvastatine et la rosuvastatine sont des statines.",
+              "explication": "Les 5 molécules du cours."
+            },
+            {
+              "reponse": "Les statines sont des inhibiteurs compétitifs de l'HMG-CoA réductase.",
+              "explication": "Enzyme clé de la synthèse hépatique du cholestérol."
+            },
+            {
+              "reponse": "Les statines diminuent la synthèse hépatique de cholestérol.",
+              "explication": "Par inhibition de l'HMG-CoA réductase."
+            },
+            {
+              "reponse": "Les statines diminuent la production de VLDL, précurseurs des LDL.",
+              "explication": "D'où la baisse du LDL-cholestérol."
+            },
+            {
+              "reponse": "Les statines augmentent le nombre de récepteurs hépatiques aux LDL.",
+              "explication": "L'hépatocyte compense en captant davantage de LDL."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le fénofibrate est une statine.",
+              "explication": "C'est un fibrate."
+            },
+            {
+              "reponse": "Les statines sont des agonistes des récepteurs PPARα.",
+              "explication": "Ce sont les fibrates."
+            },
+            {
+              "reponse": "Les statines diminuent le nombre de récepteurs hépatiques aux LDL.",
+              "explication": "Elles l'augmentent."
+            },
+            {
+              "reponse": "Les statines inhibent la lipoprotéine lipase.",
+              "explication": "Elles inhibent l'HMG-CoA réductase."
+            },
+            {
+              "reponse": "Les statines bloquent l'absorption intestinale du cholestérol via le transporteur NPC1L1.",
+              "explication": "C'est le mécanisme de l'ézétimibe."
+            },
+            {
+              "reponse": "Les statines augmentent la production de VLDL.",
+              "explication": "Elles la diminuent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets des statines sur les paramètres lipidiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "L’effet principal est une forte baisse du LDL-cholestérol"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'effet principal des statines est une forte baisse du LDL-cholestérol.",
+              "explication": "Diapositive 11."
+            },
+            {
+              "reponse": "Selon les molécules, les statines diminuent le LDL-cholestérol de 32 % à 65 %.",
+              "explication": "De la fluvastatine à la rosuvastatine."
+            },
+            {
+              "reponse": "Les statines diminuent les triglycérides.",
+              "explication": "Baisse de 10 à 35 %."
+            },
+            {
+              "reponse": "Les statines augmentent modérément le HDL-cholestérol.",
+              "explication": "Hausse de 6 à 14 %."
+            },
+            {
+              "reponse": "La rosuvastatine est la statine la plus puissante sur le LDL-cholestérol.",
+              "explication": "Baisse de 65 %."
+            },
+            {
+              "reponse": "La fluvastatine est la statine la moins puissante sur le LDL-cholestérol.",
+              "explication": "Baisse de 32 %."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les statines diminuent le HDL-cholestérol.",
+              "explication": "Elles l'augmentent modérément."
+            },
+            {
+              "reponse": "Les statines augmentent les triglycérides.",
+              "explication": "Elles les diminuent."
+            },
+            {
+              "reponse": "La fluvastatine est la statine la plus puissante sur le LDL-cholestérol.",
+              "explication": "C'est la moins puissante ; la plus puissante est la rosuvastatine."
+            },
+            {
+              "reponse": "La pravastatine diminue le LDL-cholestérol d'environ 65 %.",
+              "explication": "Environ 34 % ; 65 % correspond à la rosuvastatine."
+            },
+            {
+              "reponse": "L'effet principal des statines est une baisse des triglycérides de 30 à 50 %.",
+              "explication": "C'est l'effet des fibrates ; l'effet principal des statines porte sur le LDL-cholestérol."
+            },
+            {
+              "reponse": "Les statines augmentent le HDL-cholestérol de plus de 30 %.",
+              "explication": "La hausse est modérée (6 à 14 %)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les conséquences cliniques des statines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Diminution de la mortalité cardiovasculaire et de la mortalité totale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines diminuent la mortalité cardiovasculaire.",
+              "explication": "Diapositive 10."
+            },
+            {
+              "reponse": "Les statines diminuent la mortalité totale.",
+              "explication": "Diapositive 10 (correction de la prise de notes)."
+            },
+            {
+              "reponse": "Les statines diminuent les récidives de cardiopathie ischémique et d'accident vasculaire cérébral chez les coronariens.",
+              "explication": "Diapositive 10."
+            },
+            {
+              "reponse": "Les statines stabilisent, voire font régresser, les lésions athéromateuses coronariennes.",
+              "explication": "Diapositive 10."
+            },
+            {
+              "reponse": "Le bénéfice des statines a été démontré par des études contre placebo portant sur les événements et les décès.",
+              "explication": "Dit à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les statines diminuent la mortalité cardiovasculaire mais pas la mortalité totale.",
+              "explication": "Elles diminuent aussi la mortalité totale."
+            },
+            {
+              "reponse": "Sous statine, la régression vraie des plaques d'athérome est l'effet le plus fréquent.",
+              "explication": "L'effet est surtout une stabilisation ; la régression est plus rare."
+            },
+            {
+              "reponse": "Le bénéfice des statines repose uniquement sur l'amélioration du bilan lipidique.",
+              "explication": "Il repose sur la baisse réelle des événements et des décès."
+            },
+            {
+              "reponse": "Les statines n'ont pas d'effet démontré sur la mortalité.",
+              "explication": "Leur bénéfice sur la mortalité est démontré."
+            },
+            {
+              "reponse": "Les statines sont réservées à la seconde intention.",
+              "explication": "Elles sont en première intention."
+            },
+            {
+              "reponse": "Les statines déstabilisent les plaques d'athérome.",
+              "explication": "Elles les stabilisent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les indications des statines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Les statines sont indiquées en prévention primaire ET secondaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines sont indiquées en prévention primaire.",
+              "explication": "Diapositive 12."
+            },
+            {
+              "reponse": "Les statines sont indiquées en prévention secondaire.",
+              "explication": "Diapositive 12."
+            },
+            {
+              "reponse": "Les statines sont indiquées dans le type IIa de Frederickson.",
+              "explication": "Type encadré sur la diapositive."
+            },
+            {
+              "reponse": "Les statines sont indiquées dans le type IIb de Frederickson.",
+              "explication": "Type encadré sur la diapositive."
+            },
+            {
+              "reponse": "Les statines s'associent toujours aux règles hygiéno-diététiques.",
+              "explication": "Diapositive 12."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les statines sont réservées à la prévention secondaire.",
+              "explication": "Prévention primaire et secondaire."
+            },
+            {
+              "reponse": "Les statines sont réservées à la prévention primaire.",
+              "explication": "Prévention primaire et secondaire."
+            },
+            {
+              "reponse": "Les statines sont indiquées dans le type I de Frederickson.",
+              "explication": "Seuls les types IIa et IIb sont encadrés."
+            },
+            {
+              "reponse": "Les statines sont indiquées dans le type IV de Frederickson.",
+              "explication": "Seuls les types IIa et IIb sont encadrés."
+            },
+            {
+              "reponse": "Les statines dispensent des règles hygiéno-diététiques.",
+              "explication": "Elles y sont toujours associées."
+            },
+            {
+              "reponse": "En prévention secondaire, les statines visent à éviter un premier événement cardiovasculaire.",
+              "explication": "Elles visent à éviter une récidive."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la pharmacocinétique et les interactions des statines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Les statines sont métabolisées par les cytochromes P450"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines sont métabolisées par les cytochromes P450 3A4 et 2C9, sauf la pravastatine.",
+              "explication": "Diapositive 13."
+            },
+            {
+              "reponse": "La pravastatine n'est pas métabolisée par les cytochromes P450 3A4 et 2C9.",
+              "explication": "Exception citée par le cours."
+            },
+            {
+              "reponse": "Les inhibiteurs enzymatiques augmentent la concentration des statines.",
+              "explication": "Et majorent leurs effets indésirables."
+            },
+            {
+              "reponse": "Les fibrates figurent parmi les interactions pharmacodynamiques des statines.",
+              "explication": "Majoration des effets indésirables (risque musculaire)."
+            },
+            {
+              "reponse": "L'insuffisance hépatique est un point de vigilance sous statine.",
+              "explication": "Métabolisme hépatique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pravastatine est, comme les autres statines, métabolisée par le CYP3A4.",
+              "explication": "La pravastatine fait exception."
+            },
+            {
+              "reponse": "Les inhibiteurs enzymatiques diminuent la concentration des statines.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Les statines sont éliminées sans métabolisme hépatique.",
+              "explication": "Elles sont métabolisées par les cytochromes P450 (sauf la pravastatine)."
+            },
+            {
+              "reponse": "L'acide nicotinique diminue le risque musculaire des statines.",
+              "explication": "Il majore les effets indésirables."
+            },
+            {
+              "reponse": "Les interactions des statines avec les autres hypolipémiants sont uniquement pharmacocinétiques.",
+              "explication": "Elles sont pharmacodynamiques."
+            },
+            {
+              "reponse": "Les statines ne sont pas concernées par les interactions médicamenteuses.",
+              "explication": "Elles en ont de nombreuses."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables, la surveillance et les contre-indications des statines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "La rhabdomyolyse est une destruction des fibres musculaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines peuvent provoquer des crampes et des myalgies.",
+              "explication": "Troubles musculosquelettiques."
+            },
+            {
+              "reponse": "Les statines peuvent provoquer une rhabdomyolyse, avec un risque d'insuffisance rénale aiguë.",
+              "explication": "Diapositive 14."
+            },
+            {
+              "reponse": "La rhabdomyolyse libère de la myoglobine dans la circulation.",
+              "explication": "Destruction des fibres musculaires."
+            },
+            {
+              "reponse": "La toxicité musculaire des statines se surveille par le dosage de la créatine phosphokinase.",
+              "explication": "Avec arrêt éventuel du traitement."
+            },
+            {
+              "reponse": "Les statines peuvent provoquer une élévation des transaminases.",
+              "explication": "Surveillance du bilan hépatique."
+            },
+            {
+              "reponse": "Les statines sont contre-indiquées pendant la grossesse et l'allaitement.",
+              "explication": "Diapositive 14."
+            },
+            {
+              "reponse": "Une affection hépatique évolutive contre-indique les statines.",
+              "explication": "Diapositive 14."
+            },
+            {
+              "reponse": "Les myopathies contre-indiquent les statines.",
+              "explication": "Diapositive 14."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les principaux effets indésirables des statines sont digestifs.",
+              "explication": "Ils sont musculaires et hépatobiliaires."
+            },
+            {
+              "reponse": "La toxicité musculaire des statines se surveille par l'urémie.",
+              "explication": "Elle se surveille par la créatine phosphokinase."
+            },
+            {
+              "reponse": "La rhabdomyolyse expose à une insuffisance hépatique aiguë.",
+              "explication": "Elle expose à une insuffisance rénale aiguë."
+            },
+            {
+              "reponse": "En cas de signes biologiques de toxicité musculaire, la statine est poursuivie sans réévaluation.",
+              "explication": "Le traitement doit être réévalué, voire interrompu."
+            },
+            {
+              "reponse": "Les statines sont autorisées pendant la grossesse.",
+              "explication": "Elles sont contre-indiquées."
+            },
+            {
+              "reponse": "La surveillance hépatique sous statine repose sur le dosage de la créatine phosphokinase.",
+              "explication": "Elle repose sur le bilan hépatique (transaminases)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-020",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2020-2021",
+                "qcm": 22
+              }
+            ]
+          },
+          "question": "À propos des statines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "inhibiteurs compétitifs de l’HMG-CoA réductase"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines inhibent l'HMG-CoA réductase.",
+              "annale": true,
+              "explication": "Inhibiteurs compétitifs de l'enzyme. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines peuvent entraîner une augmentation des transaminases.",
+              "annale": true,
+              "explication": "Troubles hépatobiliaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines doivent être associées à des mesures diététiques.",
+              "annale": true,
+              "explication": "Toujours avec les règles hygiéno-diététiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La surveillance d'un traitement par statine repose sur la créatine phosphokinase et le bilan hépatique.",
+              "explication": "Diapositive 14."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La surveillance d'un traitement par statine repose sur des dosages répétés de l'urémie.",
+              "annale": true,
+              "explication": "Elle repose sur la créatine phosphokinase et le bilan hépatique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines diminuent à la fois le LDL-cholestérol et le HDL-cholestérol.",
+              "annale": true,
+              "explication": "Elles diminuent le LDL-cholestérol mais augmentent modérément le HDL-cholestérol. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines augmentent l'activité de l'HMG-CoA réductase.",
+              "explication": "Elles l'inhibent."
+            },
+            {
+              "reponse": "Les statines n'entraînent pas d'effets indésirables hépatiques.",
+              "explication": "Elles peuvent élever les transaminases, voire donner une hépatite."
+            },
+            {
+              "reponse": "Les statines peuvent remplacer les mesures diététiques.",
+              "explication": "Les mesures diététiques sont toujours associées."
+            },
+            {
+              "reponse": "La surveillance musculaire sous statine repose sur le dosage des transaminases.",
+              "explication": "Elle repose sur la créatine phosphokinase."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-021",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2015-2016",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant le traitement par statines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "L’enseignant insiste sur les signes biologiques de toxicité musculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines sont des antagonistes de l'enzyme HMG-CoA réductase.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours les décrit comme des inhibiteurs compétitifs de l'HMG-CoA réductase : l'item décrit bien le blocage de l'enzyme, mais « antagoniste » est un terme impropre pour une enzyme et peut avoir été compté faux comme piège terminologique. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Les principaux effets indésirables des statines sont musculaires et hépatiques.",
+              "annale": true,
+              "explication": "Troubles musculosquelettiques et hépatobiliaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines peuvent être prescrites en association avec l'ézétimibe.",
+              "annale": true,
+              "explication": "Association synergique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines sont métabolisées par le CYP3A4, ce qui expose à des interactions médicamenteuses.",
+              "explication": "Diapositive 13."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'instauration d'une statine est basée sur un taux élevé de HDL-cholestérol.",
+              "annale": true,
+              "explication": "Elle repose sur le LDL-cholestérol et le risque cardiovasculaire global. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines sont métabolisées par le CYP3A4 et n'exposent donc pas au risque d'interaction médicamenteuse.",
+              "annale": true,
+              "explication": "Ce métabolisme expose au contraire à des interactions (inhibiteurs enzymatiques). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'instauration d'une statine ne tient pas compte du risque cardiovasculaire global.",
+              "explication": "La décision repose sur le risque global et le LDL-cholestérol."
+            },
+            {
+              "reponse": "Les statines sont contre-indiquées en association avec l'ézétimibe.",
+              "explication": "L'association est synergique et indiquée."
+            },
+            {
+              "reponse": "Les principaux effets indésirables des statines sont digestifs.",
+              "explication": "Ils sont musculaires et hépatiques."
+            },
+            {
+              "reponse": "Les statines n'exposent à aucune interaction pharmacodynamique.",
+              "explication": "Les autres hypolipémiants majorent leurs effets indésirables."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-022",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "Concernant les traitements hypolipémiants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Diminution des VLDL, précurseurs des LDL"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines inhibent l'enzyme HMG-CoA réductase.",
+              "annale": true,
+              "explication": "Inhibiteurs compétitifs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'ézétimibe a une action complémentaire de celle des statines.",
+              "annale": true,
+              "explication": "Association synergique : synthèse endogène et absorption intestinale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines diminuent la production de VLDL, précurseurs des LDL.",
+              "explication": "Diapositive 10."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La découverte d'une hypercholestérolémie impose la mise en route immédiate d'un traitement par statine.",
+              "annale": true,
+              "explication": "La décision dépend du risque global ; à faible risque, les mesures hygiéno-diététiques peuvent suffire au début. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines diminuent le LDL-cholestérol et augmentent les VLDL.",
+              "annale": true,
+              "explication": "Elles diminuent les VLDL. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les statines entraînent essentiellement des effets indésirables digestifs.",
+              "annale": true,
+              "explication": "Ils sont surtout musculaires et hépatobiliaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'ézétimibe et les statines agissent sur la même cible enzymatique.",
+              "explication": "L'ézétimibe inhibe le transporteur NPC1L1, les statines l'HMG-CoA réductase."
+            },
+            {
+              "reponse": "Les statines diminuent le nombre de récepteurs hépatiques aux LDL.",
+              "explication": "Elles l'augmentent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les fibrates et l'association aux statines"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les molécules et le mécanisme d'action des fibrates, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "agonistes des récepteurs nucléaires PPARα"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le bézafibrate, le ciprofibrate, le fénofibrate et le gemfibrozil sont des fibrates.",
+              "explication": "Les 4 molécules du cours."
+            },
+            {
+              "reponse": "Les fibrates sont des agonistes des récepteurs nucléaires PPARα.",
+              "explication": "Diapositive 16."
+            },
+            {
+              "reponse": "Les fibrates induisent l'expression de la lipoprotéine lipase.",
+              "explication": "Qui hydrolyse les lipoprotéines riches en triglycérides."
+            },
+            {
+              "reponse": "Les fibrates induisent l'expression des enzymes de la β-oxydation.",
+              "explication": "Moins d'acides gras disponibles pour former des VLDL."
+            },
+            {
+              "reponse": "Les fibrates induisent l'expression des apolipoprotéines A-I et A-II.",
+              "explication": "D'où la hausse du HDL-cholestérol."
+            },
+            {
+              "reponse": "Les fibrates augmentent le catabolisme des acides gras dans le foie et les muscles.",
+              "explication": "Diapositive 16."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibrates sont des antagonistes des récepteurs PPARα.",
+              "explication": "Ce sont des agonistes."
+            },
+            {
+              "reponse": "Les fibrates inhibent l'HMG-CoA réductase.",
+              "explication": "C'est le mécanisme des statines."
+            },
+            {
+              "reponse": "Les fibrates agissent sur des récepteurs membranaires.",
+              "explication": "PPARα est un récepteur nucléaire."
+            },
+            {
+              "reponse": "Les fibrates diminuent l'expression de la lipoprotéine lipase.",
+              "explication": "Ils l'induisent."
+            },
+            {
+              "reponse": "Les fibrates diminuent l'expression des apolipoprotéines A-I et A-II.",
+              "explication": "Ils l'induisent."
+            },
+            {
+              "reponse": "La rosuvastatine est un fibrate.",
+              "explication": "C'est une statine."
+            },
+            {
+              "reponse": "Les fibrates diminuent la β-oxydation des acides gras.",
+              "explication": "Ils l'augmentent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets des fibrates sur les lipides et leurs conséquences cliniques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Pas de diminution de la mortalité cardiovasculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fibrates diminuent les triglycérides de 30 à 50 %.",
+              "explication": "Diapositive 16."
+            },
+            {
+              "reponse": "Les fibrates augmentent le HDL-cholestérol de 10 à 15 %.",
+              "explication": "Diapositive 16."
+            },
+            {
+              "reponse": "L'effet des fibrates sur le LDL-cholestérol est plus variable que celui des statines.",
+              "explication": "Diapositive 16."
+            },
+            {
+              "reponse": "Les fibrates ne diminuent pas la mortalité cardiovasculaire.",
+              "explication": "Contrairement aux statines."
+            },
+            {
+              "reponse": "Le gemfibrozil a démontré une réduction des événements coronariens.",
+              "explication": "Diapositive 16."
+            },
+            {
+              "reponse": "Les fibrates diminuent l'inflammation vasculaire.",
+              "explication": "Bonus : ralentissement de l'athérosclérose."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibrates diminuent la mortalité cardiovasculaire, comme les statines.",
+              "explication": "Pas de diminution de la mortalité cardiovasculaire."
+            },
+            {
+              "reponse": "Les fibrates diminuent le HDL-cholestérol.",
+              "explication": "Ils l'augmentent de 10 à 15 %."
+            },
+            {
+              "reponse": "Les fibrates diminuent le LDL-cholestérol de 46 à 73 %.",
+              "explication": "Ce sont les chiffres des anti-PCSK9."
+            },
+            {
+              "reponse": "Les fibrates augmentent les triglycérides.",
+              "explication": "Ils les diminuent de 30 à 50 %."
+            },
+            {
+              "reponse": "Un meilleur bilan lipidique sous fibrate garantit une meilleure survie.",
+              "explication": "Un meilleur bilan biologique ne garantit pas une meilleure survie."
+            },
+            {
+              "reponse": "Les fibrates n'ont aucun effet démontré sur les événements coronariens.",
+              "explication": "Réduction démontrée pour le gemfibrozil."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les indications des fibrates, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "surtout si le HDL-cholestérol est faible"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fibrates sont indiqués en prévention primaire et secondaire.",
+              "explication": "Diapositive 17."
+            },
+            {
+              "reponse": "Les fibrates sont particulièrement indiqués en cas de HDL-cholestérol faible.",
+              "explication": "Notamment le gemfibrozil."
+            },
+            {
+              "reponse": "Les fibrates sont indiqués dans le type IV de Frederickson.",
+              "explication": "Types IIa, IIb, III, IV et V encadrés."
+            },
+            {
+              "reponse": "Les fibrates sont indiqués dans le type IIa de Frederickson.",
+              "explication": "Type encadré sur la diapositive 17."
+            },
+            {
+              "reponse": "Les fibrates sont indiqués dans le type III de Frederickson.",
+              "explication": "Type encadré sur la diapositive 17."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibrates sont indiqués dans le type I de Frederickson.",
+              "explication": "Seul le type I n'est pas encadré (erreur de la prise de notes)."
+            },
+            {
+              "reponse": "Les fibrates sont réservés à la prévention secondaire.",
+              "explication": "Prévention primaire et secondaire."
+            },
+            {
+              "reponse": "Les fibrates dispensent des règles hygiéno-diététiques.",
+              "explication": "Elles sont toujours associées."
+            },
+            {
+              "reponse": "Les fibrates ne sont pas indiqués dans le type IIa de Frederickson.",
+              "explication": "Le type IIa est encadré sur la diapositive 17."
+            },
+            {
+              "reponse": "Les fibrates sont réservés aux patients dont le HDL-cholestérol est élevé.",
+              "explication": "Ils sont surtout utiles si le HDL-cholestérol est faible."
+            },
+            {
+              "reponse": "Les fibrates ne sont pas indiqués dans le type V de Frederickson.",
+              "explication": "Le type V est encadré."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la pharmacocinétique et les interactions des fibrates, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Les fibrates sont éliminés par voie rénale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fibrates sont éliminés par voie rénale.",
+              "explication": "D'où la prudence en cas d'insuffisance rénale."
+            },
+            {
+              "reponse": "Le gemfibrozil est un inhibiteur enzymatique.",
+              "explication": "Source d'interactions pharmacocinétiques."
+            },
+            {
+              "reponse": "Le gemfibrozil interagit notamment avec les antidiabétiques oraux.",
+              "explication": "Diapositive 18."
+            },
+            {
+              "reponse": "Les fibrates entrent en compétition avec les anticoagulants oraux pour la liaison à l'albumine.",
+              "explication": "Interaction pharmacodynamique citée par le cours."
+            },
+            {
+              "reponse": "L'association d'un fibrate et d'un anticoagulant oral expose à un risque hémorragique.",
+              "explication": "Par compétition pour l'albumine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibrates sont éliminés principalement par voie hépatique.",
+              "explication": "Ils sont éliminés par voie rénale."
+            },
+            {
+              "reponse": "Le gemfibrozil est un inducteur enzymatique.",
+              "explication": "C'est un inhibiteur enzymatique."
+            },
+            {
+              "reponse": "L'association d'un fibrate et d'un anticoagulant oral diminue le risque hémorragique.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La compétition des fibrates avec les anticoagulants oraux porte sur le CYP3A4.",
+              "explication": "Elle porte sur la liaison à l'albumine."
+            },
+            {
+              "reponse": "L'insuffisance rénale ne modifie pas la prescription des fibrates.",
+              "explication": "Prudence, voire contre-indication."
+            },
+            {
+              "reponse": "Le gemfibrozil n'a pas d'interaction avec les antidiabétiques oraux.",
+              "explication": "Interaction citée sur la diapositive 18."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables et les contre-indications des fibrates, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "insiste sur le risque de lithiase biliaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fibrates peuvent provoquer une rhabdomyolyse.",
+              "explication": "Troubles musculosquelettiques."
+            },
+            {
+              "reponse": "Sous fibrate, le traitement est arrêté si la créatine phosphokinase dépasse 5 fois la normale.",
+              "explication": "Diapositive 19."
+            },
+            {
+              "reponse": "Les fibrates peuvent provoquer des lithiases biliaires faites de calculs de cholestérol.",
+              "explication": "Point d'insistance de l'enseignant."
+            },
+            {
+              "reponse": "La lithiase biliaire sous fibrate est liée à une moindre solubilisation du cholestérol dans la bile.",
+              "explication": "Explication du cours."
+            },
+            {
+              "reponse": "L'insuffisance rénale contre-indique les fibrates.",
+              "explication": "Diapositive 19."
+            },
+            {
+              "reponse": "L'insuffisance hépatique contre-indique les fibrates.",
+              "explication": "Diapositive 19."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sous fibrate, le traitement est arrêté dès que la créatine phosphokinase dépasse la normale.",
+              "explication": "Arrêt si plus de 5 fois la normale."
+            },
+            {
+              "reponse": "Sous fibrate, le traitement n'est arrêté que si la créatine phosphokinase dépasse 50 fois la normale.",
+              "explication": "Arrêt si plus de 5 fois la normale."
+            },
+            {
+              "reponse": "Les lithiases biliaires sous fibrate sont des calculs pigmentaires de bilirubine.",
+              "explication": "Ce sont des calculs de cholestérol."
+            },
+            {
+              "reponse": "Les fibrates ne présentent pas de toxicité hépatique.",
+              "explication": "Élévation des transaminases, hépatite possibles."
+            },
+            {
+              "reponse": "L'insuffisance rénale n'est pas une contre-indication aux fibrates.",
+              "explication": "C'est une contre-indication."
+            },
+            {
+              "reponse": "La lithiase biliaire sous fibrate est liée à une meilleure solubilisation du cholestérol dans la bile.",
+              "explication": "C'est une moindre solubilisation."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'association d'une statine et d'un fibrate, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "potentialisation des effets indésirables"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'association d'une statine et d'un fibrate potentialise les effets indésirables, notamment musculaires.",
+              "explication": "Diapositive 20."
+            },
+            {
+              "reponse": "Il ne faut pas associer une statine et un fibrate dans le but d'obtenir une baisse lipidique plus importante.",
+              "explication": "Insistance très forte de l'enseignant."
+            },
+            {
+              "reponse": "Le risque de rhabdomyolyse est majoré par l'association d'une statine et d'un fibrate.",
+              "explication": "Potentialisation du risque musculaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'association d'une statine et d'un fibrate diminue le risque musculaire.",
+              "explication": "Elle le majore."
+            },
+            {
+              "reponse": "L'association d'une statine et d'un fibrate est recommandée en première intention pour renforcer la baisse du LDL-cholestérol.",
+              "explication": "L'enseignant insiste pour ne pas les associer dans ce but."
+            },
+            {
+              "reponse": "L'interaction entre statine et fibrate repose sur une compétition pour la liaison à l'albumine.",
+              "explication": "Cette compétition concerne les fibrates et les anticoagulants oraux."
+            },
+            {
+              "reponse": "L'association d'une statine et d'un fibrate n'expose à aucun effet indésirable supplémentaire.",
+              "explication": "Elle potentialise les effets indésirables."
+            },
+            {
+              "reponse": "L'association d'une statine et d'un fibrate expose surtout à un risque hémorragique.",
+              "explication": "Le risque est surtout musculaire ; le risque hémorragique concerne fibrate et anticoagulant oral."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-029",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2015-2016",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "À propos des fibrates, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "agonistes des récepteurs nucléaires PPARα"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fibrates sont indiqués en cas d'hypertriglycéridémie.",
+              "annale": true,
+              "explication": "Types IV et V encadrés ; baisse des triglycérides de 30 à 50 %. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibrates sont des agonistes des récepteurs nucléaires PPARα.",
+              "explication": "Diapositive 16."
+            },
+            {
+              "reponse": "Les fibrates diminuent les triglycérides de 30 à 50 %.",
+              "explication": "Diapositive 16."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibrates sont des antagonistes des récepteurs nucléaires PPARα.",
+              "annale": true,
+              "explication": "Ce sont des agonistes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibrates sont des médicaments hypoglycémiants.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Ce sont des hypolipémiants ; le cours ne leur attribue aucun effet sur la glycémie. Le mot est illisible dans le livret (« hypoglycérùiants ») : s'il s'agissait de « hypotriglycéridémiants », l'item serait vrai. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Les fibrates entraînent essentiellement des effets indésirables digestifs.",
+              "annale": true,
+              "explication": "Ils sont surtout musculaires et hépatobiliaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibrates ne sont pas sujets aux interactions médicamenteuses.",
+              "annale": true,
+              "explication": "Gemfibrozil inhibiteur enzymatique, anticoagulants oraux, autres hypolipémiants. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibrates augmentent les triglycérides.",
+              "explication": "Ils les diminuent."
+            },
+            {
+              "reponse": "Les fibrates n'ont pas d'interaction avec les anticoagulants oraux.",
+              "explication": "Compétition pour l'albumine, risque hémorragique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "La cholestyramine"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme d'action de la cholestyramine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "La cholestyramine est une résine échangeuse d’ions, non absorbée"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cholestyramine est une résine échangeuse d'ions non absorbée.",
+              "explication": "Diapositive 22."
+            },
+            {
+              "reponse": "La cholestyramine fixe les acides biliaires dans le tube digestif.",
+              "explication": "En échange de ses ions."
+            },
+            {
+              "reponse": "La cholestyramine interrompt le cycle entéro-hépatique des acides biliaires.",
+              "explication": "Ils sont éliminés dans les selles."
+            },
+            {
+              "reponse": "Sous cholestyramine, le foie augmente la conversion du cholestérol en acides biliaires.",
+              "explication": "Pour compenser les pertes."
+            },
+            {
+              "reponse": "La cholestyramine augmente l'expression des récepteurs aux LDL.",
+              "explication": "D'où une captation accrue des LDL."
+            },
+            {
+              "reponse": "La cholestyramine diminue l'absorption digestive du cholestérol alimentaire.",
+              "explication": "Cette absorption nécessite les acides biliaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cholestyramine est largement absorbée par le tube digestif.",
+              "explication": "Elle n'est pas absorbée."
+            },
+            {
+              "reponse": "La cholestyramine favorise la réabsorption des acides biliaires vers le foie.",
+              "explication": "Elle bloque le cycle entéro-hépatique."
+            },
+            {
+              "reponse": "Sous cholestyramine, le foie diminue la conversion du cholestérol en acides biliaires.",
+              "explication": "Il l'augmente."
+            },
+            {
+              "reponse": "La cholestyramine diminue l'expression des récepteurs aux LDL.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La cholestyramine inhibe le transporteur NPC1L1.",
+              "explication": "C'est l'ézétimibe."
+            },
+            {
+              "reponse": "La cholestyramine inhibe l'HMG-CoA réductase.",
+              "explication": "Ce sont les statines."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets de la cholestyramine sur les lipides et ses conséquences cliniques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "sans effet sur la mortalité globale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cholestyramine diminue le LDL-cholestérol d'environ 20 %.",
+              "explication": "Diapositive 22."
+            },
+            {
+              "reponse": "La cholestyramine diminue le cholestérol total d'environ 20 %.",
+              "explication": "Diapositive 22."
+            },
+            {
+              "reponse": "La cholestyramine peut augmenter transitoirement les triglycérides en début de traitement.",
+              "explication": "Diapositive 22."
+            },
+            {
+              "reponse": "La cholestyramine réduit les événements coronariens.",
+              "explication": "Diapositive 22."
+            },
+            {
+              "reponse": "La cholestyramine n'a pas d'effet démontré sur la mortalité globale.",
+              "explication": "Point d'insistance de l'enseignant."
+            },
+            {
+              "reponse": "La cholestyramine est un traitement d'appoint.",
+              "explication": "Effet sur la mortalité non démontré."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cholestyramine diminue le LDL-cholestérol d'environ 60 %.",
+              "explication": "Environ 20 %."
+            },
+            {
+              "reponse": "La cholestyramine diminue les triglycérides dès le début du traitement.",
+              "explication": "Elle peut les augmenter transitoirement."
+            },
+            {
+              "reponse": "La cholestyramine diminue la mortalité globale.",
+              "explication": "Pas d'effet sur la mortalité globale."
+            },
+            {
+              "reponse": "La cholestyramine est le traitement hypolipémiant de référence.",
+              "explication": "C'est un traitement d'appoint ; la référence est la statine."
+            },
+            {
+              "reponse": "La cholestyramine n'a aucun effet sur les événements coronariens.",
+              "explication": "Elle les réduit."
+            },
+            {
+              "reponse": "La cholestyramine augmente le LDL-cholestérol.",
+              "explication": "Elle le diminue d'environ 20 %."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les indications de la cholestyramine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "en association à une statine ou à un fibrate"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cholestyramine est indiquée en prévention primaire.",
+              "explication": "Diapositive 23."
+            },
+            {
+              "reponse": "La cholestyramine s'utilise en association à une statine ou à un fibrate.",
+              "explication": "Diapositive 23."
+            },
+            {
+              "reponse": "La cholestyramine est indiquée dans le type IIa de Frederickson.",
+              "explication": "Seul type encadré."
+            },
+            {
+              "reponse": "La cholestyramine est indiquée dans le prurit des cholestases.",
+              "explication": "Par fixation des acides biliaires."
+            },
+            {
+              "reponse": "La cholestyramine s'associe aux règles hygiéno-diététiques.",
+              "explication": "Diapositive 23."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cholestyramine est indiquée dans le type IV de Frederickson.",
+              "explication": "Seul le type IIa est encadré."
+            },
+            {
+              "reponse": "La cholestyramine est indiquée dans le type IIb de Frederickson.",
+              "explication": "Seul le type IIa est encadré."
+            },
+            {
+              "reponse": "La cholestyramine est indiquée dans le type I de Frederickson.",
+              "explication": "Seul le type IIa est encadré."
+            },
+            {
+              "reponse": "La cholestyramine est réservée à la prévention secondaire.",
+              "explication": "Elle est indiquée en prévention primaire."
+            },
+            {
+              "reponse": "Le prurit des cholestases contre-indique la cholestyramine.",
+              "explication": "C'en est une indication."
+            },
+            {
+              "reponse": "La cholestyramine est indiquée dans les hypertriglycéridémies.",
+              "explication": "Elle peut augmenter les triglycérides ; seul le type IIa est encadré."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la pharmacocinétique et les interactions de la cholestyramine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "par chélation des autres médicaments"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cholestyramine agit localement dans le tractus intestinal.",
+              "explication": "Elle n'est pas absorbée."
+            },
+            {
+              "reponse": "L'efficacité de la cholestyramine est meilleure si elle est prise pendant le repas.",
+              "explication": "Diapositive 24."
+            },
+            {
+              "reponse": "Les interactions de la cholestyramine sont pharmacocinétiques, par chélation des autres médicaments.",
+              "explication": "Diapositive 24."
+            },
+            {
+              "reponse": "Les autres médicaments doivent être pris à distance de la cholestyramine.",
+              "explication": "Pour éviter la chélation."
+            },
+            {
+              "reponse": "La cholestyramine peut interagir avec les digitaliques, les anticoagulants oraux, les diurétiques thiazidiques et les hormones thyroïdiennes.",
+              "explication": "Exemples cités par la prise de notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les interactions de la cholestyramine sont dues à une inhibition du CYP3A4.",
+              "explication": "Elles sont dues à une chélation dans l'intestin."
+            },
+            {
+              "reponse": "La cholestyramine doit être prise en même temps que les autres médicaments.",
+              "explication": "Ils doivent être pris à distance."
+            },
+            {
+              "reponse": "L'efficacité de la cholestyramine est meilleure si elle est prise à jeun, loin des repas.",
+              "explication": "Elle est meilleure pendant le repas."
+            },
+            {
+              "reponse": "La cholestyramine agit après absorption, au niveau hépatique.",
+              "explication": "Non absorbée, elle agit localement dans l'intestin."
+            },
+            {
+              "reponse": "Les interactions de la cholestyramine sont purement pharmacodynamiques.",
+              "explication": "Elles sont pharmacocinétiques."
+            },
+            {
+              "reponse": "La cholestyramine n'a pas d'interaction médicamenteuse.",
+              "explication": "Elle chélate d'autres médicaments."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-034",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables et les contre-indications de la cholestyramine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Chélation des vitamines liposolubles A, D, E et K"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cholestyramine peut provoquer une constipation.",
+              "explication": "Troubles digestifs."
+            },
+            {
+              "reponse": "Chez le sujet âgé, la cholestyramine peut provoquer une occlusion intestinale.",
+              "explication": "Diapositive 25."
+            },
+            {
+              "reponse": "La cholestyramine peut chélater les vitamines liposolubles A, D, E et K.",
+              "explication": "Diapositive 25."
+            },
+            {
+              "reponse": "Une supplémentation en vitamines liposolubles peut être nécessaire sous cholestyramine.",
+              "explication": "Diapositive 25."
+            },
+            {
+              "reponse": "La constipation chronique contre-indique la cholestyramine.",
+              "explication": "Diapositive 25."
+            },
+            {
+              "reponse": "L'obstruction des voies biliaires contre-indique la cholestyramine.",
+              "explication": "Diapositive 25."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cholestyramine provoque typiquement des diarrhées.",
+              "explication": "Elle provoque une constipation."
+            },
+            {
+              "reponse": "La cholestyramine chélate les vitamines hydrosolubles B et C.",
+              "explication": "Elle chélate les vitamines liposolubles A, D, E, K."
+            },
+            {
+              "reponse": "La cholestyramine est indiquée en cas de constipation chronique.",
+              "explication": "C'est une contre-indication."
+            },
+            {
+              "reponse": "La principale toxicité de la cholestyramine est une rhabdomyolyse.",
+              "explication": "Ses effets indésirables sont surtout digestifs."
+            },
+            {
+              "reponse": "L'obstruction des voies biliaires est une indication de la cholestyramine.",
+              "explication": "C'est une contre-indication ; l'indication est le prurit des cholestases."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'ézétimibe"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme d'action de l'ézétimibe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "inhibe le transporteur spécifique du cholestérol NPC1L1"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ézétimibe inhibe le transporteur intestinal du cholestérol NPC1L1.",
+              "explication": "Niemann-Pick C1-Like 1."
+            },
+            {
+              "reponse": "L'ézétimibe agit au niveau des entérocytes.",
+              "explication": "Diapositive 27."
+            },
+            {
+              "reponse": "L'ézétimibe diminue l'absorption digestive du cholestérol alimentaire.",
+              "explication": "Diapositive 27."
+            },
+            {
+              "reponse": "Sous ézétimibe, l'expression des récepteurs aux LDL augmente par compensation.",
+              "explication": "D'où une captation accrue des LDL."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ézétimibe inhibe l'HMG-CoA réductase.",
+              "explication": "Ce sont les statines."
+            },
+            {
+              "reponse": "L'ézétimibe est une résine qui fixe les acides biliaires.",
+              "explication": "C'est la cholestyramine."
+            },
+            {
+              "reponse": "L'ézétimibe bloque la dégradation des récepteurs aux LDL dans l'hépatocyte.",
+              "explication": "C'est le mécanisme des anti-PCSK9."
+            },
+            {
+              "reponse": "L'ézétimibe diminue l'expression des récepteurs aux LDL.",
+              "explication": "Elle augmente par compensation."
+            },
+            {
+              "reponse": "L'ézétimibe augmente l'absorption intestinale du cholestérol.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "L'ézétimibe est un agoniste des récepteurs PPARα.",
+              "explication": "Ce sont les fibrates."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets de l'ézétimibe et l'association à une statine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "diminution supplémentaire du LDL-cholestérol"
+          },
+          "bonnes": [
+            {
+              "reponse": "Associé à la simvastatine, l'ézétimibe diminue le LDL-cholestérol de 24 % de plus que la simvastatine seule.",
+              "explication": "Diapositive 27."
+            },
+            {
+              "reponse": "L'association ézétimibe et simvastatine réduit les événements coronariens par rapport à la simvastatine seule.",
+              "explication": "Diapositive 27."
+            },
+            {
+              "reponse": "L'association d'une statine et de l'ézétimibe est synergique.",
+              "explication": "Point d'insistance de l'enseignant."
+            },
+            {
+              "reponse": "La statine réduit la synthèse endogène du cholestérol et l'ézétimibe son absorption intestinale.",
+              "explication": "Base de la synergie."
+            },
+            {
+              "reponse": "L'ézétimibe seul est d'un intérêt clinique très limité.",
+              "explication": "Dit à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ézétimibe ajouté à la simvastatine diminue le LDL-cholestérol de 65 % de plus.",
+              "explication": "La baisse supplémentaire est de 24 %."
+            },
+            {
+              "reponse": "L'ézétimibe et les statines ont le même mécanisme d'action.",
+              "explication": "Mécanismes différents et complémentaires."
+            },
+            {
+              "reponse": "L'ézétimibe en monothérapie est le traitement de référence.",
+              "explication": "Son intérêt seul est très limité ; la référence est la statine."
+            },
+            {
+              "reponse": "L'association de l'ézétimibe et d'une statine est antagoniste.",
+              "explication": "Elle est synergique."
+            },
+            {
+              "reponse": "L'ézétimibe augmente le LDL-cholestérol lorsqu'il est associé à la simvastatine.",
+              "explication": "Il le diminue davantage."
+            },
+            {
+              "reponse": "L'ézétimibe réduit la synthèse hépatique du cholestérol tandis que la statine réduit son absorption intestinale.",
+              "explication": "C'est l'inverse."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les indications de l'ézétimibe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Prévention primaire, en association à une statine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ézétimibe est indiqué en prévention primaire, en association à une statine.",
+              "explication": "Diapositive 28."
+            },
+            {
+              "reponse": "L'ézétimibe est indiqué dans le type IIa de Frederickson.",
+              "explication": "Seul type encadré."
+            },
+            {
+              "reponse": "L'ézétimibe s'associe aux règles hygiéno-diététiques.",
+              "explication": "Diapositive 28."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ézétimibe est indiqué dans le type IIb de Frederickson.",
+              "explication": "Seul le type IIa est encadré (erreur de la prise de notes)."
+            },
+            {
+              "reponse": "L'ézétimibe est indiqué dans le type IV de Frederickson.",
+              "explication": "Seul le type IIa est encadré."
+            },
+            {
+              "reponse": "L'ézétimibe dispense des règles hygiéno-diététiques.",
+              "explication": "Elles sont toujours associées."
+            },
+            {
+              "reponse": "L'ézétimibe est indiqué dans le type I de Frederickson.",
+              "explication": "Seul le type IIa est encadré."
+            },
+            {
+              "reponse": "L'ézétimibe est indiqué dans le prurit des cholestases.",
+              "explication": "C'est une indication de la cholestyramine."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la pharmacocinétique, les effets indésirables et les contre-indications de l'ézétimibe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Ces effets indésirables sont essentiellement ceux de la statine associée"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ézétimibe est éliminé par voie hépatique.",
+              "explication": "Diapositive 29."
+            },
+            {
+              "reponse": "L'insuffisance hépatique contre-indique l'ézétimibe.",
+              "explication": "Diapositive 29."
+            },
+            {
+              "reponse": "Les interactions pharmacocinétiques de l'ézétimibe sont liées à la simvastatine associée.",
+              "explication": "Diapositive 29."
+            },
+            {
+              "reponse": "Il existe des comprimés associant ézétimibe et simvastatine.",
+              "explication": "Diapositive 29."
+            },
+            {
+              "reponse": "Les effets indésirables de l'association ézétimibe-statine sont essentiellement ceux de la statine.",
+              "explication": "Diapositive 30."
+            },
+            {
+              "reponse": "En cas d'association, les contre-indications de la simvastatine s'appliquent.",
+              "explication": "Diapositive 30."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ézétimibe est éliminé par voie rénale.",
+              "explication": "Élimination hépatique."
+            },
+            {
+              "reponse": "L'insuffisance hépatique n'est pas une contre-indication à l'ézétimibe.",
+              "explication": "C'est une contre-indication."
+            },
+            {
+              "reponse": "Les effets indésirables de l'association ézétimibe-simvastatine sont surtout liés à l'ézétimibe.",
+              "explication": "Ils sont essentiellement ceux de la statine."
+            },
+            {
+              "reponse": "Sous association ézétimibe-simvastatine, aucune surveillance de la créatine phosphokinase n'est nécessaire.",
+              "explication": "La créatine phosphokinase est surveillée."
+            },
+            {
+              "reponse": "L'ézétimibe associé à la simvastatine n'expose à aucune interaction médicamenteuse.",
+              "explication": "Interactions liées à la simvastatine."
+            },
+            {
+              "reponse": "Les effets indésirables de l'ézétimibe sont surtout une constipation et une carence en vitamines liposolubles.",
+              "explication": "Ce sont ceux de la cholestyramine."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À ne pas confondre : concernant l'ézétimibe et la cholestyramine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "blocage de l’absorption intestinale du cholestérol"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ézétimibe et la cholestyramine agissent tous deux au niveau intestinal.",
+              "explication": "Transporteur NPC1L1 d'un côté, fixation des acides biliaires de l'autre."
+            },
+            {
+              "reponse": "L'ézétimibe et la cholestyramine augmentent tous deux l'expression des récepteurs aux LDL.",
+              "explication": "Effet indirect, par compensation."
+            },
+            {
+              "reponse": "La cholestyramine fixe les acides biliaires, alors que l'ézétimibe bloque le transporteur NPC1L1.",
+              "explication": "Mécanismes distincts."
+            },
+            {
+              "reponse": "L'ézétimibe et la cholestyramine sont tous deux indiqués dans le type IIa de Frederickson.",
+              "explication": "Seul type encadré pour chacun."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cholestyramine bloque le transporteur NPC1L1.",
+              "explication": "C'est l'ézétimibe."
+            },
+            {
+              "reponse": "L'ézétimibe fixe les acides biliaires dans la lumière intestinale.",
+              "explication": "C'est la cholestyramine."
+            },
+            {
+              "reponse": "L'ézétimibe interagit avec les autres médicaments par chélation intestinale.",
+              "explication": "La chélation est propre à la cholestyramine ; les interactions de l'ézétimibe sont liées à la simvastatine."
+            },
+            {
+              "reponse": "La cholestyramine est absorbée puis éliminée par voie hépatique.",
+              "explication": "Elle n'est pas absorbée."
+            },
+            {
+              "reponse": "L'ézétimibe et la cholestyramine diminuent tous deux l'expression des récepteurs aux LDL.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "L'ézétimibe interrompt le cycle entéro-hépatique des acides biliaires.",
+              "explication": "C'est la cholestyramine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les anticorps anti-PCSK9"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les molécules et le mécanisme d'action des anti-PCSK9, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "augmentent l’expression des récepteurs hépatocytaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'évolocumab et l'alirocumab sont des anti-PCSK9.",
+              "explication": "Diapositive 31."
+            },
+            {
+              "reponse": "Les anti-PCSK9 sont des anticorps monoclonaux.",
+              "explication": "Diapositive 32."
+            },
+            {
+              "reponse": "La protéine PCSK9 favorise la dégradation lysosomale des récepteurs aux LDL.",
+              "explication": "Diapositive 32."
+            },
+            {
+              "reponse": "En bloquant PCSK9, les anti-PCSK9 augmentent l'expression des récepteurs hépatocytaires aux LDL.",
+              "explication": "Diapositive 32."
+            },
+            {
+              "reponse": "Les anti-PCSK9 augmentent la captation des LDL par le foie.",
+              "explication": "Conséquence de l'augmentation des récepteurs."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La protéine PCSK9 favorise la synthèse des récepteurs aux LDL.",
+              "explication": "Elle favorise leur dégradation."
+            },
+            {
+              "reponse": "Les anti-PCSK9 diminuent l'expression des récepteurs hépatocytaires aux LDL.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Les anti-PCSK9 inhibent l'HMG-CoA réductase.",
+              "explication": "Ce sont les statines."
+            },
+            {
+              "reponse": "L'ézétimibe est un anticorps anti-PCSK9.",
+              "explication": "Les anti-PCSK9 sont l'évolocumab et l'alirocumab."
+            },
+            {
+              "reponse": "Les anti-PCSK9 sont de petites molécules administrées par voie orale.",
+              "explication": "Ce sont des anticorps injectés par voie sous-cutanée."
+            },
+            {
+              "reponse": "Les anti-PCSK9 bloquent l'absorption intestinale du cholestérol.",
+              "explication": "C'est l'ézétimibe."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'effet des anti-PCSK9 sur les lipides, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "dégradation lysosomale des récepteurs aux LDL"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les anti-PCSK9 diminuent le LDL-cholestérol de 46 à 73 %.",
+              "explication": "Diapositive 32."
+            },
+            {
+              "reponse": "Les anti-PCSK9 font baisser le LDL-cholestérol en augmentant sa captation hépatique.",
+              "explication": "Par augmentation des récepteurs aux LDL."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anti-PCSK9 diminuent le LDL-cholestérol d'environ 20 %.",
+              "explication": "C'est l'ordre de grandeur de la cholestyramine ; les anti-PCSK9 font 46 à 73 %."
+            },
+            {
+              "reponse": "Les anti-PCSK9 augmentent le LDL-cholestérol.",
+              "explication": "Ils le diminuent."
+            },
+            {
+              "reponse": "Les anti-PCSK9 agissent surtout sur les triglycérides, qu'ils diminuent de 30 à 50 %.",
+              "explication": "Ce sont les fibrates."
+            },
+            {
+              "reponse": "Les anti-PCSK9 diminuent le LDL-cholestérol en inhibant l'HMG-CoA réductase.",
+              "explication": "Ils bloquent la dégradation des récepteurs aux LDL."
+            },
+            {
+              "reponse": "Les anti-PCSK9 diminuent le LDL-cholestérol en bloquant le transporteur NPC1L1.",
+              "explication": "C'est l'ézétimibe."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les indications des anti-PCSK9, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "non-contrôle chez les patients à très haut risque"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les anti-PCSK9 sont indiqués en prévention secondaire.",
+              "explication": "Diapositive 33."
+            },
+            {
+              "reponse": "Les anti-PCSK9 s'utilisent en association à un traitement hypolipémiant en cas de non-contrôle chez les patients à très haut risque.",
+              "explication": "Diapositive 33."
+            },
+            {
+              "reponse": "Les anti-PCSK9 peuvent être utilisés seuls en cas de contre-indication aux statines et/ou à l'ézétimibe.",
+              "explication": "Diapositive 33."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anti-PCSK9 sont le traitement de première intention de toute hypercholestérolémie.",
+              "explication": "Ils sont réservés au très haut risque non contrôlé."
+            },
+            {
+              "reponse": "Les anti-PCSK9 sont indiqués chez les patients à faible risque cardiovasculaire.",
+              "explication": "Ils concernent les patients à très haut risque."
+            },
+            {
+              "reponse": "Les anti-PCSK9 ne peuvent jamais être utilisés seuls.",
+              "explication": "Ils peuvent l'être en cas de contre-indication aux statines et/ou à l'ézétimibe."
+            },
+            {
+              "reponse": "Les anti-PCSK9 sont indiqués uniquement en prévention primaire.",
+              "explication": "Ils sont indiqués en prévention secondaire."
+            },
+            {
+              "reponse": "Les anti-PCSK9 s'utilisent en première intention, avant toute statine.",
+              "explication": "Ils viennent en cas de non-contrôle ou de contre-indication."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-043",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'administration et les effets indésirables des anti-PCSK9, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "injections sous-cutanées toutes les 2 à 4 semaines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les anti-PCSK9 s'administrent par injection sous-cutanée.",
+              "explication": "Diapositive 33."
+            },
+            {
+              "reponse": "Les anti-PCSK9 s'injectent toutes les 2 à 4 semaines.",
+              "explication": "Diapositive 33."
+            },
+            {
+              "reponse": "Les anti-PCSK9 exposent à un risque d'infections.",
+              "explication": "Diapositive 33."
+            },
+            {
+              "reponse": "Le risque infectieux des anti-PCSK9 est lié à leur nature d'anticorps monoclonal.",
+              "explication": "Diapositive 33."
+            },
+            {
+              "reponse": "Les anti-PCSK9 ont un coût important.",
+              "explication": "Mentionné dans la prise de notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anti-PCSK9 s'administrent par voie orale quotidienne.",
+              "explication": "Injection sous-cutanée."
+            },
+            {
+              "reponse": "Les anti-PCSK9 s'administrent par perfusion intraveineuse quotidienne.",
+              "explication": "Injection sous-cutanée toutes les 2 à 4 semaines."
+            },
+            {
+              "reponse": "Les anti-PCSK9 s'injectent une fois par an.",
+              "explication": "Toutes les 2 à 4 semaines."
+            },
+            {
+              "reponse": "Le principal effet indésirable des anti-PCSK9 est la constipation.",
+              "explication": "Risque d'infections ; la constipation concerne la cholestyramine."
+            },
+            {
+              "reponse": "Les anti-PCSK9 exposent principalement à des lithiases biliaires.",
+              "explication": "Ce risque concerne les fibrates."
+            },
+            {
+              "reponse": "Les anti-PCSK9 sont des traitements peu coûteux.",
+              "explication": "Coût important."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À ne pas confondre : concernant l'augmentation des récepteurs hépatiques aux LDL par les hypolipémiants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "dégradation des récepteurs hépatiques aux LDL"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les anti-PCSK9 augmentent les récepteurs aux LDL en bloquant leur dégradation.",
+              "explication": "Blocage de PCSK9."
+            },
+            {
+              "reponse": "Les statines augmentent les récepteurs aux LDL en compensation de la baisse de synthèse hépatique du cholestérol.",
+              "explication": "Diapositive 10."
+            },
+            {
+              "reponse": "L'ézétimibe augmente les récepteurs aux LDL en compensation de la baisse de l'absorption intestinale du cholestérol.",
+              "explication": "Diapositive 27."
+            },
+            {
+              "reponse": "La cholestyramine augmente les récepteurs aux LDL en compensation de la perte fécale des acides biliaires.",
+              "explication": "Diapositive 22."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anti-PCSK9 augmentent les récepteurs aux LDL en inhibant l'HMG-CoA réductase.",
+              "explication": "Ils bloquent PCSK9."
+            },
+            {
+              "reponse": "Les statines augmentent les récepteurs aux LDL en bloquant la protéine PCSK9.",
+              "explication": "Elles inhibent l'HMG-CoA réductase."
+            },
+            {
+              "reponse": "La cholestyramine augmente les récepteurs aux LDL en bloquant leur dégradation lysosomale.",
+              "explication": "C'est le mécanisme des anti-PCSK9."
+            },
+            {
+              "reponse": "L'ézétimibe augmente les récepteurs aux LDL en inhibant la synthèse hépatique du cholestérol.",
+              "explication": "Il bloque l'absorption intestinale."
+            },
+            {
+              "reponse": "La protéine PCSK9 protège les récepteurs aux LDL de la dégradation.",
+              "explication": "Elle favorise leur dégradation lysosomale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Synthèse : stratégie et comparaison des hypolipémiants"
+      },
+      "questions": [
+        {
+          "id": "cardio-pharmaco-hypolip-045",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la place des différents hypolipémiants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Les statines restent le traitement de référence"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines restent le traitement hypolipémiant de référence.",
+              "explication": "Efficacité sur le LDL-cholestérol et bénéfice sur la mortalité."
+            },
+            {
+              "reponse": "Si la cible n'est pas atteinte sous statine, l'ézétimibe peut être ajouté.",
+              "explication": "Adaptation du traitement."
+            },
+            {
+              "reponse": "Les anti-PCSK9 sont réservés aux patients à très haut risque.",
+              "explication": "Diapositive 33 et synthèse."
+            },
+            {
+              "reponse": "Les fibrates s'utilisent surtout en cas de triglycérides élevés et de HDL-cholestérol bas.",
+              "explication": "Synthèse du cours."
+            },
+            {
+              "reponse": "Les hypolipémiants sont à associer aux autres mesures de prévention du risque cardiovasculaire.",
+              "explication": "Diapositive 34."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibrates sont le traitement hypolipémiant de référence.",
+              "explication": "C'est la statine."
+            },
+            {
+              "reponse": "La cholestyramine est le traitement de première intention de l'hypercholestérolémie.",
+              "explication": "C'est un traitement d'appoint."
+            },
+            {
+              "reponse": "Les anti-PCSK9 s'utilisent en première intention chez tous les patients hypercholestérolémiques.",
+              "explication": "Réservés au très haut risque."
+            },
+            {
+              "reponse": "Les fibrates s'utilisent surtout pour abaisser le LDL-cholestérol.",
+              "explication": "Surtout pour les triglycérides et le HDL-cholestérol bas."
+            },
+            {
+              "reponse": "Les hypolipémiants exposent à peu d'interactions médicamenteuses.",
+              "explication": "Nombreuses interactions pharmacocinétiques et pharmacodynamiques."
+            },
+            {
+              "reponse": "Les hypolipémiants dispensent des autres mesures de prévention cardiovasculaire.",
+              "explication": "Ils s'y associent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-046",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Pharmacologie",
+                "annee": "2016-2017",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant les médicaments hypolipémiants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Mécanismes d’action multiples et effets indésirables multiples"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les fibrates sont indiqués en cas d'hypertriglycéridémie.",
+              "annale": true,
+              "explication": "Types IV et V encadrés ; baisse des triglycérides de 30 à 50 %. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'ézétimibe inhibe l'absorption intestinale du cholestérol.",
+              "annale": true,
+              "explication": "Inhibition du transporteur NPC1L1. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibrates sont des agonistes des récepteurs nucléaires PPARα.",
+              "explication": "Diapositive 16."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les statines sont des antagonistes des récepteurs nucléaires PPARα.",
+              "annale": true,
+              "explication": "Les statines inhibent l'HMG-CoA réductase ; ce sont les fibrates qui agissent sur PPARα, comme agonistes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cholestyramine a une demi-vie plasmatique longue.",
+              "annale": true,
+              "explication": "Non absorbée, elle agit localement dans l'intestin. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les fibrates entraînent essentiellement des effets indésirables digestifs.",
+              "annale": true,
+              "explication": "Ils sont surtout musculaires et hépatobiliaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'ézétimibe augmente l'absorption intestinale du cholestérol.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "Les fibrates sont contre-indiqués en cas d'hypertriglycéridémie.",
+              "explication": "C'est une de leurs indications."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le bénéfice clinique des hypolipémiants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "bilan biologique ne garantit pas une meilleure survie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines diminuent la mortalité totale.",
+              "explication": "Diapositive 10."
+            },
+            {
+              "reponse": "Le gemfibrozil réduit les événements coronariens sans que les fibrates diminuent la mortalité cardiovasculaire.",
+              "explication": "Diapositive 16."
+            },
+            {
+              "reponse": "La cholestyramine réduit les événements coronariens sans effet sur la mortalité globale.",
+              "explication": "Diapositive 22."
+            },
+            {
+              "reponse": "Une amélioration du bilan lipidique ne garantit pas une meilleure survie.",
+              "explication": "Distinction mortalité et morbidité faite à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibrates diminuent la mortalité totale.",
+              "explication": "Pas de diminution de la mortalité cardiovasculaire."
+            },
+            {
+              "reponse": "La cholestyramine diminue la mortalité globale.",
+              "explication": "Pas d'effet sur la mortalité globale."
+            },
+            {
+              "reponse": "Tous les hypolipémiants ont démontré une baisse de la mortalité totale.",
+              "explication": "Ce n'est pas le cas des fibrates ni de la cholestyramine."
+            },
+            {
+              "reponse": "Le critère pertinent pour juger un hypolipémiant est la normalisation du bilan lipidique.",
+              "explication": "C'est la baisse des événements et des décès."
+            },
+            {
+              "reponse": "Les statines diminuent la mortalité cardiovasculaire mais augmentent la mortalité totale.",
+              "explication": "Elles diminuent les deux."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les indications des hypolipémiants dans la classification de Frederickson, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Type de Frederickson encadré : IIa uniquement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les statines sont indiquées dans les types IIa et IIb.",
+              "explication": "Diapositive 12."
+            },
+            {
+              "reponse": "Les fibrates sont indiqués dans les types IIa, IIb, III, IV et V.",
+              "explication": "Diapositive 17."
+            },
+            {
+              "reponse": "La cholestyramine n'est indiquée que dans le type IIa.",
+              "explication": "Diapositive 23."
+            },
+            {
+              "reponse": "L'ézétimibe n'est indiqué que dans le type IIa.",
+              "explication": "Diapositive 28."
+            },
+            {
+              "reponse": "Aucune des classes présentées dans le cours n'est indiquée dans le type I.",
+              "explication": "Le type I n'est encadré pour aucune classe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les statines sont indiquées dans le type I.",
+              "explication": "Types IIa et IIb."
+            },
+            {
+              "reponse": "La cholestyramine est indiquée dans les types IIa et IIb.",
+              "explication": "Type IIa uniquement."
+            },
+            {
+              "reponse": "L'ézétimibe est indiqué dans les types IIa et IIb.",
+              "explication": "Type IIa uniquement (erreur de la prise de notes)."
+            },
+            {
+              "reponse": "Les fibrates sont indiqués dans les types I, IV et V uniquement.",
+              "explication": "Types IIa, IIb, III, IV et V ; pas le type I."
+            },
+            {
+              "reponse": "Les statines sont indiquées dans les types IV et V uniquement.",
+              "explication": "Types IIa et IIb."
+            }
+          ]
+        },
+        {
+          "id": "cardio-pharmaco-hypolip-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la surveillance et les contre-indications des hypolipémiants, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "surveillance de la créatine phosphokinase, arrêt éventuel du traitement"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'insuffisance rénale contre-indique les fibrates.",
+              "explication": "Diapositive 19."
+            },
+            {
+              "reponse": "L'insuffisance hépatique contre-indique l'ézétimibe.",
+              "explication": "Diapositive 29."
+            },
+            {
+              "reponse": "Une affection hépatique évolutive contre-indique les statines.",
+              "explication": "Diapositive 14."
+            },
+            {
+              "reponse": "La constipation chronique contre-indique la cholestyramine.",
+              "explication": "Diapositive 25."
+            },
+            {
+              "reponse": "La créatine phosphokinase est surveillée sous statine, sous fibrate et sous association ézétimibe-statine.",
+              "explication": "Diapositives 14, 19 et 30."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cholestyramine nécessite une surveillance de la créatine phosphokinase pour rhabdomyolyse.",
+              "explication": "Ses effets indésirables sont digestifs et vitaminiques."
+            },
+            {
+              "reponse": "L'ézétimibe est éliminé par voie rénale, d'où sa contre-indication en insuffisance rénale.",
+              "explication": "Élimination hépatique ; contre-indication en insuffisance hépatique."
+            },
+            {
+              "reponse": "Les statines ne nécessitent aucune surveillance biologique.",
+              "explication": "Créatine phosphokinase et bilan hépatique."
+            },
+            {
+              "reponse": "La cholestyramine expose à une carence en vitamines hydrosolubles.",
+              "explication": "Vitamines liposolubles A, D, E, K."
+            },
+            {
+              "reponse": "Les anti-PCSK9 exposent surtout à une rhabdomyolyse.",
+              "explication": "Ils exposent surtout à un risque d'infections."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
