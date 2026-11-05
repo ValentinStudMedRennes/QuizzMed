@@ -29,7 +29,10 @@ Le PDF du cours et le JSON partagent le même nom de base "<thème>-<section>-<c
 en abréviations courtes, en minuscules, sans accents ni espaces (ex : cardio-physio-vo2).
 Reprends le nom du PDF fourni s'il suit déjà cette forme.
 - Fichier JSON : "<nom de base>.json".
-- Chemin du PDF dans "meta.cours.fichier" : "<nom de base>.pdf".
+- "meta.cours.fichier" : le simple nom du PDF, "<nom de base>.pdf", SANS AUCUN DOSSIER
+  (jamais "cours/…", "cours/cardio/…" ni "./…"). Le site retrouve lui-même le dossier
+  où le PDF est rangé ; un nom qui contient "/" est pris pour un chemin complet et le
+  lien vers le cours ne marche plus.
 - Ids des questions : "<nom de base>-001", "-002", etc.
 - Si je te demande de mettre à jour un JSON existant :
   - conserve les ids des questions qui existent toujours ; numérote les nouvelles
@@ -258,7 +261,62 @@ Si je joins des annales :
    - Repère les QCM qui reviennent le plus souvent et les pièges classiques des annales,
      et reprends le style et le niveau de difficulté dans les questions générées.
 
-## Avant de livrer, vérifie (par script quand c'est possible)
+## Avant de livrer : script de contrôle OBLIGATOIRE
+Enregistre ce script tel quel sous controle.py, lance-le avec le JSON et le fichier 2
+(pip install pypdf --break-system-packages s'il manque), corrige tant qu'il n'affiche
+pas « CONTRÔLE OK », et recopie sa sortie complète dans ta réponse. Ne livre jamais un
+JSON qui ne passe pas ce contrôle. Si la version du PDF est introuvable, demande-la-moi
+et relance avec --version X.Y.
+
+    python3 controle.py cours.json fichier2.pdf [--version X.Y]
+
+```python
+import json, re, sys, os
+from pypdf import PdfReader
+a = [x for x in sys.argv[1:] if not x.startswith("--")]
+jf, pf = a[0], a[1]
+vf = sys.argv[sys.argv.index("--version") + 1] if "--version" in sys.argv else None
+err = []
+num = lambda t: tuple(int(x) for x in re.findall(r"\d+", t)) if t else None
+norm = lambda v: v + (0,) * (3 - len(v)) if v else None
+base = os.path.splitext(os.path.basename(pf))[0]
+if not vf:
+    r = PdfReader(pf)
+    VERS = re.compile(r"prompt\s*:?\s*v?\s*(\d+(?:\.\d+)*)", re.I)
+    m = VERS.search(str((r.metadata or {}).get("/Keywords") or "")) or VERS.search(r.pages[0].extract_text() or "")
+    vf = m.group(1) if m else None
+print("Version du fichier 2 :", vf or "INTROUVABLE (demande-la et relance avec --version)")
+d = json.load(open(jf, encoding="utf8"))
+m = d.get("meta", {})
+print("meta.version :", repr(m.get("version")), "| meta.cours.fichier :", repr((m.get("cours") or {}).get("fichier")))
+if list(m) != ["theme", "section", "titre", "description", "version", "cours"]:
+    err.append("champs de meta absents ou dans le désordre : " + ", ".join(m))
+v = m.get("version")
+if not isinstance(v, str) or not re.fullmatch(r"\d+\.\d+", v):
+    err.append('meta.version absente ou mal formée (chaîne "MAJEUR.MINEUR" attendue)')
+elif not vf:
+    err.append("version du fichier 2 inconnue : impossible de contrôler meta.version")
+elif norm(num(v)) != norm(num(vf)):
+    err.append("meta.version (" + v + ") différente de la version du fichier 2 (" + vf + ")")
+fichiers = [("meta", (m.get("cours") or {}).get("fichier"))]
+for c in d.get("chapitres", []):
+    f = ((c.get("meta") or {}).get("cours") or {}).get("fichier")
+    if f is not None: fichiers.append(("chapitre « " + c["meta"].get("titre", "?") + " »", f))
+for ou, f in fichiers:
+    if not f: err.append(ou + " : cours.fichier absent")
+    elif "/" in f or "\\" in f: err.append(ou + " : cours.fichier contient un dossier (" + f + ") : mettre seulement " + base + ".pdf")
+    elif f != base + ".pdf": err.append(ou + " : cours.fichier (" + f + ") ≠ nom du fichier 2 (" + base + ".pdf)")
+if os.path.basename(jf) != base + ".json":
+    err.append("nom du JSON (" + os.path.basename(jf) + ") ≠ " + base + ".json")
+ids = [q.get("id") for c in d.get("chapitres", []) for q in c.get("questions", [])]
+if len(ids) != len(set(ids)): err.append("ids de questions en double")
+if any(not str(i).startswith(base + "-") for i in ids): err.append("ids ne commençant pas par " + base + "-")
+print("Questions :", len(ids), "dans", len(d.get("chapitres", [])), "chapitres")
+print("\n".join("ERREUR : " + e for e in err) if err else "CONTRÔLE OK")
+sys.exit(1 if err else 0)
+```
+
+## Avant de livrer, vérifie aussi (par script quand c'est possible)
 - La structure est bien { meta, chapitres }, avec theme, section, titre, description,
   version, cours.fichier, des ids uniques et l'ordre des champs indiqué.
 - "meta.version" est une chaîne "MAJEUR.MINEUR" égale à la version du cours
@@ -284,6 +342,7 @@ Si je joins des annales :
   forme de fichier téléchargeable.
 
 ## Dans ta réponse
+- La sortie complète du script de contrôle (elle doit finir par « CONTRÔLE OK »).
 - La version du cours retravaillé inscrite dans "meta.version" et l'endroit où tu l'as
   trouvée. Pour une mise à jour, indique aussi l'ancienne version et si les renvois
   ont dû être revérifiés un par un (changement de version majeure).
@@ -295,8 +354,9 @@ Si je joins des annales :
   chapitres), pour que je les garde pour le bon cours.
 - Les points du cours que tu as volontairement évités (étiquettes, écarts signalés).
 - Le nombre d'extraits "surligner" corrigés lors de la vérification.
-- Rappelle-moi de déposer le JSON dans le dossier data, le PDF dans le dossier cours
-  (à côté d'index.html), et de lancer generer_themes.py.
+- Rappelle-moi de déposer le JSON dans le dossier data/ et le fichier 2 (avec son
+  résumé) dans un sous-dossier de cours/ (ex. cours/cardio/), puis de pousser sur main :
+  le déploiement fait le reste. Rien d'autre à lancer.
 
 ## Journal des versions
 Règle : MAJEUR (+1.0) quand une règle change la structure du fichier 2, donc
@@ -312,4 +372,8 @@ Chaque modification de ces instructions ajoute une entrée datée ci-dessous.
 - 1.1 (03/11/2026) : ajout du journal des versions et du champ "meta.version".
 - 1.2 (03/11/2026) : "meta.version" reprend la version du cours retravaillé
   (fichier 2) ; revérification des renvois quand la version majeure du cours change.
-- 1.3 (03/11/2026) : "meta.cours" chemin relatif, et non plus absolu
+- 1.3 (03/11/2026) : "meta.cours" chemin relatif, et non plus absolu (précisé en 1.4 :
+  simple nom du PDF, sans dossier)
+- 1.4 (05/11/2026) : "meta.cours.fichier" sans aucun dossier ; script de contrôle
+  obligatoire (meta.version égale à la version du fichier 2, nom du PDF, ids) dont la
+  sortie figure dans la réponse ; rappel final mis à jour (plus de generer_themes.py).

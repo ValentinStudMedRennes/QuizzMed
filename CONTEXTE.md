@@ -21,10 +21,10 @@ Le site est statique, sans framework. Les données se chargent par `fetch` : il 
 
 ### Fichiers d'instructions et tutoriel (`README.md`)
 
-- `instructions-cours-v4_3.md` : consignes de la conversation « cours » (diapositives + notes → résumé et fichier 2). `instructions-qcm-v1.3.md` : consignes de la conversation « QCM » (fichier 2 + annales → JSON). `instructions-programme-v1.2.md` : planning d'UE → `programme/`, et rattachement d'un nouveau PDF (§ 5). La version figure dans le nom du fichier et dans le « Journal des versions » en fin de fichier (aussi en 1re ligne pour le cours).
+- `instructions-cours-v4_3.md` : consignes de la conversation « cours » (diapositives + notes → résumé et fichier 2). `instructions-qcm-v1.4.md` : consignes de la conversation « QCM » (fichier 2 + annales → JSON), avec un script de contrôle obligatoire (`meta.version` = version du PDF, `meta.cours.fichier` sans dossier) dont la sortie doit finir par « CONTRÔLE OK ». `instructions-programme-v1.2.md` : planning d'UE → `programme/`, et rattachement d'un nouveau PDF (§ 5). La version figure dans le nom du fichier et dans le « Journal des versions » en fin de fichier (aussi en 1re ligne pour le cours).
 - `README.md` est le tutoriel pour ajouter un cours : deux conversations Claude, dépôt des fichiers, puis étape 4 (nom du PDF dans `fichiers` du programme de l'UE, à la main ou avec Claude). Il cite les fichiers d'instructions **par leur nom complet, version comprise** (tableau « Ce qu'il faut », étapes 1 et 2, messages types).
 - Le README contient deux schémas Mermaid (blocs ```` ```mermaid ````, affichés par GitHub) qui citent eux aussi les noms des fichiers d'instructions.
-- **Vérification par Claude, à chaque conversation sur le dépôt** (juste après le clone) : lancer les deux commandes ci-dessous. Si un nom ou une version ne correspond pas, corriger `README.md` (texte, messages types, schémas, et le rappel « son numéro (v4.3, v1.3) ») et le livrer avec les autres fichiers. Même chose après tout changement qui touche l'ajout d'un cours (dossiers, déploiement, format des données). Rien d'automatique : ni `diag.py` ni l'Action ne font ce contrôle, c'est voulu.
+- **Vérification par Claude, à chaque conversation sur le dépôt** (juste après le clone) : lancer les deux commandes ci-dessous. Si un nom ou une version ne correspond pas, corriger `README.md` (texte, messages types, schémas, et le rappel « son numéro (v4.3, v1.4) ») et le livrer avec les autres fichiers. Même chose après tout changement qui touche l'ajout d'un cours (dossiers, déploiement, format des données). Rien d'automatique : ni `diag.py` ni l'Action ne font ce contrôle, c'est voulu.
 
 ```bash
 for n in $(grep -oE 'instructions-[a-z]+-v[0-9._]*[0-9]\.md' README.md | sort -u); do [ -f "$n" ] || echo "README cite $n, absent du dépôt"; done
@@ -153,5 +153,5 @@ setTimeout(()=>{
 - Dans le JSON, échapper les guillemets doubles à l'intérieur des textes.
 - `/bin/sh` ne développe pas `{a,b}` : copier les fichiers un par un.
 - Pour lire une variable `let` du script dans jsdom (ex. `themes`), l'exposer : `w.eval(script+"\nwindow.__t=()=>themes;")`.
-- Les noms des fichiers d'instructions n'ont pas la même forme (`v4_3` avec tiret bas, `v1.3` avec point) : recopier le nom exact dans le README.
+- Les noms des fichiers d'instructions n'ont pas la même forme (`v4_3` avec tiret bas, `v1.4` avec point) : recopier le nom exact dans le README.
 - Si le site en ligne ne voit pas un nouveau PDF ou cours : vérifier que l'Action « Déploiement » a réussi (onglet Actions).

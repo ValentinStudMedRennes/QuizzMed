@@ -4,8 +4,9 @@
     "section": "Pharmacologie",
     "titre": "Pharmacologie des hypolipémiants",
     "description": "Statines, fibrates, cholestyramine, ézétimibe et anti-PCSK9 : mécanismes, effets, indications, interactions et effets indésirables, avec les rappels sur les lipoprotéines et le risque cardiovasculaire.",
+    "version": "4.3",
     "cours": {
-      "fichier": "cours/cardio-pharmaco-hypolip.pdf"
+      "fichier": "cardio-pharmaco-hypolip.pdf"
     }
   },
   "chapitres": [

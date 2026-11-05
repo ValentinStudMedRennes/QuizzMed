@@ -17,7 +17,7 @@ flowchart TB
   end
   subgraph C2["Conversation 2 · le QCM"]
     F2b["cardio-physio-vo2.pdf<br/>le fichier 2, pas le résumé"] --> CL2(["Claude"])
-    I2["instructions-qcm-v1.3.md"] --> CL2
+    I2["instructions-qcm-v1.4.md"] --> CL2
     A["Livret d’annales (facultatif)"] --> CL2
     CL2 --> J["cardio-physio-vo2.json"]
   end
@@ -35,13 +35,13 @@ Trois fichiers d'instructions se trouvent à la racine du [dépôt QuizzMed](htt
 | Fichier | Où le trouver | Sert à |
 | --- | --- | --- |
 | `instructions-cours-v4_3.md` | Racine du dépôt | Consignes de la conversation 1 (fabriquer le cours) |
-| `instructions-qcm-v1.3.md` | Racine du dépôt | Consignes de la conversation 2 (fabriquer le QCM) |
+| `instructions-qcm-v1.4.md` | Racine du dépôt | Consignes de la conversation 2 (fabriquer le QCM) |
 | `instructions-programme-v1.2.md` | Racine du dépôt | Consignes pour le programme de l'UE (étape 4, seulement si vous passez par Claude) |
 | Diapositives du professeur (PDF) | Chez vous | Source du cours |
 | Prise de notes d'un élève (PDF) | Chez vous | Source du cours |
 | Livret d'annales (PDF, facultatif) | Chez vous | Questions d'annales reprises dans le QCM |
 
-Pour récupérer un fichier d'instructions : l'ouvrir sur GitHub, puis cliquer sur l'icône « Download raw file » en haut à droite du fichier. Prenez toujours la version actuelle du dépôt : son numéro (v4.3, v1.3) finit inscrit dans le cours et le QCM.
+Pour récupérer un fichier d'instructions : l'ouvrir sur GitHub, puis cliquer sur l'icône « Download raw file » en haut à droite du fichier. Prenez toujours la version actuelle du dépôt : son numéro (v4.3, v1.4) finit inscrit dans le cours et le QCM.
 
 Côté Claude, l'option de création de fichiers doit être activée dans les paramètres : Claude doit rendre des PDF et un JSON téléchargeables.
 
@@ -70,19 +70,17 @@ Téléchargez les deux PDF : le fichier 2 est la seule chose à emporter dans la
 Cette conversation tire du fichier 2 un fichier JSON de questions, que le site sait lire.
 
 1. Ouvrez une **autre nouvelle conversation** : ne continuez pas celle du cours.
-2. Joignez `instructions-qcm-v1.3.md`, le **fichier 2** (`cardio-physio-vo2.pdf`, jamais le résumé) et, si vous l'avez, le livret d'annales.
+2. Joignez `instructions-qcm-v1.4.md`, le **fichier 2** (`cardio-physio-vo2.pdf`, jamais le résumé) et, si vous l'avez, le livret d'annales.
 3. Envoyez un message de ce type, avec **exactement** la même ligne Thème qu'à l'étape 1 :
 
 ```
 Thème : Appareil cardio-vasculaire — Section : Physiologie — Cours : VO2
-Suis les instructions du fichier instructions-qcm-v1.3.md avec le cours retravaillé joint (et le livret d'annales).
-Dans meta.cours.fichier, mets seulement le nom du PDF, sans dossier.
+Suis les instructions du fichier instructions-qcm-v1.4.md avec le cours retravaillé joint (et le livret d'annales).
 ```
 
-4. Claude rend `cardio-physio-vo2.json` et un bilan : nombre de questions par chapitre, annales intégrées, items « à vérifier », annales non reprises.
-5. Notez les annales non reprises : elles appartiennent à un autre cours et serviront dans sa propre conversation QCM.
-
-La dernière ligne du message corrige un point dépassé des instructions, qui montrent encore un chemin `cours/…`. Ignorez aussi le rappel final de lancer `generer_themes.py` : le déploiement s'en charge désormais (étape 3).
+4. Claude rend `cardio-physio-vo2.json` et un bilan : sortie du script de contrôle, nombre de questions par chapitre, annales intégrées, items « à vérifier », annales non reprises.
+5. Vérifiez que la sortie du contrôle finit par **« CONTRÔLE OK »**. Elle montre aussi `meta.version` (identique à la version du fichier 2) et `meta.cours.fichier` (le seul nom du PDF, sans dossier). Sinon, demandez la correction dans la même conversation : sans version, le site affiche « v? » ; avec un dossier dans le nom, le bouton « 📖 Cours » ne trouve pas le PDF.
+6. Notez les annales non reprises : elles appartiennent à un autre cours et serviront dans sa propre conversation QCM.
 
 ## Étape 3 : déposer les fichiers sur le dépôt
 
@@ -148,6 +146,7 @@ Si l'UE n'a pas encore de fichier dans `programme/`, il se crée une fois pour t
 | Donner le résumé à la conversation QCM | Les renvois pointent vers le mauvais PDF | Toujours joindre le fichier 2 |
 | Deux PDF du même nom dans deux dossiers | Le site affiche une erreur et aucun lien vers le cours | Un nom de base unique par cours |
 | Tout faire dans une seule conversation | Contexte trop long, consignes mélangées | Une conversation par étape et par cours |
+| Pas de « CONTRÔLE OK » dans la réponse de la conversation QCM | « v? » dans le volet Programme, ou bouton Cours en erreur | Demander à Claude de lancer le contrôle et de corriger |
 | Oublier l'étape 4 | Le cours reste ✗ dans le volet Programme | Mettre le nom du PDF dans `fichiers` du programme de l'UE |
 | Fichiers modifiés sur l'ordinateur mais pas envoyés | Le site en ligne ne voit pas le cours | Vérifier sur GitHub que les fichiers sont dans `cours/` et `data/` sur `main` |
 
