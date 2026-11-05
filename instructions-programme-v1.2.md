@@ -1,4 +1,4 @@
-# Instructions « programme » v1.1 : planning d'UE → `programme/ueXX-….json`
+# Instructions « programme » v1.2 : planning d'UE → `programme/ueXX-….json`
 
 Tu reçois le **planning PDF d'une UE** (fac de médecine de Rennes, DFGSM2) pour le site QuizzMed (https://github.com/ValentinStudMedRennes/QuizzMed).
 Tu en tires la liste des cours prévus dans un fichier JSON, que l'utilisateur dépose dans le dossier `programme/` du dépôt.
@@ -86,13 +86,45 @@ Pour remplir `fichiers` :
 - Nouveau planning (version corrigée) : refaire la liste, mais **reprendre les `fichiers` déjà renseignés** des entrées qui existent toujours. Signaler les entrées ajoutées, supprimées ou renommées.
 - Nouveau cours déposé sur le site : ajouter le nom de son PDF dans `fichiers` de l'entrée concernée. Rien d'autre à changer.
 
+### Nouveau cours : rattacher son PDF
+
+C'est l'étape 4 du tutoriel (`README.md`). Elle ne se fait pas toute seule : tant que `fichiers` est vide, le cours reste ✗ dans le volet Programme, même si son QCM est en ligne.
+
+1. Vérifier que le PDF du cours et son JSON sont bien sur `main` (`cours/…/X.pdf` et un JSON de `data/` dont `meta.cours.fichier` vaut `X.pdf`). S'ils manquent, le dire à l'utilisateur : le rattachement ne suffira pas, il faut d'abord déposer le cours.
+2. Trouver l'entrée du programme qui correspond (même sujet, même discipline). Si aucune ne correspond ou s'il y a un doute, poser la question.
+3. Ajouter `"X.pdf"` dans son `fichiers`, sans dossier ni `-resume`, en recopiant le nom exact (accents, tirets, majuscules). Ne rien toucher d'autre dans le fichier.
+4. Contrôler avec la commande du § 6, puis rendre le fichier complet.
+
+L'utilisateur peut aussi faire cette modification lui-même sur GitHub (icône crayon sur le fichier) : il n'y a qu'une ligne à changer.
+
 ## 6. Livraison
 
 - Rendre le fichier **complet**, prêt à déposer dans `programme/` (Claude ne peut pas pousser sur GitHub).
 - Sous le fichier, un court tableau de contrôle : titre | heures | dates | fichiers, puis la liste des choix faits et des doutes (entrées fusionnées ou séparées, heures déduites, dates absentes).
-- Après le dépôt, l'Action de déploiement régénère `index.json` (`genindex.py` liste aussi `programme/`). En local : `python3 genindex.py` puis `python3 -m http.server`.
+- Avant de rendre le fichier, contrôler chaque nom de `fichiers` (à lancer à la racine du dépôt, en remplaçant le nom du programme). La commande ne doit rien afficher :
+
+```bash
+python3 - programme/ue19-cardiovasculaire.json <<'PY'
+import json, sys, pathlib
+pdfs = {p.name for p in pathlib.Path("cours").rglob("*.pdf")}
+qcm = set()
+for j in pathlib.Path("data").rglob("*.json"):
+    d = json.load(open(j, encoding="utf8"))
+    for m in [d.get("meta", {})] + [c.get("meta", {}) for c in d.get("chapitres", [])]:
+        f = (m.get("cours") or {}).get("fichier")
+        if f: qcm.add(f.split("/")[-1])
+for c in json.load(open(sys.argv[1], encoding="utf8"))["cours"]:
+    for f in c["fichiers"]:
+        if f.endswith("-resume.pdf"): print(c["titre"], ":", f, "est un résumé")
+        elif f not in pdfs: print(c["titre"], ":", f, "absent de cours/")
+        elif f not in qcm: print(c["titre"], ":", f, "sans QCM dans data/")
+PY
+```
+
+- Après le dépôt, l'Action de déploiement régénère `index.json` (`genindex.py` liste aussi `programme/`). En local : `python3 serve.py`, puis ouvrir http://localhost:8000 (l'index est fabriqué à chaque chargement ; `python3 -m http.server` ne le fabrique pas et le site affiche une erreur).
 
 ## Journal des versions
 
 - v1.0 (2026-11-05) : création (plannings UE13 respiratoire et UE19 cardiovasculaire).
 - v1.1 (2026-11-05) : suppression du champ `enseignants`.
+- v1.2 (2026-11-05) : rattachement d'un nouveau cours détaillé (§ 5), commande de contrôle des `fichiers` (§ 6), test local avec `serve.py` au lieu de `http.server`.

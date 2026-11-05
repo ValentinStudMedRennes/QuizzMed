@@ -1,10 +1,10 @@
 # QuizzMed : créer un cours et son QCM avec Claude
 
-Nov 4, 2026 · @Valentin
+Nov 5, 2026 · @Valentin
 
 ## Vue d'ensemble
 
-Un cours complet se fabrique en deux conversations séparées avec Claude, puis un dépôt de trois fichiers sur GitHub. L'exemple suivi tout du long est le cours de physiologie « VO2 ».
+Un cours complet se fabrique en deux conversations séparées avec Claude, puis un dépôt de trois fichiers sur GitHub et une ligne à compléter dans le programme de l'UE. L'exemple suivi tout du long est le cours de physiologie « VO2 ».
 
 ```mermaid
 flowchart TB
@@ -30,12 +30,13 @@ Le seul fichier qui passe d'une conversation à l'autre est la version complète
 
 ## Ce qu'il faut avant de commencer
 
-Deux fichiers d'instructions se trouvent à la racine du [dépôt QuizzMed](https://github.com/ValentinStudMedRennes/QuizzMed) ; le reste, c'est vous qui l'apportez.
+Trois fichiers d'instructions se trouvent à la racine du [dépôt QuizzMed](https://github.com/ValentinStudMedRennes/QuizzMed) ; le reste, c'est vous qui l'apportez.
 
 | Fichier | Où le trouver | Sert à |
 | --- | --- | --- |
 | `instructions-cours-v4_3.md` | Racine du dépôt | Consignes de la conversation 1 (fabriquer le cours) |
 | `instructions-qcm-v1.3.md` | Racine du dépôt | Consignes de la conversation 2 (fabriquer le QCM) |
+| `instructions-programme-v1.2.md` | Racine du dépôt | Consignes pour le programme de l'UE (étape 4, seulement si vous passez par Claude) |
 | Diapositives du professeur (PDF) | Chez vous | Source du cours |
 | Prise de notes d'un élève (PDF) | Chez vous | Source du cours |
 | Livret d'annales (PDF, facultatif) | Chez vous | Questions d'annales reprises dans le QCM |
@@ -101,8 +102,9 @@ flowchart TB
   R -- push --> C
   P -- push --> C
   J -- push --> DA
+  PR["programme/ueNN-….json<br/>nom du PDF dans « fichiers » (étape 4)"] -- push --> G
   G -- "à chaque push sur main" --> AC["Action « Déploiement » (automatique)<br/>genindex.py régénère index.json,<br/>puis GitHub Pages publie le site"]
-  AC --> S["Site en ligne<br/>le cours apparaît dans l’arbre,<br/>avec son QCM et le bouton Cours"]
+  AC --> S["Site en ligne<br/>le cours apparaît dans l’arbre,<br/>avec son QCM et le bouton Cours,<br/>et passe à ✓ dans le Programme"]
   classDef cle stroke:#2f6fd6,stroke-width:3px
   class S cle
 ```
@@ -116,6 +118,27 @@ Le dossier sous `cours/` est libre : le site retrouve le PDF par son seul nom.
 
 Il faut les droits d'écriture sur le dépôt ; sinon, transmettez les trois fichiers à son propriétaire. Pour tester en local avant d'envoyer : `python3 serve.py`, puis ouvrir http://localhost:8000 (rien d'autre à lancer : la liste des cours se met à jour en rechargeant la page ; `pip install pypdf` pour voir les versions).
 
+## Étape 4 : cocher le cours dans le programme
+
+Le volet « 📋 Programme des cours » du site liste les cours prévus au planning de chaque UE, avec ✓ (à jour) ou ✗. Il ne devine pas quel PDF correspond à quel cours du planning : tant que vous ne l'indiquez pas, le nouveau cours reste ✗, même si son QCM est en ligne.
+
+1. Ouvrez le fichier de l'UE dans `programme/` (ex. `programme/ue19-cardiovasculaire.json`).
+2. Trouvez l'entrée du cours (ex. « Physiologie ») et mettez le nom du PDF complet dans `fichiers` :
+
+```json
+"fichiers": ["cardio-physio-vo2.pdf"],
+```
+
+3. Envoyez la modification sur `main`, comme à l'étape 3.
+
+Le nom est celui du fichier 2, recopié exactement, sans dossier et jamais le `-resume.pdf`. Un cours du planning peut citer plusieurs PDF (`["cardio-physio-mecahemo.pdf", "cardio-physio-vo2.pdf"]`). Le plus simple est de modifier la ligne directement sur GitHub (icône crayon sur le fichier). Vous pouvez aussi demander à Claude, dans une nouvelle conversation, en joignant `instructions-programme-v1.2.md` :
+
+```
+Suis le § 5 du fichier instructions-programme-v1.2.md : rattache le nouveau cours cardio-physio-vo2.pdf au programme de l'UE19.
+```
+
+Si l'UE n'a pas encore de fichier dans `programme/`, il se crée une fois pour toutes à partir du planning PDF de l'UE, avec le même fichier d'instructions.
+
 ## Pièges à éviter
 
 | Erreur | Ce qui se passe | À faire |
@@ -125,5 +148,7 @@ Il faut les droits d'écriture sur le dépôt ; sinon, transmettez les trois fic
 | Donner le résumé à la conversation QCM | Les renvois pointent vers le mauvais PDF | Toujours joindre le fichier 2 |
 | Deux PDF du même nom dans deux dossiers | Le site affiche une erreur et aucun lien vers le cours | Un nom de base unique par cours |
 | Tout faire dans une seule conversation | Contexte trop long, consignes mélangées | Une conversation par étape et par cours |
+| Oublier l'étape 4 | Le cours reste ✗ dans le volet Programme | Mettre le nom du PDF dans `fichiers` du programme de l'UE |
+| Fichiers modifiés sur l'ordinateur mais pas envoyés | Le site en ligne ne voit pas le cours | Vérifier sur GitHub que les fichiers sont dans `cours/` et `data/` sur `main` |
 
 Pour contrôler l'ensemble, `python3 diag.py` (en local, après `pip install pypdf`) liste chaque cours avec ses versions et signale QCM manquant, PDF en double ou versions qui ne concordent plus.
