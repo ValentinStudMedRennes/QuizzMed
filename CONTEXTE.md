@@ -3,18 +3,19 @@
 Site de QCM de révision, front-end pur, en français.
 Dépôt : https://github.com/ValentinStudMedRennes/QuizzMed
 
-Contenu du dépôt : `index.html`, `script.js`, `style.css`, `data/` (un JSON par cours, sous-dossiers permis, plus `data/themes.json` facultatif), `cours/` (les PDF, sous-dossiers permis : `cours/cardio/`, `cours/pneumo/`…), `genindex.py`, `diag.py`, `.github/workflows/deploy.yml`, `README.md` (tutoriel) et les deux fichiers d'instructions (`instructions-cours-v….md`, `instructions-qcm-v….md`).
-Le site est statique, sans framework. Les données se chargent par `fetch` : il faut un serveur HTTP (GitHub Pages ou `python3 -m http.server`), pas `file://`.
+Contenu du dépôt : `index.html`, `script.js`, `style.css`, `data/` (un JSON par cours, sous-dossiers permis), `cours/` (les PDF, sous-dossiers permis : `cours/cardio/`, `cours/pneumo/`…), `genindex.py`, `serve.py`, `diag.py`, `.gitignore`, `.github/workflows/deploy.yml`, `programme/` (un JSON par UE : les cours prévus au planning), `README.md` (tutoriel) et les fichiers d'instructions (`instructions-cours-v….md`, `instructions-qcm-v….md`, `instructions-programme-v….md`).
+Le site est statique, sans framework. Les données se chargent par `fetch` : il faut GitHub Pages ou, en local, `python3 serve.py` (pas `python3 -m http.server`, qui ne fabrique pas l'index, ni `file://`).
 
 ### Index et déploiement
 
-- `genindex.py` écrit `index.json` : la liste de tous les PDF de `cours/` et de tous les JSON de `data/`. Le site s'en sert pour retrouver un PDF à partir de son seul nom.
-- **Déploiement automatique** : l'Action `.github/workflows/deploy.yml` lance `genindex.py` à chaque push sur `main`, puis déploie GitHub Pages (réglage Settings › Pages › Source : « GitHub Actions »). Un workflow placé ailleurs que dans `.github/workflows/` est ignoré par GitHub.
-- `index.json` est aussi versionné dans le dépôt, pour les tests locaux ; l'Action le régénère et l'écrase au déploiement. En local, lancer `python3 genindex.py` avant `python3 -m http.server`.
-- `genindex.py` ne fait que l'index (plus un avertissement si deux PDF portent le même nom). Il expose `lister()` et `construire()`, réutilisés par `diag.py`.
+- **Un seul mécanisme : l'index.** Un site statique ne peut pas lister un dossier ; `index.json` dit au site quels fichiers existent : tous les PDF de `cours/`, tous les JSON de `data/`, ceux de `programme/`, et la version de chaque cours. Sans lui, le site affiche une erreur (il n'y a plus de mode de secours ni de `themes.json`).
+- **Déploiement automatique** : l'Action `.github/workflows/deploy.yml` installe `pypdf` puis lance `genindex.py` à chaque push sur `main`, puis déploie GitHub Pages (réglage Settings › Pages › Source : « GitHub Actions »). Un workflow placé ailleurs que dans `.github/workflows/` est ignoré par GitHub.
+- **`index.json` n'est jamais dans le dépôt** (`.gitignore`) : il est toujours fabriqué à la demande, donc jamais périmé. En ligne, l'Action l'écrit dans le site publié à chaque push. En local, `python3 serve.py` (port 8000, ou `python3 serve.py 8080`) le fabrique à chaque chargement de la page sans rien écrire sur le disque, avec un cache des versions (seuls les PDF modifiés sont relus) et `Cache-Control: no-store`.
+- `genindex.py` : `construire()` (les listes), `construire_tout(cache)` (listes + clé `versions` : chemin de chaque PDF de cours hors résumés → `"4.1"`, ou `null`), `avertissements()` (pypdf absent, PDF en double), `num()`, `version_pdf()`. Lancé seul, il écrit `index.json` (c'est ce que fait l'Action). `serve.py` et `diag.py` l'importent. Sans `pypdf` : avertissement et versions à `null`.
 - **`diag.py`** (local, nécessite `pip install pypdf`) : une ligne par cours avec `Cours | v. cours | v. résumé | v. QCM | Avertissements`. Avertissement si une version manque ou si résumé / QCM ≠ cours (« version majeure, renvois à revérifier » quand le premier chiffre diffère) ; aussi : aucun QCM, PDF introuvable ou en double, résumé sans cours, JSON illisible. Il parcourt `cours/` et `data/` directement, sans `index.json`.
 - **Versions** : celle de référence est **la version du cours** (PDF) : métadonnée « Keywords » (ex. « prompt v4.1 »), sinon en-tête de la 1re page (« Version du prompt v4.1 »). Le JSON porte dans **`meta.version`** la version du cours dont le QCM est tiré (`"4.1"`, `"v4.1"` ou `"prompt v4.1"`), ignorée par le site. Comparaison numérique (4.10 > 4.9, 4.1 = 4.1.0).
-- **Résumés** : `cours/…/X-resume.pdf` est le résumé du cours `X.pdf` (même nom + `-resume`, dossier libre). Ils figurent dans `index.json` mais **le site ne les utilise pas** pour l'instant.
+- **Programme** : `programme/ueNN-….json` liste les cours prévus au planning d'une UE (une entrée par cours, pas par créneau). Fichiers produits par une conversation Claude à part, selon `instructions-programme-v1.1.md` (lecture du planning PDF, règles de regroupement, format). Pas dans `data/`, sinon le site les prendrait pour des QCM.
+- **Résumés** : `cours/…/X-resume.pdf` est le résumé du cours `X.pdf` (même nom + `-resume`, dossier libre). Ils figurent dans l'index mais **le site ne les utilise pas** pour l'instant.
 
 > Mettre ce fichier à jour à chaque évolution notable (fonctions ajoutées, règles de filtrage, format des données).
 
@@ -42,14 +43,13 @@ for f in instructions-*.md; do echo "$f : journal $(grep -oE '^- v?[0-9]+\.[0-9]
 - Le code est volontairement compact (une fonction par ligne ou presque, commentaires en français). Garder ce style.
 - Modifier par remplacements ciblés avec des `assert` (la chaîne doit apparaître une seule fois) plutôt que réécrire le fichier.
 - Après chaque changement : vérifier la syntaxe (`node -e "new Function(require('fs').readFileSync('script.js','utf8'))"`), puis tester dans un navigateur simulé (**jsdom**) sur les vraies données du dépôt (voir « Méthode de test »).
-- À chaque livraison, **incrémenter `?v=N`** dans `index.html` (`style.css?v=` et `script.js?v=`), actuellement **17**, pour casser le cache.
+- À chaque livraison, **incrémenter `?v=N`** dans `index.html` (`style.css?v=` et `script.js?v=`), actuellement **20**, pour casser le cache.
 - Ne rien implémenter qui n'a pas été demandé. En cas de choix de comportement, l'annoncer avant ou le dire clairement après.
 - Messages à l'écran en français. L'interface doit rester utilisable sur téléphone (cibles tactiles d'au moins 44 px, thème clair et sombre via variables CSS).
 
 ## Format des données (`data/*.json`)
 
-`data/themes.json` est la liste des fichiers à charger, par exemple `["cardio-physio-vo2.json", ...]`.
-Chaque cours est un fichier :
+Chaque cours est un fichier de `data/` (tous sont chargés, par ordre alphabétique de chemin) :
 
 ```json
 {
@@ -85,18 +85,20 @@ Chaque cours est un fichier :
 
 - `source.type` vaut `annale` ou `generee` (les variantes « généré », « générée » sont reconnues). `references` n'existe que pour les annales.
 - `meta.cours` d'un chapitre est facultatif : il remplace celui du fichier.
-- **`fichier` est un simple nom de PDF, sans dossier.** Le site retrouve son chemin grâce à `index.json`, où que le PDF soit rangé dans `cours/`. Deux PDF de même nom dans deux dossiers : erreur affichée, pas de lien vers le cours. Un `fichier` contenant `/` est utilisé tel quel (ancien format, toujours accepté).
-- Avec `index.json`, tous les JSON de `data/` sont chargés. `data/themes.json` (liste de noms) ne sert plus qu'à l'ordre d'affichage ; les cours absents de la liste viennent après, par ordre alphabétique de chemin. Sans `index.json`, ancien fonctionnement (liste `themes.json`, PDF cherchés dans `cours/` à plat) avec un avertissement.
+- **`fichier` est un simple nom de PDF, sans dossier.** Le site retrouve son chemin grâce à `index.json`, où que le PDF soit rangé dans `cours/`. Deux PDF de même nom dans deux dossiers : erreur affichée, pas de lien vers le cours. Un `fichier` contenant `/` est utilisé tel quel.
 - Hiérarchie affichée : **thème > section > cours (un fichier JSON) > chapitre**. Les fichiers ayant le même `theme` (puis la même `section`) sont regroupés.
 - État des données réelles : 80 annales (avec références), 254 questions « generee » (sans références) et 73 questions avec `"source": {}` (fichier `cardio-physio-mecahemo.json`), affichées comme « Non précisée ».
 - Le champ `annale` sur chaque réponse existe dans les données, mais **l'interface ne l'utilise pas**. Ce choix est volontaire : l'affichage sur chaque proposition a été refusé, le tag sur la question suffit.
 
 ## Architecture de `script.js` (par ordre du fichier)
 
-- **Chargement et normalisation** : `getJSON(chemin, facultatif)`, `pdfPath` (nom de PDF → chemin via l'index `pdfByName`, avertissements dans `pathWarns`), `ans`, `asCours` / `coursOf`, `parseSource` (normalise la clé d'origine : `annale`, `genere`, `inconnue` ou autre ; remplit l'ensemble des années et les libellés), `clean`, `parseFile` (chaque chapitre porte `fichier` = son PDF), `groupFiles`, `init` (charge `index.json`, sinon se replie sur `themes.json`).
+- **Chargement et normalisation** : `getJSON(chemin, facultatif)`, `pdfPath` (nom de PDF → chemin via l'index `pdfByName`, avertissements dans `pathWarns`), `ans`, `asCours` / `coursOf`, `parseSource` (normalise la clé d'origine : `annale`, `genere`, `inconnue` ou autre ; remplit l'ensemble des années et les libellés), `clean`, `parseFile` (chaque chapitre porte `fichier` = son PDF), `groupFiles`, `init` (charge `index.json`, obligatoire, puis les programmes et tous les JSON de `data/`).
 - **Filtres** : `passBy(q, skip)` applique l'origine (`srcFilter`), « tombée au moins N fois » (`minRefs`) et les années décochées (`yearsOff`). L'argument `skip` ignore un filtre, ce qui sert à compter les choix de chaque menu. `pass`, `qlist(c)`, `qcount(cs)` et `filtersOn()` en dérivent.
   - **Règle des années** : elle ne s'applique qu'aux questions qui ont des références. Une annale reste si au moins une de ses références tombe dans une année cochée. Les questions sans référence (générées, non précisées) ne sont jamais touchées.
   - Avec `minRefs` > 0, en revanche, les questions sans référence sont écartées (elles sont « tombées 0 fois »).
+- **Programme** : `parseProg`, `progState` (calcule `ok` et `manque` pour chaque cours), `renderProg` (tableau Matière | Cours | État, un `tbody` par UE, matière en `rowspan`), `openProg` / `closeProg` (volet `#prog` à gauche, fond `#progbg`, fermeture par ×, clic sur le fond ou Échap), `showProgBtn` (bouton `#progbtn` sur l'accueil seulement, caché pendant le quiz et sans programme).
+  - **Règle d'état** : ✓ « à jour » si `fichiers` n'est pas vide et que chaque PDF cité est rattaché à un chapitre chargé (donc présent dans `cours/` avec un QCM). Sinon ✗. Les versions ne comptent pas.
+  - Colonnes « v. cours » (version du PDF, prise dans `index.json` › `versions`, map `pdfVer`) et « v. QCM » (`meta.version` du JSON, gardée sur chaque chapitre dans `version`), une sous-ligne par PDF quand un cours en a plusieurs. « — » absent, « v? » non indiquée, « ⚠ » si QCM ≠ cours (comparaison `vnum` / `veq` comme `diag.py`, 4.1 = 4.1.0 ; info-bulle « version majeure » si le 1er chiffre diffère). La version n'entre pas dans la règle ✓ / ✗.
 - **Accueil** : `row`, `renderTree`, `chipGroups`, `renderPanel`, `renderSrc` (menu d'origine, cases d'années, visibilité du bloc `#annset`), `updateStart`, `courseOf` (le PDF d'un groupe, seulement s'il est unique et couvre tous ses chapitres ; sinon pas de bouton « 📖 Cours »).
 - **Lancement** : `launch`, `start` (tirage via `shuffle`, ou `wshuffle` pondéré 1 + 2 × nombre de références si `favor`), `build`, `quizLabel` et `filterLabel` (titre du quiz).
 - **Quiz** : `renderNav`, `show`, `renderSource` (pastille d'origine et références), `validate`, `next`, `finish` (score, bilan « Par origine » dans `#bysrc`, questions ratées).
@@ -111,6 +113,7 @@ Chaque cours est un fichier :
 - Bilan par origine en fin de quiz (score annale / généré).
 - Bouton « 📖 Cours » dès l'accueil, qui ouvre le PDF en plein écran.
 - Message « Aucun QCM ne correspond à ces filtres » quand les filtres ne laissent rien.
+- Volet « 📋 Programme des cours » (bouton sur l'accueil) : tableau des cours prévus par UE avec versions du cours et du QCM, ✓ / ✗ et le total « k / n à jour ».
 - Les compteurs de tous les menus, de l'arbre, du bouton « Lancer le QCM » et des boutons « ▶ Lancer » tiennent compte des filtres actifs.
 
 ## Méthode de test (jsdom)
@@ -119,7 +122,7 @@ Chaque cours est un fichier :
 mkdir t && cd t
 npm i jsdom
 cp ../index.html ../script.js ../style.css .   # un par un, /bin/sh ne développe pas {a,b}
-cp -r ../data ../cours ../genindex.py .
+cp -r ../data ../cours ../programme ../genindex.py .
 python3 genindex.py
 ```
 
@@ -129,19 +132,21 @@ python3 genindex.py
 const {JSDOM}=require("jsdom"),fs=require("fs");
 const html=fs.readFileSync("index.html","utf8").replace(/<script src.*<\/script>/,"").replace(/<link.*>/,"");
 const w=new JSDOM(html,{runScripts:"outside-only",pretendToBeVisual:true}).window;
-w.fetch=async n=>fs.existsSync(n)?{ok:true,json:async()=>JSON.parse(fs.readFileSync(n,"utf8"))}:{ok:false,status:404};   // les fichiers facultatifs (index.json, themes.json) doivent pouvoir manquer
+w.fetch=async n=>fs.existsSync(n)?{ok:true,json:async()=>JSON.parse(fs.readFileSync(n,"utf8"))}:{ok:false,status:404};   // un fichier absent doit renvoyer 404, pas planter
 w.matchMedia=()=>({matches:true});
 w.eval(fs.readFileSync("script.js","utf8"));
 const $=id=>w.document.getElementById(id);
 setTimeout(()=>{
   $("selall").click();
   console.log($("selinfo").textContent);
-  // simuler ensuite : #srcsel (puis onchange), #yrlist input (puis onchange), #yrnone, #start, #finish, .crs
+  // simuler ensuite : #progbtn (puis lire #progbody tbody tr), #srcsel (puis onchange), #yrlist input (puis onchange), #yrnone, #start, #finish, .crs
   // et afficher #selinfo, les options des menus, #curtheme, #bysrc
 },400);
 ```
 
 ## Pièges connus
+
+- Pour tester à travers le vrai `serve.py`, le lancer depuis un script Python (`subprocess.Popen`, puis `kill`) et faire `w.fetch=n=>fetch("http://localhost:PORT/"+n)`. Ne pas utiliser `pkill -f serve.py` dans bash : la commande se tue elle-même.
 
 - Les IDs HTML utilisés par le script (`#srcsel`, `#annset`, `#yrlist`, `#yrall`, `#yrnone`, `#minref`, `#favor`, `#bysrc`, `#qsrc`, `#course`, etc.) doivent exister dans `index.html`, sinon `$()` renvoie `null` et le script plante.
 - Dans la grille mobile de `.item`, la règle `.crs` (bouton cours) doit rester déclarée **après** `.play` dans le CSS, car les deux partagent la classe de base.

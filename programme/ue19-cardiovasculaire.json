@@ -1,0 +1,194 @@
+{
+ "ue": "UE19",
+ "matiere": "Système cardiovasculaire",
+ "niveau": "DFGSM2",
+ "annee": "2026-2027",
+ "planning": "Planning_UE_19__DFGSM2_V2.pdf",
+ "cours": [
+  {
+   "titre": "Anatomie",
+   "type": "cours",
+   "heures": 5,
+   "dates": [
+    "2026-09-30",
+    "2026-10-02"
+   ],
+   "fichiers": [],
+   "remarque": "Au tableau noir."
+  },
+  {
+   "titre": "ECG",
+   "type": "cours",
+   "heures": 3,
+   "dates": [
+    "2026-10-21"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "TD Imagerie cardiaque",
+   "type": "TD",
+   "heures": 4,
+   "dates": [
+    "2026-10-12",
+    "2026-10-14"
+   ],
+   "fichiers": [],
+   "remarque": "2 TD de 2 h, par demi-promo."
+  },
+  {
+   "titre": "Physiologie",
+   "type": "cours",
+   "heures": 5,
+   "dates": [
+    "2026-09-25",
+    "2026-09-28",
+    "2026-10-07"
+   ],
+   "fichiers": [
+    "cardio-physio-mecahemo.pdf",
+    "cardio-physio-vo2.pdf"
+   ]
+  },
+  {
+   "titre": "Insuffisance cardiaque",
+   "type": "cours",
+   "heures": 1,
+   "dates": [
+    "2026-10-07"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Histologie",
+   "type": "cours",
+   "heures": 2,
+   "dates": [
+    "2026-09-28"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Douleurs thoraciques",
+   "type": "cours",
+   "heures": 1.5,
+   "dates": [
+    "2026-09-25"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Application de la médecine nucléaire en cardiologie",
+   "type": "cours",
+   "heures": 1,
+   "dates": [
+    "2026-10-05"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Pharmacologie de l'HTA",
+   "type": "cours",
+   "heures": 2,
+   "dates": [
+    "2026-10-16"
+   ],
+   "fichiers": [
+    "cardio-pharmaco-aht.pdf",
+    "cardio-pharmaco-aht-ei.pdf"
+   ],
+   "remarque": "Les 5 cours de pharmacologie font 7 h au total."
+  },
+  {
+   "titre": "Pharmacologie de l'insuffisance cardiaque",
+   "type": "cours",
+   "heures": 2,
+   "dates": [
+    "2026-10-19"
+   ],
+   "fichiers": [
+    "cardio-pharmaco-ic.pdf"
+   ]
+  },
+  {
+   "titre": "Pharmacologie des antiarythmiques",
+   "type": "cours",
+   "heures": 1,
+   "dates": [
+    "2026-10-14"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Pharmacologie de l'insuffisance coronaire",
+   "type": "cours",
+   "heures": null,
+   "dates": [
+    "2026-10-23"
+   ],
+   "fichiers": [
+    "cardio-pharmaco-antiangineux.pdf"
+   ],
+   "remarque": "Créneau de 2 h partagé avec les hypolipémiants."
+  },
+  {
+   "titre": "Pharmacologie des hypolipémiants",
+   "type": "cours",
+   "heures": null,
+   "dates": [
+    "2026-10-23"
+   ],
+   "fichiers": [],
+   "remarque": "Créneau de 2 h partagé avec l'insuffisance coronaire. « hypolémiant » dans le planning."
+  },
+  {
+   "titre": "Biochimie",
+   "type": "cours",
+   "heures": 2,
+   "dates": [
+    "2026-10-09"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Syncope",
+   "type": "cours",
+   "heures": 1,
+   "dates": [
+    "2026-10-12"
+   ],
+   "fichiers": [
+    "cardio-semio-syncope.pdf"
+   ]
+  },
+  {
+   "titre": "Application de l'échodoppler en cardiologie",
+   "type": "cours",
+   "heures": 2,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Aucun créneau à son nom dans le calendrier : sans doute dans le créneau « Valvulopathies » du 5 octobre."
+  },
+  {
+   "titre": "Valvulopathies",
+   "type": "cours",
+   "heures": null,
+   "dates": [
+    "2026-10-05"
+   ],
+   "fichiers": [
+    "cardio-semio-valvulo.pdf"
+   ]
+  },
+  {
+   "titre": "Pathologies vasculaires",
+   "type": "cours",
+   "heures": 2,
+   "dates": [
+    "2026-10-09"
+   ],
+   "fichiers": [],
+   "remarque": "Dans le calendrier mais absent du tableau récapitulatif."
+  }
+ ]
+}

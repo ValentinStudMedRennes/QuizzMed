@@ -96,7 +96,7 @@ flowchart TB
   end
   subgraph G["Dépôt QuizzMed (branche main)"]
     C["cours/cardio/<br/>PDF complet et résumé, sous-dossier libre"]
-    DA["data/<br/>un JSON par cours (+ themes.json : ordre)"]
+    DA["data/<br/>un JSON par cours"]
   end
   R -- push --> C
   P -- push --> C
@@ -111,11 +111,10 @@ Le dossier sous `cours/` est libre : le site retrouve le PDF par son seul nom.
 
 1. Les deux PDF dans un sous-dossier de `cours/` (ex. `cours/cardio/`).
 2. Le JSON dans `data/`.
-3. Facultatif : ajouter `"cardio-physio-vo2.json"` dans `data/themes.json` pour choisir l'ordre d'affichage. Sinon, le cours vient après les autres, par ordre alphabétique.
-4. Envoyer sur la branche `main` : `git push`, ou sur GitHub « Add file › Upload files » dans le bon dossier.
-5. Vérifier dans l'onglet Actions que « Déploiement » a réussi (coche verte).
+3. Envoyer sur la branche `main` : `git push`, ou sur GitHub « Add file › Upload files » dans le bon dossier.
+4. Vérifier dans l'onglet Actions que « Déploiement » a réussi (coche verte).
 
-Il faut les droits d'écriture sur le dépôt ; sinon, transmettez les trois fichiers à son propriétaire. Pour tester en local avant d'envoyer : `python3 genindex.py`, puis `python3 -m http.server`.
+Il faut les droits d'écriture sur le dépôt ; sinon, transmettez les trois fichiers à son propriétaire. Pour tester en local avant d'envoyer : `python3 serve.py`, puis ouvrir http://localhost:8000 (rien d'autre à lancer : la liste des cours se met à jour en rechargeant la page ; `pip install pypdf` pour voir les versions).
 
 ## Pièges à éviter
 

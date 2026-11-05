@@ -120,3 +120,26 @@ label.chk.yr{min-height:36px;border:1px solid var(--line);border-radius:999px;pa
 label.chk.yr input{width:18px;height:18px}
 .item .crs{white-space:nowrap}
 #course.menu #cbig{display:none}
+/* ----- programme des cours (volet à gauche) ----- */
+.progbtn{min-height:44px;margin:0 0 6px}
+#progbg{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:45}
+#prog{position:fixed;top:0;left:0;bottom:0;width:min(640px,100vw);z-index:50;display:flex;flex-direction:column;background:var(--card);border-right:1px solid var(--border);box-shadow:4px 0 24px rgba(0,0,0,.25);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.phead{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px 10px 16px;border-bottom:1px solid var(--border)}
+.phead button{width:44px;height:44px;padding:0;font-size:1.4rem;background:var(--card);color:var(--text);border:1px solid var(--line)}
+.ptip{padding:8px 16px 0}
+#progbody{flex:1;overflow:auto;padding:8px 16px 16px}
+.progtab{width:100%;border-collapse:collapse;font-size:.92rem}
+.progtab th,.progtab td{border-bottom:1px solid var(--border);padding:8px 6px;text-align:left;vertical-align:top}
+.progtab thead th{position:sticky;top:0;z-index:1;background:var(--card);color:var(--muted);font-size:.8rem;border-bottom:2px solid var(--line)}
+.progtab tbody th{width:24%;background:var(--tint);font-weight:700}
+.progtab tbody th small{display:block;font-weight:500;color:var(--muted);margin-top:2px}
+.progtab tbody+tbody{border-top:2px solid var(--line)}
+.progtab td.st{width:52px;text-align:center;vertical-align:middle;font-size:1.25rem;font-weight:800}
+#prog .ok{color:var(--ok)}#prog .ko{color:var(--ko)}
+.progtab td.v{white-space:nowrap;font-size:.85rem;font-variant-numeric:tabular-nums}
+.progtab td.v.unk{color:var(--muted)}
+.progtab td.v.warn{color:var(--ko);font-weight:700}
+.progtab .pf{display:block;color:var(--muted);font-size:.78rem;overflow-wrap:anywhere}
+.progtab td.more{padding-top:2px;border-top:0}
+.progtab tr:has(+tr>td.more)>td:not(.st){border-bottom:0}
+@media (max-width:560px){.progtab{font-size:.84rem}.progtab th,.progtab td{padding:6px 4px}}

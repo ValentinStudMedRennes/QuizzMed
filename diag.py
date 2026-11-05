@@ -4,31 +4,13 @@
 # Version d'un PDF : métadonnée « Keywords » (ex. « prompt v4.1 »), sinon en-tête de la 1re page (« Version du prompt v4.1 »).
 # Version d'un JSON : "meta.version" = version du cours dont le QCM est tiré. Résumé de X.pdf : X-resume.pdf.
 import json, os, re, sys
-from genindex import construire
-try:
-    from pypdf import PdfReader
-except ImportError:
+from genindex import construire, num, version_pdf, PdfReader
+if PdfReader is None:
     sys.exit("pypdf est nécessaire pour lire les versions des PDF : pip install pypdf")
-
-VERS = re.compile(r"prompt\s*:?\s*v?\s*(\d+(?:\.\d+)*)", re.I)
-
-def num(txt):   # "prompt v4.1" → (4, 1) ; None si aucune version
-    m = re.search(r"(\d+(?:\.\d+)*)", str(txt or ""))
-    return tuple(int(x) for x in m.group(1).split(".")) if m else None
 
 def egal(a, b):   # 4.1 = 4.1.0
     n = max(len(a), len(b))
     return a + (0,) * (n - len(a)) == b + (0,) * (n - len(b))
-
-def version_pdf(chemin):
-    try:
-        r = PdfReader(chemin)
-        m = VERS.search(str((r.metadata or {}).get("/Keywords") or ""))
-        if not m and r.pages:
-            m = VERS.search(r.pages[0].extract_text() or "")
-        return num(m.group(1)) if m else None
-    except Exception:
-        return None
 
 def tv(v):
     return "v" + ".".join(map(str, v)) if v else "v?"

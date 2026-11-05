@@ -1,9 +1,9 @@
 const $=id=>document.getElementById(id);
 const DATA_DIR="data/";
-const INDEX_FILE="index.json";   // généré par genindex.py (et par l’Action de déploiement) : chemins de tous les PDF (cours/…) et JSON (data/…)
+const INDEX_FILE="index.json";   // fabriqué par genindex.py (Action de déploiement en ligne, serve.py en local) : chemins des PDF (cours/…), des JSON (data/…), des programmes, versions des cours
 const pdfByName=new Map();       // nom de PDF (en minuscules) → chemins trouvés dans l’index
 const pathWarns=new Set();       // PDF introuvables ou en double
-let hasIndex=false;
+const pdfVer=new Map();          // nom de PDF (en minuscules) → version du cours lue par genindex.py ("4.1", "" si non indiquée)
 const baseName=p=>String(p).split("/").pop();
 const NONE_TEXT="Toutes les réponses précédentes sont fausses";   // proposition ajoutée quand 0 bonne réponse est tirée
 const NONE_WHY="Aucune des autres propositions n’est correcte.";
@@ -12,6 +12,7 @@ const NONE_PROB=1/15;   // probabilité que « Toutes les réponses précédente
 const PDFJS_VERSION="3.11.174";   // bibliothèque d’affichage des PDF (chargée seulement quand on ouvre un cours)
 const PDFJS_CDN="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/"+PDFJS_VERSION+"/";
 let themes=[],quiz=[],i=0;
+let prog=[];                     // programme des UE (programme/*.json) : [{nom, cours:[{titre, type, fichiers, ok, manque}]}]
 let minRefs=0,favor=false;              // tombée au moins N fois · tirage favorisant les plus tombées
 const yearsOff=new Set();       // années d’annales décochées (par défaut toutes sont cochées)
 let srcFilter="all";            // filtre d’origine des questions : "all", "annale", "genere"…
@@ -39,10 +40,9 @@ function ans(a){
 }
 function uniq(list){const seen=new Set();return list.filter(a=>!seen.has(a.reponse)&&seen.add(a.reponse))}
 // Lien vers le cours : "cours": { "fichier": "cours/x.pdf", "page": 12, "surligner": "texte à retrouver sur la page" }
-// "fichier" est un simple nom ("x.pdf") : son dossier (cours/, cours/cardio/…) est retrouvé grâce à index.json. Un chemin avec « / » est gardé tel quel (ancien format).
+// "fichier" est un simple nom ("x.pdf") : son dossier (cours/, cours/cardio/…) est retrouvé grâce à index.json. Un chemin avec « / » est gardé tel quel.
 function pdfPath(f){
   if(!f||f.includes("/"))return f;
-  if(!hasIndex)return"cours/"+f;   // sans index : on suppose cours/ à plat
   const l=pdfByName.get(f.toLowerCase())||[];
   if(l.length===1)return l[0];
   pathWarns.add(l.length?"PDF « "+f+" » en double : "+l.join(" et ")+" (renomme l’un des deux)":"PDF « "+f+" » introuvable dans cours/");
@@ -105,14 +105,14 @@ function parseFile(raw,file,warns){
   const meta=raw.meta&&typeof raw.meta==="object"?raw.meta:{};
   const str=v=>typeof v==="string"&&v.trim()?v.trim():"";
   const f={titre:str(meta.titre)||String(file).replace(/\.json$/i,""),theme:str(meta.theme),section:str(meta.section),description:str(meta.description),chapitres:[]};
-  const fdef=asCours(meta.cours);
+  const fdef=asCours(meta.cours),qv=meta.version!==undefined&&meta.version!==null?String(meta.version).trim():"";   // qv : version du cours dont le QCM est tiré
   raw.chapitres.forEach((c,n)=>{
     const titre=str(c&&c.meta&&c.meta.titre)||"Chapitre "+(n+1);
     const cc=asCours(c&&c.meta&&c.meta.cours);
     const questions=clean(c&&c.questions,file+" › "+titre,warns,{...fdef,...cc});
     questions.forEach(q=>{q.chapitre=titre});
     const fichier=[cc.fichier,fdef.fichier].find(x=>typeof x==="string"&&x.trim());   // PDF du chapitre (sinon celui du fichier)
-    if(questions.length)f.chapitres.push({titre,questions,fichier:fichier?pdfPath(fichier.trim()):""});
+    if(questions.length)f.chapitres.push({titre,questions,fichier:fichier?pdfPath(fichier.trim()):"",version:qv});
   });
   return f;
 }
@@ -147,38 +147,96 @@ function groupFiles(files){
 async function init(){
   const warns=[],files=[];
   try{
-    const idx=await getJSON(INDEX_FILE,true);
-    let list;
-    if(idx){   // index présent : tous les JSON de data/ (sous-dossiers compris) sont chargés, themes.json ne sert plus qu’à l’ordre
-      if(!Array.isArray(idx.cours)||!Array.isArray(idx.data))throw new Error("« index.json » mal formé (relance python3 genindex.py)");
-      hasIndex=true;
-      idx.cours.forEach(p=>{const k=baseName(p).toLowerCase();pdfByName.set(k,[...(pdfByName.get(k)||[]),p])});
-      const order=await getJSON(DATA_DIR+"themes.json",true);   // facultatif : ordre d’affichage ; les cours absents de la liste viennent ensuite, par ordre alphabétique
-      const rank=n=>{const k=Array.isArray(order)?order.indexOf(baseName(n)):-1;return k<0?1e9:k};
-      list=idx.data.filter(f=>typeof f==="string").sort((a,b)=>rank(a)-rank(b)||a.localeCompare(b));
-    }else{   // sans index (test local sans genindex.py) : ancien fonctionnement avec themes.json
-      const t=await getJSON(DATA_DIR+"themes.json");
-      if(!Array.isArray(t))throw new Error("« themes.json » doit être une liste de noms de fichiers");
-      warns.push("index.json absent : les PDF sont cherchés directement dans cours/ (lance python3 genindex.py)");
-      list=t.map(f=>typeof f==="string"?DATA_DIR+f:f);
+    const idx=await getJSON(INDEX_FILE,true);   // tous les JSON de data/ (sous-dossiers compris) sont chargés, par ordre alphabétique de chemin
+    if(!idx)throw new Error("index.json introuvable");
+    if(!Array.isArray(idx.cours)||!Array.isArray(idx.data))throw new Error("« index.json » mal formé");
+    idx.cours.forEach(p=>{const k=baseName(p).toLowerCase();pdfByName.set(k,[...(pdfByName.get(k)||[]),p])});
+    if(idx.versions&&typeof idx.versions==="object")Object.entries(idx.versions).forEach(([p,v])=>pdfVer.set(baseName(p).toLowerCase(),v==null?"":String(v)));
+    for(const f of Array.isArray(idx.programme)?idx.programme:[]){   // programmes d’UE (facultatifs)
+      try{const p=parseProg(await getJSON(f),baseName(f),warns);if(p&&p.cours.length)prog.push(p)}catch(err){warns.push(err.message)}
     }
-    for(const f of list){
-      try{
-        if(typeof f!=="string")throw new Error("themes.json : chaque entrée doit être un nom de fichier, par exemple \"cardiologie.json\"");
-        files.push(parseFile(await getJSON(f),baseName(f),warns));
-      }catch(err){warns.push(err.message)}
+    for(const f of idx.data.filter(f=>typeof f==="string").sort((a,b)=>a.localeCompare(b))){
+      try{files.push(parseFile(await getJSON(f),baseName(f),warns))}catch(err){warns.push(err.message)}
     }
     warns.push(...pathWarns);
   }catch(e){
     $("load").style.color="var(--ko)";
-    $("load").textContent="Impossible de charger les données : "+e.message+". Si tu ouvres le fichier directement depuis ton disque, lance un petit serveur local (python3 -m http.server) ou héberge le dossier en ligne.";
+    $("load").textContent="Impossible de charger les données : "+e.message+". En local, lance python3 serve.py (pas python3 -m http.server, ni le fichier ouvert directement), puis ouvre http://localhost:8000.";
     return;
   }
-  themes=groupFiles(files);
+  themes=groupFiles(files);progState();
   $("load").textContent=warns.length?"⚠ "+warns.join(" — "):"";
   $("load").style.color="var(--ko)";
   $("settings").open=$("annset").open=window.matchMedia?window.matchMedia("(min-width:861px)").matches:true;   // réglages repliés sur téléphone
   showSetup();
+}
+
+// ----- Programme : cours prévus au planning de chaque UE et leur état sur le site -----
+// Format : { "ue": "UE13", "matiere": "…", "cours": [ { "titre": "…", "type": "cours" | "TD", "fichiers": ["x.pdf"], … } ] } (voir instructions-programme-v….md)
+function parseProg(raw,file,warns){
+  if(!raw||typeof raw!=="object"||!Array.isArray(raw.cours)){warns.push("« "+file+" » : programme non reconnu (attendu : { \"ue\", \"matiere\", \"cours\": [ … ] })");return null}
+  const str=v=>typeof v==="string"&&v.trim()?v.trim():"";
+  const cours=raw.cours.filter(c=>c&&str(c.titre)).map(c=>({titre:str(c.titre),type:str(c.type),fichiers:(Array.isArray(c.fichiers)?c.fichiers:[]).map(str).filter(Boolean).map(baseName)}));
+  return{nom:[str(raw.ue),str(raw.matiere)].filter(Boolean).join(" · ")||file.replace(/\.json$/i,""),cours};
+}
+const vnum=v=>{const m=/(\d+(?:\.\d+)*)/.exec(v||"");return m?m[1].split(".").map(Number):null};   // "prompt v4.1" → [4, 1]
+const veq=(a,b)=>{const n=Math.max(a.length,b.length);for(let k=0;k<n;k++)if((a[k]||0)!==(b[k]||0))return false;return true};   // 4.1 = 4.1.0
+const tv=v=>{const n=vnum(v);return n?"v"+n.join("."):"v?"};
+function progState(){   // pour chaque PDF d’un cours prévu : présent ? version du cours, versions des QCM. À jour = au moins un PDF indiqué, et chacun a un QCM chargé
+  const qv=new Map();   // nom de PDF → versions des QCM qui le citent
+  allChaps().forEach(c=>{const k=baseName(c.fichier||"").toLowerCase();if(k){if(!qv.has(k))qv.set(k,new Set());qv.get(k).add(c.version)}});
+  prog.forEach(u=>u.cours.forEach(c=>{
+    c.det=c.fichiers.map(f=>{const k=f.toLowerCase();return{f,pdf:(pdfByName.get(k)||[]).length===1,vc:pdfVer.get(k)||"",qcm:qv.has(k)?[...qv.get(k)]:null}});
+    c.manque=c.det.filter(d=>!d.qcm).map(d=>d.f);c.ok=c.fichiers.length>0&&!c.manque.length;
+  }));
+}
+function vcell(txt,title,cls){const td=document.createElement("td");td.className="v"+(cls?" "+cls:"");td.textContent=txt;if(title)td.title=title;return td}
+function renderProg(){   // tableau : matière (UE) | cours | v. cours | v. QCM | état ; une sous-ligne par PDF quand un cours en a plusieurs
+  const t=document.createElement("table");t.className="progtab";
+  t.innerHTML='<thead><tr><th scope="col">Matière</th><th scope="col">Cours</th><th scope="col">v. cours</th><th scope="col">v. QCM</th><th scope="col">État</th></tr></thead>';
+  const pname=f=>f.replace(/\.pdf$/i,"");
+  prog.forEach(u=>{
+    const tb=document.createElement("tbody"),span=c=>Math.max(1,c.det.length);
+    u.cours.forEach((c,n)=>{
+      for(let j=0;j<span(c);j++){
+        const tr=document.createElement("tr"),d=c.det[j],multi=c.det.length>1;
+        if(n===0&&j===0){const th=document.createElement("th");th.scope="rowgroup";th.rowSpan=u.cours.reduce((s,x)=>s+span(x),0);th.textContent=u.nom;
+          const s=document.createElement("small");s.textContent=u.cours.filter(x=>x.ok).length+" / "+u.cours.length+" à jour";th.append(s);tr.append(th)}
+        const td=document.createElement("td");
+        if(j===0){td.textContent=c.titre;if(c.fichiers.length)td.title=c.fichiers.join(", ");
+          if(c.type&&c.type.toLowerCase()!=="cours"){const b=document.createElement("span");b.className="badge mini";b.textContent=c.type;td.append(b)}}
+        else td.className="more";
+        if(multi){const p=document.createElement("small");p.className="pf";p.textContent=(j?"↳ ":"")+pname(d.f);td.append(p)}
+        tr.append(td);
+        // version du cours (PDF) : « — » s’il n’est pas dans cours/, « v? » si la version n’est pas indiquée
+        tr.append(!d?vcell("—","Pas encore sur le site"):!d.pdf?vcell("—","PDF « "+d.f+" » absent de cours/ (ou en double)"):vcell(tv(d.vc),d.vc?"":"Version du cours non indiquée dans le PDF"));
+        // version des QCM : alerte si elle diffère de celle du cours, comme diag.py
+        if(!d||!d.qcm)tr.append(vcell("—",d?"Aucun QCM pour « "+d.f+" »":""));
+        else{
+          const cv=vnum(d.vc),bad=d.qcm.filter(v=>vnum(v)&&cv&&!veq(vnum(v),cv)),major=bad.some(v=>vnum(v)[0]!==cv[0]);
+          const txt=d.qcm.map(tv).join(", ");
+          tr.append(bad.length?vcell("⚠ "+txt,"QCM tiré d’une autre version du cours ("+tv(d.vc)+")"+(major?" : version majeure, renvois à revérifier":""),"warn")
+            :vcell(txt,d.qcm.some(v=>!vnum(v))?"Version du QCM non indiquée (meta.version)":"",d.qcm.some(v=>!vnum(v))?"unk":""));
+        }
+        if(j===0){
+          const st=document.createElement("td");st.className="st";st.rowSpan=span(c);
+          const m=document.createElement("span");m.className=c.ok?"ok":"ko";m.textContent=c.ok?"✓":"✗";
+          const why=c.ok?"À jour : "+c.fichiers.join(", "):c.fichiers.length?"Pas à jour : pas de QCM sur le site pour "+c.manque.join(", "):"Pas à jour : pas encore sur le site";
+          m.setAttribute("aria-label",why);m.title=why;st.append(m);tr.append(st);
+        }
+        tb.append(tr);
+      }
+    });
+    t.append(tb);
+  });
+  $("progbody").innerHTML="";$("progbody").append(t);
+}
+function openProg(){renderProg();$("prog").classList.remove("hidden");$("progbg").classList.remove("hidden");$("progclose").focus()}
+function closeProg(){if($("prog").classList.contains("hidden"))return;$("prog").classList.add("hidden");$("progbg").classList.add("hidden");if(!$("progbtn").classList.contains("hidden"))$("progbtn").focus()}
+function showProgBtn(on){   // le bouton n’apparaît que sur l’accueil, et seulement s’il y a un programme
+  const all=prog.flatMap(u=>u.cours);
+  $("progbtn").classList.toggle("hidden",!on||!all.length);
+  $("progbtn").textContent="📋 Programme des cours · "+all.filter(c=>c.ok).length+" / "+all.length+" à jour";
 }
 
 // ----- Accueil : arbre thèmes › sections › chapitres + panneau « Ton QCM » -----
@@ -313,7 +371,7 @@ function updateStart(){
 }
 function showSetup(){
   $("setup").classList.remove("hidden");$("quiz").classList.add("hidden");$("end").classList.add("hidden");$("sub").classList.remove("hidden");
-  $("curtheme").textContent="";$("curdesc").textContent="";$("err").textContent="";renderTree();
+  $("curtheme").textContent="";$("curdesc").textContent="";$("err").textContent="";showProgBtn(true);renderTree();
 }
 function quizLabel(cs){   // ex. « Thème : Appareil respiratoire (Histologie) » ou « Thèmes : A · B »
   const parts=[];
@@ -383,7 +441,7 @@ function start(){
   const o={total:Math.max(2,+$("total").value||5),kmax:Math.max(0,$("kmax").value===""?5:+$("kmax").value)};
   const nq=Math.max(1,Math.min(+$("nq").value||5,qs.length));
   quiz=(favor?wshuffle(qs):shuffle(qs)).slice(0,nq).map(q=>build(q,o));
-  i=0;$("err").textContent="";closeCourse();
+  i=0;$("err").textContent="";closeCourse();closeProg();showProgBtn(false);
   $("curtheme").textContent=quizLabel(current)+filterLabel();$("curdesc").textContent="";$("sub").classList.add("hidden");
   $("setup").classList.add("hidden");$("end").classList.add("hidden");$("quiz").classList.remove("hidden");
   show();
@@ -609,6 +667,8 @@ document.addEventListener("keydown",e=>{   // clavier : ← → pages, + − zoo
   else if(e.key==="+"||e.key==="="){zoomBy(0.25)}
   else if(e.key==="-"){zoomBy(-0.25)}
 });
+$("progbtn").onclick=openProg;$("progclose").onclick=closeProg;$("progbg").onclick=closeProg;
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeProg()});
 $("cprev").onclick=()=>showPage(cv.page-1);
 $("cnext").onclick=()=>showPage(cv.page+1);
 init();

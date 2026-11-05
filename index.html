@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QCM de révision</title>
-<link rel="stylesheet" href="style.css?v=17">
+<link rel="stylesheet" href="style.css?v=20">
 </head>
 <body>
 <main>
@@ -12,6 +12,7 @@
 <div id="curtheme" class="curtheme"></div>
 <div id="curdesc" class="hint"></div>
 <p class="sub" id="sub">Choisis ce que tu veux réviser, puis lance un QCM aléatoire.</p>
+<button class="alt progbtn hidden" id="progbtn" aria-haspopup="dialog">📋 Programme des cours</button>
 <div id="load" class="hint">Chargement des questions…</div>
 
 <section id="setup" class="split">
@@ -92,6 +93,13 @@
 </section>
 </main>
 
-<script src="script.js?v=17"></script>
+<div id="progbg" class="hidden"></div>
+<aside id="prog" class="hidden" role="dialog" aria-modal="true" aria-labelledby="progtitle">
+<div class="phead"><strong id="progtitle">Programme des cours</strong><button id="progclose" aria-label="Fermer le programme">×</button></div>
+<div class="hint ptip"><span class="ok">✓</span> à jour : le cours et son QCM sont sur le site. <span class="ko">✗</span> pas encore. Versions : <b>—</b> absent, <b>v?</b> non indiquée, <b class="ko">⚠</b> QCM tiré d’une autre version du cours.</div>
+<div id="progbody"></div>
+</aside>
+
+<script src="script.js?v=20"></script>
 </body>
 </html>

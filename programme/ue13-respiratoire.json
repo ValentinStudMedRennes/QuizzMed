@@ -1,0 +1,83 @@
+{
+ "ue": "UE13",
+ "matiere": "Appareil respiratoire",
+ "niveau": "DFGSM2",
+ "annee": "2026-2027",
+ "planning": "PLANNING_UE_13 (6).pdf",
+ "cours": [
+  {
+   "titre": "Embryologie",
+   "type": "cours",
+   "heures": 1,
+   "dates": [
+    "2026-10-26"
+   ],
+   "fichiers": [
+    "respi-histoembryo-appresp.pdf"
+   ]
+  },
+  {
+   "titre": "Anatomie",
+   "type": "cours",
+   "heures": 6,
+   "dates": [
+    "2026-10-26",
+    "2026-11-04",
+    "2026-11-06"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Histologie",
+   "type": "cours",
+   "heures": 2,
+   "dates": [
+    "2026-10-28"
+   ],
+   "fichiers": [
+    "respi-histoembryo-appresp.pdf"
+   ]
+  },
+  {
+   "titre": "Physiologie de l'appareil respiratoire",
+   "type": "cours",
+   "heures": 4,
+   "dates": [
+    "2026-10-28",
+    "2026-10-30"
+   ],
+   "fichiers": [
+    "respi-physio-ventil.pdf"
+   ]
+  },
+  {
+   "titre": "TD Imagerie",
+   "type": "TD",
+   "heures": 2,
+   "dates": [
+    "2026-11-02",
+    "2026-11-13"
+   ],
+   "fichiers": [],
+   "remarque": "Par demi-promo : groupe 1 le 2 novembre, groupe 2 le 13 novembre."
+  },
+  {
+   "titre": "Biochimie",
+   "type": "cours",
+   "heures": 3,
+   "dates": [
+    "2026-11-09"
+   ],
+   "fichiers": []
+  },
+  {
+   "titre": "Sémiologie clinique",
+   "type": "cours",
+   "heures": 2,
+   "dates": [
+    "2026-11-13"
+   ],
+   "fichiers": []
+  }
+ ]
+}
