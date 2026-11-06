@@ -1,0 +1,4123 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Histologie",
+    "titre": "Histologie de l'appareil cardio-vasculaire : vaisseaux et cœur",
+    "description": "Structure histologique des artères, des microvaisseaux, des veines, de l'appareil lymphatique et du cœur, et leur histophysiologie.",
+    "version": "4.3",
+    "cours": {
+      "fichier": "cardio-histo-vaisseaux-coeur.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Le système circulatoire"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les fonctions du système circulatoire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "Au niveau des capillaires sanguins se font les échanges"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le système circulatoire assure le transport de l'oxygène et des métabolites cellulaires vers les tissus.",
+              "explication": "Rôle décrit dans les définitions du cours."
+            },
+            {
+              "reponse": "Le système circulatoire assure l'élimination du dioxyde de carbone et des produits du catabolisme cellulaire.",
+              "explication": "Second rôle cité par le cours."
+            },
+            {
+              "reponse": "Les échanges métaboliques et gazeux entre le sang et les tissus se font au niveau des capillaires sanguins.",
+              "explication": "Ils passent par l'intermédiaire du liquide interstitiel."
+            },
+            {
+              "reponse": "L'ensemble des capillaires représente une surface d'échange de l'ordre de plusieurs centaines de mètres carrés.",
+              "explication": "Environ 600 à 700 m² (dit à l'oral)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les échanges entre le sang et les tissus se font principalement au niveau des artères de moyen calibre.",
+              "explication": "Ils se font au niveau des capillaires."
+            },
+            {
+              "reponse": "Les échanges entre le sang et les cellules se font directement, sans passer par le liquide interstitiel.",
+              "explication": "Ils se font par l'intermédiaire du liquide interstitiel."
+            },
+            {
+              "reponse": "L'ensemble des capillaires représente une surface d'environ 60 à 70 mètres carrés.",
+              "explication": "Ordre de grandeur faux : 600 à 700 m²."
+            },
+            {
+              "reponse": "Les échanges gazeux se font au niveau des veinules et des veines de gros calibre.",
+              "explication": "Ils se font au niveau des capillaires."
+            },
+            {
+              "reponse": "Le système circulatoire transporte le dioxyde de carbone des poumons vers les tissus.",
+              "explication": "Le CO2 est éliminé des tissus, non apporté."
+            },
+            {
+              "reponse": "Les vaisseaux lymphatiques transportent le sang des tissus vers le cœur.",
+              "explication": "Les vaisseaux lymphatiques transportent la lymphe, non le sang."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les rôles respectifs du cœur, des artères, des veines et des lymphatiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "moteur central qui collecte, propulse et distribue le sang"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur est le moteur central qui collecte, propulse et distribue le sang.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les artères amènent le sang jusqu'aux capillaires.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les veines ramènent le sang des capillaires vers le cœur.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les capillaires lymphatiques ont une extrémité borgne et drainent le liquide interstitiel.",
+              "explication": "Description du système lymphatique."
+            },
+            {
+              "reponse": "La lymphe est finalement déversée dans la circulation veineuse.",
+              "explication": "Elle « gagne le sang »."
+            },
+            {
+              "reponse": "En s'éloignant du cœur, les artères augmentent en nombre et diminuent en calibre.",
+              "explication": "Elles s'arborisent à partir de l'aorte."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les artères ramènent le sang des tissus vers le cœur.",
+              "explication": "Ce sont les veines."
+            },
+            {
+              "reponse": "Les capillaires lymphatiques s'ouvrent à leurs deux extrémités sur des capillaires sanguins.",
+              "explication": "Ils ont une extrémité borgne."
+            },
+            {
+              "reponse": "La lymphe est déversée dans la circulation artérielle.",
+              "explication": "Elle rejoint la circulation veineuse."
+            },
+            {
+              "reponse": "En s'éloignant du cœur, les artères diminuent en nombre et augmentent en calibre.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Les ganglions lymphatiques sont disposés sur les capillaires sanguins.",
+              "explication": "Ils sont disposés sur les vaisseaux lymphatiques."
+            },
+            {
+              "reponse": "Les vaisseaux lymphatiques collecteurs ont un diamètre plus faible que les capillaires lymphatiques.",
+              "explication": "Les collecteurs sont de plus gros diamètre."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la grande et la petite circulation, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "La circulation systémique (ou grande circulation) part du ventricule gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "La circulation systémique part du ventricule gauche par l'aorte.",
+              "explication": "Définition de la grande circulation."
+            },
+            {
+              "reponse": "Dans la grande circulation, le sang désoxygéné regagne l'atrium droit par les veines caves supérieure et inférieure.",
+              "explication": "Retour veineux systémique."
+            },
+            {
+              "reponse": "La circulation pulmonaire part du ventricule droit par l'artère pulmonaire.",
+              "explication": "Définition de la petite circulation."
+            },
+            {
+              "reponse": "Le sang réoxygéné dans les capillaires pulmonaires revient à l'atrium gauche par les veines pulmonaires.",
+              "explication": "Fin de la petite circulation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La circulation systémique part du ventricule droit par l'aorte.",
+              "explication": "Elle part du ventricule gauche."
+            },
+            {
+              "reponse": "La circulation pulmonaire part du ventricule gauche par l'artère pulmonaire.",
+              "explication": "Elle part du ventricule droit."
+            },
+            {
+              "reponse": "Les veines caves se jettent dans l'atrium gauche.",
+              "explication": "Elles se jettent dans l'atrium droit."
+            },
+            {
+              "reponse": "Les veines pulmonaires ramènent un sang désoxygéné à l'atrium droit.",
+              "explication": "Elles ramènent un sang oxygéné à l'atrium gauche."
+            },
+            {
+              "reponse": "L'artère pulmonaire transporte un sang oxygéné vers les poumons.",
+              "explication": "Elle transporte un sang désoxygéné."
+            },
+            {
+              "reponse": "Après les échanges capillaires systémiques, le sang est enrichi en oxygène et appauvri en catabolites.",
+              "explication": "Il est désoxygéné et chargé en catabolites."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le schéma général de la circulation, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "la veine sus-hépatique draine le foie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le foie reçoit l'artère hépatique et le système porte venant de l'intestin.",
+              "explication": "Description du schéma de la diapositive n°3."
+            },
+            {
+              "reponse": "La veine sus-hépatique draine le foie.",
+              "explication": "Description du schéma."
+            },
+            {
+              "reponse": "La veine sus-hépatique se jette dans la veine cave inférieure.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Le système lymphatique rejoint la circulation veineuse.",
+              "explication": "Le système lymphatique (en vert) rejoint les veines."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La veine porte draine le sang du foie vers la veine cave inférieure.",
+              "explication": "C'est la veine sus-hépatique ; la veine porte amène le sang de l'intestin au foie."
+            },
+            {
+              "reponse": "La veine sus-hépatique se jette dans la veine cave supérieure.",
+              "explication": "Elle se jette dans la veine cave inférieure."
+            },
+            {
+              "reponse": "Le système porte amène au foie le sang venant des reins.",
+              "explication": "Il vient de l'intestin."
+            },
+            {
+              "reponse": "Le foie est vascularisé uniquement par l'artère hépatique.",
+              "explication": "Il reçoit aussi le système porte."
+            },
+            {
+              "reponse": "Le système lymphatique rejoint la circulation artérielle au niveau de l'aorte.",
+              "explication": "Il rejoint la circulation veineuse."
+            },
+            {
+              "reponse": "La veine porte transporte un sang oxygéné issu de l'aorte.",
+              "explication": "Elle transporte du sang veineux venant de l'intestin."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-005",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2020-2021",
+                "qcm": 17
+              }
+            ]
+          },
+          "question": "Concernant les vaisseaux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "les vaisseaux et le cœur dérivent du mésenchyme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les vaisseaux dérivent du mésenchyme.",
+              "annale": true,
+              "explication": "Les vaisseaux et le cœur dérivent du mésenchyme embryonnaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les artères élastiques sont des artères de gros calibre.",
+              "annale": true,
+              "explication": "Artères de gros calibre de type élastique, près du cœur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La structure de base d'un vaisseau comprend, de dedans en dehors, l'intima, la média et l'adventice.",
+              "explication": "Structure de base à 3 tuniques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les artères musculaires ne pénètrent pas dans les organes.",
+              "annale": true,
+              "explication": "Les artères musculaires de petit calibre pénètrent dans les organes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les artères musculaires contiennent de nombreuses lames élastiques.",
+              "annale": true,
+              "explication": "Les lames élastiques y sont minoritaires ; ce sont les cellules musculaires lisses qui dominent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les vaisseaux dérivent de l'ectoderme.",
+              "explication": "Ils dérivent du mésenchyme embryonnaire."
+            },
+            {
+              "reponse": "La paroi des capillaires comporte les 3 tuniques intima, média et adventice.",
+              "explication": "Les capillaires font exception : leur paroi est réduite à un endothélium."
+            },
+            {
+              "reponse": "L'adventice est la tunique la plus interne des vaisseaux.",
+              "explication": "C'est la plus externe ; l'intima est la plus interne."
+            },
+            {
+              "reponse": "Les artères élastiques sont surtout des artères de distribution situées dans les organes.",
+              "explication": "Elles sont près du cœur et assurent la collection et la propulsion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les artères"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-006",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2023-2024",
+                "qcm": 12
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2021-2022",
+                "qcm": 20
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2019-2020",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant la structure générale des artères, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "La structure commune à toutes les artères"
+          },
+          "bonnes": [
+            {
+              "reponse": "La structure de base des artères comporte 3 tuniques.",
+              "annale": true,
+              "explication": "Intima, média, adventice. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi artérielle est plus épaisse que celle des veines correspondantes.",
+              "annale": true,
+              "explication": "La veine a une paroi plus mince que l'artère correspondante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'adventice contient des vaisseaux (vasa vasorum) et des nerfs (nervi vasorum).",
+              "explication": "Description de l'adventice."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La média est la tunique la plus superficielle de l'artère.",
+              "annale": true,
+              "explication": "La plus superficielle est l'adventice ; la média est la tunique moyenne. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La vascularisation de la paroi artérielle provient uniquement du sang intraluminal.",
+              "annale": true,
+              "explication": "La nutrition est bipolaire : sang circulant et vasa vasorum (vaisseaux de plus de 200 µm). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les artères élastiques sont des artères de petit calibre.",
+              "annale": true,
+              "explication": "Ce sont les artères de gros calibre, près du cœur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les artères élastiques ne contiennent pas de myocytes.",
+              "annale": true,
+              "explication": "Leur média contient des cellules musculaires lisses, minoritaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média est la tunique la moins épaisse de la paroi artérielle.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Dans les artères, la média est la tunique la plus épaisse. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les artères musculaires contiennent de nombreuses lames élastiques.",
+              "annale": true,
+              "explication": "Dans les artères musculaires, les lames élastiques sont minoritaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La vascularisation des artères de gros calibre est uniquement assurée par les vasa vasorum.",
+              "annale": true,
+              "explication": "Le sang circulant nourrit l'intima et la média ; les vasa vasorum complètent. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les 3 types d'artères, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "qui assurent la distribution du sang dans l'organisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les artères de gros calibre de type élastique assurent la collection et la propulsion du sang.",
+              "explication": "Rôle des artères élastiques."
+            },
+            {
+              "reponse": "Les artères carotides, subclavières et iliaques sont des artères élastiques.",
+              "explication": "Exemples cités avec l'aorte et le tronc brachio-céphalique."
+            },
+            {
+              "reponse": "Les artères de moyen calibre de type musculaire assurent la distribution du sang dans l'organisme.",
+              "explication": "Rôle des artères musculaires."
+            },
+            {
+              "reponse": "La média des artères musculaires de moyen calibre comporte 10 à 40 couches de cellules musculaires lisses.",
+              "explication": "Chiffre sur lequel l'enseignant a insisté."
+            },
+            {
+              "reponse": "La média des artères musculaires de petit calibre comporte 3 à 10 couches de cellules musculaires lisses.",
+              "explication": "Petites artères qui pénètrent dans les organes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La média des artères musculaires de moyen calibre comporte 1 à 3 couches de cellules musculaires lisses.",
+              "explication": "1 à 3 couches : c'est l'artériole ; moyen calibre : 10 à 40."
+            },
+            {
+              "reponse": "La média des artères musculaires de petit calibre comporte 10 à 40 couches de cellules musculaires lisses.",
+              "explication": "Petit calibre : 3 à 10 couches."
+            },
+            {
+              "reponse": "Les artères carotides sont des artères musculaires de moyen calibre.",
+              "explication": "Ce sont des artères élastiques."
+            },
+            {
+              "reponse": "La plupart des artères des membres et des viscères sont des artères élastiques.",
+              "explication": "Ce sont des artères musculaires."
+            },
+            {
+              "reponse": "Les artères élastiques se ramifient directement en artérioles.",
+              "explication": "Ce sont les artères musculaires de petit calibre qui se ramifient en artérioles."
+            },
+            {
+              "reponse": "Les artérioles se jettent directement dans les veinules sans jamais passer par un réseau capillaire.",
+              "explication": "Les artérioles se jettent dans le réseau capillaire (les anastomoses artério-veineuses sont l'exception)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-008",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2024-2025",
+                "qcm": 25
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2018-2019",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Concernant les artères élastiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Artères élastiques (exemple : l'aorte)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le calibre des artères élastiques est plus important que celui des artères musculaires.",
+              "annale": true,
+              "explication": "Artères de gros calibre, près du cœur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média des artères élastiques contient de nombreuses lames élastiques.",
+              "annale": true,
+              "explication": "Lames élastiques concentriques, majoritaires, sur toute l'épaisseur de la média. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'aorte est une artère élastique.",
+              "annale": true,
+              "explication": "Exemple type d'artère élastique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi des artères élastiques est formée de 3 tuniques : intima, média et adventice.",
+              "annale": true,
+              "explication": "Structure commune à toutes les artères. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Entre les lames élastiques de la média se trouvent des cellules musculaires lisses sécrétoires appelées cellules rameuses.",
+              "explication": "Phénotype sécrétoire dans les artères élastiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans les artères élastiques, l'intima est la tunique la plus épaisse.",
+              "annale": true,
+              "explication": "Le QCM attend 3 réponses exactes (calibre, lames élastiques, aorte) : cet item est donc faux ; l'intima est seulement plus épaisse que dans les artères musculaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La nutrition de la paroi des artères élastiques provient exclusivement du sang circulant.",
+              "annale": true,
+              "explication": "Les vasa vasorum interviennent dans les vaisseaux de plus de 200 µm. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La nutrition de la paroi des artères élastiques est uniquement assurée par les vasa vasorum.",
+              "annale": true,
+              "explication": "Le sang circulant nourrit l'intima et la média. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans la média des artères élastiques, les cellules musculaires lisses sont majoritaires.",
+              "explication": "Les lames élastiques sont majoritaires, les cellules musculaires lisses minoritaires."
+            },
+            {
+              "reponse": "Les lames élastiques de la média des artères élastiques sont pleines, sans fenêtres.",
+              "explication": "Elles sont fenestrées."
+            },
+            {
+              "reponse": "Les cellules musculaires lisses de la média des artères élastiques ont surtout un phénotype contractile.",
+              "explication": "Plutôt sécrétoire (cellules rameuses)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-009",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2024-2025",
+                "qcm": 26
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2022-2023",
+                "qcm": 13
+              }
+            ]
+          },
+          "question": "Concernant les artères musculaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Artères musculaires : la média est composée majoritairement"
+          },
+          "bonnes": [
+            {
+              "reponse": "La média des artères musculaires est riche en cellules musculaires lisses.",
+              "annale": true,
+              "explication": "Elles y sont majoritaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules musculaires lisses de la média des artères musculaires sont orientées perpendiculairement au sens du courant sanguin.",
+              "annale": true,
+              "explication": "Elles forment des couches concentriques (circulaires) ; le QCM attend 2 réponses et les autres items sont faux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'adventice des artères musculaires contient des fibroblastes.",
+              "annale": true,
+              "explication": "Les fibroblastes sont les cellules résidentes de l'adventice. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans les artères musculaires, la limitante élastique externe est plus épaisse que la limitante élastique interne.",
+              "annale": true,
+              "explication": "La limitante externe est plus fine et discontinue. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les artères coronaires se terminent selon un mode anastomotique.",
+              "annale": true,
+              "explication": "Les artères coronaires ont un mode de terminaison terminal. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les carotides sont des artères musculaires.",
+              "annale": true,
+              "explication": "Ce sont des artères élastiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La limitante élastique interne sépare la média de l'adventice.",
+              "annale": true,
+              "explication": "Elle est à la transition intima-média. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La limitante élastique externe sépare la média de l'intima.",
+              "annale": true,
+              "explication": "Elle est à la transition média-adventice. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média des artères musculaires ne contient pas de tissu élastique.",
+              "annale": true,
+              "explication": "Elle contient des lames et fibres élastiques, minoritaires. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les limitantes élastiques, les petites artères et les artérioles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Il existe 2 limitantes élastiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "La limitante élastique interne est située à la transition entre intima et média.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La limitante élastique externe peut se dédoubler.",
+              "explication": "Elle est plus fine, discontinue, et peut se dédoubler ou se détripler."
+            },
+            {
+              "reponse": "Dans les artères de petit calibre, la limitante élastique externe a disparu alors que la limitante élastique interne est toujours présente.",
+              "explication": "Description des petites artères qui pénètrent dans les organes."
+            },
+            {
+              "reponse": "La média de l'artériole ne compte que 1 à 3 couches de cellules musculaires lisses.",
+              "explication": "Paroi encore plus fine que celle des petites artères."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La limitante élastique externe est plus épaisse et plus continue que la limitante élastique interne.",
+              "explication": "Elle est plus fine et discontinue."
+            },
+            {
+              "reponse": "Dans les artères de petit calibre, la limitante élastique interne a disparu.",
+              "explication": "Elle est toujours présente."
+            },
+            {
+              "reponse": "L'artériole possède une limitante élastique externe bien développée.",
+              "explication": "Il n'y a plus de limitante élastique externe dans l'artériole."
+            },
+            {
+              "reponse": "La média de l'artériole compte 10 à 40 couches de cellules musculaires lisses.",
+              "explication": "1 à 3 couches seulement."
+            },
+            {
+              "reponse": "L'intima est plus épaisse dans les artères musculaires que dans les artères élastiques.",
+              "explication": "Elle est plus épaisse dans les artères élastiques."
+            },
+            {
+              "reponse": "C'est l'architecture de l'adventice qui distingue les artères élastiques des artères musculaires.",
+              "explication": "C'est l'architecture de la média."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'intima"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-011",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2020-2021",
+                "qcm": 16
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2018-2019",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant l'intima artérielle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Elle est formée d'un endothélium séparé d'une"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'intima comporte un endothélium associé à une membrane basale et une couche sous-endothéliale.",
+              "annale": true,
+              "explication": "Définition de l'intima. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les corps de Weibel-Palade contiennent le facteur de von Willebrand.",
+              "annale": true,
+              "explication": "Organites spécifiques de la cellule endothéliale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules endothéliales sont reliées entre elles par des jonctions intercellulaires.",
+              "annale": true,
+              "explication": "Jonctions serrées, adhérentes et parfois communicantes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'intima s'arrête à la première lame élastique.",
+              "explication": "Limite externe de l'intima."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules endothéliales ont un revêtement cellulaire qui favorise l'adhésivité plaquettaire.",
+              "annale": true,
+              "explication": "Le glycocalix empêche l'adhésion et l'agrégation des plaquettes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules endothéliales ne présentent pas de système de jonction intercellulaire.",
+              "annale": true,
+              "explication": "Elles sont reliées par des systèmes de jonction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'endothélium est un épithélium cubique simple.",
+              "annale": true,
+              "explication": "C'est un épithélium pavimenteux simple. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La couche sous-endothéliale s'étend de la membrane basale à la limitante élastique externe.",
+              "annale": true,
+              "explication": "Elle s'arrête à la première lame élastique (limitante élastique interne) ; la limitante externe est entre média et adventice. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les corps de Weibel-Palade contiennent l'activateur du plasminogène.",
+              "explication": "Ils contiennent le facteur de von Willebrand."
+            },
+            {
+              "reponse": "La couche sous-endothéliale s'amincit avec l'âge.",
+              "explication": "Elle s'épaissit avec l'âge."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-012",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2019-2020",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant l'endothélium, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "monocouche en mosaïque de cellules endothéliales"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'endothélium est un épithélium pavimenteux simple.",
+              "annale": true,
+              "explication": "Monocouche de cellules pavimenteuses très aplaties. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'endothélium repose sur une membrane basale.",
+              "annale": true,
+              "explication": "Membrane basale entre endothélium et couche sous-endothéliale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules endothéliales sont reliées entre elles par des jonctions intercellulaires.",
+              "annale": true,
+              "explication": "Systèmes de jonction assurant l'intégrité de la surface. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les cellules endothéliales sont allongées dans le sens du courant sanguin.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'endothélium est tapissé du côté basal par le glycocalix.",
+              "annale": true,
+              "explication": "Le glycocalix est sur la face luminale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'endothélium est un épithélium pluristratifié.",
+              "explication": "C'est une monocouche."
+            },
+            {
+              "reponse": "Les cellules endothéliales sont allongées perpendiculairement au sens du courant sanguin.",
+              "explication": "Elles sont allongées dans le sens du courant."
+            },
+            {
+              "reponse": "L'endothélium repose directement sur la limitante élastique interne, sans membrane basale.",
+              "explication": "Il repose sur une membrane basale, suivie de la couche sous-endothéliale."
+            },
+            {
+              "reponse": "Les cellules endothéliales sont des cellules cylindriques hautes.",
+              "explication": "Elles sont pavimenteuses, très aplaties."
+            },
+            {
+              "reponse": "Les cellules endothéliales sont dépourvues de vésicules de pinocytose.",
+              "explication": "Elles en contiennent de très nombreuses."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la cellule endothéliale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "empêche l'adhésion et l'agrégation des plaquettes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules endothéliales mesurent environ 50 µm × 10 µm × 0,5 µm.",
+              "explication": "Dimensions données par le cours."
+            },
+            {
+              "reponse": "Le rôle majeur du glycocalix est d'empêcher l'adhésion et l'agrégation des plaquettes.",
+              "explication": "Rôle majeur du cell coat."
+            },
+            {
+              "reponse": "Le glycocalix favorise le transport transcellulaire.",
+              "explication": "Second rôle du glycocalix."
+            },
+            {
+              "reponse": "Les microfilaments d'actine et de vimentine assurent le transport des vésicules.",
+              "explication": "Rôle des microfilaments."
+            },
+            {
+              "reponse": "Le facteur de von Willebrand permet de lier les plaquettes entre elles.",
+              "explication": "Il intervient dans l'agrégation plaquettaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules endothéliales mesurent environ 50 mm × 10 mm × 0,5 mm.",
+              "explication": "Mauvaise unité : micromètres."
+            },
+            {
+              "reponse": "Le glycocalix favorise l'adhésion et l'agrégation des plaquettes.",
+              "explication": "Il les empêche."
+            },
+            {
+              "reponse": "Le cytoplasme de la cellule endothéliale contient très peu de vésicules de pinocytose.",
+              "explication": "Il en contient de très nombreuses."
+            },
+            {
+              "reponse": "Le facteur de von Willebrand est stocké dans les vésicules de pinocytose.",
+              "explication": "Il est stocké dans les corps de Weibel-Palade."
+            },
+            {
+              "reponse": "Le facteur de von Willebrand est une glycoprotéine anticoagulante qui empêche l'agrégation plaquettaire.",
+              "explication": "Il intervient dans l'agrégation plaquettaire (hémostase)."
+            },
+            {
+              "reponse": "Le glycocalix est un revêtement lipidique de la face basale de la membrane plasmique.",
+              "explication": "C'est un revêtement glycoprotéique de la face luminale."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les jonctions entre cellules endothéliales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Les jonctions serrées sont les plus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les jonctions serrées endothéliales sont principalement de type macula occludens.",
+              "explication": "Type principal des jonctions serrées."
+            },
+            {
+              "reponse": "Des zonula occludens se retrouvent dans les capillaires cérébraux, rétiniens et placentaires.",
+              "explication": "Capillaires de barrière."
+            },
+            {
+              "reponse": "Les jonctions serrées sont les plus proches de la lumière vasculaire.",
+              "explication": "Ordre des jonctions depuis la lumière."
+            },
+            {
+              "reponse": "Les jonctions adhérentes sont situées en dessous des jonctions serrées.",
+              "explication": "Ordre des jonctions."
+            },
+            {
+              "reponse": "Dans certaines artères, des jonctions communicantes participent aux échanges métaboliques et ioniques entre cellules endothéliales.",
+              "explication": "Jonctions de type gap."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les jonctions serrées endothéliales sont principalement de type zonula occludens dans tous les vaisseaux.",
+              "explication": "Principalement macula occludens ; les zonula occludens sont rares ailleurs que dans certains capillaires."
+            },
+            {
+              "reponse": "Les jonctions adhérentes sont les plus proches de la lumière vasculaire.",
+              "explication": "Ce sont les jonctions serrées."
+            },
+            {
+              "reponse": "Les zonula occludens sont typiques des capillaires sinusoïdes du foie.",
+              "explication": "On les trouve dans les capillaires cérébraux, rétiniens et placentaires."
+            },
+            {
+              "reponse": "Les jonctions communicantes de type gap sont présentes dans tous les endothéliums.",
+              "explication": "Seulement dans certaines artères."
+            },
+            {
+              "reponse": "Les jonctions communicantes sont les jonctions les plus proches de la lumière.",
+              "explication": "Ce sont les jonctions serrées."
+            },
+            {
+              "reponse": "Les cellules endothéliales sont reliées par des desmosomes uniquement.",
+              "explication": "Le cours décrit jonctions serrées, adhérentes et communicantes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la membrane basale endothéliale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "La membrane basale joue un rôle de support"
+          },
+          "bonnes": [
+            {
+              "reponse": "La membrane basale endothéliale comporte 2 feuillets : la lamina lucida (ou rara) et la lamina densa.",
+              "explication": "Organisation de la membrane basale."
+            },
+            {
+              "reponse": "La lamina lucida est un espace clair d'environ 40 nanomètres situé entre les cellules endothéliales et la lamina densa.",
+              "explication": "Description de la lamina lucida."
+            },
+            {
+              "reponse": "La lamina densa est un réseau de collagène de type IV.",
+              "explication": "Avec héparane sulfate et glycoprotéines."
+            },
+            {
+              "reponse": "La lamina densa contient de la laminine, de la fibronectine et du nidogène.",
+              "explication": "Glycoprotéines de la lamina densa."
+            },
+            {
+              "reponse": "La membrane basale intervient dans le renouvellement des cellules endothéliales.",
+              "explication": "Rôle de support et de renouvellement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La lamina densa est un réseau de collagène de type I.",
+              "explication": "Collagène de type IV."
+            },
+            {
+              "reponse": "La lamina lucida mesure environ 40 micromètres d'épaisseur.",
+              "explication": "Environ 40 nanomètres."
+            },
+            {
+              "reponse": "La lamina densa est située entre les cellules endothéliales et la lamina lucida.",
+              "explication": "C'est la lamina lucida qui est au contact des cellules endothéliales."
+            },
+            {
+              "reponse": "La membrane basale endothéliale comporte 3 feuillets.",
+              "explication": "Elle en comporte 2."
+            },
+            {
+              "reponse": "Les protéoglycanes de la lamina densa sont de type chondroïtine sulfate.",
+              "explication": "Ils sont de type héparane sulfate."
+            },
+            {
+              "reponse": "La membrane basale sépare la couche sous-endothéliale de la média.",
+              "explication": "Elle sépare l'endothélium de la couche sous-endothéliale."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la couche sous-endothéliale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Cette couche s'épaissit avec l'âge"
+          },
+          "bonnes": [
+            {
+              "reponse": "La couche sous-endothéliale contient des fibroblastes, des myocytes étoilés et des macrophages.",
+              "explication": "Cellules de la couche sous-endothéliale."
+            },
+            {
+              "reponse": "La matrice de la couche sous-endothéliale contient des fibrilles de collagène de type III (réticuline), IV et VI.",
+              "explication": "Composition de la matrice."
+            },
+            {
+              "reponse": "La matrice de la couche sous-endothéliale contient des fibres de collagène de type I et des fibres élastiques.",
+              "explication": "Composition de la matrice."
+            },
+            {
+              "reponse": "La couche sous-endothéliale s'épaissit avec l'âge.",
+              "explication": "Donnée de la diapositive n°6."
+            },
+            {
+              "reponse": "La substance fondamentale de la couche sous-endothéliale contient des protéoglycanes comme l'héparane sulfate et la chondroïtine sulfate.",
+              "explication": "Substance fondamentale amorphe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La couche sous-endothéliale s'amincit avec l'âge.",
+              "explication": "Elle s'épaissit."
+            },
+            {
+              "reponse": "La couche sous-endothéliale est dépourvue de cellules.",
+              "explication": "Elle contient fibroblastes, myocytes étoilés, macrophages."
+            },
+            {
+              "reponse": "La couche sous-endothéliale est située entre l'endothélium et la membrane basale.",
+              "explication": "Elle est située sous la membrane basale."
+            },
+            {
+              "reponse": "La couche sous-endothéliale ne contient aucune fibre élastique.",
+              "explication": "Elle contient des fibres élastiques."
+            },
+            {
+              "reponse": "La matrice de la couche sous-endothéliale est formée exclusivement de collagène de type II.",
+              "explication": "Collagènes III, IV, VI et I, fibres élastiques, substance fondamentale."
+            },
+            {
+              "reponse": "L'intima est plus fine dans les artères élastiques que dans les artères musculaires.",
+              "explication": "Elle est plus épaisse dans les artères élastiques."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "La média et l'adventice"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-017",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2020-2021",
+                "qcm": 18
+              }
+            ]
+          },
+          "question": "Concernant la média des artères, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "La média est la tunique moyenne de la paroi vasculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La média est la tunique moyenne de la paroi vasculaire.",
+              "annale": true,
+              "explication": "Définition. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média contient des myocytes.",
+              "annale": true,
+              "explication": "Myocytes lisses (cellules musculaires lisses). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média contient des fibres de collagène.",
+              "annale": true,
+              "explication": "Éléments conjonctifs extracellulaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média contient des fibres élastiques.",
+              "annale": true,
+              "explication": "Tissu élastique en proportions variables. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média a une double propriété de contractilité et d'élasticité.",
+              "explication": "Propriétés de la média."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La média est la tunique la plus externe de la paroi artérielle.",
+              "explication": "C'est l'adventice."
+            },
+            {
+              "reponse": "La média est formée de cellules musculaires striées.",
+              "explication": "Elle contient des myocytes lisses."
+            },
+            {
+              "reponse": "La média possède une propriété d'élasticité mais pas de contractilité.",
+              "explication": "Elle a les deux propriétés."
+            },
+            {
+              "reponse": "La média est séparée de l'intima par la limitante élastique externe.",
+              "explication": "Par la limitante élastique interne."
+            },
+            {
+              "reponse": "Dans les artères élastiques, la média est majoritairement formée de cellules musculaires lisses.",
+              "explication": "Les lames élastiques y sont majoritaires."
+            },
+            {
+              "reponse": "La média est dépourvue de matrice conjonctive.",
+              "explication": "Elle contient une matrice conjonctive."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les phénotypes des cellules musculaires lisses de la média, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "peuvent acquérir 2 phénotypes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules musculaires lisses de la média peuvent acquérir un phénotype contractile ou sécrétoire.",
+              "explication": "2 phénotypes."
+            },
+            {
+              "reponse": "Le phénotype sécrétoire permet de synthétiser les éléments de la matrice extracellulaire.",
+              "explication": "Définition du phénotype sécrétoire."
+            },
+            {
+              "reponse": "Dans les artères musculaires, les cellules musculaires lisses ont plutôt un phénotype contractile.",
+              "explication": "Point sur lequel l'enseignant a insisté."
+            },
+            {
+              "reponse": "Les cellules rameuses des artères élastiques sont des cellules musculaires lisses de phénotype sécrétoire.",
+              "explication": "Terminologie du cours."
+            },
+            {
+              "reponse": "Les 2 phénotypes des cellules musculaires lisses sont réversibles.",
+              "explication": "Les cellules gardent une capacité d'adaptation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans les artères élastiques, les cellules musculaires lisses ont plutôt un phénotype contractile.",
+              "explication": "Plutôt sécrétoire."
+            },
+            {
+              "reponse": "Le passage du phénotype contractile au phénotype sécrétoire est irréversible.",
+              "explication": "Les 2 phénotypes sont réversibles."
+            },
+            {
+              "reponse": "La cellule de phénotype contractile est irrégulière, à prolongements cytoplasmiques et riche en réticulum endoplasmique granuleux.",
+              "explication": "C'est la description du phénotype sécrétoire ; la cellule contractile est fusiforme, remplie de myofilaments."
+            },
+            {
+              "reponse": "La cellule de phénotype sécrétoire est dépourvue de lame basale.",
+              "explication": "Elle est entourée d'une lame basale."
+            },
+            {
+              "reponse": "Les cellules rameuses sont des fibroblastes de l'adventice.",
+              "explication": "Ce sont des cellules musculaires lisses sécrétoires de la média des artères élastiques."
+            },
+            {
+              "reponse": "Le phénotype contractile est pauvre en myofilaments.",
+              "explication": "Il est riche en myofilaments."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la média des artères élastiques et des artères musculaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "matrice conjonctive à 4 éléments"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans les artères élastiques, les lames élastiques de la média sont épaisses, concentriques, fenestrées et régulièrement espacées.",
+              "explication": "Description de la média élastique."
+            },
+            {
+              "reponse": "La matrice conjonctive de la média des artères élastiques contient des fibres de collagène de type III, IV et V.",
+              "explication": "Premier des 4 éléments."
+            },
+            {
+              "reponse": "Dans la média des artères élastiques, de fines fibrilles élastiques relient les lames élastiques entre elles.",
+              "explication": "Second élément de la matrice."
+            },
+            {
+              "reponse": "La matrice de la média des artères élastiques contient de la fibronectine, de la laminine et de l'élastonectine.",
+              "explication": "Glycoprotéines adhésives et de structure."
+            },
+            {
+              "reponse": "Dans les artères musculaires, la limitante élastique externe est plus fine, discontinue et se dédouble par endroits.",
+              "explication": "Description de la limitante externe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La matrice conjonctive de la média des artères élastiques contient du collagène de type I, II et III.",
+              "explication": "Types III, IV et V."
+            },
+            {
+              "reponse": "Dans les artères élastiques, les lames élastiques sont limitées à la partie interne de la média.",
+              "explication": "Elles occupent toute l'épaisseur de la média."
+            },
+            {
+              "reponse": "La matrice de la média des artères élastiques est dépourvue de glycosaminoglycanes.",
+              "explication": "Les glycosaminoglycanes sont le 4e élément de la matrice."
+            },
+            {
+              "reponse": "Dans les artères musculaires, les cellules musculaires lisses sont minoritaires dans la média.",
+              "explication": "Elles sont majoritaires."
+            },
+            {
+              "reponse": "Dans les artères musculaires, la 1re lame élastique prend le nom de limitante élastique externe.",
+              "explication": "Elle prend le nom de limitante élastique interne."
+            },
+            {
+              "reponse": "La distinction entre artères élastiques et artères musculaires dépend de l'architecture de l'intima.",
+              "explication": "Elle dépend de l'architecture de la média."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'élastine et les lames élastiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Les lames élastiques sont formées d'élastine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'élastine est une protéine de 830 acides aminés.",
+              "explication": "Donnée de la diapositive n°9."
+            },
+            {
+              "reponse": "L'élastine est une protéine hydrophobe et non glycosylée.",
+              "explication": "Propriétés de l'élastine."
+            },
+            {
+              "reponse": "L'élastine est riche en glycine et en proline.",
+              "explication": "Composition de l'élastine."
+            },
+            {
+              "reponse": "Les molécules d'élastine sont reliées par des liaisons covalentes transversales entre résidus lysine.",
+              "explication": "Mécanisme de liaison."
+            },
+            {
+              "reponse": "L'élastine est sécrétée par les myocytes lisses et les cellules endothéliales.",
+              "explication": "Cellules sécrétrices d'élastine."
+            },
+            {
+              "reponse": "Les fibres de collagène limitent l'ampleur de l'étirement des lames élastiques.",
+              "explication": "Elles empêchent la déchirure des tissus."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'élastine est une protéine fortement glycosylée.",
+              "explication": "Elle est non glycosylée."
+            },
+            {
+              "reponse": "L'élastine est une protéine hydrophile.",
+              "explication": "Elle est hydrophobe."
+            },
+            {
+              "reponse": "L'élastine est riche en tryptophane et en cystéine.",
+              "explication": "Elle est riche en glycine et en proline."
+            },
+            {
+              "reponse": "Les molécules d'élastine sont reliées par des ponts disulfures entre résidus cystéine.",
+              "explication": "Liaisons covalentes transversales entre résidus lysine."
+            },
+            {
+              "reponse": "Le squelette polypeptidique de l'élastine adopte une structure rigide en triple hélice.",
+              "explication": "Il se déploie en repli aléatoire, d'où l'élasticité."
+            },
+            {
+              "reponse": "Les fibres élastiques limitent l'étirement du collagène.",
+              "explication": "C'est l'inverse : le collagène limite l'étirement des lames élastiques."
+            },
+            {
+              "reponse": "L'élastine est sécrétée exclusivement par les fibroblastes de l'adventice.",
+              "explication": "Elle est sécrétée par les myocytes lisses et les cellules endothéliales."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'adventice, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "L'adventice est la tunique la plus externe"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'adventice est la tunique la plus externe de la paroi artérielle.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "Les fibroblastes sont les cellules résidentes de l'adventice.",
+              "explication": "Cellules résidentes."
+            },
+            {
+              "reponse": "L'adventice contient des cellules migratrices comme des macrophages, des mastocytes, des lymphocytes et des plasmocytes.",
+              "explication": "Cellules migratrices en nombre variable."
+            },
+            {
+              "reponse": "Le collagène de l'adventice est majoritairement de type I, organisé en trousseaux épais.",
+              "explication": "Composition de l'adventice."
+            },
+            {
+              "reponse": "L'adventice peut contenir du tissu adipeux.",
+              "explication": "Composant cité par le cours."
+            },
+            {
+              "reponse": "La péri-adventice, tissu conjonctif lâche, rend possibles les mouvements pulsatiles permettant de percevoir le pouls.",
+              "explication": "Rôle de la péri-adventice."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le collagène de l'adventice est majoritairement de type IV, organisé en lame basale.",
+              "explication": "Majoritairement de type I, en trousseaux épais."
+            },
+            {
+              "reponse": "L'adventice est dépourvue de vaisseaux et de nerfs.",
+              "explication": "Elle contient les vasa vasorum et les nervi vasorum."
+            },
+            {
+              "reponse": "Les cellules résidentes de l'adventice sont les mastocytes.",
+              "explication": "Ce sont les fibroblastes ; les mastocytes sont migrateurs."
+            },
+            {
+              "reponse": "Les nervi vasorum sont des vaisseaux qui irriguent la paroi artérielle.",
+              "explication": "Ce sont des fibres nerveuses ; les vasa vasorum sont les vaisseaux."
+            },
+            {
+              "reponse": "La péri-adventice est un tissu conjonctif dense qui empêche les mouvements pulsatiles.",
+              "explication": "C'est un tissu conjonctif lâche qui rend possibles les mouvements pulsatiles."
+            },
+            {
+              "reponse": "L'adventice est formée de lames élastiques fenestrées concentriques.",
+              "explication": "Ce sont les caractéristiques de la média des artères élastiques."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Modes de terminaison des artères"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-022",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2018-2019",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant le mode de terminaison des artères, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Mode terminal (moins fréquent"
+          },
+          "bonnes": [
+            {
+              "reponse": "La terminaison des artères peut s'effectuer selon un mode anastomotique ou selon un mode terminal.",
+              "annale": true,
+              "explication": "Les 2 modes décrits par le cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans le mode terminal, chaque branche artérielle est indépendante de la branche voisine.",
+              "annale": true,
+              "explication": "Sans anastomose. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La terminaison des artères coronaires se fait selon un mode terminal.",
+              "annale": true,
+              "explication": "Cœur cité parmi les organes à mode terminal. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans le mode terminal, l'occlusion d'une branche entraîne ischémie, nécrose ou infarctus du territoire d'aval.",
+              "explication": "Aucune suppléance possible."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le mode terminal concerne la majorité des organes.",
+              "annale": true,
+              "explication": "Le mode anastomotique est le plus fréquent ; le mode terminal est moins fréquent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le cerveau a un mode de terminaison artérielle anastomotique.",
+              "explication": "Le cerveau a un mode terminal."
+            },
+            {
+              "reponse": "Dans le mode terminal, une suppléance par les branches voisines est possible.",
+              "explication": "Aucune suppléance n'est possible."
+            },
+            {
+              "reponse": "Le rein et la rate ont un mode de terminaison anastomotique.",
+              "explication": "Ils ont un mode terminal."
+            },
+            {
+              "reponse": "La peau et l'intestin ont un mode de terminaison terminal.",
+              "explication": "Ils ont un mode anastomotique."
+            },
+            {
+              "reponse": "Dans le mode anastomotique, l'occlusion d'une branche entraîne toujours un infarctus du territoire d'aval.",
+              "explication": "La suppléance par les autres branches évite les conséquences."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mode anastomotique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "chaque branche artérielle établit des connexions superficielles et profondes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le mode anastomotique est le mode de terminaison artérielle le plus fréquent.",
+              "explication": "Point sur lequel l'enseignant a insisté."
+            },
+            {
+              "reponse": "Dans le mode anastomotique, chaque branche artérielle établit des connexions superficielles et profondes avec d'autres branches.",
+              "explication": "Formation d'un réseau."
+            },
+            {
+              "reponse": "Dans le mode anastomotique, l'occlusion d'une branche par thrombose ou embolie est compensée par une suppléance des autres branches.",
+              "explication": "L'occlusion n'a pas de conséquence."
+            },
+            {
+              "reponse": "La suppléance du mode anastomotique se fait par des anastomoses entre artères.",
+              "explication": "Correction : il ne s'agit pas d'anastomoses artério-veineuses."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La suppléance du mode anastomotique se fait par des anastomoses artério-veineuses.",
+              "explication": "Erreur des notes corrigée : ce sont des anastomoses entre artères."
+            },
+            {
+              "reponse": "Le mode anastomotique est le mode de terminaison le moins fréquent.",
+              "explication": "C'est le plus fréquent."
+            },
+            {
+              "reponse": "Le mode anastomotique concerne typiquement le cœur et le cerveau.",
+              "explication": "Il concerne la peau et l'intestin ; cœur et cerveau ont un mode terminal."
+            },
+            {
+              "reponse": "Dans le mode anastomotique, l'occlusion d'une branche entraîne une nécrose du territoire d'aval.",
+              "explication": "La suppléance évite toute conséquence."
+            },
+            {
+              "reponse": "Le principal avantage du mode anastomotique est une distribution ordonnée et rapide sans aucune connexion entre branches.",
+              "explication": "C'est l'avantage décrit pour le mode terminal."
+            },
+            {
+              "reponse": "Dans le mode anastomotique, les branches artérielles sont toutes indépendantes les unes des autres.",
+              "explication": "C'est la définition du mode terminal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le réseau artériolo-capillaire et les anastomoses artério-veineuses, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "c'est le réseau artériolo-capillaire, mode le plus fréquent"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le réseau artériolo-capillaire est le mode le plus fréquent de jonction entre artères et capillaires.",
+              "explication": "Point d'insistance de l'enseignant."
+            },
+            {
+              "reponse": "Dans une anastomose artério-veineuse, une métartériole se jette dans une veinule en court-circuitant le réseau capillaire d'aval.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "L'ouverture d'une anastomose artério-veineuse est contrôlée par un sphincter musculaire lisse commandé par le système nerveux sympathique.",
+              "explication": "Mécanisme de contrôle."
+            },
+            {
+              "reponse": "Quand le sphincter de l'anastomose est relâché, le sang passe dans l'anastomose.",
+              "explication": "Quand il est contracté, le sang passe dans le réseau capillaire."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses s'observent notamment dans l'utérus, le pénis et le derme.",
+              "explication": "Localisations citées."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anastomoses artério-veineuses sont plus fréquentes que le réseau artériolo-capillaire.",
+              "explication": "Elles sont plus rares."
+            },
+            {
+              "reponse": "Le sphincter des anastomoses artério-veineuses est formé de muscle strié squelettique.",
+              "explication": "C'est un sphincter musculaire lisse."
+            },
+            {
+              "reponse": "Le sphincter des anastomoses artério-veineuses est commandé par le système nerveux parasympathique.",
+              "explication": "Il est commandé par le système nerveux sympathique."
+            },
+            {
+              "reponse": "Quand le sphincter de l'anastomose est contracté, le sang court-circuite le réseau capillaire.",
+              "explication": "Contracté, le sang passe dans le réseau capillaire."
+            },
+            {
+              "reponse": "Les échanges entre sang et tissus se font principalement au niveau des anastomoses artério-veineuses.",
+              "explication": "Ils se font au niveau du réseau artériolo-capillaire."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses n'interviennent pas dans l'érection.",
+              "explication": "L'érection fait partie de leurs rôles."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses s'observent typiquement dans le cerveau et la rétine.",
+              "explication": "Elles s'observent notamment dans l'utérus, le pénis et le derme."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les rôles des anastomoses artério-veineuses et des sphincters, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "régulation de la circulation tissulaire (locale), thermorégulation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les anastomoses artério-veineuses participent à la régulation de la circulation tissulaire locale.",
+              "explication": "Rôle cité."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses participent à la thermorégulation.",
+              "explication": "Rôle cité."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses interviennent dans la menstruation et l'érection.",
+              "explication": "Rôles cités."
+            },
+            {
+              "reponse": "Les glomi neuro-vasculaires du derme sont des anastomoses artério-veineuses.",
+              "explication": "Exemple du derme."
+            },
+            {
+              "reponse": "Les sphincters des anastomoses artério-veineuses présentent une contraction spasmodique et épisodique selon les besoins locaux.",
+              "explication": "Second type de contraction des myocytes vasculaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anastomoses artério-veineuses servent principalement aux échanges gazeux.",
+              "explication": "Les échanges se font dans les capillaires."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses relient directement deux capillaires entre eux.",
+              "explication": "Elles relient une artériole à une veinule."
+            },
+            {
+              "reponse": "Les sphincters des anastomoses artério-veineuses ont une contraction tonique permanente et partielle.",
+              "explication": "C'est le tonus du muscle lisse vasculaire ; les sphincters ont une contraction spasmodique et épisodique."
+            },
+            {
+              "reponse": "Les glomi neuro-vasculaires sont situés dans le muscle cardiaque.",
+              "explication": "Ils sont situés dans le derme."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses ne sont soumises à aucun contrôle nerveux.",
+              "explication": "Le sphincter est commandé par le système nerveux sympathique."
+            },
+            {
+              "reponse": "Les anastomoses artério-veineuses sont dépourvues de muscle lisse.",
+              "explication": "Elles possèdent un sphincter musculaire lisse."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le réseau capillaire supplémentaire (réseau admirable et systèmes portes), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "un vaisseau se résout brusquement en un réseau capillaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le glomérule de Malpighi du rein est un réseau capillaire situé entre 2 artérioles, afférente et efférente.",
+              "explication": "Type « entre 2 artérioles »."
+            },
+            {
+              "reponse": "Le capillaire glomérulaire permet l'ultrafiltration du sang pour former l'urine primitive.",
+              "explication": "Rôle du glomérule."
+            },
+            {
+              "reponse": "Les systèmes portes du foie et de l'adénohypophyse sont des réseaux capillaires situés entre 2 veinules.",
+              "explication": "Type « entre 2 veinules »."
+            },
+            {
+              "reponse": "Le système porte hépatique achemine vers le foie les nutriments absorbés par le tube digestif.",
+              "explication": "Acheminement sélectif."
+            },
+            {
+              "reponse": "Le réseau capillaire glomérulaire est situé en amont du réseau capillaire classique.",
+              "explication": "Alors que les systèmes portes sont en aval."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le glomérule de Malpighi est un réseau capillaire situé entre 2 veinules.",
+              "explication": "Il est situé entre 2 artérioles."
+            },
+            {
+              "reponse": "Le système porte hépatique est un réseau capillaire situé entre 2 artérioles.",
+              "explication": "Il est situé entre 2 veinules."
+            },
+            {
+              "reponse": "Le système porte hépatique est situé en amont du réseau capillaire classique.",
+              "explication": "Il est situé en aval."
+            },
+            {
+              "reponse": "Le système porte hypophysaire concerne la neurohypophyse.",
+              "explication": "Il concerne l'adénohypophyse."
+            },
+            {
+              "reponse": "Le glomérule de Malpighi est situé dans le foie.",
+              "explication": "Il est situé dans le rein."
+            },
+            {
+              "reponse": "Le système porte hépatique amène au foie le sang venant des reins.",
+              "explication": "Il amène les nutriments absorbés par le tube digestif."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Biologie, vascularisation et innervation artérielles"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les propriétés de l'endothélium artériel, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "L'endothélium intervient dans l'histophysiologie vasculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'endothélium a un rôle de barrière qui protège les tissus sous-jacents.",
+              "explication": "Tissu de revêtement."
+            },
+            {
+              "reponse": "L'endothélium a une perméabilité sélective qui module les échanges métaboliques et gazeux.",
+              "explication": "Propriété de l'endothélium."
+            },
+            {
+              "reponse": "L'endothélium synthétise les antigènes des groupes sanguins A et B.",
+              "explication": "Activité de synthèse."
+            },
+            {
+              "reponse": "L'endothélium synthétise la prostacycline, vasodilatatrice.",
+              "explication": "Activité de synthèse."
+            },
+            {
+              "reponse": "L'endothélium synthétise l'activateur du plasminogène, qui induit la fibrinolyse.",
+              "explication": "Activité de synthèse."
+            },
+            {
+              "reponse": "Toute altération morphologique ou fonctionnelle de l'endothélium favorise l'athérosclérose et la thrombose.",
+              "explication": "Conséquence pathologique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La prostacycline synthétisée par l'endothélium est vasoconstrictrice.",
+              "explication": "Elle est vasodilatatrice."
+            },
+            {
+              "reponse": "L'activateur du plasminogène synthétisé par l'endothélium inhibe la fibrinolyse.",
+              "explication": "Il induit la fibrinolyse."
+            },
+            {
+              "reponse": "L'endothélium est incapable de synthétiser du collagène.",
+              "explication": "Il synthétise du collagène de types III et IV."
+            },
+            {
+              "reponse": "L'endothélium est imperméable et ne participe pas aux échanges entre le sang et les tissus.",
+              "explication": "Il a une perméabilité sélective."
+            },
+            {
+              "reponse": "Une altération de l'endothélium protège contre l'athérosclérose.",
+              "explication": "Elle favorise l'athérosclérose."
+            },
+            {
+              "reponse": "L'endothélium ne participe pas à l'hémostase.",
+              "explication": "Il participe à l'hémostase et à la thrombose (facteur de von Willebrand)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les myocytes artériels, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "le tonus est une contraction permanente mais partielle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le tonus du muscle lisse vasculaire est une contraction permanente mais partielle.",
+              "explication": "Contraction tonique."
+            },
+            {
+              "reponse": "Le tonus varie selon la pression artérielle et les besoins nutritifs du territoire irrigué.",
+              "explication": "Facteurs de variation."
+            },
+            {
+              "reponse": "Les variations du tonus vasculaire influencent les résistances périphériques, principaux facteurs du maintien de la pression artérielle.",
+              "explication": "Retentissement des variations du tonus."
+            },
+            {
+              "reponse": "Le myocyte artériel est aussi une cellule sécrétrice, surtout chez l'embryon et le sujet jeune.",
+              "explication": "Propriété de synthèse."
+            },
+            {
+              "reponse": "Chez l'adulte, le myocyte artériel peut changer de phénotype, notamment dans l'athérosclérose.",
+              "explication": "Potentialité conservée."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le tonus du muscle lisse vasculaire est une contraction intermittente et totale.",
+              "explication": "Il est permanent et partiel."
+            },
+            {
+              "reponse": "Le myocyte artériel perd définitivement toute capacité de sécrétion chez l'adulte.",
+              "explication": "Cette potentialité est conservée chez l'adulte."
+            },
+            {
+              "reponse": "Le myocyte artériel ne sécrète ni collagène ni élastine.",
+              "explication": "Il sécrète collagène, élastine, glycosaminoglycanes, glycoprotéines, prostacycline, facteurs de croissance."
+            },
+            {
+              "reponse": "Les variations du tonus vasculaire n'ont pas d'effet sur le calibre et le débit sanguin.",
+              "explication": "Elles influencent le calibre, le débit et la distribution du sang."
+            },
+            {
+              "reponse": "La contraction spasmodique et épisodique est la contraction habituelle de toute la média artérielle.",
+              "explication": "Elle concerne les sphincters des anastomoses artério-veineuses."
+            },
+            {
+              "reponse": "Le myocyte artériel a un rôle sécréteur surtout chez le sujet âgé.",
+              "explication": "Surtout chez l'embryon et le sujet jeune."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rôle du collagène et des lames élastiques de la paroi artérielle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "la circulation sanguine est continue"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le collagène s'oppose à la dilatation excessive du tube vasculaire et évite la déchirure de la paroi.",
+              "explication": "Rôle du collagène."
+            },
+            {
+              "reponse": "Lors de la systole, les lames élastiques se dilatent et contrebalancent l'élévation excessive de la pression.",
+              "explication": "Rôle mécanique."
+            },
+            {
+              "reponse": "L'énergie accumulée par les fibres élastiques étirées est restituée lors de la diastole.",
+              "explication": "Propulsion du sang en aval."
+            },
+            {
+              "reponse": "Grâce aux lames élastiques, la circulation sanguine est continue alors que la contraction cardiaque est intermittente.",
+              "explication": "Conséquence physiologique."
+            },
+            {
+              "reponse": "Grâce à son armature élastique, une artère sectionnée garde une lumière béante, d'où une hémorragie massive.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'énergie accumulée par les lames élastiques est restituée lors de la systole.",
+              "explication": "Elle est restituée lors de la diastole."
+            },
+            {
+              "reponse": "Les lames élastiques se rétractent lors de la systole.",
+              "explication": "Elles se dilatent lors de la systole."
+            },
+            {
+              "reponse": "La circulation sanguine artérielle est intermittente, comme la contraction cardiaque.",
+              "explication": "Elle est continue grâce aux lames élastiques."
+            },
+            {
+              "reponse": "Le collagène favorise la dilatation excessive de la paroi artérielle.",
+              "explication": "Il s'y oppose."
+            },
+            {
+              "reponse": "Une artère sectionnée se collabe immédiatement, ce qui limite l'hémorragie.",
+              "explication": "La lumière reste béante, d'où une hémorragie massive."
+            },
+            {
+              "reponse": "Les lames élastiques n'ont aucun rôle mécanique.",
+              "explication": "Elles ont un rôle mécanique et de soutien."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la nutrition de la paroi artérielle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "La nutrition de la paroi artérielle est bipolaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La nutrition de la paroi artérielle est bipolaire.",
+              "explication": "Sang circulant et vasa vasorum."
+            },
+            {
+              "reponse": "Le sang circulant nourrit l'intima et la média.",
+              "explication": "Nutrition intraluminale."
+            },
+            {
+              "reponse": "Les vasa vasorum sont présents dans les vaisseaux de diamètre supérieur à 200 micromètres.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Dans les vaisseaux de moins de 200 micromètres, la nutrition se fait à partir du sang circulant.",
+              "explication": "Absence de vasa vasorum."
+            },
+            {
+              "reponse": "Dans l'aorte, les vasa vasorum irriguent aussi le tiers externe de la média.",
+              "explication": "Grosses artères."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les vasa vasorum sont présents dans tous les vaisseaux, quel que soit leur diamètre.",
+              "explication": "Seulement au-delà de 200 µm."
+            },
+            {
+              "reponse": "Les vasa vasorum sont présents dans les vaisseaux de diamètre supérieur à 200 millimètres.",
+              "explication": "Mauvaise unité : 200 micromètres."
+            },
+            {
+              "reponse": "Le sang circulant ne nourrit que l'adventice.",
+              "explication": "Il nourrit l'intima et la média."
+            },
+            {
+              "reponse": "Dans l'aorte, les vasa vasorum irriguent l'intima.",
+              "explication": "Ils irriguent l'adventice et le tiers externe de la média."
+            },
+            {
+              "reponse": "La nutrition de la paroi artérielle est assurée uniquement par les vasa vasorum.",
+              "explication": "Elle est bipolaire."
+            },
+            {
+              "reponse": "Les vasa vasorum sont situés dans l'intima.",
+              "explication": "Ils sont situés dans l'adventice."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'innervation de la paroi artérielle (nervi vasorum), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Les nervi vasorum sont des fibres nerveuses autonomes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les nervi vasorum sont des fibres nerveuses autonomes, motrices et sensitives.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "La plupart des fibres vasomotrices sont sympathiques et vasoconstrictrices.",
+              "explication": "Fibres vasomotrices."
+            },
+            {
+              "reponse": "Certaines artères reçoivent des fibres parasympathiques vasodilatatrices.",
+              "explication": "Fibres vasomotrices."
+            },
+            {
+              "reponse": "L'innervation sensitive artérielle intervient dans la baroréception, au niveau du sinus carotidien et de la crosse aortique.",
+              "explication": "Baroréception."
+            },
+            {
+              "reponse": "Le corpuscule carotidien intervient dans la chémoréception.",
+              "explication": "Chémoréception (avec la crosse aortique)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La plupart des fibres vasomotrices sont parasympathiques et vasoconstrictrices.",
+              "explication": "Elles sont sympathiques."
+            },
+            {
+              "reponse": "Les fibres sympathiques vasomotrices sont vasodilatatrices.",
+              "explication": "Elles sont vasoconstrictrices."
+            },
+            {
+              "reponse": "Les nervi vasorum sont des fibres somatiques volontaires.",
+              "explication": "Ce sont des fibres autonomes (végétatives)."
+            },
+            {
+              "reponse": "Les nervi vasorum sont uniquement moteurs.",
+              "explication": "Ils sont moteurs et sensitifs."
+            },
+            {
+              "reponse": "Le corpuscule carotidien intervient dans la baroréception.",
+              "explication": "Il intervient dans la chémoréception ; c'est le sinus carotidien qui est barorécepteur."
+            },
+            {
+              "reponse": "Les fibres vasomotrices n'ont aucun effet sur le calibre vasculaire.",
+              "explication": "Elles contrôlent le calibre vasculaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les microvaisseaux"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-032",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2023-2024",
+                "qcm": 13
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2021-2022",
+                "qcm": 18
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2020-2021",
+                "qcm": 19
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2019-2020",
+                "qcm": 11
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2018-2019",
+                "qcm": 11
+              }
+            ]
+          },
+          "question": "Concernant les capillaires sanguins, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "La microscopie électronique distingue 3 types"
+          },
+          "bonnes": [
+            {
+              "reponse": "On distingue 3 types de capillaires : continus, fenestrés et discontinus.",
+              "annale": true,
+              "explication": "Classification en microscopie électronique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires continus sont les plus nombreux.",
+              "annale": true,
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires cérébraux sont des capillaires continus.",
+              "annale": true,
+              "explication": "Barrière hémato-encéphalique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des capillaires peuvent être disposés entre deux artérioles.",
+              "annale": true,
+              "explication": "Glomérule de Malpighi du rein. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des capillaires peuvent être disposés entre deux veinules.",
+              "annale": true,
+              "explication": "Systèmes portes du foie et de l'adénohypophyse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires continus sont pourvus de péricytes.",
+              "annale": true,
+              "explication": "Leurs péricytes sont nombreux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi des capillaires est fine, réduite à un endothélium.",
+              "annale": true,
+              "explication": "Les capillaires font exception à la structure à 3 tuniques. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La paroi des capillaires contient des cellules musculaires lisses.",
+              "annale": true,
+              "explication": "Paroi = endothélium + membrane basale ± péricytes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires sinusoïdes hépatiques sont des capillaires continus.",
+              "annale": true,
+              "explication": "Ce sont des capillaires discontinus. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires ne sont pas impliqués dans le contrôle du débit sanguin.",
+              "annale": true,
+              "explication": "Sphincters précapillaires, anastomoses et tonus artériolaire contrôlent leur débit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "On distingue seulement 2 types de capillaires : continus et discontinus.",
+              "annale": true,
+              "explication": "Il existe aussi les capillaires fenestrés. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires cérébraux sont de type sinusoïde (discontinus).",
+              "annale": true,
+              "explication": "Ce sont des capillaires continus ; il n'existe pas de sinusoïdes cérébraux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires continus desservent les organes où les échanges liquidiens sont rapides.",
+              "annale": true,
+              "explication": "Ce sont les capillaires fenestrés. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les capillaires discontinus sont les plus nombreux.",
+              "annale": true,
+              "explication": "Ils sont nettement moins fréquents ; les continus sont les plus nombreux. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les artérioles, les veinules et les capillaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "diamètre inférieur à 100 micromètres"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les artérioles ont un diamètre inférieur à 100 micromètres.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Les artérioles ont une limitante élastique interne fine et discontinue.",
+              "explication": "Version retenue (diapositive n°16)."
+            },
+            {
+              "reponse": "Les veinules ont un calibre de 30 à 100 micromètres.",
+              "explication": "Veinules post-capillaires."
+            },
+            {
+              "reponse": "Les veinules ont une lumière plus large et une paroi plus mince que l'artériole correspondante.",
+              "explication": "Comparaison du cours."
+            },
+            {
+              "reponse": "Les capillaires sont des tubes endothéliaux de 7-8 à 14 micromètres de calibre.",
+              "explication": "Calibre des capillaires."
+            },
+            {
+              "reponse": "La membrane basale des capillaires peut se dédoubler pour engainer des péricytes.",
+              "explication": "Couche périthéliale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les artérioles ont un diamètre supérieur à 1 millimètre.",
+              "explication": "Diamètre inférieur à 100 µm."
+            },
+            {
+              "reponse": "La média des artérioles compte 10 à 40 couches musculaires.",
+              "explication": "1 à 3 couches."
+            },
+            {
+              "reponse": "La paroi des veinules est plus riche en fibres élastiques et plus pauvre en collagène que celle des artérioles.",
+              "explication": "C'est l'inverse : plus riche en collagène, plus pauvre en fibres élastiques."
+            },
+            {
+              "reponse": "Les capillaires ont un calibre de 7-8 à 14 millimètres.",
+              "explication": "Mauvaise unité : micromètres."
+            },
+            {
+              "reponse": "Les veinules ont une paroi plus épaisse que l'artériole correspondante.",
+              "explication": "Leur paroi est plus mince."
+            },
+            {
+              "reponse": "Les artérioles sont dépourvues d'adventice.",
+              "explication": "Leur adventice est réduite mais présente."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-034",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les capillaires continus, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Ce sont les plus fréquents. Leur endothélium est continu"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'endothélium des capillaires continus est formé de cellules jointives, sans perforation.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "Les capillaires continus ont une lame basale continue.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Le cytoplasme endothélial des capillaires continus contient de nombreuses vésicules de pinocytose.",
+              "explication": "Transport transcellulaire."
+            },
+            {
+              "reponse": "Les péricytes protègent les cellules endothéliales et assurent leur renouvellement.",
+              "explication": "Rôle du péricyte."
+            },
+            {
+              "reponse": "On trouve des capillaires continus dans la peau, les muscles, le poumon et le cerveau.",
+              "explication": "Localisation des capillaires continus (correction des notes)."
+            },
+            {
+              "reponse": "Les capillaires continus cérébraux, thymiques, placentaires et rétiniens ont des jonctions de type zonula occludens.",
+              "explication": "Capillaires de barrière."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La liste « peau, muqueuses, placenta, muscles, poumon, cerveau, rétine » correspond à la localisation des péricytes.",
+              "explication": "Erreur des notes corrigée : c'est la localisation des capillaires continus."
+            },
+            {
+              "reponse": "L'endothélium des capillaires continus est percé de pores de 20 à 100 nanomètres.",
+              "explication": "Ce sont les capillaires fenestrés."
+            },
+            {
+              "reponse": "Les capillaires continus ont une lame basale discontinue.",
+              "explication": "Elle est continue."
+            },
+            {
+              "reponse": "Les capillaires continus sont dépourvus de péricytes.",
+              "explication": "Leurs péricytes sont nombreux."
+            },
+            {
+              "reponse": "Les capillaires continus sont les capillaires les moins fréquents.",
+              "explication": "Ce sont les plus fréquents."
+            },
+            {
+              "reponse": "Le péricyte est une cellule musculaire striée entourant le capillaire.",
+              "explication": "Il présente des similitudes avec myocytes, fibroblastes et cellules endothéliales."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la barrière hémato-encéphalique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "Les capillaires cérébraux de la barrière"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les capillaires cérébraux de la barrière hémato-encéphalique sont des capillaires continus.",
+              "explication": "Description de la diapositive n°18."
+            },
+            {
+              "reponse": "Les capillaires cérébraux ont des jonctions serrées de type zonula occludens.",
+              "explication": "Jonctions de barrière."
+            },
+            {
+              "reponse": "Le capillaire cérébral est engainé par les prolongements cytoplasmiques d'astrocytes protoplasmiques.",
+              "explication": "Schéma de la diapositive n°18."
+            },
+            {
+              "reponse": "Les capillaires cérébraux font partie des capillaires de barrière, avec les capillaires rétiniens, thymiques et placentaires.",
+              "explication": "Rôles de barrière."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les capillaires cérébraux sont des capillaires fenestrés.",
+              "explication": "Ils sont continus."
+            },
+            {
+              "reponse": "Les capillaires cérébraux sont des capillaires sinusoïdes.",
+              "explication": "Ils sont continus."
+            },
+            {
+              "reponse": "Les jonctions des capillaires cérébraux sont principalement de type macula occludens.",
+              "explication": "Elles sont de type zonula occludens."
+            },
+            {
+              "reponse": "Le capillaire cérébral est engainé par les prolongements de neurones.",
+              "explication": "Par les prolongements d'astrocytes protoplasmiques."
+            },
+            {
+              "reponse": "La barrière hémato-encéphalique repose sur une lame basale discontinue.",
+              "explication": "Les capillaires continus ont une lame basale continue."
+            },
+            {
+              "reponse": "Les capillaires cérébraux laissent passer des cellules entières entre leurs cellules endothéliales.",
+              "explication": "C'est le propre des sinusoïdes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les capillaires fenestrés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "dans les régions d'échanges liquidiens rapides"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules endothéliales des capillaires fenestrés sont percées de pores arrondis de 20 à 100 nanomètres de diamètre.",
+              "explication": "Taille des pores."
+            },
+            {
+              "reponse": "Les capillaires fenestrés ont une lame basale continue.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Les capillaires fenestrés ont peu de vésicules de pinocytose et peu de péricytes.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Un pore ouvert laisse passer l'eau et les macromolécules.",
+              "explication": "Pore ouvert."
+            },
+            {
+              "reponse": "Les capillaires fenestrés se trouvent dans les régions d'échanges liquidiens rapides, comme le glomérule rénal.",
+              "explication": "Localisation."
+            },
+            {
+              "reponse": "On trouve des capillaires fenestrés dans les villosités intestinales, les ganglions lymphatiques et les plexus choroïdes.",
+              "explication": "Localisation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les capillaires fenestrés ont une lame basale discontinue.",
+              "explication": "Elle est continue."
+            },
+            {
+              "reponse": "Les pores des capillaires fenestrés mesurent 20 à 100 micromètres de diamètre.",
+              "explication": "Mauvaise unité : nanomètres."
+            },
+            {
+              "reponse": "Les capillaires fenestrés sont riches en vésicules de pinocytose et en péricytes.",
+              "explication": "Ils en ont peu."
+            },
+            {
+              "reponse": "Un pore fermé par un diaphragme laisse passer les macromolécules.",
+              "explication": "Seulement l'eau et les petites molécules."
+            },
+            {
+              "reponse": "Les capillaires fenestrés sont typiques de la barrière hémato-encéphalique.",
+              "explication": "Les capillaires cérébraux sont continus."
+            },
+            {
+              "reponse": "Les capillaires fenestrés sont plus nombreux que les capillaires continus.",
+              "explication": "Ils sont moins nombreux."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les capillaires sinusoïdes ou discontinus, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "ils se trouvent dans le foie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les capillaires sinusoïdes sont nettement moins fréquents que les capillaires continus.",
+              "explication": "Point d'insistance de l'enseignant."
+            },
+            {
+              "reponse": "Les capillaires sinusoïdes se trouvent dans le foie, la rate et la moelle osseuse.",
+              "explication": "Localisation."
+            },
+            {
+              "reponse": "La lumière des capillaires sinusoïdes est très large (20 à 40 micromètres) et irrégulière.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Les capillaires sinusoïdes sont bordés de cellules endothéliales et de macrophages non jointifs.",
+              "explication": "Paroi discontinue."
+            },
+            {
+              "reponse": "Les capillaires sinusoïdes sont dépourvus de péricytes.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Un réseau de réticuline (collagène de type III) forme la charpente des sinusoïdes.",
+              "explication": "Charpente."
+            },
+            {
+              "reponse": "Des cellules entières peuvent traverser la paroi des sinusoïdes dans les 2 sens.",
+              "explication": "Cellules non jointives."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La lame basale des capillaires sinusoïdes est continue.",
+              "explication": "Elle est discontinue, voire absente."
+            },
+            {
+              "reponse": "Les capillaires sinusoïdes possèdent de nombreux péricytes.",
+              "explication": "Ils n'en ont pas."
+            },
+            {
+              "reponse": "La lumière des capillaires sinusoïdes mesure 7 à 8 micromètres.",
+              "explication": "Elle est très large : 20 à 40 µm."
+            },
+            {
+              "reponse": "Les cellules endothéliales des sinusoïdes sont reliées par des jonctions serrées de type zonula occludens.",
+              "explication": "Les cellules ne sont pas jointives."
+            },
+            {
+              "reponse": "Le réseau de réticuline des sinusoïdes est formé de collagène de type I.",
+              "explication": "La réticuline est du collagène de type III."
+            },
+            {
+              "reponse": "Les capillaires sinusoïdes se trouvent typiquement dans le cerveau et la rétine.",
+              "explication": "Ils se trouvent dans le foie, la rate et la moelle osseuse."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les sinusoïdes hépatiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "les sinusoïdes hépatiques sont situés entre les travées"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les sinusoïdes hépatiques sont situés entre les travées d'hépatocytes.",
+              "explication": "Organisation du foie."
+            },
+            {
+              "reponse": "Les cellules de Kupffer sont les macrophages des sinusoïdes hépatiques.",
+              "explication": "Cellules de Kupffer."
+            },
+            {
+              "reponse": "Les cellules de Ito sont des cellules péri-sinusoïdales qui stockent la vitamine A et les lipides.",
+              "explication": "Cellules de Ito."
+            },
+            {
+              "reponse": "Les cellules de Ito sont situées dans l'espace de Disse, entre l'endothélium et les hépatocytes.",
+              "explication": "Schéma de la diapositive n°21."
+            },
+            {
+              "reponse": "Des fibres de réticuline constituent la charpente du foie entre les travées et les sinusoïdes.",
+              "explication": "Charpente hépatique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules de Kupffer stockent la vitamine A et les lipides.",
+              "explication": "Ce sont les cellules de Ito ; les cellules de Kupffer sont des macrophages."
+            },
+            {
+              "reponse": "Les cellules de Ito sont les macrophages du foie.",
+              "explication": "Ce sont les cellules de Kupffer."
+            },
+            {
+              "reponse": "Les sinusoïdes hépatiques sont des capillaires fenestrés à lame basale continue.",
+              "explication": "Ce sont des capillaires discontinus."
+            },
+            {
+              "reponse": "L'espace de Disse est situé entre deux travées d'hépatocytes adjacentes, sans contact avec l'endothélium.",
+              "explication": "Il est situé entre l'endothélium et les hépatocytes."
+            },
+            {
+              "reponse": "Les cellules de Ito stockent la vitamine K.",
+              "explication": "Elles stockent la vitamine A."
+            },
+            {
+              "reponse": "Les sinusoïdes hépatiques sont bordés d'un endothélium continu sans perforation.",
+              "explication": "L'endothélium est discontinu."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le contrôle du débit dans les capillaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "La pression intracapillaire est modulée par le"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ouverture et la fermeture des anastomoses artério-veineuses participent au contrôle du débit capillaire.",
+              "explication": "Moyen de contrôle."
+            },
+            {
+              "reponse": "Les modifications du tonus musculaire de l'artériole terminale et de la veinule collectrice modulent le débit capillaire.",
+              "explication": "Moyen de contrôle."
+            },
+            {
+              "reponse": "Les sphincters précapillaires participent au contrôle du débit sanguin capillaire.",
+              "explication": "Moyen de contrôle."
+            },
+            {
+              "reponse": "Le système nerveux sympathique est vasoconstricteur.",
+              "explication": "Modulation de la pression intracapillaire."
+            },
+            {
+              "reponse": "L'histamine et les prostaglandines sont vasodilatatrices.",
+              "explication": "Modulation de la pression intracapillaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le système nerveux sympathique est vasodilatateur au niveau de la microcirculation.",
+              "explication": "Il est vasoconstricteur."
+            },
+            {
+              "reponse": "L'histamine est vasoconstrictrice.",
+              "explication": "Elle est vasodilatatrice."
+            },
+            {
+              "reponse": "Les prostaglandines sont vasoconstrictrices.",
+              "explication": "Elles sont vasodilatatrices."
+            },
+            {
+              "reponse": "Les sphincters précapillaires sont situés à la terminaison veineuse des capillaires.",
+              "explication": "Ils sont à l'origine des capillaires, sur l'artériole précapillaire."
+            },
+            {
+              "reponse": "Le débit capillaire est fixe et ne peut pas être modulé.",
+              "explication": "Il est modulé par plusieurs mécanismes."
+            },
+            {
+              "reponse": "Le tonus de l'artériole terminale n'a aucun effet sur le calibre des capillaires.",
+              "explication": "Il retentit sur le calibre et le débit des capillaires."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les échanges transendothéliaux capillaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "La réabsorption est toujours inférieure à la filtration"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la partie artérielle du capillaire, la pression hydrostatique l'emporte sur la pression osmotique du plasma.",
+              "explication": "D'où la filtration."
+            },
+            {
+              "reponse": "Dans la portion veineuse du capillaire, la pression osmotique du plasma l'emporte : le liquide revient vers le sang.",
+              "explication": "Réabsorption."
+            },
+            {
+              "reponse": "La réabsorption est toujours inférieure à la filtration.",
+              "explication": "Point d'insistance de l'enseignant."
+            },
+            {
+              "reponse": "L'excès de liquide et de protéines filtrés est éliminé par les capillaires lymphatiques.",
+              "explication": "Rôle des lymphatiques."
+            },
+            {
+              "reponse": "La lymphe initiale est du liquide interstitiel légèrement enrichi en protéines.",
+              "explication": "Composition de la lymphe initiale."
+            },
+            {
+              "reponse": "La pression hydrostatique est une force d'expulsion, la pression osmotique une force de rétention.",
+              "explication": "Définitions."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La réabsorption est toujours supérieure à la filtration.",
+              "explication": "Elle est toujours inférieure."
+            },
+            {
+              "reponse": "La réabsorption est toujours égale à la filtration.",
+              "explication": "Elle est toujours inférieure ; l'excès est drainé par les lymphatiques."
+            },
+            {
+              "reponse": "Dans la partie artérielle du capillaire, la pression osmotique l'emporte, d'où une réabsorption.",
+              "explication": "Côté artériel : filtration."
+            },
+            {
+              "reponse": "Dans la portion veineuse du capillaire, la pression hydrostatique l'emporte, d'où une filtration.",
+              "explication": "Côté veineux : réabsorption."
+            },
+            {
+              "reponse": "La filtration capillaire ne laisse passer aucune protéine plasmatique.",
+              "explication": "Un peu de protéines plasmatiques passe."
+            },
+            {
+              "reponse": "La pression osmotique est une force d'expulsion du liquide hors du capillaire.",
+              "explication": "C'est une force de rétention."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les rôles de barrière des capillaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "barrière air/sang au niveau des capillaires pulmonaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les capillaires cérébraux forment la barrière hémato-encéphalique.",
+              "explication": "Barrière de protection."
+            },
+            {
+              "reponse": "Les capillaires rétiniens, thymiques et placentaires ont un rôle de barrière de protection.",
+              "explication": "Barrières citées."
+            },
+            {
+              "reponse": "Les capillaires pulmonaires de l'hématose forment une barrière air/sang.",
+              "explication": "Barrière citée."
+            },
+            {
+              "reponse": "Au niveau du testicule, il existe une barrière sang/tubes séminifères.",
+              "explication": "Barrière citée."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les capillaires sinusoïdes de la rate forment une barrière hémato-splénique imperméable.",
+              "explication": "Les sinusoïdes laissent passer des cellules entières."
+            },
+            {
+              "reponse": "La barrière air/sang se situe au niveau des capillaires glomérulaires.",
+              "explication": "Elle se situe au niveau des capillaires pulmonaires de l'hématose."
+            },
+            {
+              "reponse": "La barrière hémato-encéphalique est formée de capillaires fenestrés.",
+              "explication": "Elle est formée de capillaires continus."
+            },
+            {
+              "reponse": "Les capillaires ont un rôle d'échange mais jamais de rôle de barrière.",
+              "explication": "Ils sont à la fois lieu d'échange et barrière de protection."
+            },
+            {
+              "reponse": "La barrière sang/tubes séminifères se situe au niveau de l'ovaire.",
+              "explication": "Elle se situe au niveau du testicule."
+            },
+            {
+              "reponse": "Les capillaires thymiques sont des capillaires sinusoïdes très perméables.",
+              "explication": "Ce sont des capillaires de barrière (continus à zonula occludens)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les veines"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-042",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2024-2025",
+                "qcm": 27
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2023-2024",
+                "qcm": 14
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2022-2023",
+                "qcm": 14
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2019-2020",
+                "qcm": 9
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2018-2019",
+                "qcm": 12
+              }
+            ]
+          },
+          "question": "Concernant les veines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "La lumière est plus large"
+          },
+          "bonnes": [
+            {
+              "reponse": "La lumière veineuse est plus large que celle de l'artère correspondante.",
+              "annale": true,
+              "explication": "Comparaison du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi veineuse est plus mince que celle des artères correspondantes.",
+              "annale": true,
+              "explication": "Comparaison du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi veineuse comporte 3 tuniques.",
+              "annale": true,
+              "explication": "Les 3 mêmes tuniques que les artères, en proportions différentes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La défaillance des valvules veineuses est cause de varices.",
+              "annale": true,
+              "explication": "La déficience valvulaire est le mécanisme des varices (dilatations veineuses). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La contraction active des veines facilite le retour veineux des parties inférieures du corps.",
+              "annale": true,
+              "explication": "1er des 4 facteurs du retour veineux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi veineuse contient plus de collagène que celle des artères correspondantes.",
+              "annale": true,
+              "explication": "Paroi plus riche en collagène. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le réseau veineux contient moins de 50 % du volume sanguin.",
+              "annale": true,
+              "explication": "Les veines contiennent 70 à 80 % du volume sanguin. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi veineuse est plus épaisse que celle des artères correspondantes.",
+              "annale": true,
+              "explication": "Elle est plus mince. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les valvules veineuses ne sont jamais présentes.",
+              "annale": true,
+              "explication": "Elles existent dans les veines de plus de 1-2 mm. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La média veineuse ne contient pas de cellules musculaires lisses.",
+              "annale": true,
+              "explication": "Elle en contient, en quantité moindre que l'artère. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi veineuse comporte seulement deux tuniques.",
+              "annale": true,
+              "explication": "Elle en comporte 3. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi veineuse contient plus de tissu élastique que celle des artères correspondantes.",
+              "annale": true,
+              "explication": "Moins de fibres élastiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La paroi veineuse contient plus de myocytes que celle des artères correspondantes.",
+              "annale": true,
+              "explication": "Moins de myocytes. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-043",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la structure et l'hémodynamique veineuses, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "La paroi est donc plus déformable et moins extensible"
+          },
+          "bonnes": [
+            {
+              "reponse": "70 à 80 % du volume sanguin est contenu dans les veines.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "La paroi veineuse est plus déformable et moins extensible que la paroi artérielle.",
+              "explication": "Comparaison « élastique » / « pâte à modeler »."
+            },
+            {
+              "reponse": "La circulation veineuse est lente, à basse pression et contre la pesanteur.",
+              "explication": "Hémodynamique veineuse."
+            },
+            {
+              "reponse": "La média veineuse est mince, formée de quelques couches musculaires.",
+              "explication": "Comparaison avec l'artère musculaire (diapositive n°23)."
+            },
+            {
+              "reponse": "L'adventice veineuse est épaisse et riche en collagène.",
+              "explication": "Schéma comparatif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La paroi veineuse est plus extensible que la paroi artérielle, comme un élastique.",
+              "explication": "C'est l'artère qui est comparée à un élastique ; la veine, à de la pâte à modeler."
+            },
+            {
+              "reponse": "La circulation veineuse est rapide et à haute pression.",
+              "explication": "Elle est lente et à basse pression."
+            },
+            {
+              "reponse": "Les veines contiennent environ 20 à 30 % du volume sanguin.",
+              "explication": "70 à 80 %."
+            },
+            {
+              "reponse": "La média veineuse est plus épaisse que celle de l'artère musculaire correspondante.",
+              "explication": "Elle est mince (quelques couches musculaires)."
+            },
+            {
+              "reponse": "La paroi veineuse est plus riche en fibres élastiques que la paroi artérielle.",
+              "explication": "Elle en contient moins."
+            },
+            {
+              "reponse": "L'adventice veineuse est plus fine que celle de l'artère correspondante et dépourvue de vaisseaux.",
+              "explication": "Elle est épaisse et contient des vaisseaux et un nerf."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les valvules veineuses, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "il existe des valvules veineuses, opposées par paire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Des valvules veineuses existent dans les veines de diamètre supérieur à 1-2 millimètres.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Les valvules veineuses sont des replis semi-lunaires de l'intima.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "Les valvules veineuses renferment un axe conjonctivo-élastique et sont recouvertes d'endothélium.",
+              "explication": "Structure."
+            },
+            {
+              "reponse": "Les valvules veineuses sont opposées par paire.",
+              "explication": "Disposition."
+            },
+            {
+              "reponse": "Un renforcement musculaire lisse situé à la base des valvules consolide le système anti-reflux.",
+              "explication": "Renforcement musculaire."
+            },
+            {
+              "reponse": "Les valvules veineuses empêchent le retour en arrière de la colonne sanguine.",
+              "explication": "Rôle anti-reflux."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les valvules veineuses sont des replis de l'adventice.",
+              "explication": "Ce sont des replis de l'intima."
+            },
+            {
+              "reponse": "Les valvules veineuses sont présentes dans toutes les veinules post-capillaires.",
+              "explication": "Elles existent dans les veines de plus de 1-2 mm."
+            },
+            {
+              "reponse": "Les valvules veineuses sont des replis de la média riches en muscle strié.",
+              "explication": "Replis de l'intima ; le renforcement à leur base est musculaire lisse."
+            },
+            {
+              "reponse": "Les valvules veineuses sont dépourvues d'endothélium.",
+              "explication": "Elles sont recouvertes d'endothélium."
+            },
+            {
+              "reponse": "Les valvules veineuses favorisent le reflux du sang vers les pieds.",
+              "explication": "Elles empêchent le reflux."
+            },
+            {
+              "reponse": "Les valvules veineuses sont typiquement présentes dans les veines sus-cardiaques.",
+              "explication": "L'enseignant cite les veines sous-cardiaques."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-045",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la remontée du courant veineux des parties inférieures, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "Le courant veineux des parties inférieures remonte malgré la pesanteur"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction active des veines, liée au tonus des cellules musculaires lisses, favorise la remontée du sang veineux.",
+              "explication": "1er facteur."
+            },
+            {
+              "reponse": "Le massage par les muscles des membres en mouvement favorise la remontée du sang veineux.",
+              "explication": "2e facteur."
+            },
+            {
+              "reponse": "Le massage musculaire est un mécanisme plus important que la contraction active des veines.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "La pression négative créée dans le thorax lors de l'inspiration attire le sang veineux.",
+              "explication": "3e facteur."
+            },
+            {
+              "reponse": "La diastole cardiaque exerce un effet « pompe » sur le retour veineux.",
+              "explication": "4e facteur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'expiration crée dans le thorax une pression négative qui attire le sang veineux.",
+              "explication": "C'est l'inspiration."
+            },
+            {
+              "reponse": "La systole cardiaque exerce un effet « pompe » sur le retour veineux.",
+              "explication": "C'est la diastole."
+            },
+            {
+              "reponse": "Au repos, la pression orthostatique ouvre les valvules veineuses normales.",
+              "explication": "Elle les ferme."
+            },
+            {
+              "reponse": "La contraction active des veines est le mécanisme le plus important du retour veineux, avant le massage musculaire.",
+              "explication": "Le massage musculaire est plus important (oral)."
+            },
+            {
+              "reponse": "Le courant veineux remonte grâce à 2 facteurs seulement.",
+              "explication": "4 facteurs."
+            },
+            {
+              "reponse": "Une valvule déficiente diminue la pression dans la veine et protège les valvules d'amont.",
+              "explication": "Le reflux dilate la veine et altère la continence des valvules d'amont (cercle vicieux)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-046",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la nutrition de la paroi veineuse, la diapédèse et les varices, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "La diapédèse se fait au niveau des veinules post-capillaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les vasa vasorum sont beaucoup plus nombreux dans l'adventice des veines que dans celle des artères.",
+              "explication": "Pour compenser la faible teneur en oxygène du sang veineux."
+            },
+            {
+              "reponse": "L'adventice des veines contient plus de lymphatiques, voie de dissémination cancéreuse.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La diapédèse se fait au niveau des veinules post-capillaires.",
+              "explication": "Migration des cellules immunocompétentes."
+            },
+            {
+              "reponse": "Les varices sont des dilatations veineuses.",
+              "explication": "Précision de vigilance du cours."
+            },
+            {
+              "reponse": "Une valvule déficiente entraîne un reflux, une dilatation veineuse et une altération de la continence des valvules d'amont.",
+              "explication": "Cercle vicieux (diapositive n°25)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La diapédèse se fait au niveau des artérioles précapillaires.",
+              "explication": "Au niveau des veinules post-capillaires."
+            },
+            {
+              "reponse": "Les vasa vasorum sont moins nombreux dans les veines que dans les artères car le sang veineux est riche en oxygène.",
+              "explication": "Ils sont plus nombreux, car le sang veineux est pauvre en oxygène."
+            },
+            {
+              "reponse": "L'adventice des veines est dépourvue de lymphatiques.",
+              "explication": "Elle en contient plus que celle des artères."
+            },
+            {
+              "reponse": "La diapédèse est la migration des hématies vers le tissu interstitiel.",
+              "explication": "Elle concerne les cellules immunocompétentes (macrophages, lymphocytes, leucocytes)."
+            },
+            {
+              "reponse": "Les varices sont des rétrécissements veineux.",
+              "explication": "Ce sont des dilatations veineuses."
+            },
+            {
+              "reponse": "Le reflux sur valvule déficiente améliore la continence des valvules situées en amont.",
+              "explication": "Il l'altère (aggravation)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'appareil lymphatique"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'organisation de l'appareil lymphatique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "L'appareil lymphatique est une circulation centripète"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'appareil lymphatique est une circulation centripète.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "Le liquide interstitiel est drainé par des capillaires lymphatiques à extrémité borgne.",
+              "explication": "Début du réseau lymphatique."
+            },
+            {
+              "reponse": "Des ganglions sont interposés sur les vaisseaux lymphatiques collecteurs.",
+              "explication": "Organisation."
+            },
+            {
+              "reponse": "Le canal thoracique est situé à gauche.",
+              "explication": "Le canal lymphatique droit est à droite."
+            },
+            {
+              "reponse": "La lymphe rejoint la circulation veineuse au niveau des veines subclavières gauche et droite.",
+              "explication": "Abouchement."
+            },
+            {
+              "reponse": "Le système lymphatique est un système vasculaire unidirectionnel : tissus, veines, cœur.",
+              "explication": "Définition de la diapositive n°26."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'appareil lymphatique est une circulation centrifuge partant du cœur.",
+              "explication": "Elle est centripète."
+            },
+            {
+              "reponse": "La lymphe rejoint la circulation artérielle au niveau de l'aorte.",
+              "explication": "Elle rejoint les veines subclavières."
+            },
+            {
+              "reponse": "Le canal thoracique est situé à droite.",
+              "explication": "Il est à gauche."
+            },
+            {
+              "reponse": "Les capillaires lymphatiques sont ouverts à leurs deux extrémités.",
+              "explication": "Ils ont une extrémité borgne."
+            },
+            {
+              "reponse": "Les ganglions lymphatiques sont situés en amont des capillaires lymphatiques.",
+              "explication": "Ils sont interposés sur les vaisseaux collecteurs."
+            },
+            {
+              "reponse": "Le système lymphatique est un système bidirectionnel.",
+              "explication": "Il est unidirectionnel."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la composition de la lymphe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "la lymphe s'enrichit en lipides"
+          },
+          "bonnes": [
+            {
+              "reponse": "La lymphe s'enrichit en lipides provenant de l'absorption intestinale.",
+              "explication": "Chylomicrons."
+            },
+            {
+              "reponse": "Les chylomicrons, issus des entérocytes, gagnent les chylifères.",
+              "explication": "Voie d'absorption des lipides."
+            },
+            {
+              "reponse": "Les chylifères sont des capillaires lymphatiques intestinaux.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "La lymphe s'enrichit en lymphocytes provenant des ganglions.",
+              "explication": "Composition."
+            },
+            {
+              "reponse": "La lymphe initiale est du liquide interstitiel légèrement enrichi en protéines.",
+              "explication": "Origine de la lymphe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les chylomicrons gagnent directement les capillaires sanguins de la villosité intestinale.",
+              "explication": "Ils gagnent les chylifères (lymphatiques)."
+            },
+            {
+              "reponse": "Les chylifères sont des capillaires sanguins hépatiques.",
+              "explication": "Ce sont des capillaires lymphatiques intestinaux."
+            },
+            {
+              "reponse": "La lymphe s'appauvrit en lymphocytes lors de son passage dans les ganglions.",
+              "explication": "Elle s'enrichit en lymphocytes."
+            },
+            {
+              "reponse": "La lymphe initiale est dépourvue de protéines.",
+              "explication": "Elle est légèrement enrichie en protéines."
+            },
+            {
+              "reponse": "Les chylomicrons sont produits par les hépatocytes.",
+              "explication": "Ils sont issus des entérocytes."
+            },
+            {
+              "reponse": "La lymphe transporte des hématies vers le cœur.",
+              "explication": "Elle transporte des lymphocytes et des macrophages."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la localisation du drainage lymphatique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 26,
+            "surligner": "Le drainage lymphatique existe dans tous les tissus sauf"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le système nerveux central est dépourvu de drainage lymphatique.",
+              "explication": "Exception citée."
+            },
+            {
+              "reponse": "Les cartilages et les os sont dépourvus de drainage lymphatique.",
+              "explication": "Exceptions citées."
+            },
+            {
+              "reponse": "La moelle osseuse et le thymus sont dépourvus de drainage lymphatique.",
+              "explication": "Exceptions citées."
+            },
+            {
+              "reponse": "La pulpe rouge de la rate est dépourvue de drainage lymphatique.",
+              "explication": "Exception citée."
+            },
+            {
+              "reponse": "Le drainage lymphatique existe dans la plupart des tissus.",
+              "explication": "Tous les tissus sauf quelques exceptions."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le système nerveux central possède un riche drainage lymphatique.",
+              "explication": "Il en est dépourvu."
+            },
+            {
+              "reponse": "Le thymus possède un riche drainage lymphatique.",
+              "explication": "Il en est dépourvu."
+            },
+            {
+              "reponse": "Les cartilages sont richement drainés par des capillaires lymphatiques.",
+              "explication": "Ils en sont dépourvus."
+            },
+            {
+              "reponse": "La pulpe rouge de la rate est le principal territoire de drainage lymphatique de la rate.",
+              "explication": "La pulpe rouge en est dépourvue."
+            },
+            {
+              "reponse": "Le drainage lymphatique n'existe que dans l'intestin.",
+              "explication": "Il existe dans tous les tissus sauf exceptions."
+            },
+            {
+              "reponse": "Le tissu osseux est drainé par des vaisseaux lymphatiques collecteurs.",
+              "explication": "Les os en sont dépourvus."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-050",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les rôles de la circulation lymphatique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 26,
+            "surligner": "Retour vers le sang des protéines extravasées"
+          },
+          "bonnes": [
+            {
+              "reponse": "La circulation lymphatique régule le volume et la composition du liquide interstitiel.",
+              "explication": "1er rôle."
+            },
+            {
+              "reponse": "L'augmentation du volume du liquide interstitiel provoque un œdème.",
+              "explication": "Conséquence d'un défaut de régulation."
+            },
+            {
+              "reponse": "La circulation lymphatique fait le lien entre l'absorption intestinale et la circulation veineuse.",
+              "explication": "Rôle nutritif."
+            },
+            {
+              "reponse": "La circulation lymphatique fait le lien entre les organes lymphoïdes et le sang.",
+              "explication": "Défense spécifique et aspécifique."
+            },
+            {
+              "reponse": "La circulation lymphatique ramène vers le sang les protéines extravasées dans le liquide interstitiel.",
+              "explication": "4e rôle, avec l'épuration des débris cellulaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La circulation lymphatique n'intervient pas dans la défense de l'organisme.",
+              "explication": "Elle intervient dans la défense spécifique et aspécifique."
+            },
+            {
+              "reponse": "La circulation lymphatique transporte l'oxygène vers les tissus.",
+              "explication": "C'est le rôle de la circulation sanguine."
+            },
+            {
+              "reponse": "La circulation lymphatique n'a aucun rôle nutritif.",
+              "explication": "Elle relie l'absorption intestinale à la circulation veineuse."
+            },
+            {
+              "reponse": "La diminution du volume du liquide interstitiel provoque un œdème.",
+              "explication": "C'est son augmentation."
+            },
+            {
+              "reponse": "La circulation lymphatique ramène les protéines plasmatiques du sang vers le liquide interstitiel.",
+              "explication": "Elle ramène les protéines extravasées vers le sang."
+            },
+            {
+              "reponse": "La circulation lymphatique intervient uniquement dans la défense spécifique.",
+              "explication": "Défense spécifique et aspécifique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-051",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les échanges entre capillaires sanguins et capillaires lymphatiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 26,
+            "surligner": "sous l'effet de la pression oncotique"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'eau et les électrolytes sortent du capillaire artériel sous l'effet de la pression hydrostatique.",
+              "explication": "Schéma de la diapositive n°26."
+            },
+            {
+              "reponse": "Une partie du liquide revient au capillaire veineux sous l'effet de la pression oncotique.",
+              "explication": "Réabsorption."
+            },
+            {
+              "reponse": "Le liquide non réabsorbé entre dans le capillaire lymphatique.",
+              "explication": "Drainage lymphatique."
+            },
+            {
+              "reponse": "Des lymphocytes peuvent entrer dans le capillaire lymphatique.",
+              "explication": "La lymphe transporte des lymphocytes et des macrophages."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'eau et les électrolytes sortent du capillaire artériel sous l'effet de la pression oncotique.",
+              "explication": "Sous l'effet de la pression hydrostatique."
+            },
+            {
+              "reponse": "Tout le liquide filtré revient au capillaire veineux.",
+              "explication": "La réabsorption est inférieure à la filtration ; le reste entre dans les lymphatiques."
+            },
+            {
+              "reponse": "Le liquide revient au capillaire veineux sous l'effet de la pression hydrostatique.",
+              "explication": "Sous l'effet de la pression oncotique."
+            },
+            {
+              "reponse": "Le capillaire lymphatique reçoit uniquement des hématies.",
+              "explication": "Il reçoit le liquide en excès et des lymphocytes."
+            },
+            {
+              "reponse": "Le capillaire lymphatique se jette directement dans le capillaire artériel.",
+              "explication": "La lymphe rejoint la circulation veineuse par les gros troncs lymphatiques."
+            },
+            {
+              "reponse": "La filtration a lieu au niveau du capillaire veineux.",
+              "explication": "Elle a lieu au niveau du capillaire artériel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le cœur"
+      },
+      "questions": [
+        {
+          "id": "cardio-histo-vaisseaux-coeur-052",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'organisation générale du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 26,
+            "surligner": "Organe creux à 4 cavités"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur est un organe creux à 4 cavités : 2 atriums et 2 ventricules.",
+              "explication": "Description générale."
+            },
+            {
+              "reponse": "Chez l'adulte, le cœur mesure environ 12 cm de long, 9 cm de large et 6 cm de profondeur.",
+              "explication": "Dimensions."
+            },
+            {
+              "reponse": "La valve mitrale est bicuspide, avec 2 valvules.",
+              "explication": "Orifice atrio-ventriculaire gauche."
+            },
+            {
+              "reponse": "La valve tricuspide, à droite, comporte 3 valvules.",
+              "explication": "Orifice atrio-ventriculaire droit."
+            },
+            {
+              "reponse": "Les cavités droites et gauches sont séparées par des cloisons pleines.",
+              "explication": "Version des diapositives."
+            },
+            {
+              "reponse": "L'origine de l'aorte et de l'artère pulmonaire porte des valves semi-lunaires anti-reflux.",
+              "explication": "Valves artérielles."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les 4 cavités cardiaques sont toutes séparées les unes des autres par des cloisons pleines.",
+              "explication": "Erreur des notes corrigée : atriums et ventricules communiquent par les orifices atrio-ventriculaires."
+            },
+            {
+              "reponse": "La valve mitrale est située à droite.",
+              "explication": "Elle est à gauche."
+            },
+            {
+              "reponse": "La valve tricuspide comporte 2 valvules.",
+              "explication": "Elle en comporte 3."
+            },
+            {
+              "reponse": "Chez l'adulte, le cœur mesure environ 12 mm de long.",
+              "explication": "Mauvaise unité : 12 cm."
+            },
+            {
+              "reponse": "Les atriums ne communiquent pas avec les ventricules.",
+              "explication": "Ils communiquent par les orifices atrio-ventriculaires."
+            },
+            {
+              "reponse": "L'origine de l'aorte porte la valve mitrale.",
+              "explication": "Elle porte des valves semi-lunaires."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-053",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2021-2022",
+                "qcm": 19
+              }
+            ]
+          },
+          "question": "Concernant les parois du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 27,
+            "surligner": "La paroi du cœur comprend 3 tuniques"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'endocarde tapisse les cavités cardiaques, les valves et les cordages.",
+              "annale": true,
+              "explication": "Définition de l'endocarde. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le myocarde est la tunique la plus épaisse de la paroi cardiaque.",
+              "annale": true,
+              "explication": "Tunique moyenne, la plus épaisse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épicarde correspond au feuillet viscéral du péricarde.",
+              "explication": "Tunique externe."
+            },
+            {
+              "reponse": "La paroi cardiaque comporte, en plus des 3 tuniques, une armature fibreuse.",
+              "explication": "3 tuniques + 1 armature fibreuse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La paroi du cœur est formée de 3 tuniques : l'endocarde, le myocarde et le péricarde.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours nomme les 3 tuniques endocarde, myocarde et épicarde (feuillet viscéral du péricarde) ; le péricarde pariétal ne fait pas partie de la paroi. Item placé faux. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'endocarde est la tunique la plus épaisse de la paroi cardiaque.",
+              "annale": true,
+              "explication": "C'est le myocarde. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'épicarde est la tunique la plus interne du cœur.",
+              "explication": "C'est l'endocarde."
+            },
+            {
+              "reponse": "Le myocarde est plus épais dans le ventricule droit que dans le ventricule gauche.",
+              "explication": "Ventricule gauche : 1 à 1,5 cm ; droit : 0,6 cm."
+            },
+            {
+              "reponse": "L'endothélium de l'endocarde n'a aucune continuité avec celui des vaisseaux.",
+              "explication": "Il est en continuité avec l'endothélium des gros vaisseaux."
+            },
+            {
+              "reponse": "L'épicarde est le feuillet pariétal du péricarde.",
+              "explication": "C'est le feuillet viscéral."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-054",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2022-2023",
+                "qcm": 15
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2019-2020",
+                "qcm": 12
+              }
+            ]
+          },
+          "question": "Concernant l'armature fibreuse du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 27,
+            "surligner": "L'armature fibreuse (tissu conjonctif dense)"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'armature fibreuse du cœur correspond à du tissu conjonctif dense.",
+              "annale": true,
+              "explication": "Nature de l'armature. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'armature fibreuse est impliquée dans l'isolement électrophysiologique entre atriums et ventricules.",
+              "annale": true,
+              "explication": "Rôle de l'armature. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les trigones fibreux droit et gauche font partie de l'armature fibreuse.",
+              "annale": true,
+              "explication": "Ils soudent les anneaux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le septum membraneux fait partie de l'armature fibreuse.",
+              "annale": true,
+              "explication": "Partie supérieure de la cloison interventriculaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les anneaux fibreux entourant les valves cardiaques font partie de l'armature fibreuse.",
+              "annale": true,
+              "explication": "Autour des 4 orifices valvulaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le faisceau de His est la seule liaison musculaire entre atriums et ventricules.",
+              "explication": "Il traverse l'armature isolante."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le septum membraneux ne fait pas partie de l'armature fibreuse.",
+              "annale": true,
+              "explication": "Il en fait partie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'armature fibreuse est formée de tissu conjonctif lâche.",
+              "explication": "Tissu conjonctif dense."
+            },
+            {
+              "reponse": "L'armature fibreuse assure la conduction de l'excitation des atriums aux ventricules.",
+              "explication": "Elle les isole ; seule le faisceau de His les relie."
+            },
+            {
+              "reponse": "Le septum membraneux correspond à la partie inférieure de la cloison interventriculaire.",
+              "explication": "Partie supérieure."
+            },
+            {
+              "reponse": "Les anneaux fibreux entourent uniquement les 2 orifices atrio-ventriculaires.",
+              "explication": "Ils entourent les 4 orifices valvulaires."
+            },
+            {
+              "reponse": "L'armature fibreuse ne sert pas d'attache aux travées myocardiques.",
+              "explication": "Elle sert d'attache aux travées myocardiques et aux valves."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-055",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'endocarde et les valvules cardiaques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "elles sont déformables mais inextensibles"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'endocarde comprend un endothélium, une membrane basale et une couche sous-endothéliale fibro-élastique.",
+              "explication": "3 couches."
+            },
+            {
+              "reponse": "Au niveau des cavités, la couche sous-endothéliale de l'endocarde est un tissu conjonctif lâche bien vascularisé.",
+              "explication": "Contient le réseau de Purkinje dans les ventricules."
+            },
+            {
+              "reponse": "Les valvules sont des replis de l'endocarde recouvrant une lame fibreuse axiale dense.",
+              "explication": "Structure des valvules."
+            },
+            {
+              "reponse": "Les valvules cardiaques sont déformables mais inextensibles.",
+              "explication": "Propriétés mécaniques."
+            },
+            {
+              "reponse": "Les valvules cardiaques ne sont pas vascularisées et sont nourries par imbibition.",
+              "explication": "Nutrition."
+            },
+            {
+              "reponse": "Avec l'âge, les valvules s'épaississent et perdent leur élasticité.",
+              "explication": "Augmentation du collagène, diminution de l'élastine, fibrose, calcification."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les valvules cardiaques sont richement vascularisées.",
+              "explication": "Elles sont non vascularisées."
+            },
+            {
+              "reponse": "Les valvules cardiaques sont extensibles mais indéformables.",
+              "explication": "Elles sont déformables mais inextensibles."
+            },
+            {
+              "reponse": "Au niveau des cordages et des valvules, la couche sous-endothéliale est un tissu conjonctif lâche.",
+              "explication": "C'est un tissu conjonctif dense."
+            },
+            {
+              "reponse": "Avec l'âge, les valvules s'amincissent et gagnent en élasticité.",
+              "explication": "Elles s'épaississent et perdent leur élasticité."
+            },
+            {
+              "reponse": "Les valvules mitrale et tricuspide sont reliées aux piliers par des fibres de Purkinje.",
+              "explication": "Elles sont reliées par des cordages tendineux."
+            },
+            {
+              "reponse": "Une sténose valvulaire correspond à une fermeture incomplète de la valve.",
+              "explication": "Sténose = ouverture incomplète ; insuffisance = fermeture incomplète."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-056",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le myocarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "Le myocarde est la tunique la plus épaisse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le myocarde mesure 1 à 1,5 cm d'épaisseur dans le ventricule gauche.",
+              "explication": "Épaisseurs du cours."
+            },
+            {
+              "reponse": "Le myocarde atrial est plus fin que le myocarde ventriculaire droit.",
+              "explication": "0,2 cm contre 0,6 cm."
+            },
+            {
+              "reponse": "Les cardiomyocytes sont des cellules musculaires striées à noyau central généralement unique.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Les cardiomyocytes sont reliés par des stries scalariformes contenant des jonctions communicantes.",
+              "explication": "Transmission de l'excitation de proche en proche."
+            },
+            {
+              "reponse": "L'endomysium entoure chaque cellule musculaire cardiaque et contient de très nombreux capillaires.",
+              "explication": "Tissu interstitiel."
+            },
+            {
+              "reponse": "Le tissu interstitiel du myocarde facilite la dilatation et le remplissage du cœur lors de la diastole.",
+              "explication": "Rôle du tissu interstitiel."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le myocarde du ventricule droit est plus épais que celui du ventricule gauche.",
+              "explication": "VG 1 à 1,5 cm ; VD 0,6 cm."
+            },
+            {
+              "reponse": "Les cardiomyocytes ont des noyaux multiples en position périphérique.",
+              "explication": "Noyau central généralement unique."
+            },
+            {
+              "reponse": "Les cardiomyocytes sont des cellules musculaires lisses.",
+              "explication": "Ce sont des cellules musculaires striées."
+            },
+            {
+              "reponse": "Le périmysium entoure chaque cellule musculaire cardiaque.",
+              "explication": "Le périmysium entoure les faisceaux ; l'endomysium entoure chaque cellule."
+            },
+            {
+              "reponse": "Les stries scalariformes sont dépourvues de jonctions communicantes.",
+              "explication": "Elles en contiennent."
+            },
+            {
+              "reponse": "Les cardiomyocytes ont des extrémités rectilignes non ramifiées.",
+              "explication": "Leurs extrémités sont ramifiées."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-057",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le tissu cardionecteur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "le tissu cardionecteur est doué d'auto-excitabilité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules cardionectrices sont des cellules myocardiques modifiées.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "Le tissu cardionecteur est doué d'auto-excitabilité.",
+              "explication": "Propriété."
+            },
+            {
+              "reponse": "Les cellules nodales sont plus petites, pauvres en myofibrilles, à cytoplasme clair riche en glycogène.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Le nœud sinusal de Keith et Flack est situé dans la paroi de l'atrium droit, au niveau de l'orifice de la veine cave supérieure.",
+              "explication": "Localisation."
+            },
+            {
+              "reponse": "Le nœud atrio-ventriculaire d'Aschoff-Tawara est situé dans la partie antéro-inférieure de la cloison interatriale.",
+              "explication": "Localisation."
+            },
+            {
+              "reponse": "Le réseau de Purkinje est situé sous l'endocarde ventriculaire.",
+              "explication": "Localisation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules nodales sont plus grandes et plus riches en myofibrilles que les cardiomyocytes.",
+              "explication": "Elles sont plus petites et pauvres en myofibrilles."
+            },
+            {
+              "reponse": "Le nœud sinusal est situé dans la paroi de l'atrium gauche.",
+              "explication": "Il est dans l'atrium droit."
+            },
+            {
+              "reponse": "Le nœud sinusal est situé au niveau de l'orifice de la veine cave inférieure.",
+              "explication": "Au niveau de l'orifice de la veine cave supérieure."
+            },
+            {
+              "reponse": "Le nœud de Keith et Flack est situé dans la cloison interventriculaire.",
+              "explication": "Il est dans la paroi de l'atrium droit."
+            },
+            {
+              "reponse": "Le réseau de Purkinje est situé sous l'épicarde atrial.",
+              "explication": "Il est sous l'endocarde ventriculaire."
+            },
+            {
+              "reponse": "Le nœud atrio-ventriculaire est appelé nœud de Keith et Flack.",
+              "explication": "C'est le nœud d'Aschoff-Tawara."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-058",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le faisceau de His et la conduction cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "seule liaison entre atriums et ventricules"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le faisceau de His est la seule liaison entre atriums et ventricules.",
+              "explication": "Description."
+            },
+            {
+              "reponse": "Le faisceau de His parcourt la cloison interventriculaire sur environ 15 millimètres.",
+              "explication": "Longueur du tronc commun."
+            },
+            {
+              "reponse": "Le faisceau de His se divise en une branche droite en avant et une branche gauche en arrière.",
+              "explication": "Division."
+            },
+            {
+              "reponse": "L'onde de contraction est transmise plus rapidement par les fibres cardionectrices que par les cellules myocardiques.",
+              "explication": "Vitesse de conduction."
+            },
+            {
+              "reponse": "L'interruption des voies de conduction entraîne un rythme autonome plus lent des ventricules.",
+              "explication": "Bloc, visible à l'électrocardiogramme."
+            },
+            {
+              "reponse": "Les nœuds sinusal et atrio-ventriculaire sont reliés par des fibres internodales.",
+              "explication": "Connexion entre les nœuds."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le faisceau de His parcourt la cloison interatriale sur 15 centimètres.",
+              "explication": "Cloison interventriculaire, 15 mm."
+            },
+            {
+              "reponse": "Le faisceau de His se divise en une branche droite en arrière et une branche gauche en avant.",
+              "explication": "Branche droite en avant, gauche en arrière."
+            },
+            {
+              "reponse": "L'onde de contraction est transmise plus lentement par les fibres cardionectrices que par les cellules myocardiques.",
+              "explication": "Elle est transmise plus rapidement."
+            },
+            {
+              "reponse": "L'interruption des voies de conduction entraîne un rythme ventriculaire plus rapide.",
+              "explication": "Rythme autonome plus lent."
+            },
+            {
+              "reponse": "Il existe de nombreuses liaisons musculaires entre atriums et ventricules en dehors du faisceau de His.",
+              "explication": "Le faisceau de His est la seule liaison."
+            },
+            {
+              "reponse": "Les cellules myocardiques ordinaires déterminent le rythme cardiaque.",
+              "explication": "Ce sont les fibres cardionectrices."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-059",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'innervation et la vascularisation du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "le territoire le plus irrigué du corps"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le myocarde est, avec le cerveau, le territoire le plus irrigué du corps.",
+              "explication": "Vascularisation."
+            },
+            {
+              "reponse": "Les artères coronaires ont un mode de terminaison terminal.",
+              "explication": "L'obstruction provoque un infarctus."
+            },
+            {
+              "reponse": "L'innervation du cœur est végétative, organisée en 3 plexus : myocardique, sous-péricardique et sous-endocardique.",
+              "explication": "Organisation."
+            },
+            {
+              "reponse": "Les fibres sympathiques, issues du ganglion cervical supérieur, accélèrent le rythme cardiaque.",
+              "explication": "Effet sympathique."
+            },
+            {
+              "reponse": "Les fibres parasympathiques du nerf vague ralentissent le rythme cardiaque.",
+              "explication": "Effet parasympathique."
+            },
+            {
+              "reponse": "Les fibres motrices agissent sur le rythme mais ne déclenchent pas les contractions.",
+              "explication": "La contraction est autonome."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les fibres nerveuses végétatives déclenchent chaque contraction cardiaque.",
+              "explication": "Elles modulent le rythme mais ne déclenchent jamais les contractions."
+            },
+            {
+              "reponse": "Les fibres parasympathiques accélèrent le rythme cardiaque.",
+              "explication": "Elles le ralentissent."
+            },
+            {
+              "reponse": "Les fibres sympathiques cardiaques sont issues du nerf vague.",
+              "explication": "Elles sont issues du ganglion cervical supérieur."
+            },
+            {
+              "reponse": "Les artères coronaires ont un mode de terminaison anastomotique qui évite l'infarctus.",
+              "explication": "Mode terminal."
+            },
+            {
+              "reponse": "L'innervation du cœur est organisée en 2 plexus.",
+              "explication": "3 plexus."
+            },
+            {
+              "reponse": "Le myocarde est l'un des territoires les moins irrigués du corps.",
+              "explication": "C'est avec le cerveau le plus irrigué."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-060",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'automatisme cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "La contraction myocardique est autonome"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction myocardique est autonome, commandée par le tissu nodal.",
+              "explication": "Automatisme."
+            },
+            {
+              "reponse": "L'excitabilité spontanée du tissu nodal est primordiale.",
+              "explication": "Automatisme."
+            },
+            {
+              "reponse": "Le nœud de Keith et Flack est le stimulateur de la contraction cardiaque.",
+              "explication": "Pacemaker."
+            },
+            {
+              "reponse": "Le nœud sinusal est modulé par le système nerveux autonome.",
+              "explication": "Sympathique accélérateur, parasympathique ralentisseur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction myocardique est entièrement commandée par le système nerveux central.",
+              "explication": "Elle est autonome."
+            },
+            {
+              "reponse": "Le nœud d'Aschoff-Tawara est le pacemaker physiologique du cœur.",
+              "explication": "C'est le nœud sinusal de Keith et Flack."
+            },
+            {
+              "reponse": "Les terminaisons sympathiques diminuent la fréquence de décharge du nœud sinusal.",
+              "explication": "Elles l'accélèrent."
+            },
+            {
+              "reponse": "Les terminaisons parasympathiques accélèrent le rythme du nœud sinusal.",
+              "explication": "Elles le diminuent."
+            },
+            {
+              "reponse": "Le tissu nodal est dépourvu d'excitabilité spontanée.",
+              "explication": "Son excitabilité spontanée est primordiale."
+            },
+            {
+              "reponse": "Le réseau de Purkinje est le stimulateur principal de la contraction.",
+              "explication": "C'est le nœud de Keith et Flack."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-061",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les cellules cardio-myo-endocrines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "Elles sécrètent le facteur atrial natriurétique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules cardio-myo-endocrines sont situées dans la paroi des atriums.",
+              "explication": "Localisation."
+            },
+            {
+              "reponse": "Les cellules cardio-myo-endocrines ont une double fonction, contractile et endocrine.",
+              "explication": "Double fonction."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique augmente la diurèse et l'élimination urinaire du sodium.",
+              "explication": "Effets."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique entraîne une vasodilatation et une baisse de la pression artérielle.",
+              "explication": "Effets."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique diminue le volume sanguin.",
+              "explication": "Effets."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique agit sur les reins, le cerveau et les vaisseaux.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules cardio-myo-endocrines sont situées dans la paroi des ventricules.",
+              "explication": "Elles sont dans la paroi des atriums."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique diminue l'élimination urinaire du sodium.",
+              "explication": "Il l'augmente."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique entraîne une vasoconstriction.",
+              "explication": "Il entraîne une vasodilatation."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique augmente la pression artérielle.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "Le facteur atrial natriurétique augmente le volume sanguin.",
+              "explication": "Il le diminue."
+            },
+            {
+              "reponse": "Les cellules cardio-myo-endocrines ont perdu toute fonction contractile.",
+              "explication": "Elles gardent une fonction contractile."
+            }
+          ]
+        },
+        {
+          "id": "cardio-histo-vaisseaux-coeur-062",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Histologie",
+                "annee": "2020-2021",
+                "qcm": 20
+              }
+            ]
+          },
+          "question": "Concernant le péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "la cavité péricardique contient 50 millilitres"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le péricarde viscéral et le péricarde pariétal délimitent la cavité péricardique.",
+              "annale": true,
+              "explication": "Cavité entre les 2 feuillets. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le liquide péricardique lubrifie les feuillets mésothéliaux lors des mouvements cardiaques.",
+              "annale": true,
+              "explication": "Rôle du liquide séreux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde pariétal est non extensible.",
+              "annale": true,
+              "explication": "Sac fibreux non extensible, indépendant du cœur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cavité péricardique contient environ 50 mL de liquide séreux.",
+              "explication": "Volume normal."
+            },
+            {
+              "reponse": "La couche conjonctive sous-épicardique contient les vaisseaux coronaires.",
+              "explication": "Avec des lymphatiques et des plexus nerveux végétatifs."
+            },
+            {
+              "reponse": "Une accumulation brutale de liquide dans la cavité péricardique comprime le cœur : c'est la tamponnade.",
+              "explication": "Le péricarde est inextensible (oral)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le péricarde est tapissé par un épithélium cubique simple.",
+              "annale": true,
+              "explication": "Épithélium pavimenteux simple (mésothélium). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cavité péricardique contient normalement environ 500 mL de liquide.",
+              "explication": "Environ 50 mL."
+            },
+            {
+              "reponse": "Le péricarde pariétal est un sac élastique très extensible, solidaire du myocarde.",
+              "explication": "Il est fibreux, non extensible et indépendant du cœur."
+            },
+            {
+              "reponse": "Le mésothélium de l'épicarde repose directement sur le myocarde, sans membrane basale ni couche conjonctive.",
+              "explication": "Il repose sur une membrane basale et une couche sous-épicardique."
+            },
+            {
+              "reponse": "L'épicarde se réfléchit au niveau de la pointe du cœur pour former le péricarde pariétal.",
+              "explication": "Il se réfléchit au point d'émergence des gros troncs artériels."
+            },
+            {
+              "reponse": "Le liquide péricardique est un liquide muqueux sécrété par l'endocarde.",
+              "explication": "C'est un liquide séreux de la cavité péricardique."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
