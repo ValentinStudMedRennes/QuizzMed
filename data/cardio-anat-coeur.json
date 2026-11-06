@@ -1,0 +1,3057 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Anatomie",
+    "titre": "Anatomie du cœur et du péricarde",
+    "description": "Morphologie externe et interne du cœur, péricarde, rapports sur les coupes du thorax et foyers d'auscultation.",
+    "version": "4.3",
+    "cours": {
+      "fichier": "cardio-anat-coeur.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction"
+      },
+      "questions": [
+        {
+          "id": "cardio-anat-coeur-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les pathologies cardio-vasculaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "1re cause de mortalité dans les pays"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les pathologies cardio-vasculaires sont la 1re cause de mortalité dans les pays occidentaux.",
+              "explication": "Elles passent devant le cancer."
+            },
+            {
+              "reponse": "L'infarctus correspond à un volume sanguin insuffisant pour assurer la perfusion d'un organe.",
+              "explication": "Définition donnée dans le cours."
+            },
+            {
+              "reponse": "Un infarctus peut toucher l'intestin ou le cerveau.",
+              "explication": "Il peut concerner différents organes : cœur, intestin, cerveau."
+            },
+            {
+              "reponse": "La sédentarité, le diabète et le tabac favorisent les pathologies cardio-vasculaires.",
+              "explication": "Le mode de vie occidental favorise ces pathologies."
+            },
+            {
+              "reponse": "L'athérosclérose est à l'origine des infarctus du myocarde.",
+              "explication": "Le cours la cite comme cause des infarctus du myocarde."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les pathologies cardio-vasculaires sont la 2e cause de mortalité dans les pays occidentaux, derrière le cancer.",
+              "explication": "Elles sont la 1re cause, devant le cancer."
+            },
+            {
+              "reponse": "L'infarctus ne concerne que le cœur.",
+              "explication": "Il peut aussi toucher l'intestin ou le cerveau."
+            },
+            {
+              "reponse": "Les pathologies coronariennes touchent les grosses veines qui ramènent le sang au cœur.",
+              "explication": "Elles touchent les petites artères qui apportent le sang au cœur."
+            },
+            {
+              "reponse": "Le mode de vie n'a aucune influence sur la survenue des pathologies cardio-vasculaires.",
+              "explication": "Sédentarité, malnutrition, diabète, surpoids et tabac les favorisent."
+            },
+            {
+              "reponse": "L'infarctus correspond à un excès de volume sanguin dans un organe.",
+              "explication": "C'est un défaut de perfusion : le volume sanguin n'est plus suffisant."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le fonctionnement général du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "fonctionne comme une double pompe"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur fonctionne comme une double pompe, avec 2 circulations.",
+              "explication": "Petite et grande circulations."
+            },
+            {
+              "reponse": "La petite circulation est la circulation pulmonaire.",
+              "explication": "Elle est liée aux poumons."
+            },
+            {
+              "reponse": "L'hématose a lieu dans la petite circulation : les globules rouges y sont rechargés en oxygène.",
+              "explication": "Le sang subit l'hématose dans les poumons."
+            },
+            {
+              "reponse": "La grande circulation envoie le sang oxygéné vers l'ensemble de l'organisme.",
+              "explication": "C'est la circulation systémique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La petite circulation est la circulation systémique.",
+              "explication": "La petite circulation est pulmonaire ; la grande est systémique."
+            },
+            {
+              "reponse": "L'hématose a lieu dans le ventricule gauche.",
+              "explication": "Elle a lieu dans les poumons (petite circulation)."
+            },
+            {
+              "reponse": "La grande circulation envoie le sang désoxygéné vers les poumons.",
+              "explication": "C'est le rôle de la petite circulation ; la grande envoie le sang oxygéné vers l'organisme."
+            },
+            {
+              "reponse": "Le cœur est une pompe unique qui alimente une seule circulation.",
+              "explication": "C'est une double pompe avec 2 circulations."
+            },
+            {
+              "reponse": "Le cœur est un organe très complexe que l'on ne peut pas suppléer, contrairement au foie.",
+              "explication": "C'est l'inverse : selon le cours, il « se remplace » très facilement (circulation extracorporelle), contrairement au foie."
+            },
+            {
+              "reponse": "L'ECMO est une technique d'enregistrement de l'activité électrique du cœur.",
+              "explication": "L'ECMO est une oxygénation par membrane extracorporelle ; l'activité électrique s'enregistre par l'ECG."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la description générale du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Le cœur est un muscle creux situé dans le thorax"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur est un muscle creux situé dans le thorax.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le cœur pèse environ 300 grammes.",
+              "explication": "Valeur donnée dans le cours."
+            },
+            {
+              "reponse": "La taille du cœur dépend du morphotype.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le cœur peut être palpé, ausculté, observé et opéré.",
+              "explication": "Introduction du cours : il se palpe, s'écoute, s'observe et s'opère."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cœur pèse environ 3 kilogrammes.",
+              "explication": "Il pèse environ 300 grammes."
+            },
+            {
+              "reponse": "Le cœur pèse environ 30 grammes.",
+              "explication": "Il pèse environ 300 grammes."
+            },
+            {
+              "reponse": "Le cœur est un muscle plein.",
+              "explication": "C'est un muscle creux, qui comporte 4 cavités."
+            },
+            {
+              "reponse": "Le cœur est situé dans l'abdomen, sous le diaphragme.",
+              "explication": "Il est dans le thorax et repose sur le diaphragme."
+            },
+            {
+              "reponse": "La taille du cœur est identique chez tous les adultes.",
+              "explication": "Elle dépend du morphotype."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la radiographie thoracique de face, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "double coupole, légèrement plus haute à droite"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le diaphragme sépare le thorax de l'abdomen par une double coupole.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La coupole diaphragmatique droite est légèrement plus haute que la gauche.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'ombre cardiaque se situe au milieu du médiastin.",
+              "explication": "La silhouette cardiaque est médiastinale."
+            },
+            {
+              "reponse": "Le bouton aortique correspond à l'arc aortique et forme un relief supérieur.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La radiographie thoracique est un examen très courant qui permet d'observer facilement le cœur.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La coupole diaphragmatique gauche est plus haute que la droite.",
+              "explication": "C'est la droite qui est légèrement plus haute."
+            },
+            {
+              "reponse": "Le bouton pulmonaire est situé au-dessus du bouton aortique.",
+              "explication": "Le bouton pulmonaire est plus bas que le bouton aortique."
+            },
+            {
+              "reponse": "Le diaphragme sépare le thorax du cou.",
+              "explication": "Il sépare le thorax de l'abdomen."
+            },
+            {
+              "reponse": "La radiographie thoracique est un examen rarement réalisé.",
+              "explication": "C'est un examen très courant."
+            },
+            {
+              "reponse": "L'ombre cardiaque est située dans l'hémithorax droit, en dehors du médiastin.",
+              "explication": "Elle se situe au milieu du médiastin."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le système cardionecteur et l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "système électrique du cœur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le système cardionecteur est le système électrique du cœur.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La fonction et le rythme cardiaques dépendent du système cardionecteur.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le système cardionecteur s'explore par l'électrocardiogramme.",
+              "explication": "L'ECG enregistre l'activité électrique du cœur."
+            },
+            {
+              "reponse": "L'électrocardiogramme donne une courbe de l'activité électrique, qui renseigne sur le rythme cardiaque.",
+              "explication": "On colle des électrodes sur les bras et les jambes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'électrocardiogramme est une technique d'imagerie par ultrasons.",
+              "explication": "C'est un enregistrement de l'activité électrique ; l'échographie utilise les ultrasons."
+            },
+            {
+              "reponse": "Le rythme cardiaque est indépendant du système cardionecteur.",
+              "explication": "La fonction et le rythme cardiaques dépendent du système cardionecteur."
+            },
+            {
+              "reponse": "L'influx cardiaque est conduit par des fibres nerveuses.",
+              "explication": "Il est électrique et conduit par un tissu nodal (cellules musculaires spécialisées), pas par des nerfs."
+            },
+            {
+              "reponse": "L'électrocardiogramme sert à visualiser les valves cardiaques.",
+              "explication": "Les valves se voient en échographie (transœsophagienne surtout)."
+            },
+            {
+              "reponse": "Les électrodes de l'électrocardiogramme sont posées sur le crâne.",
+              "explication": "Le cours décrit des électrodes collées sur les bras et les jambes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Morphologie externe"
+      },
+      "questions": [
+        {
+          "id": "cardio-anat-coeur-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la vue antérieure du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "on distingue 3 cavités cardiaques"
+          },
+          "bonnes": [
+            {
+              "reponse": "En vue antérieure, on distingue l'atrium droit, le ventricule droit et le ventricule gauche.",
+              "explication": "3 cavités sont visibles de face."
+            },
+            {
+              "reponse": "La vue antérieure est aussi appelée vue sterno-costale.",
+              "explication": "C'est la vue de devant."
+            },
+            {
+              "reponse": "La vue antérieure s'obtient en ouvrant le thorax par une sternotomie.",
+              "explication": "Comme le font les chirurgiens cardiaques, en écartant les côtes."
+            },
+            {
+              "reponse": "Le ventricule gauche forme le bord gauche du cœur et l'apex.",
+              "explication": "Légende 8 du schéma de la vue antérieure."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En vue antérieure, on distingue les 4 cavités cardiaques.",
+              "explication": "Seules 3 cavités sont visibles : l'atrium gauche est en arrière."
+            },
+            {
+              "reponse": "La veine cave inférieure est bien visible en vue antérieure.",
+              "explication": "Elle s'abouche plus en arrière : on ne la voit pas de face."
+            },
+            {
+              "reponse": "Le ventricule droit forme la pointe du cœur.",
+              "explication": "La pointe est formée par le ventricule gauche."
+            },
+            {
+              "reponse": "La vue antérieure est aussi appelée vue diaphragmatique.",
+              "explication": "Elle est appelée vue sterno-costale."
+            },
+            {
+              "reponse": "L'atrium gauche forme l'essentiel de la face antérieure du cœur.",
+              "explication": "L'atrium gauche est postérieur ; il forme la base (face postérieure)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'atrium droit et les veines caves en vue externe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "draine le sang des bras et de la tête"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'auricule droite est une expansion de l'atrium droit en forme d'oreille.",
+              "explication": "Elle est située sur son bord gauche."
+            },
+            {
+              "reponse": "Selon le cours, l'auricule droite est un résidu embryologique sans fonction.",
+              "explication": "Le cours la compare à l'appendice."
+            },
+            {
+              "reponse": "La veine cave supérieure s'abouche au pôle supérieur de l'atrium droit.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La veine cave supérieure draine le sang de la tête et des membres supérieurs.",
+              "explication": "Par les troncs brachio-céphaliques droit et gauche."
+            },
+            {
+              "reponse": "La veine cave inférieure s'abouche dans l'atrium droit.",
+              "explication": "Elle s'abouche plus en arrière que la veine cave supérieure."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La veine cave supérieure draine le sang des membres inférieurs.",
+              "explication": "Erreur des notes corrigée : les membres inférieurs sont drainés par la veine cave inférieure."
+            },
+            {
+              "reponse": "L'auricule droite est une expansion du ventricule droit.",
+              "explication": "C'est une expansion de l'atrium droit."
+            },
+            {
+              "reponse": "La veine cave supérieure s'abouche dans l'atrium gauche.",
+              "explication": "Elle s'abouche dans l'atrium droit."
+            },
+            {
+              "reponse": "La veine cave inférieure s'abouche dans le ventricule droit.",
+              "explication": "Elle s'abouche dans l'atrium droit."
+            },
+            {
+              "reponse": "La veine cave supérieure est plus grosse que la veine cave inférieure.",
+              "explication": "La veine cave inférieure est un peu plus grosse car elle a plus de territoire à drainer."
+            },
+            {
+              "reponse": "La veine cave supérieure est formée par la réunion des deux veines jugulaires internes.",
+              "explication": "Elle reçoit le sang des troncs brachio-céphaliques droit et gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le ventricule droit et l'infundibulum en vue externe, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "qui donne naissance au tronc des artères pulmonaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'atrium droit se prolonge en bas et à gauche par le ventricule droit.",
+              "explication": "Description de la vue antérieure."
+            },
+            {
+              "reponse": "Le ventricule droit présente un col, l'infundibulum.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'infundibulum donne naissance au tronc des artères pulmonaires.",
+              "explication": "Il propulse le sang dans la circulation pulmonaire."
+            },
+            {
+              "reponse": "Le ventricule droit est une cavité plate.",
+              "explication": "Légende 4 du schéma de la vue antérieure."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'infundibulum donne naissance à l'aorte.",
+              "explication": "Il donne naissance au tronc des artères pulmonaires."
+            },
+            {
+              "reponse": "L'infundibulum appartient à l'atrium droit.",
+              "explication": "C'est un col du ventricule droit."
+            },
+            {
+              "reponse": "Le tronc pulmonaire naît du ventricule gauche.",
+              "explication": "Il naît du ventricule droit, par l'infundibulum."
+            },
+            {
+              "reponse": "L'infundibulum propulse le sang vers la grande circulation.",
+              "explication": "Il propulse le sang vers la circulation pulmonaire pour le réoxygéner."
+            },
+            {
+              "reponse": "Le ventricule droit se situe en haut et à droite de l'atrium droit.",
+              "explication": "Il se situe en bas et à gauche de l'atrium droit."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les sillons du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "il y a toujours quelque chose qui y passe"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'artère coronaire droite chemine dans le sillon coronaire, entre l'atrium droit et le ventricule droit.",
+              "explication": "Partie antérieure du sillon coronaire."
+            },
+            {
+              "reponse": "L'artère interventriculaire antérieure chemine dans le sillon interventriculaire antérieur.",
+              "explication": "Ce sillon sépare les 2 ventricules."
+            },
+            {
+              "reponse": "L'artère interventriculaire antérieure est l'une des principales sources d'infarctus.",
+              "explication": "D'où son nom très connu."
+            },
+            {
+              "reponse": "Les sillons du cœur sont comblés par de la graisse.",
+              "explication": "Il faut ouvrir ce film graisseux pour voir les artères coronaires."
+            },
+            {
+              "reponse": "Le sillon interventriculaire se prolonge en arrière par le sillon interventriculaire postérieur.",
+              "explication": "Rappel sur les sillons du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'artère interventriculaire antérieure chemine dans le sillon coronaire.",
+              "explication": "Elle chemine dans le sillon interventriculaire antérieur."
+            },
+            {
+              "reponse": "Le sillon interatrial sépare l'atrium droit du ventricule droit.",
+              "explication": "Il sépare les 2 atriums ; c'est le sillon coronaire droit qui sépare l'atrium droit du ventricule droit."
+            },
+            {
+              "reponse": "Le sillon coronaire gauche sépare les 2 ventricules.",
+              "explication": "Il sépare l'atrium gauche du ventricule gauche."
+            },
+            {
+              "reponse": "À l'ouverture du péricarde, les artères coronaires sont directement visibles dans des sillons vides.",
+              "explication": "Les sillons sont comblés de graisse qui protège les artères."
+            },
+            {
+              "reponse": "Les sillons du cœur sont des reliefs sans contenu.",
+              "explication": "Il y a toujours quelque chose qui passe dans un sillon (artères, veines)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la forme et l'orientation du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "le cœur a plus ou moins la forme d'une pyramide"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur a plus ou moins la forme d'une pyramide.",
+              "explication": "Décrite en vue postérieure."
+            },
+            {
+              "reponse": "La face antérieure du cœur est appelée face sterno-costale.",
+              "explication": "Elle est située entre les côtes et le sternum."
+            },
+            {
+              "reponse": "La face postérieure du cœur correspond à la base de la pyramide.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le cœur est orienté vers la gauche et vers l'avant.",
+              "explication": "Le professeur insiste : le cœur est « en fuite », comme une pyramide tombée sur le côté."
+            },
+            {
+              "reponse": "La pointe du cœur repose sur le diaphragme.",
+              "explication": "Elle pointe vers l'avant et vers la gauche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La base de la pyramide cardiaque correspond à la face antérieure.",
+              "explication": "La base est la face postérieure."
+            },
+            {
+              "reponse": "La pointe du cœur est orientée vers l'arrière et vers la droite.",
+              "explication": "Elle pointe vers l'avant et vers la gauche."
+            },
+            {
+              "reponse": "La pointe du cœur est située à droite du processus xiphoïde.",
+              "explication": "Elle est un peu à gauche du processus xiphoïde."
+            },
+            {
+              "reponse": "Le ventricule gauche se voit moins en vue postérieure qu'en vue antérieure.",
+              "explication": "C'est l'inverse : le cœur étant « en fuite », le ventricule gauche se voit davantage en vue postérieure."
+            },
+            {
+              "reponse": "La face postérieure du cœur est appelée face sterno-costale.",
+              "explication": "La face sterno-costale est la face antérieure."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'atrium gauche en vue postérieure, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "fine et la plus flasque des 4 cavités"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'atrium gauche est la plus fine et la plus flasque des 4 cavités.",
+              "explication": "Le professeur insiste sur son caractère flasque."
+            },
+            {
+              "reponse": "L'atrium gauche reçoit le sang de la circulation pulmonaire.",
+              "explication": "Le sang arrive directement des poumons."
+            },
+            {
+              "reponse": "La pression dans l'atrium gauche est faible.",
+              "explication": "Le sang vient des poumons après un trajet court."
+            },
+            {
+              "reponse": "Les 4 veines pulmonaires s'abouchent à la face postérieure de l'atrium gauche.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'atrium gauche a la forme d'une petite poche un peu plate.",
+              "explication": "Le cours le compare à un porte-monnaie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'atrium gauche est la cavité cardiaque la plus épaisse.",
+              "explication": "C'est la plus fine et la plus flasque ; la plus épaisse est le ventricule gauche."
+            },
+            {
+              "reponse": "L'atrium gauche reçoit le sang des veines caves.",
+              "explication": "Les veines caves s'abouchent dans l'atrium droit."
+            },
+            {
+              "reponse": "L'atrium gauche reçoit 2 veines pulmonaires.",
+              "explication": "Il en reçoit 4."
+            },
+            {
+              "reponse": "La pression dans l'atrium gauche est élevée car le sang vient de loin.",
+              "explication": "Elle est faible : le sang vient des poumons après un trajet court."
+            },
+            {
+              "reponse": "Les veines pulmonaires s'abouchent à la face antérieure de l'atrium gauche.",
+              "explication": "Elles s'abouchent à sa face postérieure."
+            },
+            {
+              "reponse": "L'auricule gauche est une expansion du ventricule gauche.",
+              "explication": "C'est une expansion de l'atrium gauche, qui part en avant."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les vaisseaux qui arrivent au cœur et en partent, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "les vaisseaux qui viennent vers le cœur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les veines sont les vaisseaux qui viennent vers le cœur.",
+              "explication": "Rappel du cours."
+            },
+            {
+              "reponse": "L'artère pulmonaire transporte du sang désoxygéné.",
+              "explication": "Elle envoie le sang désoxygéné aux poumons."
+            },
+            {
+              "reponse": "Les veines pulmonaires transportent du sang oxygéné.",
+              "explication": "Elles ramènent le sang des poumons vers l'atrium gauche."
+            },
+            {
+              "reponse": "Par convention, ce qui est bleu sur les schémas représente le sang désoxygéné.",
+              "explication": "Le rouge représente le sang oxygéné."
+            },
+            {
+              "reponse": "La paroi de l'atrium droit mesure environ 2 millimètres d'épaisseur.",
+              "explication": "C'est une poche plate de paroi très peu épaisse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une veine transporte toujours du sang désoxygéné.",
+              "explication": "La notion de veine n'est pas liée à l'oxygénation : les veines pulmonaires sont oxygénées."
+            },
+            {
+              "reponse": "L'artère pulmonaire transporte du sang oxygéné vers le cœur.",
+              "explication": "Elle transporte du sang désoxygéné du cœur vers les poumons."
+            },
+            {
+              "reponse": "Les artères sont les vaisseaux qui ramènent le sang vers le cœur.",
+              "explication": "Ce sont les veines qui viennent vers le cœur."
+            },
+            {
+              "reponse": "La paroi de l'atrium droit mesure environ 2 centimètres d'épaisseur.",
+              "explication": "Elle mesure environ 2 millimètres."
+            },
+            {
+              "reponse": "Par convention, ce qui est rouge sur les schémas représente le sang désoxygéné.",
+              "explication": "Le rouge représente le sang oxygéné ; le bleu le sang désoxygéné."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la face postérieure du cœur et la circulation propre du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "La croisée des sillons"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les artères coronaires apportent l'oxygène au myocarde.",
+              "explication": "Le cœur est un muscle qui doit être oxygéné : c'est sa circulation propre."
+            },
+            {
+              "reponse": "Les veines coronaires ramènent le sang désoxygéné du myocarde.",
+              "explication": "Circulation propre du cœur."
+            },
+            {
+              "reponse": "La croisée des sillons réunit les sillons coronaire droit, coronaire gauche et interventriculaire postérieur.",
+              "explication": "Elle se situe à la face postérieure."
+            },
+            {
+              "reponse": "Le tronc pulmonaire se divise en artères pulmonaires droite et gauche.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'obstruction des artères pulmonaires par un caillot peut causer une embolie pulmonaire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La croisée des sillons se situe à la face antérieure du cœur.",
+              "explication": "Elle se situe à la face postérieure."
+            },
+            {
+              "reponse": "Le myocarde est oxygéné directement par le sang contenu dans ses cavités, sans circulation propre.",
+              "explication": "Il est oxygéné par les artères coronaires (circulation propre du cœur)."
+            },
+            {
+              "reponse": "Les veines coronaires ramènent le sang vers l'atrium gauche.",
+              "explication": "Elles confluent dans le sinus coronaire, qui se jette dans l'atrium droit."
+            },
+            {
+              "reponse": "La croisée des sillons comprend le sillon interventriculaire antérieur.",
+              "explication": "Elle réunit les sillons de la face postérieure : coronaire droit, coronaire gauche et interventriculaire postérieur."
+            },
+            {
+              "reponse": "L'embolie pulmonaire correspond à l'obstruction d'une artère coronaire.",
+              "explication": "Elle correspond à l'obstruction des artères pulmonaires par un caillot."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-014",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2023-2024",
+                "qcm": 39
+              }
+            ]
+          },
+          "question": "Concernant le sinus coronaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "le sinus coronaire, qui se jette dans l'atrium droit"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sinus coronaire est une structure veineuse.",
+              "annale": true,
+              "explication": "C'est un sinus veineux formé par la confluence des veines coronaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sinus coronaire est formé par la confluence des veines coronaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le sinus coronaire se jette dans l'atrium droit.",
+              "explication": "Au niveau de la face postérieure."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sinus coronaire se jette dans le ventricule droit.",
+              "annale": true,
+              "explication": "Il se jette dans l'atrium droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sinus coronaire reçoit la veine azygos.",
+              "annale": true,
+              "explication": "La veine azygos se jette dans la veine cave supérieure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sinus coronaire se situe sur la face sterno-costale du cœur.",
+              "annale": true,
+              "explication": "Il se situe à la face postérieure, à la croisée des sillons. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sinus coronaire se jette dans la veine cave inférieure.",
+              "explication": "Les veines du cœur ne se jettent pas dans les veines caves mais directement dans l'atrium droit."
+            },
+            {
+              "reponse": "Le sinus coronaire est formé par la confluence des artères coronaires.",
+              "explication": "Il est formé par la confluence des veines coronaires."
+            },
+            {
+              "reponse": "Le sinus coronaire se jette dans l'atrium gauche.",
+              "explication": "Il se jette dans l'atrium droit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Morphologie interne"
+      },
+      "questions": [
+        {
+          "id": "cardio-anat-coeur-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le septum et les cavités cardiaques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "le septum, qui comporte 3 parties"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur comporte 4 cavités, sans compter les auricules.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le septum atrio-ventriculaire sépare l'atrium droit du ventricule gauche.",
+              "explication": "Les septums ne sont pas symétriques."
+            },
+            {
+              "reponse": "Le nœud atrio-ventriculaire se situe au niveau du septum atrio-ventriculaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cavités droites sont un peu plus grandes que les cavités gauches.",
+              "explication": "Cette disparité explique l'existence du septum atrio-ventriculaire."
+            },
+            {
+              "reponse": "Le septum comporte une partie interatriale, une partie interventriculaire et une partie atrio-ventriculaire.",
+              "explication": "Ses 3 parties."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le septum atrio-ventriculaire sépare l'atrium gauche du ventricule droit.",
+              "explication": "Il sépare l'atrium droit du ventricule gauche."
+            },
+            {
+              "reponse": "Les septums du cœur sont parfaitement symétriques.",
+              "explication": "Ils ne sont pas symétriques."
+            },
+            {
+              "reponse": "Le cœur comporte 3 cavités.",
+              "explication": "Le cœur comporte 4 cavités, sans compter les auricules."
+            },
+            {
+              "reponse": "Le schéma montrant les 4 cavités dans un même plan est une vue anatomique réaliste.",
+              "explication": "C'est une représentation physiologique, peu réaliste."
+            },
+            {
+              "reponse": "Les cavités gauches sont plus grandes que les cavités droites.",
+              "explication": "Les cavités droites sont un peu plus grandes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-016",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2020-2021",
+                "qcm": 2
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2019-2020",
+                "qcm": 2
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2018-2019",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant les cavités cardiaques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "La face postérieure correspond au septum interatrial"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le limbe de la fosse ovale se situe sur la paroi médiale (septale) de l'atrium droit.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le cours le place sur la face qui correspond au septum interatrial ; les sources nomment cette paroi médiale ou septale. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La face septale du ventricule droit correspond au septum interventriculaire.",
+              "annale": true,
+              "explication": "Elle fait le mur avec le ventricule gauche. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La valve mitrale se situe à la base du ventricule gauche.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La base d'un ventricule correspond à son orifice atrio-ventriculaire ; son sommet est la pointe. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le septum interventriculaire sépare le ventricule droit du ventricule gauche.",
+              "annale": true,
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'atrium droit est composé de six parois.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Les descriptions anatomiques classiques décrivent six parois, mais le cours parle de « grossièrement 4 faces ». (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le limbe de la fosse ovale se situe sur la paroi inférieure de l'atrium droit.",
+              "annale": true,
+              "explication": "Il se situe sur le septum interatrial. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le sommet du ventricule droit correspond à la valve tricuspide.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La valve tricuspide est à la base du ventricule ; le sommet est la pointe. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le sommet du ventricule gauche correspond à la valve mitrale.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La valve mitrale est à la base du ventricule gauche ; le sommet est la pointe du cœur. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La valve mitrale se situe à la base du ventricule droit.",
+              "annale": true,
+              "explication": "La valve mitrale est à gauche ; à droite se trouve la valve tricuspide. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le septum interventriculaire sépare l'atrium droit de l'atrium gauche.",
+              "annale": true,
+              "explication": "C'est le septum interatrial qui sépare les 2 atriums. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le ventricule droit comporte 4 parois : antérieure, inférieure, septale et postérieure.",
+              "annale": true,
+              "explication": "Il a 3 faces : septale, antérieure et inférieure. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-017",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2023-2024",
+                "qcm": 43
+              }
+            ]
+          },
+          "question": "Concernant le cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Le ventricule droit éjecte ensuite ce sang"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le tronc des artères pulmonaires naît du ventricule droit.",
+              "annale": true,
+              "explication": "Par l'infundibulum. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La surface interne du cœur est tapissée par l'endocarde.",
+              "annale": true,
+              "explication": "Il tapisse les cavités et les valves. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le ventricule droit propulse le sang dans la circulation pulmonaire.",
+              "annale": true,
+              "explication": "Vers le tronc des artères pulmonaires. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le myocarde est plus épais dans le cœur droit que dans le cœur gauche.",
+              "annale": true,
+              "explication": "Il est plus épais à gauche. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le ventricule droit propulse le sang dans la grande circulation.",
+              "annale": true,
+              "explication": "C'est le ventricule gauche qui alimente la grande circulation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'aorte naît du ventricule droit.",
+              "explication": "Elle naît du ventricule gauche."
+            },
+            {
+              "reponse": "Le ventricule gauche propulse le sang vers les poumons.",
+              "explication": "Il propulse le sang dans l'aorte, vers la grande circulation."
+            },
+            {
+              "reponse": "L'atrium droit reçoit le sang des veines pulmonaires.",
+              "explication": "Il reçoit le sang des veines caves."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'épaisseur du myocarde et les pressions, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "le cœur gauche doit pomper plus fort"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le ventricule gauche est plus épais que le ventricule droit.",
+              "explication": "Le cœur gauche doit pomper plus fort."
+            },
+            {
+              "reponse": "La pression nécessaire pour envoyer le sang aux poumons est inférieure à celle nécessaire pour l'envoyer aux extrémités du corps.",
+              "explication": "Petite distance pour les poumons."
+            },
+            {
+              "reponse": "La pression systolique du ventricule gauche est d'environ 120 millimètres de mercure.",
+              "explication": "Soit 12 centimètres de mercure (erreur d'unité des notes corrigée)."
+            },
+            {
+              "reponse": "Une pression artérielle systolique de 140 millimètres de mercure correspond au seuil de l'hypertension artérielle.",
+              "explication": "Soit 14 centimètres de mercure."
+            },
+            {
+              "reponse": "La circulation pulmonaire est à basse pression, la circulation systémique à haute pression.",
+              "explication": "À retenir selon le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression systolique du ventricule gauche est d'environ 10 à 12 millimètres de mercure.",
+              "explication": "Erreur d'unité des notes : ce sont des centimètres de mercure, soit environ 120 millimètres de mercure."
+            },
+            {
+              "reponse": "Le ventricule droit est plus épais que le ventricule gauche.",
+              "explication": "Sa paroi est moins épaisse que celle du ventricule gauche."
+            },
+            {
+              "reponse": "Le ventricule gauche est plus musclé parce qu'il est plus grand que le ventricule droit.",
+              "explication": "Il est plus musclé même s'il est plus petit, car la pression d'éjection y est plus importante."
+            },
+            {
+              "reponse": "La circulation pulmonaire est à plus haute pression que la circulation systémique.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le cœur droit doit pomper plus fort que le cœur gauche.",
+              "explication": "C'est le cœur gauche qui doit pomper plus fort."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'insuffisance cardiaque et ses conséquences, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "c'est une insuffisance cardiaque"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans l'insuffisance cardiaque, les organes périphériques et les extrémités sont mal perfusés.",
+              "explication": "Le cœur ne pompe pas assez fort."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque gauche entraîne une congestion pulmonaire.",
+              "explication": "Pouvant aller jusqu'à l'œdème aigu du poumon."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque droite entraîne des œdèmes des membres inférieurs.",
+              "explication": "Avec une congestion veineuse systémique."
+            },
+            {
+              "reponse": "En cas d'insuffisance mitrale, le sang est repoussé dans l'atrium gauche, donc vers les poumons.",
+              "explication": "C'est l'œdème aigu du poumon."
+            },
+            {
+              "reponse": "Au cours de l'œdème aigu du poumon, le patient rejette des expectorations mousseuses rosées.",
+              "explication": "Il s'agit de crachats venant des voies respiratoires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'insuffisance cardiaque droite entraîne un engorgement du poumon.",
+              "explication": "Erreur des notes corrigée : c'est l'insuffisance cardiaque gauche qui entraîne la congestion pulmonaire."
+            },
+            {
+              "reponse": "Au cours de l'œdème aigu du poumon, le patient vomit un sang mousseux.",
+              "explication": "Erreur des notes corrigée : ce sont des expectorations, pas des vomissements."
+            },
+            {
+              "reponse": "En cas d'insuffisance mitrale, le sang reflue dans le ventricule droit.",
+              "explication": "Il reflue dans l'atrium gauche."
+            },
+            {
+              "reponse": "Un reflux à droite entraîne un œdème aigu du poumon.",
+              "explication": "Un reflux à droite fait gonfler l'atrium droit et refluer le sang dans les veines caves (œdème de la face et des jambes)."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque correspond à un cœur qui pompe trop fort.",
+              "explication": "C'est un cœur qui ne pompe pas assez fort."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les atteintes du myocarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "c'est la cardiomyopathie hypertrophique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Lorsqu'une artère coronaire est bouchée, la portion de muscle mal perfusée se nécrose.",
+              "explication": "Elle se contracte alors mal."
+            },
+            {
+              "reponse": "La nécrose du myocarde peut se compliquer d'une perforation ou d'une dilatation cardiaque.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans la cardiomyopathie hypertrophique, le cœur est trop musclé.",
+              "explication": "Il est « à l'étroit »."
+            },
+            {
+              "reponse": "Dans la cardiomyopathie hypertrophique, le cœur envoie de toutes petites quantités de sang.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Lors d'un infarctus du myocarde, la nécrose des piliers peut entraîner une rupture des cordages.",
+              "explication": "C'est mortel et très violent."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans la cardiomyopathie hypertrophique, le cœur envoie de grandes quantités de sang.",
+              "explication": "Il envoie de toutes petites quantités de sang."
+            },
+            {
+              "reponse": "La cardiomyopathie hypertrophique correspond à un myocarde aminci.",
+              "explication": "Elle correspond à un cœur trop musclé."
+            },
+            {
+              "reponse": "Lors d'un infarctus, le décès est le plus souvent dû à l'infarctus lui-même plutôt qu'à l'insuffisance cardiaque.",
+              "explication": "Selon le cours, c'est l'insuffisance cardiaque globale qui provoque le décès, et non l'infarctus lui-même."
+            },
+            {
+              "reponse": "Les muscles papillaires ne sont pas irrigués par les artères coronaires.",
+              "explication": "Ils sont irrigués par les artères coronaires, d'où leur nécrose possible en cas d'infarctus."
+            },
+            {
+              "reponse": "Une rupture de cordages après infarctus est une complication bénigne.",
+              "explication": "C'est mortel et très violent."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les épaisseurs de la paroi du cœur et l'endocardite, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "son endothélium évite que le sang coagule"
+          },
+          "bonnes": [
+            {
+              "reponse": "La paroi du cœur comporte, de l'intérieur vers l'extérieur, l'endocarde, le myocarde et l'épicarde.",
+              "explication": "3 épaisseurs."
+            },
+            {
+              "reponse": "L'endocarde tapisse les valves et toutes les cavités du cœur.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'endothélium de l'endocarde évite que le sang coagule à son contact.",
+              "explication": "Sans lui, le contact du sang avec le muscle serait thrombogène."
+            },
+            {
+              "reponse": "L'épicarde est le feuillet viscéral du péricarde.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans l'endocardite infectieuse, la destruction des valves peut imposer leur remplacement en urgence.",
+              "explication": "Les cordages peuvent se rompre : insuffisance valvulaire aiguë."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'épicarde est la couche la plus interne de la paroi du cœur.",
+              "explication": "C'est l'endocarde qui est la couche la plus interne."
+            },
+            {
+              "reponse": "L'endocarde est la couche la plus épaisse de la paroi du cœur.",
+              "explication": "C'est le myocarde, muscle très épais."
+            },
+            {
+              "reponse": "L'épicarde est le feuillet fibreux du péricarde.",
+              "explication": "C'est le feuillet viscéral du péricarde séreux."
+            },
+            {
+              "reponse": "L'endocardite infectieuse est une infection du myocarde.",
+              "explication": "Les bactéries s'accrochent sur les valves, tapissées d'endocarde."
+            },
+            {
+              "reponse": "L'endocardite infectieuse n'est jamais une urgence.",
+              "explication": "La rupture de cordages ou la destruction des valves est une urgence."
+            },
+            {
+              "reponse": "Une fièvre prolongée inexpliquée n'évoque jamais une endocardite.",
+              "explication": "Selon le cours, l'endocardite est à rechercher devant une fièvre prolongée inexpliquée."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le système anti-reflux des valves cardiaques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "assuré par les muscles papillaires et les cordages"
+          },
+          "bonnes": [
+            {
+              "reponse": "Aux orifices atrio-ventriculaires, le système anti-reflux est assuré par les muscles papillaires et les cordages.",
+              "explication": "Point de vigilance du cours (« QCM ++ »)."
+            },
+            {
+              "reponse": "Les valves artérielles sont formées de 3 valvules semi-lunaires.",
+              "explication": "Et non de cuspides reliées à des cordages."
+            },
+            {
+              "reponse": "Le bord libre des valvules semi-lunaires est épaissi par un nodule fibreux central.",
+              "explication": "Lors de la fermeture, les valvules butent les unes contre les autres grâce à ce nodule."
+            },
+            {
+              "reponse": "Le terme semi-lunaire vient de la forme en demi-lune des valvules en coupe latérale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cordages fibreux retiennent les valvules au moment de la contraction du cœur.",
+              "explication": "Ainsi, en systole, le sang se dirige vers les voies d'éjection."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les valvules aortiques sont retenues par des cordages fibreux.",
+              "explication": "Les valves artérielles n'ont pas de cordages : la continence est assurée par le nodule fibreux du bord libre."
+            },
+            {
+              "reponse": "Le nodule fibreux du bord libre assure la continence de la valve mitrale.",
+              "explication": "Il concerne les valvules semi-lunaires (aorte, artère pulmonaire)."
+            },
+            {
+              "reponse": "Les cordages des valves atrio-ventriculaires sont des structures musculaires.",
+              "explication": "Ce sont des cordages fibreux ; les piliers, eux, sont musculaires."
+            },
+            {
+              "reponse": "Les valves artérielles sont formées de 2 valvules semi-lunaires.",
+              "explication": "Elles en comportent 3."
+            },
+            {
+              "reponse": "La valve pulmonaire est retenue par des muscles papillaires.",
+              "explication": "C'est une valve artérielle à valvules semi-lunaires, sans cordages ni piliers."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le cycle cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "le cycle cardiaque comporte 2 phases"
+          },
+          "bonnes": [
+            {
+              "reponse": "Pendant la diastole, le ventricule se remplit.",
+              "explication": "La valve atrio-ventriculaire est ouverte."
+            },
+            {
+              "reponse": "Pendant la systole, le ventricule se vide.",
+              "explication": "Le sang est projeté vers les artères."
+            },
+            {
+              "reponse": "En systole, la valve atrio-ventriculaire se ferme sous l'effet de la pression.",
+              "explication": "C'est le myocarde qui se contracte, pas la valve."
+            },
+            {
+              "reponse": "La valve de l'infundibulum pulmonaire empêche le sang de revenir dans le ventricule droit pendant la diastole.",
+              "explication": "Valve à valvules semi-lunaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En systole, la valve atrio-ventriculaire se contracte.",
+              "explication": "Erreur des notes corrigée : la valve se ferme ; c'est le myocarde qui se contracte."
+            },
+            {
+              "reponse": "La diastole correspond à la phase de vidange du ventricule.",
+              "explication": "La diastole est la phase de remplissage."
+            },
+            {
+              "reponse": "Pendant la diastole, la valve atrio-ventriculaire est fermée.",
+              "explication": "Elle est ouverte pendant le remplissage ventriculaire."
+            },
+            {
+              "reponse": "Pendant la systole, le sang passe de l'atrium vers le ventricule.",
+              "explication": "En systole, le ventricule se vide vers les artères."
+            },
+            {
+              "reponse": "Le cycle cardiaque comporte 3 phases.",
+              "explication": "Le cours décrit 2 phases : diastole et systole."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'atrium droit, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "ce sont les muscles pectinés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les muscles pectinés se situent à la face antérieure de l'atrium droit.",
+              "explication": "Ils ressemblent à un peigne (« QCM ++ »)."
+            },
+            {
+              "reponse": "Les muscles pectinés poussent le sang de l'atrium droit vers le ventricule droit.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'ostium du sinus coronaire se situe à la face inférieure de l'atrium droit, à gauche de l'orifice de la veine cave inférieure.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La crête terminale rejoint les veines caves supérieure et inférieure.",
+              "explication": "Elle s'épaissit en tubercule interveineux."
+            },
+            {
+              "reponse": "Le tubercule interveineux sert à orienter le sang à son arrivée dans l'atrium droit.",
+              "explication": "Petit relief de la crête terminale."
+            },
+            {
+              "reponse": "L'anneau fibreux de l'arrivée de la veine cave inférieure forme une valve non continente.",
+              "explication": "Il n'y a pas de clapet au sein de l'atrium droit."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les muscles pectinés se situent sur le septum interatrial.",
+              "explication": "Ils se situent à la face antérieure ; la face postérieure correspond au septum interatrial."
+            },
+            {
+              "reponse": "L'arrivée de la veine cave inférieure est fermée par une valve continente.",
+              "explication": "L'anneau fibreux forme une valve non continente."
+            },
+            {
+              "reponse": "Les veines du cœur se jettent dans les veines caves.",
+              "explication": "Elles se jettent directement dans l'atrium droit, par le sinus coronaire."
+            },
+            {
+              "reponse": "La crête terminale est un relief du ventricule droit.",
+              "explication": "Elle appartient à l'atrium droit ; dans le ventricule droit, il s'agit de la crête supraventriculaire."
+            },
+            {
+              "reponse": "Le tubercule de la crête terminale est le tubercule intraveineux.",
+              "explication": "Erreur des notes corrigée : c'est le tubercule interveineux."
+            },
+            {
+              "reponse": "La veine cave supérieure se jette dans la face inférieure de l'atrium droit.",
+              "explication": "Elle se jette dans sa face supérieure ; la veine cave inférieure dans sa face inférieure."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la communication interatriale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "C'est la communication interatriale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Pendant la vie fœtale, le sang passe directement de l'atrium droit à l'atrium gauche.",
+              "explication": "Sans passer par la circulation pulmonaire."
+            },
+            {
+              "reponse": "La communication interatriale s'interrompt à la naissance.",
+              "explication": "Au moment où la circulation pulmonaire se met en marche."
+            },
+            {
+              "reponse": "Après la naissance, l'orifice est remplacé par un résidu fibreux.",
+              "explication": "Ce n'est pas du muscle."
+            },
+            {
+              "reponse": "Le système cardionecteur ne peut pas passer par le résidu fibreux de la communication interatriale.",
+              "explication": "Car ce n'est pas du muscle."
+            },
+            {
+              "reponse": "Une communication interatriale persistante peut se manifester par un souffle cardiaque.",
+              "explication": "Elle est symptomatique."
+            },
+            {
+              "reponse": "La persistance de la communication interatriale est traitée par voie endovasculaire.",
+              "explication": "Les cardiologues bouchent l'orifice ; on ne l'opère pas."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La communication interatriale se ferme au début de la vie fœtale.",
+              "explication": "Elle s'interrompt à la naissance."
+            },
+            {
+              "reponse": "Le résidu de la communication interatriale est musculaire.",
+              "explication": "C'est un résidu fibreux."
+            },
+            {
+              "reponse": "La persistance de la communication interatriale est toujours asymptomatique.",
+              "explication": "Elle est symptomatique (souffle) et peut aboutir à une insuffisance cardiaque."
+            },
+            {
+              "reponse": "La persistance de la communication interatriale est traitée par chirurgie à cœur ouvert.",
+              "explication": "Elle est traitée par voie endovasculaire, sans opération."
+            },
+            {
+              "reponse": "Pendant la vie fœtale, le sang passe par la circulation pulmonaire pour être oxygéné.",
+              "explication": "Le fœtus ne respire pas par les poumons : le sang passe directement de l'atrium droit à l'atrium gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-026",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2023-2024",
+                "qcm": 44
+              }
+            ]
+          },
+          "question": "Concernant la fosse ovale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "le limbe de la fosse ovale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fosse ovale est visible dans l'atrium droit.",
+              "annale": true,
+              "explication": "Sur le septum interatrial. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fosse ovale est visible dans l'atrium gauche.",
+              "annale": true,
+              "explication": "Le septum interatrial et le foramen ovale sont visibles depuis l'atrium gauche. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fosse ovale est un vestige embryonnaire.",
+              "annale": true,
+              "explication": "Résidu fibreux de la communication interatriale fœtale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fosse ovale présente un rebord saillant : le limbe.",
+              "annale": true,
+              "explication": "Le limbe de la fosse ovale est un relief « loin d'être anodin ». (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fosse ovale se situe au niveau du septum interventriculaire.",
+              "annale": true,
+              "explication": "Elle se situe sur le septum interatrial. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fosse ovale appartient au septum atrio-ventriculaire.",
+              "explication": "Elle appartient au septum interatrial."
+            },
+            {
+              "reponse": "La fosse ovale est une structure musculaire empruntée par le système cardionecteur.",
+              "explication": "C'est un résidu fibreux : le système cardionecteur ne peut pas y passer."
+            },
+            {
+              "reponse": "La fosse ovale se situe sur la face antérieure de l'atrium droit.",
+              "explication": "La face antérieure porte les muscles pectinés ; la fosse ovale est sur le septum interatrial."
+            },
+            {
+              "reponse": "La fosse ovale correspond à une communication normale entre les atriums chez l'adulte.",
+              "explication": "Chez l'adulte, la communication est fermée ; sa persistance est pathologique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le ventricule droit, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Le ventricule droit a une forme de pyramide"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le ventricule droit a une forme de pyramide.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le ventricule droit possède une face septale, une face antérieure et une face inférieure.",
+              "explication": "3 faces."
+            },
+            {
+              "reponse": "La face inférieure du ventricule droit repose sur le diaphragme.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le ventricule droit est plus musclé que l'atrium droit.",
+              "explication": "On y trouve des trabécules charnues."
+            },
+            {
+              "reponse": "L'orifice atrio-ventriculaire droit est fermé par la valve tricuspide.",
+              "explication": "Elle a 3 cuspides."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La face inférieure du ventricule droit repose sur le sternum.",
+              "explication": "Elle repose sur le diaphragme."
+            },
+            {
+              "reponse": "L'orifice atrio-ventriculaire droit est fermé par la valve mitrale.",
+              "explication": "Il est fermé par la valve tricuspide ; la mitrale est à gauche."
+            },
+            {
+              "reponse": "La valve tricuspide comporte 2 cuspides.",
+              "explication": "Elle en comporte 3."
+            },
+            {
+              "reponse": "Le ventricule droit est plus musclé que le ventricule gauche.",
+              "explication": "Il est moins musclé que le ventricule gauche."
+            },
+            {
+              "reponse": "Le ventricule droit ne contient aucun muscle papillaire.",
+              "explication": "Il existe 3 groupes de muscles papillaires, un par cuspide."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les reliefs du ventricule droit, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "la trabécule septo-marginale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La crête supraventriculaire est la plus grande trabécule charnue du ventricule droit.",
+              "explication": "Elle se situe sur la face septale."
+            },
+            {
+              "reponse": "La trabécule septo-marginale va du septum jusqu'à la face antérieure, où elle rejoint les muscles papillaires antérieurs.",
+              "explication": "Le professeur insiste beaucoup sur cette trabécule."
+            },
+            {
+              "reponse": "La trabécule septo-marginale contient la branche droite du faisceau atrio-ventriculaire.",
+              "explication": "Elle est sous-tendue par un faisceau du système cardionecteur."
+            },
+            {
+              "reponse": "Le système cardionecteur est constitué de tissu nodal.",
+              "explication": "Il conduit l'influx électrique dans le cœur."
+            },
+            {
+              "reponse": "Le ventricule droit comporte 3 groupes de muscles papillaires.",
+              "explication": "Un pour les cordages de chaque cuspide."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La trabécule septo-marginale contient la branche gauche du faisceau atrio-ventriculaire.",
+              "explication": "Elle contient la branche droite."
+            },
+            {
+              "reponse": "La crête terminale est le principal relief de la face septale du ventricule droit.",
+              "explication": "Erreur des notes corrigée : dans le ventricule droit, il s'agit de la crête supraventriculaire."
+            },
+            {
+              "reponse": "La trabécule septo-marginale est un relief sans signification fonctionnelle.",
+              "explication": "Elle contient la branche droite du faisceau atrio-ventriculaire : aucun relief n'est anodin dans le cœur."
+            },
+            {
+              "reponse": "La trabécule septo-marginale conduit un influx nerveux.",
+              "explication": "L'influx cardiaque est électrique, conduit par du tissu nodal, pas par des nerfs."
+            },
+            {
+              "reponse": "La trabécule septo-marginale se situe dans l'atrium droit.",
+              "explication": "Elle se situe dans le ventricule droit."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-029",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2022-2023",
+                "qcm": 24
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2021-2022",
+                "qcm": 33
+              }
+            ]
+          },
+          "question": "Concernant les muscles papillaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "les piliers ou muscles papillaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les muscles papillaires sont des expansions du myocarde.",
+              "annale": true,
+              "explication": "Ce sont de petites extensions musculaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les muscles papillaires donnent attache aux cordages fibreux des valves.",
+              "annale": true,
+              "explication": "Ils retiennent les clapets lors de la contraction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les muscles papillaires sont situés dans les ventricules.",
+              "annale": true,
+              "explication": "Ils retiennent les valves atrio-ventriculaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les muscles papillaires participent au système anti-reflux entre ventricule et atrium.",
+              "annale": true,
+              "explication": "Avec les cordages des valves atrio-ventriculaires. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les muscles papillaires sont des structures fibreuses.",
+              "annale": true,
+              "explication": "Ce sont des structures musculaires ; ce sont les cordages qui sont fibreux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les muscles papillaires sont situés dans les atriums.",
+              "annale": true,
+              "explication": "Ils sont situés dans les ventricules. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les muscles papillaires participent au système anti-reflux entre l'aorte et le ventricule.",
+              "annale": true,
+              "explication": "La valve aortique n'a pas de cordages : sa continence repose sur le nodule fibreux des valvules. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les muscles papillaires sont aussi appelés muscles pectinés.",
+              "explication": "Les muscles pectinés sont des reliefs de la face antérieure de l'atrium droit ; les muscles papillaires sont aussi appelés piliers."
+            },
+            {
+              "reponse": "Les muscles papillaires sont aussi appelés muscles capillaires.",
+              "explication": "Erreur des notes corrigée : il s'agit des muscles papillaires."
+            },
+            {
+              "reponse": "La nécrose des muscles papillaires est sans conséquence sur les valves.",
+              "explication": "Elle entraîne une rupture des cordages, mortelle et très violente."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-030",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2023-2024",
+                "qcm": 46
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2022-2023",
+                "qcm": 25
+              }
+            ]
+          },
+          "question": "Concernant la valve mitrale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "c'est la valve mitrale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La valve mitrale est amarrée aux muscles piliers par des cordages fibreux.",
+              "annale": true,
+              "explication": "Système anti-reflux des valves atrio-ventriculaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La valve mitrale est tapissée d'endocarde.",
+              "annale": true,
+              "explication": "L'endocarde tapisse les valves. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La valve mitrale est bicuspide.",
+              "explication": "Elle est fermée par 2 valvules."
+            },
+            {
+              "reponse": "L'orifice atrio-ventriculaire gauche mesure entre 30 et 35 millimètres.",
+              "explication": "Valeur retenue après correction des notes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La valve mitrale est composée de trois cuspides.",
+              "annale": true,
+              "explication": "Elle en comporte 2 (bicuspide). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La valve mitrale cloisonne l'orifice atrio-ventriculaire droit.",
+              "annale": true,
+              "explication": "Elle ferme l'orifice atrio-ventriculaire gauche. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le bord libre des cuspides mitrales présente un épaississement : le nodule d'Arantius.",
+              "annale": true,
+              "explication": "Le nodule fibreux du bord libre concerne les valvules semi-lunaires artérielles, pas la mitrale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'orifice mitral mesure environ 20 millimètres de diamètre.",
+              "annale": true,
+              "explication": "Il mesure 30 à 35 millimètres. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'orifice mitral mesure 35 à 40 millimètres de diamètre.",
+              "explication": "Erreur des notes corrigée : 30 à 35 millimètres."
+            },
+            {
+              "reponse": "L'orifice mitral est plus grand que l'orifice tricuspide.",
+              "explication": "L'orifice tricuspide (environ 40 millimètres) est plus grand que l'orifice mitral."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les cavités cardiaques gauches, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Le ventricule gauche est très charnu"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'atrium gauche reçoit l'abouchement des 4 veines pulmonaires.",
+              "explication": "Elles ramènent le sang oxygéné."
+            },
+            {
+              "reponse": "L'atrium gauche présente un orifice pour l'auricule gauche.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'atrium gauche n'a pas vraiment de muscles pectinés.",
+              "explication": "Il est beaucoup moins charnu que l'atrium droit."
+            },
+            {
+              "reponse": "Le ventricule gauche est très charnu, avec beaucoup de trabécules.",
+              "explication": "Car il est très musclé et puissant."
+            },
+            {
+              "reponse": "Le ventricule gauche présente une face septale, un bord antérieur et un bord postérieur.",
+              "explication": "Description du schéma ouvert."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'atrium gauche est plus charnu que l'atrium droit, avec de nombreux muscles pectinés.",
+              "explication": "C'est l'inverse : l'atrium gauche n'a pas vraiment de muscles pectinés."
+            },
+            {
+              "reponse": "Le ventricule gauche est peu trabéculé.",
+              "explication": "Il est très charnu, avec beaucoup de trabécules."
+            },
+            {
+              "reponse": "Les muscles papillaires du ventricule gauche se situent sur ses bords supérieur et inférieur.",
+              "explication": "Ils se situent sur chaque bord, antérieur et postérieur."
+            },
+            {
+              "reponse": "L'atrium gauche reçoit le sang désoxygéné de la grande circulation.",
+              "explication": "Il reçoit le sang oxygéné des veines pulmonaires ; le sang désoxygéné arrive dans l'atrium droit."
+            },
+            {
+              "reponse": "L'orifice aortique est fermé par 2 valvules semi-lunaires.",
+              "explication": "Il existe 3 valvules semi-lunaires aortiques."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-032",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2021-2022",
+                "qcm": 34
+              }
+            ]
+          },
+          "question": "L'atrium gauche reçoit l'abouchement de quelles structures ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Il reçoit l'abouchement des 4 veines"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'atrium gauche reçoit l'abouchement des veines pulmonaires.",
+              "annale": true,
+              "explication": "Les 4 veines pulmonaires. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'atrium gauche reçoit l'abouchement de la veine cave supérieure.",
+              "annale": true,
+              "explication": "Elle s'abouche dans l'atrium droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'atrium gauche reçoit l'abouchement de la veine cave inférieure.",
+              "annale": true,
+              "explication": "Elle s'abouche dans l'atrium droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'atrium gauche reçoit l'abouchement de la veine azygos.",
+              "annale": true,
+              "explication": "La veine azygos se jette dans la veine cave supérieure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'atrium gauche reçoit l'abouchement du sinus coronaire.",
+              "annale": true,
+              "explication": "Le sinus coronaire se jette dans l'atrium droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'atrium gauche reçoit l'abouchement de l'artère pulmonaire.",
+              "explication": "L'artère pulmonaire naît du ventricule droit et part vers les poumons."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Péricarde"
+      },
+      "questions": [
+        {
+          "id": "cardio-anat-coeur-033",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2020-2021",
+                "qcm": 1
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2019-2020",
+                "qcm": 1
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2018-2019",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant l'anatomie du péricarde et ses lignes de réflexion, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "une ligne de réflexion continue qui enveloppe"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le péricarde est composé de péricarde fibreux et de péricarde séreux.",
+              "annale": true,
+              "explication": "Double feuillet séreux et couche externe fibreuse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ligne de réflexion artérielle se situe sur l'aorte ascendante et l'artère pulmonaire.",
+              "annale": true,
+              "explication": "Elle s'insère en bec de flûte sur l'aorte et enveloppe le tronc des artères pulmonaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ligne de réflexion veineuse entoure la veine cave supérieure.",
+              "annale": true,
+              "explication": "Elle débute à la face antérieure en faisant le tour de la veine cave supérieure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde fibreux est fixé par des ligaments phréno-péricardiques.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours cite les ligaments phréno-péricardiques sur la coupe latérale, sans détailler la composition du péricarde fibreux. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le péricarde fibreux est fixé par des ligaments trachéo-péricardiques et vertébro-péricardiques.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours ne cite que les ligaments phréno- et sterno-péricardiques. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La ligne de réflexion veineuse ne passe pas par les veines pulmonaires gauches.",
+              "annale": true,
+              "explication": "Elle enveloppe les 4 veines pulmonaires, dont les veines pulmonaires supérieure et inférieure gauches. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde fibreux est composé de l'épicarde et du péricarde pariétal.",
+              "annale": true,
+              "explication": "L'épicarde et le péricarde pariétal forment le péricarde séreux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde n'est composé que de péricarde séreux.",
+              "annale": true,
+              "explication": "Il comprend aussi une couche externe fibreuse, le péricarde fibreux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ligne de réflexion veineuse ne passe pas par la veine cave supérieure.",
+              "annale": true,
+              "explication": "Elle fait le tour de la veine cave supérieure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ligne de réflexion artérielle ne passe pas par l'artère pulmonaire.",
+              "annale": true,
+              "explication": "Elle enveloppe l'aorte et le tronc des artères pulmonaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ligne de réflexion veineuse ne passe pas par la veine cave inférieure.",
+              "annale": true,
+              "explication": "Elle se termine au niveau de la veine cave inférieure, dont elle fait le tour. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2022-2023",
+                "qcm": 26
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2022-2023",
+                "qcm": 18
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2021-2022",
+                "qcm": 32
+              }
+            ]
+          },
+          "question": "Concernant le péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "composée de 3 épaisseurs (3 feuillets)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le péricarde est composé de 3 feuillets.",
+              "annale": true,
+              "explication": "Épicarde, péricarde séreux pariétal et péricarde fibreux (« +++ »). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde fibreux constitue le feuillet le plus externe du péricarde.",
+              "annale": true,
+              "explication": "Description du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde séreux forme en arrière de l'atrium gauche un récessus appelé sinus oblique.",
+              "annale": true,
+              "explication": "Le sinus oblique, dans le péricarde séreux, se situe en arrière du cœur, entre les 4 veines pulmonaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde tapisse l'origine de l'aorte.",
+              "annale": true,
+              "explication": "Il enveloppe le cœur jusqu'à l'origine des gros vaisseaux, comprise. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde séreux possède un double feuillet.",
+              "annale": true,
+              "explication": "Épicarde (viscéral) et péricarde séreux pariétal. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde séreux tapisse l'origine du tronc pulmonaire.",
+              "annale": true,
+              "explication": "Item lu comme « tronc pulmonaire » (« tronc aortique » dans le livret) : la ligne de réflexion artérielle enveloppe l'aorte et le tronc des artères pulmonaires. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le péricarde séreux est le feuillet le plus externe du péricarde.",
+              "annale": true,
+              "explication": "Le feuillet le plus externe est le péricarde fibreux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le péricarde est composé de 2 feuillets.",
+              "explication": "Il comporte 3 feuillets : 2 séreux et 1 fibreux."
+            },
+            {
+              "reponse": "Le sinus oblique se situe dans le péricarde fibreux.",
+              "explication": "Il se situe dans le péricarde séreux, entre les 2 feuillets séreux."
+            },
+            {
+              "reponse": "Le péricarde s'arrête avant l'origine des gros vaisseaux.",
+              "explication": "Il enveloppe le cœur jusqu'à l'origine des gros vaisseaux, comprise."
+            },
+            {
+              "reponse": "Le péricarde fibreux est le feuillet au contact direct du myocarde.",
+              "explication": "Le feuillet au contact du myocarde est l'épicarde (péricarde séreux viscéral)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la structure du péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "sous laquelle cheminent les artères coronaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'épicarde correspond au péricarde séreux viscéral.",
+              "explication": "Première couche au contact du myocarde."
+            },
+            {
+              "reponse": "Les artères coronaires cheminent sous l'épicarde.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le péricarde séreux pariétal est au contact du péricarde fibreux.",
+              "explication": "Il est collé à la paroi."
+            },
+            {
+              "reponse": "Le péricarde fibreux a une fonction protectrice et fixatrice du cœur.",
+              "explication": "Il est beaucoup plus épais et solide."
+            },
+            {
+              "reponse": "Les feuillets du péricarde séreux sont séparés par une cavité virtuelle contenant un film liquidien.",
+              "explication": "Le liquide est sécrété et réabsorbé en permanence."
+            },
+            {
+              "reponse": "Le péricarde, la plèvre et le péritoine sont des séreuses.",
+              "explication": "La vaginale du testicule est la « demie »."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cavité virtuelle du péricarde se situe entre le péricarde fibreux et le péricarde séreux pariétal.",
+              "explication": "Elle se situe entre les 2 feuillets séreux (épicarde et péricarde séreux pariétal)."
+            },
+            {
+              "reponse": "Les artères coronaires cheminent à l'extérieur du péricarde fibreux.",
+              "explication": "Elles cheminent sous l'épicarde."
+            },
+            {
+              "reponse": "Le péricarde fibreux est plus fin que le péricarde séreux.",
+              "explication": "Il est beaucoup plus épais et solide."
+            },
+            {
+              "reponse": "Le liquide péricardique est sécrété une fois pour toutes pendant la vie fœtale.",
+              "explication": "Il est sécrété et réabsorbé en permanence."
+            },
+            {
+              "reponse": "Par convention, les séreuses sont représentées en vert sur les schémas.",
+              "explication": "Elles sont représentées en violet."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les pathologies du péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "le péricarde fibreux ne peut pas se distendre"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le péricarde fibreux est inextensible.",
+              "explication": "Il ne peut pas se distendre."
+            },
+            {
+              "reponse": "Un épanchement compressif peut entraîner une hypotension et une syncope.",
+              "explication": "Le cœur s'écrase et n'arrive plus à fonctionner."
+            },
+            {
+              "reponse": "Lors d'une péricardite, on peut entendre à l'auscultation un bruit de « pas dans la neige ».",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'hémopéricarde correspond à la présence de sang dans la cavité péricardique.",
+              "explication": "Il peut être dû à un traumatisme."
+            },
+            {
+              "reponse": "La tamponnade correspond à une compression du cœur avec retentissement hémodynamique.",
+              "explication": "Par un épanchement péricardique quel qu'il soit (sang, liquide, pus)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Hémopéricarde et tamponnade sont synonymes.",
+              "explication": "Erreur des notes corrigée : l'hémopéricarde est une cause de tamponnade."
+            },
+            {
+              "reponse": "L'épicarde fibreux ne peut pas se distendre.",
+              "explication": "Erreur des notes corrigée : c'est le péricarde fibreux qui est inextensible ; l'épicarde est un feuillet séreux."
+            },
+            {
+              "reponse": "Une tamponnade ne peut être due qu'à du sang.",
+              "explication": "Elle peut être due à tout épanchement : sang, liquide, pus."
+            },
+            {
+              "reponse": "Un épanchement péricardique abondant entraîne une hypertension artérielle.",
+              "explication": "Il entraîne une hypotension (chute des pressions systolique et diastolique)."
+            },
+            {
+              "reponse": "Le péricarde fibreux se distend facilement, ce qui protège le cœur en cas d'épanchement.",
+              "explication": "Il est inextensible : c'est pourquoi l'épanchement comprime le cœur."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les lignes de réflexion du péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "comme un col de chemise"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le péricarde présente 2 lignes de réflexion, l'une au pôle artériel et l'autre au pôle veineux.",
+              "explication": "Le professeur insiste sur leur continuité."
+            },
+            {
+              "reponse": "La ligne de réflexion veineuse englobe les 4 veines pulmonaires et les veines caves.",
+              "explication": "Le tracé est complexe car les veines sont très écartées."
+            },
+            {
+              "reponse": "La ligne de réflexion artérielle entoure l'aorte et l'origine des artères pulmonaires comme un col de chemise.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Chaque ligne de réflexion forme un tracé fermé, sans interruption.",
+              "explication": "C'est le sens de « continue »."
+            },
+            {
+              "reponse": "Les lignes de réflexion qui accrochent le péricarde viscéral au péricarde pariétal constituent le mésocarde.",
+              "explication": "C'est ainsi que le cœur est accroché."
+            },
+            {
+              "reponse": "Les attaches du cœur dans le péricarde sont les pôles artériel et veineux.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les lignes de réflexion artérielle et veineuse se confondent en une seule ligne.",
+              "explication": "Les 2 lignes restent distinctes l'une de l'autre."
+            },
+            {
+              "reponse": "La ligne de réflexion veineuse entoure l'aorte.",
+              "explication": "L'aorte appartient au pôle artériel."
+            },
+            {
+              "reponse": "La ligne de réflexion artérielle entoure la veine cave supérieure.",
+              "explication": "La veine cave supérieure appartient au pôle veineux."
+            },
+            {
+              "reponse": "Les lignes de réflexion sont interrompues entre les veines pulmonaires.",
+              "explication": "Chaque ligne est continue."
+            },
+            {
+              "reponse": "Le cœur est fixé dans le péricarde sur toute sa surface.",
+              "explication": "Il est quasiment libre, simplement attaché par l'arrière, au niveau des 2 pôles."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les sinus du péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "entre le pôle artériel et la veine cave supérieure"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sinus oblique se situe en arrière du cœur, entre les 4 veines pulmonaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En remontant le doigt derrière le cœur, on bute sur le sinus oblique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le sinus transverse entoure les gros vaisseaux artériels, aorte et tronc pulmonaire.",
+              "explication": "On peut y passer le doigt."
+            },
+            {
+              "reponse": "Le sinus transverse se situe entre le pôle artériel et la veine cave supérieure.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les sinus du péricarde ont un intérêt clinique pour les manœuvres de clampage en chirurgie cardiaque.",
+              "explication": "Notamment en cas de circulation extracorporelle."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sinus oblique se situe entre l'aorte et le tronc pulmonaire.",
+              "explication": "C'est le sinus transverse qui passe derrière l'aorte et le tronc pulmonaire."
+            },
+            {
+              "reponse": "Le sinus transverse se situe entre les 4 veines pulmonaires.",
+              "explication": "C'est le sinus oblique."
+            },
+            {
+              "reponse": "Le sinus oblique se situe dans le péricarde fibreux.",
+              "explication": "Il est dans le péricarde séreux, entre les 2 feuillets séreux."
+            },
+            {
+              "reponse": "On ne peut pas passer le doigt dans le sinus transverse.",
+              "explication": "On peut y passer le doigt."
+            },
+            {
+              "reponse": "Les sinus du péricarde se situent en dehors de la cavité péricardique.",
+              "explication": "Ce sont des zones de la cavité péricardique délimitées par les lignes de réflexion."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'abord chirurgical et le rôle du péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "Ce péricarde fibreux est inextensible"
+          },
+          "bonnes": [
+            {
+              "reponse": "En ouvrant le thorax de face, on tombe d'abord sur le péricarde fibreux.",
+              "explication": "Couche la plus externe."
+            },
+            {
+              "reponse": "Le péricarde fibreux est blanchâtre, dur et épais.",
+              "explication": "Il a un rôle mécanique de protection du cœur."
+            },
+            {
+              "reponse": "Après ouverture du péricarde fibreux, on rencontre successivement le péricarde séreux pariétal, le péricarde séreux viscéral puis le cœur.",
+              "explication": "Ordre décrit dans le cours."
+            },
+            {
+              "reponse": "La grande cavité péricardique permet de passer les doigts de la face antérieure à la face postérieure du cœur.",
+              "explication": "Sans buter, sauf contre les parois du sinus oblique."
+            },
+            {
+              "reponse": "Le péricarde permet au cœur de battre avec très peu de frottements.",
+              "explication": "Le cœur y est quasiment libre."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En ouvrant le thorax de face, on tombe directement sur le myocarde.",
+              "explication": "On tombe d'abord sur le péricarde fibreux."
+            },
+            {
+              "reponse": "Après ouverture du péricarde fibreux, on tombe directement sur l'épicarde.",
+              "explication": "On rencontre d'abord le péricarde séreux pariétal."
+            },
+            {
+              "reponse": "Le péricarde fibreux est fin, souple et transparent.",
+              "explication": "Il est blanchâtre, dur, épais et inextensible."
+            },
+            {
+              "reponse": "Le péricarde n'a aucun rôle de fixation du cœur.",
+              "explication": "Il a une fonction de protection et de fixation."
+            },
+            {
+              "reponse": "La grande cavité péricardique ne permet pas d'atteindre la face postérieure du cœur.",
+              "explication": "Elle permet de passer les doigts jusqu'à la face postérieure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Coupe latérale et coupe axiale"
+      },
+      "questions": [
+        {
+          "id": "cardio-anat-coeur-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la coupe latérale du thorax, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "la trachée se divise en bronches"
+          },
+          "bonnes": [
+            {
+              "reponse": "La trachée se divise en bronches au niveau de la 5e vertèbre thoracique.",
+              "explication": "Bifurcation trachéale."
+            },
+            {
+              "reponse": "L'œsophage se situe en arrière du cœur et de la trachée, en proximité immédiate.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La veine cave supérieure se situe en avant de la trachée.",
+              "explication": "Elle est formée par la réunion des troncs brachio-céphaliques."
+            },
+            {
+              "reponse": "La crosse de la veine azygos se jette dans la veine cave supérieure.",
+              "explication": "Légende 13 de la coupe latérale."
+            },
+            {
+              "reponse": "La trachée et l'œsophage forment la filière aéro-digestive.",
+              "explication": "Regroupement de la coupe latérale."
+            },
+            {
+              "reponse": "Le diaphragme possède un centre tendineux.",
+              "explication": "Il ferme le thorax."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La trachée se divise en bronches au niveau de la 8e vertèbre thoracique.",
+              "explication": "Elle se divise au niveau de la 5e vertèbre thoracique."
+            },
+            {
+              "reponse": "L'œsophage se situe en avant de la trachée.",
+              "explication": "Il se situe en arrière du cœur et de la trachée."
+            },
+            {
+              "reponse": "La crosse de la veine azygos se jette dans la veine cave inférieure.",
+              "explication": "Elle se jette dans la veine cave supérieure."
+            },
+            {
+              "reponse": "La veine cave supérieure se situe en arrière de l'œsophage.",
+              "explication": "Elle se situe en avant de la trachée."
+            },
+            {
+              "reponse": "L'aorte descendante distribue les artères coronaires.",
+              "explication": "Elle distribue les artères intercostales."
+            },
+            {
+              "reponse": "La veine azygos draine le myocarde.",
+              "explication": "C'est la veine de drainage intercostal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les nerfs en rapport avec le cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "le nerf phrénique descend latéralement à la veine cave"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le nerf phrénique descend latéralement à la veine cave supérieure.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le nerf phrénique chemine le long du bord droit du cœur.",
+              "explication": "Trajet noté « ++ » dans les notes."
+            },
+            {
+              "reponse": "Le nerf phrénique innerve le diaphragme.",
+              "explication": "Il intervient dans la respiration."
+            },
+            {
+              "reponse": "Le nerf vague entoure l'œsophage.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le nerf vague correspond à la 10e paire de nerfs crâniens.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le nerf vague innerve le diaphragme.",
+              "explication": "C'est le nerf phrénique qui innerve le diaphragme."
+            },
+            {
+              "reponse": "Le nerf phrénique entoure l'œsophage.",
+              "explication": "C'est le nerf vague qui entoure l'œsophage."
+            },
+            {
+              "reponse": "Le nerf vague correspond à la 12e paire de nerfs crâniens.",
+              "explication": "C'est la 10e paire."
+            },
+            {
+              "reponse": "Le nerf phrénique est une branche du nerf vague.",
+              "explication": "Ce sont deux nerfs distincts."
+            },
+            {
+              "reponse": "Sur la coupe axiale, les nerfs phréniques sont situés de part et d'autre de l'œsophage.",
+              "explication": "Les nerfs phréniques sont de part et d'autre du cœur ; les nerfs vagues de part et d'autre de l'œsophage."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'artère thoracique interne et les attaches du péricarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "on prend l'artère thoracique interne"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'artère thoracique interne est une branche de l'artère subclavière.",
+              "explication": "Légende 18 de la coupe latérale."
+            },
+            {
+              "reponse": "L'artère thoracique interne est aussi appelée artère mammaire interne.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans le pontage aorto-coronarien, l'artère thoracique interne est branchée en dessous du bouchon coronaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'artère péricardo-phrénique est une branche de l'artère thoracique interne.",
+              "explication": "Légende 19 de la coupe latérale."
+            },
+            {
+              "reponse": "La coupe latérale montre des ligaments phréno-péricardiques et sterno-péricardiques.",
+              "explication": "Légendes 16 et 17."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'artère thoracique interne est une branche de l'aorte descendante.",
+              "explication": "C'est une branche de l'artère subclavière."
+            },
+            {
+              "reponse": "Dans le pontage aorto-coronarien, l'artère thoracique interne est branchée au-dessus du bouchon.",
+              "explication": "Elle est branchée en dessous du bouchon."
+            },
+            {
+              "reponse": "L'artère péricardo-phrénique est une branche de l'artère coronaire droite.",
+              "explication": "C'est une branche de l'artère thoracique interne."
+            },
+            {
+              "reponse": "L'artère thoracique interne est située en arrière du cœur.",
+              "explication": "Elle chemine en avant, le long du sternum."
+            },
+            {
+              "reponse": "Le pontage aorto-coronarien utilise la veine azygos.",
+              "explication": "Le cours décrit l'utilisation de l'artère thoracique interne."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-043",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'échographie du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "Le meilleur examen pour voir les valves"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'échographie transœsophagienne est le meilleur examen pour voir les valves.",
+              "explication": "Le cœur est juste devant l'œsophage."
+            },
+            {
+              "reponse": "L'échographie transœsophagienne permet de mieux voir la face postérieure du cœur.",
+              "explication": "Elle passe en arrière."
+            },
+            {
+              "reponse": "L'échographie cardiaque permet de vérifier l'absence de végétation sur les valves.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'échographie transœsophagienne peut être utilisée pendant une opération.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'échographie transœsophagienne permet de voir si la veine cave est bien remplie.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'échographie transœsophagienne passe par la trachée.",
+              "explication": "Elle passe par l'œsophage."
+            },
+            {
+              "reponse": "Le cœur est situé juste en arrière de l'œsophage.",
+              "explication": "Le cœur est juste devant l'œsophage."
+            },
+            {
+              "reponse": "L'échographie classique suffit toujours à bien voir la face postérieure du cœur.",
+              "explication": "Ce qui est à la face postérieure est difficile à voir en échographie classique."
+            },
+            {
+              "reponse": "L'échographie transœsophagienne est contre-indiquée pendant une opération.",
+              "explication": "Elle peut être utilisée pendant une opération."
+            },
+            {
+              "reponse": "L'échographie transœsophagienne ne permet pas de voir les valves.",
+              "explication": "C'est le meilleur examen pour les voir."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la coupe axiale du thorax et la ponction péricardique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "on plante l'aiguille sous la pointe du processus xiphoïde"
+          },
+          "bonnes": [
+            {
+              "reponse": "La coupe axiale du cours passe par la 8e vertèbre thoracique et est vue d'en dessous.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Sur la coupe axiale, le muscle cardiaque est beaucoup plus charnu à gauche qu'à droite.",
+              "explication": "Description du schéma."
+            },
+            {
+              "reponse": "La pointe du cœur est proche du processus xiphoïde.",
+              "explication": "Rapport visible sur la coupe axiale."
+            },
+            {
+              "reponse": "Pour la ponction péricardique, on plante l'aiguille sous la pointe du processus xiphoïde et on remonte vers le haut.",
+              "explication": "Sous échographie."
+            },
+            {
+              "reponse": "Le cœur est en rapport en arrière avec l'œsophage.",
+              "explication": "Rapport postérieur visible sur la coupe axiale."
+            },
+            {
+              "reponse": "La plèvre se réfléchit au niveau du hile pulmonaire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La coupe axiale du cours est vue d'au-dessus.",
+              "explication": "Elle est vue d'en dessous."
+            },
+            {
+              "reponse": "La veine cave est bien visible sur la coupe axiale passant par la 8e vertèbre thoracique.",
+              "explication": "On ne la voit pas, car elle arrive par en dessous du cœur."
+            },
+            {
+              "reponse": "La ponction péricardique se fait au 5e espace intercostal gauche.",
+              "explication": "Elle se fait sous la pointe du processus xiphoïde."
+            },
+            {
+              "reponse": "Sur la coupe axiale, l'aorte est située en avant et à droite.",
+              "explication": "Elle est située en arrière et à gauche."
+            },
+            {
+              "reponse": "La ponction péricardique se fait à l'aveugle, sans échographie.",
+              "explication": "Elle se fait sous échographie."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-045",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2023-2024",
+                "qcm": 40
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Anatomie",
+                "annee": "2021-2022",
+                "qcm": 31
+              }
+            ]
+          },
+          "question": "Le cœur est en rapport en arrière avec quelles structures ?",
+          "cours": {
+            "page": 23,
+            "surligner": "On remarque le rapport postérieur du cœur avec l'œsophage"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur est en rapport en arrière avec l'œsophage.",
+              "annale": true,
+              "explication": "Rapport postérieur souligné sur la coupe axiale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le cœur est en rapport en arrière avec l'aorte descendante.",
+              "annale": true,
+              "explication": "Sur les coupes du cours, l'aorte descendante est en arrière du cœur, à gauche. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le cœur est en rapport en arrière avec le canal thoracique.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Élément du médiastin postérieur, non cité dans ce cours. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cœur est en rapport en arrière avec l'artère thoracique interne.",
+              "annale": true,
+              "explication": "Elle est en avant, le long du sternum. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le cœur est en rapport en arrière avec la crosse de la veine azygos.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "La crosse de l'azygos se jette dans la veine cave supérieure, au-dessus du pédicule pulmonaire droit, et non en arrière du cœur. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le cœur est en rapport en arrière avec le sternum.",
+              "explication": "Le sternum est en avant du cœur."
+            },
+            {
+              "reponse": "Le cœur est en rapport en arrière avec le processus xiphoïde.",
+              "explication": "Le processus xiphoïde est en avant, près de la pointe du cœur."
+            },
+            {
+              "reponse": "Le cœur est en rapport en arrière avec le résidu adipeux du thymus.",
+              "explication": "Le thymus est antérieur, derrière le sternum."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Auscultation"
+      },
+      "questions": [
+        {
+          "id": "cardio-anat-coeur-046",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les foyers d'auscultation cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "Il existe 4 foyers auscultatoires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe 4 foyers auscultatoires, un pour chaque valve.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le foyer aortique se situe au 2e espace intercostal droit.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le foyer pulmonaire se situe au 2e espace intercostal gauche.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le foyer tricuspide se situe à la pointe du processus xiphoïde.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le foyer mitral se situe au 5e espace intercostal gauche.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le foyer aortique se situe au 2e espace intercostal gauche.",
+              "explication": "Il se situe au 2e espace intercostal droit ; le 2e gauche est le foyer pulmonaire."
+            },
+            {
+              "reponse": "Le foyer mitral se situe au 2e espace intercostal droit.",
+              "explication": "Il se situe au 5e espace intercostal gauche."
+            },
+            {
+              "reponse": "Le foyer tricuspide se situe au 5e espace intercostal gauche.",
+              "explication": "Il se situe à la pointe du processus xiphoïde ; le 5e espace intercostal gauche est le foyer mitral."
+            },
+            {
+              "reponse": "Le foyer pulmonaire se situe à la pointe du processus xiphoïde.",
+              "explication": "Il se situe au 2e espace intercostal gauche."
+            },
+            {
+              "reponse": "Il existe 2 foyers auscultatoires, un pour chaque ventricule.",
+              "explication": "Il en existe 4, un pour chaque valve."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les bruits anormaux à l'auscultation, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Un bruit supplémentaire est anormal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un bruit supplémentaire à l'auscultation cardiaque est anormal.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Un souffle peut traduire une insuffisance mitrale.",
+              "explication": "La valve est légèrement incontinente."
+            },
+            {
+              "reponse": "L'insuffisance mitrale est très fréquente.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "En cas de rétrécissement aortique, le sang frotte contre la valve au moment de l'éjection systolique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Un souffle cardiaque est un bruit pathologique surajouté au battement.",
+              "explication": "Définition donnée à propos de la communication interatriale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'insuffisance mitrale est une valvulopathie rare.",
+              "explication": "Elle est très fréquente."
+            },
+            {
+              "reponse": "Dans le rétrécissement aortique, le frottement du sang contre la valve se produit pendant la diastole.",
+              "explication": "Il se produit au moment de la systole, lors de l'éjection."
+            },
+            {
+              "reponse": "Un souffle cardiaque est un bruit normal entendu chez tous les sujets.",
+              "explication": "C'est un bruit pathologique surajouté."
+            },
+            {
+              "reponse": "Dans l'insuffisance mitrale, la valve est parfaitement continente.",
+              "explication": "Elle est légèrement incontinente."
+            },
+            {
+              "reponse": "Une communication interatriale persistante ne donne jamais de souffle.",
+              "explication": "Elle se détecte facilement, par exemple par un souffle."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'examen du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "car elle détermine les foyers"
+          },
+          "bonnes": [
+            {
+              "reponse": "La morphologie du cœur détermine les foyers d'auscultation.",
+              "explication": "D'où l'importance de la connaître."
+            },
+            {
+              "reponse": "La face postérieure du cœur est difficile à voir en échographie classique.",
+              "explication": "Il faut alors une échographie transœsophagienne."
+            },
+            {
+              "reponse": "L'échographie transœsophagienne permet de mieux voir les valves cardiaques.",
+              "explication": "Elle passe en arrière, par l'œsophage."
+            },
+            {
+              "reponse": "La pointe du cœur est située un peu à gauche du processus xiphoïde.",
+              "explication": "Elle repose sur le diaphragme."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La morphologie du cœur n'a aucun lien avec les foyers d'auscultation.",
+              "explication": "Elle détermine les foyers d'auscultation."
+            },
+            {
+              "reponse": "La face postérieure du cœur est la mieux visible en échographie classique.",
+              "explication": "Elle est difficile à voir en échographie classique."
+            },
+            {
+              "reponse": "L'échographie transœsophagienne passe en avant du cœur.",
+              "explication": "Elle passe en arrière, par l'œsophage."
+            },
+            {
+              "reponse": "La pointe du cœur est située sous la clavicule droite.",
+              "explication": "Elle est un peu à gauche du processus xiphoïde."
+            },
+            {
+              "reponse": "La pointe du cœur est orientée vers le haut et la droite.",
+              "explication": "Elle pointe vers l'avant et vers la gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : concernant les chiffres clés de l'anatomie du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Version retenue : mitrale 30 à 35 millimètres"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cœur pèse environ 300 grammes.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "L'orifice mitral mesure 30 à 35 millimètres.",
+              "explication": "Valeur retenue après correction des notes."
+            },
+            {
+              "reponse": "L'orifice tricuspide mesure environ 40 millimètres.",
+              "explication": "Il est plus gros que l'orifice mitral."
+            },
+            {
+              "reponse": "La paroi de l'atrium droit mesure environ 2 millimètres.",
+              "explication": "Paroi très peu épaisse."
+            },
+            {
+              "reponse": "Le cœur gauche reçoit 4 veines pulmonaires.",
+              "explication": "Elles s'abouchent dans l'atrium gauche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'orifice tricuspide est plus petit que l'orifice mitral.",
+              "explication": "Il est plus gros (environ 40 millimètres contre 30 à 35)."
+            },
+            {
+              "reponse": "La valve tricuspide comporte 2 cuspides et la valve mitrale 3.",
+              "explication": "C'est l'inverse : tricuspide 3, mitrale 2."
+            },
+            {
+              "reponse": "Les valves artérielles comportent 2 valvules semi-lunaires.",
+              "explication": "Elles en comportent 3."
+            },
+            {
+              "reponse": "La bifurcation trachéale se situe au niveau de la 8e vertèbre thoracique.",
+              "explication": "Elle se situe au niveau de la 5e vertèbre thoracique."
+            },
+            {
+              "reponse": "Le ventricule droit comporte 4 groupes de muscles papillaires.",
+              "explication": "Il y en a 3, un par cuspide."
+            }
+          ]
+        },
+        {
+          "id": "cardio-anat-coeur-050",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Synthèse : concernant les structures à ne pas confondre, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Elle s'épaissit en un petit tubercule"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les muscles pectinés appartiennent à l'atrium droit.",
+              "explication": "Face antérieure, en forme de peigne."
+            },
+            {
+              "reponse": "Les muscles papillaires appartiennent aux ventricules.",
+              "explication": "Ils donnent attache aux cordages."
+            },
+            {
+              "reponse": "La crête terminale appartient à l'atrium droit.",
+              "explication": "Elle rejoint les veines caves."
+            },
+            {
+              "reponse": "La crête supraventriculaire appartient au ventricule droit.",
+              "explication": "Plus grande trabécule charnue de la face septale."
+            },
+            {
+              "reponse": "Le tubercule interveineux est un épaississement de la crête terminale.",
+              "explication": "Il oriente le sang à son arrivée."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les muscles pectinés donnent attache aux cordages des valves.",
+              "explication": "Ce sont les muscles papillaires qui donnent attache aux cordages."
+            },
+            {
+              "reponse": "La crête terminale appartient au ventricule droit.",
+              "explication": "Elle appartient à l'atrium droit."
+            },
+            {
+              "reponse": "La crête supraventriculaire appartient à l'atrium droit.",
+              "explication": "Elle appartient au ventricule droit."
+            },
+            {
+              "reponse": "Le sinus coronaire est un sinus du péricarde.",
+              "explication": "C'est un sinus veineux ; les sinus du péricarde sont le sinus oblique et le sinus transverse."
+            },
+            {
+              "reponse": "Le sinus oblique passe derrière l'aorte et le tronc pulmonaire.",
+              "explication": "C'est le sinus transverse ; le sinus oblique est entre les 4 veines pulmonaires."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
