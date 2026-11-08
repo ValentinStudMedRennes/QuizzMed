@@ -1,4 +1,4 @@
-# Prompt de génération de cours — Version v4.3 (04/11/2026)
+# Prompt de génération de cours — Version v5.0 (08/11/2026)
 # Rappel : incrémenter la version à chaque modification de ce prompt (voir "Journal des versions").
 
 Tu vas m'aider à retravailler des notes de cours en générant 2 fichiers PDF.
@@ -105,6 +105,13 @@ par numéro de page et par passage surligné.
     dans l'image.
   - Schéma illisible : insère-le et écris [Schéma illisible : diapo n°X].
 - Notion non expliquée dans les diapositives ou les notes : recherche web.
+- Première apparition d'un terme, d'une idée ou d'un concept que le cours et les
+  notes ne définissent pas assez pour être compris par quelqu'un qui découvre la
+  matière : ajoute juste après une courte définition et/ou un exemple concret tirés
+  d'une recherche web, en vert, précédés de l'étiquette [Explication tirée du web].
+  Une seule fois par terme (à sa première occurrence). Ces passages servent
+  uniquement à la compréhension : ce n'est pas du contenu de cours, ils ne doivent
+  pas servir de base à des QCM.
 - À la fin : tableau récapitulatif des arbitrages, puis glossaire des abréviations.
 - Tout le texte doit être sélectionnable (hors contenu des figures).
 - Ne fais figurer ni le nom du professeur, ni celui des auteurs des notes, ni le
@@ -116,7 +123,10 @@ par numéro de page et par passage surligné.
 - Code couleur, avec légende : bleu gras (notions clés), orange gras (vigilance et
   corrections), violet (incertain), vert (compléments web).
 - Chaque passage orange, violet ou vert commence par une étiquette écrite :
-  [Correction], [Vigilance], [Incertain], [Hors cours].
+  [Correction], [Vigilance], [Incertain], [Hors cours], [Explication tirée du web].
+  [Hors cours] = information complémentaire au contenu du cours ;
+  [Explication tirée du web] = définition ou exemple ajouté seulement pour
+  comprendre un terme (fichier 2).
 - Conserve les indications de priorité des notes avec une étiquette :
   [Insistance d'un intervenant], [Non abordé cette année], [Dit à l'oral].
 
@@ -147,6 +157,10 @@ Règle :
 - MINEUR (passage à X.Y, ex. 4.3 → 4.4) : la modification ne change pas radicalement
   la structure (ajustement de forme ou de contenu, reformulation, ajout ou
   modification d'une partie du résumé).
+- v5.0 (08/11/2026) : fichier 2 : définition et/ou exemple tirés du web à la
+  première apparition d'un terme insuffisamment défini, étiquette
+  [Explication tirée du web], exclus des QCM (majeur : ajoute du texte et décale
+  la pagination du fichier 2).
 - v4.3 (04/11/2026) : tableaux comparatifs en fin de résumé (pages pleine largeur,
   colonnes déduites du cours, moyen mnémotechnique, ligne "Repère :").
 - v4.2 (04/11/2026) : règle de versionnage simplifiée (majeur = changement radical

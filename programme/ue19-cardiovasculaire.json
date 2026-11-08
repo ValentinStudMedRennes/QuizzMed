@@ -75,7 +75,7 @@
    "dates": [
     "2026-09-25"
    ],
-   "fichiers": []
+   "fichiers": ["cardio-semio-dta.pdf"]
   },
   {
    "titre": "Application de la médecine nucléaire en cardiologie",
@@ -94,7 +94,7 @@
     "2026-10-16"
    ],
    "fichiers": [
-    "cardio-pharmaco-aht.pdf",
+    "cardio-pharmaco-aht.pdf"
    ],
    "remarque": "Les 5 cours de pharmacologie font 7 h au total."
   },

@@ -8,6 +8,7 @@ const baseName=p=>String(p).split("/").pop();
 const NONE_TEXT="Toutes les réponses précédentes sont fausses";   // proposition ajoutée quand 0 bonne réponse est tirée
 const NONE_WHY="Aucune des autres propositions n’est correcte.";
 const NONE_WHY_FALSE="Faux : au moins une des propositions précédentes est correcte.";
+const PROPS=5;          // nombre de propositions affichées par question (toutes s’il y en a moins)
 const NONE_PROB=1/15;   // probabilité que « Toutes les réponses précédentes sont fausses » apparaisse (en mauvaise réponse) dans une question qui a au moins une bonne réponse
 const PDFJS_VERSION="3.11.174";   // bibliothèque d’affichage des PDF (chargée seulement quand on ouvre un cours)
 const PDFJS_CDN="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/"+PDFJS_VERSION+"/";
@@ -88,11 +89,14 @@ function clean(list,where,warns,def){
   const out=[];
   list.forEach((x,n)=>{
     const type=x&&x.type!==undefined?String(x.type).toLowerCase():"qcm";
-    if(type!=="qcm"){warns.push(where+" : question n°"+(n+1)+" ignorée (type « "+type+" » pas encore pris en charge)");return}
+    if(!["qcm","qcu","qrp"].includes(type)){warns.push(where+" : question n°"+(n+1)+" ignorée (type « "+type+" » pas encore pris en charge)");return}   // qcm : choix multiple · qcu : choix unique · qrp : nombre de réponses précisé (champ nb_bonnes)
     const ok=x&&typeof x.question==="string"&&Array.isArray(x.bonnes)&&Array.isArray(x.mauvaises);
     const b=ok?x.bonnes.map(ans):[],m=ok?x.mauvaises.map(ans):[];
     if(!ok||b.includes(null)||m.includes(null)||b.length+m.length===0){warns.push(where+" : question n°"+(n+1)+" ignorée (attendu : question, bonnes et mauvaises, avec « reponse » dans chaque réponse)");return}
-    out.push({id:x.id!==undefined?String(x.id):null,type:"qcm",question:x.question,bonnes:uniq(b),mauvaises:uniq(m),cours:coursOf(x.cours,def),source:parseSource(x.source)});
+    if(type==="qcu"&&!b.length){warns.push(where+" : question n°"+(n+1)+" ignorée (choix unique sans bonne réponse)");return}
+    const nb=x.nb_bonnes;   // QRP : nombre de bonnes réponses affichées, de 2 à 4, au plus le nombre de bonnes du fichier
+    if(type==="qrp"&&!(Number.isInteger(nb)&&nb>=2&&nb<PROPS&&nb<=uniq(b).length)){warns.push(where+" : question n°"+(n+1)+" ignorée (QRP : « nb_bonnes » doit être un entier de 2 à "+(PROPS-1)+", sans dépasser le nombre de bonnes réponses)");return}
+    out.push({id:x.id!==undefined?String(x.id):null,type,...(type==="qrp"?{n:nb}:{}),question:x.question,bonnes:uniq(b),mauvaises:uniq(m),cours:coursOf(x.cours,def),source:parseSource(x.source)});
   });
   return out;
 }
@@ -400,30 +404,35 @@ function launch(cs){
 }
 
 function build(q,o){
-  const G=q.bonnes.length,M=q.mauvaises.length;
-  const total=Math.min(o.total,G+M);        // nombre de propositions affichées
+  const G=q.bonnes.length,M=q.mauvaises.length,qrp=q.type==="qrp";
+  const multi=q.type==="qcm";               // qcu et qrp : nombre de bonnes réponses fixé, jamais « Toutes les réponses précédentes sont fausses »
+  const total=Math.min(PROPS,(qrp?q.n:multi?G:1)+M);   // nombre de propositions affichées
   const lo=Math.max(0,total-M);             // il faut assez de mauvaises pour compléter
   const hi=Math.min(o.kmax,G,total);
-  const k=lo<=hi?rnd(lo,hi):hi;             // nombre de bonnes réponses tiré au hasard
+  const k=qrp?q.n:!multi?1:lo<=hi?rnd(lo,hi):hi;   // nombre de bonnes réponses : nb_bonnes tirées au hasard (qrp), une (qcu), nombre tiré au hasard (qcm)
   const m=Math.min(M,total-k);              // le reste : mauvaises réponses
   const mk=v=>a=>({t:a.reponse,why:a.explication,ok:v,annale:a.annale});
   const good=shuffle(q.bonnes).slice(0,k).map(mk(true));
+  const telQuel=q.source.key==="annale"&&[...q.bonnes,...q.mauvaises].every(a=>a.annale);   // QCM d’annale repris tel quel : tous ses items restent affichés
   let opts;
-  if(k===0&&m>=2){
+  if(multi&&G===0){
+    // Aucune bonne réponse dans le fichier (QCM d’annale dont tous les items sont faux) : « Toutes les réponses précédentes sont fausses » s’ajoute en dernier (4 items + elle ; au-delà de 4 items, l’un d’eux, tiré au hasard, n’est pas affiché)
+    opts=[...shuffle(q.mauvaises).slice(0,PROPS-1).map(mk(false)),{t:NONE_TEXT,why:NONE_WHY,ok:true}];
+  }else if(multi&&k===0&&m>=2){
     // Aucune bonne réponse tirée : la dernière proposition devient « Toutes les réponses précédentes sont fausses » (qui est alors la bonne réponse)
     const bad=shuffle(q.mauvaises).slice(0,m-1).map(mk(false));
     opts=[...bad,{t:NONE_TEXT,why:NONE_WHY,ok:true}];
   }else{
     const bad=shuffle(q.mauvaises).slice(0,m).map(mk(false));
     opts=shuffle([...good,...bad]);
-    if(k>=1&&m>=1&&Math.random()<NONE_PROB){
+    if(multi&&!telQuel&&k>=1&&m>=1&&Math.random()<NONE_PROB){
       // Au moins une bonne réponse : « Toutes les réponses précédentes sont fausses » est un piège, placé en dernier à la place d’une mauvaise réponse
       const drop=bad[rnd(0,bad.length-1)];
       opts=opts.filter(x=>x!==drop);
       opts.push({t:NONE_TEXT,why:NONE_WHY_FALSE,ok:false});
     }
   }
-  return{question:q.question,path:q.path,cours:q.cours,source:q.source,opts,answered:false,skipped:false,sel:[],perfect:false};
+  return{type:q.type,n:k,question:q.question,path:q.path,cours:q.cours,source:q.source,opts,answered:false,skipped:false,sel:[],perfect:false};
 }
 function wshuffle(a){   // tirage au hasard favorisant les questions les plus souvent tombées (poids = 1 + 2 × nombre de références)
   return a.map(q=>({q,k:Math.pow(Math.random(),1/(1+2*q.source.refs.length))})).sort((x,y)=>y.k-x.k).map(x=>x.q);
@@ -438,7 +447,7 @@ function filterLabel(){
 }
 function start(){
   const qs=current.flatMap(qlist);
-  const o={total:Math.max(2,+$("total").value||5),kmax:Math.max(0,$("kmax").value===""?5:+$("kmax").value)};
+  const o={kmax:Math.max(0,$("kmax").value===""?5:+$("kmax").value)};
   const nq=Math.max(1,Math.min(+$("nq").value||5,qs.length));
   quiz=(favor?wshuffle(qs):shuffle(qs)).slice(0,nq).map(q=>build(q,o));
   i=0;$("err").textContent="";closeCourse();closeProg();showProgBtn(false);
@@ -459,6 +468,7 @@ function show(){
   const q=quiz[i];
   $("count").textContent="Question "+(i+1)+" / "+quiz.length;
   $("q").textContent=q.question;$("qtags").textContent=q.path;renderSource(q.source);$("fb").textContent="";$("opts").innerHTML="";
+  if(q.type==="qrp"){const t=document.createElement("span");t.className="badge qrp";t.textContent="QRP";t.title=q.n+" réponses attendues";$("qsrc").prepend(t);$("qsrc").classList.remove("hidden")}
   const cb=$("seecourse");cb.classList.toggle("hidden",!q.cours);if(q.cours)cb.textContent="Voir dans le cours · p. "+q.cours.page;
   if(q.cours&&!$("course").classList.contains("hidden"))openCourse(q.cours);   // volet déjà ouvert : il suit la question
   q.opts.forEach((o,n)=>{
@@ -473,8 +483,10 @@ function show(){
       else if(!c.checked&&o.ok)l.classList.add("missed");
       if(o.why){const w=document.createElement("div");w.className="why";w.textContent=(o.ok?"✓ Bonne réponse : ":"✗ Mauvaise réponse : ")+o.why;d.append(w)}
     }
+    if(q.type==="qrp"&&!q.answered)c.onchange=()=>qrpLimit(q.n);
     l.append(c,d);$("opts").append(l);
   });
+  if(q.type==="qrp"&&!q.answered)qrpLimit(q.n);
   if(q.answered){
     const nb=q.opts.filter(o=>o.ok).length;
     $("fb").style.color=q.perfect?"var(--ok)":"var(--ko)";
@@ -484,6 +496,10 @@ function show(){
   $("next").textContent=q.answered?"Suivante →":"Passer →";
   $("prev").disabled=i===0;
   renderNav();
+}
+function qrpLimit(n){   // QRP : une fois n cases cochées, les autres sont grisées (décocher les libère)
+  const cs=[...$("opts").querySelectorAll("input")],full=cs.filter(c=>c.checked).length>=n;
+  cs.forEach(c=>{c.disabled=full&&!c.checked;c.closest("label").classList.toggle("full",c.disabled)});
 }
 function renderSource(s){   // pastille d’origine + références d’annales
   const b=$("qsrc");b.innerHTML="";
@@ -645,7 +661,7 @@ $("colall").onclick=()=>{openT.clear();openS.clear();openF.clear();renderTree()}
 document.querySelectorAll(".step").forEach(b=>b.onclick=()=>{
   const inp=$(b.dataset.for);inp.value=Math.max(+inp.min||0,(+inp.value||0)+(+b.dataset.d));inp.dispatchEvent(new Event("input"));
 });
-["nq","total","kmax"].forEach(id=>$(id).oninput=updateStart);
+["nq","kmax"].forEach(id=>$(id).oninput=updateStart);
 $("srcsel").onchange=e=>{srcFilter=e.target.value;renderTree()};
 $("yrall").onclick=()=>{yearsOff.clear();renderTree()};
 $("yrnone").onclick=()=>{years.forEach(y=>yearsOff.add(y));renderTree()};
