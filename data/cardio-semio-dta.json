@@ -1,0 +1,3953 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Sémiologie",
+    "titre": "Diagnostic étiologique devant une douleur thoracique aiguë",
+    "description": "Démarche devant une douleur thoracique aiguë : signes de gravité, bilan clinique, électrocardiogramme, examens complémentaires et sémiologie des 4 urgences cardiovasculaires (PIED).",
+    "version": "5.0",
+    "cours": {
+      "fichier": "cardio-semio-dta.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Définition et objectifs de la prise en charge"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-dta-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition de la douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "entre le cou et l'ombilic, survenant de manière brutale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle peut se limiter à une simple gêne thoracique.",
+              "explication": "La définition parle d'une douleur « ou une gêne »."
+            },
+            {
+              "reponse": "Elle siège dans la région de la cage thoracique, entre le cou et l'ombilic.",
+              "explication": "Ce sont les limites données par la définition."
+            },
+            {
+              "reponse": "Elle survient de manière brutale.",
+              "explication": "Le caractère brutal fait partie de la définition."
+            },
+            {
+              "reponse": "C'est un symptôme fréquent, qui peut être grave selon sa cause.",
+              "explication": "La gravité dépend de l'étiologie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle siège entre les clavicules et l'appendice xiphoïde uniquement.",
+              "explication": "Les limites sont le cou et l'ombilic."
+            },
+            {
+              "reponse": "Elle s'installe par définition de manière progressive.",
+              "explication": "Elle survient de manière brutale."
+            },
+            {
+              "reponse": "Une simple gêne thoracique, sans douleur franche, n'entre pas dans la définition.",
+              "explication": "La gêne est incluse dans la définition."
+            },
+            {
+              "reponse": "C'est un symptôme rare.",
+              "explication": "C'est un symptôme fréquent."
+            },
+            {
+              "reponse": "Dès le début de la prise en charge, on sait habituellement s'il s'agit d'une urgence.",
+              "explication": "La prise en charge se fait souvent dans un contexte d'incertitude."
+            },
+            {
+              "reponse": "Elle n'est grave que lorsqu'elle est d'origine cardiaque.",
+              "explication": "Des urgences non cardiaques (4P) peuvent aussi être en cause."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-002",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Parmi les structures suivantes, laquelle ne peut pas être directement à l'origine d'une douleur thoracique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 2,
+            "surligner": "le parenchyme pulmonaire n'est pas douloureux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le parenchyme pulmonaire.",
+              "explication": "Le poumon lui-même n'a pas d'innervation sensitive : pas de douleur liée directement au parenchyme."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La plèvre.",
+              "explication": "Enveloppe séreuse, elle peut faire mal."
+            },
+            {
+              "reponse": "Le péricarde.",
+              "explication": "Enveloppe séreuse, il peut faire mal."
+            },
+            {
+              "reponse": "Les côtes.",
+              "explication": "La paroi (côtes, muscles) peut faire mal."
+            },
+            {
+              "reponse": "L'aorte.",
+              "explication": "Organe thoracique pouvant être douloureux."
+            },
+            {
+              "reponse": "L'œsophage.",
+              "explication": "Organe thoracique pouvant être douloureux."
+            },
+            {
+              "reponse": "Le cœur.",
+              "explication": "Organe thoracique pouvant être douloureux."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-003",
+          "type": "qrp",
+          "nb_bonnes": 4,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles sont les 4 urgences cardiovasculaires à rechercher systématiquement devant une douleur thoracique aiguë (acronyme PIED) ? (4 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "Les 4 urgences cardiovasculaires : acronyme PIED"
+          },
+          "bonnes": [
+            {
+              "reponse": "La péricardite.",
+              "explication": "P de PIED."
+            },
+            {
+              "reponse": "L'infarctus du myocarde (syndrome coronarien aigu).",
+              "explication": "I de PIED."
+            },
+            {
+              "reponse": "L'embolie pulmonaire.",
+              "explication": "E de PIED."
+            },
+            {
+              "reponse": "La dissection aortique.",
+              "explication": "D de PIED."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le pneumothorax.",
+              "explication": "Urgence non cardiaque (4P)."
+            },
+            {
+              "reponse": "La pancréatite aiguë.",
+              "explication": "Urgence non cardiaque (4P)."
+            },
+            {
+              "reponse": "La pneumopathie infectieuse.",
+              "explication": "Urgence non cardiaque (4P)."
+            },
+            {
+              "reponse": "La pleurésie.",
+              "explication": "Urgence non cardiaque (4P)."
+            },
+            {
+              "reponse": "L'ulcère gastroduodénal compliqué.",
+              "explication": "Diagnostic digestif rarement grave mais pouvant l'être."
+            },
+            {
+              "reponse": "L'angiocholite.",
+              "explication": "Pathologie biliaire infectieuse, non cardiovasculaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-004",
+          "type": "qrp",
+          "nb_bonnes": 4,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles urgences non cardiaques composent les « 4P » à rechercher devant une douleur thoracique aiguë ? (4 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "Les urgences non cardiaques : les « 4P »"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pneumopathie infectieuse.",
+              "explication": "1er P."
+            },
+            {
+              "reponse": "La pleurésie (infectieuse).",
+              "explication": "2e P."
+            },
+            {
+              "reponse": "Le pneumothorax.",
+              "explication": "3e P."
+            },
+            {
+              "reponse": "La pancréatite aiguë.",
+              "explication": "4e P."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La péricardite.",
+              "explication": "Urgence cardiovasculaire (PIED)."
+            },
+            {
+              "reponse": "L'embolie pulmonaire.",
+              "explication": "Urgence cardiovasculaire (PIED)."
+            },
+            {
+              "reponse": "La dissection aortique.",
+              "explication": "Urgence cardiovasculaire (PIED)."
+            },
+            {
+              "reponse": "L'ulcère gastroduodénal compliqué.",
+              "explication": "Il s'ajoute aux 4P mais n'en fait pas partie."
+            },
+            {
+              "reponse": "La cholécystite.",
+              "explication": "Pathologie biliaire infectieuse, hors des 4P."
+            },
+            {
+              "reponse": "Le syndrome coronarien aigu.",
+              "explication": "Urgence cardiovasculaire (PIED)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les objectifs de la prise en charge d'une douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "identifier les signes de gravité immédiate"
+          },
+          "bonnes": [
+            {
+              "reponse": "La 1re étape consiste à identifier les signes de gravité immédiate.",
+              "explication": "C'est l'étape 1 des 4 étapes."
+            },
+            {
+              "reponse": "Les urgences cardiovasculaires sont recherchées par l'interrogatoire et l'examen physique.",
+              "explication": "Étape 2."
+            },
+            {
+              "reponse": "Un électrocardiogramme 18 dérivations doit être réalisé et interprété.",
+              "explication": "Étape 3."
+            },
+            {
+              "reponse": "La prise en charge diagnostique et thérapeutique est adaptée aux données recueillies.",
+              "explication": "Étape 4."
+            },
+            {
+              "reponse": "Les 4 urgences cardiovasculaires sont à rechercher au cabinet comme aux urgences.",
+              "explication": "Elles sont systématiquement évoquées, quel que soit le lieu."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La 1re étape est la réalisation de l'électrocardiogramme.",
+              "explication": "La 1re étape est la recherche des signes de gravité."
+            },
+            {
+              "reponse": "Un électrocardiogramme 12 dérivations est l'examen recommandé.",
+              "explication": "Le cours demande un électrocardiogramme 18 dérivations."
+            },
+            {
+              "reponse": "Les urgences PIED ne sont recherchées qu'aux urgences hospitalières.",
+              "explication": "Au cabinet comme aux urgences."
+            },
+            {
+              "reponse": "Les mesures thérapeutiques ne sont jamais débutées avant que le diagnostic soit posé.",
+              "explication": "Des signes de gravité peuvent imposer un traitement avant ou en parallèle du diagnostic."
+            },
+            {
+              "reponse": "Un patient sans signe de gravité n'a pas besoin d'électrocardiogramme.",
+              "explication": "L'électrocardiogramme est le prolongement systématique de l'examen clinique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les diagnostics digestifs à évoquer devant une douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "la pathologie biliaire infectieuse (cholécystite, angiocholite)"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pancréatite aiguë fait partie des « 4P ».",
+              "explication": "C'est une urgence non cardiaque à rechercher systématiquement."
+            },
+            {
+              "reponse": "L'ulcère gastroduodénal compliqué, par exemple perforé, doit être évoqué.",
+              "explication": "Rarement grave mais peut l'être."
+            },
+            {
+              "reponse": "La cholécystite peut se présenter comme une douleur thoracique.",
+              "explication": "Pathologie biliaire infectieuse citée par le cours."
+            },
+            {
+              "reponse": "L'angiocholite peut se compliquer si elle n'est pas traitée.",
+              "explication": "Pathologie biliaire infectieuse pouvant se compliquer."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ulcère gastroduodénal fait partie de l'acronyme PIED.",
+              "explication": "PIED regroupe les urgences cardiovasculaires."
+            },
+            {
+              "reponse": "La pathologie biliaire infectieuse ne peut pas se compliquer.",
+              "explication": "Elle peut se compliquer si elle n'est pas traitée."
+            },
+            {
+              "reponse": "La cholécystite fait partie des « 4P ».",
+              "explication": "Les 4P sont pneumopathie, pleurésie, pneumothorax, pancréatite."
+            },
+            {
+              "reponse": "La pancréatite aiguë fait partie des urgences cardiovasculaires.",
+              "explication": "C'est une urgence non cardiaque."
+            },
+            {
+              "reponse": "Une cause digestive est exclue d'emblée devant une douleur thoracique.",
+              "explication": "Certaines pathologies digestives se présentent comme une douleur thoracique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Identification des signes de gravité immédiate"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-dta-007",
+          "type": "qrp",
+          "nb_bonnes": 4,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles constantes sont mesurées au début de l'examen physique d'une douleur thoracique aiguë ? (4 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "L'examen physique débute toujours par la mesure des constantes"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression artérielle aux 2 bras.",
+              "explication": "Pour dépister une asymétrie."
+            },
+            {
+              "reponse": "La fréquence cardiaque.",
+              "explication": "Constante mesurée systématiquement."
+            },
+            {
+              "reponse": "La fréquence respiratoire.",
+              "explication": "Constante mesurée systématiquement."
+            },
+            {
+              "reponse": "La saturation pulsée en oxygène.",
+              "explication": "Mesurée par un saturomètre au doigt."
+            },
+            {
+              "reponse": "La température.",
+              "explication": "Constante mesurée systématiquement."
+            },
+            {
+              "reponse": "La diurèse chez le patient hospitalisé.",
+              "explication": "Surveillance d'une hypoperfusion ou de l'effet d'un diurétique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le dosage des troponines.",
+              "explication": "Examen biologique, pas une constante."
+            },
+            {
+              "reponse": "La gazométrie artérielle.",
+              "explication": "Examen biologique, pas une constante."
+            },
+            {
+              "reponse": "Le dosage des D-dimères.",
+              "explication": "Examen biologique, pas une constante."
+            },
+            {
+              "reponse": "La radiographie thoracique.",
+              "explication": "Examen d'imagerie, pas une constante."
+            },
+            {
+              "reponse": "Le score de Genève révisé.",
+              "explication": "Score de probabilité clinique, pas une constante."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la mesure des constantes devant une douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "pression artérielle aux 2 bras, pour dépister une asymétrie"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'examen physique débute toujours par la mesure des constantes.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "La pression artérielle est mesurée aux 2 bras pour dépister une asymétrie.",
+              "explication": "Parfois même aux 4 membres."
+            },
+            {
+              "reponse": "La saturation pulsée en oxygène est mesurée par un saturomètre au doigt.",
+              "explication": "Mesure non invasive."
+            },
+            {
+              "reponse": "Chez le patient hospitalisé, la diurèse permet de surveiller une hypoperfusion rénale.",
+              "explication": "Dans un contexte d'hypoperfusion générale."
+            },
+            {
+              "reponse": "La diurèse permet de suivre l'efficacité d'un traitement diurétique dans l'insuffisance cardiaque.",
+              "explication": "2e intérêt de la diurèse cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une mesure de la pression artérielle à un seul bras suffit.",
+              "explication": "Elle se fait aux 2 bras pour dépister une asymétrie."
+            },
+            {
+              "reponse": "La saturation pulsée en oxygène est mesurée sur une gazométrie artérielle.",
+              "explication": "Elle est mesurée par un saturomètre au doigt."
+            },
+            {
+              "reponse": "L'examen physique débute par l'auscultation cardiaque.",
+              "explication": "Il débute toujours par la mesure des constantes."
+            },
+            {
+              "reponse": "La diurèse est une constante surveillée chez tout patient vu au cabinet.",
+              "explication": "Elle concerne le patient hospitalisé."
+            },
+            {
+              "reponse": "La température n'a pas d'intérêt devant une douleur thoracique aiguë.",
+              "explication": "Elle fait partie des constantes mesurées."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels signes témoignent d'une gravité sur le plan hémodynamique ?",
+          "cours": {
+            "page": 4,
+            "surligner": "fréquence cardiaque supérieure à 120 par minute (tachycardie)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une fréquence cardiaque supérieure à 120 par minute.",
+              "explication": "Seuil de tachycardie retenu sur l'axe hémodynamique."
+            },
+            {
+              "reponse": "Une pression artérielle systolique inférieure à 90 millimètres de mercure.",
+              "explication": "Seuil d'hypotension retenu."
+            },
+            {
+              "reponse": "Une pression artérielle moyenne inférieure à 65 millimètres de mercure.",
+              "explication": "Critère dit à l'oral."
+            },
+            {
+              "reponse": "Des marbrures.",
+              "explication": "Signe d'hypoperfusion périphérique."
+            },
+            {
+              "reponse": "Des extrémités froides.",
+              "explication": "Signe d'hypoperfusion périphérique."
+            },
+            {
+              "reponse": "Une oligurie.",
+              "explication": "Signe d'hypoperfusion périphérique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une fréquence cardiaque supérieure à 100 par minute, seuil retenu par le cours.",
+              "explication": "Le seuil retenu est 120 par minute."
+            },
+            {
+              "reponse": "Une pression artérielle systolique inférieure à 110 millimètres de mercure, seuil retenu par le cours.",
+              "explication": "Le seuil retenu est 90 millimètres de mercure."
+            },
+            {
+              "reponse": "Une pression artérielle moyenne inférieure à 85 millimètres de mercure, seuil retenu par le cours.",
+              "explication": "Le seuil retenu est 65 millimètres de mercure."
+            },
+            {
+              "reponse": "Une fréquence respiratoire supérieure à 25 par minute.",
+              "explication": "C'est un signe de gravité respiratoire, pas hémodynamique."
+            },
+            {
+              "reponse": "Un astérixis.",
+              "explication": "Signe d'hypercapnie, sur l'axe respiratoire."
+            },
+            {
+              "reponse": "Un score de Glasgow abaissé.",
+              "explication": "Il relève de l'axe neurologique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels signes témoignent d'une gravité sur le plan respiratoire ?",
+          "cours": {
+            "page": 4,
+            "surligner": "fréquence respiratoire supérieure à 25 par minute (tachypnée)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une fréquence respiratoire supérieure à 25 par minute.",
+              "explication": "Tachypnée."
+            },
+            {
+              "reponse": "Une fréquence respiratoire inférieure à 10 par minute.",
+              "explication": "Bradypnée importante."
+            },
+            {
+              "reponse": "Une saturation pulsée en oxygène inférieure à 90 pour cent.",
+              "explication": "Seuil retenu par le cours."
+            },
+            {
+              "reponse": "Un tirage sus-sternal et sus-claviculaire.",
+              "explication": "Signe de lutte respiratoire."
+            },
+            {
+              "reponse": "Un balancement thoraco-abdominal.",
+              "explication": "Signe de gravité respiratoire."
+            },
+            {
+              "reponse": "Une cyanose.",
+              "explication": "Signe de gravité respiratoire."
+            },
+            {
+              "reponse": "Des pauses respiratoires.",
+              "explication": "Signe de gravité respiratoire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une fréquence respiratoire supérieure à 18 par minute, seuil retenu par le cours.",
+              "explication": "Le seuil retenu est 25 par minute."
+            },
+            {
+              "reponse": "Une saturation pulsée en oxygène inférieure à 97 pour cent, seuil retenu par le cours.",
+              "explication": "Le seuil retenu est 90 pour cent."
+            },
+            {
+              "reponse": "Une bradypnée inférieure à 16 par minute, seuil retenu par le cours.",
+              "explication": "Le seuil retenu est 10 par minute."
+            },
+            {
+              "reponse": "L'hypercapnie se manifeste par une hypotension artérielle.",
+              "explication": "L'hypercapnie donne une hypertension artérielle."
+            },
+            {
+              "reponse": "Des extrémités froides.",
+              "explication": "Signe d'hypoperfusion, sur l'axe hémodynamique."
+            },
+            {
+              "reponse": "La mise au repos des muscles respiratoires accessoires.",
+              "explication": "C'est leur mise en jeu qui est un signe de gravité."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-011",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels signes évoquent une hypercapnie ? (3 réponses attendues)",
+          "cours": {
+            "page": 4,
+            "surligner": "signes d'hypercapnie (hypertension artérielle, sueurs profuses"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une hypertension artérielle.",
+              "explication": "Signe d'hypercapnie cité par le cours."
+            },
+            {
+              "reponse": "Des sueurs profuses.",
+              "explication": "Signe d'hypercapnie."
+            },
+            {
+              "reponse": "Des troubles de conscience.",
+              "explication": "Signe d'hypercapnie."
+            },
+            {
+              "reponse": "Un astérixis.",
+              "explication": "Signe d'hypercapnie."
+            },
+            {
+              "reponse": "Des céphalées.",
+              "explication": "Signe d'hypercapnie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une hypotension artérielle.",
+              "explication": "L'hypercapnie donne au contraire une hypertension artérielle."
+            },
+            {
+              "reponse": "Des marbrures.",
+              "explication": "Signe d'hypoperfusion périphérique."
+            },
+            {
+              "reponse": "Une oligurie.",
+              "explication": "Signe d'hypoperfusion périphérique."
+            },
+            {
+              "reponse": "Un frottement péricardique.",
+              "explication": "Signe de péricardite."
+            },
+            {
+              "reponse": "Une turgescence jugulaire.",
+              "explication": "Signe d'insuffisance cardiaque droite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'évaluation de la gravité d'une douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "évalués par le score de Glasgow"
+          },
+          "bonnes": [
+            {
+              "reponse": "La gravité est évaluée selon 3 axes : hémodynamique, respiratoire et neurologique.",
+              "explication": "Ce sont les 3 axes du cours."
+            },
+            {
+              "reponse": "L'axe neurologique évalue surtout le retentissement sur l'état de conscience.",
+              "explication": "Angoisse, agitation, torpeur, coma."
+            },
+            {
+              "reponse": "L'agitation est un signe de gravité neurologique.",
+              "explication": "Elle fait partie des signes cités."
+            },
+            {
+              "reponse": "L'état de conscience est évalué par le score de Glasgow.",
+              "explication": "Score cité par le cours."
+            },
+            {
+              "reponse": "Des signes de gravité peuvent imposer des mesures thérapeutiques en parallèle des mesures diagnostiques.",
+              "explication": "Avant ou en parallèle du diagnostic."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La gravité est évaluée selon 2 axes : hémodynamique et respiratoire.",
+              "explication": "Il y a 3 axes, dont l'axe neurologique."
+            },
+            {
+              "reponse": "L'état de conscience est évalué par le score de Genève révisé.",
+              "explication": "Le score de Genève évalue la probabilité d'embolie pulmonaire."
+            },
+            {
+              "reponse": "L'axe neurologique n'est évalué qu'en cas de déficit moteur.",
+              "explication": "Il évalue avant tout l'état de conscience."
+            },
+            {
+              "reponse": "L'angoisse est un signe rassurant.",
+              "explication": "C'est un signe du retentissement neurologique."
+            },
+            {
+              "reponse": "La recherche des signes de gravité se fait après l'électrocardiogramme et la biologie.",
+              "explication": "C'est la 1re étape de la conduite à tenir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Bilan clinique d'une douleur thoracique aiguë"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-dta-013",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 4
+              }
+            ]
+          },
+          "question": "Chez un patient consultant pour une douleur thoracique, quelles caractéristiques sont en faveur d'une origine coronaire ?",
+          "cours": {
+            "page": 5,
+            "surligner": "en barre rétrosternale (cause coronaire)"
+          },
+          "bonnes": [
+            {
+              "reponse": "La douleur est en lien avec l'effort.",
+              "annale": true,
+              "explication": "Les circonstances d'apparition à l'effort orientent vers une origine coronaire ; l'angor d'effort peut précéder un syndrome coronarien aigu. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La douleur est de type constrictif.",
+              "annale": true,
+              "explication": "La douleur coronaire est rétrosternale et constrictive. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La douleur est favorisée par le froid.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le froid augmente le travail cardiaque et peut déclencher une douleur angineuse. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La douleur siège à la base du thorax (basithoracique).",
+              "annale": true,
+              "explication": "Une douleur basithoracique oriente vers une origine pleurale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La douleur irradie vers les lombes.",
+              "annale": true,
+              "explication": "Une irradiation dans le dos ou l'abdomen oriente vers la migration d'une dissection aortique. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-014",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 51
+              }
+            ]
+          },
+          "question": "Chez un patient consultant pour une douleur thoracique, quels éléments d'interrogatoire orientent vers une insuffisance coronaire ?",
+          "cours": {
+            "page": 14,
+            "surligner": "rétrosternale, constrictive, irradiations possibles (mâchoire, bras"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une douleur constrictive.",
+              "annale": true,
+              "explication": "Caractère typique de la douleur coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur de repos.",
+              "annale": true,
+              "explication": "Dans le syndrome coronarien aigu, la douleur est spontanée ou survient pour un effort minime. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur irradiant à la mâchoire.",
+              "annale": true,
+              "explication": "Irradiation classique de la maladie coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur rétrosternale.",
+              "annale": true,
+              "explication": "Localisation typique d'une cause coronaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur ne durant que quelques secondes.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Une douleur de quelques secondes n'est pas évocatrice d'une origine coronaire (l'angor dure quelques minutes ; plus longtemps dans le syndrome coronarien aigu). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-015",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 39
+              }
+            ]
+          },
+          "question": "Quelles caractéristiques correspondent à une douleur thoracique angineuse typique ?",
+          "cours": {
+            "page": 5,
+            "surligner": "dans le bras (souvent le gauche) et la mâchoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est rétrosternale.",
+              "annale": true,
+              "explication": "Localisation en barre rétrosternale d'une cause coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle irradie aux bras et à la mâchoire.",
+              "annale": true,
+              "explication": "Irradiations classiques de la maladie coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est calmée par la trinitrine.",
+              "annale": true,
+              "explication": "Une douleur trinitro-sensible oriente vers une origine coronaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est en coup de poignard.",
+              "annale": true,
+              "explication": "Douleur transfixiante, évocatrice de dissection aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est augmentée à l'inspiration profonde.",
+              "annale": true,
+              "explication": "Caractère des douleurs des séreuses (plèvre, péricarde). (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-016",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2019-2020",
+                "qcm": 36
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2016-2017",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Quelles propositions sont évocatrices d'une douleur angineuse ?",
+          "cours": {
+            "page": 5,
+            "surligner": "en barre rétrosternale (cause coronaire)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une douleur constrictive.",
+              "annale": true,
+              "explication": "Caractère typique de la douleur coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur de siège rétrosternal ou en barre médiothoracique.",
+              "annale": true,
+              "explication": "Localisation d'une cause coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une irradiation aux angles de la mâchoire inférieure.",
+              "annale": true,
+              "explication": "Irradiation classique de la maladie coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur déclenchée par un effort et qui cède à l'arrêt de l'effort.",
+              "annale": true,
+              "explication": "Lien avec l'effort très évocateur d'un angor. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur augmentée par l'antéflexion.",
+              "annale": true,
+              "explication": "L'antéflexion calme au contraire la douleur de péricardite ; elle n'est pas un trait de la douleur angineuse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur augmentée par la respiration.",
+              "annale": true,
+              "explication": "Caractère des douleurs des séreuses (plèvre, péricarde). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur modifiée par les changements de position.",
+              "annale": true,
+              "explication": "La position modifie la douleur de péricardite, pas la douleur angineuse. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-017",
+          "type": "qrp",
+          "nb_bonnes": 4,
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Quels caractères retrouvés à l'interrogatoire doivent faire évoquer une douleur d'angine de poitrine ? (4 réponses attendues)",
+          "cours": {
+            "page": 5,
+            "surligner": "en barre rétrosternale (cause coronaire)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un siège rétrosternal, en barre.",
+              "annale": true,
+              "explication": "Localisation d'une cause coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un caractère constrictif.",
+              "annale": true,
+              "explication": "Douleur constrictive, en étau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des irradiations au bras (souvent gauche) et à la mâchoire.",
+              "annale": true,
+              "explication": "Irradiations classiques de la maladie coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une survenue à l'effort.",
+              "annale": true,
+              "explication": "Circonstance d'apparition évocatrice d'angor. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un soulagement en quelques minutes par la trinitrine.",
+              "annale": true,
+              "explication": "Douleur trinitro-sensible : origine coronaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un siège basithoracique.",
+              "explication": "Oriente vers une origine pleurale."
+            },
+            {
+              "reponse": "Une augmentation à l'inspiration profonde.",
+              "explication": "Douleur des séreuses."
+            },
+            {
+              "reponse": "Un soulagement par l'antéflexion.",
+              "explication": "Évoque une péricardite."
+            },
+            {
+              "reponse": "Un caractère transfixiant, en coup de poignard.",
+              "explication": "Évoque une dissection aortique ou une pancréatite aiguë."
+            },
+            {
+              "reponse": "Une douleur reproduite à l'identique par la palpation d'un point précis.",
+              "explication": "Évoque une douleur pariétale."
+            },
+            {
+              "reponse": "Une douleur migratrice vers le dos puis les lombes.",
+              "explication": "Évoque une dissection aortique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le terrain recherché à l'interrogatoire d'une douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Facteurs de risque cardiovasculaire : éléments indispensables"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les facteurs de risque cardiovasculaire sont des éléments indispensables de l'interrogatoire.",
+              "explication": "Ils évaluent la probabilité a priori d'athérosclérose."
+            },
+            {
+              "reponse": "Un antécédent oncologique peut orienter vers une maladie veineuse thromboembolique.",
+              "explication": "Un cancer favorise la maladie veineuse thromboembolique."
+            },
+            {
+              "reponse": "La cocaïne peut donner des complications ischémiques coronaires.",
+              "explication": "Toxique cité avec le cannabis."
+            },
+            {
+              "reponse": "Le cannabis peut donner des troubles du rythme ventriculaire.",
+              "explication": "Complication cardiovasculaire des toxiques."
+            },
+            {
+              "reponse": "La pilule œstroprogestative accroît le risque thromboembolique, surtout en cas de tabagisme actif.",
+              "explication": "Traitement à rechercher à l'interrogatoire."
+            },
+            {
+              "reponse": "Il ne faut pas hésiter à regarder les ordonnances.",
+              "explication": "La pilule n'est souvent pas considérée comme un traitement par les patientes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les facteurs de risque cardiovasculaire prédisposent avant tout à la maladie veineuse thromboembolique.",
+              "explication": "Ils prédisposent à l'athérosclérose."
+            },
+            {
+              "reponse": "La pilule œstroprogestative est toujours citée spontanément comme traitement par les patientes.",
+              "explication": "Elle n'est souvent pas considérée comme un traitement."
+            },
+            {
+              "reponse": "Les toxiques n'ont pas de complications cardiovasculaires.",
+              "explication": "Ils donnent des complications ischémiques et des troubles du rythme ventriculaire."
+            },
+            {
+              "reponse": "La pilule œstroprogestative diminue le risque thromboembolique chez la fumeuse.",
+              "explication": "Elle l'accroît, surtout associée au tabac."
+            },
+            {
+              "reponse": "Un antécédent oncologique n'a pas d'intérêt devant une douleur thoracique.",
+              "explication": "Tumeur thoracique active ou risque thromboembolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le contexte recherché à l'interrogatoire, quelles associations sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Épisode infectieux récent, qui peut orienter"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une chirurgie récente oriente vers une maladie veineuse thromboembolique.",
+              "explication": "Contexte thromboembolique."
+            },
+            {
+              "reponse": "Une immobilisation plâtrée récente oriente vers une maladie veineuse thromboembolique.",
+              "explication": "Contexte thromboembolique."
+            },
+            {
+              "reponse": "Un épisode infectieux viral récent est fréquemment retrouvé dans la péricardite.",
+              "explication": "Contexte inflammatoire."
+            },
+            {
+              "reponse": "Un épisode infectieux récent peut orienter vers une pneumopathie ou une pleurésie infectieuse.",
+              "explication": "Pathologies inflammatoires."
+            },
+            {
+              "reponse": "Une néoplasie active accroît le risque thromboembolique.",
+              "explication": "Contexte thromboembolique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un alitement récent oriente vers une péricardite.",
+              "explication": "Il oriente vers une maladie veineuse thromboembolique."
+            },
+            {
+              "reponse": "Un épisode infectieux viral récent oriente vers une dissection aortique.",
+              "explication": "Il oriente vers une pathologie inflammatoire."
+            },
+            {
+              "reponse": "Une immobilisation plâtrée récente oriente vers un syndrome coronarien aigu.",
+              "explication": "Elle oriente vers une maladie veineuse thromboembolique."
+            },
+            {
+              "reponse": "Une chirurgie récente oriente vers une péricardite.",
+              "explication": "Elle oriente vers une maladie veineuse thromboembolique."
+            },
+            {
+              "reponse": "Un traumatisme thoracique est sans intérêt à l'interrogatoire.",
+              "explication": "Il fait partie du contexte à rechercher."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la localisation d'une douleur thoracique, quelles associations sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Localisation, d'importance diagnostique majeure"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une douleur en barre rétrosternale oriente vers une cause coronaire.",
+              "explication": "Localisation typique."
+            },
+            {
+              "reponse": "Une douleur basithoracique oriente vers une origine pleurale.",
+              "explication": "Localisation typique."
+            },
+            {
+              "reponse": "Une douleur localisée punctiforme oriente vers une cause pariétale.",
+              "explication": "Localisation typique."
+            },
+            {
+              "reponse": "Une douleur transfixiante oriente vers une pancréatite aiguë ou une dissection aortique.",
+              "explication": "Localisation typique."
+            },
+            {
+              "reponse": "La localisation de la douleur a une importance diagnostique majeure.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur basithoracique oriente vers une cause coronaire.",
+              "explication": "Elle oriente vers une origine pleurale."
+            },
+            {
+              "reponse": "Une douleur punctiforme oriente vers une dissection aortique.",
+              "explication": "Elle oriente vers une cause pariétale."
+            },
+            {
+              "reponse": "Une douleur transfixiante oriente vers une péricardite.",
+              "explication": "Elle oriente vers une pancréatite aiguë ou une dissection aortique."
+            },
+            {
+              "reponse": "Une douleur en barre rétrosternale oriente vers une origine pleurale.",
+              "explication": "Elle oriente vers une cause coronaire."
+            },
+            {
+              "reponse": "La localisation de la douleur a peu de valeur diagnostique.",
+              "explication": "Elle a une importance diagnostique majeure."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les irradiations et les facteurs modifiant une douleur thoracique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "orientant vers la migration d'une dissection aortique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une irradiation dans le bras gauche et la mâchoire est classique dans la maladie coronaire.",
+              "explication": "Irradiations coronaires."
+            },
+            {
+              "reponse": "Une irradiation dans l'abdomen et le dos oriente vers la migration d'une dissection aortique.",
+              "explication": "Douleur migratrice."
+            },
+            {
+              "reponse": "Une douleur modifiée par la respiration oriente vers une douleur des séreuses.",
+              "explication": "Plèvre ou péricarde."
+            },
+            {
+              "reponse": "La péricardite aiguë donne une douleur à l'inspiration profonde.",
+              "explication": "Douleur des séreuses."
+            },
+            {
+              "reponse": "Une douleur rythmée par l'alimentation peut évoquer un ulcère.",
+              "explication": "Facteur déclenchant alimentaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une irradiation à la mâchoire oriente vers une dissection aortique.",
+              "explication": "Elle est classique de la maladie coronaire."
+            },
+            {
+              "reponse": "Une irradiation dans le dos est classique de la maladie coronaire.",
+              "explication": "Elle oriente vers une dissection aortique."
+            },
+            {
+              "reponse": "La péricardite aiguë donne une douleur calmée par l'inspiration profonde.",
+              "explication": "Elle est augmentée à l'inspiration profonde."
+            },
+            {
+              "reponse": "Une douleur modifiée par la respiration oriente vers une cause coronaire.",
+              "explication": "Elle oriente vers une douleur des séreuses."
+            },
+            {
+              "reponse": "Une douleur liée à l'alimentation oriente vers une pleurésie.",
+              "explication": "Elle oriente vers un ulcère."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la trinitro-sensibilité d'une douleur thoracique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Douleur trinitro-sensible : la question se pose surtout"
+          },
+          "bonnes": [
+            {
+              "reponse": "La question se pose surtout chez le malade coronarien connu qui dispose de trinitrine.",
+              "explication": "En spray ou dérivé nitré en patch."
+            },
+            {
+              "reponse": "Une douleur calmée en quelques minutes (environ 5 minutes) par la trinitrine est dite trinitro-sensible.",
+              "explication": "Définition dite à l'oral."
+            },
+            {
+              "reponse": "Une douleur trinitro-sensible oriente vers une origine coronaire.",
+              "explication": "Diagnostic différentiel : spasme œsophagien."
+            },
+            {
+              "reponse": "Une douleur calmée seulement après 15 à 20 minutes n'élimine pas une origine coronaire.",
+              "explication": "Elle n'est pas trinitro-sensible mais peut être coronaire."
+            },
+            {
+              "reponse": "La trinitrine se prend en position semi-couchée ou allongée.",
+              "explication": "Précision dite à l'oral."
+            },
+            {
+              "reponse": "Le spasme œsophagien est un diagnostic différentiel, plus rare, d'une douleur trinitro-sensible.",
+              "explication": "Dit à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur calmée après 15 à 20 minutes de trinitrine est dite trinitro-sensible.",
+              "explication": "Elle doit céder en quelques minutes (environ 5)."
+            },
+            {
+              "reponse": "Une douleur non trinitro-sensible élimine une origine coronaire.",
+              "explication": "Elle ne l'élimine pas."
+            },
+            {
+              "reponse": "La trinitrine se prend debout.",
+              "explication": "En position semi-couchée ou allongée."
+            },
+            {
+              "reponse": "Une douleur trinitro-sensible oriente avant tout vers une péricardite.",
+              "explication": "Elle oriente vers une origine coronaire."
+            },
+            {
+              "reponse": "La trinitrine a pour but de resserrer le réseau coronaire.",
+              "explication": "Elle dilate le réseau coronaire."
+            },
+            {
+              "reponse": "Le spasme œsophagien est la cause la plus fréquente de douleur trinitro-sensible.",
+              "explication": "Il est plus rare que l'origine coronaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'interrogatoire sur la douleur thoracique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "dater et chiffrer la durée de chaque épisode douloureux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il faut dater et chiffrer la durée de chaque épisode douloureux.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "La date et la durée du dernier épisode avant la consultation sont particulièrement importantes.",
+              "explication": "Pour interpréter l'examen et les examens complémentaires."
+            },
+            {
+              "reponse": "Pour le type de douleur, il faut d'abord poser une question ouverte.",
+              "explication": "Puis énumérer, sans trop suggérer."
+            },
+            {
+              "reponse": "L'intensité est évaluée par une échelle numérique simple.",
+              "explication": "Méthode citée par le cours."
+            },
+            {
+              "reponse": "Des épisodes de plus en plus fréquents, intenses ou prolongés évoquent une instabilité de la maladie coronaire.",
+              "explication": "Mode évolutif chez un patient suspect de pathologie coronaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Seul le 1er épisode douloureux doit être daté.",
+              "explication": "Il faut dater chaque épisode, notamment le dernier."
+            },
+            {
+              "reponse": "Il faut d'emblée proposer au patient un type de douleur précis.",
+              "explication": "D'abord une question ouverte, sans suggérer."
+            },
+            {
+              "reponse": "L'intensité de la douleur est évaluée par le score de Glasgow.",
+              "explication": "Par une échelle numérique simple."
+            },
+            {
+              "reponse": "Des épisodes de plus en plus fréquents évoquent une maladie coronaire stable.",
+              "explication": "Ils évoquent son instabilité."
+            },
+            {
+              "reponse": "La durée de la douleur n'aide pas à interpréter les examens complémentaires.",
+              "explication": "Elle est primordiale pour les interpréter."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À l'auscultation cardiaque d'une douleur thoracique aiguë, quelles associations sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Souffle diastolique d'insuffisance aortique : dissection aortique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une tachycardie sinusale est un des signes les plus courants de l'embolie pulmonaire.",
+              "explication": "Signe fréquent mais non spécifique."
+            },
+            {
+              "reponse": "Un souffle diastolique d'insuffisance aortique évoque une dissection aortique.",
+              "explication": "Urgence diagnostique majeure."
+            },
+            {
+              "reponse": "Un frottement péricardique évoque une péricardite aiguë.",
+              "explication": "Bruit systolo-diastolique."
+            },
+            {
+              "reponse": "Un éclat du 2e bruit au foyer pulmonaire évoque une hypertension artérielle pulmonaire ou une embolie pulmonaire.",
+              "explication": "Signe de surcharge pulmonaire."
+            },
+            {
+              "reponse": "Un souffle systolique d'insuffisance mitrale peut révéler la complication d'un syndrome coronarien aigu vu tardivement.",
+              "explication": "Comme la communication interventriculaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle diastolique d'insuffisance aortique évoque une complication de syndrome coronarien aigu.",
+              "explication": "Il évoque une dissection aortique."
+            },
+            {
+              "reponse": "Un frottement péricardique disparaît en apnée.",
+              "explication": "Il persiste en apnée."
+            },
+            {
+              "reponse": "Un éclat du 2e bruit au foyer pulmonaire évoque une dissection aortique.",
+              "explication": "Il évoque une hypertension artérielle pulmonaire ou une embolie pulmonaire."
+            },
+            {
+              "reponse": "Un souffle systolique de communication interventriculaire évoque une péricardite.",
+              "explication": "Il évoque une complication de syndrome coronarien aigu."
+            },
+            {
+              "reponse": "Le frottement péricardique est un bruit purement diastolique.",
+              "explication": "Il est systolo-diastolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À l'examen pulmonaire d'une douleur thoracique aiguë, quelles associations sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Abolition du murmure vésiculaire et des vibrations vocales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une abolition du murmure vésiculaire et des vibrations vocales évoque un épanchement pleural.",
+              "explication": "Quelque chose s'interpose entre le stéthoscope et le poumon."
+            },
+            {
+              "reponse": "Un tympanisme à la percussion évoque un épanchement gazeux.",
+              "explication": "La percussion distingue gaz et liquide."
+            },
+            {
+              "reponse": "Une matité à la percussion évoque un épanchement liquidien.",
+              "explication": "La percussion distingue gaz et liquide."
+            },
+            {
+              "reponse": "Des râles crépitants localisés évoquent une pneumopathie infectieuse.",
+              "explication": "Probablement avec inflammation pleurale."
+            },
+            {
+              "reponse": "Des râles crépitants bilatéraux prédominant aux bases évoquent une insuffisance cardiaque gauche.",
+              "explication": "Complication de l'étiologie de la douleur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une matité à la percussion évoque un pneumothorax.",
+              "explication": "Le pneumothorax donne un tympanisme."
+            },
+            {
+              "reponse": "Un tympanisme à la percussion évoque un épanchement liquidien.",
+              "explication": "Il évoque un épanchement gazeux."
+            },
+            {
+              "reponse": "Des râles crépitants bilatéraux aux bases évoquent une pneumopathie infectieuse.",
+              "explication": "Ils évoquent une insuffisance cardiaque gauche."
+            },
+            {
+              "reponse": "Des râles crépitants localisés évoquent une insuffisance cardiaque gauche.",
+              "explication": "Ils évoquent une pneumopathie infectieuse."
+            },
+            {
+              "reponse": "Un épanchement pleural augmente les vibrations vocales.",
+              "explication": "Il les abolit."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le reste de l'examen physique d'une douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "reproduction à l'identique de la douleur en un point précis"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une turgescence jugulaire avec reflux hépato-jugulaire peut orienter vers une embolie pulmonaire.",
+              "explication": "L'hypertension pulmonaire retentit sur le ventricule droit."
+            },
+            {
+              "reponse": "Des signes d'insuffisance cardiaque droite peuvent orienter vers une tamponnade.",
+              "explication": "Le liquide comprime les cavités droites."
+            },
+            {
+              "reponse": "La reproduction à l'identique de la douleur à la palpation d'un point précis évoque une douleur pariétale.",
+              "explication": "Palpation thoracique."
+            },
+            {
+              "reponse": "Une asymétrie tensionnelle ou des pouls entre droite et gauche évoque une dissection aortique.",
+              "explication": "Dans le contexte d'une douleur thoracique aiguë."
+            },
+            {
+              "reponse": "La palpation abdominale fait partie de l'examen.",
+              "explication": "Des pathologies digestives peuvent se présenter comme une douleur thoracique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une turgescence jugulaire évoque avant tout une insuffisance cardiaque gauche.",
+              "explication": "C'est un signe d'insuffisance cardiaque droite."
+            },
+            {
+              "reponse": "La reproduction de la douleur à la palpation évoque une origine coronaire.",
+              "explication": "Elle évoque une douleur pariétale."
+            },
+            {
+              "reponse": "Une asymétrie des pouls évoque une péricardite.",
+              "explication": "Elle évoque une dissection aortique."
+            },
+            {
+              "reponse": "Les pouls périphériques ne sont palpés qu'aux membres supérieurs.",
+              "explication": "Ils sont palpés aux 4 membres."
+            },
+            {
+              "reponse": "L'abolition d'un pouls oriente vers une pathologie inflammatoire.",
+              "explication": "Elle oriente vers une pathologie athéroscléreuse."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le score de Genève révisé, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Score de probabilité clinique d'embolie pulmonaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "C'est un score de probabilité clinique d'embolie pulmonaire.",
+              "explication": "Il oriente le choix des examens."
+            },
+            {
+              "reponse": "En cas de forte probabilité, on réalise un scanner thoracique avec injection.",
+              "explication": "Exemple donné par le cours."
+            },
+            {
+              "reponse": "Il prend en compte la fréquence cardiaque.",
+              "explication": "Signe clinique du score."
+            },
+            {
+              "reponse": "Il prend en compte une néoplasie active.",
+              "explication": "Facteur prédisposant du score."
+            },
+            {
+              "reponse": "Il prend en compte une hémoptysie.",
+              "explication": "Symptôme du score."
+            },
+            {
+              "reponse": "Il prend en compte un antécédent de maladie veineuse thromboembolique.",
+              "explication": "Facteur prédisposant du score."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "C'est un score de probabilité clinique de syndrome coronarien aigu.",
+              "explication": "Il concerne l'embolie pulmonaire."
+            },
+            {
+              "reponse": "Il prend en compte le taux de D-dimères.",
+              "explication": "Il ne comporte que des éléments cliniques."
+            },
+            {
+              "reponse": "Il prend en compte la saturation pulsée en oxygène.",
+              "explication": "Elle ne fait pas partie du score."
+            },
+            {
+              "reponse": "Il prend en compte le taux de troponines.",
+              "explication": "Il ne comporte que des éléments cliniques."
+            },
+            {
+              "reponse": "Il prend en compte le sexe féminin.",
+              "explication": "Le sexe ne fait pas partie du score."
+            },
+            {
+              "reponse": "La probabilité clinique ne modifie pas le choix des examens.",
+              "explication": "Selon la probabilité, on réalise des examens différents."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Électrocardiogramme et examens complémentaires des urgences cardiovasculaires"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-dta-028",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "En cas de douleur thoracique persistante, dans quel délai après le 1er contact médical l'électrocardiogramme 18 dérivations doit-il être réalisé ? (une seule réponse attendue)",
+          "cours": {
+            "page": 8,
+            "surligner": "dans les 10 minutes suivant le 1er contact médical"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans les 10 minutes.",
+              "explication": "Délai sur lequel l'intervenant a insisté, surtout si un syndrome coronarien aigu est suspecté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans les 30 minutes.",
+              "explication": "Le délai est de 10 minutes."
+            },
+            {
+              "reponse": "Dans l'heure.",
+              "explication": "Le délai est de 10 minutes."
+            },
+            {
+              "reponse": "Dans les 2 heures.",
+              "explication": "C'est le délai de la coronarographie dans le syndrome coronarien aigu avec sus-décalage."
+            },
+            {
+              "reponse": "Dans les 24 heures.",
+              "explication": "Le délai est de 10 minutes."
+            },
+            {
+              "reponse": "Après le résultat des troponines.",
+              "explication": "L'électrocardiogramme est réalisé d'emblée, dans les 10 minutes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'électrocardiogramme du syndrome coronarien aigu avec sus-décalage persistant du segment ST, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "électrocardiogramme typique, sus-décalage du segment ST"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'électrocardiogramme est typique et constitue l'élément clé du diagnostic.",
+              "explication": "Mention de la diapositive."
+            },
+            {
+              "reponse": "Le sus-décalage du segment ST siège dans au moins 2 dérivations d'un même territoire coronaire.",
+              "explication": "Critère du cours."
+            },
+            {
+              "reponse": "Un sous-décalage en miroir peut être associé.",
+              "explication": "Dans les dérivations opposées au territoire atteint."
+            },
+            {
+              "reponse": "Un bloc de branche gauche de novo a la même valeur qu'un sus-décalage.",
+              "explication": "Il fait partie des critères."
+            },
+            {
+              "reponse": "Le sus-décalage permet de localiser le territoire en cause.",
+              "explication": "Selon les dérivations atteintes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le « miroir » est un sus-décalage du segment ST dans les dérivations opposées au territoire atteint.",
+              "explication": "Le miroir est un sous-décalage."
+            },
+            {
+              "reponse": "Le décalage du segment ST s'apprécie par rapport au sommet de l'onde P.",
+              "explication": "La référence est la ligne isoélectrique (ligne de base)."
+            },
+            {
+              "reponse": "Un sus-décalage dans une seule dérivation suffit au diagnostic.",
+              "explication": "Il faut au moins 2 dérivations d'un même territoire."
+            },
+            {
+              "reponse": "Un bloc de branche droite de novo a la même valeur qu'un sus-décalage.",
+              "explication": "C'est le bloc de branche gauche de novo."
+            },
+            {
+              "reponse": "Le sus-décalage est diffus et concave vers le haut.",
+              "explication": "C'est l'aspect de la péricardite aiguë."
+            },
+            {
+              "reponse": "L'électrocardiogramme est le plus souvent normal.",
+              "explication": "Il est typique dans le syndrome avec sus-décalage persistant."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'électrocardiogramme du syndrome coronarien aigu sans sus-décalage persistant du segment ST, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "lésion sous-endocardique = sous-décalage du segment ST"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une lésion sous-endocardique se traduit par un sous-décalage du segment ST.",
+              "explication": "Tracé de gauche de la diapositive."
+            },
+            {
+              "reponse": "Une ischémie sous-épicardique se traduit par des ondes T négatives systématisées.",
+              "explication": "Tracé de droite de la diapositive."
+            },
+            {
+              "reponse": "Un sus-décalage transitoire du segment ST est possible.",
+              "explication": "Rappelé par la diapositive."
+            },
+            {
+              "reponse": "Les signes électriques sont peu sensibles.",
+              "explication": "L'électrocardiogramme est souvent normal."
+            },
+            {
+              "reponse": "Un électrocardiogramme normal n'élimine pas le diagnostic.",
+              "explication": "Il faut s'aider des autres éléments du diagnostic."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une lésion sous-épicardique se traduit par un sous-décalage du segment ST.",
+              "explication": "Le sous-décalage traduit une lésion sous-endocardique."
+            },
+            {
+              "reponse": "Des ondes T négatives traduisent une lésion sous-endocardique.",
+              "explication": "Elles traduisent une ischémie sous-épicardique."
+            },
+            {
+              "reponse": "Les signes électriques sont très sensibles.",
+              "explication": "Ils sont peu sensibles."
+            },
+            {
+              "reponse": "Un électrocardiogramme normal élimine le diagnostic.",
+              "explication": "Il est souvent normal dans ce syndrome."
+            },
+            {
+              "reponse": "Le sus-décalage du segment ST y est persistant.",
+              "explication": "Il peut être transitoire, jamais persistant par définition."
+            },
+            {
+              "reponse": "Les ondes T négatives n'ont pas de systématisation.",
+              "explication": "Elles sont systématisées à un territoire coronaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'électrocardiogramme dans la dissection aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "électrocardiogramme est le plus souvent normal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est le plus souvent normal.",
+              "explication": "Sauf atteinte d'une artère coronaire."
+            },
+            {
+              "reponse": "Il peut montrer des signes ischémiques si la dissection s'étend à une artère coronaire.",
+              "explication": "Les coronaires sont des collatérales de l'aorte."
+            },
+            {
+              "reponse": "Dissection aortique et syndrome coronarien aigu peuvent être intriqués.",
+              "explication": "Ce qui complique la prise en charge."
+            },
+            {
+              "reponse": "Chez un sujet à l'anatomie habituelle, le tronc artériel brachio-céphalique est situé à droite.",
+              "explication": "Il n'en existe qu'un ; à gauche, carotide et sous-clavière naissent de la crosse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il montre le plus souvent un sus-décalage diffus du segment ST.",
+              "explication": "Il est le plus souvent normal."
+            },
+            {
+              "reponse": "Un électrocardiogramme anormal est indispensable au diagnostic.",
+              "explication": "Il est le plus souvent normal."
+            },
+            {
+              "reponse": "La dissection ne peut pas s'étendre aux artères coronaires.",
+              "explication": "Elle peut s'étendre aux collatérales, dont les coronaires."
+            },
+            {
+              "reponse": "Chez un sujet à l'anatomie habituelle, il existe un tronc artériel brachio-céphalique gauche.",
+              "explication": "Erreur des notes : il n'y a qu'un tronc, à droite."
+            },
+            {
+              "reponse": "Le tronc artériel brachio-céphalique donne la carotide commune gauche.",
+              "explication": "Il donne la carotide commune droite et la sous-clavière droite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'électrocardiogramme de l'embolie pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "un aspect S1Q3 (onde S proéminente en D1"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il peut être normal.",
+              "explication": "L'électrocardiogramme peut être normal."
+            },
+            {
+              "reponse": "Il peut montrer une tachycardie sinusale, signe non spécifique.",
+              "explication": "Anomalie la plus courante."
+            },
+            {
+              "reponse": "Il peut montrer un aspect S1Q3 : onde S en D1 et onde Q en D3.",
+              "explication": "Signe de cœur pulmonaire aigu."
+            },
+            {
+              "reponse": "Il peut montrer un bloc de branche droite.",
+              "explication": "Complexe en M en V1 et V2."
+            },
+            {
+              "reponse": "Il peut montrer une négativation des ondes T de V1 à V4.",
+              "explication": "Signe de cœur pulmonaire aigu."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'aspect typique associe une onde Q en D1 et une onde S en D3.",
+              "explication": "C'est l'inverse : S en D1, Q en D3."
+            },
+            {
+              "reponse": "Il peut montrer un bloc de branche gauche, signe de cœur pulmonaire aigu.",
+              "explication": "C'est le bloc de branche droite."
+            },
+            {
+              "reponse": "La tachycardie sinusale est spécifique de l'embolie pulmonaire.",
+              "explication": "Elle n'est pas spécifique."
+            },
+            {
+              "reponse": "Il est toujours anormal.",
+              "explication": "Il peut être normal."
+            },
+            {
+              "reponse": "La négativation des ondes T siège typiquement de V4 à V6.",
+              "explication": "Elle siège de V1 à V4."
+            },
+            {
+              "reponse": "Il montre un sus-décalage diffus du segment ST concave vers le haut.",
+              "explication": "C'est l'aspect de la péricardite aiguë."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'électrocardiogramme de la péricardite aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "sous-décalage du segment PQ (signe précoce)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il montre un sus-décalage diffus du segment ST.",
+              "explication": "Présent dans presque toutes les dérivations."
+            },
+            {
+              "reponse": "Le sus-décalage du segment ST est concave vers le haut.",
+              "explication": "Aspect typique."
+            },
+            {
+              "reponse": "Un sous-décalage du segment PQ est un signe précoce.",
+              "explication": "Signe désigné par les flèches de la diapositive."
+            },
+            {
+              "reponse": "En cas d'épanchement abondant, il peut montrer un microvoltage diffus.",
+              "explication": "Complexes de très faible amplitude."
+            },
+            {
+              "reponse": "En cas d'épanchement abondant, il peut montrer une alternance électrique.",
+              "explication": "Amplitude variable d'un battement à l'autre."
+            },
+            {
+              "reponse": "En cas d'épanchement abondant, il peut montrer une fibrillation atriale.",
+              "explication": "Citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sus-décalage du segment ST est bombé, convexe vers le haut.",
+              "explication": "Il est concave vers le haut."
+            },
+            {
+              "reponse": "Il montre un sus-décalage du segment PQ.",
+              "explication": "C'est un sous-décalage du segment PQ."
+            },
+            {
+              "reponse": "Le sous-décalage du segment PQ est un signe tardif.",
+              "explication": "C'est un signe précoce."
+            },
+            {
+              "reponse": "Le sus-décalage du segment ST correspond à un territoire coronaire unique.",
+              "explication": "Il est diffus, sans territoire coronaire unique."
+            },
+            {
+              "reponse": "L'épanchement abondant augmente l'amplitude des complexes.",
+              "explication": "Il donne un microvoltage."
+            },
+            {
+              "reponse": "Il montre typiquement un aspect S1Q3.",
+              "explication": "Signe de l'embolie pulmonaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-034",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Un sus-décalage diffus du segment ST, concave vers le haut, associé à un sous-décalage du segment PQ, évoque avant tout : (une seule réponse attendue)",
+          "cours": {
+            "page": 12,
+            "surligner": "sus-décalage du segment ST présent dans presque toutes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une péricardite aiguë.",
+              "explication": "Association typique de la péricardite aiguë."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un syndrome coronarien aigu avec sus-décalage persistant du segment ST.",
+              "explication": "Le sus-décalage y est systématisé à un territoire, souvent avec miroir."
+            },
+            {
+              "reponse": "Une embolie pulmonaire.",
+              "explication": "Elle donne tachycardie, S1Q3, bloc de branche droite, T négatives de V1 à V4."
+            },
+            {
+              "reponse": "Une dissection aortique.",
+              "explication": "L'électrocardiogramme y est le plus souvent normal."
+            },
+            {
+              "reponse": "Un syndrome coronarien aigu sans sus-décalage persistant du segment ST.",
+              "explication": "Il donne sous-décalage du ST ou T négatives."
+            },
+            {
+              "reponse": "Un pneumothorax.",
+              "explication": "Ce n'est pas une anomalie électrique décrite pour le pneumothorax."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-035",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Après l'électrocardiogramme, quels examens complémentaires sont quasi systématiques devant une douleur thoracique aiguë ? (2 réponses attendues)",
+          "cours": {
+            "page": 12,
+            "surligner": "examens complémentaires sont néanmoins quasi systématiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le dosage des troponines ultrasensibles.",
+              "explication": "Examen quasi systématique."
+            },
+            {
+              "reponse": "La radiographie thoracique.",
+              "explication": "Examen quasi systématique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'angioscanner thoracique.",
+              "explication": "Indiqué selon la suspicion (embolie pulmonaire, dissection aortique)."
+            },
+            {
+              "reponse": "La coronarographie.",
+              "explication": "Indiquée dans le syndrome coronarien aigu selon le risque."
+            },
+            {
+              "reponse": "L'échocardiographie trans-œsophagienne.",
+              "explication": "Rarement utilisée, dans la dissection aortique."
+            },
+            {
+              "reponse": "L'imagerie par résonance magnétique cardiaque.",
+              "explication": "Indiquée en cas de suspicion de myocardite."
+            },
+            {
+              "reponse": "La scintigraphie pulmonaire.",
+              "explication": "Citée à l'oral pour l'embolie pulmonaire, non systématique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le dosage des troponines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "nécrose des cardiomyocytes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les troponines sont détectées dans le sang lorsqu'il y a nécrose des cardiomyocytes.",
+              "explication": "Principe du dosage."
+            },
+            {
+              "reponse": "La nécrose est le plus souvent d'origine ischémique.",
+              "explication": "Cause la plus fréquente."
+            },
+            {
+              "reponse": "Les troponines peuvent s'élever dans une myocardite.",
+              "explication": "Exemple de cause non ischémique."
+            },
+            {
+              "reponse": "La troponine est une protéine du complexe qui régule la contraction du muscle cardiaque.",
+              "explication": "Correction des notes."
+            },
+            {
+              "reponse": "On utilise un dosage de troponines ultrasensibles.",
+              "explication": "Examen quasi systématique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La troponine est une enzyme.",
+              "explication": "Erreur des notes : c'est une protéine régulatrice, pas une enzyme."
+            },
+            {
+              "reponse": "Les troponines ne s'élèvent qu'en cas d'ischémie.",
+              "explication": "Elles s'élèvent aussi par exemple dans une myocardite."
+            },
+            {
+              "reponse": "Les troponines ne s'élèvent jamais dans une myocardite.",
+              "explication": "La myocardite est un exemple d'élévation non ischémique."
+            },
+            {
+              "reponse": "Le dosage des troponines est exceptionnel devant une douleur thoracique aiguë.",
+              "explication": "Il est quasi systématique."
+            },
+            {
+              "reponse": "Les troponines traduisent une inflammation du péricarde sans atteinte du muscle.",
+              "explication": "Elles traduisent une nécrose des cardiomyocytes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la radiographie thoracique devant une douleur thoracique aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "limitée en haut par une courbe concave vers le haut"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans un pneumothorax complet, le poumon est rétracté contre le hile, entouré d'une zone noire sans dessin vasculaire.",
+              "explication": "Hyperclarté due à l'air."
+            },
+            {
+              "reponse": "Un épanchement pleural liquidien donne une opacité basale limitée par la ligne de Damoiseau.",
+              "explication": "Courbe concave vers le haut."
+            },
+            {
+              "reponse": "La pneumopathie franche lobaire aiguë donne une opacité dense d'un lobe.",
+              "explication": "Pneumopathie d'origine bactérienne."
+            },
+            {
+              "reponse": "La dissection aortique peut montrer un élargissement du médiastin supérieur.",
+              "explication": "Double flèche de la diapositive."
+            },
+            {
+              "reponse": "Un liquide apparaît en blanc (opacité) sur la radiographie.",
+              "explication": "L'hyperclarté correspond à de l'air."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un épanchement pleural liquidien donne une hyperclarté basale.",
+              "explication": "Erreur des notes : le liquide donne une opacité."
+            },
+            {
+              "reponse": "Le pneumothorax se traduit par une opacité du champ pulmonaire.",
+              "explication": "Il donne une hyperclarté sans dessin vasculaire."
+            },
+            {
+              "reponse": "La ligne de Damoiseau est convexe vers le haut.",
+              "explication": "Elle est concave vers le haut."
+            },
+            {
+              "reponse": "La pneumopathie franche lobaire aiguë est d'origine virale.",
+              "explication": "Elle est d'origine bactérienne."
+            },
+            {
+              "reponse": "La dissection aortique donne typiquement un rétrécissement du médiastin supérieur.",
+              "explication": "Elle donne un élargissement."
+            },
+            {
+              "reponse": "La radiographie thoracique est exceptionnelle devant une douleur thoracique aiguë.",
+              "explication": "Elle est quasi systématique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'angioscanner thoracique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "hypodensité intraluminale dans l'artère pulmonaire et ses"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il a un intérêt diagnostique majeur en cas de suspicion d'embolie pulmonaire.",
+              "explication": "Examen clé."
+            },
+            {
+              "reponse": "Il a un intérêt diagnostique majeur en cas de suspicion de dissection aortique.",
+              "explication": "Examen clé."
+            },
+            {
+              "reponse": "Dans l'embolie pulmonaire, il montre une hypodensité intraluminale dans l'artère pulmonaire et ses branches.",
+              "explication": "Le caillot apparaît gris foncé dans le sang opacifié."
+            },
+            {
+              "reponse": "Dans l'embolie pulmonaire, il peut montrer une dilatation des cavités droites avec un rapport ventricule droit sur ventricule gauche supérieur à 1.",
+              "explication": "Retentissement droit."
+            },
+            {
+              "reponse": "Dans la dissection de type A, il montre un flap intimal et un faux chenal circulant.",
+              "explication": "Avec dilatation de l'aorte ascendante."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans l'embolie pulmonaire, le caillot apparaît comme une hyperdensité intraluminale.",
+              "explication": "C'est une hypodensité."
+            },
+            {
+              "reponse": "Dans l'embolie pulmonaire, le rapport ventricule droit sur ventricule gauche est inférieur à 1 en cas de retentissement.",
+              "explication": "Il est supérieur à 1."
+            },
+            {
+              "reponse": "Le flap intimal est le signe direct de l'embolie pulmonaire.",
+              "explication": "Il caractérise la dissection aortique."
+            },
+            {
+              "reponse": "Dans la dissection de type A, l'aorte ascendante est rétrécie.",
+              "explication": "Elle est dilatée."
+            },
+            {
+              "reponse": "Le faux chenal élargit la lumière artérielle vraie.",
+              "explication": "Il comprime la lumière artérielle."
+            },
+            {
+              "reponse": "L'angioscanner n'a pas d'intérêt dans la dissection aortique.",
+              "explication": "Il a un intérêt diagnostique majeur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Sémiologie des urgences cardiovasculaires"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-dta-039",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Un homme de 65 ans, fumeur, hypertendu et dyslipidémique traité, avec un antécédent de reflux gastro-œsophagien, consulte aux urgences pour une douleur thoracique débutée 2 heures plus tôt et persistante. Elle siège derrière le sternum, qu'il montre du plat de la main, donne l'impression d'un « énorme poids » sur la poitrine et remonte vers le cou. Aucune position ne la soulage, elle n'est pas modifiée par la respiration ; il est nauséeux et en sueur. Quelle est l'hypothèse diagnostique principale ? (une seule réponse attendue)",
+          "cours": {
+            "page": 14,
+            "surligner": "rétrosternale, constrictive, irradiations possibles (mâchoire, bras"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un syndrome coronarien aigu.",
+              "annale": true,
+              "explication": "Terrain riche en facteurs de risque cardiovasculaire, douleur rétrosternale constrictive persistante, irradiant au cou, non respiratoire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une dissection aortique.",
+              "annale": true,
+              "explication": "La douleur n'est ni transfixiante ni migratrice ; ce n'est pas l'hypothèse principale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un reflux gastro-œsophagien.",
+              "annale": true,
+              "explication": "Malgré l'antécédent, la douleur constrictive persistante chez ce patient à haut risque oriente d'abord vers une cause coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une péricardite aiguë.",
+              "annale": true,
+              "explication": "La douleur de péricardite est modifiée par la respiration et la position ; le terrain n'est pas celui d'un sujet jeune. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une pancréatite aiguë.",
+              "annale": true,
+              "explication": "La douleur serait transfixiante ; ce n'est pas l'hypothèse principale. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-040",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2019-2020",
+                "qcm": 35
+              }
+            ]
+          },
+          "question": "Un homme de 58 ans, fumeur et hypertendu, a présenté le matin même une douleur intense en barre, constrictive, irradiant vers les mâchoires, non liée à l'effort, qui a cédé spontanément en 5 minutes. Un électrocardiogramme post-critique est réalisé. Quel est le diagnostic le plus probable ? (une seule réponse attendue)",
+          "cours": {
+            "page": 14,
+            "surligner": "Douleur spontanée ou pour un effort minime"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un syndrome coronarien aigu sans sus-décalage du segment ST.",
+              "annale": true,
+              "explication": "Douleur coronaire typique, spontanée (de repos), résolutive : syndrome coronarien aigu sans sus-décalage persistant. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une dissection de l'aorte.",
+              "annale": true,
+              "explication": "La douleur n'est ni transfixiante ni migratrice. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une embolie pulmonaire.",
+              "annale": true,
+              "explication": "La douleur constrictive en barre irradiant aux mâchoires est coronaire, pas pleurale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une maladie coronaire stable.",
+              "annale": true,
+              "explication": "Une douleur spontanée, de repos, évoque un syndrome coronarien aigu et non une maladie stable. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un syndrome coronarien aigu avec sus-décalage persistant du segment ST.",
+              "annale": true,
+              "explication": "Dans ce syndrome, la douleur est persistante ; ici elle a cédé en 5 minutes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une péricardite.",
+              "annale": true,
+              "explication": "Pas de terrain jeune, ni de douleur positionnelle ou respiratoire. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-041",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Un homme de 68 ans est hospitalisé pour une douleur thoracique d'installation brutale, en barre, constrictive, intense, irradiant vers les mâchoires et durant depuis 1 heure 30. Vous suspectez un infarctus du myocarde. Quels éléments confortent cette hypothèse ?",
+          "cours": {
+            "page": 14,
+            "surligner": "la douleur est persistante"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une douleur prolongée, supérieure à 30 minutes.",
+              "annale": true,
+              "explication": "Dans le syndrome coronarien aigu avec sus-décalage, la douleur est persistante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur irradiant dans les mâchoires.",
+              "annale": true,
+              "explication": "Irradiation classique de la maladie coronaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur influencée par la respiration.",
+              "annale": true,
+              "explication": "Caractère des douleurs des séreuses (plèvre, péricarde). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur basithoracique.",
+              "annale": true,
+              "explication": "Oriente vers une origine pleurale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur augmentant en décubitus latéral gauche.",
+              "annale": true,
+              "explication": "Une douleur augmentée en décubitus évoque une péricardite. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-042",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2021-2022",
+                "qcm": 13
+              }
+            ]
+          },
+          "question": "Quels éléments sont en faveur d'une douleur thoracique d'angor d'effort ?",
+          "cours": {
+            "page": 14,
+            "surligner": "rétrosternale, constrictive, irradiations possibles (mâchoire, bras"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une douleur rétrosternale.",
+              "annale": true,
+              "explication": "Localisation d'une cause coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur constrictive.",
+              "annale": true,
+              "explication": "Caractère de la douleur coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur favorisée par le froid.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le froid augmente le travail cardiaque et déclenche classiquement l'angor. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Une douleur cédant à la prise de trinitrine sublinguale.",
+              "annale": true,
+              "explication": "Une douleur trinitro-sensible oriente vers une origine coronaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur en ceinture basithoracique.",
+              "annale": true,
+              "explication": "Une douleur basithoracique oriente vers une origine pleurale. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-043",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 24
+              }
+            ]
+          },
+          "question": "Concernant les caractéristiques de la douleur d'angor stable, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "possible angor d'effort préalable"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une douleur constrictive.",
+              "annale": true,
+              "explication": "Caractère de la douleur coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur en lien avec l'effort.",
+              "annale": true,
+              "explication": "Dans la forme chronique, la baisse de débit coronaire se manifeste à l'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une irradiation à la mâchoire.",
+              "annale": true,
+              "explication": "Irradiation classique de la maladie coronaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur de siège latéro-thoracique.",
+              "annale": true,
+              "explication": "La douleur coronaire est rétrosternale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une durée prolongée, supérieure à 15 minutes.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La crise d'angor stable est brève (quelques minutes) et cède à l'arrêt de l'effort ; une douleur prolongée fait craindre un syndrome coronarien aigu. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-044",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 27
+              }
+            ]
+          },
+          "question": "Concernant la douleur d'angine de poitrine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "n'est pas trinitro-sensible, ce qui n'élimine cependant pas"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle peut être favorisée par le froid.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le froid est un facteur déclenchant classique de l'angor. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Elle peut céder après administration de trinitrine.",
+              "annale": true,
+              "explication": "Une douleur trinitro-sensible oriente vers une origine coronaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle survient toujours à l'effort.",
+              "annale": true,
+              "explication": "Dans le syndrome coronarien aigu, elle peut être spontanée. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est toujours brève, durant moins de 5 minutes.",
+              "annale": true,
+              "explication": "Elle peut être persistante (syndrome avec sus-décalage) ou céder en 15 à 20 minutes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur isolée des mâchoires, survenant à l'effort et cédant à son arrêt, n'évoque pas une angine de poitrine.",
+              "annale": true,
+              "explication": "Les atypies sont possibles et le lien avec l'effort est très évocateur. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-045",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la physiopathologie du syndrome coronarien, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "la rupture d'une plaque entraîne une occlusion complète"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome coronarien survient lorsque les artères coronaires sont rétrécies ou obstruées.",
+              "explication": "Définition donnée dans les notes."
+            },
+            {
+              "reponse": "Dans la forme chronique, il existe une baisse de débit coronaire à l'effort.",
+              "explication": "Dit à l'oral."
+            },
+            {
+              "reponse": "Dans la forme aiguë, la rupture d'une plaque est en cause.",
+              "explication": "Dit à l'oral."
+            },
+            {
+              "reponse": "Une occlusion complète donne un sus-décalage du segment ST.",
+              "explication": "Dit à l'oral."
+            },
+            {
+              "reponse": "Une sub-occlusion donne un syndrome sans sus-décalage du segment ST.",
+              "explication": "Dit à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une sub-occlusion donne un sus-décalage persistant du segment ST.",
+              "explication": "La sub-occlusion ne donne pas de sus-décalage."
+            },
+            {
+              "reponse": "Une occlusion complète donne un syndrome sans sus-décalage du segment ST.",
+              "explication": "Elle donne un sus-décalage."
+            },
+            {
+              "reponse": "Dans la forme chronique, la rupture de plaque est le mécanisme habituel.",
+              "explication": "La rupture de plaque caractérise la forme aiguë."
+            },
+            {
+              "reponse": "Dans la forme aiguë, le débit coronaire n'est réduit qu'à l'effort.",
+              "explication": "C'est la forme chronique."
+            },
+            {
+              "reponse": "Le syndrome coronarien aigu est dû à une inflammation du péricarde.",
+              "explication": "Il est dû à une atteinte des artères coronaires."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-046",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'examen physique dans le syndrome coronarien aigu, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Examen physique : le plus souvent normal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est le plus souvent normal.",
+              "explication": "Point clé du cours."
+            },
+            {
+              "reponse": "On recherche des localisations athéromateuses, comme un souffle carotidien ou fémoral.",
+              "explication": "Terrain athéromateux."
+            },
+            {
+              "reponse": "Des signes d'anémie orientent vers un diagnostic différentiel.",
+              "explication": "L'anémie peut provoquer un syndrome coronarien aigu de type 2."
+            },
+            {
+              "reponse": "Un souffle de rétrécissement aortique oriente vers un diagnostic différentiel.",
+              "explication": "Plus rarement d'insuffisance aortique."
+            },
+            {
+              "reponse": "Un souffle d'insuffisance mitrale ou de communication interventriculaire évoque une complication.",
+              "explication": "Comme les signes d'insuffisance cardiaque."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il est le plus souvent anormal.",
+              "explication": "Il est le plus souvent normal."
+            },
+            {
+              "reponse": "Un souffle d'insuffisance mitrale oriente vers un diagnostic différentiel.",
+              "explication": "Il évoque une complication."
+            },
+            {
+              "reponse": "Un souffle de rétrécissement aortique est une complication du syndrome coronarien aigu.",
+              "explication": "C'est un diagnostic différentiel."
+            },
+            {
+              "reponse": "Le sigle « RA » désigne un rétrécissement de l'aorte thoracique.",
+              "explication": "Il désigne le rétrécissement aortique, valvulaire."
+            },
+            {
+              "reponse": "Des signes d'insuffisance cardiaque orientent vers un diagnostic différentiel.",
+              "explication": "Ils évoquent une complication."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le dosage des troponines dans le syndrome coronarien aigu, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Un dosage normal n'élimine pas un syndrome coronarien aigu"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans le syndrome avec sus-décalage du segment ST, le dosage n'a pas d'intérêt diagnostique.",
+              "explication": "L'électrocardiogramme suffit."
+            },
+            {
+              "reponse": "Dans le syndrome sans sus-décalage, les troponines sont le plus souvent élevées.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Un cycle H0-H1 ou H0-H2 est parfois nécessaire.",
+              "explication": "2 dosages successifs."
+            },
+            {
+              "reponse": "Un dosage normal n'élimine pas un syndrome coronarien aigu.",
+              "explication": "Cas de l'angor instable."
+            },
+            {
+              "reponse": "Un dosage positif ne fait pas à lui seul le diagnostic.",
+              "explication": "Point de vigilance."
+            },
+            {
+              "reponse": "La biologie permet aussi d'éliminer une anémie.",
+              "explication": "Diagnostic différentiel."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans le syndrome avec sus-décalage, le diagnostic repose sur les troponines.",
+              "explication": "Il repose sur l'électrocardiogramme ; les troponines n'ont pas d'intérêt diagnostique."
+            },
+            {
+              "reponse": "Un dosage normal élimine un syndrome coronarien aigu.",
+              "explication": "L'angor instable s'accompagne de troponines normales."
+            },
+            {
+              "reponse": "Un dosage positif suffit à poser le diagnostic.",
+              "explication": "Il ne fait pas le diagnostic isolément."
+            },
+            {
+              "reponse": "Le cycle de dosage repose sur un 2e dosage 24 heures après le 1er.",
+              "explication": "Cycle H0-H1 ou H0-H2."
+            },
+            {
+              "reponse": "La radiographie thoracique est utile au diagnostic de syndrome coronarien aigu.",
+              "explication": "Elle n'est pas utile au diagnostic."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la coronarographie dans le syndrome coronarien aigu, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "coronarographie dans un délai inférieur à 2 heures"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est réalisée dans un délai inférieur à 2 heures en cas de sus-décalage du segment ST.",
+              "explication": "Délai du cours."
+            },
+            {
+              "reponse": "Elle est réalisée dans un délai inférieur à 2 heures dans le syndrome sans sus-décalage avec critères de très haut risque.",
+              "explication": "Délai du cours."
+            },
+            {
+              "reponse": "Elle est réalisée dans un délai inférieur à 24 heures dans le syndrome sans sus-décalage à haut risque.",
+              "explication": "Délai du cours."
+            },
+            {
+              "reponse": "Une élévation des troponines est un exemple de critère de haut risque.",
+              "explication": "Exemple dit à l'oral."
+            },
+            {
+              "reponse": "Lors de l'angioplastie primaire, on met souvent un stent qui maintient l'artère ouverte.",
+              "explication": "Cylindre grillagé métallique qui écrase la plaque."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est réalisée dans un délai inférieur à 24 heures en cas de sus-décalage du segment ST.",
+              "explication": "Le délai est inférieur à 2 heures."
+            },
+            {
+              "reponse": "Elle est réalisée dans un délai inférieur à 2 heures dans tout syndrome sans sus-décalage à haut risque.",
+              "explication": "Moins de 2 heures pour le très haut risque, moins de 24 heures pour le haut risque."
+            },
+            {
+              "reponse": "Elle est réalisée dans un délai inférieur à 72 heures en cas de sus-décalage du segment ST.",
+              "explication": "Le délai est inférieur à 2 heures."
+            },
+            {
+              "reponse": "Des modifications électriques de l'électrocardiogramme excluent le haut risque.",
+              "explication": "Elles sont un exemple de haut risque."
+            },
+            {
+              "reponse": "Le stent est posé par chirurgie à thorax ouvert.",
+              "explication": "Il est posé lors de l'angioplastie, après passage d'un guide dans l'artère."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-049",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 26
+              }
+            ]
+          },
+          "question": "Un homme de 55 ans, hypertendu traité depuis 15 ans, consulte pour une douleur thoracique débutée 2 heures plus tôt, d'abord médiothoracique, qui irradie désormais entre les omoplates et dans les lombes. L'examen est normal en dehors d'un souffle diastolique doux et aspiratif au bord gauche du sternum, non connu. Quel diagnostic doit être évoqué en priorité ? (une seule réponse attendue)",
+          "cours": {
+            "page": 16,
+            "surligner": "Douleur brutale, transfixiante, migratrice"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une dissection aortique.",
+              "annale": true,
+              "explication": "Terrain hypertendu, douleur migratrice vers le dos et les lombes, souffle d'insuffisance aortique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un infarctus du myocarde.",
+              "annale": true,
+              "explication": "La douleur migratrice avec souffle diastolique oriente d'abord vers une dissection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une péricardite aiguë.",
+              "annale": true,
+              "explication": "Pas de douleur positionnelle ni de frottement. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une embolie pulmonaire.",
+              "annale": true,
+              "explication": "Pas de contexte thromboembolique ni de douleur pleurale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une pancréatite aiguë.",
+              "annale": true,
+              "explication": "Le souffle d'insuffisance aortique et la migration de la douleur orientent vers l'aorte. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-050",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Une patiente de 55 ans, hypertendue depuis 5 ans et mal suivie, consulte pour une douleur thoracique. Quels éléments vous orienteraient vers une dissection aortique ?",
+          "cours": {
+            "page": 16,
+            "surligner": "Douleur brutale, transfixiante, migratrice"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une douleur lombaire associée.",
+              "annale": true,
+              "explication": "Une irradiation vers le dos et l'abdomen traduit la migration de la dissection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur thoracique transfixiante.",
+              "annale": true,
+              "explication": "Caractère typique de la douleur de dissection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une asymétrie tensionnelle aux membres supérieurs.",
+              "annale": true,
+              "explication": "Signe évocateur de dissection aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle d'insuffisance aortique.",
+              "annale": true,
+              "explication": "Souffle diastolique de la dissection aortique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle d'insuffisance mitrale.",
+              "annale": true,
+              "explication": "Il évoque une complication de syndrome coronarien aigu. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-051",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 24
+              }
+            ]
+          },
+          "question": "Quels signes peuvent être retrouvés à l'examen clinique en cas de dissection aortique aiguë ?",
+          "cours": {
+            "page": 16,
+            "surligner": "asymétrie tensionnelle et des pouls périphériques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle diastolique au foyer aortique.",
+              "annale": true,
+              "explication": "Souffle d'insuffisance aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur thoracique irradiant dans le dos et les lombes.",
+              "annale": true,
+              "explication": "Douleur migratrice de la dissection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une asymétrie tensionnelle aux membres supérieurs.",
+              "annale": true,
+              "explication": "Signe évocateur mais pas systématique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un déficit neurologique focal.",
+              "annale": true,
+              "explication": "Signes déficitaires neurovasculaires possibles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une hypertension artérielle.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'hypertension artérielle est le terrain habituel et elle est fréquemment retrouvée à l'admission. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": []
+        },
+        {
+          "id": "cardio-semio-dta-052",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2021-2022",
+                "qcm": 12
+              }
+            ]
+          },
+          "question": "Quels éléments sont en faveur d'une douleur thoracique de dissection aortique ?",
+          "cours": {
+            "page": 16,
+            "surligner": "asymétrie tensionnelle et des pouls périphériques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une asymétrie tensionnelle aux membres supérieurs et inférieurs.",
+              "annale": true,
+              "explication": "Asymétrie tensionnelle et des pouls périphériques. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Des pouls distaux frappés et « bondissants ».",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "C'est l'asymétrie ou l'abolition des pouls qui oriente vers une dissection, non des pouls bondissants. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Un souffle systolique à l'auscultation.",
+              "annale": true,
+              "explication": "Le souffle de la dissection est diastolique (insuffisance aortique). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un bruit de galop à l'auscultation.",
+              "annale": true,
+              "explication": "Ce n'est pas un signe orientant vers une dissection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des bruits du cœur irréguliers.",
+              "annale": true,
+              "explication": "Ce n'est pas un signe orientant vers une dissection. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-053",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Concernant la douleur de la dissection aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "Douleur brutale, transfixiante, migratrice"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est évocatrice lorsqu'elle migre de la face antérieure du thorax vers le dos puis les lombes.",
+              "annale": true,
+              "explication": "Douleur migratrice. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Associée à une asymétrie des pouls radiaux ou à une asymétrie tensionnelle des membres supérieurs, elle rend le diagnostic très probable.",
+              "annale": true,
+              "explication": "Asymétrie évocatrice dans le contexte d'une douleur thoracique aiguë. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est modifiée par la position du patient.",
+              "annale": true,
+              "explication": "La douleur positionnelle évoque une péricardite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est classiquement augmentée par l'expiration profonde.",
+              "annale": true,
+              "explication": "Ce n'est pas un caractère de la douleur de dissection. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est habituellement associée à un souffle systolique de rétrécissement aortique.",
+              "annale": true,
+              "explication": "Le souffle est diastolique, d'insuffisance aortique. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-054",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le terrain et le mécanisme de la dissection aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "hypertension artérielle ancienne, plus ou moins négligée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une hypertension artérielle ancienne, plus ou moins négligée, est un terrain classique.",
+              "explication": "Terrain principal."
+            },
+            {
+              "reponse": "Le syndrome de Marfan est un terrain favorisant.",
+              "explication": "Maladie du tissu conjonctif."
+            },
+            {
+              "reponse": "Une bicuspidie aortique connue est un terrain favorisant.",
+              "explication": "Cité par le cours."
+            },
+            {
+              "reponse": "Un antécédent familial de maladie aortique est un terrain favorisant.",
+              "explication": "Cité par le cours."
+            },
+            {
+              "reponse": "La dissection débute par une déchirure de l'intima par laquelle le sang clive la média.",
+              "explication": "Correction des notes."
+            },
+            {
+              "reponse": "Elle peut toucher l'aorte ascendante, l'aorte descendante ou les 2.",
+              "explication": "Définition du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dissection se définit comme une déchirure entre la média et l'intima.",
+              "explication": "Erreur des notes : déchirure de l'intima avec clivage de la média."
+            },
+            {
+              "reponse": "La dissection débute par une déchirure de l'adventice.",
+              "explication": "Elle débute par une déchirure de l'intima."
+            },
+            {
+              "reponse": "Une contraception œstroprogestative associée au tabac est le terrain typique.",
+              "explication": "Terrain de l'embolie pulmonaire."
+            },
+            {
+              "reponse": "Un contage infectieux récent est le terrain typique.",
+              "explication": "Terrain de la péricardite."
+            },
+            {
+              "reponse": "Un antécédent de chirurgie aortique est sans intérêt.",
+              "explication": "Il fait partie du terrain à rechercher."
+            },
+            {
+              "reponse": "Elle ne touche jamais l'aorte descendante.",
+              "explication": "Elle peut toucher l'aorte ascendante, descendante ou les 2."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-055",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le diagnostic de la dissection aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "le diagnostic positif repose sur l'angioscanner"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'absence d'asymétrie tensionnelle n'élimine pas le diagnostic.",
+              "explication": "Signe évocateur mais pas systématique."
+            },
+            {
+              "reponse": "Il n'existe pas d'élément biologique spécifique de la dissection aortique.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Les D-dimères peuvent être élevés dans les syndromes aortiques aigus.",
+              "explication": "Signe non pathognomonique."
+            },
+            {
+              "reponse": "Le diagnostic positif repose sur l'angioscanner thoracique.",
+              "explication": "Beaucoup plus rarement l'échocardiographie trans-œsophagienne."
+            },
+            {
+              "reponse": "L'angioscanner a un intérêt majeur pour l'évaluation pré-opératoire.",
+              "explication": "Porte d'entrée, extension, atteinte des collatérales."
+            },
+            {
+              "reponse": "La radiographie thoracique recherche un élargissement du médiastin supérieur.",
+              "explication": "Signe radiographique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'absence d'asymétrie tensionnelle élimine le diagnostic.",
+              "explication": "Elle ne l'élimine pas."
+            },
+            {
+              "reponse": "L'élévation des D-dimères est pathognomonique de la dissection aortique.",
+              "explication": "Elle n'est pas pathognomonique."
+            },
+            {
+              "reponse": "L'ETO désigne ici l'échocardiographie trans-thoracique.",
+              "explication": "ETO = échocardiographie trans-œsophagienne ; la trans-thoracique se note ETT."
+            },
+            {
+              "reponse": "Le diagnostic positif repose sur la radiographie thoracique.",
+              "explication": "Il repose sur l'angioscanner thoracique."
+            },
+            {
+              "reponse": "Un dosage de troponines normal élimine une dissection aortique.",
+              "explication": "Il n'existe aucun marqueur biologique spécifique."
+            },
+            {
+              "reponse": "L'échocardiographie trans-œsophagienne est l'examen de 1re intention le plus utilisé.",
+              "explication": "Elle est beaucoup plus rarement utilisée que l'angioscanner."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-056",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 23
+              }
+            ]
+          },
+          "question": "Une femme de 50 ans, sans antécédent, non fumeuse, d'IMC 30, a été alitée 4 jours la semaine précédente pour une grippe. Depuis 48 heures, elle est essoufflée pour des efforts modestes et a une douleur basithoracique droite augmentée à la toux et à l'inspiration profonde, avec des crachats rouge sombre. Fréquence cardiaque 110 par minute, pression artérielle 124/76 millimètres de mercure, saturation 91 pour cent en air ambiant, fréquence respiratoire 18 par minute, température 38 degrés Celsius ; examen sans particularité. Quelle est votre principale hypothèse diagnostique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 17,
+            "surligner": "douleur basithoracique de type pleural"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une embolie pulmonaire.",
+              "annale": true,
+              "explication": "Alitement récent, dyspnée, douleur basithoracique de type pleural, hémoptysie, fébricule, tachycardie et désaturation. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une pneumopathie infectieuse bactérienne.",
+              "annale": true,
+              "explication": "Aucun foyer de crépitants ; le contexte d'alitement et l'hémoptysie orientent d'abord vers l'embolie pulmonaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un cancer broncho-pulmonaire.",
+              "annale": true,
+              "explication": "Le tableau aigu après alitement oriente vers l'embolie pulmonaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une pneumopathie grippale.",
+              "annale": true,
+              "explication": "La patiente allait mieux ; la nouvelle douleur pleurale avec hémoptysie oriente vers l'embolie pulmonaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une péricardite.",
+              "annale": true,
+              "explication": "Douleur basithoracique pleurale avec hémoptysie : tableau d'embolie pulmonaire. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-057",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Une femme de 29 ans, fumeuse (10 cigarettes par jour), sous contraception œstroprogestative, opérée du ligament croisé antérieur du genou 3 semaines plus tôt, consulte pour un malaise lipothymique et une dyspnée aiguë de repos. Pression artérielle 89/60 millimètres de mercure, fréquence cardiaque 125 par minute, saturation 91 pour cent en air ambiant, fréquence respiratoire 25 par minute, Glasgow 15, auscultation cardiaque et pulmonaire normales, turgescence jugulaire spontanée, pas d'œdème des membres inférieurs. Quelle est votre hypothèse diagnostique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 17,
+            "surligner": "choc avec signes droits et dyspnée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une embolie pulmonaire.",
+              "annale": true,
+              "explication": "Chirurgie récente, œstroprogestatif et tabac ; forme avec choc, signes droits et dyspnée, auscultation normale. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un pneumothorax.",
+              "annale": true,
+              "explication": "Le murmure vésiculaire est symétrique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une pneumopathie franche lobaire aiguë.",
+              "annale": true,
+              "explication": "Pas de fièvre ni de foyer de crépitants. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance cardiaque globale.",
+              "annale": true,
+              "explication": "Pas d'œdème ni de crépitants ; le contexte est thromboembolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un asthme aigu grave.",
+              "annale": true,
+              "explication": "Auscultation pulmonaire normale, sans sibilants. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-058",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 27
+              }
+            ]
+          },
+          "question": "En cas d'embolie pulmonaire, quels symptômes constituent des signes de gravité ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Une syncope est recherchée : c'est un signe de gravité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une syncope.",
+              "annale": true,
+              "explication": "C'est un signe de gravité de l'embolie pulmonaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une hémoptysie.",
+              "annale": true,
+              "explication": "Symptôme aspécifique de la forme avec douleur pleurale, pas un signe de gravité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une dyspnée d'effort.",
+              "annale": true,
+              "explication": "Ce n'est pas un signe de gravité en soi. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une fièvre.",
+              "annale": true,
+              "explication": "Fébricule aspécifique, pas un signe de gravité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur latéro-thoracique majorée à l'inspiration profonde.",
+              "annale": true,
+              "explication": "Douleur de type pleural, pas un signe de gravité. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-059",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 30
+              }
+            ]
+          },
+          "question": "Concernant la douleur de l'embolie pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "douleur basithoracique de type pleural"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est souvent augmentée par l'inspiration.",
+              "annale": true,
+              "explication": "Douleur basithoracique de type pleural. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut être associée à une dyspnée aiguë.",
+              "annale": true,
+              "explication": "La dyspnée est au cœur des formes cliniques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle peut être associée à une turgescence des veines jugulaires.",
+              "annale": true,
+              "explication": "Signe droit de l'embolie pulmonaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est le plus souvent rétrosternale et constrictive.",
+              "annale": true,
+              "explication": "Ce sont les caractères d'une douleur coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Associée à une diminution du 2e bruit au foyer pulmonaire, elle évoque une hypertension pulmonaire.",
+              "annale": true,
+              "explication": "C'est un éclat du 2e bruit qui évoque une hypertension pulmonaire. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-060",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles sont les grandes formes cliniques de l'embolie pulmonaire ? (3 réponses attendues)",
+          "cours": {
+            "page": 17,
+            "surligner": "3 grandes formes cliniques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un choc avec signes droits et dyspnée.",
+              "explication": "Signes droits liés à l'augmentation de la postcharge du ventricule droit."
+            },
+            {
+              "reponse": "Une dyspnée « sine materia », avec examen physique normal.",
+              "explication": "2e forme clinique."
+            },
+            {
+              "reponse": "Une douleur basithoracique de type pleural.",
+              "explication": "Parfois avec toux, hémoptysie, fébricule."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une douleur transfixiante et migratrice.",
+              "explication": "Évoque une dissection aortique."
+            },
+            {
+              "reponse": "Une douleur rétrosternale constrictive à l'effort.",
+              "explication": "Évoque une origine coronaire."
+            },
+            {
+              "reponse": "Une douleur calmée par l'antéflexion.",
+              "explication": "Évoque une péricardite."
+            },
+            {
+              "reponse": "Une douleur punctiforme reproduite à la palpation.",
+              "explication": "Évoque une douleur pariétale."
+            },
+            {
+              "reponse": "Un souffle diastolique d'insuffisance aortique isolé.",
+              "explication": "Évoque une dissection aortique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-061",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le terrain et l'examen physique dans l'embolie pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "signes de thrombose veineuse profonde"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'association contraception œstroprogestative et tabac est un terrain favorisant.",
+              "explication": "Terrain cité."
+            },
+            {
+              "reponse": "Une néoplasie active est un terrain favorisant.",
+              "explication": "Terrain cité."
+            },
+            {
+              "reponse": "L'examen physique peut être normal.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "On peut retrouver un éclat du 2e bruit au foyer pulmonaire.",
+              "explication": "Signe d'hypertension pulmonaire."
+            },
+            {
+              "reponse": "Les signes de thrombose veineuse profonde sont absents dans 30 pour cent des cas.",
+              "explication": "Leur absence n'élimine pas le diagnostic."
+            },
+            {
+              "reponse": "Un foyer de crépitants peut traduire un infarctus pulmonaire surinfecté.",
+              "explication": "Signe possible à l'examen."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les signes de thrombose veineuse profonde sont toujours présents.",
+              "explication": "Ils sont absents dans 30 pour cent des cas."
+            },
+            {
+              "reponse": "On retrouve une diminution du 2e bruit au foyer pulmonaire.",
+              "explication": "On retrouve un éclat du 2e bruit."
+            },
+            {
+              "reponse": "L'examen physique est toujours anormal.",
+              "explication": "Il peut être normal."
+            },
+            {
+              "reponse": "La probabilité clinique est évaluée par le score de Glasgow.",
+              "explication": "Par les scores de Genève ou de Wells."
+            },
+            {
+              "reponse": "Une syncope est un signe rassurant.",
+              "explication": "C'est un signe de gravité."
+            },
+            {
+              "reponse": "Une bradypnée est le signe respiratoire habituel.",
+              "explication": "On retrouve une tachypnée."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-062",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la gazométrie artérielle dans l'embolie pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "gazométrie artérielle : recherche une hypoxémie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle recherche une hypoxémie, avec une pression partielle artérielle en oxygène inférieure à 80 millimètres de mercure.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Elle recherche une hypocapnie, avec une pression partielle artérielle en dioxyde de carbone inférieure à 35 millimètres de mercure.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Elle recherche un effet shunt, la somme des 2 pressions étant inférieure à 120 millimètres de mercure.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Elle recherche une alcalose respiratoire.",
+              "explication": "Le pH augmente."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle recherche une hypercapnie.",
+              "explication": "On recherche une hypocapnie."
+            },
+            {
+              "reponse": "Elle recherche une acidose respiratoire.",
+              "explication": "On recherche une alcalose respiratoire."
+            },
+            {
+              "reponse": "L'effet shunt se définit par une somme des 2 pressions supérieure à 120 millimètres de mercure.",
+              "explication": "La somme est inférieure à 120."
+            },
+            {
+              "reponse": "Le seuil d'hypoxémie retenu est une pression partielle en oxygène inférieure à 60 millimètres de mercure.",
+              "explication": "Le seuil du cours est 80."
+            },
+            {
+              "reponse": "Le pH diminue.",
+              "explication": "Il augmente (alcalose)."
+            },
+            {
+              "reponse": "La gazométrie mesure directement l'hypoxie tissulaire.",
+              "explication": "Elle mesure l'hypoxémie, l'oxygène du sang artériel."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-063",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les D-dimères et les autres examens dans l'embolie pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "faible valeur prédictive positive mais excellente valeur prédictive négative"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les D-dimères ont une faible valeur prédictive positive.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Les D-dimères ont une excellente valeur prédictive négative, supérieure à 95 pour cent.",
+              "explication": "Pour la maladie veineuse thromboembolique."
+            },
+            {
+              "reponse": "Le dosage des D-dimères a un intérêt si la probabilité clinique n'est pas élevée.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "D-dimères négatifs et probabilité clinique faible rendent l'embolie pulmonaire très peu probable.",
+              "explication": "Exclusion."
+            },
+            {
+              "reponse": "L'angioscanner est réalisé d'emblée si la probabilité clinique est élevée.",
+              "explication": "Insistance de l'intervenant."
+            },
+            {
+              "reponse": "Les troponines ont une visée pronostique.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les D-dimères ont une excellente valeur prédictive positive.",
+              "explication": "Leur valeur prédictive positive est faible."
+            },
+            {
+              "reponse": "Le dosage des D-dimères est indiqué en cas de probabilité clinique forte.",
+              "explication": "On réalise alors l'angioscanner d'emblée."
+            },
+            {
+              "reponse": "Des D-dimères positifs confirment l'embolie pulmonaire.",
+              "explication": "Leur valeur prédictive positive est faible."
+            },
+            {
+              "reponse": "Les troponines servent au diagnostic positif d'embolie pulmonaire.",
+              "explication": "Elles ont une visée pronostique."
+            },
+            {
+              "reponse": "L'angioscanner n'est réalisé que si les D-dimères sont négatifs.",
+              "explication": "Il est réalisé si les D-dimères sont élevés."
+            },
+            {
+              "reponse": "La radiographie thoracique permet le diagnostic positif.",
+              "explication": "Elle est souvent normale."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-064",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'imagerie dans l'embolie pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "surélévation de coupole ou des atélectasies en bandes"
+          },
+          "bonnes": [
+            {
+              "reponse": "La radiographie thoracique est souvent normale.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "La radiographie peut montrer une surélévation de coupole.",
+              "explication": "Signe possible."
+            },
+            {
+              "reponse": "La radiographie peut montrer des atélectasies en bandes.",
+              "explication": "Signe possible."
+            },
+            {
+              "reponse": "En cas de choc, une échocardiographie trans-thoracique recherche une dilatation du ventricule droit.",
+              "explication": "Suspicion d'embolie pulmonaire grave."
+            },
+            {
+              "reponse": "L'échocardiographie peut montrer un thrombus dans les cavités droites ou l'artère pulmonaire.",
+              "explication": "Recherche en cas de choc."
+            },
+            {
+              "reponse": "La dilatation des cavités droites a un intérêt pronostique.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La radiographie thoracique montre typiquement un élargissement du médiastin supérieur.",
+              "explication": "Signe de la dissection aortique."
+            },
+            {
+              "reponse": "La radiographie thoracique est le plus souvent anormale et permet le diagnostic.",
+              "explication": "Elle est souvent normale."
+            },
+            {
+              "reponse": "En cas de choc, l'échocardiographie recherche une dilatation du ventricule gauche.",
+              "explication": "Elle recherche une dilatation du ventricule droit."
+            },
+            {
+              "reponse": "La dilatation des cavités droites est sans intérêt pronostique.",
+              "explication": "Elle a un intérêt pronostique."
+            },
+            {
+              "reponse": "L'échocardiographie est l'examen de diagnostic positif de 1re intention chez le patient stable.",
+              "explication": "Elle est réservée au tableau de choc ; le patient stable relève de l'angioscanner."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-065",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2021-2022",
+                "qcm": 15
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 28
+              }
+            ]
+          },
+          "question": "Concernant la douleur de la péricardite, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "augmentée à l'inspiration profonde et en décubitus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est classiquement augmentée à l'inspiration.",
+              "annale": true,
+              "explication": "Douleur augmentée à l'inspiration profonde. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle survient à l'effort.",
+              "annale": true,
+              "explication": "Elle est augmentée par l'inspiration et le décubitus, pas déclenchée par l'effort. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle cède habituellement après l'administration de trinitrine.",
+              "annale": true,
+              "explication": "Une douleur trinitro-sensible oriente vers une origine coronaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Elle est classiquement atténuée par la position allongée.",
+              "annale": true,
+              "explication": "Elle est augmentée en décubitus et calmée par l'antéflexion. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Associée à un épanchement péricardique, elle s'accompagne habituellement de bruits du cœur augmentés.",
+              "annale": true,
+              "explication": "Les bruits du cœur sont assourdis. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-066",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 25
+              }
+            ]
+          },
+          "question": "Concernant la sémiologie de la péricardite aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "calmée par l'antéflexion"
+          },
+          "bonnes": [
+            {
+              "reponse": "La douleur est augmentée à l'inspiration profonde.",
+              "annale": true,
+              "explication": "Caractère typique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La douleur est atténuée en position penchée en avant.",
+              "annale": true,
+              "explication": "Calmée par l'antéflexion. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un frottement péricardique est possible à l'auscultation cardiaque.",
+              "annale": true,
+              "explication": "Fugace et inconstant. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La douleur est migratrice.",
+              "annale": true,
+              "explication": "Une douleur migratrice évoque une dissection aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "On retrouve des râles crépitants bilatéraux à l'auscultation pulmonaire.",
+              "annale": true,
+              "explication": "Ils évoquent une insuffisance cardiaque gauche. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-067",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2019-2020",
+                "qcm": 37
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2016-2017",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Quelles propositions sont exactes concernant la péricardite ?",
+          "cours": {
+            "page": 18,
+            "surligner": "frottement péricardique, pathognomonique selon les notes"
+          },
+          "bonnes": [
+            {
+              "reponse": "La douleur thoracique est habituellement augmentée à l'inspiration.",
+              "annale": true,
+              "explication": "Douleur augmentée à l'inspiration profonde. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un frottement péricardique peut être retrouvé à l'auscultation cardiaque.",
+              "annale": true,
+              "explication": "Signe fugace et inconstant. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La douleur thoracique est atténuée par la position penchée en avant.",
+              "annale": true,
+              "explication": "Calmée par l'antéflexion. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La douleur thoracique est atténuée par la position allongée.",
+              "annale": true,
+              "explication": "Elle est augmentée en décubitus. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La douleur thoracique est habituellement augmentée par l'expiration profonde.",
+              "annale": true,
+              "explication": "Elle est augmentée à l'inspiration. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une douleur basithoracique augmentée par l'expiration profonde est évocatrice.",
+              "annale": true,
+              "explication": "La douleur est augmentée à l'inspiration, non à l'expiration. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La péricardite peut être responsable d'une asymétrie des pouls.",
+              "annale": true,
+              "explication": "L'asymétrie des pouls évoque une dissection aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle holosystolique maximal au foyer mitral est habituellement retrouvé.",
+              "annale": true,
+              "explication": "Le signe d'auscultation de la péricardite est le frottement. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-068",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le terrain et l'examen physique dans la péricardite aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "sujet jeune, absence de facteurs de risque cardiovasculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle survient typiquement chez un sujet jeune, sans facteur de risque cardiovasculaire.",
+              "explication": "Terrain du cours."
+            },
+            {
+              "reponse": "Elle est le plus souvent virale.",
+              "explication": "Inflammation du péricarde."
+            },
+            {
+              "reponse": "On retrouve une fébricule ou une fièvre, entre 38 et 38,5 degrés Celsius.",
+              "explication": "Examen physique."
+            },
+            {
+              "reponse": "Le frottement péricardique est fugace et inconstant.",
+              "explication": "Son absence n'élimine pas le diagnostic."
+            },
+            {
+              "reponse": "En cas de tamponnade, les bruits du cœur sont assourdis.",
+              "explication": "Signe de complication."
+            },
+            {
+              "reponse": "En cas de tamponnade, on peut retrouver un pouls paradoxal.",
+              "explication": "Signe de complication."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle survient typiquement chez un sujet âgé aux multiples facteurs de risque cardiovasculaire.",
+              "explication": "Terrain du syndrome coronarien aigu."
+            },
+            {
+              "reponse": "Le frottement péricardique est constant.",
+              "explication": "Il est fugace et inconstant."
+            },
+            {
+              "reponse": "En cas de tamponnade, les bruits du cœur sont augmentés.",
+              "explication": "Ils sont assourdis."
+            },
+            {
+              "reponse": "La tamponnade donne des signes d'insuffisance cardiaque gauche isolée.",
+              "explication": "Elle donne des signes d'insuffisance cardiaque droite."
+            },
+            {
+              "reponse": "La douleur est calmée par le décubitus.",
+              "explication": "Elle est augmentée en décubitus."
+            },
+            {
+              "reponse": "La fièvre dépasse habituellement 40 degrés Celsius.",
+              "explication": "Fébricule ou fièvre entre 38 et 38,5 degrés."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-069",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les examens complémentaires dans la péricardite aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "rehaussement tardif sous-épicardique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le dosage des troponines est systématique, pour rechercher une myocardite associée.",
+              "explication": "Risque de mort subite."
+            },
+            {
+              "reponse": "On peut retrouver une élévation de la protéine C réactive.",
+              "explication": "Syndrome inflammatoire biologique."
+            },
+            {
+              "reponse": "La radiographie thoracique est le plus souvent normale.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "En cas d'épanchement abondant, la radiographie peut montrer un « cœur en carafe ».",
+              "explication": "Cardiomégalie triangulaire."
+            },
+            {
+              "reponse": "L'échocardiographie est systématique.",
+              "explication": "Diagnostic et recherche de complications."
+            },
+            {
+              "reponse": "En cas de myocardite, l'imagerie par résonance magnétique montre un rehaussement tardif sous-épicardique.",
+              "explication": "Après injection de gadolinium."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le dosage des troponines est inutile dans la péricardite.",
+              "explication": "Il est systématique."
+            },
+            {
+              "reponse": "La radiographie montre habituellement un « cœur en carafe ».",
+              "explication": "Elle est le plus souvent normale."
+            },
+            {
+              "reponse": "L'échocardiographie est réservée aux formes compliquées.",
+              "explication": "Elle est systématique."
+            },
+            {
+              "reponse": "En cas de myocardite, le rehaussement tardif est sous-endocardique.",
+              "explication": "Il est sous-épicardique."
+            },
+            {
+              "reponse": "La coronarographie est sans intérêt en cas de suspicion de myocardite.",
+              "explication": "Elle sert au diagnostic différentiel avec le syndrome coronarien aigu."
+            },
+            {
+              "reponse": "Une myopéricardite ne nécessite pas de rechercher des troubles du rythme ventriculaire.",
+              "explication": "Ils sont recherchés à l'électrocardiogramme."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-dta-070",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Selon les critères présentés dans le cours (recommandations européennes 2025), quelles propositions concernant le diagnostic de péricardite aiguë sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "au moins 2 des critères ci-dessous sont présents"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le diagnostic est certain si la symptomatologie est compatible et qu'au moins 2 critères sont présents.",
+              "explication": "Règle du cours."
+            },
+            {
+              "reponse": "Le diagnostic est possible si 1 seul critère est présent.",
+              "explication": "Règle du cours."
+            },
+            {
+              "reponse": "Le frottement péricardique est un critère.",
+              "explication": "Critère 1."
+            },
+            {
+              "reponse": "Un sus-décalage diffus du segment ST ou un sous-décalage du segment PQ est un critère.",
+              "explication": "Critère 2."
+            },
+            {
+              "reponse": "Une élévation de la protéine C réactive est un critère.",
+              "explication": "Critère 3."
+            },
+            {
+              "reponse": "Un épanchement péricardique à l'échocardiographie trans-thoracique est un critère.",
+              "explication": "Critère 4."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le diagnostic est certain dès qu'un seul critère est présent.",
+              "explication": "1 critère : diagnostic seulement possible."
+            },
+            {
+              "reponse": "Il faut au moins 3 critères pour un diagnostic certain.",
+              "explication": "2 critères suffisent."
+            },
+            {
+              "reponse": "L'élévation des troponines est un critère diagnostique.",
+              "explication": "Elle recherche une myocardite associée, ce n'est pas un des 4 critères."
+            },
+            {
+              "reponse": "Une fièvre supérieure à 38 degrés Celsius est un critère diagnostique.",
+              "explication": "Elle ne fait pas partie des 4 critères."
+            },
+            {
+              "reponse": "Un « cœur en carafe » à la radiographie est un critère diagnostique.",
+              "explication": "Il ne fait pas partie des 4 critères."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
