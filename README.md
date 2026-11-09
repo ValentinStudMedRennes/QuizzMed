@@ -9,7 +9,7 @@ Un cours complet se fabrique en deux conversations séparées avec Claude, puis 
 ```mermaid
 flowchart TB
   subgraph C1["Conversation 1 · le cours"]
-    I1["instructions-cours-v4_3.md"] --> CL1(["Claude"])
+    I1["instructions-cours-v5_0.md"] --> CL1(["Claude"])
     D["Diapositives du professeur"] --> CL1
     N["Prise de notes d’un élève"] --> CL1
     CL1 --> R["cardio-physio-vo2-resume.pdf<br/>résumé"]
@@ -17,7 +17,7 @@ flowchart TB
   end
   subgraph C2["Conversation 2 · le QCM"]
     F2b["cardio-physio-vo2.pdf<br/>le fichier 2, pas le résumé"] --> CL2(["Claude"])
-    I2["instructions-qcm-v1.4.md"] --> CL2
+    I2["instructions-qcm-v1_9.md"] --> CL2
     A["Livret d’annales (facultatif)"] --> CL2
     CL2 --> J["cardio-physio-vo2.json"]
   end
@@ -34,14 +34,14 @@ Trois fichiers d'instructions se trouvent à la racine du [dépôt QuizzMed](htt
 
 | Fichier | Où le trouver | Sert à |
 | --- | --- | --- |
-| `instructions-cours-v4_3.md` | Racine du dépôt | Consignes de la conversation 1 (fabriquer le cours) |
-| `instructions-qcm-v1.4.md` | Racine du dépôt | Consignes de la conversation 2 (fabriquer le QCM) |
+| `instructions-cours-v5_0.md` | Racine du dépôt | Consignes de la conversation 1 (fabriquer le cours) |
+| `instructions-qcm-v1_9.md` | Racine du dépôt | Consignes de la conversation 2 (fabriquer le QCM) |
 | `instructions-programme-v1.2.md` | Racine du dépôt | Consignes pour le programme de l'UE (étape 4, seulement si vous passez par Claude) |
 | Diapositives du professeur (PDF) | Chez vous | Source du cours |
 | Prise de notes d'un élève (PDF) | Chez vous | Source du cours |
 | Livret d'annales (PDF, facultatif) | Chez vous | Questions d'annales reprises dans le QCM |
 
-Pour récupérer un fichier d'instructions : l'ouvrir sur GitHub, puis cliquer sur l'icône « Download raw file » en haut à droite du fichier. Prenez toujours la version actuelle du dépôt : son numéro (v4.3, v1.4) finit inscrit dans le cours et le QCM.
+Pour récupérer un fichier d'instructions : l'ouvrir sur GitHub, puis cliquer sur l'icône « Download raw file » en haut à droite du fichier. Prenez toujours la version actuelle du dépôt : son numéro (v5.0, v1.9) finit inscrit dans le cours et le QCM.
 
 Côté Claude, l'option de création de fichiers doit être activée dans les paramètres : Claude doit rendre des PDF et un JSON téléchargeables.
 
@@ -50,12 +50,12 @@ Côté Claude, l'option de création de fichiers doit être activée dans les pa
 Cette conversation transforme les diapositives et les notes en deux PDF propres, dont un sert de référence au site.
 
 1. Ouvrez une **nouvelle conversation** avec Claude, une par cours.
-2. Joignez trois fichiers : `instructions-cours-v4_3.md`, les diapositives et la prise de notes.
+2. Joignez trois fichiers : `instructions-cours-v5_0.md`, les diapositives et la prise de notes.
 3. Envoyez un message de ce type (la première ligne est importante, elle fixe le nom et le classement du cours) :
 
 ```
 Thème : Appareil cardio-vasculaire — Section : Physiologie — Cours : VO2
-Suis les instructions du fichier instructions-cours-v4_3.md avec les diapositives et la prise de notes jointes.
+Suis les instructions du fichier instructions-cours-v5_0.md avec les diapositives et la prise de notes jointes.
 ```
 
 4. Claude rend deux PDF qui partagent le même nom de base :
@@ -70,12 +70,12 @@ Téléchargez les deux PDF : le fichier 2 est la seule chose à emporter dans la
 Cette conversation tire du fichier 2 un fichier JSON de questions, que le site sait lire.
 
 1. Ouvrez une **autre nouvelle conversation** : ne continuez pas celle du cours.
-2. Joignez `instructions-qcm-v1.4.md`, le **fichier 2** (`cardio-physio-vo2.pdf`, jamais le résumé) et, si vous l'avez, le livret d'annales.
+2. Joignez `instructions-qcm-v1_9.md`, le **fichier 2** (`cardio-physio-vo2.pdf`, jamais le résumé) et, si vous l'avez, le livret d'annales.
 3. Envoyez un message de ce type, avec **exactement** la même ligne Thème qu'à l'étape 1 :
 
 ```
 Thème : Appareil cardio-vasculaire — Section : Physiologie — Cours : VO2
-Suis les instructions du fichier instructions-qcm-v1.4.md avec le cours retravaillé joint (et le livret d'annales).
+Suis les instructions du fichier instructions-qcm-v1_9.md avec le cours retravaillé joint (et le livret d'annales).
 ```
 
 4. Claude rend `cardio-physio-vo2.json` et un bilan : sortie du script de contrôle, nombre de questions par chapitre, annales intégrées, items « à vérifier », annales non reprises.
