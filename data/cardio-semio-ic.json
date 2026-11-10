@@ -1,0 +1,3409 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Sémiologie",
+    "titre": "Sémiologie de l'insuffisance cardiaque",
+    "description": "Reconnaître l'insuffisance cardiaque : EPOF, dyspnée et signes de gravité, examen clinique (palpation, percussion, auscultation et souffles) et signes d'insuffisance cardiaque gauche et droite.",
+    "version": "5.0",
+    "cours": {
+      "fichier": "cardio-semio-ic.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction : définition et reconnaissance de l'insuffisance cardiaque"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-ic-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition de l'insuffisance cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "l’incapacité de la pompe cardiaque à assurer un débit"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'insuffisance cardiaque est l'incapacité de la pompe cardiaque à assurer un débit suffisant pour faire face aux besoins hémodynamiques de l'organisme.",
+              "explication": "C'est la définition donnée par le cours."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque est l'aboutissement plus ou moins tardif de nombreuses cardiopathies (valvulaires, hypertrophiques, dilatées, infarctus).",
+              "explication": "Toutes ces cardiopathies peuvent évoluer vers l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "En aval, l'insuffisance cardiaque entraîne une diminution du débit : les organes reçoivent moins bien le sang.",
+              "explication": "Conséquence d'aval décrite par le cours."
+            },
+            {
+              "reponse": "En amont, le sang non éjecté s'accumule dans le système veineux de retour.",
+              "explication": "Conséquence d'amont : encombrement veineux (avec retentissement possible sur le rein et le foie)."
+            },
+            {
+              "reponse": "On peut avoir une fraction d'éjection du ventricule gauche normale et faire une insuffisance cardiaque.",
+              "explication": "Le cours insiste : il faut bien différencier fraction d'éjection et insuffisance cardiaque."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'insuffisance cardiaque se définit par une fraction d'éjection du ventricule gauche abaissée.",
+              "explication": "Faux : on peut avoir une fraction d'éjection normale et une insuffisance cardiaque."
+            },
+            {
+              "reponse": "Une fraction d'éjection du ventricule gauche normale élimine une insuffisance cardiaque.",
+              "explication": "Faux : FEVG normale et insuffisance cardiaque peuvent coexister."
+            },
+            {
+              "reponse": "En aval, l'insuffisance cardiaque entraîne un encombrement du système veineux de retour.",
+              "explication": "Inversé : l'encombrement veineux est la conséquence d'amont ; en aval, c'est la baisse du débit."
+            },
+            {
+              "reponse": "En amont, l'insuffisance cardiaque se traduit uniquement par une baisse de la perfusion des organes.",
+              "explication": "Inversé : la baisse de perfusion est la conséquence d'aval."
+            },
+            {
+              "reponse": "Les mécanismes compensateurs empêchent toujours l'apparition d'une insuffisance cardiaque.",
+              "explication": "Faux : ils sont parfois dépassés, d'où l'apparition de l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "La fraction d'éjection du ventricule gauche mesure le débit cardiaque.",
+              "explication": "Faux : selon le cours, elle reflète la puissance cardiaque, c'est-à-dire la force de contraction du cœur."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Dans quels contextes faut-il évoquer une insuffisance cardiaque ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Quand évoquer l’insuffisance cardiaque ? Dans de nombreux contextes"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'insuffisance cardiaque doit être évoquée chez un sujet âgé de plus de 60 ans.",
+              "explication": "Contexte le plus fréquent selon le cours."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque doit être évoquée chez un sujet ayant des antécédents cardiaques connus.",
+              "explication": "Contexte cité par le cours."
+            },
+            {
+              "reponse": "L'obésité est une comorbidité prédisposant à l'insuffisance cardiaque.",
+              "explication": "L'obésité fait partie des comorbidités prédisposant à l'insuffisance cardiaque."
+            },
+            {
+              "reponse": "L'insuffisance rénale est une comorbidité prédisposant à l'insuffisance cardiaque.",
+              "explication": "Comorbidité prédisposante citée par le cours."
+            },
+            {
+              "reponse": "L'apnée du sommeil est une comorbidité prédisposant à l'insuffisance cardiaque.",
+              "explication": "Comorbidité prédisposante citée par le cours."
+            },
+            {
+              "reponse": "L'anémie est une comorbidité prédisposant à l'insuffisance cardiaque.",
+              "explication": "Comorbidité prédisposante citée par le cours."
+            },
+            {
+              "reponse": "L'exposition à des chimiothérapies prédispose à l'insuffisance cardiaque.",
+              "explication": "Comorbidité prédisposante citée par le cours."
+            },
+            {
+              "reponse": "La dénutrition est une comorbidité prédisposant à l'insuffisance cardiaque.",
+              "explication": "La dénutrition fait partie des comorbidités prédisposantes."
+            },
+            {
+              "reponse": "La bronchopneumopathie chronique obstructive est une comorbidité prédisposant à l'insuffisance cardiaque.",
+              "explication": "Comorbidité prédisposante citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'insuffisance cardiaque s'évoque surtout chez le sujet jeune.",
+              "explication": "Faux : plus rarement chez le sujet jeune, surtout chez le sujet âgé."
+            },
+            {
+              "reponse": "L'insuffisance cardiaque ne s'évoque qu'en présence d'antécédents cardiaques connus.",
+              "explication": "Faux : de nombreux contextes (âge, comorbidités) doivent la faire évoquer."
+            },
+            {
+              "reponse": "L'obésité protège de l'insuffisance cardiaque.",
+              "explication": "Faux : c'est une comorbidité prédisposante."
+            },
+            {
+              "reponse": "La dépression et l'anxiété n'ont aucun lien avec l'insuffisance cardiaque.",
+              "explication": "Faux : elles font partie des comorbidités prédisposantes citées."
+            },
+            {
+              "reponse": "Les troubles cognitifs excluent le diagnostic d'insuffisance cardiaque.",
+              "explication": "Faux : les troubles cognitifs et handicaps moteurs sont des comorbidités prédisposantes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les facteurs de risque cités dans le cours, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Les facteurs de risque modifiables, à absolument"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hypertension artérielle est un facteur de risque modifiable.",
+              "explication": "Fait partie des 4 facteurs de risque modifiables à absolument connaître."
+            },
+            {
+              "reponse": "Le tabac est un facteur de risque modifiable.",
+              "explication": "Fait partie des 4 facteurs de risque modifiables."
+            },
+            {
+              "reponse": "Le diabète est un facteur de risque modifiable.",
+              "explication": "Fait partie des 4 facteurs de risque modifiables."
+            },
+            {
+              "reponse": "La dyslipidémie est un facteur de risque modifiable.",
+              "explication": "Fait partie des 4 facteurs de risque modifiables."
+            },
+            {
+              "reponse": "L'âge est un facteur de risque non modifiable.",
+              "explication": "Facteurs non modifiables : âge, sexe, hérédité."
+            },
+            {
+              "reponse": "Le sexe est un facteur de risque non modifiable.",
+              "explication": "Facteurs non modifiables : âge, sexe, hérédité."
+            },
+            {
+              "reponse": "L'hérédité est un facteur de risque non modifiable.",
+              "explication": "Facteurs non modifiables : âge, sexe, hérédité."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'âge est un facteur de risque modifiable.",
+              "explication": "Faux : l'âge est non modifiable."
+            },
+            {
+              "reponse": "L'hérédité est un facteur de risque modifiable.",
+              "explication": "Faux : l'hérédité est non modifiable."
+            },
+            {
+              "reponse": "Le sexe est un facteur de risque modifiable.",
+              "explication": "Faux : le sexe est non modifiable."
+            },
+            {
+              "reponse": "Le tabac est un facteur de risque non modifiable.",
+              "explication": "Faux : le tabac est modifiable."
+            },
+            {
+              "reponse": "Le diabète est un facteur de risque non modifiable.",
+              "explication": "Faux : le diabète est modifiable."
+            },
+            {
+              "reponse": "L'hypertension artérielle est un facteur de risque non modifiable.",
+              "explication": "Faux : l'HTA est modifiable."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'acronyme EPOF, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "acronyme créé par la Haute Autorité de santé"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'acronyme EPOF a été créé par la Haute Autorité de santé.",
+              "explication": "C'est l'origine indiquée par le cours."
+            },
+            {
+              "reponse": "Le E d'EPOF correspond à l'essoufflement.",
+              "explication": "Essoufflement au repos ou à l'effort, orthopnée, toux nocturne."
+            },
+            {
+              "reponse": "Le P d'EPOF correspond à une prise de poids rapide.",
+              "explication": "P = prise de poids rapide."
+            },
+            {
+              "reponse": "Le O d'EPOF correspond aux œdèmes périphériques.",
+              "explication": "O = œdèmes périphériques."
+            },
+            {
+              "reponse": "Le F d'EPOF correspond à la fatigue.",
+              "explication": "F = fatigue : asthénie, difficultés à réaliser les activités quotidiennes."
+            },
+            {
+              "reponse": "L'acronyme EPOF doit faire l'objet d'un questionnement systématique.",
+              "explication": "Le cours le précise."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'acronyme EPOF a été créé par la New York Heart Association.",
+              "explication": "Faux : il a été créé par la Haute Autorité de santé."
+            },
+            {
+              "reponse": "Le O d'EPOF correspond à l'orthopnée.",
+              "explication": "Faux : O = œdèmes périphériques (l'orthopnée relève du E)."
+            },
+            {
+              "reponse": "Le P d'EPOF correspond aux palpitations.",
+              "explication": "Faux : P = prise de poids rapide."
+            },
+            {
+              "reponse": "Le F d'EPOF correspond à la fièvre.",
+              "explication": "Faux : F = fatigue."
+            },
+            {
+              "reponse": "Le E d'EPOF correspond à l'épanchement pleural.",
+              "explication": "Faux : E = essoufflement."
+            },
+            {
+              "reponse": "Il faut au moins deux signes de l'acronyme EPOF pour évoquer une insuffisance cardiaque.",
+              "explication": "Faux : dès qu'un patient présente un de ces signes, il faut avoir l'insuffisance cardiaque en tête."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les signes qui font évoquer une insuffisance cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "font partie des signes cliniques évocateurs d’insuffisance"
+          },
+          "bonnes": [
+            {
+              "reponse": "Chez le sujet âgé, la confusion, la désorientation et les chutes font partie des symptômes non spécifiques d'insuffisance cardiaque.",
+              "explication": "Cités avec la prise de poids parmi les symptômes non spécifiques."
+            },
+            {
+              "reponse": "La toux nocturne fait partie de l'essoufflement évocateur d'insuffisance cardiaque.",
+              "explication": "Le E d'EPOF regroupe essoufflement, orthopnée et toux nocturne."
+            },
+            {
+              "reponse": "La tachycardie est un signe clinique évocateur d'insuffisance cardiaque.",
+              "explication": "Citée avec les œdèmes périphériques."
+            },
+            {
+              "reponse": "La turgescence des jugulaires est un signe clinique évocateur d'insuffisance cardiaque.",
+              "explication": "Citée avec les œdèmes périphériques."
+            },
+            {
+              "reponse": "L'hépatomégalie est un signe clinique évocateur d'insuffisance cardiaque.",
+              "explication": "Citée avec les œdèmes périphériques."
+            },
+            {
+              "reponse": "Les râles crépitants sont un signe clinique évocateur d'insuffisance cardiaque.",
+              "explication": "Cités avec les œdèmes périphériques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La prise de poids rapide est un signe spécifique d'insuffisance cardiaque.",
+              "explication": "Faux : elle fait partie des symptômes non spécifiques."
+            },
+            {
+              "reponse": "La bradycardie est un signe clinique évocateur d'insuffisance cardiaque.",
+              "explication": "Faux : le cours cite la tachycardie."
+            },
+            {
+              "reponse": "La bradypnée est un signe clinique évocateur d'insuffisance cardiaque.",
+              "explication": "Faux : le cours cite la polypnée."
+            },
+            {
+              "reponse": "La fatigue n'oriente pas vers une insuffisance cardiaque.",
+              "explication": "Faux : la fatigue est le F d'EPOF."
+            },
+            {
+              "reponse": "Les troubles du sommeil excluent une insuffisance cardiaque chez le sujet âgé.",
+              "explication": "Faux : ils font partie des symptômes non spécifiques d'insuffisance cardiaque."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-006",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 50
+              }
+            ]
+          },
+          "question": "Parmi les propositions suivantes, lesquelles sont des facteurs de risque cardiovasculaire modifiables ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Les facteurs de risque modifiables, à absolument"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le tabagisme est un facteur de risque cardiovasculaire modifiable.",
+              "annale": true,
+              "explication": "Le tabac fait partie des facteurs de risque modifiables. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le diabète est un facteur de risque cardiovasculaire modifiable.",
+              "annale": true,
+              "explication": "Le diabète fait partie des facteurs de risque modifiables. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'hypercholestérolémie est un facteur de risque cardiovasculaire modifiable.",
+              "annale": true,
+              "explication": "C'est une dyslipidémie, facteur de risque modifiable. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'âge est un facteur de risque cardiovasculaire modifiable.",
+              "annale": true,
+              "explication": "L'âge est un facteur de risque non modifiable. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'hérédité est un facteur de risque cardiovasculaire modifiable.",
+              "annale": true,
+              "explication": "L'hérédité est un facteur de risque non modifiable. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Signes fonctionnels : la dyspnée"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-ic-007",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont les principaux signes fonctionnels en cardiologie ? (3 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "On retrouve en cardiologie 4 principaux signes fonctionnels"
+          },
+          "bonnes": [
+            {
+              "reponse": "La douleur thoracique est un des principaux signes fonctionnels en cardiologie.",
+              "explication": "Un des 4 principaux signes fonctionnels."
+            },
+            {
+              "reponse": "Les palpitations sont un des principaux signes fonctionnels en cardiologie.",
+              "explication": "Un des 4 principaux signes fonctionnels."
+            },
+            {
+              "reponse": "La dyspnée est un des principaux signes fonctionnels en cardiologie.",
+              "explication": "Un des 4 principaux signes fonctionnels, principale plainte retrouvée."
+            },
+            {
+              "reponse": "La syncope est un des principaux signes fonctionnels en cardiologie.",
+              "explication": "Un des 4 principaux signes fonctionnels."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les œdèmes des membres inférieurs sont un des principaux signes fonctionnels en cardiologie.",
+              "explication": "C'est un signe physique, constaté à l'examen."
+            },
+            {
+              "reponse": "La turgescence jugulaire est un des principaux signes fonctionnels en cardiologie.",
+              "explication": "C'est un signe physique, vu à l'inspection."
+            },
+            {
+              "reponse": "Le souffle cardiaque est un des principaux signes fonctionnels en cardiologie.",
+              "explication": "C'est un signe physique, entendu à l'auscultation."
+            },
+            {
+              "reponse": "L'hépatomégalie est un des principaux signes fonctionnels en cardiologie.",
+              "explication": "C'est un signe physique, retrouvé à la palpation."
+            },
+            {
+              "reponse": "Le choc de pointe est un des principaux signes fonctionnels en cardiologie.",
+              "explication": "C'est un signe physique, retrouvé à la palpation."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-008",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la fréquence respiratoire normale indiquée par le cours ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "considère une respiration normale à 12 à 16 cycles"
+          },
+          "bonnes": [
+            {
+              "reponse": "De 12 à 16 cycles par minute.",
+              "explication": "Valeur donnée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "De 6 à 10 cycles par minute.",
+              "explication": "Trop bas : moins de 10 par minute est même un signe de gravité."
+            },
+            {
+              "reponse": "De 8 à 12 cycles par minute.",
+              "explication": "Trop bas : la normale est de 12 à 16 cycles par minute."
+            },
+            {
+              "reponse": "De 16 à 20 cycles par minute.",
+              "explication": "Décalé : la normale est de 12 à 16 cycles par minute."
+            },
+            {
+              "reponse": "De 20 à 30 cycles par minute.",
+              "explication": "Trop haut : c'est une polypnée."
+            },
+            {
+              "reponse": "De 30 à 40 cycles par minute.",
+              "explication": "Trop haut : plus de 30 par minute est un signe de gravité."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-009",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Parmi les causes de dyspnée suivantes, laquelle le cours cite-t-il en premier pour sa gravité (urgence vitale) ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "On retrouve en premier la tamponnade (urgence vitale)"
+          },
+          "bonnes": [
+            {
+              "reponse": "La tamponnade.",
+              "explication": "Le cours la cite en premier (urgence vitale), puis l'embolie pulmonaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'embolie pulmonaire.",
+              "explication": "Elle vient juste après la tamponnade dans l'ordre de gravité donné par le cours."
+            },
+            {
+              "reponse": "L'anémie.",
+              "explication": "Cause de dyspnée, mais non citée comme la plus grave."
+            },
+            {
+              "reponse": "Les troubles neurologiques.",
+              "explication": "Cause de dyspnée, mais non citée comme la plus grave."
+            },
+            {
+              "reponse": "L'acidocétose diabétique.",
+              "explication": "Cause métabolique de dyspnée, non citée comme la plus grave."
+            },
+            {
+              "reponse": "La bronchopneumopathie chronique obstructive.",
+              "explication": "Comorbidité et cause respiratoire, non citée comme la plus grave."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'orthopnée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "qui apparaît ou s’aggrave en position allongée"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'orthopnée est une difficulté respiratoire qui apparaît ou s'aggrave en position allongée.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'orthopnée s'améliore en position assise ou debout.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'orthopnée oriente vers une insuffisance cardiaque gauche.",
+              "explication": "Le cours la rattache à l'insuffisance cardiaque gauche."
+            },
+            {
+              "reponse": "L'orthopnée se quantifie par le nombre d'oreillers utilisés par le patient.",
+              "explication": "Il est important de la quantifier : inclinaison, nombre d'oreillers."
+            },
+            {
+              "reponse": "En position allongée, le retour veineux vers le cœur augmente et surcharge le ventricule gauche insuffisant.",
+              "explication": "D'où la congestion pulmonaire et la dyspnée."
+            },
+            {
+              "reponse": "L'orthopnée traduit un problème situé en amont du ventricule gauche, dans le circuit pulmonaire.",
+              "explication": "Le cours parle d'un problème en amont (circuit pulmonaire)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'orthopnée s'améliore en position allongée.",
+              "explication": "Inversé : c'est la platypnée qui s'améliore couché."
+            },
+            {
+              "reponse": "L'orthopnée oriente d'abord vers une insuffisance cardiaque droite.",
+              "explication": "Faux : elle oriente vers une insuffisance cardiaque gauche."
+            },
+            {
+              "reponse": "En position debout, la précharge augmente, ce qui explique l'orthopnée.",
+              "explication": "Faux : debout, le sang descend dans les membres inférieurs et la précharge diminue."
+            },
+            {
+              "reponse": "En position allongée, la gravité retient davantage le sang dans les jambes.",
+              "explication": "Faux : allongé, la gravité ne retient plus le sang dans les jambes."
+            },
+            {
+              "reponse": "L'orthopnée est un problème situé en aval du système circulatoire.",
+              "explication": "Faux : le cours parle d'un problème en amont."
+            },
+            {
+              "reponse": "L'orthopnée se quantifie par la classification de la New York Heart Association.",
+              "explication": "Faux : la NYHA quantifie la dyspnée d'effort ; l'orthopnée se chiffre par le nombre d'oreillers."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la platypnée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "On respire mieux allongé que debout"
+          },
+          "bonnes": [
+            {
+              "reponse": "La platypnée est une dyspnée qui s'aggrave en position assise ou debout et s'améliore en position couchée.",
+              "explication": "Définition du cours : c'est l'inverse de l'orthopnée."
+            },
+            {
+              "reponse": "Le shunt hépatopulmonaire peut entraîner une platypnée.",
+              "explication": "Exemple donné par le cours."
+            },
+            {
+              "reponse": "Un foramen ovale perméable peut entraîner une platypnée.",
+              "explication": "En se levant, le thorax se déforme et ouvre davantage le foramen ovale."
+            },
+            {
+              "reponse": "Dans le foramen ovale perméable, le shunt se fait de la droite vers la gauche.",
+              "explication": "D'où une désoxygénation du sang artériel en position debout."
+            },
+            {
+              "reponse": "Un shunt est une communication vasculaire anormale qui contourne le circuit normal.",
+              "explication": "Définition du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La platypnée s'aggrave en position couchée.",
+              "explication": "Inversé : elle s'améliore en position couchée."
+            },
+            {
+              "reponse": "Le patient platypnéique respire mieux debout qu'allongé.",
+              "explication": "Inversé : il respire mieux allongé que debout."
+            },
+            {
+              "reponse": "La platypnée est synonyme d'orthopnée.",
+              "explication": "Faux : c'est l'inverse de l'orthopnée."
+            },
+            {
+              "reponse": "Dans le foramen ovale perméable, le shunt se fait de la gauche vers la droite et explique la platypnée.",
+              "explication": "Faux : le cours décrit un shunt de la droite vers la gauche."
+            },
+            {
+              "reponse": "En position debout, les shunts du syndrome hépatopulmonaire se ferment.",
+              "explication": "Faux : la position debout rouvre les shunts et le patient décompense."
+            },
+            {
+              "reponse": "Le foramen ovale est une communication normale entre les ventricules durant la vie fœtale.",
+              "explication": "Faux : c'est une communication entre les oreillettes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-012",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Comment appelle-t-on une dyspnée qui apparaît lorsque le patient se penche en avant (en se baissant ou en position accroupie) ? (une seule réponse attendue)",
+          "cours": {
+            "page": 4,
+            "surligner": "dyspnée qui apparaît lorsqu’on se penche en avant"
+          },
+          "bonnes": [
+            {
+              "reponse": "La bendopnée.",
+              "explication": "Définition du cours ; c'est un autre signe d'insuffisance cardiaque."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'orthopnée.",
+              "explication": "L'orthopnée apparaît en position allongée."
+            },
+            {
+              "reponse": "La platypnée.",
+              "explication": "La platypnée apparaît en position assise ou debout."
+            },
+            {
+              "reponse": "La polypnée.",
+              "explication": "La polypnée est une respiration rapide."
+            },
+            {
+              "reponse": "La bradypnée.",
+              "explication": "La bradypnée est un ralentissement du rythme respiratoire."
+            },
+            {
+              "reponse": "La dyspnée de Kussmaul.",
+              "explication": "C'est la dyspnée de l'acidocétose diabétique (inspiration, pause, expiration, pause)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la classification de la New York Heart Association (NYHA), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "classification de la New York Heart Association"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le stade I correspond à l'absence de dyspnée dans la vie quotidienne.",
+              "explication": "Stade I du cours."
+            },
+            {
+              "reponse": "Le stade II correspond à une dyspnée pour des efforts importants et inhabituels de la vie quotidienne.",
+              "explication": "Stade II du cours."
+            },
+            {
+              "reponse": "Le stade III correspond à une dyspnée pour des efforts modestes et habituels de la vie quotidienne.",
+              "explication": "Stade III du cours."
+            },
+            {
+              "reponse": "Le stade IV correspond à une dyspnée de repos, confinant le patient au lit ou au fauteuil.",
+              "explication": "Stade IV du cours."
+            },
+            {
+              "reponse": "La classification NYHA sert à quantifier la dyspnée.",
+              "explication": "C'est son rôle, à connaître par cœur."
+            },
+            {
+              "reponse": "Pour un patient en stade III malgré un traitement, on peut proposer une greffe.",
+              "explication": "Remarque du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le stade I correspond à une dyspnée pour des efforts importants.",
+              "explication": "Faux : c'est le stade II ; le stade I est l'absence de dyspnée."
+            },
+            {
+              "reponse": "Le stade II correspond à une dyspnée pour des efforts modestes et habituels.",
+              "explication": "Faux : c'est le stade III."
+            },
+            {
+              "reponse": "Le stade III correspond à une dyspnée de repos.",
+              "explication": "Faux : c'est le stade IV."
+            },
+            {
+              "reponse": "Le stade IV correspond à une dyspnée pour des efforts importants et inhabituels.",
+              "explication": "Faux : c'est le stade II."
+            },
+            {
+              "reponse": "La classification NYHA comporte 5 stades.",
+              "explication": "Faux : elle comporte 4 stades (I à IV)."
+            },
+            {
+              "reponse": "L'échelle mMRC est une échelle de cardiologie qui remplace la NYHA.",
+              "explication": "Faux : le cours la cite comme une échelle de pneumologie."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-014",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Un patient âgé est essoufflé pour des efforts modestes et habituels : il ne parvient pas à monter 2 étages. Quel est son stade NYHA ? (une seule réponse attendue)",
+          "cours": {
+            "page": 5,
+            "surligner": "moins de 2 étages, c’est un stade III"
+          },
+          "bonnes": [
+            {
+              "reponse": "Stade III.",
+              "explication": "Dyspnée pour des efforts modestes et habituels ; moins de 2 étages montés = stade III."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Stade I.",
+              "explication": "Stade I = absence de dyspnée dans la vie quotidienne."
+            },
+            {
+              "reponse": "Stade II.",
+              "explication": "Stade II = dyspnée pour des efforts importants et inhabituels."
+            },
+            {
+              "reponse": "Stade IV.",
+              "explication": "Stade IV = dyspnée de repos."
+            },
+            {
+              "reponse": "Stade V.",
+              "explication": "La classification NYHA ne comporte que 4 stades."
+            },
+            {
+              "reponse": "Stade 0.",
+              "explication": "La classification NYHA commence au stade I."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les causes de dyspnée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "la dyspnée n’est pas synonyme de cause cardiaque"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dyspnée n'est pas synonyme de cause cardiaque.",
+              "explication": "Message du cours."
+            },
+            {
+              "reponse": "L'anémie est une cause métabolique de dyspnée.",
+              "explication": "Cause métabolique citée par le cours."
+            },
+            {
+              "reponse": "L'acidocétose diabétique donne une dyspnée de Kussmaul : inspiration, pause, expiration, pause.",
+              "explication": "Cause métabolique décrite par le cours."
+            },
+            {
+              "reponse": "Un corps étranger, en particulier chez le jeune enfant, est une cause respiratoire supérieure de dyspnée.",
+              "explication": "Obstruction des voies aériennes supérieures."
+            },
+            {
+              "reponse": "L'asthme est une cause respiratoire inférieure de dyspnée.",
+              "explication": "Cause respiratoire inférieure citée par le cours."
+            },
+            {
+              "reponse": "La tamponnade est une cause cardio-vasculaire de dyspnée.",
+              "explication": "Cause cardio-vasculaire citée par le cours."
+            },
+            {
+              "reponse": "Devant une dyspnée, il faut penser aux causes les plus graves en premier.",
+              "explication": "Conseil du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une dyspnée est toujours d'origine cardiaque.",
+              "explication": "Faux : la dyspnée n'est pas synonyme de cause cardiaque."
+            },
+            {
+              "reponse": "L'anémie est une cause cardio-vasculaire de dyspnée.",
+              "explication": "Faux : c'est une cause métabolique."
+            },
+            {
+              "reponse": "La dyspnée de Kussmaul est typique de l'embolie pulmonaire.",
+              "explication": "Faux : elle est typique de l'acidocétose diabétique."
+            },
+            {
+              "reponse": "L'asthme est une cause respiratoire supérieure de dyspnée.",
+              "explication": "Faux : c'est une cause respiratoire inférieure."
+            },
+            {
+              "reponse": "L'embolie pulmonaire est une cause respiratoire inférieure de dyspnée.",
+              "explication": "Faux : c'est une cause cardio-vasculaire."
+            },
+            {
+              "reponse": "Le corps étranger est une cause métabolique de dyspnée.",
+              "explication": "Faux : c'est une cause respiratoire supérieure."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la classification des causes de dyspnée par localisation (schéma du cours), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "classent les causes de dyspnée par localisation"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'œdème de Quincke est une cause respiratoire supérieure de dyspnée.",
+              "explication": "Classé en cause respiratoire supérieure."
+            },
+            {
+              "reponse": "Le pneumothorax est une cause respiratoire inférieure de dyspnée.",
+              "explication": "Classé en cause respiratoire inférieure."
+            },
+            {
+              "reponse": "Le syndrome d'hyperventilation est une cause centrale de dyspnée.",
+              "explication": "Classé en cause centrale."
+            },
+            {
+              "reponse": "L'acidose métabolique est une cause métabolique de dyspnée.",
+              "explication": "Classée en cause métabolique."
+            },
+            {
+              "reponse": "La scoliose est une cause musculo-squelettique de dyspnée.",
+              "explication": "Trouble de la cinétique respiratoire."
+            },
+            {
+              "reponse": "La myasthénie est une cause musculo-squelettique de dyspnée.",
+              "explication": "Trouble de la cinétique respiratoire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'œdème de Quincke est une cause respiratoire inférieure de dyspnée.",
+              "explication": "Faux : cause respiratoire supérieure."
+            },
+            {
+              "reponse": "Le pneumothorax est une cause cardio-vasculaire de dyspnée.",
+              "explication": "Faux : cause respiratoire inférieure."
+            },
+            {
+              "reponse": "Le syndrome d'hyperventilation est une cause métabolique de dyspnée.",
+              "explication": "Faux : cause centrale."
+            },
+            {
+              "reponse": "L'obésité est une cause métabolique de dyspnée dans ce schéma.",
+              "explication": "Faux : elle est classée en cause musculo-squelettique (cinétique respiratoire)."
+            },
+            {
+              "reponse": "La laryngite est une cause respiratoire inférieure de dyspnée.",
+              "explication": "Faux : cause respiratoire supérieure."
+            },
+            {
+              "reponse": "Les intoxications sont une cause centrale de dyspnée dans ce schéma.",
+              "explication": "Faux : elles sont classées en cause métabolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'interrogatoire d'un patient dyspnéique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "aiguë (de quelques minutes à quelques jours)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une dyspnée aiguë évolue depuis quelques minutes à quelques jours.",
+              "explication": "Chronologie aiguë selon le cours."
+            },
+            {
+              "reponse": "Une dyspnée chronique évolue depuis quelques semaines à quelques mois.",
+              "explication": "Chronologie chronique selon le cours."
+            },
+            {
+              "reponse": "Un écart de régime désodé est un facteur favorisant à rechercher.",
+              "explication": "Facteur favorisant cité par le cours."
+            },
+            {
+              "reponse": "Un voyage prolongé récent, une immobilisation ou une chirurgie récente sont des facteurs favorisants à rechercher.",
+              "explication": "Facteurs favorisants cités par le cours."
+            },
+            {
+              "reponse": "On recherche une grossesse et des antécédents de thrombose.",
+              "explication": "Éléments à rechercher selon le cours."
+            },
+            {
+              "reponse": "Le cornage fait partie des signes respiratoires associés.",
+              "explication": "Cité avec les sifflements, la toux et les expectorations."
+            },
+            {
+              "reponse": "La dysphagie fait partie des signes extra-respiratoires associés.",
+              "explication": "Citée avec la dysphonie, la fièvre, la douleur thoracique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une dyspnée aiguë évolue depuis plusieurs mois.",
+              "explication": "Faux : quelques minutes à quelques jours."
+            },
+            {
+              "reponse": "Une dyspnée chronique évolue depuis quelques heures.",
+              "explication": "Faux : quelques semaines à quelques mois."
+            },
+            {
+              "reponse": "Le cornage fait partie des signes extra-respiratoires associés.",
+              "explication": "Faux : c'est un signe respiratoire associé."
+            },
+            {
+              "reponse": "La dysphagie fait partie des signes respiratoires associés.",
+              "explication": "Faux : c'est un signe extra-respiratoire associé."
+            },
+            {
+              "reponse": "L'état antérieur du patient n'a pas d'intérêt à l'interrogatoire.",
+              "explication": "Faux : il faut comparer l'état antérieur et l'état actuel (ex. passage du stade II au stade III)."
+            },
+            {
+              "reponse": "La rythmicité de la dyspnée (diurne ou nocturne, inspiratoire ou expiratoire) n'a pas d'intérêt.",
+              "explication": "Faux : elle fait partie de l'interrogatoire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'arbre décisionnel de la dyspnée aiguë, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "arbre décisionnel de la dyspnée"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'inhalation de corps étrangers appartient à la branche avec anomalies inspiratoires.",
+              "explication": "Branche inspiratoire (enfant, histoire)."
+            },
+            {
+              "reponse": "L'œdème de Quincke appartient à la branche avec anomalies inspiratoires.",
+              "explication": "Branche inspiratoire (terrain allergique)."
+            },
+            {
+              "reponse": "L'asthme appartient à la branche avec anomalies expiratoires.",
+              "explication": "Branche expiratoire (sujet jeune, allergie, facteur déclenchant)."
+            },
+            {
+              "reponse": "L'embolie pulmonaire appartient à la branche sans trouble associé du cycle respiratoire.",
+              "explication": "Auscultation normale, douleur thoracique, phlébite."
+            },
+            {
+              "reponse": "L'œdème aigu du poumon évoque un sujet âgé, avec orthopnée et expectoration mousseuse.",
+              "explication": "Éléments d'orientation donnés par le schéma."
+            },
+            {
+              "reponse": "Le pneumothorax appartient à la branche sans trouble associé du cycle respiratoire.",
+              "explication": "Syndrome pleural, douleur thoracique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La laryngite appartient à la branche avec anomalies expiratoires.",
+              "explication": "Faux : branche avec anomalies inspiratoires."
+            },
+            {
+              "reponse": "L'exacerbation de bronchopneumopathie chronique obstructive appartient à la branche avec anomalies inspiratoires.",
+              "explication": "Faux : branche avec anomalies expiratoires."
+            },
+            {
+              "reponse": "Le pneumothorax appartient à la branche avec anomalies inspiratoires.",
+              "explication": "Faux : branche sans trouble associé du cycle respiratoire."
+            },
+            {
+              "reponse": "L'œdème de Quincke appartient à la branche avec anomalies expiratoires.",
+              "explication": "Faux : branche avec anomalies inspiratoires."
+            },
+            {
+              "reponse": "L'asthme évoque d'abord un sujet âgé avec expectoration mousseuse.",
+              "explication": "Faux : ce profil est celui de l'œdème aigu du poumon ; l'asthme évoque un sujet jeune allergique."
+            },
+            {
+              "reponse": "L'embolie pulmonaire s'accompagne typiquement d'une auscultation pulmonaire très anormale dans ce schéma.",
+              "explication": "Faux : le schéma note une auscultation normale."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'évaluation de la gravité immédiate d'un patient dyspnéique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "fréquence cardiaque supérieure à 120 par minute"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une fréquence cardiaque supérieure à 120 par minute est un signe de gravité hémodynamique.",
+              "explication": "Axe hémodynamique."
+            },
+            {
+              "reponse": "Une pression artérielle systolique inférieure à 90 mmHg est un signe de gravité hémodynamique.",
+              "explication": "Axe hémodynamique."
+            },
+            {
+              "reponse": "Les marbrures et les extrémités froides sont des signes d'hypoperfusion périphérique.",
+              "explication": "Axe hémodynamique."
+            },
+            {
+              "reponse": "Une fréquence respiratoire supérieure à 30 par minute est un signe de gravité respiratoire.",
+              "explication": "Axe respiratoire."
+            },
+            {
+              "reponse": "Une fréquence respiratoire inférieure à 10 par minute est un signe de gravité respiratoire.",
+              "explication": "Axe respiratoire."
+            },
+            {
+              "reponse": "Une saturation en oxygène inférieure à 90 % est un signe de gravité respiratoire.",
+              "explication": "Hypoxémie, axe respiratoire."
+            },
+            {
+              "reponse": "Les pauses respiratoires sont un signe de gravité respiratoire.",
+              "explication": "Axe respiratoire."
+            },
+            {
+              "reponse": "L'agitation, la torpeur et la confusion font partie de l'axe neurologique.",
+              "explication": "Axe neurologique, avec le coma (score de Glasgow)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une fréquence cardiaque supérieure à 90 par minute suffit à définir un signe de gravité hémodynamique.",
+              "explication": "Faux : le seuil est 120 par minute."
+            },
+            {
+              "reponse": "Une pression artérielle systolique inférieure à 120 mmHg est un signe de gravité hémodynamique.",
+              "explication": "Faux : le seuil est 90 mmHg."
+            },
+            {
+              "reponse": "Une fréquence respiratoire supérieure à 20 par minute est un signe de gravité respiratoire.",
+              "explication": "Faux : le seuil est 30 par minute."
+            },
+            {
+              "reponse": "Une saturation en oxygène inférieure à 97 % est un signe de gravité respiratoire.",
+              "explication": "Faux : le seuil est 90 %."
+            },
+            {
+              "reponse": "Les marbrures sont un signe de gravité respiratoire.",
+              "explication": "Faux : elles relèvent de l'axe hémodynamique (hypoperfusion)."
+            },
+            {
+              "reponse": "L'oligurie est un signe de gravité neurologique.",
+              "explication": "Faux : elle traduit une hypoperfusion (axe hémodynamique)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les signes de lutte, d'hypoxémie et d'hypercapnie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "hypoxémie : cyanose, saturation en oxygène inférieure"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cyanose est un signe d'hypoxémie.",
+              "explication": "Hypoxémie : cyanose, saturation inférieure à 90 %, peau bleue."
+            },
+            {
+              "reponse": "Une coloration bleue de la peau oriente vers une hypoxémie.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "L'hypercapnie peut entraîner une hypertension artérielle, des sueurs et des céphalées.",
+              "explication": "Signes d'hypercapnie cités par le cours."
+            },
+            {
+              "reponse": "L'astérixis (flapping tremor) est un signe d'hypercapnie.",
+              "explication": "Signe d'hypercapnie cité par le cours."
+            },
+            {
+              "reponse": "Une coloration rouge de la peau oriente vers une hypercapnie.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Le tirage sus-sternal et sus-claviculaire est un signe de lutte.",
+              "explication": "Avec le balancement thoraco-abdominal et l'utilisation des muscles accessoires."
+            },
+            {
+              "reponse": "Avec un air enrichi en oxygène, le patient hypercapnique peut devenir bradypnéique, ce qui aggrave l'hypercapnie.",
+              "explication": "Mise en garde du cours."
+            },
+            {
+              "reponse": "Chez l'asthmatique, l'apparition d'une bradypnée traduit une perte de la fonction respiratoire.",
+              "explication": "Exemple du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cyanose est le signe typique de l'hypercapnie.",
+              "explication": "Faux : la cyanose traduit l'hypoxémie."
+            },
+            {
+              "reponse": "L'astérixis est un signe d'hypoxémie.",
+              "explication": "Faux : c'est un signe d'hypercapnie."
+            },
+            {
+              "reponse": "L'hypercapnie se traduit par une coloration bleue de la peau.",
+              "explication": "Faux : peau rouge dans l'hypercapnie, bleue dans l'hypoxémie."
+            },
+            {
+              "reponse": "L'hypercapnie entraîne typiquement une hypotension artérielle.",
+              "explication": "Faux : le cours cite l'hypertension artérielle."
+            },
+            {
+              "reponse": "Une oxygénothérapie à fort débit accélère toujours la respiration du patient hypercapnique.",
+              "explication": "Faux : il peut devenir bradypnéique, ce qui aggrave l'hypercapnie."
+            },
+            {
+              "reponse": "Chez l'asthmatique, l'apparition d'une bradypnée est un signe d'amélioration.",
+              "explication": "Faux : c'est un signe d'épuisement, il perd sa fonction respiratoire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les œdèmes des membres inférieurs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "mou, blanc, prenant le godet, indolore, bilatéral"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque est mou et blanc.",
+              "explication": "Caractéristiques du cours."
+            },
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque prend le godet.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque s'aggrave en fin de journée ou après une station debout prolongée.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque s'accompagne souvent d'une turgescence jugulaire.",
+              "explication": "Signe associé de congestion systémique."
+            },
+            {
+              "reponse": "L'œdème de la phlébite est rouge, chaud, douloureux, dur et unilatéral.",
+              "explication": "C'est tout l'opposé de l'œdème de l'insuffisance cardiaque."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque est typiquement unilatéral.",
+              "explication": "Faux : il est bilatéral."
+            },
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque est dur et douloureux.",
+              "explication": "Faux : il est mou et indolore ; dur et douloureux évoque la phlébite."
+            },
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque diminue en fin de journée.",
+              "explication": "Faux : il s'aggrave en fin de journée."
+            },
+            {
+              "reponse": "L'œdème de la phlébite est blanc, mou et bilatéral.",
+              "explication": "Faux : il est rouge, dur et unilatéral."
+            },
+            {
+              "reponse": "L'œdème de la phlébite est indolore.",
+              "explication": "Faux : il est douloureux."
+            },
+            {
+              "reponse": "L'œdème de l'insuffisance cardiaque prédomine aux parties hautes du corps.",
+              "explication": "Faux : il est déclive, dans les parties basses."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la turgescence jugulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "dilatation de la veine jugulaire externe que l’on voit"
+          },
+          "bonnes": [
+            {
+              "reponse": "La turgescence jugulaire est une dilatation de la veine jugulaire externe visible spontanément.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "On recherche la turgescence jugulaire chez un patient en position demi-assise, la tête à 30° sur le côté.",
+              "explication": "Position donnée par le cours."
+            },
+            {
+              "reponse": "Dans l'insuffisance tricuspide, on peut voir la veine jugulaire battre.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Dans l'insuffisance tricuspide, le ventricule droit envoie du sang en arrière dans la veine, qui se comporte comme une artère.",
+              "explication": "Explication de la jugulaire qui bat."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La turgescence jugulaire se recherche chez un patient allongé à plat.",
+              "explication": "Faux : position demi-assise, tête à 30° sur le côté."
+            },
+            {
+              "reponse": "La turgescence jugulaire est provoquée par une pression sur le foie.",
+              "explication": "Faux : c'est le reflux hépato-jugulaire ; la turgescence est spontanée."
+            },
+            {
+              "reponse": "Une jugulaire qui bat est un aspect normal.",
+              "explication": "Faux : le cours précise que c'est anormal."
+            },
+            {
+              "reponse": "La jugulaire battante s'explique par une fuite de la valve mitrale.",
+              "explication": "Faux : elle s'explique par une fuite de la valve tricuspide."
+            },
+            {
+              "reponse": "La turgescence jugulaire se recherche à la palpation.",
+              "explication": "Faux : elle est vue à l'inspection."
+            },
+            {
+              "reponse": "La turgescence jugulaire est un signe de congestion pulmonaire isolée.",
+              "explication": "Faux : c'est un signe de congestion systémique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'ascite, les marbrures et l'ulcère veineux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "signe d’insuffisance cardiaque droite"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ascite est un signe d'insuffisance cardiaque droite.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Dans l'insuffisance cardiaque droite, la pression augmente dans la veine cave inférieure et les veines hépatiques.",
+              "explication": "D'où la congestion hépatique et splanchnique puis l'ascite."
+            },
+            {
+              "reponse": "Les marbrures évoquent un état de choc.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "L'ulcère veineux est superficiel, à bords mal délimités et péri-malléolaire.",
+              "explication": "Description donnée à l'oral."
+            },
+            {
+              "reponse": "L'ulcère veineux n'est pas douloureux.",
+              "explication": "Précisé à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ascite est un signe d'insuffisance cardiaque gauche.",
+              "explication": "Faux : c'est un signe d'insuffisance cardiaque droite."
+            },
+            {
+              "reponse": "L'ascite résulte d'une baisse de pression dans la veine cave inférieure.",
+              "explication": "Faux : la pression y augmente."
+            },
+            {
+              "reponse": "Les marbrures signent une hypercapnie.",
+              "explication": "Faux : elles évoquent un état de choc."
+            },
+            {
+              "reponse": "L'ulcère veineux est très douloureux.",
+              "explication": "Faux : il n'est pas douloureux du tout."
+            },
+            {
+              "reponse": "L'ulcère veineux est profond, à bords nets.",
+              "explication": "Faux : il est superficiel, à bords mal délimités."
+            },
+            {
+              "reponse": "L'ulcère veineux siège typiquement sur la plante du pied.",
+              "explication": "Faux : il est péri-malléolaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les profils de patients à reconnaître et l'examen physique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Rappel des étapes de l’examen physique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un patient avec atteinte hémodynamique a un teint gris et marbré.",
+              "explication": "Profil hémodynamique."
+            },
+            {
+              "reponse": "Un patient avec atteinte hémodynamique a un temps de recoloration cutanée allongé.",
+              "explication": "Profil hémodynamique."
+            },
+            {
+              "reponse": "Un patient avec atteinte hémodynamique a des extrémités fraîches.",
+              "explication": "Profil hémodynamique."
+            },
+            {
+              "reponse": "Un patient avec atteinte hémodynamique peut présenter une confusion.",
+              "explication": "Encéphalopathie, confusion."
+            },
+            {
+              "reponse": "Un patient avec atteinte respiratoire présente des signes de lutte, d'hypoxie et d'hypercapnie.",
+              "explication": "Profil respiratoire."
+            },
+            {
+              "reponse": "L'examen physique comporte dans l'ordre l'inspection, la palpation, la percussion et l'auscultation.",
+              "explication": "Rappel du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un patient avec atteinte hémodynamique a un temps de recoloration cutanée raccourci.",
+              "explication": "Faux : il est allongé."
+            },
+            {
+              "reponse": "Un patient avec atteinte hémodynamique a des extrémités chaudes.",
+              "explication": "Faux : extrémités fraîches."
+            },
+            {
+              "reponse": "Les signes de lutte caractérisent le profil hémodynamique.",
+              "explication": "Faux : ils caractérisent le profil respiratoire."
+            },
+            {
+              "reponse": "L'examen physique commence par l'auscultation.",
+              "explication": "Faux : il commence par l'inspection."
+            },
+            {
+              "reponse": "La percussion précède la palpation lors de l'examen physique.",
+              "explication": "Faux : l'ordre est inspection, palpation, percussion, auscultation."
+            },
+            {
+              "reponse": "L'atteinte hémodynamique associe typiquement une bradycardie et une hypertension.",
+              "explication": "Faux : tachycardie, hypoperfusion et hypotension."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-025",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Une patiente de 29 ans, opérée d'une rupture du ligament croisé antérieur 3 semaines plus tôt, fumeuse et sous contraception œstroprogestative, consulte pour malaise et dyspnée aiguë de repos. PA 89/60 mmHg, FC 125/min, SpO2 91 % en air ambiant, FR 25/min, Glasgow 15, auscultation cardiaque et pulmonaire normale, turgescence jugulaire spontanée, pas d'œdème des membres inférieurs. Quelle est votre hypothèse diagnostique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 6,
+            "surligner": "voyage prolongé récent, immobilisation ou chirurgie récente"
+          },
+          "bonnes": [
+            {
+              "reponse": "Embolie pulmonaire.",
+              "annale": true,
+              "explication": "Chirurgie récente, contraception, tabac, dyspnée aiguë avec auscultation normale, tachycardie et hypoxémie : tableau d'embolie pulmonaire, ici avec signes de gravité. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Pneumothorax.",
+              "annale": true,
+              "explication": "Le murmure vésiculaire est symétrique, sans syndrome pleural. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pneumopathie franche lobaire aiguë.",
+              "annale": true,
+              "explication": "Pas de syndrome infectieux et auscultation pulmonaire normale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Insuffisance cardiaque globale.",
+              "annale": true,
+              "explication": "Pas de crépitants ni d'œdèmes des membres inférieurs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Asthme aigu grave.",
+              "annale": true,
+              "explication": "Pas d'anomalie expiratoire ni de sibilants : auscultation normale. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-026",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 23
+              }
+            ]
+          },
+          "question": "Une patiente de 50 ans, obèse (IMC 30,4 kg/m²), alitée 4 jours la semaine précédente pour une grippe, présente depuis 48 h une dyspnée pour des efforts modestes, une douleur basithoracique droite augmentée à la toux et à l'inspiration profonde et des crachats rouge sombre. FC 110/min, PA 124/76 mmHg, SpO2 91 %, FR 18/min, température 38 °C ; examen physique sans particularité. Quelle est votre principale hypothèse diagnostique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 7,
+            "surligner": "embolie pulmonaire (auscultation normale, douleur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Embolie pulmonaire.",
+              "annale": true,
+              "explication": "Immobilisation récente, obésité, dyspnée aiguë, douleur thoracique, hémoptysie, tachycardie et hypoxémie avec examen normal : embolie pulmonaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Pneumopathie infectieuse bactérienne.",
+              "annale": true,
+              "explication": "L'examen pulmonaire est normal et le contexte d'alitement oriente d'abord vers l'embolie pulmonaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Cancer broncho-pulmonaire.",
+              "annale": true,
+              "explication": "Tableau aigu, sans terrain évocateur : hypothèse non principale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pneumopathie grippale.",
+              "annale": true,
+              "explication": "La grippe est en voie de guérison ; l'aggravation après alitement oriente vers l'embolie pulmonaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Péricardite.",
+              "annale": true,
+              "explication": "Rien ne l'évoque : pas de gros épanchement, examen normal. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-027",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 16
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2020-2021",
+                "qcm": 40
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 32
+              }
+            ]
+          },
+          "question": "Concernant les œdèmes des membres inférieurs de l'insuffisance cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "mou, blanc, prenant le godet, indolore, bilatéral"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque sont blancs.",
+              "annale": true,
+              "explication": "Caractéristique du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque prennent le godet.",
+              "annale": true,
+              "explication": "Caractéristique du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque sont bilatéraux.",
+              "annale": true,
+              "explication": "Caractéristique du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque sont déclives.",
+              "annale": true,
+              "explication": "Caractéristique du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque sont indolores.",
+              "annale": true,
+              "explication": "Caractéristique du cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque sont durs.",
+              "annale": true,
+              "explication": "Ils sont mous ; l'œdème dur évoque la phlébite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque sont asymétriques.",
+              "annale": true,
+              "explication": "Ils sont bilatéraux ; l'œdème unilatéral évoque la phlébite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les œdèmes des membres inférieurs de l'insuffisance cardiaque ne prennent pas le godet.",
+              "annale": true,
+              "explication": "Ils prennent le godet. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Examen clinique de l'insuffisance cardiaque"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-ic-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la palpation lors de l'examen clinique de l'insuffisance cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "le choc de pointe : 5e espace intercostal gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le choc de pointe se palpe au 5e espace intercostal gauche, sur la ligne médio-claviculaire.",
+              "explication": "Localisation donnée par le cours."
+            },
+            {
+              "reponse": "Le signe de Harzer est une perception pulsatile des battements cardiaques à l'épigastre.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le signe de Harzer traduit une dilatation du ventricule droit.",
+              "explication": "Signe inconstant, difficile en pratique."
+            },
+            {
+              "reponse": "Le reflux hépato-jugulaire se recherche chez un patient en position demi-allongée, en appuyant délicatement sur le foie.",
+              "explication": "Technique du cours (tête tournée vers la gauche)."
+            },
+            {
+              "reponse": "Rechercher le reflux hépato-jugulaire en position allongée le surestime.",
+              "explication": "Raison pour laquelle on ne le fait pas allongé."
+            },
+            {
+              "reponse": "La turgescence jugulaire est spontanée alors que le reflux hépato-jugulaire est provoqué.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Pour palper un pouls, on conseille d'appuyer fort puis de relâcher doucement.",
+              "explication": "Conseil donné à l'oral : trop appuyer collabe l'artère."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le choc de pointe se palpe au 2e espace intercostal gauche.",
+              "explication": "Faux : 5e espace intercostal gauche, ligne médio-claviculaire."
+            },
+            {
+              "reponse": "Le signe de Harzer traduit une dilatation du ventricule gauche.",
+              "explication": "Faux : il traduit une dilatation du ventricule droit."
+            },
+            {
+              "reponse": "Le signe de Harzer se perçoit au niveau du 2e espace intercostal droit.",
+              "explication": "Faux : il se perçoit à l'épigastre."
+            },
+            {
+              "reponse": "Le reflux hépato-jugulaire se recherche de préférence chez un patient allongé à plat.",
+              "explication": "Faux : allongé, on surestime le reflux."
+            },
+            {
+              "reponse": "Le reflux hépato-jugulaire se recherche à l'inspection seule.",
+              "explication": "Faux : c'est un signe provoqué, recherché à la palpation."
+            },
+            {
+              "reponse": "Pour palper un pouls, il faut appuyer le plus fort possible sans relâcher.",
+              "explication": "Faux : une pression excessive collabe l'artère et on ne la sent plus."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-029",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel signe correspond à la perception pulsatile des battements cardiaques à l'épigastre ? (une seule réponse attendue)",
+          "cours": {
+            "page": 10,
+            "surligner": "perception pulsatile des battements cardiaques à l’épigastre"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le signe de Harzer.",
+              "explication": "Il traduit une dilatation du ventricule droit."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le choc de pointe.",
+              "explication": "Il se palpe au 5e espace intercostal gauche, sur la ligne médio-claviculaire."
+            },
+            {
+              "reponse": "Le reflux hépato-jugulaire.",
+              "explication": "C'est la dilatation de la jugulaire provoquée par l'appui sur le foie."
+            },
+            {
+              "reponse": "La turgescence jugulaire.",
+              "explication": "C'est une dilatation spontanée de la veine jugulaire externe, vue à l'inspection."
+            },
+            {
+              "reponse": "Le frémissement.",
+              "explication": "C'est la vibration perçue en regard d'un souffle intense (à partir de 4/6)."
+            },
+            {
+              "reponse": "Le pouls filant.",
+              "explication": "C'est un pouls rapide et faible de l'insuffisance cardiaque."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la percussion, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "quand il y a de l’eau ou du sang"
+          },
+          "bonnes": [
+            {
+              "reponse": "La matité traduit la présence de liquide (eau ou sang).",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le tympanisme traduit la présence d'air.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Un épanchement pleural est mat à la percussion.",
+              "explication": "Le son est plein car il y a du liquide."
+            },
+            {
+              "reponse": "Un pneumothorax est tympanique à la percussion.",
+              "explication": "Il sonne creux."
+            },
+            {
+              "reponse": "La percussion pulmonaire se fait chez un patient assis, une main posée à plat dans son dos.",
+              "explication": "Technique décrite par le cours."
+            },
+            {
+              "reponse": "La percussion du foie permet de chercher la flèche hépatique.",
+              "explication": "Percussion des autres organes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La matité sonne comme un tambour.",
+              "explication": "Faux : c'est le tympanisme qui sonne creux, comme un tambour ; la matité donne un son sourd."
+            },
+            {
+              "reponse": "Un pneumothorax est mat à la percussion.",
+              "explication": "Faux : il est tympanique."
+            },
+            {
+              "reponse": "Un épanchement pleural liquidien est tympanique à la percussion.",
+              "explication": "Faux : il est mat."
+            },
+            {
+              "reponse": "Le tympanisme traduit la présence de liquide.",
+              "explication": "Faux : il traduit la présence d'air."
+            },
+            {
+              "reponse": "La percussion pulmonaire se fait chez un patient allongé sur le ventre.",
+              "explication": "Faux : le patient est assis."
+            },
+            {
+              "reponse": "La percussion de l'abdomen ne présente aucun intérêt dans l'insuffisance cardiaque.",
+              "explication": "Faux : elle permet de chercher une ascite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les foyers auscultatoires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Il existe 4 foyers auscultatoires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le foyer aortique se situe au 2e espace intercostal droit.",
+              "explication": "Localisation du cours."
+            },
+            {
+              "reponse": "Le foyer pulmonaire se situe au 2e espace intercostal gauche.",
+              "explication": "Localisation du cours."
+            },
+            {
+              "reponse": "Le foyer mitral se situe au 5e espace intercostal gauche, sur la ligne médio-claviculaire, à la pointe du cœur.",
+              "explication": "Localisation du cours."
+            },
+            {
+              "reponse": "Le foyer tricuspide se situe au niveau de l'appendice xiphoïde.",
+              "explication": "Localisation du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le foyer aortique se situe au 2e espace intercostal gauche.",
+              "explication": "Faux : c'est le foyer pulmonaire ; le foyer aortique est au 2e espace intercostal droit."
+            },
+            {
+              "reponse": "Le foyer pulmonaire se situe au 2e espace intercostal droit.",
+              "explication": "Faux : c'est le foyer aortique."
+            },
+            {
+              "reponse": "Le foyer mitral se situe au niveau de l'appendice xiphoïde.",
+              "explication": "Faux : c'est le foyer tricuspide."
+            },
+            {
+              "reponse": "Le foyer tricuspide se situe au 5e espace intercostal gauche, sur la ligne médio-claviculaire.",
+              "explication": "Faux : c'est le foyer mitral."
+            },
+            {
+              "reponse": "Le foyer mitral se situe au 2e espace intercostal gauche.",
+              "explication": "Faux : 5e espace intercostal gauche, ligne médio-claviculaire."
+            },
+            {
+              "reponse": "Il existe 3 foyers auscultatoires.",
+              "explication": "Faux : il en existe 4."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les bruits normaux du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "fermeture des valves atrioventriculaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le premier bruit (B1) correspond à la fermeture des valves atrioventriculaires.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le premier bruit (B1) est un son grave.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "Le premier bruit (B1) correspond au début de la systole ventriculaire.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "Le deuxième bruit (B2) correspond à la fermeture des valves aortique et pulmonaire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le deuxième bruit (B2) est un bruit bref et sec.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "Le deuxième bruit (B2) correspond au début de la diastole ventriculaire.",
+              "explication": "Caractéristique du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le premier bruit (B1) correspond à la fermeture des valves aortique et pulmonaire.",
+              "explication": "Faux : c'est B2."
+            },
+            {
+              "reponse": "Le deuxième bruit (B2) correspond à la fermeture des valves atrioventriculaires.",
+              "explication": "Faux : c'est B1."
+            },
+            {
+              "reponse": "Le premier bruit (B1) correspond au début de la diastole ventriculaire.",
+              "explication": "Faux : il correspond au début de la systole."
+            },
+            {
+              "reponse": "Le deuxième bruit (B2) correspond au début de la systole ventriculaire.",
+              "explication": "Faux : il correspond au début de la diastole."
+            },
+            {
+              "reponse": "Le premier bruit (B1) correspond à l'ouverture des valves atrioventriculaires.",
+              "explication": "Faux : il correspond à leur fermeture."
+            },
+            {
+              "reponse": "Le deuxième bruit (B2) est un son grave et prolongé.",
+              "explication": "Faux : il est bref et sec ; c'est B1 qui est grave."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la description d'un souffle cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Les souffles sont des bruits surajoutés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les souffles sont des bruits surajoutés.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Un souffle systolique se situe entre B1 et B2.",
+              "explication": "Chronologie systolique."
+            },
+            {
+              "reponse": "La description d'un souffle précise son siège, sa chronologie, son irradiation et son intensité.",
+              "explication": "Éléments de description du cours."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique peut irradier dans les carotides.",
+              "explication": "Exemple d'irradiation du cours."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique irradie plutôt le long du côté gauche.",
+              "explication": "Exemple d'irradiation du cours."
+            },
+            {
+              "reponse": "L'intensité d'un souffle est cotée de 1 à 6.",
+              "explication": "Cotation du cours."
+            },
+            {
+              "reponse": "Le timbre, la position et la variabilité selon la respiration sont d'autres caractéristiques d'un souffle.",
+              "explication": "Autres caractéristiques citées."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les souffles sont des bruits normaux du cœur.",
+              "explication": "Faux : ce sont des bruits surajoutés."
+            },
+            {
+              "reponse": "Un souffle systolique se situe entre B2 et le B1 suivant.",
+              "explication": "Faux : c'est la définition d'un souffle diastolique."
+            },
+            {
+              "reponse": "L'intensité d'un souffle est cotée de 1 à 4.",
+              "explication": "Faux : elle est cotée de 1 à 6."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique irradie typiquement le long du bord gauche du sternum.",
+              "explication": "Faux : il irradie dans les carotides."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique irradie typiquement dans les carotides.",
+              "explication": "Faux : il irradie plutôt le long du côté gauche."
+            },
+            {
+              "reponse": "L'intensité d'un souffle reflète directement sa gravité.",
+              "explication": "Faux : l'intensité du souffle n'est pas en rapport avec sa gravité."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-034",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Comment est coté un souffle d'intensité maximale, perçu sans stéthoscope ? (une seule réponse attendue)",
+          "cours": {
+            "page": 13,
+            "surligner": "intensité maximale, perçu sans stéthoscope"
+          },
+          "bonnes": [
+            {
+              "reponse": "6/6.",
+              "explication": "6/6 : intensité maximale, perçu sans stéthoscope."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "1/6.",
+              "explication": "1/6 : très faible intensité, difficilement perçu."
+            },
+            {
+              "reponse": "2/6.",
+              "explication": "2/6 : faible intensité."
+            },
+            {
+              "reponse": "3/6.",
+              "explication": "3/6 : intensité moyenne à forte."
+            },
+            {
+              "reponse": "4/6.",
+              "explication": "4/6 : intensité forte avec frémissement."
+            },
+            {
+              "reponse": "5/6.",
+              "explication": "5/6 : intensité très forte avec frémissement, mais encore perçu au stéthoscope."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la cotation de l'intensité des souffles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "intensité forte avec frémissement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle coté 1/6 est de très faible intensité, difficilement perçu.",
+              "explication": "Cotation du cours."
+            },
+            {
+              "reponse": "Un souffle coté 2/6 est de faible intensité.",
+              "explication": "Cotation du cours."
+            },
+            {
+              "reponse": "Un souffle coté 3/6 est d'intensité moyenne à forte.",
+              "explication": "Cotation du cours."
+            },
+            {
+              "reponse": "Un souffle coté 4/6 est d'intensité forte avec frémissement.",
+              "explication": "Le frémissement apparaît à 4/6."
+            },
+            {
+              "reponse": "Un souffle coté 5/6 est d'intensité très forte avec frémissement.",
+              "explication": "Cotation du cours."
+            },
+            {
+              "reponse": "L'intensité d'un souffle n'est pas en rapport avec sa gravité.",
+              "explication": "Message du cours ; elle sert surtout au suivi."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle coté 2/6 s'accompagne d'un frémissement.",
+              "explication": "Faux : le frémissement apparaît à 4/6."
+            },
+            {
+              "reponse": "Un souffle coté 3/6 est perçu sans stéthoscope.",
+              "explication": "Faux : c'est le cas du 6/6."
+            },
+            {
+              "reponse": "Un souffle coté 4/6 est sans frémissement.",
+              "explication": "Faux : 4/6 = intensité forte avec frémissement."
+            },
+            {
+              "reponse": "Un souffle coté 1/6 est d'intensité maximale.",
+              "explication": "Faux : 1/6 est de très faible intensité."
+            },
+            {
+              "reponse": "Un souffle coté 5/6 est de faible intensité.",
+              "explication": "Faux : très forte intensité avec frémissement."
+            },
+            {
+              "reponse": "Plus un souffle est intense, plus la valvulopathie est grave.",
+              "explication": "Faux : l'intensité n'est pas en rapport avec la gravité."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la forme géométrique des souffles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Souffle rectangulaire (intensité constante pendant toute la systole)"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le souffle de l'insuffisance mitrale est rectangulaire.",
+              "explication": "Rectangulaire : insuffisance mitrale, insuffisance tricuspide, communication interventriculaire."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance tricuspide est rectangulaire.",
+              "explication": "Rectangulaire : intensité constante pendant toute la systole."
+            },
+            {
+              "reponse": "Le souffle d'une communication interventriculaire est rectangulaire.",
+              "explication": "Selon le schéma du cours."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est losangique.",
+              "explication": "Losangique : augmente puis diminue au milieu de la systole."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement pulmonaire est losangique.",
+              "explication": "Losangique : rétrécissement aortique et pulmonaire."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est décroissant.",
+              "explication": "Décroissant : débute juste après B2 puis diminue pendant la diastole."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance pulmonaire est décroissant.",
+              "explication": "Décroissant : insuffisance aortique et pulmonaire."
+            },
+            {
+              "reponse": "Le souffle du canal artériel est continu.",
+              "explication": "Continu : à cheval sur B2, en systole et en diastole."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle de l'insuffisance mitrale est losangique.",
+              "explication": "Faux : il est rectangulaire."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est rectangulaire.",
+              "explication": "Faux : il est losangique."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est losangique.",
+              "explication": "Faux : il est décroissant."
+            },
+            {
+              "reponse": "Le souffle du canal artériel est décroissant.",
+              "explication": "Faux : il est continu."
+            },
+            {
+              "reponse": "Le souffle de la communication interventriculaire est continu.",
+              "explication": "Faux : il est rectangulaire."
+            },
+            {
+              "reponse": "Le souffle décroissant débute juste avant B1.",
+              "explication": "Faux : il débute juste après B2."
+            },
+            {
+              "reponse": "Le souffle losangique a une intensité constante pendant toute la systole.",
+              "explication": "Faux : c'est le souffle rectangulaire ; le losangique augmente puis diminue."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-037",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles anomalies donnent un souffle rectangulaire ? (2 réponses attendues)",
+          "cours": {
+            "page": 15,
+            "surligner": "insuffisance mitrale, insuffisance tricuspide"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'insuffisance mitrale donne un souffle rectangulaire.",
+              "explication": "Souffle rectangulaire."
+            },
+            {
+              "reponse": "L'insuffisance tricuspide donne un souffle rectangulaire.",
+              "explication": "Souffle rectangulaire."
+            },
+            {
+              "reponse": "La communication interventriculaire donne un souffle rectangulaire.",
+              "explication": "Souffle rectangulaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rétrécissement aortique donne un souffle rectangulaire.",
+              "explication": "Souffle losangique."
+            },
+            {
+              "reponse": "Le rétrécissement pulmonaire donne un souffle rectangulaire.",
+              "explication": "Souffle losangique."
+            },
+            {
+              "reponse": "L'insuffisance aortique donne un souffle rectangulaire.",
+              "explication": "Souffle décroissant."
+            },
+            {
+              "reponse": "L'insuffisance pulmonaire donne un souffle rectangulaire.",
+              "explication": "Souffle décroissant."
+            },
+            {
+              "reponse": "Le canal artériel donne un souffle rectangulaire.",
+              "explication": "Souffle continu."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le temps (systolique ou diastolique) des souffles, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "prendre le pouls radial en même temps"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est systolique.",
+              "explication": "La valve aortique doit être ouverte en systole : un souffle à ce moment traduit un défaut d'ouverture."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est diastolique.",
+              "explication": "On entend le sang passer alors que la valve doit être fermée."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance mitrale est systolique.",
+              "explication": "La valve mitrale est fermée en systole : un souffle traduit qu'elle ne se ferme pas."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance tricuspide est systolique.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance pulmonaire est diastolique.",
+              "explication": "La valve pulmonaire doit être fermée en diastole."
+            },
+            {
+              "reponse": "Un souffle contemporain du pouls radial est systolique.",
+              "explication": "Méthode du cours : prendre le pouls radial pendant l'auscultation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est diastolique.",
+              "explication": "Faux : il est systolique."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est systolique.",
+              "explication": "Faux : il est diastolique."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance mitrale est diastolique.",
+              "explication": "Faux : il est systolique."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance tricuspide est diastolique.",
+              "explication": "Faux : il est systolique."
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance pulmonaire est systolique.",
+              "explication": "Faux : il est diastolique."
+            },
+            {
+              "reponse": "Un souffle contemporain du pouls radial est diastolique.",
+              "explication": "Faux : il est systolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-039",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Un souffle est entendu au moment où la valve aortique est censée s'ouvrir (en systole). Que traduit-il selon le cours ? (une seule réponse attendue)",
+          "cours": {
+            "page": 15,
+            "surligner": "un défaut d’ouverture et une turbulence du flux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un rétrécissement aortique.",
+              "explication": "Défaut d'ouverture de la valve aortique avec turbulence du flux."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une insuffisance aortique.",
+              "explication": "Elle donne un souffle quand la valve doit être fermée (diastole)."
+            },
+            {
+              "reponse": "Une insuffisance pulmonaire.",
+              "explication": "Souffle diastolique, valve pulmonaire."
+            },
+            {
+              "reponse": "Une insuffisance mitrale.",
+              "explication": "Défaut de fermeture de la valve mitrale, pas d'ouverture de la valve aortique."
+            },
+            {
+              "reponse": "Une insuffisance tricuspide.",
+              "explication": "Défaut de fermeture de la valve tricuspide."
+            },
+            {
+              "reponse": "Un canal artériel.",
+              "explication": "Souffle continu, sans lien avec l'ouverture de la valve aortique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le souffle du rétrécissement aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "obstacle à l’éjection du ventricule gauche vers l’aorte"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rétrécissement aortique est un obstacle à l'éjection du ventricule gauche vers l'aorte.",
+              "explication": "Mécanisme du cours."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est mésosystolique.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est maximal au foyer aortique.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est perçu après B1 et se termine avant B2.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est rude et râpeux.",
+              "explication": "Caractéristique du cours, frémissant."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique irradie vers les carotides.",
+              "explication": "Caractéristique du cours."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique s'intensifie puis diminue.",
+              "explication": "Souffle losangique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est holosystolique, débutant dès B1.",
+              "explication": "Faux : il est mésosystolique, séparé de B1."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est maximal au foyer mitral.",
+              "explication": "Faux : il est maximal au foyer aortique."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est doux.",
+              "explication": "Faux : il est rude et râpeux."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique a une intensité constante.",
+              "explication": "Faux : il est losangique (s'intensifie puis diminue)."
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est diastolique.",
+              "explication": "Faux : il est systolique."
+            },
+            {
+              "reponse": "Le rétrécissement aortique correspond à une régurgitation de l'aorte vers le ventricule gauche.",
+              "explication": "Faux : c'est un obstacle à l'éjection ; la régurgitation définit l'insuffisance aortique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-041",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 37
+              }
+            ]
+          },
+          "question": "À propos du souffle systolique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Insuffisance mitrale : souffle systolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle systolique est présent en cas de fuite mitrale.",
+              "annale": true,
+              "explication": "Le souffle de l'insuffisance mitrale est systolique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle systolique signe une fuite aortique.",
+              "annale": true,
+              "explication": "Le souffle de l'insuffisance aortique est diastolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle systolique de la fuite mitrale est rude et râpeux.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Il est doux, en jet de vapeur, moins râpeux que celui du rétrécissement aortique (partie non abordée cette année). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le souffle systolique de la sténose aortique est doux et aspiratif.",
+              "annale": true,
+              "explication": "Il est rude et râpeux ; doux et aspiratif décrit l'insuffisance aortique. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-042",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 38
+              }
+            ]
+          },
+          "question": "Concernant le souffle du rétrécissement aortique, quelle proposition est exacte ? (une seule réponse attendue)",
+          "cours": {
+            "page": 16,
+            "surligner": "souffle mésosystolique, maximal au foyer aortique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est systolique.",
+              "annale": true,
+              "explication": "Souffle mésosystolique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est maximal au 2e espace intercostal gauche.",
+              "annale": true,
+              "explication": "Il est maximal au foyer aortique, 2e espace intercostal droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est doux, en jet de vapeur.",
+              "annale": true,
+              "explication": "Il est rude et râpeux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique irradie vers l'aisselle.",
+              "annale": true,
+              "explication": "Il irradie vers les carotides. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique s'accompagne d'un dédoublement de B2.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le rétrécissement aortique serré diminue ou abolit B2 ; le dédoublement inspiratoire de B2 est physiologique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-043",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant le souffle du rétrécissement aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "souffle mésosystolique, maximal au foyer aortique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est systolique.",
+              "annale": true,
+              "explication": "Souffle mésosystolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est maximal au 2e espace intercostal droit.",
+              "annale": true,
+              "explication": "C'est le foyer aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique peut être accompagné d'une diminution de B2 au foyer aortique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "B2 est respecté si le rétrécissement n'est pas serré, aboli s'il est serré (tableau non abordé cette année). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle du rétrécissement aortique est diastolique.",
+              "annale": true,
+              "explication": "Il est systolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique est maximal au 2e espace intercostal gauche.",
+              "annale": true,
+              "explication": "C'est le foyer pulmonaire ; le foyer aortique est au 2e espace intercostal droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle du rétrécissement aortique irradie dans l'aisselle.",
+              "annale": true,
+              "explication": "Il irradie vers les carotides. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-044",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 39
+              }
+            ]
+          },
+          "question": "Quelle est l'auscultation typique du rétrécissement aortique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 16,
+            "surligner": "souffle mésosystolique, maximal au foyer aortique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle systolique éjectionnel crescendo-décrescendo au foyer aortique.",
+              "annale": true,
+              "explication": "Souffle mésosystolique, losangique (s'intensifie puis diminue), maximal au foyer aortique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle holosystolique au foyer mitral.",
+              "annale": true,
+              "explication": "C'est l'auscultation de l'insuffisance mitrale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un roulement diastolique à l'apex.",
+              "annale": true,
+              "explication": "C'est l'auscultation du rétrécissement mitral. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un frottement péricardique.",
+              "annale": true,
+              "explication": "Ce n'est pas un souffle valvulaire et ne correspond pas au rétrécissement aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'absence de tout souffle audible.",
+              "annale": true,
+              "explication": "Le rétrécissement aortique donne un souffle systolique. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-045",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2024-2025",
+                "qcm": 43
+              }
+            ]
+          },
+          "question": "Quelle est l'auscultation typique de l'insuffisance mitrale ? (une seule réponse attendue)",
+          "cours": {
+            "page": 15,
+            "surligner": "Insuffisance mitrale : souffle systolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un souffle holosystolique à l'apex, irradiant vers l'aisselle.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Souffle systolique rectangulaire (toute la systole), au foyer mitral ; l'irradiation axillaire est décrite dans la partie non abordée cette année. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un souffle diastolique au foyer aortique.",
+              "annale": true,
+              "explication": "C'est l'insuffisance aortique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle systolique éjectionnel au foyer pulmonaire.",
+              "annale": true,
+              "explication": "Ce n'est pas le foyer mitral : évoque un rétrécissement pulmonaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un roulement diastolique au foyer mitral.",
+              "annale": true,
+              "explication": "C'est le rétrécissement mitral. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle holodiastolique irradiant vers la base.",
+              "annale": true,
+              "explication": "L'insuffisance mitrale donne un souffle systolique. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-046",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "Au décours d'un infarctus, un patient présente une dyspnée brutale avec un souffle intense, holosystolique, maximal au 5e espace intercostal gauche sur la ligne mamelonnaire, irradiant vers l'aisselle. Que vous évoque ce souffle ? (une seule réponse attendue)",
+          "cours": {
+            "page": 15,
+            "surligner": "Insuffisance mitrale : souffle systolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une insuffisance mitrale.",
+              "annale": true,
+              "explication": "Souffle systolique, rectangulaire (holosystolique), maximal au foyer mitral (5e espace intercostal gauche, ligne médio-claviculaire). (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un rétrécissement aortique.",
+              "annale": true,
+              "explication": "Souffle mésosystolique maximal au foyer aortique, irradiant aux carotides. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance aortique.",
+              "annale": true,
+              "explication": "Souffle diastolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance tricuspidienne.",
+              "annale": true,
+              "explication": "Souffle systolique mais maximal au foyer tricuspide (appendice xiphoïde). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une maladie aortique.",
+              "annale": true,
+              "explication": "Le siège mitral et le caractère holosystolique ne l'évoquent pas. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-047",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 14
+              }
+            ]
+          },
+          "question": "Concernant le souffle de l'insuffisance aortique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "doux, humé, lointain, aspiratif"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est diastolique.",
+              "annale": true,
+              "explication": "Souffle diastolique, décroissant. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est doux, humé, lointain et aspiratif.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Description de la partie non abordée cette année. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique s'entend mieux en position assise, penché en avant.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Position décrite dans la partie non abordée cette année. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le souffle de l'insuffisance aortique est systolique.",
+              "annale": true,
+              "explication": "Il est diastolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le souffle de l'insuffisance aortique irradie dans les carotides.",
+              "annale": true,
+              "explication": "C'est le rétrécissement aortique qui irradie aux carotides ; l'insuffisance aortique irradie le long du côté gauche. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-048",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2022-2023",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Devant une syncope à l'effort chez un homme de 75 ans, à quoi pensez-vous avant tout ? (une seule réponse attendue)",
+          "cours": {
+            "page": 15,
+            "surligner": "Rétrécissement aortique : souffle systolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "À un rétrécissement aortique, d'autant qu'il présente un souffle systolique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le rétrécissement aortique donne un souffle systolique ; la syncope d'effort figure dans ses signes fonctionnels (tableau non abordé cette année). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À une insuffisance cardiaque gauche à fraction d'éjection préservée.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "N'explique pas typiquement une syncope d'effort chez ce patient. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "À un rétrécissement pulmonaire, d'autant qu'il présente un souffle diastolique.",
+              "annale": true,
+              "explication": "Le souffle du rétrécissement pulmonaire est losangique, donc systolique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À une insuffisance mitrale, d'autant qu'il présente un souffle systolique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le souffle est bien systolique, mais l'insuffisance mitrale ne donne pas typiquement de syncope d'effort. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "À une insuffisance tricuspide, d'autant qu'il présente un souffle systolique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le souffle est bien systolique, mais elle ne donne pas typiquement de syncope d'effort. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Signes cliniques de l'insuffisance cardiaque gauche et droite"
+      },
+      "questions": [
+        {
+          "id": "cardio-semio-ic-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'auscultation pulmonaire dans l'insuffisance cardiaque gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "bruit clair, bilatéral et symétrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le son normal à l'auscultation des poumons est un bruit clair, bilatéral et symétrique.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "En cas d'insuffisance cardiaque, on entend des crépitants.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Les crépitants humides sont décrits comme des pas dans la neige.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les crépitants humides traduisent de l'eau dans les poumons (œdème pulmonaire).",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Les crépitants secs évoquent une fibrose pulmonaire.",
+              "explication": "Bruit de « scratch » (bande auto-agrippante)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les crépitants secs traduisent un œdème pulmonaire.",
+              "explication": "Faux : ils évoquent une fibrose pulmonaire."
+            },
+            {
+              "reponse": "Les crépitants humides évoquent une fibrose pulmonaire.",
+              "explication": "Faux : ils traduisent un œdème pulmonaire."
+            },
+            {
+              "reponse": "Les crépitants humides donnent un bruit de bande auto-agrippante.",
+              "explication": "Faux : c'est le bruit des crépitants secs."
+            },
+            {
+              "reponse": "Le son normal à l'auscultation des poumons est asymétrique.",
+              "explication": "Faux : il est bilatéral et symétrique."
+            },
+            {
+              "reponse": "Les crépitants secs sont décrits comme des pas dans la neige.",
+              "explication": "Faux : c'est la description des crépitants humides."
+            },
+            {
+              "reponse": "Il existe 4 types de crépitants.",
+              "explication": "Faux : le cours en décrit 2 (humides et secs)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-050",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la radiographie du thorax dans l'insuffisance cardiaque gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "systématisée : elle dessine un lobe pulmonaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Normalement, les poumons apparaissent noirs sur une radiographie car ils sont remplis d'air (clarté).",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Une opacité systématisée dessine un lobe pulmonaire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Une opacité non systématisée ne respecte pas l'architecture pulmonaire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'œdème pulmonaire donne des opacités bilatérales non systématisées, à bords flous.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'œdème pulmonaire réalise un aspect en aile de papillon, à prédominance hilaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La ligne de Damoiseau limite un épanchement pleural des bases.",
+              "explication": "Opacités déclives avec ligne de Damoiseau."
+            },
+            {
+              "reponse": "L'index cardio-thoracique est le rapport entre la largeur de la silhouette cardiaque et la largeur interne du thorax, sur un cliché de face.",
+              "explication": "Définition du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Normalement, les poumons apparaissent blancs sur une radiographie.",
+              "explication": "Faux : ils sont noirs (clarté)."
+            },
+            {
+              "reponse": "Une opacité systématisée ne respecte pas l'architecture pulmonaire.",
+              "explication": "Faux : elle dessine un lobe ; c'est l'opacité non systématisée qui ne la respecte pas."
+            },
+            {
+              "reponse": "L'œdème pulmonaire donne typiquement des opacités systématisées à bords nets.",
+              "explication": "Faux : opacités non systématisées à bords flous."
+            },
+            {
+              "reponse": "L'aspect en aile de papillon prédomine aux apex pulmonaires.",
+              "explication": "Faux : il prédomine autour des hiles."
+            },
+            {
+              "reponse": "L'œdème pulmonaire donne des opacités unilatérales.",
+              "explication": "Faux : elles sont bilatérales."
+            },
+            {
+              "reponse": "L'index cardio-thoracique se mesure sur une radiographie de profil.",
+              "explication": "Faux : il se mesure sur une radiographie de face."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-051",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À partir de quelle valeur de l'index cardio-thoracique parle-t-on de cardiomégalie ? (une seule réponse attendue)",
+          "cours": {
+            "page": 19,
+            "surligner": "Cardiomégalie : supérieure à 0,50 (silhouette cardiaque augmentée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un index supérieur à 0,50.",
+              "explication": "Normal : inférieur ou égal à 0,50 ; cardiomégalie : supérieur à 0,50."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un index inférieur ou égal à 0,50.",
+              "explication": "C'est la valeur normale."
+            },
+            {
+              "reponse": "Un index supérieur à 0,30.",
+              "explication": "Seuil trop bas : jusqu'à 0,50, l'index est normal."
+            },
+            {
+              "reponse": "Un index supérieur à 0,40.",
+              "explication": "Seuil trop bas : jusqu'à 0,50, l'index est normal."
+            },
+            {
+              "reponse": "Un index supérieur à 0,75.",
+              "explication": "Seuil trop haut : la cardiomégalie commence au-delà de 0,50."
+            },
+            {
+              "reponse": "Un index supérieur à 1.",
+              "explication": "Impossible et faux : la cardiomégalie commence au-delà de 0,50."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-052",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les signes cliniques de l'insuffisance cardiaque gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "Le galop est un rythme à 3 temps"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dyspnée est le principal symptôme de l'insuffisance cardiaque gauche.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Le galop est un rythme à 3 temps, avec un bruit surajouté qui survient en diastole.",
+              "explication": "Définition du cours (ajout d'un B3 ou d'un B4)."
+            },
+            {
+              "reponse": "Dans l'insuffisance cardiaque, la pression systolique baisse alors que la pression diastolique reste à peu près constante.",
+              "explication": "D'où une pression artérielle pulsée diminuée."
+            },
+            {
+              "reponse": "Le pouls est filant dans l'insuffisance cardiaque.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Une tension pincée à 9/7 cmHg peut paraître correcte alors que le cœur ne débite pas.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "La tachycardie de l'insuffisance cardiaque gauche traduit une inadéquation du débit.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "L'altération de l'état général et la prise de poids font partie des signes de l'insuffisance cardiaque gauche.",
+              "explication": "Signes cités par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le galop est un bruit surajouté qui survient en systole.",
+              "explication": "Faux : il survient en diastole."
+            },
+            {
+              "reponse": "Le galop est un rythme à 2 temps.",
+              "explication": "Faux : c'est un rythme à 3 temps."
+            },
+            {
+              "reponse": "Dans l'insuffisance cardiaque, la pression artérielle pulsée est augmentée.",
+              "explication": "Faux : elle est diminuée (tension pincée)."
+            },
+            {
+              "reponse": "Le pouls est bondissant dans l'insuffisance cardiaque.",
+              "explication": "Faux : il est filant ; le pouls bondissant évoque l'insuffisance aortique."
+            },
+            {
+              "reponse": "Dans l'insuffisance cardiaque, la pression diastolique baisse alors que la pression systolique reste constante.",
+              "explication": "Inversé : c'est la pression systolique qui baisse."
+            },
+            {
+              "reponse": "Une bradycardie compensatrice est typique de l'insuffisance cardiaque gauche.",
+              "explication": "Faux : on observe une tachycardie."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-053",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle formule donne le débit cardiaque ? (une seule réponse attendue)",
+          "cours": {
+            "page": 19,
+            "surligner": "Débit cardiaque = fréquence cardiaque × volume d’éjection systolique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Débit cardiaque = fréquence cardiaque × volume d'éjection systolique.",
+              "explication": "Formule du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Débit cardiaque = fréquence cardiaque × pression artérielle moyenne.",
+              "explication": "Formule fausse."
+            },
+            {
+              "reponse": "Débit cardiaque = volume d'éjection systolique / fréquence cardiaque.",
+              "explication": "Formule fausse : c'est un produit."
+            },
+            {
+              "reponse": "Débit cardiaque = pression systolique − pression diastolique.",
+              "explication": "C'est la pression artérielle différentielle (pulsée)."
+            },
+            {
+              "reponse": "Débit cardiaque = volume d'éjection systolique × pression artérielle systolique.",
+              "explication": "Formule fausse."
+            },
+            {
+              "reponse": "Débit cardiaque = fréquence respiratoire × volume courant.",
+              "explication": "C'est une formule de ventilation, pas de débit cardiaque."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-054",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la distinction entre insuffisance cardiaque gauche et droite, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "retentissement hépatique (hépatomégalie)"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hépatomégalie est un signe d'insuffisance cardiaque droite.",
+              "explication": "Retentissement hépatique de l'insuffisance cardiaque droite."
+            },
+            {
+              "reponse": "L'amaigrissement, l'anorexie et l'arrêt du transit peuvent se voir dans l'insuffisance cardiaque droite.",
+              "explication": "Signes cités par le cours."
+            },
+            {
+              "reponse": "La congestion veineuse est un signe d'insuffisance cardiaque droite.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "Les œdèmes peuvent se voir dans l'insuffisance cardiaque gauche comme droite.",
+              "explication": "Cités dans les deux listes du cours."
+            },
+            {
+              "reponse": "Une insuffisance cardiaque gauche très défaillante donne une baisse du débit, une pression artérielle pincée et des signes de choc.",
+              "explication": "Selon le cours."
+            },
+            {
+              "reponse": "L'auscultation pulmonaire fait partie de l'examen de l'insuffisance cardiaque gauche.",
+              "explication": "Recherche de crépitants."
+            },
+            {
+              "reponse": "Dans l'insuffisance aortique, l'hyperpulsatilité artérielle s'explique par une pression diastolique effondrée et une pression systolique conservée.",
+              "explication": "Selon le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hépatomégalie est un signe d'insuffisance cardiaque gauche.",
+              "explication": "Faux : c'est un signe d'insuffisance cardiaque droite."
+            },
+            {
+              "reponse": "Les crépitants pulmonaires sont un signe d'insuffisance cardiaque droite.",
+              "explication": "Faux : ils relèvent de l'insuffisance cardiaque gauche."
+            },
+            {
+              "reponse": "L'arrêt du transit est un signe d'insuffisance cardiaque gauche.",
+              "explication": "Faux : il est cité pour l'insuffisance cardiaque droite."
+            },
+            {
+              "reponse": "L'orthopnée est un signe d'insuffisance cardiaque droite.",
+              "explication": "Faux : elle oriente vers l'insuffisance cardiaque gauche."
+            },
+            {
+              "reponse": "L'ascite est un signe d'insuffisance cardiaque gauche.",
+              "explication": "Faux : c'est un signe d'insuffisance cardiaque droite."
+            },
+            {
+              "reponse": "Dans l'insuffisance aortique, la pression systolique est effondrée alors que la pression diastolique est conservée.",
+              "explication": "Inversé : la pression diastolique est effondrée."
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-055",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2021-2022",
+                "qcm": 16
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2018-2019",
+                "qcm": 40
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 12
+              }
+            ]
+          },
+          "question": "Parmi les signes suivants, lesquels peut-on retrouver dans l'insuffisance cardiaque droite ?",
+          "cours": {
+            "page": 20,
+            "surligner": "Pour l’insuffisance cardiaque droite"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une turgescence jugulaire peut se voir dans l'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "Signe de congestion veineuse systémique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un reflux hépato-jugulaire peut se voir dans l'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "Signe de congestion veineuse systémique, provoqué par l'appui sur le foie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des œdèmes des membres inférieurs peuvent se voir dans l'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "Les œdèmes figurent dans les signes d'insuffisance cardiaque droite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un épanchement pleural peut se voir dans l'insuffisance cardiaque droite.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours ne le cite que pour l'insuffisance cardiaque gauche ; l'épanchement des séreuses est classiquement décrit dans l'insuffisance cardiaque droite ou globale. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Des râles sibilants sont un signe d'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "L'insuffisance cardiaque droite ne donne pas de signes auscultatoires pulmonaires ; les crépitants relèvent de l'insuffisance cardiaque gauche. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-056",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2019-2020",
+                "qcm": 42
+              }
+            ]
+          },
+          "question": "Parmi les signes suivants, lesquels peut-on retrouver dans l'insuffisance cardiaque ?",
+          "cours": {
+            "page": 19,
+            "surligner": "On voit parfois des épanchements pleuraux dans les bases"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une turgescence jugulaire peut se voir dans l'insuffisance cardiaque.",
+              "annale": true,
+              "explication": "Signe clinique évocateur d'insuffisance cardiaque. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un reflux hépato-jugulaire peut se voir dans l'insuffisance cardiaque.",
+              "annale": true,
+              "explication": "Signe de congestion recherché à la palpation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un épanchement pleural peut se voir dans l'insuffisance cardiaque.",
+              "annale": true,
+              "explication": "Épanchements pleuraux des bases à la radiographie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des œdèmes des membres inférieurs peuvent se voir dans l'insuffisance cardiaque.",
+              "annale": true,
+              "explication": "O d'EPOF. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Des râles sibilants sont un signe d'insuffisance cardiaque.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours décrit des crépitants, pas des sibilants ; des sibilants peuvent toutefois se voir dans l'œdème pulmonaire (« pseudo-asthme cardiaque »). (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-057",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2023-2024",
+                "qcm": 37
+              }
+            ]
+          },
+          "question": "Quels sont les signes cliniques de l'insuffisance cardiaque droite ?",
+          "cours": {
+            "page": 20,
+            "surligner": "Pour l’insuffisance cardiaque droite"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les œdèmes des membres inférieurs sont un signe d'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "Cités pour l'insuffisance cardiaque droite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La turgescence jugulaire est un signe d'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "Signe de congestion veineuse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La prise de poids est un signe d'insuffisance cardiaque droite.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Par rétention hydrosodée et œdèmes. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dyspnée d'effort est un signe d'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "La dyspnée est le principal symptôme de l'insuffisance cardiaque gauche. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un souffle d'insuffisance pulmonaire est un signe d'insuffisance cardiaque droite.",
+              "annale": true,
+              "explication": "Ne fait pas partie des signes d'insuffisance cardiaque droite du cours. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-058",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 7
+              }
+            ]
+          },
+          "question": "Après un infarctus compliqué d'un souffle d'insuffisance mitrale, le patient ne tient pas la position allongée (sensation d'asphyxie), il est tachycarde, avec des râles crépitants dans les deux champs pulmonaires ; pas de turgescence jugulaire, pas d'hépatomégalie, abdomen non distendu, mollets souples et indolores. Que retenez-vous de l'examen ?",
+          "cours": {
+            "page": 3,
+            "surligner": "qui apparaît ou s’aggrave en position allongée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une orthopnée.",
+              "annale": true,
+              "explication": "Dyspnée qui apparaît en position allongée. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance ventriculaire gauche.",
+              "annale": true,
+              "explication": "Orthopnée, crépitants pulmonaires bilatéraux, tachycardie. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une phlébite.",
+              "annale": true,
+              "explication": "Les mollets sont souples et indolores. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance ventriculaire droite.",
+              "annale": true,
+              "explication": "Pas de turgescence jugulaire, d'hépatomégalie ni d'ascite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une insuffisance cardiaque globale.",
+              "annale": true,
+              "explication": "Aucun signe d'insuffisance cardiaque droite. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-semio-ic-059",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Sémiologie",
+                "annee": "2015-2016",
+                "qcm": 13
+              }
+            ]
+          },
+          "question": "Concernant l'œdème aigu du poumon, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "ils indiquent de l’eau dans les poumons"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'œdème aigu du poumon se traduit par une polypnée majeure asphyxiante.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Tableau clinique classique de l'œdème aigu du poumon. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'œdème aigu du poumon est lié à une élévation des pressions de remplissage du ventricule gauche.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le ventricule gauche défaillant transmet la hausse de pression au circuit pulmonaire. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'œdème aigu du poumon est lié à une extravasation d'eau des capillaires pulmonaires vers les alvéoles.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Mécanisme de l'œdème pulmonaire. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'œdème aigu du poumon s'accompagne d'une hypoxémie sévère.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'eau alvéolaire gêne les échanges gazeux. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'œdème aigu du poumon est une manifestation d'insuffisance cardiaque droite aiguë.",
+              "annale": true,
+              "explication": "Il relève de l'insuffisance cardiaque gauche (crépitants, orthopnée). (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Prompt de génération de cours — Version v5.0 (08/11/2026)
+# Prompt de génération de cours — Version v5.1 (09/11/2026)
 # Rappel : incrémenter la version à chaque modification de ce prompt (voir "Journal des versions").
 
 Tu vas m'aider à retravailler des notes de cours en générant 2 fichiers PDF.
@@ -45,7 +45,19 @@ Le fichier JSON de QCM généré ensuite portera le même nom de base.
 - Commence par les métadonnées, puis le plan complet du cours (parties, sous-parties).
 - Au début de chaque chapitre, un encadré "Mots-clés" liste tous les mots-clés
   du chapitre, séparés par des points-virgules.
-- Reprend ensuite les notions clés de chaque chapitre, de façon concise.
+- Reprend ensuite les notions clés de chaque chapitre, de façon concise, organisées
+  selon le plan du cours :
+  - Titres de chapitres et de sous-chapitres (et sous-sous-chapitres si le cours en
+    a), numérotés exactement comme dans le plan du début (1, 1.1, 1.1.1).
+  - Hiérarchie visible d'un coup d'œil : chapitre = bandeau coloré pleine largeur
+    de colonne ; sous-chapitre = titre en couleur avec un filet en dessous ;
+    sous-sous-chapitre = petit titre en gras.
+  - Chaque notion est rangée sous son sous-chapitre, sans bloc de texte qui
+    mélange plusieurs sous-chapitres.
+  - L'encadré "Mots-clés" reste au début de chaque chapitre.
+  - Jamais de titre de sous-chapitre seul en bas de colonne : il reste avec au
+    moins 2 lignes de son contenu.
+  - En haut de chaque page, rappel du chapitre en cours (ex. « Chap. 2 — Régulation »).
 - Notions importantes en gras et en couleur (bleu). Abréviations autorisées.
 - Termine par un encadré "Pièges / points corrigés", un encadré "À ne pas confondre",
   puis les tableaux comparatifs (voir ci-dessous).
@@ -157,6 +169,8 @@ Règle :
 - MINEUR (passage à X.Y, ex. 4.3 → 4.4) : la modification ne change pas radicalement
   la structure (ajustement de forme ou de contenu, reformulation, ajout ou
   modification d'une partie du résumé).
+- v5.1 (09/11/2026) : résumé organisé par chapitres et sous-chapitres numérotés
+  comme le plan, hiérarchie visuelle des titres, rappel du chapitre en haut de page.
 - v5.0 (08/11/2026) : fichier 2 : définition et/ou exemple tirés du web à la
   première apparition d'un terme insuffisamment défini, étiquette
   [Explication tirée du web], exclus des QCM (majeur : ajoute du texte et décale
