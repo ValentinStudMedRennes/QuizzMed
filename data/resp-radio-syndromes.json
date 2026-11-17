@@ -1,0 +1,4448 @@
+{
+  "meta": {
+    "theme": "Appareil respiratoire",
+    "section": "Sémiologie radiologique",
+    "titre": "Sémiologie radiologique thoracique : principaux syndromes",
+    "description": "Lecture de la radiographie et du scanner thoraciques : syndromes alvéolaire, interstitiel, nodulaire, cavitaire, bronchique, pleural et médiastinal.",
+    "version": "5.1",
+    "cours": {
+      "fichier": "resp-radio-syndromes.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Radioanatomie"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-001",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont des critères d'une bonne radiographie thoracique de face ? (3 réponses attendues)",
+          "cours": {
+            "page": 2,
+            "surligner": "en inspiration maximale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cliché est réalisé en inspiration maximale.",
+              "explication": "Critère de qualité rappelé par le cours."
+            },
+            {
+              "reponse": "Les omoplates sont dégagées des champs pulmonaires.",
+              "explication": "Critère de qualité rappelé par le cours."
+            },
+            {
+              "reponse": "Le cliché est de face stricte : la ligne des épineuses se projette au centre de la clarté trachéale.",
+              "explication": "Définition de la face stricte."
+            },
+            {
+              "reponse": "La pénétration est bonne.",
+              "explication": "Critère de qualité rappelé par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cliché est réalisé en expiration forcée.",
+              "explication": "Il doit être réalisé en inspiration maximale."
+            },
+            {
+              "reponse": "Les omoplates se projettent sur les champs pulmonaires.",
+              "explication": "Elles doivent être dégagées."
+            },
+            {
+              "reponse": "Le cliché est volontairement légèrement oblique pour dégager le cœur.",
+              "explication": "Le cliché doit être de face stricte."
+            },
+            {
+              "reponse": "La ligne des épineuses se projette sur le bord droit de la clarté trachéale.",
+              "explication": "Elle se projette au centre de la clarté trachéale."
+            },
+            {
+              "reponse": "Les structures antérieures et postérieures sont décalées les unes par rapport aux autres.",
+              "explication": "De face stricte, elles s'alignent."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la lecture du scanner thoracique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Le poumon droit apparaît donc à gauche de l'image"
+          },
+          "bonnes": [
+            {
+              "reponse": "Sur une coupe axiale, le poumon droit apparaît à gauche de l'image.",
+              "explication": "La droite et la gauche sont inversées."
+            },
+            {
+              "reponse": "On regarde la coupe comme si l'on se plaçait sous les pieds du patient.",
+              "explication": "C'est la convention de lecture qui explique l'inversion droite/gauche."
+            },
+            {
+              "reponse": "Le scanner thoracique correspond à environ 300 coupes axiales formant un volume continu.",
+              "explication": "Chiffre donné à l'oral."
+            },
+            {
+              "reponse": "Le volume peut être observé en coupes axiales, coronales et sagittales.",
+              "explication": "Le scanner est un volume que l'on parcourt dans tous les plans."
+            },
+            {
+              "reponse": "La coupe sagittale permet d'observer plus précisément les lobes.",
+              "explication": "Elle montre bien les scissures."
+            },
+            {
+              "reponse": "Modifier la fenêtre permet de mettre en valeur les poumons, les structures vasculaires ou les tissus.",
+              "explication": "Rôle du fenêtrage selon le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sur une coupe axiale, le poumon droit apparaît à droite de l'image.",
+              "explication": "Il apparaît à gauche : droite et gauche sont inversées."
+            },
+            {
+              "reponse": "On regarde la coupe comme si l'on se plaçait au-dessus de la tête du patient.",
+              "explication": "On se place sous les pieds du patient."
+            },
+            {
+              "reponse": "Le scanner thoracique comporte une trentaine de coupes.",
+              "explication": "Il en comporte environ 300."
+            },
+            {
+              "reponse": "Le scanner thoracique ne permet d'obtenir que des coupes axiales.",
+              "explication": "Le volume se reconstruit aussi en coronal et en sagittal."
+            },
+            {
+              "reponse": "La coupe coronale est celle qui permet d'observer le plus précisément les lobes.",
+              "explication": "Le cours cite la coupe sagittale."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les lobes et les scissures, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Le culmen et la lingula ne sont pas séparés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le poumon droit comporte 3 lobes et 2 scissures.",
+              "explication": "Grande scissure (oblique) et petite scissure (horizontale)."
+            },
+            {
+              "reponse": "Le poumon gauche comporte 2 lobes séparés par une seule scissure.",
+              "explication": "Elle équivaut à la grande scissure droite."
+            },
+            {
+              "reponse": "Le lobe supérieur gauche correspond au lobe supérieur droit et au lobe moyen réunis.",
+              "explication": "Il se divise en culmen et lingula."
+            },
+            {
+              "reponse": "La lingula équivaut topographiquement au lobe moyen droit.",
+              "explication": "Partie inférieure et antérieure du lobe supérieur gauche."
+            },
+            {
+              "reponse": "Le culmen correspond fonctionnellement au lobe supérieur droit.",
+              "explication": "Partie supérieure et antérieure du lobe supérieur gauche."
+            },
+            {
+              "reponse": "La plèvre viscérale recouvre la totalité des lobes.",
+              "explication": "Le parenchyme en est indissociable."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le culmen et la lingula sont séparés par une scissure.",
+              "explication": "Piège classique : aucune scissure ne les sépare."
+            },
+            {
+              "reponse": "Le poumon gauche possède une petite scissure horizontale.",
+              "explication": "Il n'a qu'une scissure, oblique."
+            },
+            {
+              "reponse": "La lingula est la partie supérieure du lobe supérieur gauche.",
+              "explication": "C'est la partie inférieure et antérieure ; la partie supérieure est le culmen."
+            },
+            {
+              "reponse": "Le lobe moyen se situe en haut et en arrière du poumon droit.",
+              "explication": "Il est en avant, au milieu."
+            },
+            {
+              "reponse": "La scissure gauche équivaut à la petite scissure droite.",
+              "explication": "Elle équivaut à la grande scissure droite."
+            },
+            {
+              "reponse": "Une scissure correspond à l'accolement de la plèvre viscérale et de la plèvre pariétale.",
+              "explication": "C'est l'accolement des feuillets viscéraux de deux lobes."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-004",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2024-2025",
+                "qcm": 13
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2020-2021",
+                "qcm": 5
+              }
+            ]
+          },
+          "question": "Concernant les lobes et les scissures, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "en avant au milieu le lobe moyen"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au sein du poumon droit, le lobe moyen se situe en bas et en avant.",
+              "annale": true,
+              "explication": "Le lobe moyen est en avant, au milieu, sous la petite scissure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La petite scissure droite est généralement visible sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "Elle est tangente au rayon de face (l'opacité alvéolaire du lobe supérieur droit bute dessus). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La grande scissure droite est généralement visible sur un cliché thoracique de profil.",
+              "annale": true,
+              "explication": "Les grandes scissures ne se voient pas de face mais de profil (épanchement scissural, atélectasie). (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La scissure gauche sépare le culmen de la lingula.",
+              "annale": true,
+              "explication": "Elle sépare le lobe supérieur du lobe inférieur ; culmen et lingula ne sont pas séparés par une scissure. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une scissure correspond anatomiquement à l'accolement d'un feuillet de plèvre viscérale et d'un feuillet de plèvre pariétale.",
+              "annale": true,
+              "explication": "C'est l'accolement de deux feuillets viscéraux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La grande scissure droite est généralement visible sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "Elle n'est pas tangente au rayon de face. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-005",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2022-2023",
+                "qcm": 1
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2021-2022",
+                "qcm": 14
+              }
+            ]
+          },
+          "question": "Concernant l'anatomie radiologique des scissures, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "accolement des feuillets viscéraux de deux lobes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les lobes inférieurs sont en situation postérieure par rapport aux lobes supérieurs et moyen.",
+              "annale": true,
+              "explication": "Le lobe inférieur est en bas et en arrière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une scissure correspond anatomiquement à l'accolement de deux feuillets de plèvre viscérale.",
+              "annale": true,
+              "explication": "Définition du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La petite scissure droite est visible sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "Elle est tangente au rayon de face. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les lobes supérieurs sont postérieurs aux lobes inférieurs.",
+              "annale": true,
+              "explication": "C'est l'inverse : les lobes inférieurs sont postérieurs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La grande scissure droite est visible sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "Les grandes scissures (obliques) ne sont pas tangentes au rayon de face. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La scissure gauche (grande scissure) est visible sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "Elle est oblique, non tangente au rayon de face. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-006",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2023-2024",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant les lobes, les scissures et leur imagerie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "La coupe sagittale permet d'observer plus précisément les lobes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les lobes supérieur et moyen sont en situation antérieure par rapport au lobe inférieur.",
+              "annale": true,
+              "explication": "Le lobe inférieur est en bas et en arrière. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une scissure correspond anatomiquement à l'accolement de deux feuillets de plèvre viscérale.",
+              "annale": true,
+              "explication": "Définition du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une atélectasie lobaire entraîne un déplacement des scissures.",
+              "annale": true,
+              "explication": "Rétraction scissurale : le lobe rétracté attire les scissures. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La petite scissure droite n'est jamais visible sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "Elle est visible de face. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les scissures sont difficilement visibles en scanner.",
+              "annale": true,
+              "explication": "Elles se voient bien, notamment en coupe sagittale. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-007",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2019-2020",
+                "qcm": 9
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2018-2019",
+                "qcm": 31
+              }
+            ]
+          },
+          "question": "Concernant les scissures et la radiographie thoracique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "car elles ne sont pas tangentes au rayon"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une scissure correspond à l'accolement de deux feuillets de plèvre viscérale.",
+              "annale": true,
+              "explication": "Définition du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur une radiographie de face réalisée debout, la petite scissure est généralement visible.",
+              "annale": true,
+              "explication": "Elle est tangente au rayon de face. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La petite scissure droite est généralement visible sur un cliché thoracique de profil.",
+              "annale": true,
+              "explication": "De profil, on la voit monter dans l'atélectasie du lobe supérieur droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur une radiographie de profil réalisée debout, toutes les scissures sont généralement visibles.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "De profil, les deux grandes scissures et la petite scissure sont tangentes au rayon. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sur une radiographie de face réalisée debout, la grande scissure droite est généralement visible.",
+              "annale": true,
+              "explication": "Elle n'est pas tangente au rayon de face. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La grande scissure gauche sépare le culmen de la lingula.",
+              "annale": true,
+              "explication": "Elle sépare les lobes supérieur et inférieur gauches. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur une radiographie de face réalisée couché, un pneumothorax se traduit par un niveau hydro-aérique.",
+              "annale": true,
+              "explication": "Un niveau hydro-aérique suppose du liquide et ne se voit que debout ; couché, l'air est en avant. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-008",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2016-2017",
+                "qcm": 35
+              }
+            ]
+          },
+          "question": "Concernant la formation de l'image radiologique et l'anatomie lobaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "loi des incidences tangentielles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une ligne prend naissance dans une image radiographique lorsque le rayon directeur aborde tangentiellement l'interface séparant deux structures d'opacité différente.",
+              "annale": true,
+              "explication": "Loi des incidences tangentielles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les parois du lobule pulmonaire secondaire ne sont pas visibles sur un scanner thoracique normal.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Les septa interlobulaires ne deviennent visibles que lorsqu'ils s'épaississent. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Le lobe moyen est en situation antérieure.",
+              "annale": true,
+              "explication": "En avant, au milieu. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le lobe inférieur est en situation postérieure.",
+              "annale": true,
+              "explication": "En bas et en arrière. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le signe de la silhouette permet de déterminer si une opacité pulmonaire présente des contours nets ou flous.",
+              "annale": true,
+              "explication": "Il permet de situer une opacité par rapport à une structure de même densité. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-009",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2019-2020",
+                "qcm": 16
+              }
+            ]
+          },
+          "question": "Quelles sont les techniques d'imagerie les plus utilisées actuellement en pathologie respiratoire ? (2 réponses attendues)",
+          "cours": {
+            "page": 1,
+            "surligner": "sur la radiographie thoracique et sur le scanner"
+          },
+          "bonnes": [
+            {
+              "reponse": "La radiographie.",
+              "annale": true,
+              "explication": "Technique de base du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La tomodensitométrie (scanner).",
+              "annale": true,
+              "explication": "Plus sensible que la radiographie pour la plupart des syndromes. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'échographie.",
+              "annale": true,
+              "explication": "Elle n'est pas une des deux techniques principales. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La bronchographie.",
+              "annale": true,
+              "explication": "Technique ancienne, non citée. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'imagerie par résonance magnétique.",
+              "annale": true,
+              "explication": "Peu utilisée pour le poumon. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-010",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2015-2016",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Quelles techniques d'imagerie sont les plus utilisées actuellement en pathologie respiratoire ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Le scanner est bien meilleur que la radiographie"
+          },
+          "bonnes": [
+            {
+              "reponse": "La radiographie conventionnelle.",
+              "annale": true,
+              "explication": "Technique de base. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le scanner à rayons X.",
+              "annale": true,
+              "explication": "Technique de référence, plus sensible. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La tomodensitométrie.",
+              "annale": true,
+              "explication": "C'est le scanner. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'échographie.",
+              "annale": true,
+              "explication": "Elle n'est pas une technique principale du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'imagerie par résonance magnétique.",
+              "annale": true,
+              "explication": "Peu utilisée pour le poumon. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La bronchographie.",
+              "annale": true,
+              "explication": "Technique ancienne. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome alvéolaire"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition du syndrome alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "remplacement de l'air des alvéoles par du liquide"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome alvéolaire correspond au remplacement de l'air des alvéoles par du liquide (ou des cellules).",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La condensation correspond à un comblement alvéolaire total.",
+              "explication": "Elle efface bronches, vaisseaux et scissures."
+            },
+            {
+              "reponse": "Le verre dépoli correspond à un comblement alvéolaire partiel.",
+              "explication": "Surdensité beaucoup moins marquée."
+            },
+            {
+              "reponse": "Le verre dépoli est presque invisible en radiographie et visible au scanner.",
+              "explication": "D'où l'intérêt du scanner."
+            },
+            {
+              "reponse": "Au sein d'un verre dépoli, les vaisseaux restent visibles en transparence.",
+              "explication": "Il ne les efface pas."
+            },
+            {
+              "reponse": "Une condensation n'entraîne pas de perte de volume.",
+              "explication": "Contrairement à l'atélectasie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La condensation correspond à un comblement alvéolaire partiel.",
+              "explication": "Comblement total ; le partiel est le verre dépoli."
+            },
+            {
+              "reponse": "Le verre dépoli efface les vaisseaux.",
+              "explication": "Les vaisseaux restent visibles à travers."
+            },
+            {
+              "reponse": "Le verre dépoli se voit mieux en radiographie qu'au scanner.",
+              "explication": "Il est presque invisible en radiographie."
+            },
+            {
+              "reponse": "Une condensation s'accompagne d'une perte de volume du lobe.",
+              "explication": "Il n'y a pas de perte de volume."
+            },
+            {
+              "reponse": "Le syndrome alvéolaire correspond à une altération de l'interstitium pulmonaire.",
+              "explication": "C'est la définition du syndrome interstitiel."
+            },
+            {
+              "reponse": "Les comblements alvéolaires ne confluent jamais.",
+              "explication": "Ils confluent pour former une condensation."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-012",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est l'origine la plus fréquente d'un syndrome alvéolaire ? (une seule réponse attendue)",
+          "cours": {
+            "page": 5,
+            "surligner": "dans la plupart des cas infectieuse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une pneumopathie infectieuse.",
+              "explication": "Origine infectieuse dans environ 95 % des cas (insistance de l'intervenant)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une origine tumorale (adénocarcinome mucineux, lymphome).",
+              "explication": "Possible mais bien moins fréquente que l'infection."
+            },
+            {
+              "reponse": "Une origine inflammatoire (collagénose, vascularite).",
+              "explication": "Possible mais bien moins fréquente que l'infection."
+            },
+            {
+              "reponse": "Une origine traumatique (contusion pulmonaire).",
+              "explication": "Possible mais bien moins fréquente que l'infection."
+            },
+            {
+              "reponse": "Une origine congénitale (séquestration).",
+              "explication": "Possible mais bien moins fréquente que l'infection."
+            },
+            {
+              "reponse": "Une fibrose pulmonaire idiopathique.",
+              "explication": "Elle donne un syndrome interstitiel."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-013",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont des caractères de l'opacité alvéolaire ? (3 réponses attendues)",
+          "cours": {
+            "page": 5,
+            "surligner": "Les 8 caractères de l'opacité alvéolaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Opacité de densité hydrique.",
+              "explication": "1er des 8 caractères."
+            },
+            {
+              "reponse": "Limites floues, sauf si l'opacité s'appuie sur une scissure.",
+              "explication": "2e caractère."
+            },
+            {
+              "reponse": "Confluence des opacités.",
+              "explication": "3e caractère."
+            },
+            {
+              "reponse": "Bronchogramme aérique.",
+              "explication": "4e caractère, signe important."
+            },
+            {
+              "reponse": "Opacité systématisée (lobe, segment).",
+              "explication": "5e caractère."
+            },
+            {
+              "reponse": "Topographie péri-hilaire centrale.",
+              "explication": "6e caractère, très inconstant."
+            },
+            {
+              "reponse": "Signe de la silhouette.",
+              "explication": "7e caractère, signe majeur."
+            },
+            {
+              "reponse": "Évolution rapide.",
+              "explication": "8e caractère."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Limites nettes sur tout le pourtour de l'opacité.",
+              "explication": "Les limites sont floues sauf appui scissural."
+            },
+            {
+              "reponse": "Perte de volume avec rétraction scissurale.",
+              "explication": "Signe d'atélectasie."
+            },
+            {
+              "reponse": "Niveau hydro-aérique.",
+              "explication": "Signe de cavité ou d'hydropneumothorax."
+            },
+            {
+              "reponse": "Densité graisseuse.",
+              "explication": "L'opacité est de densité hydrique."
+            },
+            {
+              "reponse": "Attraction du médiastin.",
+              "explication": "Signe d'atélectasie."
+            },
+            {
+              "reponse": "Limite supérieure concave vers le haut (courbe de Damoiseau).",
+              "explication": "Signe d'épanchement pleural liquidien."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le bronchogramme aérique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "persistance de l'aération des bronches"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il correspond à la visibilité de bronches encore aérées au sein d'une condensation.",
+              "explication": "Le parenchyme est comblé, les bronches restent aérées."
+            },
+            {
+              "reponse": "Il se traduit par des hyperclartés tubulées qui bifurquent au sein de l'opacité.",
+              "explication": "Clartés noires, linéaires, ramifiées."
+            },
+            {
+              "reponse": "Il n'est pas systématique : s'il y a beaucoup de liquide, il peut ne plus être visible.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Il est assez spécifique d'un phénomène infectieux.",
+              "explication": "L'infection est en aval d'une bronche restée perméable."
+            },
+            {
+              "reponse": "L'atélectasie par obstruction bronchique ne s'accompagne en général pas de bronchogramme.",
+              "explication": "L'air n'arrive plus dans les bronches."
+            },
+            {
+              "reponse": "L'alvéologramme correspond à des clartés arrondies, polycycliques, au sein d'une opacité.",
+              "explication": "Description des diapositives."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le bronchogramme aérique est constant dans le syndrome alvéolaire.",
+              "explication": "Il n'est pas systématique."
+            },
+            {
+              "reponse": "Le bronchogramme aérique traduit une obstruction de la bronche.",
+              "explication": "Il traduit au contraire une bronche perméable."
+            },
+            {
+              "reponse": "Le bronchogramme aérique se traduit par des opacités tubulées blanches.",
+              "explication": "Ce sont des clartés (noires)."
+            },
+            {
+              "reponse": "Le bronchogramme aérique est caractéristique de l'atélectasie.",
+              "explication": "L'atélectasie est sans bronchogramme dans 90 % des cas."
+            },
+            {
+              "reponse": "Dans une pneumopathie, la bronche est obstruée en amont de l'infection.",
+              "explication": "La bronche reste perméable."
+            },
+            {
+              "reponse": "Un épanchement pleural liquidien libre présente un bronchogramme aérique.",
+              "explication": "Il est sans bronchogramme : ce n'est pas le poumon qui est malade."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la systématisation et les limites de l'opacité alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "on parle de pneumonie franche lobaire aiguë"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une opacité systématisée se rapporte à une structure anatomique bien définie (poumon, lobe, segment ou lobule).",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Dans le syndrome alvéolaire typique, l'opacité est limitée à un lobe du fait de la barrière des scissures.",
+              "explication": "Pneumonie franche lobaire aiguë."
+            },
+            {
+              "reponse": "Une atteinte limitée à un segment est plus rare, faute de barrière anatomique à ce niveau.",
+              "explication": "Précision du cours."
+            },
+            {
+              "reponse": "Les limites de l'opacité alvéolaire sont floues, sauf lorsqu'elle s'appuie sur une scissure.",
+              "explication": "Appui scissural = limite nette."
+            },
+            {
+              "reponse": "Une opacité du lobe supérieur droit peut avoir une limite inférieure nette au contact de la petite scissure.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "L'évolution d'une opacité alvéolaire est le plus souvent rapide.",
+              "explication": "8e caractère."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "« Systématisée » signifie que le caractère est présent dans tous les cas.",
+              "explication": "« Systématisée » ne veut pas dire « systématique »."
+            },
+            {
+              "reponse": "L'infection franchit fréquemment les scissures pour devenir multilobaire.",
+              "explication": "C'est très rare."
+            },
+            {
+              "reponse": "La topographie péri-hilaire est un caractère constant.",
+              "explication": "Ce caractère est très inconstant."
+            },
+            {
+              "reponse": "Sur une radiographie de face, une opacité alvéolaire gauche bute sur la grande scissure, ce qui permet de déterminer le lobe atteint.",
+              "explication": "Les grandes scissures ne sont pas visibles de face."
+            },
+            {
+              "reponse": "Les 8 caractères de l'opacité alvéolaire sont toujours présents simultanément.",
+              "explication": "Ils ne sont jamais tous présents : c'est leur association qui compte."
+            },
+            {
+              "reponse": "Une opacité qui s'appuie sur une scissure a des limites floues de ce côté.",
+              "explication": "La limite est nette au niveau de l'appui scissural."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le signe de la silhouette, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "évoque une pneumopathie du lobe moyen"
+          },
+          "bonnes": [
+            {
+              "reponse": "Deux opacités de densité hydrique, au contact et dans le même plan, se confondent sans limite discernable.",
+              "explication": "Définition du signe de la silhouette."
+            },
+            {
+              "reponse": "Une opacité qui efface le bord droit du cœur est située dans le même plan que lui, en avant.",
+              "explication": "Signe de la silhouette positif."
+            },
+            {
+              "reponse": "Une opacité basse droite effaçant le bord droit du cœur évoque une pneumopathie du lobe moyen.",
+              "explication": "Le lobe moyen est antérieur, au contact du cœur."
+            },
+            {
+              "reponse": "Une opacité basse droite laissant visible le bord droit du cœur est postérieure, dans le lobe inférieur droit.",
+              "explication": "Absence de signe de la silhouette."
+            },
+            {
+              "reponse": "Une ligne n'apparaît que si les rayons passent tangentiellement à l'interface entre deux densités différentes.",
+              "explication": "Loi des incidences tangentielles, qui explique le signe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une opacité effaçant le bord droit du cœur siège dans le lobe inférieur droit.",
+              "explication": "Elle est antérieure : lobe moyen."
+            },
+            {
+              "reponse": "Une opacité qui laisse visible le bord du cœur est au contact du cœur.",
+              "explication": "Elle est dans un plan postérieur au cœur."
+            },
+            {
+              "reponse": "Le signe de la silhouette s'applique à deux opacités de densités différentes.",
+              "explication": "Les deux opacités sont de même densité (hydrique)."
+            },
+            {
+              "reponse": "Une ligne apparaît quand les rayons abordent perpendiculairement l'interface.",
+              "explication": "Ils doivent l'aborder tangentiellement."
+            },
+            {
+              "reponse": "Le signe de la silhouette permet de distinguer une densité liquide d'une densité tissulaire.",
+              "explication": "On ne distingue pas le liquide du tissu."
+            },
+            {
+              "reponse": "Un signe de la silhouette négatif signifie que l'opacité est en avant du cœur.",
+              "explication": "Elle est en arrière du cœur."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la densité et la détection de l'opacité alvéolaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "L'opacité est aussi opaque que le cœur"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'opacité alvéolaire est aussi opaque que le cœur.",
+              "explication": "Densité hydrique."
+            },
+            {
+              "reponse": "Une « densité hydrique » ne permet pas de distinguer un contenu liquide d'un contenu tissulaire.",
+              "explication": "Elle ne veut pas dire que le contenu est de l'eau."
+            },
+            {
+              "reponse": "La confluence des opacités est un processus évolutif.",
+              "explication": "Avec le temps, les condensations confluent."
+            },
+            {
+              "reponse": "Le scanner est plus sensible que la radiographie pour les nodules alvéolaires débutants.",
+              "explication": "Précision des diapositives."
+            },
+            {
+              "reponse": "Le syndrome alvéolaire est le plus souvent identifiable sur les clichés simples.",
+              "explication": "La radiographie suffit le plus souvent."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une densité hydrique signifie que l'opacité contient de l'eau.",
+              "explication": "Liquide et tissu ont la même densité."
+            },
+            {
+              "reponse": "L'opacité alvéolaire est de densité graisseuse.",
+              "explication": "Elle est de densité hydrique."
+            },
+            {
+              "reponse": "La radiographie est plus sensible que le scanner pour les nodules alvéolaires débutants.",
+              "explication": "C'est le scanner."
+            },
+            {
+              "reponse": "Le syndrome alvéolaire n'est généralement visible qu'au scanner.",
+              "explication": "Il est le plus souvent visible sur les clichés simples."
+            },
+            {
+              "reponse": "L'opacité alvéolaire est nettement moins dense que le cœur.",
+              "explication": "Elle est aussi opaque que le cœur."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-018",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2018-2019",
+                "qcm": 27
+              }
+            ]
+          },
+          "question": "Quels sont les signes les plus typiques d'un syndrome alvéolaire ?",
+          "cours": {
+            "page": 5,
+            "surligner": "c'est leur association qui"
+          },
+          "bonnes": [
+            {
+              "reponse": "Opacité de densité hydrique.",
+              "annale": true,
+              "explication": "1er caractère de l'opacité alvéolaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Présence d'un bronchogramme aérique.",
+              "annale": true,
+              "explication": "Signe important, assez spécifique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Systématisation à un lobe ou à un segment pulmonaire.",
+              "annale": true,
+              "explication": "Opacité systématisée. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Limites nettes et régulières, sauf en regard des scissures.",
+              "annale": true,
+              "explication": "C'est l'inverse : limites floues sauf en regard des scissures. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Présence d'un niveau hydro-aérique.",
+              "annale": true,
+              "explication": "Signe de cavité ou d'hydropneumothorax, pas de syndrome alvéolaire. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-019",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2022-2023",
+                "qcm": 36
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2018-2019",
+                "qcm": 32
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2017-2018",
+                "qcm": 36
+              }
+            ]
+          },
+          "question": "Concernant la sémiologie radiologique élémentaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "passent tangentiellement entre 2 interfaces"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans une image radiographique, une ligne prend naissance lorsque le rayon directeur aborde tangentiellement l'interface séparant deux structures de densités différentes.",
+              "annale": true,
+              "explication": "Loi des incidences tangentielles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de la silhouette peut aider à localiser une opacité.",
+              "annale": true,
+              "explication": "Il situe l'opacité par rapport au cœur (en avant ou en arrière). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Au sein du lobule pulmonaire, l'artère est centrolobulaire et la veine est périlobulaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La veine chemine dans les septa interlobulaires, l'artère et la bronchiole au centre du lobule. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les lignes septales correspondent à un épaississement des septa interlobulaires.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Septa normalement invisibles, visibles quand ils s'épaississent. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "En scanner pulmonaire, le verre dépoli se définit comme une opacité parenchymateuse n'effaçant pas les bronches et les vaisseaux.",
+              "annale": true,
+              "explication": "Les vaisseaux restent visibles en transparence. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans une image radiographique, une ligne prend naissance lorsque le rayon directeur aborde perpendiculairement l'interface séparant deux structures d'opacité différente.",
+              "annale": true,
+              "explication": "Il doit l'aborder tangentiellement. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de la silhouette permet de distinguer un syndrome alvéolaire d'une atélectasie.",
+              "annale": true,
+              "explication": "Il sert à localiser ; c'est le bronchogramme et la rétraction qui les distinguent. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-020",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2020-2021",
+                "qcm": 6
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2019-2020",
+                "qcm": 14
+              }
+            ]
+          },
+          "question": "Concernant les signes radiologiques élémentaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "Si l'opacité pulmonaire et le cœur ont la même densité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans une image radiographique, une ligne prend naissance lorsque le rayon directeur aborde tangentiellement l'interface séparant deux structures de densité différente.",
+              "annale": true,
+              "explication": "Loi des incidences tangentielles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de la silhouette peut aider à localiser une opacité du lobe moyen sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "Une opacité du lobe moyen efface le bord droit du cœur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les lignes septales correspondent à un épaississement des septa interlobulaires.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Définition des lignes septales. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les réticulations pulmonaires traduisent généralement l'existence d'une fibrose pulmonaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Les réticulations intralobulaires sont un signe habituel de fibrose. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Des images en rayon de miel témoignent de lésions de fibrose irréversible.",
+              "annale": true,
+              "explication": "Rayon de miel de la fibrose pulmonaire idiopathique ; le dépôt de collagène est irréversible. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans une image radiographique, une ligne prend naissance lorsque le rayon directeur aborde perpendiculairement l'interface séparant deux structures de densité différente.",
+              "annale": true,
+              "explication": "Il doit l'aborder tangentiellement. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En scanner pulmonaire, le verre dépoli se définit comme une opacité parenchymateuse effaçant les bronches et les vaisseaux.",
+              "annale": true,
+              "explication": "Il ne les efface pas ; c'est la condensation qui les efface. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-021",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2023-2024",
+                "qcm": 7
+              }
+            ]
+          },
+          "question": "Concernant la sémiologie élémentaire en imagerie thoracique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "comblement partiel des alvéoles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans une image radiographique, une ligne prend naissance lorsque le rayon directeur aborde tangentiellement l'interface séparant deux structures de densité différente.",
+              "annale": true,
+              "explication": "Loi des incidences tangentielles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de la silhouette peut aider à localiser une opacité.",
+              "annale": true,
+              "explication": "Il situe l'opacité par rapport au cœur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le verre dépoli se définit comme une opacité parenchymateuse n'effaçant pas les vaisseaux.",
+              "annale": true,
+              "explication": "Ils restent visibles en transparence. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le verre dépoli peut correspondre à un remplissage alvéolaire partiel.",
+              "annale": true,
+              "explication": "Comblement partiel des alvéoles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Dans le poumon, les kystes sont des cavités remplies d'air.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Cavités aériques à paroi propre. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": []
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome interstitiel"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition du syndrome interstitiel, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "altération de l'interstitium pulmonaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il regroupe les signes radiologiques d'une altération de l'interstitium pulmonaire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'interstitium est le squelette fibreux du poumon, fait d'un réseau de collagène.",
+              "explication": "Il maintient la conformation en 3 dimensions."
+            },
+            {
+              "reponse": "La fibrose correspond à une surproduction de collagène.",
+              "explication": "Le syndrome interstitiel peut l'indiquer."
+            },
+            {
+              "reponse": "Il se traduit par une opacification bilatérale diffuse en imagerie.",
+              "explication": "On parle de pneumopathie interstitielle diffuse."
+            },
+            {
+              "reponse": "Il existe 150 à 200 pneumopathies interstitielles diffuses différentes.",
+              "explication": "Chiffre donné à l'oral."
+            },
+            {
+              "reponse": "L'épaississement interstitiel peut être dû à une surcharge hydrique ou à une prolifération cellulaire.",
+              "explication": "Selon les diapositives."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le syndrome interstitiel correspond au comblement des alvéoles par du liquide.",
+              "explication": "C'est le syndrome alvéolaire."
+            },
+            {
+              "reponse": "Il se traduit typiquement par une opacité unilatérale systématisée à un lobe.",
+              "explication": "L'atteinte est bilatérale et diffuse."
+            },
+            {
+              "reponse": "La fibrose correspond à une destruction du collagène.",
+              "explication": "C'est une surproduction."
+            },
+            {
+              "reponse": "Il existe une dizaine de pneumopathies interstitielles diffuses.",
+              "explication": "Il en existe 150 à 200."
+            },
+            {
+              "reponse": "La cause principale des pneumopathies interstitielles diffuses est la sécrétion excessive d'élastine par les macrophages.",
+              "explication": "C'est la sécrétion excessive de collagène par les fibroblastes."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les conséquences du dépôt de collagène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Le dépôt de collagène est irréversible"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le dépôt de collagène est irréversible.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Il entraîne une perte de la compliance pulmonaire.",
+              "explication": "Le poumon devient rigide."
+            },
+            {
+              "reponse": "Il entraîne un syndrome restrictif.",
+              "explication": "Conséquence citée par le cours."
+            },
+            {
+              "reponse": "Il entraîne des modifications architecturales.",
+              "explication": "Conséquence citée par le cours."
+            },
+            {
+              "reponse": "La cause principale des pneumopathies interstitielles diffuses est la sécrétion excessive de collagène par les fibroblastes.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le dépôt de collagène régresse spontanément.",
+              "explication": "Il est irréversible."
+            },
+            {
+              "reponse": "Il augmente la compliance pulmonaire.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "Il entraîne un syndrome obstructif.",
+              "explication": "Il entraîne un syndrome restrictif."
+            },
+            {
+              "reponse": "Il ne modifie pas l'architecture pulmonaire.",
+              "explication": "Il entraîne des modifications architecturales."
+            },
+            {
+              "reponse": "La cause principale des pneumopathies interstitielles diffuses est une infection bactérienne.",
+              "explication": "C'est la sécrétion excessive de collagène."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la démarche diagnostique devant un syndrome interstitiel, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "étape la plus importante"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les lésions élémentaires ne peuvent être différenciées entre elles qu'au scanner.",
+              "explication": "Première étape de la démarche."
+            },
+            {
+              "reponse": "On analyse la distribution spatiale des lésions (territoire, lobe, périphérie).",
+              "explication": "Deuxième étape."
+            },
+            {
+              "reponse": "La perte de volume lobaire fait partie des modifications architecturales.",
+              "explication": "Avec l'irrégularité scissurale, la distorsion bronchique et les bronchectasies de traction."
+            },
+            {
+              "reponse": "Les bronchectasies de traction font partie des modifications architecturales.",
+              "explication": "Liste du cours."
+            },
+            {
+              "reponse": "L'intégration au contexte clinico-biologique est l'étape la plus importante.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Le parcours professionnel (curriculum laboris) fait partie du contexte à recueillir.",
+              "explication": "Avec les expositions aux particules organiques ou minérales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les lésions élémentaires se différencient aisément en radiographie.",
+              "explication": "Seul le scanner le permet."
+            },
+            {
+              "reponse": "L'identification du pattern scanographique est l'étape la plus importante.",
+              "explication": "C'est l'intégration au contexte clinico-biologique."
+            },
+            {
+              "reponse": "Les prises médicamenteuses n'ont pas d'intérêt dans l'enquête.",
+              "explication": "Elles font partie du contexte."
+            },
+            {
+              "reponse": "Les voyages n'ont pas d'intérêt dans l'enquête.",
+              "explication": "Ils font partie du contexte."
+            },
+            {
+              "reponse": "Le contexte clinico-biologique est inutile si le scanner est caractéristique.",
+              "explication": "C'est l'étape la plus importante."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la sarcoïdose et la fibrose pulmonaire idiopathique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "aspect en rayon de miel, kystique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sarcoïdose est une maladie inflammatoire chronique bénigne caractérisée par des granulomes.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La sarcoïdose est fibrosante dans environ 20 % des cas.",
+              "explication": "Chiffre donné à l'oral."
+            },
+            {
+              "reponse": "Une sarcoïdose fibrosante a un moins bon pronostic.",
+              "explication": "La fibrose est évolutive et détruit le poumon."
+            },
+            {
+              "reponse": "La fibrose pulmonaire idiopathique donne un aspect en rayon de miel, kystique.",
+              "explication": "Petits kystes accolés sous la plèvre."
+            },
+            {
+              "reponse": "Dans la fibrose pulmonaire idiopathique, le syndrome interstitiel est très peu visible en radiographie et s'identifie surtout au scanner.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sarcoïdose est une maladie maligne.",
+              "explication": "Elle est bénigne."
+            },
+            {
+              "reponse": "La sarcoïdose est fibrosante dans environ 80 % des cas.",
+              "explication": "Dans environ 20 % des cas."
+            },
+            {
+              "reponse": "La fibrose pulmonaire idiopathique se traduit par un aspect en lâcher de ballons.",
+              "explication": "Le lâcher de ballons évoque des métastases."
+            },
+            {
+              "reponse": "Le rayon de miel est une lésion réversible.",
+              "explication": "Il traduit une destruction fibreuse irréversible."
+            },
+            {
+              "reponse": "La fibrose pulmonaire idiopathique est facilement identifiée en radiographie, le scanner étant inutile.",
+              "explication": "Elle s'identifie surtout au scanner."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'imagerie du syndrome interstitiel, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "intérêt de la haute résolution"
+          },
+          "bonnes": [
+            {
+              "reponse": "La radiographie permet la détection du syndrome interstitiel.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "La radiographie est moins sensible que le scanner.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "La radiographie est peu discriminante sur le plan étiologique.",
+              "explication": "Elle aide peu à trouver la cause."
+            },
+            {
+              "reponse": "Le scanner haute résolution utilise des coupes d'environ 0,6 mm d'épaisseur.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Le scanner est plus discriminant sur le plan étiologique (fibrose, inflammation, lymphangite).",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La radiographie est plus sensible que le scanner.",
+              "explication": "Elle est moins sensible."
+            },
+            {
+              "reponse": "La radiographie permet le plus souvent de trouver la cause.",
+              "explication": "Elle est peu discriminante sur le plan étiologique."
+            },
+            {
+              "reponse": "Les coupes du scanner haute résolution mesurent environ 6 mm d'épaisseur.",
+              "explication": "Environ 0,6 mm."
+            },
+            {
+              "reponse": "Le scanner ne permet pas de distinguer une fibrose d'une inflammation.",
+              "explication": "Il est plus discriminant que la radiographie."
+            },
+            {
+              "reponse": "Le scanner n'a pas d'intérêt dans le syndrome interstitiel.",
+              "explication": "C'est l'examen de choix."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-027",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2023-2024",
+                "qcm": 5
+              }
+            ]
+          },
+          "question": "Concernant les pneumopathies interstitielles diffuses, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "perte de la compliance"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les pneumopathies interstitielles diffuses touchent en général les deux poumons.",
+              "annale": true,
+              "explication": "Opacification bilatérale diffuse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fibrose pulmonaire est responsable d'une perte de la compliance pulmonaire.",
+              "annale": true,
+              "explication": "Conséquence du dépôt de collagène. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les lignes de Kerley en radiographie correspondent aux lignes septales en scanner.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Épaississement des septa interlobulaires vu sur les deux examens. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'artère et la veine sont au centre du lobule pulmonaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'artère est centrolobulaire, la veine est périlobulaire (dans les septa). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les septa interlobulaires sont visibles sur un scanner normal.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Ils ne deviennent visibles que lorsqu'ils s'épaississent. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome nodulaire et masses"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-028",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la définition de la taille d'un nodule pulmonaire ? (une seule réponse attendue)",
+          "cours": {
+            "page": 11,
+            "surligner": "nodule : moins de 3 centimètres"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une opacité arrondie mesurant de 3 millimètres à 3 centimètres.",
+              "explication": "Au-delà de 3 cm, on parle de masse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une opacité arrondie mesurant plus de 3 centimètres.",
+              "explication": "C'est une masse."
+            },
+            {
+              "reponse": "Une opacité arrondie mesurant moins de 3 millimètres.",
+              "explication": "Le nodule mesure au moins 3 mm."
+            },
+            {
+              "reponse": "Une opacité arrondie mesurant de 3 millimètres à 1 centimètre.",
+              "explication": "La limite supérieure est 3 cm."
+            },
+            {
+              "reponse": "Une opacité arrondie mesurant de 1 à 5 centimètres.",
+              "explication": "Définition fausse : 3 mm à 3 cm."
+            },
+            {
+              "reponse": "Une opacité arrondie mesurant de 3 à 10 centimètres.",
+              "explication": "Définition fausse : 3 mm à 3 cm."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le cancer du poumon, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "en mortalité, de très loin"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cancer du poumon est le 1er cancer en mortalité, de très loin.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Il est au 4e rang en incidence.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "Environ 25 % des formes sont opérables.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "La survie à 5 ans est de 10 à 15 %.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "C'est le cancer le plus mortel chez l'homme et le 2e chez la femme.",
+              "explication": "Chiffre du cours."
+            },
+            {
+              "reponse": "L'adénocarcinome est le type histologique le plus fréquent (environ 50 %).",
+              "explication": "Puis épidermoïde (30 %) et petites cellules (15 %)."
+            },
+            {
+              "reponse": "Le poumon n'étant pas innervé (sensibilité douloureuse), le cancer est longtemps asymptomatique.",
+              "explication": "D'où l'intérêt du dépistage."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il est le 1er cancer en incidence.",
+              "explication": "Il est 4e en incidence."
+            },
+            {
+              "reponse": "Environ 75 % des formes sont opérables.",
+              "explication": "Environ 25 %."
+            },
+            {
+              "reponse": "La survie à 5 ans est d'environ 50 %.",
+              "explication": "Elle est de 10 à 15 %."
+            },
+            {
+              "reponse": "Le carcinome à petites cellules est le type histologique le plus fréquent.",
+              "explication": "Environ 15 % ; l'adénocarcinome est le plus fréquent."
+            },
+            {
+              "reponse": "Le carcinome épidermoïde représente environ 15 % des cancers du poumon.",
+              "explication": "Environ 30 %."
+            },
+            {
+              "reponse": "Le cancer du poumon est le plus souvent révélé précocement par des douleurs.",
+              "explication": "Il s'installe de façon silencieuse."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'analyse d'un nodule au scanner, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "critère le plus important"
+          },
+          "bonnes": [
+            {
+              "reponse": "La taille est le critère le plus important.",
+              "explication": "Elle est corrélée au risque de malignité."
+            },
+            {
+              "reponse": "Les contours sont analysés (réguliers, irréguliers ou spiculés).",
+              "explication": "Élément de l'analyse."
+            },
+            {
+              "reponse": "Le contenu est analysé (bronchogramme, alvéologramme).",
+              "explication": "Élément de l'analyse."
+            },
+            {
+              "reponse": "La densité est analysée (calcifications, graisse).",
+              "explication": "Élément de l'analyse."
+            },
+            {
+              "reponse": "Le scanner est bien meilleur que la radiographie pour détecter les nodules et les masses.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les contours sont le critère le plus important.",
+              "explication": "C'est la taille."
+            },
+            {
+              "reponse": "La taille n'a pas de lien avec le risque de malignité.",
+              "explication": "Elle y est corrélée."
+            },
+            {
+              "reponse": "La radiographie est meilleure que le scanner pour détecter les nodules.",
+              "explication": "C'est le scanner."
+            },
+            {
+              "reponse": "Une plage graisseuse intranodulaire se caractérise en radiographie.",
+              "explication": "Il faut le scanner."
+            },
+            {
+              "reponse": "La densité d'un nodule n'a aucun intérêt diagnostique.",
+              "explication": "Calcifications et graisse orientent vers la bénignité."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-031",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont des critères de bénignité d'un nodule pulmonaire au scanner ? (2 réponses attendues)",
+          "cours": {
+            "page": 13,
+            "surligner": "formulent ce critère comme le ganglion intrapulmonaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une calcification totale ou centrale.",
+              "explication": "Granulome post-infectieux."
+            },
+            {
+              "reponse": "Une plage graisseuse intranodulaire (de −40 à −80 unités Hounsfield).",
+              "explication": "Hamartochondrome ; seul le scanner la caractérise."
+            },
+            {
+              "reponse": "Un nodule de moins de 10 mm, polygonal (triangulaire), à moins de 10 mm de la plèvre, sous la carène.",
+              "explication": "Ganglion intrapulmonaire (morphologie triangulaire, version corrigée)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Des contours spiculés.",
+              "explication": "Critère de malignité."
+            },
+            {
+              "reponse": "Un bronchogramme intranodulaire.",
+              "explication": "Critère de malignité."
+            },
+            {
+              "reponse": "Une rétraction pleurale.",
+              "explication": "Critère de malignité."
+            },
+            {
+              "reponse": "Une taille supérieure à 10 millimètres.",
+              "explication": "Critère de malignité."
+            },
+            {
+              "reponse": "Un aspect semi-solide (densité mixte).",
+              "explication": "Critère de malignité."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-032",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont des critères de malignité d'un nodule pulmonaire au scanner ? (3 réponses attendues)",
+          "cours": {
+            "page": 15,
+            "surligner": "nodule solide ou semi-solide"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une taille supérieure à 10 millimètres.",
+              "explication": "Critère de taille (version des diapositives)."
+            },
+            {
+              "reponse": "Un nodule solide ou semi-solide (densité mixte).",
+              "explication": "Critère de malignité."
+            },
+            {
+              "reponse": "Des contours spiculés ou lobulés.",
+              "explication": "Aspect « en oursin »."
+            },
+            {
+              "reponse": "Un bronchogramme intranodulaire.",
+              "explication": "Critère de malignité."
+            },
+            {
+              "reponse": "Une rétraction pleurale ou scissurale.",
+              "explication": "La masse rétracte la plèvre ou la scissure."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une calcification totale du nodule.",
+              "explication": "Critère de bénignité."
+            },
+            {
+              "reponse": "Une calcification centrale du nodule.",
+              "explication": "Critère de bénignité."
+            },
+            {
+              "reponse": "Une plage graisseuse intranodulaire.",
+              "explication": "Critère de bénignité (hamartochondrome)."
+            },
+            {
+              "reponse": "Une forme triangulaire, sous-pleurale, de moins de 10 mm, sous la carène.",
+              "explication": "Ganglion intrapulmonaire, bénin."
+            },
+            {
+              "reponse": "Un diamètre de 4 millimètres.",
+              "explication": "Un petit nodule est le plus souvent bénin ; le seuil de malignité est 10 mm."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les nodules multiples, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "les lésions secondaires ont des contours bien lisses"
+          },
+          "bonnes": [
+            {
+              "reponse": "Des nodules multiples peuvent traduire des métastases d'autres cancers.",
+              "explication": "Lésions secondaires."
+            },
+            {
+              "reponse": "Les métastases pulmonaires ont des contours bien lisses.",
+              "explication": "Contrairement au cancer primitif."
+            },
+            {
+              "reponse": "L'aspect de multiples nodules arrondis bien limités est appelé « lâcher de ballons ».",
+              "explication": "Aspect typique des métastases."
+            },
+            {
+              "reponse": "Les nodules métastatiques peuvent être de tailles variables et toucher les deux poumons.",
+              "explication": "Description de la diapositive."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les métastases pulmonaires ont typiquement des contours spiculés.",
+              "explication": "Elles ont des contours lisses ; les spicules évoquent le cancer primitif."
+            },
+            {
+              "reponse": "Le lâcher de ballons évoque une fibrose pulmonaire idiopathique.",
+              "explication": "Il évoque des métastases."
+            },
+            {
+              "reponse": "Le lâcher de ballons correspond à un nodule unique.",
+              "explication": "Il s'agit de nodules multiples."
+            },
+            {
+              "reponse": "Les lésions secondaires ont des contours plus irréguliers que le cancer primitif.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le lâcher de ballons est un signe de syndrome cavitaire.",
+              "explication": "C'est un aspect de nodules multiples."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2023-2024",
+                "qcm": 6
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2022-2023",
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "Concernant les nodules pulmonaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Impossible à caractériser en radiographie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un nodule pulmonaire de 4 mm de diamètre a une forte probabilité de bénignité.",
+              "annale": true,
+              "explication": "Le seuil de malignité est une taille supérieure à 10 mm. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une calcification centrale dans un nodule pulmonaire est très en faveur de sa bénignité.",
+              "annale": true,
+              "explication": "Critère de bénignité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un nodule en verre dépoli peut correspondre à un adénocarcinome pré-invasif.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Un verre dépoli pur correspond souvent à une lésion pré-invasive ou peu invasive. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La présence de graisse au sein d'un nodule est très en faveur de sa bénignité.",
+              "annale": true,
+              "explication": "Plage graisseuse : hamartochondrome. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un nodule en verre dépoli peut correspondre à un adénocarcinome très invasif.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Un verre dépoli pur correspond plutôt à une lésion pré-invasive ou peu invasive. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le caractère spiculé d'un nodule est très en faveur de sa bénignité.",
+              "annale": true,
+              "explication": "C'est un critère de malignité. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-035",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2019-2020",
+                "qcm": 10
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2018-2019",
+                "qcm": 28
+              }
+            ]
+          },
+          "question": "Concernant la caractérisation d'un nodule pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "la taille est corrélée au risque de malignité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un nodule pulmonaire de 4 mm de diamètre a une probabilité élevée de bénignité.",
+              "annale": true,
+              "explication": "Le seuil de malignité est de 10 mm. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un nodule pulmonaire de 21 mm de diamètre a une probabilité élevée de malignité.",
+              "annale": true,
+              "explication": "Taille supérieure à 10 mm. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un nodule totalement calcifié est généralement bénin.",
+              "annale": true,
+              "explication": "Granulome post-infectieux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une calcification dans un nodule pulmonaire est très en faveur de sa bénignité.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours retient la calcification totale ou centrale ; une calcification d'un autre type est moins rassurante. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "La présence de graisse au sein d'un nodule est très en faveur de sa bénignité.",
+              "annale": true,
+              "explication": "Hamartochondrome. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La présence de verre dépoli au sein d'un nodule est très en faveur de sa bénignité.",
+              "annale": true,
+              "explication": "Un nodule semi-solide (densité mixte) est un critère de malignité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La présence de graisse au sein d'un nodule est très en faveur de sa malignité.",
+              "annale": true,
+              "explication": "Elle est en faveur de la bénignité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le caractère spiculé d'un nodule est très en faveur de sa bénignité.",
+              "annale": true,
+              "explication": "Critère de malignité. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-036",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2021-2022",
+                "qcm": 19
+              }
+            ]
+          },
+          "question": "Concernant les nodules pulmonaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "de 3 millimètres à 3 centimètres"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un nodule pulmonaire est une opacité circonscrite mesurant entre 3 mm et 3 cm de diamètre.",
+              "annale": true,
+              "explication": "Définition du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un nodule pulmonaire de 18 mm non calcifié a une probabilité élevée de malignité.",
+              "annale": true,
+              "explication": "Taille supérieure à 10 mm, sans critère de bénignité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La présence de graisse au sein d'un nodule pulmonaire affirme sa nature bénigne.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "C'est un critère fort de bénignité (hamartochondrome), mais « affirme » est un terme absolu. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le caractère spiculé d'un nodule est en faveur de la malignité.",
+              "annale": true,
+              "explication": "Critère de malignité. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un nodule pulmonaire de 18 mm totalement calcifié a une probabilité élevée de malignité.",
+              "annale": true,
+              "explication": "La calcification totale est un critère de bénignité. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-037",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2017-2018",
+                "qcm": 31
+              }
+            ]
+          },
+          "question": "Concernant les nodules et les masses pulmonaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Ce syndrome est évocateur d'un cancer du poumon"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un nodule pulmonaire est défini comme une opacité circonscrite mesurant entre 3 mm et 3 cm de diamètre.",
+              "annale": true,
+              "explication": "Définition du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un nodule totalement calcifié correspond le plus souvent à un granulome post-infectieux bénin.",
+              "annale": true,
+              "explication": "Exemple des diapositives. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une masse pulmonaire correspond le plus souvent à un cancer.",
+              "annale": true,
+              "explication": "Le syndrome nodulaire et les masses évoquent un cancer du poumon. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur une radiographie thoracique, un aspect en « lâcher de ballons » fait évoquer en première hypothèse une maladie métastatique pulmonaire.",
+              "annale": true,
+              "explication": "Nodules multiples à contours lisses. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sarcome est le type histologique le plus fréquent de cancer bronchique.",
+              "annale": true,
+              "explication": "C'est l'adénocarcinome (environ 50 %). (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-038",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2017-2018",
+                "qcm": 32
+              }
+            ]
+          },
+          "question": "Concernant les nodules, les masses et les cavités, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "contient une zone de densité graisseuse"
+          },
+          "bonnes": [
+            {
+              "reponse": "La présence de graisse au sein d'un nodule pulmonaire permet d'affirmer sa nature bénigne.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "C'est un critère fort de bénignité (hamartochondrome), mais « affirmer » est un terme absolu. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Le caractère spiculé d'un nodule est en faveur de sa malignité.",
+              "annale": true,
+              "explication": "Critère de malignité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un cancer bronchique peut se présenter sous la forme d'une masse excavée.",
+              "annale": true,
+              "explication": "Tumeurs cavitaires : carcinome épidermoïde, adénocarcinome nécrotique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un nodule pulmonaire de 18 mm de diamètre a une probabilité faible de malignité.",
+              "annale": true,
+              "explication": "Taille supérieure à 10 mm : critère de malignité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un abcès pulmonaire se diagnostique plus facilement sur un cliché en position couchée qu'en position debout.",
+              "annale": true,
+              "explication": "Le niveau hydro-aérique ne se voit que debout. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome cavitaire"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition du syndrome cavitaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Clarté aérique ou hydro-aérique au sein d'une opacité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome cavitaire est une clarté aérique ou hydro-aérique au sein d'une opacité.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Il peut se voir en radiographie ou au scanner.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Il implique une communication avec les bronches.",
+              "explication": "Physiopathologie."
+            },
+            {
+              "reponse": "Il traduit un processus nécrosant.",
+              "explication": "Physiopathologie."
+            },
+            {
+              "reponse": "On différencie les cavités par l'étude de leur paroi et de leur contenu.",
+              "explication": "Épaisseur de la paroi, contenu liquidien ou solide."
+            },
+            {
+              "reponse": "Un contenu solide dans une cavité peut correspondre à un mycétome.",
+              "explication": "Exemple de contenu solide du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le syndrome cavitaire est une opacité au sein d'une clarté.",
+              "explication": "C'est une clarté au sein d'une opacité."
+            },
+            {
+              "reponse": "Le syndrome cavitaire n'est visible qu'au scanner.",
+              "explication": "Il se voit aussi en radiographie."
+            },
+            {
+              "reponse": "Une cavité n'a aucune communication avec les bronches.",
+              "explication": "Elle communique avec les bronches."
+            },
+            {
+              "reponse": "Les étiologies du syndrome cavitaire sont exclusivement infectieuses.",
+              "explication": "Il existe aussi des causes tumorales."
+            },
+            {
+              "reponse": "Un mycétome correspond à un contenu liquidien de la cavité.",
+              "explication": "C'est un contenu solide."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-040",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles sont les 2 grandes causes du syndrome cavitaire ? (2 réponses attendues)",
+          "cours": {
+            "page": 17,
+            "surligner": "Étiologies très diverses, avec"
+          },
+          "bonnes": [
+            {
+              "reponse": "La nécrose d'une pneumopathie infectieuse.",
+              "explication": "Tuberculose, staphylocoques, aspergillose, germes purulents."
+            },
+            {
+              "reponse": "La nécrose d'un cancer.",
+              "explication": "Masse contenant de l'air."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une atélectasie lobaire.",
+              "explication": "Opacité rétractile sans clarté."
+            },
+            {
+              "reponse": "Un épanchement pleural liquidien libre.",
+              "explication": "Opacité déclive avec courbe de Damoiseau."
+            },
+            {
+              "reponse": "Une fibrose pulmonaire idiopathique.",
+              "explication": "Syndrome interstitiel."
+            },
+            {
+              "reponse": "Une sarcoïdose.",
+              "explication": "Syndrome interstitiel."
+            },
+            {
+              "reponse": "Un hamartochondrome.",
+              "explication": "Nodule bénin à plage graisseuse."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les causes du syndrome cavitaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "On observe aussi un syndrome cavitaire dans les cancers"
+          },
+          "bonnes": [
+            {
+              "reponse": "La tuberculose est une cause classique de cavité.",
+              "explication": "Cause infectieuse majeure (++)."
+            },
+            {
+              "reponse": "Les staphylocoques peuvent donner des cavités.",
+              "explication": "Germes cités par le cours."
+            },
+            {
+              "reponse": "L'aspergillose peut donner des cavités.",
+              "explication": "Cause infectieuse citée."
+            },
+            {
+              "reponse": "Un cancer nécrosé peut se présenter comme une masse contenant de l'air.",
+              "explication": "Nécrose tumorale."
+            },
+            {
+              "reponse": "Un carcinome épidermoïde peut être cavitaire.",
+              "explication": "Exemple de tumeur cavitaire."
+            },
+            {
+              "reponse": "Un emphysème ou un kyste peuvent donner un aspect cavitaire.",
+              "explication": "Diagnostic à distinguer."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La tuberculose ne donne jamais de cavité.",
+              "explication": "C'est une cause classique."
+            },
+            {
+              "reponse": "Les cancers ne donnent jamais de syndrome cavitaire.",
+              "explication": "La nécrose tumorale en donne."
+            },
+            {
+              "reponse": "Une cavité tumorale ne contient jamais d'air.",
+              "explication": "La masse peut contenir de l'air."
+            },
+            {
+              "reponse": "Le syndrome cavitaire est sans lien avec la nécrose.",
+              "explication": "Il traduit un processus nécrosant."
+            },
+            {
+              "reponse": "Une cavité à paroi épaisse évoque en premier un emphysème.",
+              "explication": "L'emphysème n'a pas de paroi ; une paroi épaisse évoque une infection nécrosée."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les types de cavités et l'abcès pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "diagnostic différentiel avec un épanchement pleural enkysté"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe des cavités à paroi fine.",
+              "explication": "Un des 4 types."
+            },
+            {
+              "reponse": "Une cavité à paroi épaisse peut correspondre à une infection nécrosée.",
+              "explication": "Un des 4 types."
+            },
+            {
+              "reponse": "Une cavité peut présenter un niveau hydro-aérique.",
+              "explication": "Un des 4 types."
+            },
+            {
+              "reponse": "Des cavités multiples groupées sont décrites.",
+              "explication": "Un des 4 types."
+            },
+            {
+              "reponse": "L'abcès du poumon se présente comme une cavité avec un niveau hydro-aérique.",
+              "explication": "Liquide en bas, air en haut."
+            },
+            {
+              "reponse": "Le diagnostic différentiel entre abcès et épanchement pleural enkysté se fait au scanner.",
+              "explication": "Point des diapositives."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans un abcès, le liquide est en haut et l'air en bas.",
+              "explication": "L'air est en haut, le liquide en bas."
+            },
+            {
+              "reponse": "Le niveau hydro-aérique d'un abcès est une ligne verticale.",
+              "explication": "C'est une ligne horizontale."
+            },
+            {
+              "reponse": "Le diagnostic différentiel entre abcès et épanchement enkysté se fait sur la seule radiographie de face.",
+              "explication": "Il se fait au scanner."
+            },
+            {
+              "reponse": "Un abcès du poumon ne contient jamais de liquide.",
+              "explication": "Il a un contenu purulent avec niveau hydro-aérique."
+            },
+            {
+              "reponse": "Il n'existe qu'un seul type de cavité parenchymateuse.",
+              "explication": "Le cours en décrit 4."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-043",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'emphysème et les kystes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "Le kyste, au contraire, possède une paroi"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'emphysème est une destruction du poumon profond (alvéolaire).",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'emphysème n'a pas de paroi visible.",
+              "explication": "Il n'est constitué que de septa."
+            },
+            {
+              "reponse": "Le kyste possède une paroi.",
+              "explication": "Épithélium visible au scanner."
+            },
+            {
+              "reponse": "Au scanner, l'emphysème apparaît hypodense.",
+              "explication": "Poches d'air."
+            },
+            {
+              "reponse": "Un lobe supérieur emphysémateux distendu peut comprimer les lobes inférieurs.",
+              "explication": "Ceux-ci fonctionnent alors moins bien."
+            },
+            {
+              "reponse": "Le scanner est plus sensible que la radiographie pour l'emphysème.",
+              "explication": "Précision des diapositives."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'emphysème possède une paroi épaisse.",
+              "explication": "Il n'a pas de paroi."
+            },
+            {
+              "reponse": "Le kyste n'a pas de paroi.",
+              "explication": "Il en possède une."
+            },
+            {
+              "reponse": "Au scanner, l'emphysème apparaît hyperdense.",
+              "explication": "Il est hypodense."
+            },
+            {
+              "reponse": "L'emphysème se traduit par du verre dépoli.",
+              "explication": "Il se traduit par des zones hypodenses."
+            },
+            {
+              "reponse": "Un lobe supérieur emphysémateux distendu améliore le fonctionnement des lobes inférieurs.",
+              "explication": "Il les comprime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome bronchique"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'anatomie bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "bronches lobaires que de lobes"
+          },
+          "bonnes": [
+            {
+              "reponse": "À droite, il y a 3 bronches lobaires et 10 bronches segmentaires.",
+              "explication": "Lobe supérieur 3, moyen 2, inférieur 5 segments."
+            },
+            {
+              "reponse": "À gauche, il y a 2 bronches lobaires et 10 bronches segmentaires.",
+              "explication": "Culmen 3, lingula 2, lobe inférieur 5 segments."
+            },
+            {
+              "reponse": "Le lobe moyen comporte 2 segments (4 et 5).",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Le lobe inférieur droit comporte 5 segments (6 à 10).",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "La lingula comporte 2 segments (4 et 5).",
+              "explication": "Équivalent du lobe moyen."
+            },
+            {
+              "reponse": "Les bronches distales se voient très bien au scanner mais pas en radiographie.",
+              "explication": "Leurs parois deviennent de plus en plus fines."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À gauche, il y a 3 bronches lobaires.",
+              "explication": "Il y en a 2."
+            },
+            {
+              "reponse": "Le poumon gauche compte 8 bronches segmentaires selon le cours.",
+              "explication": "Le cours en compte 10."
+            },
+            {
+              "reponse": "Le lobe supérieur droit comporte 5 segments.",
+              "explication": "Il en comporte 3."
+            },
+            {
+              "reponse": "Le culmen comporte 2 segments.",
+              "explication": "Il en comporte 3."
+            },
+            {
+              "reponse": "Les parois bronchiques s'épaississent vers la périphérie.",
+              "explication": "Elles deviennent de plus en plus fines."
+            },
+            {
+              "reponse": "Les bronches distales se voient très bien en radiographie.",
+              "explication": "Elles se voient au scanner."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-045",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les signes du syndrome bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "signes visibles sur la bronche elle-même"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'épaississement des parois bronchiques est un signe direct.",
+              "explication": "Il témoigne d'une inflammation de la paroi."
+            },
+            {
+              "reponse": "Les dilatations bronchiques sont un signe direct.",
+              "explication": "Bronchectasies."
+            },
+            {
+              "reponse": "Les bouchons muqueux, bronchocèles et impactions mucoïdes sont des signes directs.",
+              "explication": "Bronches pleines, éventuellement dilatées."
+            },
+            {
+              "reponse": "L'atélectasie est un signe indirect.",
+              "explication": "Signe en aval d'une bronche obstruée."
+            },
+            {
+              "reponse": "Le piégeage (emphysème obstructif) est un signe indirect.",
+              "explication": "Signe d'aval."
+            },
+            {
+              "reponse": "La distension pulmonaire traduit une obstruction diffuse.",
+              "explication": "Signe indirect."
+            },
+            {
+              "reponse": "Les signes directs se voient surtout au scanner.",
+              "explication": "Très mal en radiographie."
+            },
+            {
+              "reponse": "Un cancer de la trachée, très rare, se traduit par une sténose.",
+              "explication": "Rétrécissement de la lumière."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'atélectasie est un signe direct.",
+              "explication": "C'est un signe indirect."
+            },
+            {
+              "reponse": "Les bronchectasies sont un signe indirect.",
+              "explication": "Ce sont des signes directs."
+            },
+            {
+              "reponse": "Les signes directs se voient bien en radiographie.",
+              "explication": "Ils se voient surtout au scanner."
+            },
+            {
+              "reponse": "La distension pulmonaire traduit une obstruction localisée.",
+              "explication": "Elle traduit une obstruction diffuse."
+            },
+            {
+              "reponse": "Le cancer de la trachée est plus fréquent que le cancer du poumon.",
+              "explication": "Il est très rare en comparaison."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-046",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les bronchectasies, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "Les bronchectasies sont liées à des expectorations"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une bronche qui garde un calibre constant jusqu'en périphérie est anormale.",
+              "explication": "Le calibre normal diminue vers la périphérie."
+            },
+            {
+              "reponse": "Les bronchectasies cylindriques sont les moins graves.",
+              "explication": "Gravité croissante : cylindrique, variqueuse, kystique."
+            },
+            {
+              "reponse": "Les bronchectasies kystiques peuvent contenir des niveaux hydro-aériques.",
+              "explication": "Les sécrétions stagnent."
+            },
+            {
+              "reponse": "Plus la bronche est kystique, plus le risque d'infection est élevé.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Dans les bronchectasies, la bronche peut être 2 à 3 fois plus grosse que l'artère qui l'accompagne.",
+              "explication": "Normalement, elles ont le même calibre."
+            },
+            {
+              "reponse": "Les bronchectasies sont de mauvais pronostic, notamment dans la mucoviscidose.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Les bronchectasies kystiques restent connectées à l'arbre bronchique.",
+              "explication": "Ce sont bien des bronches."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Normalement, la bronche est 2 à 3 fois plus grosse que l'artère qui l'accompagne.",
+              "explication": "Elles ont normalement le même calibre."
+            },
+            {
+              "reponse": "Les bronchectasies kystiques sont les moins graves.",
+              "explication": "Ce sont les plus graves."
+            },
+            {
+              "reponse": "Les bronchectasies variqueuses ont un calibre parfaitement constant.",
+              "explication": "Elles présentent des irrégularités ; le calibre constant est cylindrique."
+            },
+            {
+              "reponse": "Les bronchectasies kystiques ne communiquent pas avec l'arbre bronchique.",
+              "explication": "Tout est connecté à l'arbre bronchique."
+            },
+            {
+              "reponse": "Le calibre normal des bronches augmente vers la périphérie.",
+              "explication": "Il diminue."
+            },
+            {
+              "reponse": "Le risque infectieux diminue quand la bronche devient kystique.",
+              "explication": "Il augmente."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'atélectasie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "une attache hilaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'atélectasie est souvent le signe d'une obstruction tumorale en amont.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Le parenchyme atélectasié perd son volume et se densifie.",
+              "explication": "L'air est « parti »."
+            },
+            {
+              "reponse": "L'atélectasie d'un lobe associe une opacité, une rétraction scissurale et une attache hilaire.",
+              "explication": "Les 3 signes du cours."
+            },
+            {
+              "reponse": "L'opacité de l'atélectasie est sans bronchogramme dans 90 % des cas.",
+              "explication": "Différence avec la pneumonie lobaire."
+            },
+            {
+              "reponse": "Dans l'atélectasie du lobe supérieur droit, de face, la petite scissure monte et devient concave vers le bas.",
+              "explication": "Rétraction scissurale."
+            },
+            {
+              "reponse": "De profil, dans l'atélectasie du lobe supérieur droit, la grande scissure se déplace vers l'avant.",
+              "explication": "Et la petite scissure vers le haut."
+            },
+            {
+              "reponse": "L'atélectasie est réversible si l'on retire l'obstruction.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le parenchyme atélectasié augmente de volume.",
+              "explication": "C'est le piégeage qui distend le poumon."
+            },
+            {
+              "reponse": "Dans l'atélectasie du lobe supérieur droit, la petite scissure descend.",
+              "explication": "Elle monte."
+            },
+            {
+              "reponse": "De profil, dans l'atélectasie du lobe supérieur droit, la grande scissure recule.",
+              "explication": "Elle se déplace vers l'avant."
+            },
+            {
+              "reponse": "L'atélectasie est toujours irréversible.",
+              "explication": "Elle est réversible si l'on retire l'obstruction."
+            },
+            {
+              "reponse": "L'atélectasie s'accompagne d'un bronchogramme aérique dans 90 % des cas.",
+              "explication": "Elle en est dépourvue dans 90 % des cas."
+            },
+            {
+              "reponse": "L'atélectasie repousse le médiastin du côté opposé.",
+              "explication": "Elle l'attire."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-048",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Devant un signe de Golden sur une radiographie de face, à quoi pense-t-on avant tout ? (une seule réponse attendue)",
+          "cours": {
+            "page": 25,
+            "surligner": "est bloquée par la masse dans sa partie interne"
+          },
+          "bonnes": [
+            {
+              "reponse": "À une masse tumorale du hile responsable d'une atélectasie du lobe supérieur droit.",
+              "explication": "Le signe de Golden (S inversé) traduit un cancer du hile envahissant la bronche lobaire supérieure droite."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À une pneumopathie du lobe moyen.",
+              "explication": "Elle donne un signe de la silhouette avec le bord droit du cœur."
+            },
+            {
+              "reponse": "À un épanchement pleural libre.",
+              "explication": "Il donne une courbe de Damoiseau."
+            },
+            {
+              "reponse": "À un pneumothorax compressif.",
+              "explication": "Il donne une hyperclarté avec déplacement du médiastin."
+            },
+            {
+              "reponse": "À des bronchectasies variqueuses.",
+              "explication": "Signe direct du syndrome bronchique, sans rapport."
+            },
+            {
+              "reponse": "À un corps étranger avec piégeage.",
+              "explication": "Il donne une hyperclarté distendue."
+            },
+            {
+              "reponse": "À une atélectasie du lobe inférieur droit.",
+              "explication": "Le signe de Golden concerne le lobe supérieur droit."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le signe de Golden, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "l'ensemble dessine un S inversé"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il se reconnaît sur une radiographie de face.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "La partie externe de la petite scissure est concave vers le bas.",
+              "explication": "Elle est attirée vers le haut par le lobe rétracté."
+            },
+            {
+              "reponse": "La partie interne de la petite scissure est convexe vers le bas, bloquée par la masse hilaire.",
+              "explication": "Version corrigée des diapositives."
+            },
+            {
+              "reponse": "L'ensemble dessine un S inversé.",
+              "explication": "D'où son autre nom."
+            },
+            {
+              "reponse": "Il traduit typiquement un cancer du hile envahissant la bronche lobaire supérieure droite.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La partie interne de la petite scissure est concave vers le bas et la partie externe convexe vers le bas.",
+              "explication": "C'est l'inverse (erreur des notes corrigée)."
+            },
+            {
+              "reponse": "Il se reconnaît uniquement sur la radiographie de profil.",
+              "explication": "Il se reconnaît de face."
+            },
+            {
+              "reponse": "Il traduit une atélectasie du lobe inférieur gauche.",
+              "explication": "Il concerne le lobe supérieur droit."
+            },
+            {
+              "reponse": "Il traduit des bronchectasies variqueuses.",
+              "explication": "Il traduit une atélectasie par masse hilaire."
+            },
+            {
+              "reponse": "Il dessine un S droit, concave vers le haut en dehors.",
+              "explication": "Il dessine un S inversé."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-050",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'emphysème obstructif (piégeage), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 27,
+            "surligner": "la bronche laisse passer l'air en inspiration"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'emphysème obstructif est le contraire de l'atélectasie : le poumon se distend et devient moins dense.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Le poumon piégé est hyperclair, avec élargissement des espaces intercostaux.",
+              "explication": "Signes de distension."
+            },
+            {
+              "reponse": "L'exemple typique est l'inhalation d'un corps étranger chez le petit enfant.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Par effet clapet, l'air entre en inspiration mais ne sort pas en expiration.",
+              "explication": "Le lobe est piégé."
+            },
+            {
+              "reponse": "Le piégeage est mieux mis en évidence sur un cliché en expiration.",
+              "explication": "En inspiration, on ne voit pas grand-chose."
+            },
+            {
+              "reponse": "En expiration, le poumon sain perd son volume alors que le poumon piégé le garde.",
+              "explication": "Exemple du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le poumon piégé se rétracte et se densifie.",
+              "explication": "C'est l'atélectasie."
+            },
+            {
+              "reponse": "Par effet clapet, l'air sort en expiration mais n'entre pas en inspiration.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "En inspiration, le piégeage est toujours évident.",
+              "explication": "On ne voit pas grand-chose en inspiration."
+            },
+            {
+              "reponse": "En expiration, le poumon piégé perd son volume.",
+              "explication": "Il le garde."
+            },
+            {
+              "reponse": "Un corps étranger inhalé entraîne obligatoirement une atélectasie.",
+              "explication": "Il peut entraîner un piégeage."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-051",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la distension pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "l'aplatissement des coupoles diaphragmatiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "La distension pulmonaire est la maladie du gros fumeur.",
+              "explication": "Inflammation bronchique et bronchiolaire diffuse liée au tabac."
+            },
+            {
+              "reponse": "Elle est liée à une infiltration de macrophages dans la paroi des bronches.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Elle est longtemps réversible.",
+              "explication": "Tant qu'elle reste inflammatoire."
+            },
+            {
+              "reponse": "Si le tabagisme persiste, un remodelage fibreux peut rendre l'obstruction fixée.",
+              "explication": "Elle n'est alors plus réversible sous bronchodilatateur."
+            },
+            {
+              "reponse": "Le meilleur signe radiographique est l'aplatissement des coupoles diaphragmatiques, plutôt de profil.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Les espaces clairs rétro-sternal et rétro-cardiaque deviennent hyperclairs.",
+              "explication": "Signe de distension."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le meilleur signe radiographique est le bombement des coupoles diaphragmatiques.",
+              "explication": "C'est leur aplatissement."
+            },
+            {
+              "reponse": "Le meilleur signe de distension se voit plutôt de face.",
+              "explication": "Plutôt de profil."
+            },
+            {
+              "reponse": "L'espace clair rétro-sternal disparaît dans la distension.",
+              "explication": "Il devient hyperclair."
+            },
+            {
+              "reponse": "L'obstruction reste toujours réversible sous bronchodilatateur.",
+              "explication": "Elle peut devenir fixée."
+            },
+            {
+              "reponse": "Elle est liée à une infiltration de polynucléaires éosinophiles dans la paroi bronchique.",
+              "explication": "Le cours cite les macrophages."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-052",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2024-2025",
+                "qcm": 14
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2020-2021",
+                "qcm": 7
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2019-2020",
+                "qcm": 12
+              }
+            ]
+          },
+          "question": "Concernant l'atélectasie et l'emphysème obstructif, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "il y a une attraction du médiastin"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une atélectasie réalise typiquement une opacité lobaire sans bronchogramme aérique, attirant vers elle les structures médiastinales.",
+              "annale": true,
+              "explication": "L'atélectasie attire, l'épanchement refoule. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de Golden est décrit dans les atélectasies du lobe supérieur droit.",
+              "annale": true,
+              "explication": "Par masse hilaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une atélectasie peut être la conséquence d'une obstruction bronchique par un cancer.",
+              "annale": true,
+              "explication": "Obstruction tumorale en amont. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un emphysème obstructif peut être la conséquence d'une obstruction bronchique par un corps étranger.",
+              "annale": true,
+              "explication": "Effet clapet chez l'enfant. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une atélectasie réalise typiquement une opacité lobaire sans bronchogramme aérique refoulant le médiastin du côté opposé.",
+              "annale": true,
+              "explication": "Elle attire le médiastin. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de Golden est décrit dans les atélectasies du lobe inférieur droit.",
+              "annale": true,
+              "explication": "Il concerne le lobe supérieur droit. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une atélectasie du lobe supérieur gauche possède une limite nette avec le lobe inférieur sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "La scissure gauche (oblique) n'est pas visible de face. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-053",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2022-2023",
+                "qcm": 2
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2021-2022",
+                "qcm": 16
+              }
+            ]
+          },
+          "question": "Concernant l'atélectasie lobaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "mais le lobe garde son attache hilaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une atélectasie réalise typiquement une opacité lobaire sans bronchogramme aérique attirant les structures médiastinales.",
+              "annale": true,
+              "explication": "L'atélectasie rétracte. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une atélectasie peut être la conséquence d'une obstruction bronchique par un cancer.",
+              "annale": true,
+              "explication": "Obstruction tumorale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une atélectasie du lobe supérieur droit présente généralement une limite nette avec le lobe moyen sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "La petite scissure, visible de face, la limite. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de Golden est décrit dans les atélectasies du lobe supérieur droit.",
+              "annale": true,
+              "explication": "Point du cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une atélectasie du lobe supérieur gauche présente généralement une limite nette avec le lobe inférieur gauche sur un cliché thoracique de face.",
+              "annale": true,
+              "explication": "La scissure gauche n'est pas visible de face. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-054",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2018-2019",
+                "qcm": 30
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2017-2018",
+                "qcm": 34
+              }
+            ]
+          },
+          "question": "Concernant l'atélectasie et le piégeage, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "une rétraction scissurale : en se rétractant"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une atélectasie réalise typiquement une opacité lobaire sans bronchogramme aérique avec attraction scissurale.",
+              "annale": true,
+              "explication": "Opacité, rétraction scissurale, attache hilaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de Golden est décrit dans les atélectasies du lobe supérieur droit.",
+              "annale": true,
+              "explication": "Point du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un cancer bronchique peut entraîner une atélectasie.",
+              "annale": true,
+              "explication": "Obstruction tumorale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une atélectasie peut être la conséquence d'une obstruction bronchique par un corps étranger.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Toute obstruction complète d'une bronche (tumeur, caillot, mucus, corps étranger) peut entraîner une atélectasie. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Un emphysème obstructif peut être la conséquence d'une obstruction bronchique par un corps étranger.",
+              "annale": true,
+              "explication": "Effet clapet. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une atélectasie réalise typiquement une opacité lobaire sans bronchogramme aérique refoulant le médiastin du côté opposé.",
+              "annale": true,
+              "explication": "Elle attire le médiastin. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-055",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2016-2017",
+                "qcm": 36
+              }
+            ]
+          },
+          "question": "Concernant les atélectasies, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "un cancer du hile envahissant la bronche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une atélectasie lobaire se présente le plus souvent sous la forme d'une opacité systématisée et rétractile.",
+              "annale": true,
+              "explication": "Opacité lobaire avec perte de volume. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur un cliché de face, une atélectasie du lobe supérieur droit entraîne un déplacement de la petite scissure vers le haut et vers le médiastin.",
+              "annale": true,
+              "explication": "La scissure monte, le lobe garde son attache hilaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur un cliché de face, une atélectasie du lobe inférieur gauche se traduit par une opacité qui se superpose à la silhouette cardiaque.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le lobe inférieur gauche rétracté forme une opacité triangulaire rétrocardiaque. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Un adénocarcinome bronchique peut être responsable d'une atélectasie complète d'un lobe.",
+              "annale": true,
+              "explication": "Obstruction tumorale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de Golden doit faire suspecter une masse hilaire.",
+              "annale": true,
+              "explication": "Cancer du hile. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": []
+        },
+        {
+          "id": "resp-radio-syndromes-056",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2023-2024",
+                "qcm": 4
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2022-2023",
+                "qcm": 4
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2021-2022",
+                "qcm": 18
+              }
+            ]
+          },
+          "question": "Concernant le syndrome bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "bronchocèles et impactions mucoïdes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bronchectasies sont fréquentes dans la mucoviscidose.",
+              "annale": true,
+              "explication": "Exemple du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des bronchectasies kystiques témoignent d'une atteinte plus sévère que des bronchectasies cylindriques.",
+              "annale": true,
+              "explication": "Gravité croissante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une bronchocèle correspond à une bronche dilatée et comblée par du mucus.",
+              "annale": true,
+              "explication": "Signe direct. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La radiographie thoracique est aussi sensible que le scanner pour détecter des bronchectasies.",
+              "annale": true,
+              "explication": "Les signes directs se voient surtout au scanner. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La radiographie thoracique est aussi sensible que le scanner pour détecter un épaississement des parois bronchiques.",
+              "annale": true,
+              "explication": "Signe direct vu surtout au scanner. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La radiographie thoracique est aussi sensible que le scanner pour détecter des lésions d'emphysème.",
+              "annale": true,
+              "explication": "Le scanner est plus sensible. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le signe de Golden traduit l'existence de bronchectasies variqueuses.",
+              "annale": true,
+              "explication": "Il traduit une atélectasie du lobe supérieur droit par masse hilaire. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-057",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2019-2020",
+                "qcm": 11
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2018-2019",
+                "qcm": 29
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2017-2018",
+                "qcm": 33
+              }
+            ]
+          },
+          "question": "Concernant les bronchectasies et l'emphysème, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "on les voit très mal en radiographie"
+          },
+          "bonnes": [
+            {
+              "reponse": "La radiographie thoracique est moins sensible que le scanner pour détecter des lésions d'emphysème.",
+              "annale": true,
+              "explication": "Le scanner est plus sensible. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Des bronchectasies kystiques témoignent d'une atteinte bronchique plus sévère que des bronchectasies cylindriques.",
+              "annale": true,
+              "explication": "Gravité croissante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les bronchectasies sont fréquentes dans la mucoviscidose.",
+              "annale": true,
+              "explication": "Exemple du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les kystes pulmonaires possèdent une paroi, à la différence des bulles d'emphysème.",
+              "annale": true,
+              "explication": "L'emphysème n'a pas de paroi. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le scanner permet généralement de distinguer un kyste pulmonaire d'une bulle d'emphysème.",
+              "annale": true,
+              "explication": "La paroi du kyste est visible au scanner. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La radiographie thoracique est aussi sensible que le scanner pour détecter des lésions d'emphysème.",
+              "annale": true,
+              "explication": "Le scanner est plus sensible. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La radiographie thoracique est aussi sensible que le scanner pour détecter des bronchectasies.",
+              "annale": true,
+              "explication": "Le scanner est plus sensible. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une bulle d'emphysème possède généralement une paroi épaisse.",
+              "annale": true,
+              "explication": "L'emphysème n'a pas de paroi. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-058",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2016-2017",
+                "qcm": 37
+              }
+            ]
+          },
+          "question": "Concernant les bronchectasies et l'emphysème, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "on les voit très bien au scanner"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une bronchocèle correspond à une bronche dilatée et comblée.",
+              "annale": true,
+              "explication": "Signe direct. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le scanner est plus sensible que la radiographie conventionnelle pour mettre en évidence des bronchectasies.",
+              "annale": true,
+              "explication": "Signes directs vus au scanner. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le scanner est plus sensible que la radiographie conventionnelle pour mettre en évidence des lésions d'emphysème.",
+              "annale": true,
+              "explication": "Point des diapositives. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les bronchectasies sont fréquentes dans la mucoviscidose.",
+              "annale": true,
+              "explication": "Exemple du cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'emphysème se traduit en scanner par des images en verre dépoli.",
+              "annale": true,
+              "explication": "Il se traduit par des zones hypodenses sans paroi. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-059",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2015-2016",
+                "qcm": 35
+              }
+            ]
+          },
+          "question": "Concernant le syndrome bronchique et ses diagnostics voisins, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "bouchons muqueux, bronchocèles"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une bronchocèle correspond à une bronche dilatée et comblée.",
+              "annale": true,
+              "explication": "Signe direct. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un empyème pleural peut se traduire par un niveau hydro-aérique.",
+              "annale": true,
+              "explication": "Niveau témoignant d'un abcès pleural. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un abcès pulmonaire peut compliquer une pneumonie communautaire.",
+              "annale": true,
+              "explication": "Nécrose d'une pneumopathie infectieuse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une miliaire se traduit par des images micronodulaires.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Multiples micronodules diffus (tuberculose, métastases). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'emphysème se traduit par des images en verre dépoli.",
+              "annale": true,
+              "explication": "Il se traduit par des zones hypodenses. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome pleural"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-060",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la cavité pleurale et la technique d'examen, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "car la pression y est négative"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cavité pleurale est un espace virtuel.",
+              "explication": "Elle ne contient qu'un tout petit peu de liquide."
+            },
+            {
+              "reponse": "La pression pleurale est physiologiquement négative.",
+              "explication": "Condition pour que le poumon reste accolé à la paroi."
+            },
+            {
+              "reponse": "Une pression pleurale positive s'accompagne d'un épanchement (air ou liquide).",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Un épanchement cloisonné est inflammatoire (exsudatif).",
+              "explication": "La fibrine crée des cloisons."
+            },
+            {
+              "reponse": "Debout, l'air monte et le liquide est déclive.",
+              "explication": "D'où une sémiologie différente."
+            },
+            {
+              "reponse": "Le syndrome pleural est bien analysé avec un rayon horizontal, patient debout.",
+              "explication": "Couché, la sémiologie est difficile."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression pleurale est physiologiquement positive.",
+              "explication": "Elle est négative."
+            },
+            {
+              "reponse": "La cavité pleurale contient normalement une grande quantité de liquide.",
+              "explication": "Seulement un tout petit peu."
+            },
+            {
+              "reponse": "Un épanchement libre est cloisonné par de la fibrine.",
+              "explication": "C'est la définition de l'épanchement cloisonné."
+            },
+            {
+              "reponse": "Couché, rayon vertical, la sémiologie pleurale est plus facile à interpréter.",
+              "explication": "Elle est modifiée et difficile."
+            },
+            {
+              "reponse": "Debout, le liquide monte et l'air descend.",
+              "explication": "C'est l'inverse."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-061",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'épanchement pleural liquidien libre, patient debout, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "c'est la courbe de Damoiseau"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il réalise une opacité de densité hydrique, basale et déclive.",
+              "explication": "Le liquide tombe vers le bas."
+            },
+            {
+              "reponse": "L'opacité est homogène.",
+              "explication": "Signe classique."
+            },
+            {
+              "reponse": "L'opacité est sans bronchogramme.",
+              "explication": "Ce n'est pas le poumon qui est malade."
+            },
+            {
+              "reponse": "Elle se raccorde au poumon par une ligne à concavité supérieure : la courbe de Damoiseau.",
+              "explication": "Insistance de l'intervenant."
+            },
+            {
+              "reponse": "La courbe de Damoiseau est présente de face et de profil.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Il efface le récessus costo-diaphragmatique.",
+              "explication": "Exemple du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'opacité présente un bronchogramme aérique.",
+              "explication": "Elle en est dépourvue."
+            },
+            {
+              "reponse": "La limite supérieure est convexe vers le haut.",
+              "explication": "Elle est concave vers le haut."
+            },
+            {
+              "reponse": "La limite supérieure est une ligne horizontale.",
+              "explication": "C'est un niveau hydro-aérique (hydropneumothorax)."
+            },
+            {
+              "reponse": "La courbe de Damoiseau n'est visible que de face.",
+              "explication": "Elle est présente de face et de profil."
+            },
+            {
+              "reponse": "L'opacité est apicale et hétérogène.",
+              "explication": "Elle est basale, déclive et homogène."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-062",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le « poumon blanc », quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "l'opacité refoule le médiastin vers le côté opposé"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un épanchement très abondant et une atélectasie complète réalisent tous deux une opacité complète sans bronchogramme.",
+              "explication": "« Poumon blanc »."
+            },
+            {
+              "reponse": "L'épanchement très abondant refoule le médiastin du côté opposé.",
+              "explication": "Opacité extensive."
+            },
+            {
+              "reponse": "L'atélectasie complète attire le médiastin et la trachée.",
+              "explication": "Opacité rétractile."
+            },
+            {
+              "reponse": "Une opacité complète rétractile sans bronchogramme évoque une atélectasie complète ou une séquelle de pleurectomie.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "La différence entre les deux est très difficile, surtout en radiographie.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'atélectasie complète refoule le médiastin.",
+              "explication": "Elle l'attire."
+            },
+            {
+              "reponse": "L'épanchement très abondant attire le médiastin.",
+              "explication": "Il le refoule."
+            },
+            {
+              "reponse": "Un poumon blanc avec bronchogramme évoque un épanchement très abondant.",
+              "explication": "L'épanchement est sans bronchogramme."
+            },
+            {
+              "reponse": "L'épanchement très abondant présente toujours une courbe de Damoiseau.",
+              "explication": "Il est décrit sans courbe de Damoiseau."
+            },
+            {
+              "reponse": "La distinction entre épanchement massif et atélectasie complète est toujours facile en radiographie.",
+              "explication": "Elle est très difficile."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-063",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'épanchement cloisonné et l'empyème, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 33,
+            "surligner": "c'est l'empyème, un abcès intra-pleural"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'épanchement cloisonné est exsudatif, d'origine infectieuse.",
+              "explication": "Cloisons de fibrine."
+            },
+            {
+              "reponse": "Il peut faire disparaître la courbe de Damoiseau, avec des convexités vers le poumon.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Au scanner, la plèvre se rehausse après injection de produit de contraste.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Il est en général unilatéral.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Un épanchement bilatéral est en général libre, transsudat d'insuffisance cardiaque.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "L'empyème est un abcès intra-pleural ; une ponction ramène du pus.",
+              "explication": "Stade ultime de la pleurésie purulente."
+            },
+            {
+              "reponse": "Le niveau hydro-aérique d'un empyème témoigne d'un abcès pleural.",
+              "explication": "Ce n'est pas un hydropneumothorax."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'épanchement cloisonné est en général bilatéral.",
+              "explication": "Il est en général unilatéral."
+            },
+            {
+              "reponse": "Un épanchement bilatéral est en général un empyème.",
+              "explication": "C'est en général un transsudat d'insuffisance cardiaque."
+            },
+            {
+              "reponse": "Le niveau hydro-aérique d'un empyème correspond à un hydropneumothorax libre.",
+              "explication": "Il témoigne d'un abcès pleural."
+            },
+            {
+              "reponse": "L'empyème est une complication bénigne.",
+              "explication": "C'est très grave."
+            },
+            {
+              "reponse": "Dans l'empyème, les feuillets pleuraux ne se rehaussent pas après injection.",
+              "explication": "Les parois épaisses se rehaussent."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-064",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les épanchements des culs-de-sac et les épanchements scissuraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 34,
+            "surligner": "Un épanchement de la grande scissure se voit mal"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'émoussement d'un cul-de-sac traduit une quantité de liquide plus importante que ce que suggère l'angle.",
+              "explication": "Le liquide entoure le diaphragme dans le même plan."
+            },
+            {
+              "reponse": "Un épanchement de la grande scissure se voit mal de face mais bien de profil.",
+              "explication": "Le rayon arrive oblique par rapport à la scissure de face."
+            },
+            {
+              "reponse": "Un épanchement de la petite scissure se voit bien de face.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Un épanchement scissural peut être cloisonné.",
+              "explication": "Point du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'émoussement d'un cul-de-sac traduit un volume de liquide inférieur à ce que suggère l'angle.",
+              "explication": "Le volume réel est plus important."
+            },
+            {
+              "reponse": "Un épanchement de la grande scissure se voit mieux de face que de profil.",
+              "explication": "Il se voit bien de profil."
+            },
+            {
+              "reponse": "Un épanchement de la petite scissure n'est visible que de profil.",
+              "explication": "Il se voit bien de face."
+            },
+            {
+              "reponse": "Un épanchement scissural est toujours libre.",
+              "explication": "Il peut être cloisonné."
+            },
+            {
+              "reponse": "Les épanchements des culs-de-sac sont toujours évidents en radiographie.",
+              "explication": "Ils sont peu évidents."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-065",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le pneumothorax, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 35,
+            "surligner": "dans un pneumothorax, elle devient positive"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le pneumothorax est un épanchement pleural aérique.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Dans un pneumothorax, la pression pleurale devient positive.",
+              "explication": "Elle est physiologiquement négative."
+            },
+            {
+              "reponse": "Un pneumothorax de degré 1 correspond à un petit décollement de 1 à 2 cm.",
+              "explication": "Degrés donnés à l'oral."
+            },
+            {
+              "reponse": "Dans un pneumothorax de degré 3, le poumon est collabé et l'hyperpression comprime le médiastin.",
+              "explication": "Degrés donnés à l'oral."
+            },
+            {
+              "reponse": "De faible abondance, il se traduit par une ligne de plèvre viscérale décollée au sommet.",
+              "explication": "Signe radiologique."
+            },
+            {
+              "reponse": "Un pneumothorax compressif déplace le médiastin du côté opposé.",
+              "explication": "Signe radiologique."
+            },
+            {
+              "reponse": "Au scanner, patient couché, l'air se collecte en avant.",
+              "explication": "L'air se déplace selon la position."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un pneumothorax de degré 2 correspond à un décollement de 1 à 2 cm.",
+              "explication": "Degré 2 : 3 à 4 cm."
+            },
+            {
+              "reponse": "La ligne visible dans un pneumothorax correspond à la plèvre pariétale décollée de la paroi.",
+              "explication": "C'est la plèvre viscérale."
+            },
+            {
+              "reponse": "Un pneumothorax de grande abondance donne une opacité d'un hémithorax.",
+              "explication": "Il donne une hyperclarté."
+            },
+            {
+              "reponse": "Au scanner, patient couché, l'air se collecte en arrière.",
+              "explication": "Il se collecte en avant."
+            },
+            {
+              "reponse": "Un pneumothorax compressif attire le médiastin.",
+              "explication": "Il le refoule."
+            },
+            {
+              "reponse": "Sur une radiographie debout, l'air d'un pneumothorax se collecte à la base.",
+              "explication": "Il se collecte en haut."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-066",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel signe radiographique caractérise un hydropneumothorax ? (une seule réponse attendue)",
+          "cours": {
+            "page": 36,
+            "surligner": "visible seulement sur une radiographie faite debout"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un niveau hydro-aérique : ligne horizontale séparant le liquide en bas et l'air en haut.",
+              "explication": "Visible seulement sur une radiographie faite debout."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une courbe de Damoiseau concave vers le haut.",
+              "explication": "Signe d'épanchement liquidien pur."
+            },
+            {
+              "reponse": "Un bronchogramme aérique.",
+              "explication": "Signe de syndrome alvéolaire."
+            },
+            {
+              "reponse": "Un signe de Golden.",
+              "explication": "Signe d'atélectasie du lobe supérieur droit."
+            },
+            {
+              "reponse": "Un aplatissement des coupoles diaphragmatiques.",
+              "explication": "Signe de distension."
+            },
+            {
+              "reponse": "Un raccordement en angle obtus avec le médiastin.",
+              "explication": "Signe de masse médiastinale."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-067",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2024-2025",
+                "qcm": 15
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2020-2021",
+                "qcm": 8
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2019-2020",
+                "qcm": 18
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2016-2017",
+                "qcm": 41
+              }
+            ]
+          },
+          "question": "Concernant l'imagerie des épanchements pleuraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "avec un rayon X horizontal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un épanchement pleural se voit mieux sur un cliché réalisé rayon horizontal.",
+              "annale": true,
+              "explication": "Patient debout, rayon horizontal : sémiologie bien analysée. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un épanchement pleural liquidien présente typiquement un bord supérieur concave vers le haut.",
+              "annale": true,
+              "explication": "Courbe de Damoiseau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un épanchement pleural liquidien présente typiquement un bord supérieur net.",
+              "annale": true,
+              "explication": "La courbe de Damoiseau est une ligne nette. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un pneumothorax se voit mieux en scanner qu'en radiographie conventionnelle.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le scanner est plus sensible pour les petits décollements. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Un volumineux épanchement pleural refoule le médiastin vers le côté opposé.",
+              "annale": true,
+              "explication": "Opacité extensive. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un épanchement pleural se voit mieux sur un cliché réalisé rayon vertical.",
+              "annale": true,
+              "explication": "Rayon vertical (couché) : sémiologie difficile. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un niveau hydro-aérique se voit mieux sur un cliché réalisé en position couchée.",
+              "annale": true,
+              "explication": "Il n'est visible que debout. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un volumineux épanchement pleural attire les structures médiastinales.",
+              "annale": true,
+              "explication": "Il les refoule ; c'est l'atélectasie qui attire. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-068",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2023-2024",
+                "qcm": 3
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2022-2023",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Concernant l'imagerie pleurale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "Cette ligne est présente de face et de profil"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un épanchement pleural liquidien peut se voir au scanner.",
+              "annale": true,
+              "explication": "Collection liquidienne pleurale au scanner. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un épanchement pleural liquidien se voit en échographie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "L'échographie détecte bien le liquide pleural. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Sur un cliché de face, debout, un épanchement pleural liquidien présente typiquement un bord supérieur concave vers le haut.",
+              "annale": true,
+              "explication": "Courbe de Damoiseau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un volumineux épanchement pleural peut refouler le médiastin vers l'hémithorax opposé.",
+              "annale": true,
+              "explication": "Point du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un pneumothorax correspond à la présence d'air entre les feuillets pleuraux viscéral et pariétal.",
+              "annale": true,
+              "explication": "Épanchement pleural aérique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un pneumothorax se voit mieux sur un cliché réalisé en position debout qu'en position couchée.",
+              "annale": true,
+              "explication": "Debout, l'air monte à l'apex ; couché, la sémiologie est difficile. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": []
+        },
+        {
+          "id": "resp-radio-syndromes-069",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2021-2022",
+                "qcm": 17
+              }
+            ]
+          },
+          "question": "Concernant les épanchements pleuraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "Couché, la sémiologie est beaucoup plus difficile"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un épanchement pleural se voit mieux sur un cliché pris en position debout qu'en position couchée.",
+              "annale": true,
+              "explication": "Couché, la sémiologie est difficile. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur un cliché de face, debout, un épanchement pleural liquidien présente typiquement un bord supérieur concave vers le haut.",
+              "annale": true,
+              "explication": "Courbe de Damoiseau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un volumineux épanchement pleural peut refouler le médiastin vers l'hémithorax opposé.",
+              "annale": true,
+              "explication": "Point du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un pneumothorax se voit mieux en scanner qu'en radiographie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le scanner est plus sensible. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un pneumothorax correspond à la présence d'air entre le feuillet viscéral et le parenchyme pulmonaire.",
+              "annale": true,
+              "explication": "L'air est entre les feuillets viscéral et pariétal. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-070",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2017-2018",
+                "qcm": 35
+              }
+            ]
+          },
+          "question": "Concernant les scissures, les épanchements et le pneumothorax, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 35,
+            "surligner": "la plèvre viscérale qui s'est décollée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un épanchement pleural possède une limite supérieure nette et concave vers le poumon.",
+              "annale": true,
+              "explication": "Courbe de Damoiseau. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une scissure correspond à deux feuillets de plèvre pariétale accolés l'un à l'autre.",
+              "annale": true,
+              "explication": "Ce sont deux feuillets viscéraux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur une radiographie de face debout, un épanchement pleural se traduit par une opacité hydrique rétractile sans bronchogramme aérique.",
+              "annale": true,
+              "explication": "L'épanchement refoule ; l'opacité rétractile évoque l'atélectasie. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un pneumothorax correspond à un décollement entre la plèvre pariétale et le fascia endothoracique.",
+              "annale": true,
+              "explication": "C'est un décollement entre plèvre viscérale et plèvre pariétale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Sur une radiographie de face debout, un pneumothorax se traduit par un niveau hydro-aérique.",
+              "annale": true,
+              "explication": "Un niveau suppose du liquide (hydropneumothorax) ; le pneumothorax se traduit par une ligne pleurale et une hyperclarté. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome médiastinal"
+      },
+      "questions": [
+        {
+          "id": "resp-radio-syndromes-071",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le médiastin et le syndrome médiastinal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 37,
+            "surligner": "c'est un espace cellulo-graisseux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le médiastin est un espace cellulo-graisseux.",
+              "explication": "Ce n'est pas un organe."
+            },
+            {
+              "reponse": "De nombreux organes cheminent dans le médiastin (trachée, œsophage, vaisseaux, nerfs, cœur).",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Un syndrome médiastinal évoque en général un processus tumoral.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Un syndrome médiastinal peut aussi correspondre à une malformation ou à un kyste.",
+              "explication": "Point du cours."
+            },
+            {
+              "reponse": "Le syndrome médiastinal regroupe les signes permettant de rattacher une opacité thoracique au médiastin.",
+              "explication": "Définition des diapositives."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le médiastin est un organe.",
+              "explication": "C'est un espace."
+            },
+            {
+              "reponse": "Un syndrome médiastinal traduit toujours une infection.",
+              "explication": "Il évoque en général un processus tumoral."
+            },
+            {
+              "reponse": "L'œsophage ne chemine pas dans le médiastin.",
+              "explication": "Il y chemine."
+            },
+            {
+              "reponse": "Un syndrome médiastinal ne peut pas correspondre à un kyste.",
+              "explication": "Il peut correspondre à un kyste."
+            },
+            {
+              "reponse": "Le syndrome médiastinal correspond à un comblement alvéolaire.",
+              "explication": "C'est le syndrome alvéolaire."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-072",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont des signes d'une masse médiastinale sur une radiographie de face ? (3 réponses attendues)",
+          "cours": {
+            "page": 37,
+            "surligner": "raccordement supérieur et inférieur obtus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une opacité de densité hydrique.",
+              "explication": "Signe du cours."
+            },
+            {
+              "reponse": "Une opacité homogène.",
+              "explication": "Signe du cours."
+            },
+            {
+              "reponse": "Une limite externe nette avec le poumon, convexe vers le poumon.",
+              "explication": "Signe du cours."
+            },
+            {
+              "reponse": "Une limite interne confondue avec le médiastin.",
+              "explication": "Signe du cours."
+            },
+            {
+              "reponse": "Un centre se projetant en dedans du bord du médiastin.",
+              "explication": "Signe du cours."
+            },
+            {
+              "reponse": "Un raccordement supérieur et inférieur obtus (angle supérieur à 90°) avec le médiastin.",
+              "explication": "Signe du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une limite interne nette avec le médiastin.",
+              "explication": "Elle est confondue avec le médiastin."
+            },
+            {
+              "reponse": "Un raccordement en angle aigu avec le médiastin.",
+              "explication": "Il est obtus."
+            },
+            {
+              "reponse": "Un bronchogramme aérique.",
+              "explication": "Signe de syndrome alvéolaire."
+            },
+            {
+              "reponse": "Un centre se projetant en dehors du bord du médiastin.",
+              "explication": "Il se projette en dedans."
+            },
+            {
+              "reponse": "Une limite externe floue, concave vers le poumon.",
+              "explication": "Elle est nette et convexe vers le poumon."
+            },
+            {
+              "reponse": "Une limite supérieure en courbe de Damoiseau.",
+              "explication": "Signe d'épanchement pleural."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-073",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels signes radiologiques sont correctement rattachés à leur syndrome ?",
+          "cours": {
+            "page": 37,
+            "surligner": "limite interne confondue avec le médiastin"
+          },
+          "bonnes": [
+            {
+              "reponse": "La courbe de Damoiseau est un signe d'épanchement pleural liquidien.",
+              "explication": "Synthèse du cours."
+            },
+            {
+              "reponse": "Le bronchogramme aérique est un signe de syndrome alvéolaire.",
+              "explication": "Synthèse du cours."
+            },
+            {
+              "reponse": "Le signe de Golden est un signe d'atélectasie du lobe supérieur droit.",
+              "explication": "Synthèse du cours."
+            },
+            {
+              "reponse": "Un raccordement en angle obtus avec le médiastin est un signe de masse médiastinale.",
+              "explication": "Synthèse du cours."
+            },
+            {
+              "reponse": "L'aspect en lâcher de ballons est un signe de métastases pulmonaires.",
+              "explication": "Synthèse du cours."
+            },
+            {
+              "reponse": "Le rayon de miel est un signe de fibrose pulmonaire.",
+              "explication": "Synthèse du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le bronchogramme aérique est un signe de masse médiastinale.",
+              "explication": "Il est absent dans la masse médiastinale."
+            },
+            {
+              "reponse": "La courbe de Damoiseau est un signe de masse médiastinale.",
+              "explication": "Elle signe l'épanchement liquidien."
+            },
+            {
+              "reponse": "Le rayon de miel est un signe de syndrome alvéolaire.",
+              "explication": "C'est un signe de fibrose (syndrome interstitiel)."
+            },
+            {
+              "reponse": "L'effet clapet est un signe d'atélectasie.",
+              "explication": "Il donne un piégeage, l'inverse de l'atélectasie."
+            },
+            {
+              "reponse": "Un niveau hydro-aérique est le signe d'un pneumothorax pur.",
+              "explication": "Il suppose du liquide : hydropneumothorax."
+            },
+            {
+              "reponse": "Le signe de Golden est un signe d'épanchement scissural.",
+              "explication": "Il signe l'atélectasie du lobe supérieur droit."
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-074",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2024-2025",
+                "qcm": 16
+              }
+            ]
+          },
+          "question": "Quelles sont les caractéristiques classiques d'une masse médiastinale sur une radiographie de face ? (2 réponses attendues)",
+          "cours": {
+            "page": 37,
+            "surligner": "limite externe nette avec le poumon"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une opacité de densité hydrique.",
+              "annale": true,
+              "explication": "Signe du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une limite externe nette avec le poumon.",
+              "annale": true,
+              "explication": "Signe du cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un bronchogramme aérique.",
+              "annale": true,
+              "explication": "Absent dans une masse médiastinale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une limite interne nette avec le médiastin.",
+              "annale": true,
+              "explication": "Elle est confondue avec le médiastin. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une limite supérieure en courbe de Damoiseau.",
+              "annale": true,
+              "explication": "Signe d'épanchement pleural liquidien. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-radio-syndromes-075",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2022-2023",
+                "qcm": 5
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2021-2022",
+                "qcm": 15
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2020-2021",
+                "qcm": 9
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Imagerie",
+                "annee": "2016-2017",
+                "qcm": 42
+              }
+            ]
+          },
+          "question": "Quelles sont les caractéristiques classiques d'une masse médiastinale sur une radiographie thoracique de face ?",
+          "cours": {
+            "page": 37,
+            "surligner": "centre se projetant en dedans du bord du médiastin"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une opacité de densité hydrique.",
+              "annale": true,
+              "explication": "Signe du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une limite externe nette avec le poumon.",
+              "annale": true,
+              "explication": "Signe du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un raccordement à angle obtus avec le médiastin.",
+              "annale": true,
+              "explication": "Angle supérieur à 90°. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un raccordement en pente douce avec les contours du médiastin.",
+              "annale": true,
+              "explication": "C'est l'aspect d'un raccordement en angle obtus. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un bronchogramme aérique.",
+              "annale": true,
+              "explication": "Absent dans une masse médiastinale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Une limite interne nette avec le médiastin.",
+              "annale": true,
+              "explication": "Elle est confondue avec le médiastin. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un raccordement à angle aigu avec les contours du médiastin.",
+              "annale": true,
+              "explication": "Il est obtus. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
