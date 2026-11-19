@@ -1,0 +1,3558 @@
+{
+  "meta": {
+    "theme": "Appareil respiratoire",
+    "section": "Biochimie",
+    "titre": "Équilibre acido-basique et gazométrie sanguine",
+    "description": "Transport des gaz, régulation du pH, prélèvement et interprétation des gaz du sang, co-oxymétrie et gaz du sang à la naissance.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "resp-biochim-eab-gds.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction et rappels physiologiques"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-eab-gds-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la gazométrie sanguine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Ces paramètres évoluent très rapidement"
+          },
+          "bonnes": [
+            {
+              "reponse": "La gazométrie sanguine mesure l'oxygène, le CO2 circulant et le pH.",
+              "explication": "Définition du cours : oxymétrie, CO2 circulant et pH."
+            },
+            {
+              "reponse": "Le résultat d'un gaz du sang est attendu en une demi-heure à une heure.",
+              "explication": "Notion d'urgence : résultat en ½ h à 1 h."
+            },
+            {
+              "reponse": "Après le prélèvement, les cellules de l'échantillon continuent de consommer de l'O2 et de produire du CO2.",
+              "explication": "C'est l'une des 2 raisons pour lesquelles les résultats tardifs sont inutiles."
+            },
+            {
+              "reponse": "Le dosage des gaz du sang est réalisé à l'hôpital et en clinique.",
+              "explication": "Dosage hospitalier et en clinique, pas en ville."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le gaz du sang est couramment réalisé en laboratoire de ville ou au cabinet du médecin généraliste.",
+              "explication": "Il n'est fait ni en laboratoire de ville ni en cabinet de médecine générale."
+            },
+            {
+              "reponse": "Les paramètres du gaz du sang évoluent lentement, sur plusieurs jours.",
+              "explication": "Ils évoluent très rapidement."
+            },
+            {
+              "reponse": "Un résultat de gaz du sang rendu plusieurs heures après le prélèvement reste fiable.",
+              "explication": "Les résultats tardifs sont inutiles : échantillon modifié et état du patient changé."
+            },
+            {
+              "reponse": "Le pH du plasma est normalement de 7,0.",
+              "explication": "Il est de 7,4."
+            },
+            {
+              "reponse": "Le dosage repose sur des électrodes miniatures montées en parallèle, chacune sur un échantillon séparé.",
+              "explication": "Les électrodes sont montées en série : un même filet de sang passe à leur contact."
+            },
+            {
+              "reponse": "Le prélèvement de gaz du sang est robuste et supporte un long délai de transport.",
+              "explication": "Le prélèvement est fragile."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les bases anatomiques des échanges gazeux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "La surface d’échange pulmonaire représente une surface considérable"
+          },
+          "bonnes": [
+            {
+              "reponse": "La surface d'échange pulmonaire est d'environ 100 m², soit un demi-court de tennis.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Le volume mort anatomique correspond à l'air de la cavité buccale, de la trachée et des bronches.",
+              "explication": "Cet air ne participe pas aux échanges gazeux."
+            },
+            {
+              "reponse": "Seul l'air qui arrive aux alvéoles participe aux échanges gazeux avec le sang.",
+              "explication": "Le reste constitue le volume mort."
+            },
+            {
+              "reponse": "Le sang qui arrive aux poumons par les artérioles pulmonaires est riche en CO2 et pauvre en O2.",
+              "explication": "Dans la circulation pulmonaire, les couleurs sont inversées : sang dit « veineux »."
+            },
+            {
+              "reponse": "Le sang qui repart par les veines pulmonaires est dit artérialisé.",
+              "explication": "Il a été oxygéné au niveau des capillaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La surface d'échange pulmonaire est d'environ 10 m².",
+              "explication": "Elle est d'environ 100 m²."
+            },
+            {
+              "reponse": "Tout l'air inspiré participe aux échanges gazeux.",
+              "explication": "Il existe un volume mort anatomique."
+            },
+            {
+              "reponse": "Les poumons comptent environ 3 millions d'alvéoles.",
+              "explication": "Il y en a 300 millions."
+            },
+            {
+              "reponse": "Les veines pulmonaires transportent un sang pauvre en O2.",
+              "explication": "Elles transportent du sang artérialisé, riche en O2."
+            },
+            {
+              "reponse": "Le volume mort anatomique correspond à l'air contenu dans les alvéoles.",
+              "explication": "Il correspond à l'air des voies de conduction (bouche, trachée, bronches)."
+            },
+            {
+              "reponse": "L'O2 circule dans le sang principalement sous forme dissoute.",
+              "explication": "Peu soluble, il est transporté principalement par l'hémoglobine."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la mécanique ventilatoire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Les mouvements respiratoires sont assurés essentiellement par le diaphragme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au repos, la fréquence respiratoire est d'environ 15 cycles par minute.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Au repos, le volume courant est d'environ 0,5 litre.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Le volume résiduel empêche les alvéoles de se collaber.",
+              "explication": "Il ne peut pas être expiré."
+            },
+            {
+              "reponse": "La capacité résiduelle fonctionnelle est la somme du volume de réserve expiratoire et du volume résiduel.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le diaphragme est le principal muscle des mouvements respiratoires.",
+              "explication": "Les autres muscles sont accessoires (intercostaux, sterno-cléido-mastoïdien…)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Au repos, la fréquence respiratoire est d'environ 30 cycles par minute.",
+              "explication": "Elle est de 15 cycles par minute."
+            },
+            {
+              "reponse": "Au repos, le volume courant est d'environ 1,5 litre.",
+              "explication": "Il est de 0,5 litre."
+            },
+            {
+              "reponse": "Le volume résiduel peut être entièrement expiré lors d'une expiration forcée.",
+              "explication": "On ne peut jamais expirer au-delà du volume résiduel, sinon les alvéoles se collaberaient."
+            },
+            {
+              "reponse": "La capacité résiduelle fonctionnelle est la somme du volume courant et du volume de réserve expiratoire.",
+              "explication": "C'est le volume de réserve expiratoire + le volume résiduel."
+            },
+            {
+              "reponse": "En respirant très fort, on renouvelle intégralement l'air pulmonaire.",
+              "explication": "L'air des poumons n'est jamais identique à l'air ambiant."
+            },
+            {
+              "reponse": "Les muscles intercostaux sont les principaux muscles respiratoires.",
+              "explication": "Ce sont des muscles accessoires ; le principal est le diaphragme."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-004",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la pression partielle alvéolaire en CO2 chez un sujet sain ? (une seule réponse attendue)",
+          "cours": {
+            "page": 6,
+            "surligner": "Dans l’alvéole, le rapport CO2/O2 n’est plus le même"
+          },
+          "bonnes": [
+            {
+              "reponse": "40 mmHg.",
+              "explication": "Pression alvéolaire en CO2 = 40 mmHg (et en O2 = 100 mmHg)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "46 mmHg.",
+              "explication": "C'est la pression en CO2 du sang veineux mêlé."
+            },
+            {
+              "reponse": "100 mmHg.",
+              "explication": "C'est la pression alvéolaire en O2."
+            },
+            {
+              "reponse": "Moins de 1 mmHg.",
+              "explication": "C'est la pression en CO2 de l'air ambiant."
+            },
+            {
+              "reponse": "150 mmHg.",
+              "explication": "C'est environ la pression en O2 de l'air ambiant."
+            },
+            {
+              "reponse": "60 mmHg.",
+              "explication": "Valeur de l'hypercapnie, pas de la normale."
+            },
+            {
+              "reponse": "20 mmHg.",
+              "explication": "Valeur trop basse."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les pressions partielles des gaz, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "pression veineuse en O2 = 40 mmHg"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans le sang veineux mêlé, la pression en O2 est de 40 mmHg.",
+              "explication": "Sang qui arrive aux poumons après les tissus."
+            },
+            {
+              "reponse": "Dans le sang veineux mêlé, la pression en CO2 est de 46 mmHg.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Dans le sang artérialisé, la pression en O2 est de 100 mmHg et la pression en CO2 de 40 mmHg.",
+              "explication": "Le sang s'équilibre avec l'air alvéolaire."
+            },
+            {
+              "reponse": "L'air ambiant contient 21 % d'O2, soit environ 150 mmHg.",
+              "explication": "Composition du cours."
+            },
+            {
+              "reponse": "L'air ambiant est composé majoritairement d'azote.",
+              "explication": "78 % d'azote."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans le sang veineux mêlé, la pression en CO2 est de 40 mmHg.",
+              "explication": "Elle est de 46 mmHg ; 40 mmHg est la valeur artérielle."
+            },
+            {
+              "reponse": "Dans le sang veineux mêlé, la pression en O2 est de 100 mmHg.",
+              "explication": "Elle est de 40 mmHg."
+            },
+            {
+              "reponse": "L'air ambiant contient 20 % d'O2.",
+              "explication": "Erreur des notes corrigée : 21 %."
+            },
+            {
+              "reponse": "L'air ambiant contient 3 % de CO2.",
+              "explication": "Il en contient 0,03 % (moins de 1 mmHg)."
+            },
+            {
+              "reponse": "La pression artérielle en CO2 normale est de 100 mmHg.",
+              "explication": "Elle est de 40 mmHg."
+            },
+            {
+              "reponse": "L'air alvéolaire a la même composition que l'air ambiant.",
+              "explication": "Il est plus riche en CO2 et plus pauvre en O2."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les échanges gazeux alvéolo-capillaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "car le CO2 est 20 fois plus soluble"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le passage d'un globule rouge au contact de l'alvéole dure environ 0,75 seconde.",
+              "explication": "Presque 1 seconde."
+            },
+            {
+              "reponse": "L'équilibre des pressions en O2 et en CO2 est atteint en environ un tiers du temps de passage.",
+              "explication": "Le reste constitue une réserve physiologique."
+            },
+            {
+              "reponse": "Les échanges gazeux alvéolaires se font par simple diffusion, sans protéine membranaire.",
+              "explication": "Échange passif grâce à un gradient."
+            },
+            {
+              "reponse": "Le gradient de pression du CO2 (environ 6 mmHg) est plus faible que celui de l'O2 (environ 60 mmHg).",
+              "explication": "46 − 40 = 6 mmHg contre 100 − 40 = 60 mmHg."
+            },
+            {
+              "reponse": "Le CO2 est environ 20 fois plus soluble que l'O2.",
+              "explication": "C'est pourquoi un faible gradient lui suffit."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les échanges gazeux alvéolaires font intervenir un transport actif.",
+              "explication": "C'est une diffusion passive."
+            },
+            {
+              "reponse": "Le gradient de pression du CO2 est plus important que celui de l'O2.",
+              "explication": "6 mmHg pour le CO2 contre 60 mmHg pour l'O2."
+            },
+            {
+              "reponse": "L'O2 est 20 fois plus soluble que le CO2.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "L'équilibre des pressions n'est atteint qu'en fin de passage capillaire.",
+              "explication": "Il est atteint dès le premier tiers."
+            },
+            {
+              "reponse": "Le temps de passage d'un globule rouge au contact de l'alvéole est d'environ 7,5 secondes.",
+              "explication": "Il est de 0,75 seconde."
+            },
+            {
+              "reponse": "Lors d'un effort intense, le temps de passage devient insuffisant pour saturer l'hémoglobine en O2.",
+              "explication": "Il se raccourcit mais reste suffisant."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-007",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Sous quelles formes le CO2 est-il transporté dans le sang ? (3 réponses attendues)",
+          "cours": {
+            "page": 7,
+            "surligner": "formés par l’anhydrase carbonique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Sous forme de bicarbonates (environ 80 %).",
+              "explication": "Forme majoritaire, formée par l'anhydrase carbonique."
+            },
+            {
+              "reponse": "Sous forme dissoute (environ 10 %).",
+              "explication": "C'est la pression partielle en CO2 mesurée."
+            },
+            {
+              "reponse": "Sous forme de composés carbaminés liés à l'hémoglobine (environ 10 %).",
+              "explication": "Carbhémoglobine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sous forme de carboxyhémoglobine.",
+              "explication": "La carboxyhémoglobine fixe le monoxyde de carbone, pas le CO2."
+            },
+            {
+              "reponse": "Sous forme liée au fer de l'hème.",
+              "explication": "Le CO2 se lie à l'extrémité NH2 de l'hémoglobine, pas au fer."
+            },
+            {
+              "reponse": "Sous forme d'ion ammonium.",
+              "explication": "L'ammonium est une forme d'élimination urinaire des protons."
+            },
+            {
+              "reponse": "Sous forme d'oxyhémoglobine.",
+              "explication": "L'oxyhémoglobine est l'hémoglobine liée à l'O2."
+            },
+            {
+              "reponse": "Sous forme de méthémoglobine.",
+              "explication": "La méthémoglobine contient du fer ferrique et ne transporte pas de gaz."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'anhydrase carbonique et les bicarbonates, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "c’est l’enzyme la plus rapide de l’organisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'anhydrase carbonique est une enzyme du globule rouge.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'anhydrase carbonique est l'enzyme la plus rapide de l'organisme.",
+              "explication": "Réaction instantanée."
+            },
+            {
+              "reponse": "La réaction catalysée par l'anhydrase carbonique libère un ion H+.",
+              "explication": "Elle consomme de l'eau et libère un proton."
+            },
+            {
+              "reponse": "Les bicarbonates sont des bases qui s'équilibrent avec le CO2.",
+              "explication": "Ils sont importants pour le maintien du pH."
+            },
+            {
+              "reponse": "Les bicarbonates figurent dans l'ionogramme sanguin comme dans le gaz du sang.",
+              "explication": "Ils y apparaissent toujours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'anhydrase carbonique est une enzyme plasmatique d'origine hépatique.",
+              "explication": "C'est une enzyme du globule rouge."
+            },
+            {
+              "reponse": "La réaction catalysée par l'anhydrase carbonique est lente, de l'ordre de plusieurs minutes.",
+              "explication": "Elle est instantanée."
+            },
+            {
+              "reponse": "La réaction catalysée par l'anhydrase carbonique consomme des protons.",
+              "explication": "Elle en libère."
+            },
+            {
+              "reponse": "Les bicarbonates sont transportés fixés à l'hémoglobine.",
+              "explication": "Erreur des notes corrigée : les bicarbonates ne sont pas fixés à l'hémoglobine."
+            },
+            {
+              "reponse": "Éliminer davantage de bicarbonates améliore le tamponnement du CO2.",
+              "explication": "Si l'on en élimine trop, on ne peut plus tamponner le CO2."
+            },
+            {
+              "reponse": "Le CO2 dissous représente environ 80 % du CO2 sanguin.",
+              "explication": "C'est la part des bicarbonates ; le CO2 dissous représente 10 %."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le CO2 plasmatique total, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "le CO2 dissous est mesuré directement par l’appareil"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le CO2 plasmatique total est la somme des bicarbonates, du CO2 dissous et du CO2 carbaminé.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les bicarbonates plasmatiques sont calculés à partir de la pression partielle en CO2 et du pH.",
+              "explication": "Ils ne sont pas mesurés directement."
+            },
+            {
+              "reponse": "Le CO2 dissous est mesuré directement par l'appareil de gazométrie.",
+              "explication": "C'est la pression partielle du CO2 libre dissous."
+            },
+            {
+              "reponse": "Le CO2 carbaminé est estimé à partir de la pression partielle en CO2 et de la concentration en hémoglobine.",
+              "explication": "Il est calculé, pas mesuré."
+            },
+            {
+              "reponse": "La formation de carbhémoglobine libère un proton.",
+              "explication": "CO2 + Hb–NH2 → Hb–NH–COO− + H+."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bicarbonates sont mesurés directement par une électrode spécifique.",
+              "explication": "Ils sont calculés à partir du pH et de la pression en CO2."
+            },
+            {
+              "reponse": "Le CO2 carbaminé est estimé à partir du pH et de la pression en O2.",
+              "explication": "Il est estimé à partir de la pression en CO2 et de l'hémoglobine."
+            },
+            {
+              "reponse": "Le CO2 total est la somme des bicarbonates et du CO2 dissous seulement.",
+              "explication": "Il faut ajouter le CO2 carbaminé."
+            },
+            {
+              "reponse": "Dans la carbhémoglobine, le CO2 se fixe sur le fer de l'hème.",
+              "explication": "Il réagit avec l'extrémité NH2 de l'hémoglobine."
+            },
+            {
+              "reponse": "La formation de carbhémoglobine consomme un proton.",
+              "explication": "Elle en libère un."
+            },
+            {
+              "reponse": "Le CO2 dissous est calculé à partir des bicarbonates.",
+              "explication": "Il est mesuré directement."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les échanges de CO2 entre plasma et globule rouge, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "des ions chlore entrent dans la cellule"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans les tissus, les bicarbonates formés sortent du globule rouge en échange d'une entrée d'ions chlore.",
+              "explication": "Cela conserve la neutralité électrique du globule rouge."
+            },
+            {
+              "reponse": "Dans les tissus, l'acidification du globule rouge favorise le relargage de l'O2.",
+              "explication": "Un globule rouge acidifié perd son affinité pour l'O2."
+            },
+            {
+              "reponse": "Au niveau pulmonaire, des ions Cl− sortent du globule rouge pendant que les bicarbonates y entrent.",
+              "explication": "Trajet inverse de celui des tissus."
+            },
+            {
+              "reponse": "Au niveau pulmonaire, reformer du CO2 à partir des bicarbonates consomme des protons.",
+              "explication": "Le milieu du globule rouge devient plus alcalin."
+            },
+            {
+              "reponse": "Au poumon, l'hémoglobine se trouve dans un milieu plutôt alcalin, ce qui favorise la fixation de l'O2.",
+              "explication": "Résumé du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un globule rouge acidifié augmente son affinité pour l'O2.",
+              "explication": "Il la perd."
+            },
+            {
+              "reponse": "Dans les tissus, des ions chlore sortent du globule rouge.",
+              "explication": "Ils y entrent, en échange des bicarbonates qui sortent."
+            },
+            {
+              "reponse": "Dans les tissus périphériques, l'hémoglobine se trouve dans un milieu plutôt alcalin.",
+              "explication": "Le milieu y est plutôt acide."
+            },
+            {
+              "reponse": "Les pressions en CO2 à l'entrée et à la sortie du capillaire alvéolaire diffèrent d'environ 60 mmHg.",
+              "explication": "Elles ne diffèrent que de 6 mmHg."
+            },
+            {
+              "reponse": "Au niveau pulmonaire, la reconversion des bicarbonates en CO2 libère des protons.",
+              "explication": "Elle en consomme."
+            },
+            {
+              "reponse": "La sortie des bicarbonates du globule rouge est compensée par une sortie de sodium.",
+              "explication": "Elle est compensée par une entrée d'ions chlore."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'hémoglobine et la saturation, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "une bonne saturation avec un taux d’hémoglobine très bas"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hémoglobine réduite est majoritaire quand le sang arrive à l'alvéole.",
+              "explication": "Hémoglobine non combinée à l'O2."
+            },
+            {
+              "reponse": "L'oxyhémoglobine est majoritaire à la sortie de l'alvéole.",
+              "explication": "Hémoglobine liée à l'O2."
+            },
+            {
+              "reponse": "La saturation reflète la pression partielle en O2 et la ventilation, mais pas la concentration en hémoglobine.",
+              "explication": "Insistance du cours."
+            },
+            {
+              "reponse": "On peut avoir une bonne saturation avec un taux d'hémoglobine très bas.",
+              "explication": "Les tissus sont alors mal oxygénés."
+            },
+            {
+              "reponse": "Un patient anémique avec une excellente saturation peut être en anoxie périphérique.",
+              "explication": "Faute de transporteurs, l'O2 n'arrive pas aux tissus."
+            },
+            {
+              "reponse": "Dans le sang artériel, l'oxyhémoglobine représente normalement environ 95 % de l'hémoglobine.",
+              "explication": "Hémoglobine bien saturée au niveau du poumon."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La saturation renseigne sur la concentration en hémoglobine.",
+              "explication": "Elle ne la reflète pas."
+            },
+            {
+              "reponse": "Une saturation à 100 % garantit une oxygénation tissulaire suffisante.",
+              "explication": "Elle signifie qu'on ventile bien, pas que les transporteurs suffisent."
+            },
+            {
+              "reponse": "L'hémoglobine réduite est majoritaire à la sortie de l'alvéole.",
+              "explication": "C'est l'oxyhémoglobine qui l'est."
+            },
+            {
+              "reponse": "L'oxyhémoglobine est l'hémoglobine non combinée à l'O2.",
+              "explication": "C'est l'hémoglobine liée à l'O2."
+            },
+            {
+              "reponse": "La saturation varie de façon linéaire avec la pression partielle en O2.",
+              "explication": "La relation est sigmoïde (courbe de Barcroft)."
+            },
+            {
+              "reponse": "La saturation ne peut être mesurée que sur un gaz du sang.",
+              "explication": "Elle est aussi suivie par un saturomètre au doigt."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la courbe de dissociation de l'hémoglobine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "c’est un système de coopération"
+          },
+          "bonnes": [
+            {
+              "reponse": "La relation entre la pression partielle en O2 et la saturation de l'hémoglobine est sigmoïde.",
+              "explication": "Courbe de Barcroft."
+            },
+            {
+              "reponse": "L'hémoglobine est formée de 4 sous-unités, chacune pouvant fixer une molécule d'O2.",
+              "explication": "Base de la coopération."
+            },
+            {
+              "reponse": "La fixation d'une molécule d'O2 sur une sous-unité favorise la fixation de l'O2 sur les autres sous-unités.",
+              "explication": "Changement de conformation : coopération."
+            },
+            {
+              "reponse": "Grâce à la forme sigmoïde, l'hémoglobine est presque saturée dès 80 mmHg d'O2.",
+              "explication": "Avec une relation linéaire, il faudrait 120 mmHg."
+            },
+            {
+              "reponse": "L'hémoglobine fœtale est légèrement plus affine pour l'O2 que l'hémoglobine maternelle.",
+              "explication": "Cela facilite les échanges placentaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hémoglobine est formée de 2 sous-unités.",
+              "explication": "Elle en compte 4."
+            },
+            {
+              "reponse": "La fixation d'une molécule d'O2 diminue l'affinité des autres sous-unités pour l'O2.",
+              "explication": "Elle l'augmente (coopération)."
+            },
+            {
+              "reponse": "La relation entre pression partielle en O2 et saturation est linéaire.",
+              "explication": "Elle est sigmoïde."
+            },
+            {
+              "reponse": "L'hémoglobine fœtale est moins affine pour l'O2 que l'hémoglobine maternelle.",
+              "explication": "Elle est légèrement plus affine."
+            },
+            {
+              "reponse": "Le plateau de saturation n'est atteint qu'à 160 mmHg d'O2.",
+              "explication": "Ce serait le cas d'une relation linéaire hypothétique ; le plateau est atteint vers 80 à 100 mmHg."
+            },
+            {
+              "reponse": "La coopération entre sous-unités diminue la quantité d'O2 transportée à pression partielle donnée.",
+              "explication": "Elle l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-013",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Qu'est-ce que la P50 ? (une seule réponse attendue)",
+          "cours": {
+            "page": 11,
+            "surligner": "qui permet de saturer la moitié"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression partielle en O2 qui permet de saturer 50 % de l'hémoglobine circulante.",
+              "explication": "Définition du cours ; elle renseigne sur l'affinité de l'hémoglobine pour l'O2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La saturation de l'hémoglobine obtenue pour une pression partielle en O2 de 50 mmHg.",
+              "explication": "C'est l'inverse : une pression, pas une saturation."
+            },
+            {
+              "reponse": "La pression partielle en CO2 qui permet de saturer 50 % de l'hémoglobine.",
+              "explication": "Il s'agit de la pression en O2."
+            },
+            {
+              "reponse": "La pression partielle en O2 à laquelle 50 % de l'O2 sanguin est sous forme dissoute.",
+              "explication": "Définition inventée."
+            },
+            {
+              "reponse": "La pression partielle en O2 qui permet de saturer 100 % de l'hémoglobine.",
+              "explication": "La P50 correspond à 50 % de saturation."
+            },
+            {
+              "reponse": "La pression partielle en O2 normale du sang veineux.",
+              "explication": "Le sang veineux est à 40 mmHg ; ce n'est pas la définition de la P50."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la mesure de la P50, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "La P50 se mesure sur sang veineux"
+          },
+          "bonnes": [
+            {
+              "reponse": "La P50 renseigne sur l'affinité de l'hémoglobine pour l'O2.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La P50 se mesure sur sang veineux.",
+              "explication": "La pression en O2 y est de 40 mmHg, dans la pente de la courbe."
+            },
+            {
+              "reponse": "La P50 se mesure de préférence sur seringue à gaz du sang plutôt que sur tube.",
+              "explication": "Recommandation du cours."
+            },
+            {
+              "reponse": "Une déviation de la courbe vers la gauche signifie qu'une pression plus faible suffit pour saturer 50 % de l'hémoglobine.",
+              "explication": "La P50 est alors plus basse : hémoglobine hyperaffine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La P50 se mesure de préférence sur sang artériel, car la pression en O2 y est sur le plateau.",
+              "explication": "Sur le plateau, une déviation est plus difficile à repérer ; on préfère le sang veineux."
+            },
+            {
+              "reponse": "La P50 se mesure sur tube sec.",
+              "explication": "On préfère la seringue à gaz du sang."
+            },
+            {
+              "reponse": "Chez le sujet sain, la pression en O2 du sang veineux se situe sur le plateau de la courbe.",
+              "explication": "À 40 mmHg, elle est déjà dans la pente."
+            },
+            {
+              "reponse": "Une hémoglobine hyperaffine a une P50 plus élevée que la normale.",
+              "explication": "Sa P50 est plus basse (déviation à gauche)."
+            },
+            {
+              "reponse": "La P50 renseigne sur la concentration en hémoglobine.",
+              "explication": "Elle renseigne sur l'affinité."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-015",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels facteurs dévient la courbe de dissociation de l'hémoglobine vers la gauche (hémoglobine hyperaffine) ? (3 réponses attendues)",
+          "cours": {
+            "page": 12,
+            "surligner": "Le déplacement vers la gauche est provoqué par une baisse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une baisse de la pression en CO2.",
+              "explication": "Cause de déviation à gauche citée par le cours."
+            },
+            {
+              "reponse": "Une augmentation du pH (alcalose).",
+              "explication": "Cause de déviation à gauche citée par le cours."
+            },
+            {
+              "reponse": "Une diminution de la température (hypothermie).",
+              "explication": "Cause de déviation à gauche citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une acidose.",
+              "explication": "Elle dévie la courbe vers la droite (hémoglobine hypo-affine)."
+            },
+            {
+              "reponse": "Une hyperthermie.",
+              "explication": "Elle dévie la courbe vers la droite."
+            },
+            {
+              "reponse": "Une augmentation de la pression en CO2.",
+              "explication": "C'est la baisse du CO2 qui dévie vers la gauche."
+            },
+            {
+              "reponse": "Une anémie.",
+              "explication": "Elle abaisse le plateau (capacité de fixation), sans dévier la courbe."
+            },
+            {
+              "reponse": "Une hypersécrétion d'érythropoïétine.",
+              "explication": "Elle augmente l'hémoglobine mais pas la P50."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'hémoglobine hyperaffine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "l’hémoglobine est dite hyperaffine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une hémoglobine hyperaffine dévie la courbe de dissociation vers la gauche.",
+              "explication": "Elle capte facilement l'O2."
+            },
+            {
+              "reponse": "Avec une hémoglobine hyperaffine, les tissus périphériques peuvent souffrir d'hypoxie.",
+              "explication": "L'hémoglobine relâche mal l'O2."
+            },
+            {
+              "reponse": "Une hémoglobine hyperaffine est un avantage au niveau pulmonaire.",
+              "explication": "Meilleure capture de l'O2."
+            },
+            {
+              "reponse": "La polyglobulie de Vaquez fait partie du diagnostic différentiel, avec une P50 normale.",
+              "explication": "Trop de globules rouges, sans lien avec l'hypoxie."
+            },
+            {
+              "reponse": "Une hypersécrétion d'érythropoïétine augmente l'hémoglobine sans modifier la P50.",
+              "explication": "Diagnostic différentiel d'une hémoglobine hyperaffine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une hémoglobine hyperaffine libère mieux l'O2 dans les tissus.",
+              "explication": "Elle le libère mal."
+            },
+            {
+              "reponse": "Une hémoglobine hyperaffine dévie la courbe vers la droite.",
+              "explication": "Elle la dévie vers la gauche."
+            },
+            {
+              "reponse": "La polyglobulie de Vaquez s'accompagne d'une P50 basse.",
+              "explication": "Sa P50 est normale."
+            },
+            {
+              "reponse": "La polyglobulie de Vaquez est une maladie de la moelle épinière.",
+              "explication": "Erreur des notes corrigée : c'est une maladie clonale de la moelle osseuse."
+            },
+            {
+              "reponse": "Une hypersécrétion d'érythropoïétine abaisse la P50.",
+              "explication": "Elle augmente l'hémoglobine mais pas la P50."
+            },
+            {
+              "reponse": "Une hémoglobine hyperaffine améliore l'oxygénation des tissus périphériques.",
+              "explication": "Elle est défavorable en périphérie."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les situations cliniques illustrant le transport de l'O2, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "c’est l’hypothermie dirigée"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'auto-transfusion d'un sportif (hémoglobine de 150 à 180 g/L) augmente sa capacité de fixation de l'O2.",
+              "explication": "Exemple du dopage : plateau plus élevé."
+            },
+            {
+              "reponse": "Un patient anémique peut avoir une très bonne pression partielle en O2.",
+              "explication": "Il ventile bien mais manque de transporteurs."
+            },
+            {
+              "reponse": "Des muqueuses conjonctivales blanches sont un signe clinique majeur d'anémie.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "L'hypothermie dirigée ralentit le métabolisme et augmente l'affinité de l'hémoglobine pour l'O2.",
+              "explication": "Elle facilite le travail du réanimateur."
+            },
+            {
+              "reponse": "En réanimation, l'hypothermie dirigée consiste à refroidir le patient jusqu'à 34 à 35 °C.",
+              "explication": "Drap en U et courant d'air avec de l'eau fraîche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Lors du dopage par auto-transfusion, le sportif passe de 150 à 180 g/L d'O2.",
+              "explication": "Erreur des notes corrigée : il s'agit de grammes d'hémoglobine par litre."
+            },
+            {
+              "reponse": "Un patient anémique a obligatoirement une pression partielle en O2 basse.",
+              "explication": "Sa pression partielle en O2 peut être normale."
+            },
+            {
+              "reponse": "L'hypothermie dirigée diminue l'affinité de l'hémoglobine pour l'O2.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "L'hypothermie dirigée consiste à refroidir le patient jusqu'à 28 °C.",
+              "explication": "On vise 34 à 35 °C."
+            },
+            {
+              "reponse": "L'anémie dévie la courbe de dissociation vers la gauche.",
+              "explication": "Elle abaisse le plateau de la courbe (capacité de fixation diminuée)."
+            },
+            {
+              "reponse": "Pour améliorer l'affinité de l'hémoglobine en réanimation, on réchauffe le patient à 39 °C.",
+              "explication": "On le refroidit."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-018",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2016-2017",
+                "qcm": 23
+              }
+            ]
+          },
+          "question": "Concernant l'hémoglobine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "il existe une relation sigmoïde"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fixation de l'oxygène par l'hémoglobine est une fonction sigmoïde de la pression partielle en O2.",
+              "annale": true,
+              "explication": "Courbe de Barcroft (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'alcalose augmente l'affinité de l'hémoglobine pour l'oxygène.",
+              "annale": true,
+              "explication": "L'augmentation du pH dévie la courbe vers la gauche (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le taux d'hémoglobine est nécessaire au calcul du CO2 total.",
+              "annale": true,
+              "explication": "Le CO2 carbaminé est estimé à partir de la pression en CO2 et de l'hémoglobine (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La P50 est plus facile à estimer sur un prélèvement veineux que sur un prélèvement artériel.",
+              "annale": true,
+              "explication": "Sur sang veineux, la pression en O2 est dans la pente de la courbe (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une saturation de l'hémoglobine en oxygène supérieure à 95 % suffit à garantir une bonne oxygénation des tissus périphériques.",
+              "annale": true,
+              "explication": "La saturation ne reflète pas le taux d'hémoglobine : un anémique bien saturé peut être en anoxie périphérique (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Régulation de l'équilibre acido-basique"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-eab-gds-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le pH et les niveaux de régulation acido-basique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Efficacité immédiate mais quantitativement limitée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le pH est défini par pH = − log [H+].",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La valeur normale du pH plasmatique est de 7,4 ± 0,02.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Les systèmes tampons constituent la première ligne de régulation du pH.",
+              "explication": "Efficacité immédiate."
+            },
+            {
+              "reponse": "L'efficacité des systèmes tampons est immédiate mais quantitativement limitée.",
+              "explication": "Ils encaissent les variations jusqu'à un plateau."
+            },
+            {
+              "reponse": "La régulation rénale du pH est plus lente que la régulation pulmonaire.",
+              "explication": "Minutes pour le poumon, jusqu'à quelques heures pour le rein."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le pH est défini par pH = log [H+].",
+              "explication": "pH = − log [H+]."
+            },
+            {
+              "reponse": "La valeur normale du pH plasmatique est de 7,4 ± 0,2.",
+              "explication": "Elle est de 7,4 ± 0,02."
+            },
+            {
+              "reponse": "Les systèmes tampons ont une capacité quantitativement illimitée.",
+              "explication": "Leur efficacité est limitée."
+            },
+            {
+              "reponse": "Le rein intervient en deuxième ligne, avant le poumon.",
+              "explication": "Le poumon intervient en 2e ligne, le rein en 3e."
+            },
+            {
+              "reponse": "La régulation rénale du pH agit en quelques secondes.",
+              "explication": "Elle demande plusieurs minutes, voire quelques heures."
+            },
+            {
+              "reponse": "Le poumon est la première ligne de régulation du pH.",
+              "explication": "Ce sont les systèmes tampons."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-020",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel est le principal tampon du sang et du liquide interstitiel ? (une seule réponse attendue)",
+          "cours": {
+            "page": 14,
+            "surligner": "Le principal tampon du sang et du liquide interstitiel"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le tampon bicarbonate (CO2 / HCO3−).",
+              "explication": "Principal tampon, et système ouvert."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le couple O2 / CO2.",
+              "explication": "Ce n'est pas un système tampon."
+            },
+            {
+              "reponse": "Le tampon hémoglobine.",
+              "explication": "Tampon accessoire."
+            },
+            {
+              "reponse": "Le tampon phosphate.",
+              "explication": "Tampon accessoire."
+            },
+            {
+              "reponse": "Le tampon des protéines plasmatiques.",
+              "explication": "Tampon accessoire."
+            },
+            {
+              "reponse": "Le couple ammoniac / ammonium.",
+              "explication": "Forme d'élimination urinaire des protons, pas le tampon principal du sang."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les systèmes tampons, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "L’intérêt de ce tampon est d’être un système ouvert"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'équation de Henderson-Hasselbalch s'écrit pH = pK + log [base]/[acide].",
+              "explication": "[B] forme basique, [A] forme acide."
+            },
+            {
+              "reponse": "Le tampon bicarbonate est un système ouvert.",
+              "explication": "C'est son intérêt."
+            },
+            {
+              "reponse": "La concentration en CO2 est régulée par la respiration.",
+              "explication": "L'augmentation de la fréquence respiratoire élimine du CO2."
+            },
+            {
+              "reponse": "La concentration en bicarbonates est régulée par le rein.",
+              "explication": "Le rein peut aussi augmenter l'excrétion de protons."
+            },
+            {
+              "reponse": "L'hémoglobine, les protéines et les phosphates sont aussi des systèmes tampons.",
+              "explication": "Autres systèmes, plus accessoires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'équation de Henderson-Hasselbalch s'écrit pH = pK + log [acide]/[base].",
+              "explication": "C'est [base]/[acide]."
+            },
+            {
+              "reponse": "Le tampon bicarbonate est un système fermé.",
+              "explication": "C'est un système ouvert."
+            },
+            {
+              "reponse": "La concentration en CO2 est régulée par le rein.",
+              "explication": "Elle est régulée par la respiration."
+            },
+            {
+              "reponse": "La concentration en bicarbonates est régulée par la respiration.",
+              "explication": "Elle est régulée par le rein."
+            },
+            {
+              "reponse": "Au-delà de la zone tampon, le pH reste stable quelle que soit la quantité d'acide ajoutée.",
+              "explication": "Au-delà, le pH varie proportionnellement à l'acide ajouté."
+            },
+            {
+              "reponse": "Lors d'un exercice physique, le pH chute fortement car les tampons sont inefficaces.",
+              "explication": "Le pH varie peu car l'afflux d'acide est encaissé par les tampons."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les chémorécepteurs centraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "Les chémorécepteurs centraux ont un rôle prépondérant"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les chémorécepteurs centraux ont un rôle prépondérant dans la régulation de la ventilation.",
+              "explication": "Rôle majeur chez le sujet sain."
+            },
+            {
+              "reponse": "Les chémorécepteurs centraux sont sensibles au pH du liquide cérébro-spinal.",
+              "explication": "Lui-même lié à la pression artérielle en CO2."
+            },
+            {
+              "reponse": "Le liquide cérébro-spinal est extrêmement peu tamponné.",
+              "explication": "Une faible variation du pH sanguin modifie son pH."
+            },
+            {
+              "reponse": "Une augmentation de la pression artérielle en CO2 stimule le bulbe et augmente la fréquence respiratoire.",
+              "explication": "Via la baisse du pH du liquide cérébro-spinal."
+            },
+            {
+              "reponse": "Les chémorécepteurs centraux sont à l'origine de l'envie de respirer lors d'une apnée.",
+              "explication": "Exemple de la piscine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les chémorécepteurs centraux sont principalement sensibles à la pression artérielle en O2.",
+              "explication": "Ce sont les chémorécepteurs périphériques."
+            },
+            {
+              "reponse": "Le liquide cérébro-spinal est très bien tamponné.",
+              "explication": "Il est extrêmement peu tamponné."
+            },
+            {
+              "reponse": "Une alcalinisation du liquide cérébro-spinal accélère la fréquence respiratoire.",
+              "explication": "Elle la ralentit."
+            },
+            {
+              "reponse": "Les chémorécepteurs centraux ont un rôle mineur chez le sujet sain.",
+              "explication": "Leur rôle est prépondérant."
+            },
+            {
+              "reponse": "Chez l'insuffisant respiratoire chronique, les chémorécepteurs centraux restent le stimulus principal.",
+              "explication": "Stimulés en permanence, ils deviennent inefficaces ; l'hypoxie devient le stimulus principal."
+            },
+            {
+              "reponse": "Les centres respiratoires sont situés dans le cortex frontal.",
+              "explication": "Ils sont bulbaires (tronc cérébral)."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les chémorécepteurs périphériques et l'insuffisant respiratoire chronique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "c’est l’hypoxie et pas l’hypercapnie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les chémorécepteurs périphériques sont sensibles à la pression artérielle en O2.",
+              "explication": "Leur rôle est mineur chez le sujet sain."
+            },
+            {
+              "reponse": "Chez l'insuffisant respiratoire chronique, la pression artérielle en O2 devient le stimulus principal de la ventilation.",
+              "explication": "Ce qui le fait respirer, c'est l'hypoxie et pas l'hypercapnie."
+            },
+            {
+              "reponse": "Un apport excessif d'O2 chez l'insuffisant respiratoire chronique expose à des pauses respiratoires.",
+              "explication": "L'O2 supprime le stimulus périphérique."
+            },
+            {
+              "reponse": "Chez un insuffisant respiratoire chronique, on apporte au maximum 2 litres d'O2 par minute.",
+              "explication": "Contre 10 L/min chez un patient sans antécédent."
+            },
+            {
+              "reponse": "Une baisse de la pression artérielle en O2 augmente la fréquence respiratoire par les chémorécepteurs périphériques.",
+              "explication": "Boucle de régulation du glomus aortique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Chez l'insuffisant respiratoire chronique, c'est l'hypercapnie qui stimule principalement la ventilation.",
+              "explication": "C'est l'hypoxie."
+            },
+            {
+              "reponse": "Chez un insuffisant respiratoire chronique décompensé, on apporte 10 litres d'O2 par minute.",
+              "explication": "Au maximum 2 L/min."
+            },
+            {
+              "reponse": "Les chémorécepteurs périphériques ont un rôle prépondérant chez le sujet sain.",
+              "explication": "Leur rôle est mineur sauf chez l'insuffisant respiratoire chronique."
+            },
+            {
+              "reponse": "Les chémorécepteurs périphériques sont sensibles au pH du liquide cérébro-spinal.",
+              "explication": "Ce sont les chémorécepteurs centraux."
+            },
+            {
+              "reponse": "Un apport massif d'O2 stimule la ventilation de l'insuffisant respiratoire chronique.",
+              "explication": "Il supprime son stimulus ventilatoire."
+            },
+            {
+              "reponse": "L'insuffisant respiratoire chronique a une hypocapnie chronique.",
+              "explication": "Il a une hypercapnie chronique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'apnéiste qui hyperventile avant de plonger, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "qui hyperventile avant de plonger"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hyperventilation avant l'apnée diminue la pression en CO2.",
+              "explication": "C'est son principal effet."
+            },
+            {
+              "reponse": "L'hyperventilation avant l'apnée n'augmente guère la capacité de transport de l'O2.",
+              "explication": "L'hémoglobine est déjà saturée en respiration normale."
+            },
+            {
+              "reponse": "La sensation de manque d'air est liée à la pression en CO2.",
+              "explication": "C'est elle qui donne l'envie de remonter."
+            },
+            {
+              "reponse": "L'hypoxie peut entraîner une perte de connaissance sous l'eau sans gêne préalable liée au CO2.",
+              "explication": "Malaise vagal de l'apnéiste, risque de noyade."
+            },
+            {
+              "reponse": "La plupart des accidents de plongée en apnée sont liés à une hyperventilation excessive.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hyperventilation avant l'apnée sature davantage l'hémoglobine et protège de l'hypoxie.",
+              "explication": "L'hémoglobine est déjà saturée ; le risque d'hypoxie augmente."
+            },
+            {
+              "reponse": "L'hyperventilation avant l'apnée augmente la pression en CO2.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "La sensation de manque d'air pendant l'apnée est principalement due à la baisse de l'O2.",
+              "explication": "Elle est due à la pression en CO2."
+            },
+            {
+              "reponse": "Après hyperventilation, la pression en CO2 monte rapidement pendant l'apnée et prévient le malaise.",
+              "explication": "Elle n'augmente qu'avec beaucoup de retard."
+            },
+            {
+              "reponse": "L'hyperventilation avant l'apnée réduit le risque de noyade.",
+              "explication": "Elle l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la régulation pulmonaire du pH, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "stimulation de la ventilation alvéolaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une acidose stimule la ventilation alvéolaire.",
+              "explication": "Le CO2 baisse et le pH augmente."
+            },
+            {
+              "reponse": "Une alcalose entraîne une hypoventilation alvéolaire.",
+              "explication": "Le CO2 augmente et le pH baisse."
+            },
+            {
+              "reponse": "Une hyperventilation alvéolaire fait baisser la pression en CO2.",
+              "explication": "Elle élimine plus de CO2."
+            },
+            {
+              "reponse": "Quand les tampons sont dépassés, les centres respiratoires bulbaires prennent le relais.",
+              "explication": "Deuxième ligne de régulation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une acidose entraîne une hypoventilation alvéolaire.",
+              "explication": "Elle stimule la ventilation."
+            },
+            {
+              "reponse": "Une alcalose stimule la ventilation alvéolaire.",
+              "explication": "Elle entraîne une hypoventilation."
+            },
+            {
+              "reponse": "Une hypoventilation alvéolaire fait baisser la pression en CO2.",
+              "explication": "Elle la fait monter."
+            },
+            {
+              "reponse": "Une hyperventilation alvéolaire fait baisser le pH.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La fréquence respiratoire n'est pas modifiée par les influences supra-bulbaires.",
+              "explication": "Le froid ou la peur la modifient."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la réabsorption rénale des bicarbonates, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "la quasi-totalité est réabsorbée au niveau du tube"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rein réabsorbe les bicarbonates et élimine les H+ dans l'urine.",
+              "explication": "Ses 2 grands rôles."
+            },
+            {
+              "reponse": "Environ 4300 mmol de bicarbonates sont filtrées par jour au niveau du glomérule.",
+              "explication": "30 fois la quantité contenue dans le sang."
+            },
+            {
+              "reponse": "La quasi-totalité des bicarbonates filtrés est réabsorbée au niveau du tube contourné proximal.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "La réabsorption des bicarbonates a une activité maximale permanente.",
+              "explication": "Même en situation basale."
+            },
+            {
+              "reponse": "En cas d'alcalose, le rein peut diminuer la réabsorption des bicarbonates.",
+              "explication": "Il laisse partir des bases dans l'urine."
+            },
+            {
+              "reponse": "L'adaptation rénale de l'équilibre acido-basique est lente, de l'ordre de plusieurs heures.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bicarbonates sont principalement réabsorbés au niveau du tube contourné distal.",
+              "explication": "Ils le sont au niveau du tube contourné proximal."
+            },
+            {
+              "reponse": "En cas d'acidose, le rein augmente la réabsorption des bicarbonates.",
+              "explication": "Elle est déjà maximale et ne peut pas augmenter."
+            },
+            {
+              "reponse": "En cas d'alcalose, le rein augmente la réabsorption des bicarbonates.",
+              "explication": "Il la diminue."
+            },
+            {
+              "reponse": "Environ 43 mmol de bicarbonates sont filtrées par jour.",
+              "explication": "Il en est filtré 4300 mmol."
+            },
+            {
+              "reponse": "L'adaptation rénale de l'équilibre acido-basique se fait en quelques secondes.",
+              "explication": "Elle prend plusieurs heures."
+            },
+            {
+              "reponse": "La réabsorption des bicarbonates est faible en situation basale.",
+              "explication": "Elle est maximale en permanence."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-027",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Sous quelles formes les ions H+ sont-ils éliminés dans l'urine ? (2 réponses attendues)",
+          "cours": {
+            "page": 18,
+            "surligner": "sont à éliminer, sous 2 formes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Sous forme de H2PO4− (phosphates).",
+              "explication": "Le phosphate de l'urine primitive s'associe à un proton."
+            },
+            {
+              "reponse": "Sous forme de NH4+ (ammonium).",
+              "explication": "L'ammoniac s'associe à un proton."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Sous forme d'ion bicarbonate.",
+              "explication": "Les bicarbonates sont réabsorbés ; ce sont des bases."
+            },
+            {
+              "reponse": "Sous forme de CO2 dissous.",
+              "explication": "Le CO2 est éliminé par les poumons."
+            },
+            {
+              "reponse": "Sous forme de lactate.",
+              "explication": "Ce n'est pas une forme d'élimination des H+ citée par le cours."
+            },
+            {
+              "reponse": "Sous forme d'urée.",
+              "explication": "Ce n'est pas une forme d'élimination des H+ citée par le cours."
+            },
+            {
+              "reponse": "Sous forme de créatinine.",
+              "explication": "Ce n'est pas une forme d'élimination des H+ citée par le cours."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'élimination rénale des ions H+, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "En cas d’acidose, cette excrétion peut"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'élimination des H+ se fait au niveau du tube contourné distal.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Chaque jour, environ 60 mmol de H+ sont à éliminer.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "En cas d'acidose, l'excrétion d'ammonium peut être multipliée par 10.",
+              "explication": "C'est la voie la plus adaptable."
+            },
+            {
+              "reponse": "En cas d'acidose, l'excrétion des phosphates n'augmente que faiblement.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "L'ammoniac excrété provient de la dégradation des acides aminés (glutamine).",
+              "explication": "La glutamine donne du glutamate puis de l'ammoniac."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'élimination des H+ se fait principalement au niveau du tube contourné proximal.",
+              "explication": "Elle se fait au niveau du tube contourné distal."
+            },
+            {
+              "reponse": "Chaque jour, environ 600 mmol de H+ sont à éliminer.",
+              "explication": "Il y en a 60 mmol."
+            },
+            {
+              "reponse": "En cas d'acidose, l'excrétion des phosphates peut être multipliée par 10.",
+              "explication": "C'est l'excrétion d'ammonium qui peut l'être."
+            },
+            {
+              "reponse": "L'excrétion d'ammonium ne peut pas augmenter en cas d'acidose.",
+              "explication": "Elle peut être multipliée par 10."
+            },
+            {
+              "reponse": "Dans le tube distal, le proton est sécrété dans la lumière en échange d'un ion potassium.",
+              "explication": "Il est échangé contre un sodium."
+            },
+            {
+              "reponse": "L'ammoniac excrété provient de la dégradation des lipides.",
+              "explication": "Il provient des acides aminés."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-029",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2022-2023",
+                "qcm": 24
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2018-2019",
+                "qcm": 38
+              }
+            ]
+          },
+          "question": "À propos de la régulation de l'équilibre acido-basique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "le rein ne peut pas augmenter sa réabsorption"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les systèmes tampons permettent une réponse instantanée aux variations de pH.",
+              "annale": true,
+              "explication": "Efficacité immédiate mais limitée (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fréquence respiratoire est modulée par le pH du liquide cérébro-spinal et/ou par la pression artérielle en O2 au niveau aortique.",
+              "annale": true,
+              "explication": "Chémorécepteurs centraux (pH du LCR) et périphériques (glomus aortique) (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le rein peut lutter contre l'acidose en éliminant des protons associés à l'ammoniac ou aux phosphates.",
+              "annale": true,
+              "explication": "Élimination sous forme de NH4+ et de H2PO4− (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'acidose est détectée par les chémorécepteurs centraux, qui stimulent l'augmentation de la fréquence respiratoire.",
+              "annale": true,
+              "explication": "Baisse du pH du LCR → stimulation bulbaire (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Pour compenser une hypercapnie chronique, le rein augmente son excrétion urinaire de protons.",
+              "annale": true,
+              "explication": "Compensation rénale de l'acidose respiratoire chronique (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le système tampon majoritaire du plasma est le couple CO2/O2.",
+              "annale": true,
+              "explication": "C'est le couple CO2/HCO3− (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le rein lutte contre une acidose, notamment respiratoire, en augmentant la réabsorption des bicarbonates dans le tube contourné proximal.",
+              "annale": true,
+              "explication": "Cette réabsorption est déjà maximale en permanence et ne peut pas augmenter (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'alcalose est détectée par les chémorécepteurs périphériques de la crosse de l'aorte, qui diminuent la fréquence respiratoire.",
+              "annale": true,
+              "explication": "Les chémorécepteurs périphériques sont sensibles à la pression en O2 ; l'alcalinisation est détectée par les chémorécepteurs centraux (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Exploration biochimique"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-eab-gds-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la réalisation du prélèvement de gaz du sang, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "meilleur reflet de l’oxygénation et de l’équilibre"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le gaz du sang est un geste médical qui peut être délégué, mais le médecin engage toujours sa responsabilité.",
+              "explication": "Délégable à un infirmier ou un externe."
+            },
+            {
+              "reponse": "On prélève du sang artériel, meilleur reflet de l'oxygénation et de l'équilibre acido-basique.",
+              "explication": "Insistance du cours (+++)."
+            },
+            {
+              "reponse": "L'artère radiale est le principal site de ponction.",
+              "explication": "Sites : humérale, fémorale et surtout radiale."
+            },
+            {
+              "reponse": "En pédiatrie, on peut se contenter d'un gaz du sang veineux.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Il faut toujours préciser au laboratoire si le prélèvement est artériel ou veineux.",
+              "explication": "Les valeurs diffèrent."
+            },
+            {
+              "reponse": "Le test d'Allen vérifie que l'artère ulnaire pourra prendre le relais en cas de lésion de l'artère radiale.",
+              "explication": "La main doit se recolorer quand on relâche l'artère ulnaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le gaz du sang ne peut jamais être délégué à un infirmier.",
+              "explication": "Il peut être délégué."
+            },
+            {
+              "reponse": "Le site de ponction de choix est l'artère fémorale.",
+              "explication": "C'est surtout l'artère radiale."
+            },
+            {
+              "reponse": "Le gaz du sang artériel se prélève dans l'artère pulmonaire.",
+              "explication": "On ponctionne une artère périphérique (radiale, humérale, fémorale)."
+            },
+            {
+              "reponse": "En pédiatrie, un gaz du sang veineux n'est jamais interprétable.",
+              "explication": "On peut s'en contenter."
+            },
+            {
+              "reponse": "Le test d'Allen vérifie que l'artère radiale pourra suppléer l'artère ulnaire.",
+              "explication": "C'est l'inverse : on vérifie la suppléance par l'artère ulnaire."
+            },
+            {
+              "reponse": "Quand le geste est délégué, le médecin n'engage plus sa responsabilité.",
+              "explication": "Il l'engage toujours."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les conditions du prélèvement de gaz du sang, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "Il faut donc rassurer le patient"
+          },
+          "bonnes": [
+            {
+              "reponse": "Avant un gaz du sang, le patient doit être au repos depuis environ 5 minutes.",
+              "explication": "On veut son état basal."
+            },
+            {
+              "reponse": "L'anxiété du patient peut provoquer une hyperventilation qui fausse le résultat.",
+              "explication": "Il faut le rassurer."
+            },
+            {
+              "reponse": "Chez un patient ventilé, on attend au moins 20 minutes après une modification du réglage avant de prélever.",
+              "explication": "Pour juger l'effet du réglage."
+            },
+            {
+              "reponse": "Il faut préciser si le patient est en ventilation spontanée ou assistée.",
+              "explication": "Condition de ventilation à transmettre."
+            },
+            {
+              "reponse": "Il faut préciser la fraction inspirée en oxygène (FiO2).",
+              "explication": "Condition de ventilation à transmettre."
+            },
+            {
+              "reponse": "Sous O2, la pression partielle en O2 peut monter jusqu'à 150 à 200 mmHg.",
+              "explication": "D'où l'importance de préciser air ambiant ou O2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le gaz du sang peut être prélevé immédiatement après la modification du réglage d'un ventilateur.",
+              "explication": "Il faut attendre au moins 20 minutes."
+            },
+            {
+              "reponse": "L'anxiété du patient entraîne une hypoventilation.",
+              "explication": "Elle entraîne une hyperventilation."
+            },
+            {
+              "reponse": "La fraction inspirée en O2 n'a pas besoin d'être transmise au laboratoire.",
+              "explication": "Elle fait partie des conditions à préciser."
+            },
+            {
+              "reponse": "En réanimation, la surveillance continue repose sur des gaz du sang répétés toutes les heures.",
+              "explication": "Le gaz du sang est ponctuel (environ 2 fois par jour) ; la surveillance continue repose sur le capteur au doigt."
+            },
+            {
+              "reponse": "Le capteur d'oxygénation au doigt mesure le pH et la pression en CO2.",
+              "explication": "Il ne mesure que la saturation en O2."
+            },
+            {
+              "reponse": "Sous ventilation artificielle, la fréquence respiratoire autonome du patient corrige un réglage inadapté.",
+              "explication": "Le réglage est subi par le patient."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la seringue de gaz du sang, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "La seringue est saturée en calcium"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le prélèvement se fait sur seringue héparinée sèche.",
+              "explication": "L'héparine évite la coagulation et le bouchage de l'appareil."
+            },
+            {
+              "reponse": "La seringue est saturée en calcium pour éviter de fausses hypocalcémies.",
+              "explication": "Le calcium ionisé est parfois dosé sur le gaz du sang."
+            },
+            {
+              "reponse": "Une héparine liquide diluerait le prélèvement et sous-évaluerait l'hémoglobine.",
+              "explication": "D'où l'héparine sèche."
+            },
+            {
+              "reponse": "Les bulles d'air doivent être chassées au lit du patient.",
+              "explication": "Une bulle est une zone d'échange avec l'échantillon."
+            },
+            {
+              "reponse": "La seringue doit être bouchée hermétiquement aux 2 extrémités.",
+              "explication": "Sinon des échanges avec l'air ont lieu pendant le transport."
+            },
+            {
+              "reponse": "L'échantillon est homogénéisé par roulage de la seringue au lit du malade.",
+              "explication": "Pour mélanger l'héparine et éviter un caillot."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On préfère une héparine liquide pour mieux anticoaguler le prélèvement.",
+              "explication": "Elle diluerait le prélèvement."
+            },
+            {
+              "reponse": "Les bulles d'air dans la seringue n'ont pas d'influence sur le résultat.",
+              "explication": "Elles faussent l'échantillon."
+            },
+            {
+              "reponse": "La seringue est laissée ouverte pendant le transport pour équilibrer les pressions.",
+              "explication": "Elle doit être bouchée hermétiquement."
+            },
+            {
+              "reponse": "Le calcium de la seringue sert à éviter de fausses hypercalcémies.",
+              "explication": "Il évite de fausses hypocalcémies."
+            },
+            {
+              "reponse": "Il ne faut pas agiter la seringue avant l'analyse.",
+              "explication": "Il faut l'homogénéiser, au lit du malade puis au laboratoire."
+            },
+            {
+              "reponse": "Un prélèvement contenant un important volume d'air reste représentatif du sang du patient.",
+              "explication": "Il ne correspond plus au sang du patient."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le délai et le transport du prélèvement, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "au total, le pH baisse, le lactate monte"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la seringue, les globules rouges produisent de l'acide lactique par glycolyse anaérobie.",
+              "explication": "Le prélèvement est un tissu vivant."
+            },
+            {
+              "reponse": "Dans la seringue, les leucocytes et les plaquettes consomment de l'O2 et rejettent du CO2.",
+              "explication": "Ils ont des mitochondries."
+            },
+            {
+              "reponse": "Si l'analyse est retardée, le pH baisse, le lactate et le CO2 montent, l'O2 baisse.",
+              "explication": "Évolution d'un échantillon laissé à température ambiante."
+            },
+            {
+              "reponse": "L'échantillon peut être transporté dans de la glace fondante à 4 °C.",
+              "explication": "Cela ralentit le métabolisme."
+            },
+            {
+              "reponse": "Une température inférieure à 0 °C provoque une hémolyse et une fausse hyperkaliémie.",
+              "explication": "Hémolyse invisible car l'échantillon n'est pas centrifugé."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Si l'analyse est retardée, le pH de l'échantillon augmente.",
+              "explication": "Il baisse."
+            },
+            {
+              "reponse": "Si l'analyse est retardée, la pression en O2 de l'échantillon augmente.",
+              "explication": "Elle baisse."
+            },
+            {
+              "reponse": "L'échantillon doit être congelé pour le transport.",
+              "explication": "La congélation provoque une hémolyse."
+            },
+            {
+              "reponse": "Un pain de glace placé au contact de la seringue est le meilleur moyen de transport.",
+              "explication": "Sous 0 °C, risque d'hémolyse : on utilise de la glace fondante ou des gels eutectiques."
+            },
+            {
+              "reponse": "Les globules rouges consomment de l'O2 grâce à leurs mitochondries.",
+              "explication": "Ce sont les leucocytes et les plaquettes ; les globules rouges font de la glycolyse anaérobie."
+            },
+            {
+              "reponse": "Le délai maximum entre le prélèvement et le rendu du résultat est de 4 heures.",
+              "explication": "Il est de 1 heure."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-034",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles sont des erreurs pré-analytiques à éviter lors d'un gaz du sang ? (3 réponses attendues)",
+          "cours": {
+            "page": 23,
+            "surligner": "Principales erreurs à éviter"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un défaut d'identitovigilance.",
+              "explication": "Erreur citée par le cours."
+            },
+            {
+              "reponse": "Une contamination veineuse du prélèvement.",
+              "explication": "Erreur citée par le cours."
+            },
+            {
+              "reponse": "Des renseignements erronés sur le mode d'assistance ventilatoire.",
+              "explication": "Erreur citée par le cours."
+            },
+            {
+              "reponse": "Un délai d'acheminement trop long au laboratoire.",
+              "explication": "Erreur citée par le cours."
+            },
+            {
+              "reponse": "L'absence de purge de la seringue.",
+              "explication": "Erreur citée par le cours."
+            },
+            {
+              "reponse": "Une seringue insuffisamment homogénéisée, avec présence de caillot.",
+              "explication": "Erreur citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le transport dans de la glace fondante à 4 °C.",
+              "explication": "C'est une bonne pratique."
+            },
+            {
+              "reponse": "L'utilisation d'une seringue héparinée sèche.",
+              "explication": "C'est une bonne pratique."
+            },
+            {
+              "reponse": "Le bouchage hermétique de la seringue.",
+              "explication": "C'est une bonne pratique."
+            },
+            {
+              "reponse": "L'homogénéisation de la seringue par roulage au lit du patient.",
+              "explication": "C'est une bonne pratique."
+            },
+            {
+              "reponse": "Le repos du patient pendant 5 minutes avant le prélèvement.",
+              "explication": "C'est une bonne pratique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-035",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels paramètres du gaz du sang sont calculés et non mesurés ? (2 réponses attendues)",
+          "cours": {
+            "page": 24,
+            "surligner": "Les bases tampons : somme des concentrations"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bicarbonates.",
+              "explication": "Déduits de l'équation de Henderson-Hasselbalch."
+            },
+            {
+              "reponse": "Le CO2 total plasmatique.",
+              "explication": "Somme calculée."
+            },
+            {
+              "reponse": "Les bases tampons.",
+              "explication": "Paramètre calculé."
+            },
+            {
+              "reponse": "L'excès de base.",
+              "explication": "Paramètre calculé, comparé à un individu normal."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le pH.",
+              "explication": "Mesuré par électrode."
+            },
+            {
+              "reponse": "La pression artérielle en CO2.",
+              "explication": "Mesurée par électrode."
+            },
+            {
+              "reponse": "La pression artérielle en O2.",
+              "explication": "Mesurée par électrode."
+            },
+            {
+              "reponse": "Le lactate.",
+              "explication": "Mesuré par une électrode à plusieurs couches."
+            },
+            {
+              "reponse": "Le potassium.",
+              "explication": "Ion mesuré par l'analyseur."
+            },
+            {
+              "reponse": "Le sodium.",
+              "explication": "Ion mesuré par l'analyseur."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les paramètres calculés du gaz du sang, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "c’est l’un des rares résultats rendus avec une valeur négative"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les bicarbonates sont déduits de l'équation de Henderson-Hasselbalch à partir du pH et de la pression en CO2 mesurés.",
+              "explication": "Ils sont la seule inconnue de l'équation."
+            },
+            {
+              "reponse": "Les bicarbonates ont une valeur normale de 22 à 26 mmol/L.",
+              "explication": "Autour de 25 mmol/L."
+            },
+            {
+              "reponse": "Les bases tampons ont une valeur normale de 46 à 48 mmol/L.",
+              "explication": "Somme des anions tampons d'un litre de sang total."
+            },
+            {
+              "reponse": "L'excès de base est négatif en cas d'acidose.",
+              "explication": "Défaut de base."
+            },
+            {
+              "reponse": "L'excès de base est l'un des rares résultats rendus avec une valeur négative.",
+              "explication": "C'est une comparaison à la normale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les bicarbonates sont mesurés par une électrode spécifique.",
+              "explication": "Ils sont calculés."
+            },
+            {
+              "reponse": "L'excès de base est positif en cas d'acidose.",
+              "explication": "Il est négatif (défaut de base)."
+            },
+            {
+              "reponse": "Les bases tampons ont une valeur normale de 22 à 26 mmol/L.",
+              "explication": "C'est la normale des bicarbonates ; les bases tampons sont à 46–48 mmol/L."
+            },
+            {
+              "reponse": "Le CO2 total plasmatique a une valeur normale de 46 mmol/L.",
+              "explication": "Sa normale est de 25 mmol/L."
+            },
+            {
+              "reponse": "Les bases tampons correspondent aux anions tampons d'un litre de plasma.",
+              "explication": "D'un litre de sang total."
+            },
+            {
+              "reponse": "L'excès de base ne peut jamais être négatif.",
+              "explication": "Il est négatif en cas d'acidose."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-037",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la valeur normale de l'excès de base ? (une seule réponse attendue)",
+          "cours": {
+            "page": 24,
+            "surligner": "Il est positif en cas d’excès de base"
+          },
+          "bonnes": [
+            {
+              "reponse": "0 ± 2 mmol/L.",
+              "explication": "Valeur du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "25 mmol/L.",
+              "explication": "C'est environ la normale des bicarbonates et du CO2 total."
+            },
+            {
+              "reponse": "46 à 48 mmol/L.",
+              "explication": "C'est la normale des bases tampons."
+            },
+            {
+              "reponse": "22 à 26 mmol/L.",
+              "explication": "C'est la normale des bicarbonates."
+            },
+            {
+              "reponse": "−10 mmol/L.",
+              "explication": "Valeur pathologique (acidose métabolique)."
+            },
+            {
+              "reponse": "+10 mmol/L.",
+              "explication": "Valeur pathologique (excès de base)."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-038",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2023-2024",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "À propos des gaz du sang, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "ils sont déduits de l’équation de Henderson-Hasselbalch"
+          },
+          "bonnes": [
+            {
+              "reponse": "La saturation en O2 de l'hémoglobine est modulée par le pH.",
+              "annale": true,
+              "explication": "L'acidose dévie la courbe de dissociation vers la droite, l'alcalose vers la gauche (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'analyse contient des paramètres mesurés et des paramètres calculés.",
+              "annale": true,
+              "explication": "On obtient des paramètres mesurés ou calculés (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le taux de bicarbonates est un paramètre calculé.",
+              "annale": true,
+              "explication": "Déduit de l'équation de Henderson-Hasselbalch (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Si le prélèvement est fait à distance d'un laboratoire, l'échantillon doit être transporté congelé.",
+              "annale": true,
+              "explication": "Sous 0 °C, hémolyse et fausse hyperkaliémie : on transporte à 4 °C (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le taux d'hémoglobine est un paramètre optionnel de l'interprétation.",
+              "annale": true,
+              "explication": "Un gaz du sang s'interprète toujours en regardant le taux d'hémoglobine (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Interprétation des gaz du sang"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-eab-gds-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les déséquilibres acido-basiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "entre les 2, on est dans une zone grise"
+          },
+          "bonnes": [
+            {
+              "reponse": "Chez l'adulte, on parle d'acidose si le pH est inférieur à 7,35.",
+              "explication": "Seuil pathologique."
+            },
+            {
+              "reponse": "Chez l'adulte, on parle d'alcalose si le pH est supérieur à 7,45.",
+              "explication": "Seuil pathologique."
+            },
+            {
+              "reponse": "Dans un trouble respiratoire, l'anomalie initiale porte sur la pression artérielle en CO2.",
+              "explication": "Augmentée dans l'acidose, diminuée dans l'alcalose."
+            },
+            {
+              "reponse": "Dans un trouble métabolique, l'anomalie initiale porte sur la concentration en bicarbonates.",
+              "explication": "Diminuée dans l'acidose, augmentée dans l'alcalose."
+            },
+            {
+              "reponse": "L'asthmatique en crise présente une hypercapnie avec acidose respiratoire.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Un trouble acido-basique peut être à la fois métabolique et respiratoire.",
+              "explication": "Les 2 peuvent être associés."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Chez l'adulte, on parle d'acidose dès que le pH est inférieur à 7,38.",
+              "explication": "Le seuil est 7,35 ; entre la normale et ce seuil, zone grise."
+            },
+            {
+              "reponse": "Dans un trouble respiratoire, l'anomalie initiale porte sur les bicarbonates.",
+              "explication": "Elle porte sur la pression en CO2."
+            },
+            {
+              "reponse": "Dans l'acidose métabolique, les bicarbonates sont augmentés.",
+              "explication": "Ils sont diminués."
+            },
+            {
+              "reponse": "L'asthmatique en crise présente une alcalose métabolique.",
+              "explication": "Il présente une acidose respiratoire."
+            },
+            {
+              "reponse": "Un trouble métabolique et un trouble respiratoire ne peuvent jamais être associés.",
+              "explication": "Ils peuvent l'être."
+            },
+            {
+              "reponse": "Les diarrhées profuses du choléra sont un exemple de trouble respiratoire.",
+              "explication": "C'est un exemple de trouble métabolique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le diagramme de Davenport, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "Les troubles purement métaboliques provoquent un déplacement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le diagramme de Davenport porte le pH en abscisse et les bicarbonates en ordonnée.",
+              "explication": "Avec des isobares de pression en CO2."
+            },
+            {
+              "reponse": "Les isobares sont des lignes de même pression en CO2.",
+              "explication": "L'isobare normale est l'isobare 40."
+            },
+            {
+              "reponse": "Les troubles respiratoires aigus déplacent le pH et les bicarbonates le long de la ligne tampon normale.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les troubles purement métaboliques provoquent un déplacement le long de l'isobare 40.",
+              "explication": "Situation respiratoire normale."
+            },
+            {
+              "reponse": "Sur les diagrammes du cours, la flèche bleue représente la compensation.",
+              "explication": "Rénale pour un trouble respiratoire, respiratoire pour un trouble métabolique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les troubles respiratoires aigus déplacent le point le long de l'isobare 40.",
+              "explication": "Ils le déplacent le long de la ligne tampon normale."
+            },
+            {
+              "reponse": "Les troubles métaboliques purs déplacent le point le long de la ligne tampon normale.",
+              "explication": "Ils le déplacent le long de l'isobare 40."
+            },
+            {
+              "reponse": "Les isobares sont des lignes de même pH.",
+              "explication": "Ce sont des lignes de même pression en CO2."
+            },
+            {
+              "reponse": "Le diagramme de Davenport porte la pression en CO2 en ordonnée.",
+              "explication": "L'ordonnée porte les bicarbonates."
+            },
+            {
+              "reponse": "Sur les diagrammes du cours, la flèche rouge représente la compensation.",
+              "explication": "La flèche rouge représente le trouble aigu."
+            },
+            {
+              "reponse": "Le point normal du diagramme de Davenport correspond à un pH de 7,4 et à des bicarbonates de 40 mmol/L.",
+              "explication": "Bicarbonates à 25 mmol/L ; 40 mmHg est la pression en CO2."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'acidose et l'alcalose respiratoires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 27,
+            "surligner": "c’est la seule situation où la réabsorption des"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans l'acidose respiratoire aiguë, les bicarbonates augmentent un peu, proportionnellement au CO2.",
+              "explication": "On reste sur la ligne tampon normale."
+            },
+            {
+              "reponse": "Dans l'acidose respiratoire chronique, le rein augmente les bicarbonates : c'est une compensation.",
+              "explication": "Il augmente aussi l'élimination des protons."
+            },
+            {
+              "reponse": "On parle de compensation totale quand le pH revient à 7,4.",
+              "explication": "Compensation partielle s'il n'y revient pas tout à fait."
+            },
+            {
+              "reponse": "L'alcalose respiratoire chronique est la seule situation où la réabsorption des bicarbonates au tube contourné proximal est diminuée.",
+              "explication": "L'urine est alors très riche en bicarbonates."
+            },
+            {
+              "reponse": "Dans l'alcalose respiratoire aiguë par hyperventilation, la pression en CO2 baisse.",
+              "explication": "Elle descend à l'isobare 30, voire 10."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans l'acidose respiratoire aiguë, les bicarbonates diminuent fortement.",
+              "explication": "Ils augmentent un peu."
+            },
+            {
+              "reponse": "On parle de compensation partielle quand le pH revient exactement à 7,4.",
+              "explication": "C'est la compensation totale."
+            },
+            {
+              "reponse": "Dans l'alcalose respiratoire chronique, le rein retient davantage de bicarbonates.",
+              "explication": "Il évite de les retenir."
+            },
+            {
+              "reponse": "L'acidose respiratoire chronique est compensée par une hyperventilation.",
+              "explication": "Elle est compensée par le rein."
+            },
+            {
+              "reponse": "Un trouble compensé est dit aigu.",
+              "explication": "Il est dit chronique."
+            },
+            {
+              "reponse": "Dans l'acidose respiratoire, la pression artérielle en CO2 est diminuée.",
+              "explication": "Elle est augmentée."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'acidose et l'alcalose métaboliques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 27,
+            "surligner": "par exemple une sténose du pylore"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'acidocétose diabétique est un exemple d'acidose métabolique.",
+              "explication": "Les corps cétoniques acides prennent la place des bicarbonates."
+            },
+            {
+              "reponse": "L'acidose métabolique est compensée par une hyperventilation.",
+              "explication": "Pour rejoindre des isobares plus basses."
+            },
+            {
+              "reponse": "La sténose du pylore du nourrisson est un exemple d'alcalose métabolique.",
+              "explication": "Le bébé vomit de l'acide chlorhydrique."
+            },
+            {
+              "reponse": "L'alcalose métabolique est compensée par une hypoventilation.",
+              "explication": "Pauses respiratoires pour augmenter la pression en CO2."
+            },
+            {
+              "reponse": "Un trouble non compensé est dit aigu.",
+              "explication": "Un trouble compensé est dit chronique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sténose du pylore entraîne une acidose métabolique.",
+              "explication": "Elle entraîne une alcalose métabolique."
+            },
+            {
+              "reponse": "L'acidocétose diabétique est compensée par une hypoventilation.",
+              "explication": "Elle est compensée par une hyperventilation."
+            },
+            {
+              "reponse": "L'alcalose métabolique est compensée par une hyperventilation.",
+              "explication": "Elle est compensée par une hypoventilation."
+            },
+            {
+              "reponse": "Les corps cétoniques sont des bases.",
+              "explication": "Ce sont des acides."
+            },
+            {
+              "reponse": "L'acidose métabolique aiguë déplace le point le long de la ligne tampon normale.",
+              "explication": "Elle le déplace le long de l'isobare 40."
+            },
+            {
+              "reponse": "Dans l'acidocétose diabétique, le glucose est réabsorbé en totalité et le volume urinaire diminue.",
+              "explication": "Le glucose, très osmotique, est éliminé avec de l'eau : les urines augmentent."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-043",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la compensation d'une acidose métabolique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 28,
+            "surligner": "Le pH indique l’acidose ou l’alcalose"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une augmentation de la fréquence respiratoire, qui abaisse la pression en CO2.",
+              "explication": "Compensation respiratoire (tableau récapitulatif)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une diminution de la fréquence respiratoire, qui augmente la pression en CO2.",
+              "explication": "C'est la compensation de l'alcalose métabolique."
+            },
+            {
+              "reponse": "Une diminution des bicarbonates par le rein.",
+              "explication": "C'est la compensation de l'alcalose respiratoire."
+            },
+            {
+              "reponse": "Une augmentation de la réabsorption des bicarbonates au tube contourné proximal.",
+              "explication": "Cette réabsorption est déjà maximale et ne peut pas augmenter."
+            },
+            {
+              "reponse": "Une augmentation de la pression en CO2.",
+              "explication": "Elle aggraverait l'acidose."
+            },
+            {
+              "reponse": "Une hypoventilation alvéolaire.",
+              "explication": "Elle aggraverait l'acidose."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "D'après le tableau récapitulatif des déséquilibres acido-basiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "Le pH indique l’acidose ou l’alcalose"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans l'alcalose métabolique, l'anomalie primitive est une augmentation des bicarbonates.",
+              "explication": "Compensation : fréquence respiratoire diminuée, pression en CO2 augmentée."
+            },
+            {
+              "reponse": "L'acidose respiratoire est compensée par le rein, qui augmente les bicarbonates.",
+              "explication": "Tableau récapitulatif."
+            },
+            {
+              "reponse": "Dans l'alcalose respiratoire, l'anomalie primitive est une diminution de la pression en CO2.",
+              "explication": "Compensation rénale : bicarbonates diminués."
+            },
+            {
+              "reponse": "Dans l'acidose métabolique, le pH et les bicarbonates sont diminués.",
+              "explication": "Anomalie primitive : bicarbonates diminués."
+            },
+            {
+              "reponse": "L'alcalose respiratoire est compensée par une diminution des bicarbonates par le rein.",
+              "explication": "Tableau récapitulatif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'alcalose respiratoire est compensée par une diminution de la fréquence respiratoire.",
+              "explication": "Elle est compensée par le rein."
+            },
+            {
+              "reponse": "Dans l'acidose respiratoire, l'anomalie primitive est une diminution des bicarbonates.",
+              "explication": "C'est une augmentation de la pression en CO2."
+            },
+            {
+              "reponse": "Dans l'acidose métabolique, l'anomalie primitive est une augmentation de la pression en CO2.",
+              "explication": "C'est une diminution des bicarbonates."
+            },
+            {
+              "reponse": "L'alcalose métabolique est compensée par une augmentation de la fréquence respiratoire.",
+              "explication": "Par une diminution de la fréquence respiratoire."
+            },
+            {
+              "reponse": "L'alcalose respiratoire est compensée par une augmentation des bicarbonates.",
+              "explication": "Les bicarbonates diminuent."
+            },
+            {
+              "reponse": "Dans l'alcalose métabolique, le pH est diminué.",
+              "explication": "Il est augmenté."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-045",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Un patient en crise d'angoisse hyperventile. Quel trouble acido-basique présente-t-il ? (une seule réponse attendue)",
+          "cours": {
+            "page": 28,
+            "surligner": "Dans une crise d’angoisse avec hyperventilation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une alcalose respiratoire.",
+              "explication": "Alcalose respiratoire psychogène ; respirer dans un sac fait réinhaler le CO2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une acidose respiratoire.",
+              "explication": "L'hyperventilation fait baisser le CO2 : alcalose."
+            },
+            {
+              "reponse": "Une acidose métabolique.",
+              "explication": "Le trouble est respiratoire et alcalin."
+            },
+            {
+              "reponse": "Une alcalose métabolique.",
+              "explication": "L'anomalie primitive porte sur le CO2, pas sur les bicarbonates."
+            },
+            {
+              "reponse": "Une acidose mixte.",
+              "explication": "Il n'y a pas d'acidose."
+            },
+            {
+              "reponse": "Une hypercapnie aiguë.",
+              "explication": "L'hyperventilation entraîne une hypocapnie."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-046",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les zones du diagramme acido-basique de l'analyseur (Siggaard-Andersen), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "Légende des zones"
+          },
+          "bonnes": [
+            {
+              "reponse": "La zone A correspond à une acidose respiratoire aiguë (hypercapnie aiguë).",
+              "explication": "Légende du diagramme."
+            },
+            {
+              "reponse": "La zone B correspond à une acidose respiratoire chronique (hypercapnie chronique).",
+              "explication": "Légende du diagramme."
+            },
+            {
+              "reponse": "La zone C correspond à une alcalose métabolique chronique.",
+              "explication": "Légende du diagramme."
+            },
+            {
+              "reponse": "La zone D correspond à une alcalose respiratoire aiguë (hypocapnie aiguë).",
+              "explication": "Légende du diagramme."
+            },
+            {
+              "reponse": "La zone E correspond à une alcalose respiratoire chronique (hypocapnie chronique).",
+              "explication": "Légende du diagramme."
+            },
+            {
+              "reponse": "La zone F correspond à une acidose métabolique chronique.",
+              "explication": "Légende du diagramme."
+            },
+            {
+              "reponse": "La zone G correspond à une acidose métabolique aiguë.",
+              "explication": "Légende du diagramme."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La zone A correspond à une acidose métabolique aiguë.",
+              "explication": "A = hypercapnie aiguë ; l'acidose métabolique aiguë est en G."
+            },
+            {
+              "reponse": "La zone G correspond à une hypercapnie aiguë.",
+              "explication": "G = acidose métabolique aiguë."
+            },
+            {
+              "reponse": "La zone F correspond à une alcalose respiratoire chronique.",
+              "explication": "F = acidose métabolique chronique ; l'alcalose respiratoire chronique est en E."
+            },
+            {
+              "reponse": "La zone E correspond à une acidose métabolique chronique.",
+              "explication": "E = hypocapnie chronique."
+            },
+            {
+              "reponse": "La zone D correspond à une hypercapnie chronique.",
+              "explication": "D = hypocapnie aiguë ; l'hypercapnie chronique est en B."
+            },
+            {
+              "reponse": "La zone C correspond à une acidose respiratoire aiguë.",
+              "explication": "C = alcalose métabolique chronique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la lecture du diagramme acido-basique de l'analyseur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "il fait apparaître l’excès de base"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le diagramme de l'analyseur fait apparaître l'excès de base au lieu des bicarbonates.",
+              "explication": "Il facilite l'interprétation."
+            },
+            {
+              "reponse": "Un excès de base au-dessus de la normale correspond à une alcalose métabolique.",
+              "explication": "En dessous : acidose métabolique."
+            },
+            {
+              "reponse": "Le point normal correspond à un pH de 7,4 et une pression en CO2 de 40 mmHg.",
+              "explication": "Zone N."
+            },
+            {
+              "reponse": "Dans l'acidose respiratoire aiguë, il n'y a pas encore d'excès de base.",
+              "explication": "Pas encore d'adaptation des bicarbonates."
+            },
+            {
+              "reponse": "Dans l'alcalose métabolique chronique, la pression en CO2 est supérieure à 40 mmHg.",
+              "explication": "Lutte par hypoventilation."
+            },
+            {
+              "reponse": "Pour compenser une acidose métabolique aiguë, la capnie diminue et le point passe de la zone G à la zone F.",
+              "explication": "Compensation respiratoire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un excès de base négatif correspond à une alcalose métabolique.",
+              "explication": "Il correspond à une acidose métabolique."
+            },
+            {
+              "reponse": "Dans l'acidose respiratoire aiguë, l'excès de base est d'emblée très positif.",
+              "explication": "Il n'y a pas encore d'excès de base."
+            },
+            {
+              "reponse": "Dans l'alcalose métabolique chronique, la pression en CO2 est inférieure à 40 mmHg.",
+              "explication": "Elle est supérieure (hypoventilation)."
+            },
+            {
+              "reponse": "Le diagramme de l'analyseur porte les bicarbonates en ordonnée.",
+              "explication": "Il fait apparaître l'excès de base."
+            },
+            {
+              "reponse": "Dans l'acidose respiratoire chronique, l'excès de base est négatif.",
+              "explication": "Il est positif (environ +10) : les bicarbonates augmentent."
+            },
+            {
+              "reponse": "Pour compenser une acidose métabolique aiguë, la capnie augmente.",
+              "explication": "Elle diminue (hyperventilation)."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'acidose mixte, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 32,
+            "surligner": "le point n’est dans aucune zone"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans une acidose mixte, le point du patient n'est dans aucune zone du diagramme.",
+              "explication": "Ni A ni G."
+            },
+            {
+              "reponse": "L'acidose mixte associe une acidose métabolique et une acidose respiratoire.",
+              "explication": "Les 2 systèmes sont malades."
+            },
+            {
+              "reponse": "Dans une acidose mixte, aucun système ne peut compenser l'acidose.",
+              "explication": "Elle est difficile à traiter."
+            },
+            {
+              "reponse": "Une pneumopathie aiguë avec choc septique en réanimation est un exemple typique d'acidose mixte.",
+              "explication": "Mauvaise ventilation et production d'acide par le choc."
+            },
+            {
+              "reponse": "Dans une acidose mixte, la pression en CO2 est élevée et l'excès de base négatif.",
+              "explication": "Exemple du diagramme du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans une acidose mixte, le point du patient se situe dans la zone G.",
+              "explication": "Il n'est dans aucune zone."
+            },
+            {
+              "reponse": "Une acidose mixte est facile à corriger car le rein la compense rapidement.",
+              "explication": "Aucun système ne peut compenser ; elle est difficile à traiter."
+            },
+            {
+              "reponse": "L'acidose mixte associe une acidose métabolique et une alcalose respiratoire.",
+              "explication": "Elle associe 2 acidoses."
+            },
+            {
+              "reponse": "Dans une acidose mixte, la pression en CO2 est basse.",
+              "explication": "Elle est élevée."
+            },
+            {
+              "reponse": "Dans une acidose mixte, l'excès de base est positif.",
+              "explication": "Il est négatif."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le monoxyde de carbone, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 33,
+            "surligner": "Gaz inodore, incolore, insipide, inflammable"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le monoxyde de carbone est un gaz inodore, incolore, insipide et inflammable.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le catabolisme de l'hème produit du monoxyde de carbone de façon physiologique.",
+              "explication": "Origine endogène."
+            },
+            {
+              "reponse": "La combustion incomplète des composés carbonés est une source de monoxyde de carbone.",
+              "explication": "Origine exogène."
+            },
+            {
+              "reponse": "Chez le fumeur régulier, la carboxyhémoglobine peut atteindre 10 %.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le monoxyde de carbone se fixe de façon stable et réversible sur le fer de l'hème.",
+              "explication": "Liaison stable et réversible."
+            },
+            {
+              "reponse": "L'intoxication au monoxyde de carbone peut s'accompagner d'une acidose métabolique et d'une hyperglycémie.",
+              "explication": "Signes biologiques associés."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le monoxyde de carbone a une odeur caractéristique.",
+              "explication": "Il est inodore."
+            },
+            {
+              "reponse": "Le monoxyde de carbone se fixe de façon irréversible sur l'hémoglobine.",
+              "explication": "La liaison est réversible."
+            },
+            {
+              "reponse": "Le monoxyde de carbone n'a pas d'origine endogène.",
+              "explication": "Le catabolisme de l'hème en produit."
+            },
+            {
+              "reponse": "L'intoxication au monoxyde de carbone s'accompagne d'une hypoglycémie.",
+              "explication": "Elle s'accompagne d'une hyperglycémie."
+            },
+            {
+              "reponse": "L'oxygénothérapie est inutile dans l'intoxication au monoxyde de carbone.",
+              "explication": "Elle est le traitement (normobare ou hyperbare)."
+            },
+            {
+              "reponse": "Le monoxyde de carbone se fixe sur l'extrémité NH2 de l'hémoglobine.",
+              "explication": "Il se fixe sur le fer de l'hème ; l'extrémité NH2 fixe le CO2."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-050",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la méthémoglobine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 34,
+            "surligner": "La méthémoglobine est incapable de transporter l’oxygène"
+          },
+          "bonnes": [
+            {
+              "reponse": "La méthémoglobine résulte de l'oxydation du fer de l'hème de l'état ferreux (Fe2+) à l'état ferrique (Fe3+).",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La méthémoglobine est incapable de transporter l'oxygène.",
+              "explication": "L'O2 ne peut plus se fixer sur le fer oxydé."
+            },
+            {
+              "reponse": "Normalement, 2 à 3 % de l'hémoglobine est produite sous forme de méthémoglobine.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Dans une méthémoglobinémie, l'hypoxie n'est pas corrigée par l'oxygénothérapie.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le sang riche en méthémoglobine a une couleur brun foncé.",
+              "explication": "Le sang normal est rouge vif."
+            },
+            {
+              "reponse": "Au-delà de 50 % de méthémoglobine, le pronostic vital peut être engagé.",
+              "explication": "Troubles de conscience, convulsions, coma."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La méthémoglobine résulte de la réduction du fer ferrique (Fe3+) en fer ferreux (Fe2+).",
+              "explication": "C'est une oxydation de Fe2+ en Fe3+."
+            },
+            {
+              "reponse": "La méthémoglobine transporte l'oxygène plus efficacement que l'hémoglobine normale.",
+              "explication": "Elle est incapable de le transporter."
+            },
+            {
+              "reponse": "Dans une méthémoglobinémie, l'hypoxie est rapidement corrigée par l'oxygénothérapie.",
+              "explication": "Elle n'est pas corrigée."
+            },
+            {
+              "reponse": "Le sang riche en méthémoglobine est rouge vif.",
+              "explication": "Il est brun foncé."
+            },
+            {
+              "reponse": "Une cyanose apparaît dès 2 % de méthémoglobine.",
+              "explication": "La cyanose apparaît vers 10 à 20 %."
+            },
+            {
+              "reponse": "Les signes cliniques d'intoxication à la méthémoglobine apparaissent plusieurs jours après l'exposition.",
+              "explication": "Ils apparaissent rapidement, souvent en moins de 1 heure."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-051",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la co-oxymétrie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 35,
+            "surligner": "la saturation reste faussement normale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La co-oxymétrie repose sur un spectrophotomètre à 128 longueurs d'onde.",
+              "explication": "De 478 à 672 nm."
+            },
+            {
+              "reponse": "La co-oxymétrie mesure l'oxyhémoglobine, l'hémoglobine réduite, la carboxyhémoglobine et la méthémoglobine.",
+              "explication": "Les 4 principales fractions."
+            },
+            {
+              "reponse": "L'hémoglobine totale est la somme des 4 fractions mesurées.",
+              "explication": "ctHb = cO2Hb + cHHb + cCOHb + cMetHb."
+            },
+            {
+              "reponse": "La saturation en O2 est calculée à partir de l'oxyhémoglobine et de l'hémoglobine réduite.",
+              "explication": "sO2 = cO2Hb / (cO2Hb + cHHb)."
+            },
+            {
+              "reponse": "En cas d'intoxication au monoxyde de carbone, la saturation en O2 reste faussement normale.",
+              "explication": "Elle ne tient pas compte des dyshémoglobines."
+            },
+            {
+              "reponse": "En cas d'intoxication au monoxyde de carbone, la fraction d'oxyhémoglobine est diminuée.",
+              "explication": "Alors que la saturation reste presque normale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La co-oxymétrie repose sur un spectrophotomètre à 4 longueurs d'onde.",
+              "explication": "Il en utilise 128."
+            },
+            {
+              "reponse": "Le calcul de la saturation en O2 tient compte de la carboxyhémoglobine.",
+              "explication": "Il ne prend pas en compte les dyshémoglobines."
+            },
+            {
+              "reponse": "En cas d'intoxication au monoxyde de carbone, la saturation en O2 est effondrée.",
+              "explication": "Elle reste faussement normale."
+            },
+            {
+              "reponse": "L'hémoglobine totale est la somme de l'oxyhémoglobine et de l'hémoglobine réduite seulement.",
+              "explication": "Elle inclut aussi la carboxyhémoglobine et la méthémoglobine."
+            },
+            {
+              "reponse": "La co-oxymétrie mesure l'hémoglobine sans lyser les globules rouges.",
+              "explication": "Un hémolyseur à ultrasons libère l'hémoglobine."
+            },
+            {
+              "reponse": "Chez un gros fumeur, la saturation en O2 est nettement abaissée malgré une oxyhémoglobine normale.",
+              "explication": "C'est l'inverse : l'oxyhémoglobine baisse et la saturation reste presque normale."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-052",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2024-2025",
+                "qcm": 30
+              }
+            ]
+          },
+          "question": "Un gaz du sang montre un pH bas, une PaCO2 basse, des bicarbonates diminués, une hémoglobine et une PaO2 normales, et le patient a une fréquence respiratoire augmentée. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "l’anomalie primitive porte sur les bicarbonates"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une acidose métabolique.",
+              "annale": true,
+              "explication": "pH bas et bicarbonates diminués (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le déséquilibre n'est pas aigu, car il existe des signes de compensation.",
+              "annale": true,
+              "explication": "La baisse de la PaCO2 avec fréquence respiratoire augmentée est une compensation respiratoire : trouble compensé, donc chronique. L'énoncé original écrit « condensation », vraisemblablement pour « compensation » (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une acidose respiratoire.",
+              "annale": true,
+              "explication": "Dans l'acidose respiratoire, la PaCO2 est augmentée (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une alcalose métabolique.",
+              "annale": true,
+              "explication": "Le pH est bas (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une alcalose respiratoire.",
+              "annale": true,
+              "explication": "Le pH est bas (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-053",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2016-2017",
+                "qcm": 24
+              }
+            ]
+          },
+          "question": "Un patient a un gaz du sang avec un pH supérieur à 7,45, une PaCO2 basse, des bicarbonates normaux, une hémoglobine et une PaO2 normales, et une fréquence respiratoire augmentée. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "c’est le rein qui compense"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une alcalose respiratoire.",
+              "annale": true,
+              "explication": "pH élevé et PaCO2 basse par hyperventilation (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une acidose métabolique.",
+              "annale": true,
+              "explication": "Le pH est élevé (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une acidose respiratoire.",
+              "annale": true,
+              "explication": "Le pH est élevé et la PaCO2 basse (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce gaz du sang est en faveur d'une alcalose métabolique.",
+              "annale": true,
+              "explication": "Les bicarbonates sont normaux : l'anomalie primitive porte sur le CO2 (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le déséquilibre n'est pas aigu, car il existe des signes de compensation.",
+              "annale": true,
+              "explication": "Bicarbonates normaux : pas de compensation rénale, le trouble est aigu (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-054",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2018-2019",
+                "qcm": 37
+              }
+            ]
+          },
+          "question": "Un patient a le gaz du sang suivant : pH 7,34 ; PaCO2 60 mmHg ; bicarbonates 32 mmol/L ; PaO2 65 mmHg. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "Acidose respiratoire compensée ou chronique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce patient présente une acidose respiratoire chronique.",
+              "annale": true,
+              "explication": "pH bas, PaCO2 élevée et bicarbonates augmentés par compensation rénale (zone B) (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ce patient présente une acidose respiratoire aiguë.",
+              "annale": true,
+              "explication": "Les bicarbonates sont nettement augmentés : il y a une compensation rénale (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce patient présente une acidose métabolique aiguë.",
+              "annale": true,
+              "explication": "Les bicarbonates sont augmentés et la PaCO2 élevée (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce patient présente une acidose métabolique chronique.",
+              "annale": true,
+              "explication": "Les bicarbonates sont augmentés : le trouble n'est pas métabolique (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Cette hypercapnie chronique est à traiter par 10 litres par minute d'oxygène, vu l'hypoxie.",
+              "annale": true,
+              "explication": "Chez l'insuffisant respiratoire chronique, au maximum 2 L/min : risque de pauses respiratoires (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-055",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2021-2022",
+                "qcm": 13
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2020-2021",
+                "qcm": 30
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2019-2020",
+                "qcm": 25
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2017-2018",
+                "qcm": 41
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2015-2016",
+                "qcm": 39
+              }
+            ]
+          },
+          "question": "Un patient a le gaz du sang artériel suivant : pH 7,25 ; PaCO2 40 mmHg ; PaO2 105 mmHg ; hémoglobine 14 g/dL ; excès de base −10 mmol/L. D'après le diagramme acido-basique de l'analyseur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 32,
+            "surligner": "isobare 40 respectée mais défaut majeur de"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ce patient présente une acidose métabolique aiguë.",
+              "annale": true,
+              "explication": "Isobare 40 respectée, défaut majeur de bicarbonates : zone G (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'affinité de l'hémoglobine pour l'oxygène est moins élevée que chez un sujet sain.",
+              "annale": true,
+              "explication": "L'acidose dévie la courbe de dissociation vers la droite (hémoglobine hypo-affine) (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'excès de base à −10 mmol/L est lié à la baisse des bicarbonates dans le sang.",
+              "annale": true,
+              "explication": "Un excès de base négatif traduit un défaut de bicarbonates (acidose métabolique) (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ce patient présente une acidose respiratoire aiguë.",
+              "annale": true,
+              "explication": "La PaCO2 est normale (40 mmHg) (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce patient présente une acidose respiratoire chronique.",
+              "annale": true,
+              "explication": "La PaCO2 est normale (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce patient présente une acidose métabolique chronique.",
+              "annale": true,
+              "explication": "La PaCO2 n'a pas encore baissé : pas de compensation respiratoire (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce patient présente une alcalose métabolique aiguë.",
+              "annale": true,
+              "explication": "Le pH est bas et l'excès de base négatif (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Faire respirer ce patient dans un sac plastique pour lui faire inhaler son propre CO2 peut améliorer son état en urgence.",
+              "annale": true,
+              "explication": "Ce geste concerne l'alcalose respiratoire de la crise d'angoisse ; ici, il aggraverait l'acidose (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Examens à la naissance"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-eab-gds-056",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la circulation fœtale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 37,
+            "surligner": "au niveau des artères iliaques internes naissent"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les 2 artères ombilicales naissent des artères iliaques internes.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les artères ombilicales ramènent le sang fœtal vers le placenta.",
+              "explication": "Sang pauvre en O2."
+            },
+            {
+              "reponse": "La veine ombilicale ramène le sang réoxygéné du placenta vers le fœtus.",
+              "explication": "Elle se jette dans la veine cave inférieure."
+            },
+            {
+              "reponse": "Le foramen ovale fait communiquer les 2 oreillettes du cœur fœtal.",
+              "explication": "Une partie du sang est déviée vers le cœur gauche."
+            },
+            {
+              "reponse": "À la naissance, l'enfant a une hémoglobine fœtale hyperaffine.",
+              "explication": "Sa persistance peut être à l'origine d'une anoxie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cordon ombilical contient une seule artère ombilicale.",
+              "explication": "Il en contient 2."
+            },
+            {
+              "reponse": "La veine ombilicale ramène le sang fœtal vers le placenta.",
+              "explication": "Elle ramène le sang réoxygéné vers le fœtus."
+            },
+            {
+              "reponse": "Les artères ombilicales naissent des artères iliaques externes.",
+              "explication": "Elles naissent des artères iliaques internes."
+            },
+            {
+              "reponse": "Le foramen ovale fait communiquer les 2 ventricules.",
+              "explication": "Il fait communiquer les 2 oreillettes."
+            },
+            {
+              "reponse": "La veine ombilicale se jette dans la veine cave supérieure.",
+              "explication": "Elle se jette dans la veine cave inférieure."
+            },
+            {
+              "reponse": "Chez le fœtus, la circulation pulmonaire est pleinement fonctionnelle.",
+              "explication": "Elle ne l'est pas encore."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-057",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les valeurs normales du gaz du sang, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 38,
+            "surligner": "plus tolérant que chez l’adulte"
+          },
+          "bonnes": [
+            {
+              "reponse": "Chez l'adulte, la pression artérielle en O2 normale est de 80 à 100 mmHg.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Chez l'adulte, la pression artérielle en CO2 normale est de 40 ± 5 mmHg.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Chez l'adulte, la saturation normale de l'hémoglobine est de 95 à 98 %.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Au sang de cordon artériel, le pH normal est supérieur à 7,12.",
+              "explication": "Seuil plus tolérant que chez l'adulte."
+            },
+            {
+              "reponse": "Au sang de cordon, les lactates sont tolérés jusqu'à 7 mmol/L.",
+              "explication": "Contre 1,6 mmol/L chez l'adulte."
+            },
+            {
+              "reponse": "Le seuil de pH au cordon est plus tolérant que chez l'adulte, car l'enfant n'est pas au repos et était en apnée.",
+              "explication": "Il vient de traverser les voies génitales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Au sang de cordon, le pH normal est supérieur à 7,35.",
+              "explication": "Il est supérieur à 7,12."
+            },
+            {
+              "reponse": "Au sang de cordon, les lactates doivent être inférieurs à 1,6 mmol/L.",
+              "explication": "C'est la normale haute de l'adulte ; au cordon, jusqu'à 7 mmol/L."
+            },
+            {
+              "reponse": "Chez l'adulte, la pression artérielle en CO2 normale est de 40 ± 15 mmHg.",
+              "explication": "Elle est de 40 ± 5 mmHg."
+            },
+            {
+              "reponse": "Chez l'adulte, la pression artérielle en O2 normale est de 40 mmHg.",
+              "explication": "C'est la valeur du sang veineux ; la normale artérielle est 80 à 100 mmHg."
+            },
+            {
+              "reponse": "Les normes du gaz du sang au cordon sont plus strictes que celles de l'adulte.",
+              "explication": "Elles sont plus tolérantes."
+            },
+            {
+              "reponse": "Chez l'adulte, les bicarbonates normaux sont de 34 ± 2 mmol/L.",
+              "explication": "Ils sont de 24 ± 2 mmol/L."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-058",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel est le seuil de pH normal au sang de cordon artériel ? (une seule réponse attendue)",
+          "cours": {
+            "page": 38,
+            "surligner": "plus tolérant que chez l’adulte, car l’enfant"
+          },
+          "bonnes": [
+            {
+              "reponse": "pH supérieur à 7,12.",
+              "explication": "En dessous, risque de séquelles : réanimation néonatale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "pH supérieur à 7,35.",
+              "explication": "C'est le seuil d'acidose de l'adulte."
+            },
+            {
+              "reponse": "pH supérieur à 7,40.",
+              "explication": "C'est la normale de l'adulte, pas un seuil."
+            },
+            {
+              "reponse": "pH supérieur à 7,45.",
+              "explication": "C'est le seuil d'alcalose de l'adulte."
+            },
+            {
+              "reponse": "pH supérieur à 6,90.",
+              "explication": "Seuil trop bas."
+            },
+            {
+              "reponse": "pH supérieur à 7,25.",
+              "explication": "Seuil trop strict ; le seuil au cordon est 7,12."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-059",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel profil du gaz du sang au cordon signe une anoxie pendant le travail ? (une seule réponse attendue)",
+          "cours": {
+            "page": 38,
+            "surligner": "au cordon pathologique montre un pH bas"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un pH bas et un lactate élevé.",
+              "explication": "Acidose et production de lactate par glycolyse anaérobie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un pH élevé et un lactate élevé.",
+              "explication": "Erreur des notes corrigée : le pH est bas."
+            },
+            {
+              "reponse": "Un pH bas et un lactate bas.",
+              "explication": "Le lactate est élevé en cas d'anoxie."
+            },
+            {
+              "reponse": "Un pH élevé et un lactate bas.",
+              "explication": "C'est l'inverse d'une anoxie."
+            },
+            {
+              "reponse": "Un pH normal et un lactate normal.",
+              "explication": "Des valeurs normales écartent une anoxie."
+            },
+            {
+              "reponse": "Un pH élevé et une pression en O2 élevée.",
+              "explication": "L'anoxie donne une acidose."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-060",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le prélèvement au scalp, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 38,
+            "surligner": "il réalise un prélèvement au scalp"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le prélèvement au scalp se fait par une petite incision sur le crâne du bébé pendant le travail.",
+              "explication": "Quelques gouttes de sang pour doser lactate et pH."
+            },
+            {
+              "reponse": "Le prélèvement au scalp n'est possible que si le bébé se présente tête la première.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Si les valeurs au scalp sont correctes, on laisse le travail continuer 30 à 45 minutes.",
+              "explication": "Sinon, césarienne."
+            },
+            {
+              "reponse": "En cas de prélèvement insuffisant, on peut se limiter au dosage des lactates, éventuellement sur bandelette.",
+              "explication": "Une toute petite goutte suffit."
+            },
+            {
+              "reponse": "Le prélèvement au scalp expose à un risque de coagulation dans le capillaire, même hépariné.",
+              "explication": "Vigilance du cours."
+            },
+            {
+              "reponse": "Le prélèvement au scalp aide à la décision de césarienne.",
+              "explication": "Résultats montrant une acidose métabolique ou une hypoperfusion du fœtus."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le prélèvement au scalp est possible quelle que soit la présentation du bébé.",
+              "explication": "Seulement s'il se présente tête la première."
+            },
+            {
+              "reponse": "Le prélèvement au scalp permet une surveillance continue.",
+              "explication": "C'est une surveillance discontinue."
+            },
+            {
+              "reponse": "Au scalp, il est impossible de doser les lactates seuls.",
+              "explication": "On peut se limiter aux lactates."
+            },
+            {
+              "reponse": "Un capillaire hépariné supprime tout risque de coagulation du prélèvement au scalp.",
+              "explication": "Le risque persiste."
+            },
+            {
+              "reponse": "Le prélèvement au scalp se fait après la naissance.",
+              "explication": "Il se fait pendant le travail."
+            },
+            {
+              "reponse": "Le dosage du prélèvement au scalp peut attendre plusieurs heures.",
+              "explication": "Il doit être fait instantanément."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-eab-gds-061",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2023-2024",
+                "qcm": 3
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2020-2021",
+                "qcm": 13
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2019-2020",
+                "qcm": 28
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2017-2018",
+                "qcm": 42
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2015-2016",
+                "qcm": 40
+              }
+            ]
+          },
+          "question": "À propos des prélèvements pendant et après l'accouchement, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 37,
+            "surligner": "dans l’une des 2 artères ombilicales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un pH-lactate (ou une acidose) au scalp permet de poser l'indication d'une césarienne en urgence.",
+              "annale": true,
+              "explication": "Le prélèvement au scalp aide à la décision de césarienne pendant le travail (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ponction pour le pH-lactate au cordon se fait sur une artère ombilicale.",
+              "annale": true,
+              "explication": "Le sang veineux provient de la mère (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un prélèvement au cordon trop tardif après l'accouchement peut simuler une acidose par hypoxie (faux positif de souffrance fœtale).",
+              "annale": true,
+              "explication": "Les globules rouges produisent du lactate et le pH baisse (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'obstétricien doit préciser si le prélèvement au cordon n'a pas pu être fait dans les 5 minutes suivant la naissance.",
+              "annale": true,
+              "explication": "Pour éviter des faux positifs (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une acidose au gaz du sang au cordon permet de poser l'indication d'une césarienne en urgence.",
+              "annale": true,
+              "explication": "Le gaz du sang au cordon est fait à la naissance ; c'est le prélèvement au scalp qui aide à décider la césarienne (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les valeurs normales de pH-lactate au cordon sont les mêmes que chez l'adulte.",
+              "annale": true,
+              "explication": "Elles sont plus tolérantes (pH > 7,12, lactates < 7 mmol/L) (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les valeurs normales de pH-lactate au scalp sont les mêmes qu'au cordon.",
+              "annale": true,
+              "explication": "Au scalp, les lactates sont jugés sur les normes de l'adulte, plus strictes que celles du cordon (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ponction pour le pH-lactate au cordon se fait préférentiellement sur la veine ombilicale.",
+              "annale": true,
+              "explication": "Elle se fait sur une artère ombilicale ; le sang veineux provient de la mère (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le prélèvement au cordon est uniquement médico-légal et n'a pas besoin d'être transmis en salle d'accouchement.",
+              "annale": true,
+              "explication": "Un pH de 7,12 doit être signalé au pédiatre ; en dessous, l'enfant part en réanimation néonatale (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
