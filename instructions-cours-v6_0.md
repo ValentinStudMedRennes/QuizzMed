@@ -1,4 +1,4 @@
-# Prompt de génération de cours — Version v5.1 (09/11/2026)
+# Prompt de génération de cours — Version v6.0 (17/11/2026)
 # Rappel : incrémenter la version à chaque modification de ce prompt (voir "Journal des versions").
 
 Tu vas m'aider à retravailler des notes de cours en générant 2 fichiers PDF.
@@ -105,14 +105,27 @@ par numéro de page et par passage surligné.
 - Commence par les métadonnées, puis la légende des couleurs.
 - Toutes les notions expliquées en toutes lettres, sans abréviation.
 - Garde tous les chiffres du cours, même ceux à ne pas apprendre (signale-les).
-- Schémas et graphiques :
-  - Intègre chaque schéma ou graphique cité, découpé dans la diapositive, lisible,
-    avec une légende en texte "Figure — diapositive n°X", juste au-dessus de sa
-    description ; image, légende, description et titre qui précède restent ensemble.
-  - Pas d'image pour les diapositives purement textuelles : réécris leur contenu
-    (formules, tableaux) en texte.
+- Schémas, graphiques et images (dont les images d'imagerie médicale) :
+  - Intègre chaque schéma, graphique ou image cité, découpé dans sa source, lisible,
+    avec une légende en texte "Figure — diapositive n°X" (ou "Figure — prise de
+    notes, page X"), juste au-dessus de sa description ; image, légende, description
+    et titre qui précède restent ensemble.
+  - Ne décris jamais en texte ce que montre une image sans l'insérer : dès que tu
+    parles d'un schéma ou d'une image, insère-le avec sa légende et sa description.
+  - Pas d'image pour les diapositives purement textuelles : reformule leur contenu
+    (formules, tableaux) en texte, comme du contenu de cours (voir « Rédaction »).
   - Description "Description du schéma (diapositive n°X) :" en texte noir normal,
     notions clés en bleu gras, étiquettes et couleurs habituelles si besoin.
+  - Rédige chaque description en regardant l'image réellement insérée, jamais à
+    partir du seul texte des notes ou du titre de la diapositive. Pour une image
+    d'imagerie, vérifie le côté (à l'écran, la droite du patient est à gauche), le
+    lobe ou la région, et ce qui est décrit (par ex. quelle limite est nette ou
+    floue).
+  - Si la prise de notes commente une image (annotations, flèches, « sur cette
+    radio ») différente de celle de la diapositive, insère l'image des notes : c'est
+    elle qui a été commentée en cours. Si l'image de la diapositive apporte quelque
+    chose, insère-la aussi, avec sa propre description. Si les deux ne montrent pas
+    la même chose, signale-le avec [Vigilance].
   - Toute information utile aux QCM doit être dans le texte, jamais seulement
     dans l'image.
   - Schéma illisible : insère-le et écris [Schéma illisible : diapo n°X].
@@ -130,6 +143,19 @@ par numéro de page et par passage surligné.
   numéro d'unité d'enseignement. Traite le document comme un cours tiré d'un livre.
 
 ## Règles communes aux deux fichiers
+- Rédaction : écris le contenu des diapositives et des notes directement, comme le
+  texte d'un livre. Les diapositives ne sont jamais le sujet de la phrase : pas de
+  « les diapositives décrivent / citent / précisent… », ni de « (diapositive n°X) »
+  dans le texte courant.
+  Exemple à éviter : « Les diapositives (n°25) décrivent aussi l'alvéologramme :
+  clartés arrondies, polycycliques, au sein d'une opacité. »
+  Exemple à suivre : « L'alvéologramme correspond à des clartés arrondies,
+  polycycliques, au sein d'une opacité. »
+  - Les numéros de diapositive n'apparaissent que dans les légendes et les
+    descriptions des figures.
+  - Exception : une courte mention de la source est permise quand elle est utile
+    (désaccord entre notes et diapositives, [Correction], [Incertain], notion des
+    diapositives non abordée à l'oral).
 - Chiffres et nombres toujours en numérique ("99", "0,5") ; les unités peuvent
   rester en toutes lettres dans la version complète.
 - Code couleur, avec légende : bleu gras (notions clés), orange gras (vigilance et
@@ -155,9 +181,14 @@ par numéro de page et par passage surligné.
 - Vérifie le rendu visuel de chaque fichier (pas de titre orphelin, pas de caractère
   manquant, figures et tableaux lisibles et non coupés) et l'extraction pdftotext
   du fichier 2.
+- Pour chaque figure, compare l'image avec sa description et avec le texte qui
+  l'entoure (côté, localisation, éléments décrits).
+- Cherche « diapositive » dans l'extraction pdftotext : en dehors des légendes et
+  descriptions de figures et des exceptions prévues, reformule.
 - Dans ta réponse, résume : désaccords tranchés, points [Incertain], schémas
-  illisibles, points à vérifier avec l'enseignant, version du prompt utilisée, et si
-  le résumé contient des tableaux comparatifs (sinon, pourquoi).
+  illisibles, figures où l'image et le texte ne concordaient pas, points à vérifier
+  avec l'enseignant, version du prompt utilisée, et si le résumé contient des
+  tableaux comparatifs (sinon, pourquoi).
 - Rappelle que le fichier 2 ne doit plus être régénéré une fois les QCM créés.
 
 ## Journal des versions
@@ -169,6 +200,12 @@ Règle :
 - MINEUR (passage à X.Y, ex. 4.3 → 4.4) : la modification ne change pas radicalement
   la structure (ajustement de forme ou de contenu, reformulation, ajout ou
   modification d'une partie du résumé).
+- v6.0 (17/11/2026) : figures : description rédigée en regardant l'image insérée
+  (côté, lobe, limites), image des notes insérée quand c'est elle qui est commentée
+  en cours, jamais de description d'image sans l'image ; rédaction : contenu des
+  diapositives reformulé directement, sans « les diapositives décrivent… », numéros
+  de diapositive réservés aux figures ; vérifications correspondantes à la livraison
+  (majeur : peut ajouter des figures et décaler la pagination du fichier 2).
 - v5.1 (09/11/2026) : résumé organisé par chapitres et sous-chapitres numérotés
   comme le plan, hiérarchie visuelle des titres, rappel du chapitre en haut de page.
 - v5.0 (08/11/2026) : fichier 2 : définition et/ou exemple tirés du web à la
