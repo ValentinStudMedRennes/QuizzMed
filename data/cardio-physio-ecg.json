@@ -1,0 +1,3738 @@
+{
+  "meta": {
+    "theme": "Appareil cardio-vasculaire",
+    "section": "Physiologie",
+    "titre": "L'électrocardiogramme : dérivations, tracé normal, axe, hypertrophies et blocs de branche",
+    "description": "Des bases cellulaires du potentiel d'action à la lecture de l'électrocardiogramme : dérivations, tracé normal, axe du QRS, hypertrophies et blocs de branche.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "cardio-physio-ecg.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Rappels sur le potentiel d'action"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-ecg-001",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2015-2016",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant le potentiel d'action d'une cellule du nœud sinusal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "La cellule nodale s'est dépolarisée spontanément"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le potentiel de repos de la cellule nodale est de −60 mV.",
+              "annale": true,
+              "explication": "Valeur donnée par le cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le potentiel d'action de la cellule nodale ne comporte que 3 phases : 0, 3 et 4.",
+              "annale": true,
+              "explication": "Pas de phase 1 ni de plateau (phase 2). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dépolarisation lente initiale est due au courant sodique entrant If, porté par le canal HCN.",
+              "annale": true,
+              "explication": "Le canal HCN s'ouvre environ 60 fois par minute. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le canal calcique transitoire ICaT s'ouvre vers −55 mV.",
+              "annale": true,
+              "explication": "Il fait entrer du calcium et porte le potentiel à −40 mV. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La phase 0 de la cellule nodale est due à l'ouverture du canal calcique lent ICaL, à partir de −40 mV.",
+              "annale": true,
+              "explication": "Entrée massive de Ca²⁺ jusqu'à +10 mV. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La repolarisation de la cellule nodale est due à une sortie de potassium.",
+              "annale": true,
+              "explication": "Des canaux potassiques s'ouvrent à +10 mV et ramènent le potentiel à −60 mV. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cellule nodale se dépolarise spontanément, sans stimulation extérieure.",
+              "annale": true,
+              "explication": "C'est son automatisme, propriété de cellule « pacemaker ». (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La stimulation sympathique augmente la pente de dépolarisation de la cellule nodale.",
+              "annale": true,
+              "explication": "L'AMPc active le courant If, le seuil est atteint plus vite. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le potentiel de repos de la cellule nodale est de −90 mV.",
+              "explication": "−90 mV est le repos du cardiomyocyte ; la cellule nodale est à −60 mV."
+            },
+            {
+              "reponse": "La phase 0 de la cellule nodale est due à l'ouverture du canal sodique rapide INa.",
+              "explication": "INa appartient au cardiomyocyte ; la phase 0 nodale est calcique (ICaL)."
+            },
+            {
+              "reponse": "Le potentiel d'action de la cellule nodale comporte un plateau (phase 2).",
+              "explication": "Pas de plateau dans la cellule nodale."
+            },
+            {
+              "reponse": "Le seuil d'ouverture du canal ICaL de la cellule nodale est de −70 mV.",
+              "explication": "Il est de −40 mV ; −70 mV est le seuil du cardiomyocyte (INa)."
+            },
+            {
+              "reponse": "La stimulation parasympathique augmente la pente de dépolarisation de la cellule nodale.",
+              "explication": "Elle la diminue (protéine Gi, moins d'AMPc) et rend le repos plus négatif."
+            },
+            {
+              "reponse": "Le canal HCN laisse sortir du potassium pendant la phase 4.",
+              "explication": "Pour le cours, c'est un canal sodique : entrée de charges positives."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-002",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2015-2016",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant la libération de calcium induite par le calcium (CICR) dans le cardiomyocyte, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "libération de calcium induite par le calcium"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le calcium entre dans le cardiomyocyte par le canal calcique ICaL pendant le potentiel d'action.",
+              "annale": true,
+              "explication": "Entrée calcique du plateau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le calcium entré par ICaL se fixe sur le récepteur RyR2 du réticulum sarcoplasmique.",
+              "annale": true,
+              "explication": "Associé à la calmoduline, il active le récepteur à la ryanodine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La fixation du calcium sur RyR2 provoque une sortie massive de calcium du réticulum sarcoplasmique.",
+              "annale": true,
+              "explication": "C'est le CICR. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "C'est surtout le calcium du réticulum sarcoplasmique qui permet réellement la contraction.",
+              "annale": true,
+              "explication": "Le réticulum est le grand réservoir de calcium. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'entrée de calcium extracellulaire est nécessaire mais pas suffisante pour la contraction.",
+              "annale": true,
+              "explication": "Elle sert de déclencheur à la libération par le réticulum. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le calcium libéré est ensuite recapté dans le réticulum sarcoplasmique par la pompe SERCA2a.",
+              "annale": true,
+              "explication": "Le calcium, toxique, doit être évacué. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le calcium extracellulaire entré par ICaL suffit à lui seul à déclencher la contraction.",
+              "explication": "Il est nécessaire mais pas suffisant."
+            },
+            {
+              "reponse": "Le récepteur RyR2 est situé sur la membrane plasmique du cardiomyocyte.",
+              "explication": "Il est situé sur le réticulum sarcoplasmique."
+            },
+            {
+              "reponse": "La pompe SERCA2a libère le calcium du réticulum sarcoplasmique vers le cytosol.",
+              "explication": "Elle le recapte ; c'est RyR2 qui le libère."
+            },
+            {
+              "reponse": "Dans le cardiomyocyte, le calcium déclencheur entre par le canal transitoire ICaT.",
+              "explication": "ICaT est un canal de la cellule nodale ; le cardiomyocyte utilise ICaL."
+            },
+            {
+              "reponse": "Le CICR correspond à une libération de calcium induite par le sodium.",
+              "explication": "Il est induit par le calcium (calcium induced calcium release)."
+            },
+            {
+              "reponse": "Le calcium libéré par le réticulum se fixe sur le récepteur β1 adrénergique.",
+              "explication": "Il agit sur les myofilaments (ponts actine-myosine)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-003",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2016-2017",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant les phases du potentiel d'action sodique rapide d'un cardiomyocyte et leurs mécanismes ioniques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Le potentiel de repos des cardiomyocytes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le potentiel de repos du cardiomyocyte est de −90 mV.",
+              "annale": true,
+              "explication": "Valeur du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le potentiel d'action du cardiomyocyte comporte 5 phases, numérotées de 0 à 4.",
+              "annale": true,
+              "explication": "Contre 3 pour la cellule nodale. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les ions positifs venus des cellules voisines par les gap junctions amènent le cardiomyocyte au seuil de −70 mV.",
+              "annale": true,
+              "explication": "Montée initiale avant l'ouverture d'INa. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La phase 0 du cardiomyocyte est due à une entrée massive de sodium par le canal INa.",
+              "annale": true,
+              "explication": "Le potentiel passe de −70 à +10 mV. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La phase 1 est une légère repolarisation due à une sortie de potassium par le canal Ito.",
+              "annale": true,
+              "explication": "Le potentiel revient vers 0 mV. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La phase 2 (plateau) résulte de l'équilibre entre une entrée de calcium (ICaL) et une sortie de potassium (IKr, IKs).",
+              "annale": true,
+              "explication": "Entrée et sortie d'ions positifs s'équilibrent. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La phase 3 survient quand ICaL s'inactive : il ne reste qu'une sortie de potassium, qui ramène le potentiel à −90 mV.",
+              "annale": true,
+              "explication": "Repolarisation du cardiomyocyte. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En phase 4, le cardiomyocyte reste au repos jusqu'à l'arrivée d'une impulsion des cellules nodales.",
+              "annale": true,
+              "explication": "Il n'a pas d'automatisme. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La phase 0 du cardiomyocyte est due à l'entrée de calcium par ICaL.",
+              "explication": "Elle est sodique (INa) ; la phase 0 calcique est celle de la cellule nodale."
+            },
+            {
+              "reponse": "Le plateau du cardiomyocyte est dû à une entrée de sodium par le canal HCN.",
+              "explication": "Le canal HCN appartient à la cellule nodale ; le plateau associe ICaL et IKr/IKs."
+            },
+            {
+              "reponse": "Le potentiel de repos du cardiomyocyte est de −60 mV.",
+              "explication": "−60 mV est le repos de la cellule nodale."
+            },
+            {
+              "reponse": "Le canal Ito fait entrer du calcium en phase 1.",
+              "explication": "Ito est un canal potassique sortant."
+            },
+            {
+              "reponse": "En phase 4, le cardiomyocyte se dépolarise spontanément grâce au courant If.",
+              "explication": "Le cardiomyocyte n'a pas d'automatisme : il attend les cellules nodales."
+            },
+            {
+              "reponse": "Le potentiel d'action du cardiomyocyte ne comporte que 3 phases.",
+              "explication": "Il en comporte 5 (0 à 4)."
+            },
+            {
+              "reponse": "La phase 3 du cardiomyocyte est due à une entrée de chlore.",
+              "explication": "Elle est due à une sortie de potassium."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-004",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2019-2020",
+                "qcm": 18
+              }
+            ]
+          },
+          "question": "Concernant le couplage excitation-contraction du myocarde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "l'excitation électrique précède et déclenche la contraction"
+          },
+          "bonnes": [
+            {
+              "reponse": "La contraction du cœur est un phénomène mécanique provoqué par un phénomène électrique.",
+              "annale": true,
+              "explication": "L'excitation électrique précède et déclenche la contraction. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les ions calcium ont un rôle essentiel dans le couplage excitation-contraction.",
+              "annale": true,
+              "explication": "Entrée par ICaL puis libération par le réticulum (CICR). (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La contraction myocardique répond à la repolarisation électrique.",
+              "annale": true,
+              "explication": "Elle répond à la dépolarisation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La relaxation myocardique répond à la dépolarisation électrique.",
+              "annale": true,
+              "explication": "Elle accompagne la repolarisation, après le plateau. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-005",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2019-2020",
+                "qcm": 19
+              }
+            ]
+          },
+          "question": "Concernant la séquence des événements du couplage excitation-contraction dans un cardiomyocyte, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Cette entrée de calcium est nécessaire mais pas suffisante"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'arrivée du potentiel d'action ouvre les canaux calciques membranaires et permet l'entrée de calcium dans le cardiomyocyte.",
+              "annale": true,
+              "explication": "Ouverture du canal ICaL pendant le plateau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'entrée de calcium dans la cellule déclenche la libération de calcium par le réticulum sarcoplasmique.",
+              "annale": true,
+              "explication": "C'est le CICR, via le récepteur RyR2. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le potentiel d'action et la contraction mécanique d'un cardiomyocyte sont strictement simultanés.",
+              "annale": true,
+              "explication": "La contraction commence après le début du potentiel d'action, qui la précède. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les ions calcium libérés dans le cytosol se fixent sur la troponine I.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Ils se fixent sur la troponine C, ce qui démasque les sites de liaison actine-myosine. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Du cœur à l'électrocardiogramme : les dérivations"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-ecg-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'activité électrique cardiaque enregistrée par l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "Le cœur entier peut être assimilé à un dipôle unique"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'impulsion électrique normale naît dans le nœud sinusal.",
+              "explication": "Le nœud sinusal est le point de départ de l'activation."
+            },
+            {
+              "reponse": "Après les atriums, l'impulsion traverse le nœud atrio-ventriculaire puis le faisceau de His.",
+              "explication": "Puis les branches droite et gauche et le réseau de Purkinje."
+            },
+            {
+              "reponse": "L'électrocardiogramme enregistre, à la surface du corps, la somme des activités électriques du cœur.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Une fibre qui se dépolarise se comporte comme un dipôle.",
+              "explication": "Le cœur entier peut être assimilé à un dipôle unique."
+            },
+            {
+              "reponse": "Une onde de dépolarisation qui s'avance vers l'électrode positive donne une déflexion positive.",
+              "explication": "Règle de base du dipôle."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'impulsion électrique normale naît dans le nœud atrio-ventriculaire.",
+              "explication": "Elle naît dans le nœud sinusal."
+            },
+            {
+              "reponse": "Le faisceau de His est activé avant le nœud atrio-ventriculaire.",
+              "explication": "Le nœud atrio-ventriculaire précède le faisceau de His."
+            },
+            {
+              "reponse": "Le réseau de Purkinje est activé avant les branches du faisceau de His.",
+              "explication": "Purkinje est la dernière étape avant le muscle ventriculaire."
+            },
+            {
+              "reponse": "L'électrocardiogramme enregistre l'activité électrique d'une seule cellule cardiaque.",
+              "explication": "Il enregistre la somme des activités de tout le cœur."
+            },
+            {
+              "reponse": "Une onde de dépolarisation qui s'éloigne de l'électrode positive donne une déflexion positive.",
+              "explication": "Elle donne une déflexion négative."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dérivations DI, DII et DIII, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "DI, DII et DIII sont des dérivations bipolaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "DI, DII et DIII sont des dérivations bipolaires.",
+              "explication": "L'activité est enregistrée entre 2 pôles."
+            },
+            {
+              "reponse": "DI est enregistrée entre le bras gauche et le bras droit.",
+              "explication": "Elle regarde la partie latérale du cœur."
+            },
+            {
+              "reponse": "DII est enregistrée entre la jambe gauche et le bras droit.",
+              "explication": "Elle regarde le cœur par en bas."
+            },
+            {
+              "reponse": "DIII est enregistrée entre le bras gauche et la jambe gauche.",
+              "explication": "Elle regarde le bas du cœur."
+            },
+            {
+              "reponse": "DI regarde la partie latérale du cœur.",
+              "explication": "Comme si l'on regardait depuis le bras gauche."
+            },
+            {
+              "reponse": "DII et DIII regardent le bas du cœur.",
+              "explication": "Elles appartiennent au territoire inférieur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "DIII est une dérivation unipolaire.",
+              "explication": "DI, DII et DIII sont bipolaires."
+            },
+            {
+              "reponse": "DI est enregistrée entre le bras droit et la jambe gauche.",
+              "explication": "C'est DII ; DI est entre les 2 bras."
+            },
+            {
+              "reponse": "DIII est enregistrée entre le bras droit et la jambe gauche.",
+              "explication": "DIII est entre le bras gauche et la jambe gauche."
+            },
+            {
+              "reponse": "DII regarde la paroi latérale haute du cœur.",
+              "explication": "DII regarde le cœur par en bas."
+            },
+            {
+              "reponse": "DI regarde le cœur par en bas.",
+              "explication": "DI regarde la partie latérale du cœur."
+            },
+            {
+              "reponse": "DII est enregistrée entre les 2 bras.",
+              "explication": "C'est DI ; DII est entre la jambe gauche et le bras droit."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-008",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles associations entre couleur du fil et membre sont correctes pour les électrodes des membres ? (3 réponses attendues)",
+          "cours": {
+            "page": 14,
+            "surligner": "rouge au bras droit"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le fil rouge est placé au bras droit.",
+              "explication": "Rouge = bras droit (RA)."
+            },
+            {
+              "reponse": "Le fil jaune est placé au bras gauche.",
+              "explication": "Jaune = bras gauche (LA)."
+            },
+            {
+              "reponse": "Le fil vert est placé à la jambe gauche.",
+              "explication": "Vert = jambe gauche (LL)."
+            },
+            {
+              "reponse": "Le fil noir est placé à la jambe droite.",
+              "explication": "Noir = jambe droite (RL)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le fil rouge est placé au bras gauche.",
+              "explication": "Le rouge va au bras droit."
+            },
+            {
+              "reponse": "Le fil jaune est placé au bras droit.",
+              "explication": "Le jaune va au bras gauche."
+            },
+            {
+              "reponse": "Le fil vert est placé à la jambe droite.",
+              "explication": "Le vert va à la jambe gauche."
+            },
+            {
+              "reponse": "Le fil noir est placé à la jambe gauche.",
+              "explication": "Le noir va à la jambe droite."
+            },
+            {
+              "reponse": "Le fil rouge est placé à la jambe droite.",
+              "explication": "Le rouge va au bras droit."
+            },
+            {
+              "reponse": "Le fil jaune est placé à la jambe gauche.",
+              "explication": "Le jaune va au bras gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dérivations aVR, aVL et aVF, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Viennent ensuite 3 dérivations unipolaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "aVR, aVL et aVF sont des dérivations unipolaires.",
+              "explication": "Chaque membre est assimilé à un pôle positif."
+            },
+            {
+              "reponse": "Pour ces dérivations, le pôle négatif est le milieu du segment reliant les 2 autres membres.",
+              "explication": "On crée ainsi un dipôle."
+            },
+            {
+              "reponse": "Le pôle positif de aVL est le bras gauche.",
+              "explication": "aVL regarde la paroi latérale, un peu plus haut que DI."
+            },
+            {
+              "reponse": "aVR regarde le cœur par en haut à droite.",
+              "explication": "Son pôle positif est le bras droit."
+            },
+            {
+              "reponse": "aVF regarde le cœur par en bas.",
+              "explication": "Son pôle positif est la jambe gauche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "aVL est une dérivation bipolaire enregistrée entre les 2 bras.",
+              "explication": "aVL est unipolaire ; la dérivation entre les 2 bras est DI."
+            },
+            {
+              "reponse": "Le pôle positif de aVR est le bras gauche.",
+              "explication": "C'est le bras droit."
+            },
+            {
+              "reponse": "aVF regarde la paroi latérale haute du cœur.",
+              "explication": "aVF regarde le cœur par en bas."
+            },
+            {
+              "reponse": "Le pôle négatif des dérivations aVR, aVL et aVF est l'électrode de la jambe droite.",
+              "explication": "C'est la moyenne des 2 autres membres ; le fil noir sert de référence."
+            },
+            {
+              "reponse": "aVR regarde le cœur par en bas.",
+              "explication": "aVR regarde le cœur par en haut à droite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-010",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles dérivations sont des dérivations unipolaires des membres ? (3 réponses attendues)",
+          "cours": {
+            "page": 15,
+            "surligner": "Chaque membre est assimilé à un pôle positif"
+          },
+          "bonnes": [
+            {
+              "reponse": "aVR est une dérivation unipolaire des membres.",
+              "explication": "Pôle positif au bras droit."
+            },
+            {
+              "reponse": "aVL est une dérivation unipolaire des membres.",
+              "explication": "Pôle positif au bras gauche."
+            },
+            {
+              "reponse": "aVF est une dérivation unipolaire des membres.",
+              "explication": "Pôle positif à la jambe gauche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "DI est une dérivation unipolaire des membres.",
+              "explication": "DI est bipolaire."
+            },
+            {
+              "reponse": "DII est une dérivation unipolaire des membres.",
+              "explication": "DII est bipolaire."
+            },
+            {
+              "reponse": "DIII est une dérivation unipolaire des membres.",
+              "explication": "DIII est bipolaire."
+            },
+            {
+              "reponse": "V1 est une dérivation unipolaire des membres.",
+              "explication": "V1 est une dérivation précordiale, placée sur le thorax."
+            },
+            {
+              "reponse": "V6 est une dérivation unipolaire des membres.",
+              "explication": "V6 est une dérivation précordiale, placée sur le thorax."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la position des électrodes précordiales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "V1 : 4e espace intercostal, bord droit du sternum"
+          },
+          "bonnes": [
+            {
+              "reponse": "V1 se place au 4e espace intercostal, au bord droit du sternum.",
+              "explication": "Position du cours."
+            },
+            {
+              "reponse": "V2 se place au 4e espace intercostal, au bord gauche du sternum.",
+              "explication": "Symétrique de V1."
+            },
+            {
+              "reponse": "V3 se place à mi-distance entre V2 et V4.",
+              "explication": "Et non sur la ligne médiane du thorax."
+            },
+            {
+              "reponse": "V4 se place au 5e espace intercostal, sur la ligne médio-claviculaire gauche.",
+              "explication": "Sous le mamelon."
+            },
+            {
+              "reponse": "V5 se place au même niveau horizontal que V4, sur la ligne axillaire antérieure.",
+              "explication": "Position du cours."
+            },
+            {
+              "reponse": "V6 se place au même niveau que V4, sur la ligne axillaire moyenne.",
+              "explication": "Position du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "V1 se place au 4e espace intercostal, au bord gauche du sternum.",
+              "explication": "C'est la position de V2 ; V1 est au bord droit."
+            },
+            {
+              "reponse": "V3 se place sur la ligne médiane du thorax.",
+              "explication": "Erreur de la prise de notes corrigée : V3 est à mi-distance entre V2 et V4."
+            },
+            {
+              "reponse": "V4 se place au 4e espace intercostal, sur la ligne médio-claviculaire gauche.",
+              "explication": "V4 est au 5e espace intercostal."
+            },
+            {
+              "reponse": "V6 se place sur la ligne axillaire antérieure.",
+              "explication": "C'est V5 ; V6 est sur la ligne axillaire moyenne."
+            },
+            {
+              "reponse": "V5 se place sur la ligne axillaire moyenne.",
+              "explication": "C'est V6 ; V5 est sur la ligne axillaire antérieure."
+            },
+            {
+              "reponse": "V2 se place au 5e espace intercostal, au bord gauche du sternum.",
+              "explication": "V2 est au 4e espace intercostal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-012",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel est le pôle négatif des dérivations précordiales ? (une seule réponse attendue)",
+          "cours": {
+            "page": 16,
+            "surligner": "forment un pseudo-pôle négatif, le Wilson Central Terminal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le Wilson Central Terminal, construit à partir des électrodes des membres.",
+              "explication": "Pseudo-pôle négatif des précordiales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'électrode de la jambe droite seule.",
+              "explication": "Le fil noir sert de référence, pas de pôle négatif des précordiales."
+            },
+            {
+              "reponse": "L'électrode V1.",
+              "explication": "V1 est elle-même une électrode positive précordiale."
+            },
+            {
+              "reponse": "L'électrode du bras droit seule.",
+              "explication": "Le pôle négatif combine les électrodes des membres."
+            },
+            {
+              "reponse": "L'électrode de la jambe gauche seule.",
+              "explication": "Le pôle négatif combine les électrodes des membres."
+            },
+            {
+              "reponse": "L'électrode V6.",
+              "explication": "V6 est elle-même une électrode positive précordiale."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-013",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles dérivations appartiennent au territoire inférieur ? (3 réponses attendues)",
+          "cours": {
+            "page": 18,
+            "surligner": "DII, DIII et aVF, inférieur"
+          },
+          "bonnes": [
+            {
+              "reponse": "DII appartient au territoire inférieur.",
+              "explication": "Territoire inférieur : DII, DIII, aVF."
+            },
+            {
+              "reponse": "DIII appartient au territoire inférieur.",
+              "explication": "Territoire inférieur : DII, DIII, aVF."
+            },
+            {
+              "reponse": "aVF appartient au territoire inférieur.",
+              "explication": "Territoire inférieur : DII, DIII, aVF."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "DI appartient au territoire inférieur.",
+              "explication": "DI est latérale haute."
+            },
+            {
+              "reponse": "aVL appartient au territoire inférieur.",
+              "explication": "aVL est latérale haute."
+            },
+            {
+              "reponse": "V1 appartient au territoire inférieur.",
+              "explication": "V1 est antérieure."
+            },
+            {
+              "reponse": "V4 appartient au territoire inférieur.",
+              "explication": "V4 est apicale."
+            },
+            {
+              "reponse": "V6 appartient au territoire inférieur.",
+              "explication": "V6 est latérale basse."
+            },
+            {
+              "reponse": "aVR appartient au territoire inférieur.",
+              "explication": "aVR regarde le cœur par en haut à droite."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la valeur localisatrice des dérivations et les territoires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "Les territoires sont donc : DI et aVL, latéral haut"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une seule dérivation suffit pour connaître le rythme cardiaque.",
+              "explication": "Pour localiser une anomalie, il en faut plusieurs."
+            },
+            {
+              "reponse": "Disposer de plusieurs dérivations donne à l'électrocardiogramme une valeur localisatrice.",
+              "explication": "Point sur lequel l'enseignant a insisté."
+            },
+            {
+              "reponse": "DI et aVL explorent le territoire latéral haut.",
+              "explication": "Territoires du cours."
+            },
+            {
+              "reponse": "V1 et V2 explorent le territoire antérieur.",
+              "explication": "Territoires du cours."
+            },
+            {
+              "reponse": "V3 explore le territoire septal.",
+              "explication": "Territoires du cours."
+            },
+            {
+              "reponse": "V4 explore le territoire apical.",
+              "explication": "Territoires du cours."
+            },
+            {
+              "reponse": "V5 et V6 explorent le territoire latéral bas.",
+              "explication": "Territoires du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une seule dérivation suffit pour localiser une anomalie dans tout le cœur.",
+              "explication": "Il en faut plusieurs : une seule ne renseigne que sur la région qu'elle observe."
+            },
+            {
+              "reponse": "V5 et V6 explorent le territoire latéral haut.",
+              "explication": "Elles explorent le latéral bas ; le latéral haut est DI et aVL."
+            },
+            {
+              "reponse": "DI et aVL explorent le territoire inférieur.",
+              "explication": "Le territoire inférieur est DII, DIII et aVF."
+            },
+            {
+              "reponse": "V4 explore le territoire septal.",
+              "explication": "V4 est apicale ; le septal est V3."
+            },
+            {
+              "reponse": "V1 et V2 explorent le territoire latéral bas.",
+              "explication": "V1 et V2 sont antérieures."
+            },
+            {
+              "reponse": "V3 explore le territoire apical.",
+              "explication": "V3 est septale ; l'apical est V4."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la correspondance entre territoires électriques et artères coronaires, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "c'est l'artère interventriculaire antérieure qui est bouchée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un sus-décalage du segment ST en DII, DIII et aVF traduit un infarctus inférieur.",
+              "explication": "Territoire inférieur."
+            },
+            {
+              "reponse": "Un infarctus inférieur correspond en pratique à une occlusion de la coronaire droite.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Un sus-décalage du segment ST de V1 à V4 traduit une occlusion de l'artère interventriculaire antérieure.",
+              "explication": "Infarctus antéro-septo-apical."
+            },
+            {
+              "reponse": "Une occlusion de l'artère circonflexe donne un sus-décalage en latéral bas et/ou latéral haut.",
+              "explication": "La circonflexe est sur la partie latérale du cœur."
+            },
+            {
+              "reponse": "Dans un infarctus inférieur, le tracé de V1 à V6 peut rester normal.",
+              "explication": "Seul le territoire inférieur est touché."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une occlusion de la coronaire droite donne typiquement un sus-décalage en DI, DII, DIII et aVF.",
+              "explication": "Erreur corrigée : DI est latérale haute ; on retient DII, DIII et aVF."
+            },
+            {
+              "reponse": "Un sus-décalage du segment ST de V1 à V4 traduit une occlusion de la coronaire droite.",
+              "explication": "Il traduit une occlusion de l'artère interventriculaire antérieure."
+            },
+            {
+              "reponse": "Une occlusion de l'artère interventriculaire antérieure donne un sus-décalage en DII, DIII et aVF.",
+              "explication": "Elle donne un sus-décalage de V1 à V4."
+            },
+            {
+              "reponse": "Une occlusion de l'artère circonflexe donne un sus-décalage isolé en V1 et V2.",
+              "explication": "Elle touche le latéral bas et/ou haut."
+            },
+            {
+              "reponse": "Un infarctus inférieur donne obligatoirement un sus-décalage de V1 à V6.",
+              "explication": "De V1 à V6, le tracé reste normal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les règles de lecture de l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "une onde qui s'approche de l'électrode est positive"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une onde qui s'approche de l'électrode donne une déflexion positive.",
+              "explication": "Règle fondamentale."
+            },
+            {
+              "reponse": "Une onde qui s'éloigne de l'électrode donne une déflexion négative.",
+              "explication": "Règle fondamentale."
+            },
+            {
+              "reponse": "Une onde perpendiculaire à la dérivation donne un complexe isoélectrique.",
+              "explication": "Autant positif que négatif."
+            },
+            {
+              "reponse": "aVR est normalement toujours négative.",
+              "explication": "La dépolarisation part du haut et de la droite et s'en éloigne."
+            },
+            {
+              "reponse": "aVR sert de contrôle pour vérifier que les électrodes ne sont pas inversées.",
+              "explication": "Rôle de « contrôle » cité par le cours."
+            },
+            {
+              "reponse": "Il existe de rares cas où aVR est positive, comme certaines cardiopathies congénitales.",
+              "explication": "Exception citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une onde qui s'approche de l'électrode donne une déflexion négative.",
+              "explication": "Elle donne une déflexion positive."
+            },
+            {
+              "reponse": "Une onde perpendiculaire à la dérivation donne un complexe de hauteur maximale.",
+              "explication": "Elle donne un complexe isoélectrique."
+            },
+            {
+              "reponse": "aVR est normalement positive.",
+              "explication": "Elle est normalement négative."
+            },
+            {
+              "reponse": "Un complexe isoélectrique correspond à une absence totale de signal.",
+              "explication": "Il n'est pas vraiment nul : autant positif que négatif."
+            },
+            {
+              "reponse": "aVR est positive chez tous les patients porteurs d'une cardiopathie congénitale.",
+              "explication": "Seulement dans de rares cas."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le papier et les paramètres d'enregistrement de l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "La vitesse de défilement est de 25 mm par seconde"
+          },
+          "bonnes": [
+            {
+              "reponse": "La vitesse de défilement standard est de 25 mm par seconde.",
+              "explication": "Valeur standard."
+            },
+            {
+              "reponse": "À 25 mm par seconde, un grand carreau de 5 mm vaut 200 millisecondes.",
+              "explication": "5 mm × 40 ms."
+            },
+            {
+              "reponse": "À 25 mm par seconde, un petit carreau de 1 mm vaut 40 millisecondes.",
+              "explication": "1 seconde = 25 mm."
+            },
+            {
+              "reponse": "L'amplitude standard est de 10 mm par millivolt.",
+              "explication": "1 cm pour 1 mV."
+            },
+            {
+              "reponse": "Sur l'électrocardiogramme, le temps est en abscisse et le voltage en ordonnée.",
+              "explication": "Axes du tracé."
+            },
+            {
+              "reponse": "Sur un tracé enregistré à 50 mm par seconde, les complexes paraissent 2 fois plus larges qu'à 25 mm par seconde.",
+              "explication": "Piège signalé sur un schéma des blocs de branche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La vitesse de défilement standard est de 50 mm par seconde.",
+              "explication": "Elle est de 25 mm par seconde."
+            },
+            {
+              "reponse": "À 25 mm par seconde, un grand carreau vaut 40 millisecondes.",
+              "explication": "Il vaut 200 ms ; 40 ms est la valeur du petit carreau."
+            },
+            {
+              "reponse": "À 25 mm par seconde, un petit carreau vaut 200 millisecondes.",
+              "explication": "Il vaut 40 ms ; 200 ms est la valeur du grand carreau."
+            },
+            {
+              "reponse": "L'amplitude standard est de 5 mm par millivolt.",
+              "explication": "Elle est de 10 mm par millivolt."
+            },
+            {
+              "reponse": "Sur l'électrocardiogramme, le voltage est en abscisse et le temps en ordonnée.",
+              "explication": "C'est l'inverse."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-018",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À la vitesse standard de 25 mm par seconde, quelle durée représente un petit carreau de 1 mm ? (une seule réponse attendue)",
+          "cours": {
+            "page": 19,
+            "surligner": "un petit carreau (1 mm) 40 millisecondes"
+          },
+          "bonnes": [
+            {
+              "reponse": "40 millisecondes.",
+              "explication": "1 seconde = 25 mm, donc 1 mm = 40 ms."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "20 millisecondes.",
+              "explication": "Ce serait le cas à 50 mm par seconde."
+            },
+            {
+              "reponse": "100 millisecondes.",
+              "explication": "Valeur fausse : 1 mm = 40 ms."
+            },
+            {
+              "reponse": "200 millisecondes.",
+              "explication": "C'est la durée d'un grand carreau (5 mm)."
+            },
+            {
+              "reponse": "4 millisecondes.",
+              "explication": "Valeur fausse : 1 mm = 40 ms."
+            },
+            {
+              "reponse": "400 millisecondes.",
+              "explication": "Valeur fausse : 1 mm = 40 ms."
+            },
+            {
+              "reponse": "1 seconde.",
+              "explication": "1 seconde correspond à 25 mm, soit 5 grands carreaux."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le créneau d'étalonnage de l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "le créneau d'étalonnage mesure parfois 0,5 cm"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un créneau d'étalonnage de 0,5 cm correspond à une amplitude de 5 mm par millivolt.",
+              "explication": "L'amplitude est alors divisée par 2."
+            },
+            {
+              "reponse": "Avec un créneau de 0,5 cm, toutes les dérivations semblent écrasées.",
+              "explication": "La machine a simplement été mal programmée."
+            },
+            {
+              "reponse": "Une partie seulement de l'électrocardiogramme peut être mal programmée.",
+              "explication": "Par exemple 5 mm/mV à gauche et 10 mm/mV à droite."
+            },
+            {
+              "reponse": "Quand l'enregistrement est bien programmé, toutes les dérivations sont à 10 mm par millivolt.",
+              "explication": "Réglage standard."
+            },
+            {
+              "reponse": "Le créneau d'étalonnage figure à la fin de chaque ligne du tracé.",
+              "explication": "Il permet de vérifier l'amplitude."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un créneau d'étalonnage de 0,5 cm double l'amplitude des complexes.",
+              "explication": "Il la divise par 2."
+            },
+            {
+              "reponse": "Un créneau d'étalonnage de 0,5 cm correspond au réglage standard.",
+              "explication": "Le standard est 1 cm pour 1 mV."
+            },
+            {
+              "reponse": "Des complexes écrasés avec un créneau de 0,5 cm signent toujours un microvoltage.",
+              "explication": "C'est un défaut de programmation ; le microvoltage se juge à 10 mm/mV."
+            },
+            {
+              "reponse": "Le réglage d'amplitude est forcément identique sur toutes les dérivations d'un même tracé.",
+              "explication": "Une partie seulement peut être mal programmée."
+            },
+            {
+              "reponse": "Le créneau d'étalonnage renseigne sur la vitesse de défilement du papier.",
+              "explication": "Il renseigne sur l'amplitude (mm par mV)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'électrocardiogramme normal"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-ecg-020",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2020-2021",
+                "qcm": 14
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2019-2020",
+                "qcm": 17
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2018-2019",
+                "qcm": 22
+              }
+            ]
+          },
+          "question": "Concernant la réalisation pratique d'un électrocardiogramme en conditions standard, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "La vitesse de défilement est de 25 mm par seconde"
+          },
+          "bonnes": [
+            {
+              "reponse": "La vitesse de défilement standard du papier est de 25 mm par seconde.",
+              "annale": true,
+              "explication": "Valeur standard. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En condition standard, 1 mV correspond à 10 mm.",
+              "annale": true,
+              "explication": "Amplitude standard de 1 cm pour 1 mV. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La vitesse de défilement standard du papier est de 50 mm par seconde.",
+              "annale": true,
+              "explication": "Elle est de 25 mm par seconde. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En condition standard, 1 mV correspond à 5 mm.",
+              "annale": true,
+              "explication": "C'est un réglage à amplitude divisée par 2 ; le standard est 10 mm. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-021",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2024-2025",
+                "qcm": 22
+              }
+            ]
+          },
+          "question": "Quelles sont les conditions standard d'enregistrement de l'électrocardiogramme ? (une seule réponse attendue)",
+          "cours": {
+            "page": 20,
+            "surligner": "Légende : vitesse de déroulement 25 mm/s, amplitude"
+          },
+          "bonnes": [
+            {
+              "reponse": "Vitesse 25 mm par seconde, amplitude 10 mm pour 1 mV.",
+              "annale": true,
+              "explication": "Conditions standard. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Vitesse 15 mm par seconde, amplitude 10 mm pour 1 mV.",
+              "annale": true,
+              "explication": "La vitesse standard est 25 mm/s. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Vitesse 20 mm par seconde, amplitude 10 mm pour 1 mV.",
+              "annale": true,
+              "explication": "La vitesse standard est 25 mm/s. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Vitesse 20 mm par seconde, amplitude 5 mm pour 1 mV.",
+              "annale": true,
+              "explication": "Vitesse et amplitude fausses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Vitesse 25 mm par seconde, amplitude 5 mm pour 1 mV.",
+              "annale": true,
+              "explication": "L'amplitude standard est 10 mm pour 1 mV. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-022",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2024-2025",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "l'onde P est sinusale"
+          },
+          "bonnes": [
+            {
+              "reponse": "En rythme sinusal, l'onde P est positive en DI et en DII.",
+              "annale": true,
+              "explication": "L'onde P sinusale est positive en DI, DII, DIII, aVF et aVL. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En cas de bloc de branche complet, le QRS dure plus de 120 ms.",
+              "annale": true,
+              "explication": "Seuil du bloc complet. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'onde T correspond à la repolarisation ventriculaire.",
+              "annale": true,
+              "explication": "Avec le segment ST, mais surtout l'onde T. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'intervalle PR correspond au temps de conduction dans le nœud atrio-ventriculaire.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours définit le PR comme le délai entre l'activation des atriums et celle des ventricules, via le nœud atrio-ventriculaire puis le faisceau de His : il ne se limite pas au nœud. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'hypertrophie ventriculaire gauche se définit par une somme R en V1 + S en V5 supérieure à 25 mm.",
+              "annale": true,
+              "explication": "Indice de Sokolow : S en V1 + R en V5 > 35 mm. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-023",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2024-2025",
+                "qcm": 2
+              },
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2021-2022",
+                "qcm": 36
+              }
+            ]
+          },
+          "question": "Concernant les principaux repères de l'électrocardiogramme, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "PR = 120 à 200 millisecondes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les dérivations DI, DII et DIII analysent l'activation électrique dans le plan frontal.",
+              "annale": true,
+              "explication": "Les dérivations périphériques voient le cœur dans le plan frontal. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'axe physiologique du QRS se situe entre 0° et +90°.",
+              "annale": true,
+              "explication": "Presque tout le monde a un axe entre 0° et +90° (la norme s'étend jusqu'à −30°). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'intervalle PR normal est compris entre 120 et 200 ms.",
+              "annale": true,
+              "explication": "Valeurs normales du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le QRS correspond au temps d'activation des 2 ventricules.",
+              "annale": true,
+              "explication": "Le QRS traduit la dépolarisation ventriculaire. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'intervalle PR correspond au temps de conduction dans le nœud atrio-ventriculaire.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours définit le PR comme le délai entre l'activation des atriums et celle des ventricules, via le nœud atrio-ventriculaire puis le faisceau de His : il ne se limite pas au nœud. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'intervalle QT s'allonge à l'effort.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le QT dépend de la fréquence cardiaque : il raccourcit quand la fréquence augmente, comme à l'effort. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Un sous-décalage du segment ST correspond à un courant de lésion sous-épicardique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Un sous-décalage traduit un courant de lésion sous-endocardique ; le sous-épicardique donne un sus-décalage. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-024",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2020-2021",
+                "qcm": 31
+              }
+            ]
+          },
+          "question": "Concernant l'onde P, le QRS et l'intervalle QT, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "QT dépend de la fréquence cardiaque"
+          },
+          "bonnes": [
+            {
+              "reponse": "En rythme sinusal, l'onde P est positive en DI et en DII.",
+              "annale": true,
+              "explication": "L'onde P sinusale est positive en DI, DII, DIII, aVF et aVL. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La durée de l'intervalle QT varie physiologiquement en fonction de la fréquence cardiaque.",
+              "annale": true,
+              "explication": "D'où le calcul d'un QT corrigé (QTc). (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'intervalle PR correspond au temps de conduction dans le nœud atrio-ventriculaire.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours définit le PR comme le délai entre l'activation des atriums et celle des ventricules, via le nœud atrio-ventriculaire puis le faisceau de His : il ne se limite pas au nœud. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "La durée normale du complexe QRS est de 100 ms.",
+              "annale": true,
+              "explication": "Le QRS normal dure 80 ms selon le cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'intervalle QT correspond à la repolarisation ventriculaire.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le QT va du début du QRS à la fin de l'onde T : il inclut la dépolarisation ventriculaire et pas seulement la repolarisation. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-025",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Cardiologie",
+                "discipline": "Physiologie",
+                "annee": "2020-2021",
+                "qcm": 32
+              }
+            ]
+          },
+          "question": "Concernant les anomalies du QRS et du segment ST, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "Des ondes Q larges et profondes"
+          },
+          "bonnes": [
+            {
+              "reponse": "En cas de bloc de branche, le QRS dure plus de 120 ms.",
+              "annale": true,
+              "explication": "Le ventricule bloqué est activé avec retard : QRS large. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le courant de lésion sous-endocardique se traduit par un sous-décalage du segment ST.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le sous-décalage correspond à une occlusion partielle. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Une onde Q en DII, DIII et aVF témoigne d'une séquelle d'infarctus du myocarde inférieur.",
+              "annale": true,
+              "explication": "Des ondes Q larges et profondes signent un ancien infarctus ; DII, DIII et aVF forment le territoire inférieur. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En cas de bloc de branche gauche, le QRS est négatif de V1 à V6.",
+              "annale": true,
+              "explication": "Il est négatif en V1 mais positif en V5-V6. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'hypertrophie ventriculaire gauche se définit par une somme R en V1 + S en V5 supérieure à 35 mm.",
+              "annale": true,
+              "explication": "Ondes inversées : l'indice de Sokolow est S en V1 + R en V5 > 35 mm. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le complexe P-QRS-T, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "l'onde P correspond à la dépolarisation des atriums"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'onde P correspond à la dépolarisation des atriums.",
+              "explication": "Cellules nodales puis myocytes atriaux."
+            },
+            {
+              "reponse": "Le QRS correspond à la dépolarisation des ventricules.",
+              "explication": "Il commence à l'activation de la première cellule ventriculaire."
+            },
+            {
+              "reponse": "Le segment ST et surtout l'onde T correspondent à la repolarisation des ventricules.",
+              "explication": "Surtout l'onde T, a précisé l'enseignant."
+            },
+            {
+              "reponse": "La repolarisation des atriums est masquée par le QRS.",
+              "explication": "Elle n'est donc pas visible."
+            },
+            {
+              "reponse": "L'onde Q correspond à l'activation septale.",
+              "explication": "Elle est petite et non visible dans toutes les dérivations."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'onde P correspond à la repolarisation des atriums.",
+              "explication": "Elle correspond à leur dépolarisation."
+            },
+            {
+              "reponse": "L'onde T correspond à la dépolarisation des ventricules.",
+              "explication": "Elle correspond à leur repolarisation."
+            },
+            {
+              "reponse": "La repolarisation des atriums correspond à l'onde U.",
+              "explication": "Elle est masquée par le QRS."
+            },
+            {
+              "reponse": "L'onde Q est visible dans toutes les dérivations.",
+              "explication": "Elle n'est pas visible partout (pas vraiment en V1)."
+            },
+            {
+              "reponse": "Le QRS correspond à l'activation du nœud atrio-ventriculaire.",
+              "explication": "Le nœud est activé pendant le segment PR, tracé plat."
+            },
+            {
+              "reponse": "Les cellules nodales du nœud atrio-ventriculaire se contractent pendant le segment PR.",
+              "explication": "Elles ne se contractent pas : elles transmettent l'onde."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-027",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Pourquoi la repolarisation des atriums n'est-elle pas visible sur l'électrocardiogramme ? (une seule réponse attendue)",
+          "cours": {
+            "page": 21,
+            "surligner": "La repolarisation des atriums n'est pas visible"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle est masquée par le QRS.",
+              "explication": "Elle survient pendant la dépolarisation ventriculaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle est masquée par l'onde T.",
+              "explication": "C'est le QRS qui la masque."
+            },
+            {
+              "reponse": "Elle est masquée par l'onde P.",
+              "explication": "L'onde P est la dépolarisation atriale ; la repolarisation est masquée par le QRS."
+            },
+            {
+              "reponse": "Les atriums ne se repolarisent pas.",
+              "explication": "Ils se repolarisent, mais pendant le QRS."
+            },
+            {
+              "reponse": "Elle correspond à l'onde U.",
+              "explication": "Elle est masquée par le QRS."
+            },
+            {
+              "reponse": "Elle a lieu pendant le segment ST.",
+              "explication": "Le segment ST appartient à la repolarisation ventriculaire."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la séquence d'activation du cœur, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "L'activation se fait de l'atrium droit vers l'atrium gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le nœud sinusal est situé dans la partie supérieure de l'atrium droit, à côté de la veine cave supérieure.",
+              "explication": "Point de départ de l'activation."
+            },
+            {
+              "reponse": "L'activation atriale se fait de l'atrium droit vers l'atrium gauche et du haut vers le bas.",
+              "explication": "D'où une onde P positive en inférieur et en latéral."
+            },
+            {
+              "reponse": "Les 2 atriums sont activés avant les 2 ventricules.",
+              "explication": "Séquence du cours."
+            },
+            {
+              "reponse": "L'activation ventriculaire se fait de l'endocarde vers l'épicarde.",
+              "explication": "De l'intérieur vers l'extérieur de la paroi."
+            },
+            {
+              "reponse": "Le septum est activé en premier, de gauche à droite.",
+              "explication": "Vecteur 1 de l'activation ventriculaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le nœud sinusal est situé dans l'atrium gauche.",
+              "explication": "Il est dans l'atrium droit."
+            },
+            {
+              "reponse": "L'activation atriale se fait de l'atrium gauche vers l'atrium droit.",
+              "explication": "Elle va de droite à gauche."
+            },
+            {
+              "reponse": "L'activation ventriculaire se fait de l'épicarde vers l'endocarde.",
+              "explication": "C'est le sens de la repolarisation, pas de la dépolarisation."
+            },
+            {
+              "reponse": "Les ventricules sont activés avant les atriums.",
+              "explication": "Les atriums sont activés en premier."
+            },
+            {
+              "reponse": "Normalement, le septum est activé de droite à gauche.",
+              "explication": "Il est activé de gauche à droite (vecteur 1)."
+            },
+            {
+              "reponse": "Les bases ventriculaires sont activées en premier.",
+              "explication": "Elles sont activées en dernier (vecteur 3)."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'aspect normal du QRS dans les dérivations précordiales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "V1 a toujours le même aspect"
+          },
+          "bonnes": [
+            {
+              "reponse": "En V1, le QRS associe une petite onde R et une grande onde S.",
+              "explication": "Aspect constant de V1."
+            },
+            {
+              "reponse": "En V6, le QRS associe une grande onde R et une petite onde S ou pas d'onde S.",
+              "explication": "Aspect inverse de V1."
+            },
+            {
+              "reponse": "La transition du QRS, du négatif au positif, se situe vers V3-V4.",
+              "explication": "Zone de transition normale."
+            },
+            {
+              "reponse": "L'onde R grandit progressivement de V1 à V6.",
+              "explication": "Progression normale de l'onde R."
+            },
+            {
+              "reponse": "L'onde S diminue jusqu'à disparaître en V5 et V6.",
+              "explication": "Progression normale de l'onde S."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En V1, le QRS associe une grande onde R et une petite onde S.",
+              "explication": "C'est l'aspect de V6 ; V1 a un petit R et un grand S."
+            },
+            {
+              "reponse": "La transition du QRS se situe normalement entre V1 et V2.",
+              "explication": "Elle se situe vers V3-V4."
+            },
+            {
+              "reponse": "L'onde R diminue progressivement de V1 à V6.",
+              "explication": "Elle grandit de V1 à V6."
+            },
+            {
+              "reponse": "En V6, l'onde S est plus profonde qu'en V1.",
+              "explication": "L'onde S diminue de V1 à V6."
+            },
+            {
+              "reponse": "La transition du QRS se situe normalement en V5-V6.",
+              "explication": "Elle se situe vers V3-V4 ; un retard de transition est anormal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la repolarisation ventriculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "la repolarisation se fait en sens inverse"
+          },
+          "bonnes": [
+            {
+              "reponse": "La repolarisation ventriculaire se fait de l'épicarde vers l'endocarde.",
+              "explication": "En sens inverse de la dépolarisation."
+            },
+            {
+              "reponse": "Les cellules de l'épicarde ont un potentiel d'action plus court que celles de l'endocarde.",
+              "explication": "Elles se repolarisent les premières."
+            },
+            {
+              "reponse": "Dans la plupart des dérivations, l'onde T est de même sens que le QRS.",
+              "explication": "Car les charges positives réapparaissent d'abord côté épicarde, côté électrode."
+            },
+            {
+              "reponse": "Dans une fibre isolée, la repolarisation donne une déflexion de sens opposé à la dépolarisation.",
+              "explication": "La repolarisation y progresse dans le même sens que la dépolarisation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La repolarisation ventriculaire se fait de l'endocarde vers l'épicarde.",
+              "explication": "Elle se fait de l'épicarde vers l'endocarde."
+            },
+            {
+              "reponse": "Les cellules de l'épicarde ont un potentiel d'action plus long que celles de l'endocarde.",
+              "explication": "Il est plus court."
+            },
+            {
+              "reponse": "L'endocarde se repolarise avant l'épicarde.",
+              "explication": "L'épicarde se repolarise en premier."
+            },
+            {
+              "reponse": "Normalement, l'onde T est de sens opposé au QRS dans la plupart des dérivations.",
+              "explication": "Elle est de même sens que le QRS."
+            },
+            {
+              "reponse": "Dans une fibre isolée, dépolarisation et repolarisation donnent 2 déflexions de même sens.",
+              "explication": "Elles donnent des déflexions de sens opposé."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les valeurs normales et le cycle cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "PR = 120 à 200 millisecondes"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'intervalle PR normal est compris entre 120 et 200 millisecondes.",
+              "explication": "Valeurs du cours."
+            },
+            {
+              "reponse": "Le QRS normal dure 80 millisecondes.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "L'intervalle QT dépend de la fréquence cardiaque, d'où le calcul d'un QT corrigé.",
+              "explication": "QTc."
+            },
+            {
+              "reponse": "L'intervalle PR correspond au délai entre l'activation des atriums et celle des ventricules.",
+              "explication": "L'activation transite par la voie nodo-hissienne."
+            },
+            {
+              "reponse": "L'intervalle PR correspond au remplissage du ventricule.",
+              "explication": "Point sur lequel l'enseignant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le QRS normal dure 120 millisecondes.",
+              "explication": "Il dure 80 ms ; au-delà de 120 ms, il s'agit d'un bloc de branche complet."
+            },
+            {
+              "reponse": "Un intervalle PR de 250 millisecondes est normal.",
+              "explication": "Le PR normal est inférieur à 200 ms."
+            },
+            {
+              "reponse": "L'intervalle PR normal est inférieur à 120 millisecondes.",
+              "explication": "Il est compris entre 120 et 200 ms."
+            },
+            {
+              "reponse": "L'intervalle QT est fixe et ne dépend pas de la fréquence cardiaque.",
+              "explication": "Il dépend de la fréquence."
+            },
+            {
+              "reponse": "L'intervalle PR correspond à la contraction du ventricule.",
+              "explication": "Il correspond au remplissage du ventricule."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la correspondance entre l'électrocardiogramme et le cycle cardiaque, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 26,
+            "surligner": "La systole commence au début du QRS"
+          },
+          "bonnes": [
+            {
+              "reponse": "La systole ventriculaire commence au début du QRS et se termine à la fin de l'onde T.",
+              "explication": "Repères du cours."
+            },
+            {
+              "reponse": "La diastole commence après la fin de l'onde T et se termine au début du QRS suivant.",
+              "explication": "Repères du cours."
+            },
+            {
+              "reponse": "La diastole associe un remplissage passif et un remplissage actif.",
+              "explication": "Le remplissage actif est dû à la contraction atriale."
+            },
+            {
+              "reponse": "Le remplissage passif est quantitativement le plus important.",
+              "explication": "Il assure environ 80 % du débit."
+            },
+            {
+              "reponse": "La perte de la contraction atriale, comme dans la fibrillation atriale, fait perdre environ 20 % du débit cardiaque.",
+              "explication": "Le remplissage passif conserve 80 %."
+            },
+            {
+              "reponse": "On peut vivre sans contraction atriale.",
+              "explication": "L'essentiel est que le ventricule enchaîne remplissage et contraction."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le remplissage actif par la contraction atriale est quantitativement le plus important.",
+              "explication": "C'est le remplissage passif."
+            },
+            {
+              "reponse": "La perte de la contraction atriale fait perdre environ 80 % du débit cardiaque.",
+              "explication": "Elle en fait perdre 20 %."
+            },
+            {
+              "reponse": "La systole ventriculaire commence au début de l'onde P.",
+              "explication": "Elle commence au début du QRS."
+            },
+            {
+              "reponse": "La diastole ventriculaire commence au début du QRS.",
+              "explication": "Le début du QRS marque le début de la systole."
+            },
+            {
+              "reponse": "La systole ventriculaire se termine à la fin du QRS.",
+              "explication": "Elle se termine à la fin de l'onde T."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-033",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle part du débit cardiaque est perdue lorsque la contraction atriale disparaît ? (une seule réponse attendue)",
+          "cours": {
+            "page": 26,
+            "surligner": "Le remplissage passif est quantitativement le plus important"
+          },
+          "bonnes": [
+            {
+              "reponse": "Environ 20 %.",
+              "explication": "80 % du débit est conservé grâce au remplissage passif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Environ 5 %.",
+              "explication": "Valeur fausse : la perte est de 20 %."
+            },
+            {
+              "reponse": "Environ 50 %.",
+              "explication": "Valeur fausse : la perte est de 20 %."
+            },
+            {
+              "reponse": "Environ 80 %.",
+              "explication": "C'est la part conservée, et non perdue."
+            },
+            {
+              "reponse": "La totalité du débit.",
+              "explication": "On peut vivre sans contraction atriale."
+            },
+            {
+              "reponse": "Environ 35 %.",
+              "explication": "Valeur fausse : la perte est de 20 %."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-034",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rythme sinusal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 27,
+            "surligner": "On parle de rythme sinusal"
+          },
+          "bonnes": [
+            {
+              "reponse": "En rythme sinusal, une onde P précède chaque QRS.",
+              "explication": "Critère du rythme sinusal."
+            },
+            {
+              "reponse": "L'onde P sinusale est positive en DII, DIII et aVF.",
+              "explication": "Elle se propage du haut vers le bas."
+            },
+            {
+              "reponse": "L'onde P sinusale est positive en DI et aVL.",
+              "explication": "Elle se propage de la droite vers la gauche."
+            },
+            {
+              "reponse": "Le nœud sinusal joue le rôle de « chef d'orchestre » qui dépolarise l'ensemble de l'oreillette.",
+              "explication": "Image du cours."
+            },
+            {
+              "reponse": "DI, DII et aVF sont les dérivations clés pour reconnaître une onde P sinusale.",
+              "explication": "Critères retenus par la synthèse du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'onde P sinusale est négative en DII.",
+              "explication": "Elle est positive en DII, car elle s'approche des électrodes inférieures."
+            },
+            {
+              "reponse": "L'onde P sinusale est négative en DI.",
+              "explication": "Elle est positive en DI, car elle se propage vers la gauche."
+            },
+            {
+              "reponse": "L'onde P sinusale est positive en aVR.",
+              "explication": "En aVR, tout est négatif."
+            },
+            {
+              "reponse": "En rythme sinusal, l'onde P suit chaque QRS.",
+              "explication": "Elle le précède."
+            },
+            {
+              "reponse": "L'onde P sinusale se propage de la gauche vers la droite.",
+              "explication": "Elle se propage de la droite vers la gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rythme du sinus coronaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "c'est un rythme du sinus coronaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans un rythme du sinus coronaire, l'onde P est négative en DII, DIII et aVF.",
+              "explication": "L'activation va du bas vers le haut."
+            },
+            {
+              "reponse": "Dans un rythme du sinus coronaire, l'onde P reste positive en DI et aVL.",
+              "explication": "L'activation va toujours de la droite vers la gauche."
+            },
+            {
+              "reponse": "Dans un rythme du sinus coronaire, l'activation part du bas de l'atrium droit.",
+              "explication": "Le sinus coronaire prend le relais du nœud sinusal."
+            },
+            {
+              "reponse": "Un rythme du sinus coronaire n'est pas forcément pathologique.",
+              "explication": "Le nœud sinusal est « un peu fainéant », a dit l'enseignant."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans un rythme du sinus coronaire, l'onde P est négative en DI et aVL.",
+              "explication": "Elle reste positive en DI et aVL."
+            },
+            {
+              "reponse": "Dans un rythme du sinus coronaire, l'onde P est positive en DII, DIII et aVF.",
+              "explication": "Elle y est négative."
+            },
+            {
+              "reponse": "Un rythme du sinus coronaire est toujours pathologique.",
+              "explication": "Il n'est pas forcément pathologique."
+            },
+            {
+              "reponse": "Dans un rythme du sinus coronaire, l'activation part de l'atrium gauche.",
+              "explication": "Elle part du bas de l'atrium droit."
+            },
+            {
+              "reponse": "Dans un rythme du sinus coronaire, l'activation atriale va du haut vers le bas.",
+              "explication": "Elle va du bas vers le haut."
+            },
+            {
+              "reponse": "Le rythme du sinus coronaire est un rythme sinusal.",
+              "explication": "L'activation ne vient pas du nœud sinusal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le segment ST et l'onde T normaux et pathologiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "cela indique en général qu'une coronaire s'est bouchée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le segment ST normal est isoélectrique dans toutes les dérivations.",
+              "explication": "Il est plat."
+            },
+            {
+              "reponse": "Un sus-décalage du segment ST indique en général une occlusion complète d'une coronaire.",
+              "explication": "Repère du cours."
+            },
+            {
+              "reponse": "Un sous-décalage du segment ST indique en général une occlusion partielle d'une coronaire.",
+              "explication": "Repère du cours."
+            },
+            {
+              "reponse": "Normalement, l'onde T est négative en aVR.",
+              "explication": "En aVR, tout est négatif."
+            },
+            {
+              "reponse": "Selon l'axe du cœur, l'onde T peut être négative en DI, DII ou DIII.",
+              "explication": "Exception admise par le cours."
+            },
+            {
+              "reponse": "En dehors des exceptions normales, des ondes T négatives signalent un problème coronaire.",
+              "explication": "Repère du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un sus-décalage du segment ST indique en général une occlusion partielle d'une coronaire.",
+              "explication": "Il indique une occlusion complète."
+            },
+            {
+              "reponse": "Un sous-décalage du segment ST indique en général une occlusion complète d'une coronaire.",
+              "explication": "Il indique une occlusion partielle."
+            },
+            {
+              "reponse": "Le segment ST est normalement sus-décalé dans les précordiales.",
+              "explication": "Il est isoélectrique partout."
+            },
+            {
+              "reponse": "Normalement, l'onde T est positive en aVR.",
+              "explication": "Elle y est négative."
+            },
+            {
+              "reponse": "Des ondes T négatives en V5 et V6 sont normales.",
+              "explication": "Hors aVR et, selon l'axe, DI à DIII, une onde T négative signale un problème."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les ondes Q et la progression de l'onde R, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "Des ondes Q larges et profondes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Avec un axe normal, les ondes Q sont absentes ou fines et peu profondes.",
+              "explication": "Elles correspondent à l'activation septale."
+            },
+            {
+              "reponse": "Des ondes Q larges et profondes se voient chez les personnes qui ont déjà fait un infarctus du myocarde.",
+              "explication": "Séquelle d'infarctus."
+            },
+            {
+              "reponse": "Une anomalie de la progression de l'onde R dans les précordiales a la même signification que des ondes Q larges.",
+              "explication": "Séquelle d'infarctus."
+            },
+            {
+              "reponse": "Une absence d'onde R de V1 à V4 évoque une séquelle d'infarctus septo-antéro-apical.",
+              "explication": "« Rabotage » des ondes R."
+            },
+            {
+              "reponse": "Des ondes R et S de même hauteur de V1 à V4, sans progression, sont anormales.",
+              "explication": "Elles évoquent aussi une séquelle d'infarctus."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Des ondes Q larges et profondes sont normales chez le sujet âgé.",
+              "explication": "Elles signent un ancien infarctus."
+            },
+            {
+              "reponse": "Le « rabotage » des ondes R de V1 à V4 évoque une hypertrophie ventriculaire gauche.",
+              "explication": "Il évoque une séquelle d'infarctus septo-antéro-apical."
+            },
+            {
+              "reponse": "Une absence d'onde R de V1 à V4 évoque une séquelle d'infarctus inférieur.",
+              "explication": "Elle évoque une séquelle septo-antéro-apicale."
+            },
+            {
+              "reponse": "Des ondes Q fines et peu profondes sont toujours pathologiques.",
+              "explication": "Elles peuvent être normales (activation septale)."
+            },
+            {
+              "reponse": "L'onde R diminue normalement de V1 à V4.",
+              "explication": "Elle grandit de V1 à V6."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-038",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Sur un tracé à 25 mm par seconde, 2 QRS successifs sont séparés de 4 grands carreaux. Quelle est la fréquence cardiaque ? (une seule réponse attendue)",
+          "cours": {
+            "page": 30,
+            "surligner": "la fréquence est égale à 300 divisé par le nombre"
+          },
+          "bonnes": [
+            {
+              "reponse": "75 battements par minute.",
+              "explication": "300 / 4 = 75."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "60 battements par minute.",
+              "explication": "Ce serait le cas avec 5 grands carreaux."
+            },
+            {
+              "reponse": "100 battements par minute.",
+              "explication": "Ce serait le cas avec 3 grands carreaux."
+            },
+            {
+              "reponse": "50 battements par minute.",
+              "explication": "Ce serait le cas avec 6 grands carreaux."
+            },
+            {
+              "reponse": "150 battements par minute.",
+              "explication": "Ce serait le cas avec 2 grands carreaux."
+            },
+            {
+              "reponse": "300 battements par minute.",
+              "explication": "Ce serait le cas avec 1 grand carreau."
+            },
+            {
+              "reponse": "80 battements par minute.",
+              "explication": "300 / 4 = 75, et non 80."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la mesure de la fréquence cardiaque et la tachycardie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "la fréquence est égale à 300 divisé par le nombre"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une seule dérivation suffit pour mesurer la fréquence cardiaque.",
+              "explication": "Rappel du cours."
+            },
+            {
+              "reponse": "La fréquence cardiaque est égale à 300 divisé par le nombre de grands carreaux séparant 2 QRS.",
+              "explication": "Méthode de l'ouvrage recommandé."
+            },
+            {
+              "reponse": "Un QRS par seconde, soit tous les 5 grands carreaux, correspond à 60 battements par minute.",
+              "explication": "5 grands carreaux = 1 seconde."
+            },
+            {
+              "reponse": "2 QRS séparés de 2 grands carreaux correspondent à une fréquence de 150 battements par minute.",
+              "explication": "300 / 2 = 150."
+            },
+            {
+              "reponse": "Lors d'une tachycardie, c'est surtout la diastole qui est raccourcie.",
+              "explication": "La systole garde la même durée."
+            },
+            {
+              "reponse": "Lors d'une tachycardie très rapide, le ventricule se remplit peu, éjecte peu, et le débit sanguin cérébral peut chuter.",
+              "explication": "D'où une perte de connaissance."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fréquence cardiaque est égale à 300 multiplié par le nombre de grands carreaux séparant 2 QRS.",
+              "explication": "Il faut diviser 300 par ce nombre."
+            },
+            {
+              "reponse": "2 QRS séparés de 3 grands carreaux correspondent à une fréquence de 75 battements par minute.",
+              "explication": "300 / 3 = 100 ; 75 correspond à 4 carreaux."
+            },
+            {
+              "reponse": "Lors d'une tachycardie, c'est surtout la systole qui est raccourcie.",
+              "explication": "C'est la diastole qui est raccourcie."
+            },
+            {
+              "reponse": "Lors d'une tachycardie, le remplissage ventriculaire augmente.",
+              "explication": "Il diminue car la diastole est raccourcie."
+            },
+            {
+              "reponse": "Il faut au moins 3 dérivations pour mesurer la fréquence cardiaque.",
+              "explication": "Une seule suffit."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le microvoltage et les paramètres d'enregistrement, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "on parle de microvoltage"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il est recommandé d'enregistrer l'électrocardiogramme en 10 mm par millivolt.",
+              "explication": "Et non en 5 mm par millivolt."
+            },
+            {
+              "reponse": "Le microvoltage correspond à une amplitude diminuée de tout le tracé malgré un enregistrement en 10 mm par millivolt.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Un microvoltage peut être dû à de la graisse entre le cœur et l'électrode.",
+              "explication": "Elle augmente la distance."
+            },
+            {
+              "reponse": "Un microvoltage peut être dû à un épanchement péricardique.",
+              "explication": "Liquide autour du cœur, pouvant aller jusqu'à la tamponnade."
+            },
+            {
+              "reponse": "Une perte de connaissance due à une chute du débit cérébral est une syncope.",
+              "explication": "On parle de mort subite si l'arrêt circulatoire n'est pas rapidement corrigé."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un microvoltage est dû à un enregistrement réglé à 5 mm par millivolt.",
+              "explication": "C'est un défaut de réglage ; le microvoltage se juge à 10 mm/mV."
+            },
+            {
+              "reponse": "Un épanchement péricardique augmente l'amplitude des complexes.",
+              "explication": "Il la diminue (microvoltage)."
+            },
+            {
+              "reponse": "Le microvoltage ne concerne qu'une seule dérivation.",
+              "explication": "Il concerne l'amplitude de tout l'électrocardiogramme."
+            },
+            {
+              "reponse": "Il est recommandé d'enregistrer l'électrocardiogramme en 5 mm par millivolt.",
+              "explication": "On recommande 10 mm par millivolt."
+            },
+            {
+              "reponse": "Toute perte de connaissance au cours d'une tachycardie est une mort subite.",
+              "explication": "C'est une syncope ; la mort subite suppose un arrêt non corrigé."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les critères d'un électrocardiogramme normal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "le QRS normal est positif en DI et en aVF"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un électrocardiogramme normal montre un rythme régulier et sinusal.",
+              "explication": "Premier critère."
+            },
+            {
+              "reponse": "Sur un électrocardiogramme normal, il y a une onde P avant chaque QRS et un QRS avant chaque onde T.",
+              "explication": "Séquence P-QRS-T."
+            },
+            {
+              "reponse": "Un intervalle PR supérieur à 200 millisecondes traduit un trouble de la conduction entre oreillette et ventricule.",
+              "explication": "Le PR normal est inférieur à 200 ms."
+            },
+            {
+              "reponse": "Par définition, le QRS normal est positif en DI et en aVF.",
+              "explication": "Axe normal."
+            },
+            {
+              "reponse": "La lecture systématique commence par la fréquence cardiaque.",
+              "explication": "Puis onde P, PR, QRS, ST, T et QT."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un intervalle PR supérieur à 200 millisecondes est normal.",
+              "explication": "Il traduit un trouble de la conduction atrio-ventriculaire."
+            },
+            {
+              "reponse": "Par définition, le QRS normal est négatif en aVF.",
+              "explication": "Il est positif en DI et en aVF."
+            },
+            {
+              "reponse": "Par définition, le QRS normal est positif en aVR.",
+              "explication": "aVR est normalement négative."
+            },
+            {
+              "reponse": "Sur un électrocardiogramme normal, l'onde T précède le QRS.",
+              "explication": "Le QRS précède l'onde T."
+            },
+            {
+              "reponse": "La lecture systématique commence par l'intervalle QT.",
+              "explication": "Le QT vient en dernier ; on commence par la fréquence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'axe du QRS"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-ecg-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'orientation des dérivations périphériques dans le plan frontal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "selon différents angles dans le plan frontal"
+          },
+          "bonnes": [
+            {
+              "reponse": "DI est orientée à 0°.",
+              "explication": "Repère du cercle des angles."
+            },
+            {
+              "reponse": "DII est orientée à +60°.",
+              "explication": "Repère du cercle des angles."
+            },
+            {
+              "reponse": "DIII est orientée à +120°.",
+              "explication": "Repère du cercle des angles."
+            },
+            {
+              "reponse": "aVF est orientée à +90°.",
+              "explication": "Vue inférieure."
+            },
+            {
+              "reponse": "aVL est orientée à −30°.",
+              "explication": "Vue latérale gauche, légèrement inclinée."
+            },
+            {
+              "reponse": "aVR est orientée à −150°.",
+              "explication": "Vue latérale droite."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "DIII est orientée à +60°.",
+              "explication": "DIII est à +120° ; +60° est DII."
+            },
+            {
+              "reponse": "aVL est orientée à +30°.",
+              "explication": "aVL est à −30°."
+            },
+            {
+              "reponse": "aVR est orientée à +150°.",
+              "explication": "aVR est à −150°."
+            },
+            {
+              "reponse": "aVF est orientée à 0°.",
+              "explication": "aVF est à +90° ; 0° est DI."
+            },
+            {
+              "reponse": "DII est orientée à +90°.",
+              "explication": "DII est à +60° ; +90° est aVF."
+            },
+            {
+              "reponse": "DI est orientée à +90°.",
+              "explication": "DI est à 0°."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-043",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est l'orientation de la dérivation aVL dans le plan frontal ? (une seule réponse attendue)",
+          "cours": {
+            "page": 31,
+            "surligner": "selon différents angles dans le plan frontal"
+          },
+          "bonnes": [
+            {
+              "reponse": "−30°.",
+              "explication": "Vue latérale gauche, légèrement inclinée."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "+30°.",
+              "explication": "Signe inversé : aVL est à −30°."
+            },
+            {
+              "reponse": "0°.",
+              "explication": "C'est DI."
+            },
+            {
+              "reponse": "+60°.",
+              "explication": "C'est DII."
+            },
+            {
+              "reponse": "+90°.",
+              "explication": "C'est aVF."
+            },
+            {
+              "reponse": "−150°.",
+              "explication": "C'est aVR."
+            },
+            {
+              "reponse": "+120°.",
+              "explication": "C'est DIII."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'axe du QRS et ses déviations, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 33,
+            "surligner": "On parle de déviation axiale gauche si l'axe"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'axe de dépolarisation normal du cœur est d'environ +60°.",
+              "explication": "Dans le même sens que DII."
+            },
+            {
+              "reponse": "L'axe du QRS est considéré comme normal entre −30° et +90°.",
+              "explication": "Presque tout le monde a un axe entre 0° et +90°."
+            },
+            {
+              "reponse": "On parle de déviation axiale gauche quand l'axe est entre −30° et −90°.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "On parle de déviation axiale droite quand l'axe est entre +90° et 180°.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Un axe entre −90° et 180° (quadrant supérieur droit) est un axe indéterminé.",
+              "explication": "Déviation extrême."
+            },
+            {
+              "reponse": "Jusqu'à preuve du contraire, un axe indéterminé signifie une erreur de pose des électrodes.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On parle de déviation axiale gauche quand l'axe est entre +90° et 180°.",
+              "explication": "C'est la déviation axiale droite."
+            },
+            {
+              "reponse": "On parle de déviation axiale droite quand l'axe est entre −30° et −90°.",
+              "explication": "C'est la déviation axiale gauche."
+            },
+            {
+              "reponse": "L'axe de dépolarisation normal du cœur est d'environ −60°.",
+              "explication": "Il est d'environ +60°."
+            },
+            {
+              "reponse": "Un axe à +120° est normal.",
+              "explication": "Au-delà de +90°, c'est une déviation axiale droite."
+            },
+            {
+              "reponse": "Un axe indéterminé est une variante normale fréquente.",
+              "explication": "Il évoque d'abord une erreur de pose des électrodes."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-045",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la projection de l'axe sur les dérivations, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 33,
+            "surligner": "La hauteur de l'onde, positive ou négative, dépend de l'angle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Quand l'activation se dirige vers une dérivation, le complexe y est positif.",
+              "explication": "L'électrode « la voit venir »."
+            },
+            {
+              "reponse": "La hauteur du complexe dépend de l'angle entre l'axe de dépolarisation et la dérivation.",
+              "explication": "Maximale à 0°, isoélectrique à 90°."
+            },
+            {
+              "reponse": "Avec un axe à +60°, le QRS est très positif en DII.",
+              "explication": "L'axe est dans le sens de DII."
+            },
+            {
+              "reponse": "Avec un axe à +60°, le QRS est isoélectrique en aVL.",
+              "explication": "aVL (−30°) est perpendiculaire à +60°."
+            },
+            {
+              "reponse": "Avec un axe à +60°, le QRS est négatif en aVR.",
+              "explication": "aVR voit l'activation fuir."
+            },
+            {
+              "reponse": "Avec un axe à 0°, le QRS est isoélectrique en aVF.",
+              "explication": "aVF (+90°) est perpendiculaire à 0°."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Avec un axe à +60°, le QRS est isoélectrique en DII.",
+              "explication": "Il y est très positif."
+            },
+            {
+              "reponse": "Avec un axe à +60°, le QRS est positif en aVR.",
+              "explication": "Il y est négatif."
+            },
+            {
+              "reponse": "Avec un axe à +60°, le QRS est négatif en DIII.",
+              "explication": "Il y est positif."
+            },
+            {
+              "reponse": "Avec un axe à 0°, le QRS est très positif en aVF.",
+              "explication": "Il y est isoélectrique."
+            },
+            {
+              "reponse": "La hauteur du complexe est indépendante de l'angle entre l'axe et la dérivation.",
+              "explication": "Elle en dépend."
+            },
+            {
+              "reponse": "Quand l'activation s'éloigne d'une dérivation, le complexe y est positif.",
+              "explication": "Il y est négatif."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-046",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Avec un axe du QRS à +90°, dans quelle dérivation le QRS est-il isoélectrique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 33,
+            "surligner": "Moyen mnémotechnique : quand l'activation se dirige vers une dérivation"
+          },
+          "bonnes": [
+            {
+              "reponse": "DI.",
+              "explication": "DI (0°) est perpendiculaire à +90°."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "aVF.",
+              "explication": "aVF (+90°) est dans l'axe : QRS très positif."
+            },
+            {
+              "reponse": "DII.",
+              "explication": "DII (+60°) est proche de l'axe : QRS positif."
+            },
+            {
+              "reponse": "DIII.",
+              "explication": "DIII (+120°) est proche de l'axe : QRS positif."
+            },
+            {
+              "reponse": "aVR.",
+              "explication": "aVR voit l'activation fuir : QRS négatif."
+            },
+            {
+              "reponse": "aVL.",
+              "explication": "aVL (−30°) voit l'activation fuir : QRS négatif."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-047",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la détermination de l'axe sur un tracé, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 36,
+            "surligner": "chercher la dérivation où le QRS est isoélectrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'axe est perpendiculaire à la dérivation où le QRS est isoélectrique ou le plus petit.",
+              "explication": "Première méthode."
+            },
+            {
+              "reponse": "L'axe se situe entre les dérivations où la projection du QRS est maximale.",
+              "explication": "Seconde méthode."
+            },
+            {
+              "reponse": "Les 2 méthodes de détermination de l'axe doivent concorder.",
+              "explication": "Vérification croisée."
+            },
+            {
+              "reponse": "Si DIII est isoélectrique et que DI et DII sont positives, l'axe est à +30°.",
+              "explication": "Exemple du cours ; −150° est exclu."
+            },
+            {
+              "reponse": "Si DI et DII ont une projection maximale identique, l'axe est à +30°.",
+              "explication": "Entre 0° et +60°."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'axe est parallèle à la dérivation où le QRS est isoélectrique.",
+              "explication": "Il lui est perpendiculaire."
+            },
+            {
+              "reponse": "Si DIII est isoélectrique et que DI et DII sont positives, l'axe est à −150°.",
+              "explication": "−150° est exclu car DI et DII sont positives."
+            },
+            {
+              "reponse": "L'axe du QRS se détermine dans les dérivations précordiales.",
+              "explication": "Il se détermine dans les dérivations périphériques (plan frontal)."
+            },
+            {
+              "reponse": "L'axe se situe dans la direction de la dérivation où le QRS est le plus petit.",
+              "explication": "Il est perpendiculaire à cette dérivation."
+            },
+            {
+              "reponse": "Si DI et DII ont une projection maximale identique, l'axe est à +90°.",
+              "explication": "Il est à +30°."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la méthode rapide de classement de l'axe à partir de DI et aVF, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 36,
+            "surligner": "Méthode rapide et déviations axiales"
+          },
+          "bonnes": [
+            {
+              "reponse": "DI positive et aVF positive correspondent à un axe normal.",
+              "explication": "Quadrant 0° à +90°."
+            },
+            {
+              "reponse": "DI positive et aVF négative correspondent à une déviation axiale gauche.",
+              "explication": "Méthode rapide."
+            },
+            {
+              "reponse": "DI négative et aVF positive correspondent à une déviation axiale droite.",
+              "explication": "Méthode rapide."
+            },
+            {
+              "reponse": "DI négative et aVF négative correspondent à un axe indéterminé.",
+              "explication": "Méthode rapide."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "DI négative et aVF positive correspondent à une déviation axiale gauche.",
+              "explication": "C'est une déviation axiale droite."
+            },
+            {
+              "reponse": "DI positive et aVF négative correspondent à une déviation axiale droite.",
+              "explication": "C'est une déviation axiale gauche."
+            },
+            {
+              "reponse": "DI négative et aVF négative correspondent à un axe normal.",
+              "explication": "C'est un axe indéterminé."
+            },
+            {
+              "reponse": "DI positive et aVF positive correspondent à un axe indéterminé.",
+              "explication": "C'est un axe normal."
+            },
+            {
+              "reponse": "La méthode rapide de classement de l'axe utilise DII et aVR.",
+              "explication": "Elle utilise DI et aVF."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la notion d'axe du QRS, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 34,
+            "surligner": "représente l'axe de dépolarisation global du cœur"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'axe du QRS représente le vecteur global de dépolarisation de toutes les cellules cardiaques.",
+              "explication": "Il indique si le cœur se dépolarise normalement."
+            },
+            {
+              "reponse": "Un bloc de branche se traduit souvent par une déviation de l'axe.",
+              "explication": "La branche malade modifie le vecteur global."
+            },
+            {
+              "reponse": "Un axe gauche n'est pas rare.",
+              "explication": "Il suffit qu'une des branches de conduction ne fonctionne pas."
+            },
+            {
+              "reponse": "Une hypertrophie ventriculaire gauche influence la hauteur et le sens du QRS.",
+              "explication": "Facteur cité par le cours."
+            },
+            {
+              "reponse": "La taille du cœur influence la hauteur et le sens du QRS.",
+              "explication": "Facteur cité par le cours."
+            },
+            {
+              "reponse": "Les pré-excitations ventriculaires influencent la hauteur et le sens du QRS.",
+              "explication": "Facteur cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'axe du QRS représente la direction de la repolarisation atriale.",
+              "explication": "Il représente le vecteur global de dépolarisation."
+            },
+            {
+              "reponse": "Un axe gauche est exceptionnel.",
+              "explication": "Il n'est pas rare."
+            },
+            {
+              "reponse": "L'axe du QRS se mesure dans le plan horizontal, avec les précordiales.",
+              "explication": "Il se mesure dans le plan frontal, avec les périphériques."
+            },
+            {
+              "reponse": "Un bloc de branche ne modifie jamais l'axe du QRS.",
+              "explication": "Il le dévie souvent."
+            },
+            {
+              "reponse": "Un QRS isoélectrique en DI est un QRS nul, sans aucun signal.",
+              "explication": "Il est autant positif que négatif, pas vraiment nul."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les hypertrophies"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-ecg-050",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les hypertrophies atriales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 37,
+            "surligner": "l'onde P a une durée normale mais une amplitude augmentée"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'onde P normale est la somme des activations des 2 atriums.",
+              "explication": "L'atrium droit s'active en premier, le gauche un peu plus tard."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale droite, l'onde P a une durée normale.",
+              "explication": "Seule son amplitude augmente."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale droite, l'onde P a une amplitude augmentée en DII.",
+              "explication": "Elle est plus pointue."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale gauche, l'onde P a une durée augmentée.",
+              "explication": "La composante gauche, tardive, est augmentée."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale gauche, l'onde P est bifide en DII.",
+              "explication": "Chaque pic correspond à un atrium."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale gauche, l'onde P est biphasique, positive puis négative, en V2.",
+              "explication": "Critère du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans l'hypertrophie atriale droite, l'onde P a une durée augmentée.",
+              "explication": "Sa durée est normale."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale gauche, l'onde P a une durée normale et une amplitude augmentée.",
+              "explication": "C'est l'aspect de l'hypertrophie atriale droite."
+            },
+            {
+              "reponse": "L'atrium gauche s'active avant l'atrium droit.",
+              "explication": "L'atrium droit s'active en premier."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale droite, l'onde P est bifide en DII.",
+              "explication": "La P bifide évoque l'hypertrophie atriale gauche."
+            },
+            {
+              "reponse": "Dans l'hypertrophie atriale gauche, l'onde P est biphasique, négative puis positive, en V2.",
+              "explication": "Elle est positive puis négative."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-051",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Une onde P bifide en DII, de durée augmentée, évoque : (une seule réponse attendue)",
+          "cours": {
+            "page": 37,
+            "surligner": "elle est bifide (double bosse) en DII"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une hypertrophie atriale gauche.",
+              "explication": "Chaque pic correspond à un atrium."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une hypertrophie atriale droite.",
+              "explication": "Elle donne une P ample et pointue, de durée normale."
+            },
+            {
+              "reponse": "Une hypertrophie ventriculaire gauche.",
+              "explication": "Elle modifie le QRS, pas l'onde P."
+            },
+            {
+              "reponse": "Une hypertrophie ventriculaire droite.",
+              "explication": "Elle modifie le QRS en DI et V1."
+            },
+            {
+              "reponse": "Un bloc de branche droit.",
+              "explication": "Il élargit le QRS, pas l'onde P."
+            },
+            {
+              "reponse": "Un rythme du sinus coronaire.",
+              "explication": "Il donne une P négative en DII, DIII et aVF."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-052",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les surcharges du ventricule gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 37,
+            "surligner": "Il existe 2 types de surcharge du ventricule gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "La surcharge systolique est une surcharge de pression.",
+              "explication": "Par exemple rétrécissement aortique ou hypertension artérielle."
+            },
+            {
+              "reponse": "Le rétrécissement aortique entraîne une surcharge systolique du ventricule gauche.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "L'hypertension artérielle entraîne une surcharge systolique du ventricule gauche.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Le ventricule gauche s'adapte à une surcharge systolique par une hypertrophie pariétale.",
+              "explication": "Épaississement de la paroi."
+            },
+            {
+              "reponse": "La surcharge diastolique est une surcharge de volume.",
+              "explication": "Par exemple insuffisance aortique."
+            },
+            {
+              "reponse": "Le ventricule gauche s'adapte à une surcharge diastolique par une dilatation cavitaire.",
+              "explication": "Adaptation au volume."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'insuffisance aortique entraîne une surcharge systolique du ventricule gauche.",
+              "explication": "Elle entraîne une surcharge diastolique (de volume)."
+            },
+            {
+              "reponse": "Le rétrécissement aortique entraîne une surcharge de volume du ventricule gauche.",
+              "explication": "Il entraîne une surcharge de pression."
+            },
+            {
+              "reponse": "Le ventricule gauche s'adapte à une surcharge systolique par une dilatation cavitaire.",
+              "explication": "Il s'adapte par une hypertrophie pariétale."
+            },
+            {
+              "reponse": "Le ventricule gauche s'adapte à une surcharge diastolique par une hypertrophie pariétale.",
+              "explication": "Il s'adapte par une dilatation cavitaire."
+            },
+            {
+              "reponse": "L'hypertension artérielle entraîne une surcharge diastolique du ventricule gauche.",
+              "explication": "Elle entraîne une surcharge systolique."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-053",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les signes électrocardiographiques de l'hypertrophie ventriculaire gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 38,
+            "surligner": "On peut le quantifier par l'indice de Sokolow"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire gauche, l'onde R est plus grande en V5 et V6.",
+              "explication": "Le vecteur du ventricule gauche augmente."
+            },
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire gauche, l'onde S est plus profonde en V1.",
+              "explication": "Le vecteur du ventricule gauche s'éloigne de V1."
+            },
+            {
+              "reponse": "L'indice de Sokolow est la somme de l'onde S en V1 et de l'onde R en V5.",
+              "explication": "Mesure de l'hypertrophie."
+            },
+            {
+              "reponse": "Un indice de Sokolow supérieur à 35 mm signe une hypertrophie ventriculaire gauche.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Un sous-décalage du segment ST avec ondes T négatives asymétriques en V4-V6 évoque une surcharge systolique.",
+              "explication": "Forme fréquente."
+            },
+            {
+              "reponse": "Des ondes T amples, positives et symétriques en V4-V6 évoquent une surcharge diastolique.",
+              "explication": "Forme rare."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'indice de Sokolow est la somme de l'onde R en V1 et de l'onde S en V5.",
+              "explication": "Ondes inversées : c'est S en V1 + R en V5."
+            },
+            {
+              "reponse": "Un indice de Sokolow supérieur à 25 mm suffit à signer une hypertrophie ventriculaire gauche.",
+              "explication": "Le seuil est 35 mm."
+            },
+            {
+              "reponse": "Des ondes T négatives asymétriques en V4-V6 évoquent une surcharge diastolique.",
+              "explication": "Elles évoquent une surcharge systolique."
+            },
+            {
+              "reponse": "La surcharge diastolique est la forme la plus fréquente d'hypertrophie ventriculaire gauche.",
+              "explication": "Elle est rare ; la systolique est fréquente."
+            },
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire gauche, l'onde S est plus profonde en V6.",
+              "explication": "Elle est plus profonde en V1 ; V6 montre une grande onde R."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-054",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Sur un tracé, l'onde S mesure 18 mm en V1 et l'onde R 29 mm en V5. Quelle est la valeur de l'indice de Sokolow ? (une seule réponse attendue)",
+          "cours": {
+            "page": 40,
+            "surligner": "il y a une hypertrophie ventriculaire gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "47 mm.",
+              "explication": "18 + 29 = 47 mm, supérieur à 35 mm : hypertrophie ventriculaire gauche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "11 mm.",
+              "explication": "C'est la différence, pas la somme."
+            },
+            {
+              "reponse": "29 mm.",
+              "explication": "C'est seulement l'onde R en V5."
+            },
+            {
+              "reponse": "35 mm.",
+              "explication": "C'est le seuil, pas la valeur mesurée."
+            },
+            {
+              "reponse": "18 mm.",
+              "explication": "C'est seulement l'onde S en V1."
+            },
+            {
+              "reponse": "58 mm.",
+              "explication": "Valeur fausse : 18 + 29 = 47 mm."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-055",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Un électrocardiogramme montre un PR à 0,11 seconde, un QRS positif en DI et en aVF, une onde S de 18 mm en V1, une onde R de 29 mm en V5 et des ondes T très négatives de V3 à V6. Quelles propositions sont exactes ?",
+          "cours": {
+            "page": 40,
+            "surligner": "Ce patient présente une cardiomyopathie hypertrophique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un PR à 0,11 seconde n'est pas allongé.",
+              "explication": "Il est inférieur à un grand carreau (0,20 s)."
+            },
+            {
+              "reponse": "Un QRS positif en DI et en aVF correspond à un axe normal.",
+              "explication": "Méthode rapide."
+            },
+            {
+              "reponse": "Un indice de Sokolow de 47 mm signe une hypertrophie ventriculaire gauche.",
+              "explication": "Supérieur à 35 mm."
+            },
+            {
+              "reponse": "Des ondes T négatives peuvent être un signe d'hypertrophie ventriculaire.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Une cardiomyopathie hypertrophique donne souvent un aspect d'hypertrophie ventriculaire gauche avec ondes T négatives.",
+              "explication": "Diagnostic de l'exemple du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un PR à 0,11 seconde traduit un bloc de la conduction atrio-ventriculaire.",
+              "explication": "Le PR n'est pas allongé (< 200 ms)."
+            },
+            {
+              "reponse": "Un QRS positif en DI et en aVF correspond à une déviation axiale gauche.",
+              "explication": "C'est un axe normal."
+            },
+            {
+              "reponse": "Un indice de Sokolow de 47 mm est normal.",
+              "explication": "Il dépasse 35 mm."
+            },
+            {
+              "reponse": "Des ondes T négatives de V3 à V6 excluent une hypertrophie ventriculaire gauche.",
+              "explication": "Elles peuvent en être un signe."
+            },
+            {
+              "reponse": "Un QRS positif en DI et en aVF correspond à un axe indéterminé.",
+              "explication": "C'est un axe normal."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-056",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'hypertrophie ventriculaire droite, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 41,
+            "surligner": "soit un QRS fin avec une grande onde R"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'hypertrophie ventriculaire droite résulte d'une surcharge systolique du ventricule droit.",
+              "explication": "Surcharge de pression."
+            },
+            {
+              "reponse": "L'hypertension pulmonaire peut entraîner une hypertrophie ventriculaire droite.",
+              "explication": "Cause citée par le cours."
+            },
+            {
+              "reponse": "Le rétrécissement pulmonaire peut entraîner une hypertrophie ventriculaire droite.",
+              "explication": "Cause citée par le cours."
+            },
+            {
+              "reponse": "L'hypertrophie ventriculaire droite est beaucoup moins fréquente que l'hypertrophie ventriculaire gauche.",
+              "explication": "Repère du cours."
+            },
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire droite, DI montre un QRS négatif (déviation axiale droite).",
+              "explication": "Les ondes P et T restent positives."
+            },
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire droite, V1 peut montrer un QRS fin avec une grande onde R (R/S supérieur à 1).",
+              "explication": "Ou un aspect de bloc de branche droit."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hypertrophie ventriculaire droite est plus fréquente que l'hypertrophie ventriculaire gauche.",
+              "explication": "Elle est beaucoup moins fréquente."
+            },
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire droite, l'axe est dévié à gauche.",
+              "explication": "Il est dévié à droite (QRS négatif en DI)."
+            },
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire droite, V1 montre un rapport R/S inférieur à 1.",
+              "explication": "Le rapport R/S est supérieur à 1."
+            },
+            {
+              "reponse": "L'insuffisance aortique est une cause d'hypertrophie ventriculaire droite.",
+              "explication": "Elle surcharge le ventricule gauche."
+            },
+            {
+              "reponse": "Dans l'hypertrophie ventriculaire droite, l'onde S est très profonde en V1.",
+              "explication": "C'est un signe d'hypertrophie ventriculaire gauche ; V1 montre ici une grande onde R."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les blocs de branche"
+      },
+      "questions": [
+        {
+          "id": "cardio-physio-ecg-057",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'anatomie du tissu de conduction ventriculaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 42,
+            "surligner": "Le nœud atrio-ventriculaire se prolonge par le faisceau de His"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le nœud atrio-ventriculaire se prolonge par le faisceau de His.",
+              "explication": "Anatomie du cours."
+            },
+            {
+              "reponse": "Le faisceau de His se divise en branche droite et branche gauche.",
+              "explication": "Anatomie du cours."
+            },
+            {
+              "reponse": "La branche gauche se divise en hémibranche antérieure gauche et hémibranche postérieure gauche.",
+              "explication": "Il n'y a pas une seule branche à gauche."
+            },
+            {
+              "reponse": "La branche droite va directement à droite, sans se diviser en hémibranches.",
+              "explication": "Subtilité du cours."
+            },
+            {
+              "reponse": "Les hémibranches se terminent par les fibres de Purkinje.",
+              "explication": "Anatomie du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La branche droite se divise en hémibranche antérieure et hémibranche postérieure.",
+              "explication": "C'est la branche gauche qui se divise."
+            },
+            {
+              "reponse": "Le faisceau de His naît directement du nœud sinusal.",
+              "explication": "Il prolonge le nœud atrio-ventriculaire."
+            },
+            {
+              "reponse": "La branche gauche est une branche unique, sans division.",
+              "explication": "Elle se divise en 2 hémibranches."
+            },
+            {
+              "reponse": "Le faisceau de His se divise en 3 branches principales égales.",
+              "explication": "Il donne une branche droite et une branche gauche, divisée ensuite."
+            },
+            {
+              "reponse": "L'hémibranche antérieure gauche est la plus volumineuse des hémibranches.",
+              "explication": "L'hémibranche postérieure gauche est « immense »."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-058",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la visualisation de l'activation ventriculaire par cartographie électro-anatomique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 43,
+            "surligner": "On distingue 3 foyers d'activation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le front d'activation passe du faisceau de His à la branche gauche, puis aux hémibranches antérieure et postérieure gauches.",
+              "explication": "Trajet vu sur la première vidéo."
+            },
+            {
+              "reponse": "Le front d'activation progresse dans le tissu de conduction jusqu'au myocarde, puis de myocyte à myocyte.",
+              "explication": "Il s'« accroche » au myocarde en petits points."
+            },
+            {
+              "reponse": "On distingue 3 foyers d'activation ventriculaire : branche droite, hémibranche postérieure gauche et hémibranche antérieure gauche.",
+              "explication": "Seconde vidéo."
+            },
+            {
+              "reponse": "L'hémibranche postérieure gauche est très étendue.",
+              "explication": "Qualifiée d'« immense » à l'oral."
+            },
+            {
+              "reponse": "Chaque activation des 2 ventricules correspond à un QRS.",
+              "explication": "Seconde vidéo."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On distingue 2 foyers d'activation ventriculaire, un par ventricule.",
+              "explication": "On en distingue 3."
+            },
+            {
+              "reponse": "L'hémibranche antérieure gauche est le foyer d'activation le plus étendu.",
+              "explication": "Elle apparaît comme un petit « pop-up »."
+            },
+            {
+              "reponse": "La propagation se fait uniquement par le tissu de conduction, jamais de myocyte à myocyte.",
+              "explication": "Elle finit de myocyte à myocyte."
+            },
+            {
+              "reponse": "Le front d'activation entre d'abord dans les fibres de Purkinje, puis dans le faisceau de His.",
+              "explication": "His précède les branches et Purkinje."
+            },
+            {
+              "reponse": "Chaque QRS correspond à l'activation des 2 atriums.",
+              "explication": "Il correspond à l'activation des 2 ventricules."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-059",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les blocs de branche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 43,
+            "surligner": "Dans un bloc de branche, le QRS est large"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans un bloc de branche complet, le QRS dure plus de 120 millisecondes.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Un QRS entre 80 et 120 millisecondes avec un aspect de bloc définit un bloc de branche incomplet.",
+              "explication": "La branche fonctionne mais est ralentie."
+            },
+            {
+              "reponse": "Dans un bloc de branche, le ventricule dont la branche est bloquée est activé avec retard et lentement.",
+              "explication": "À partir de la branche qui fonctionne."
+            },
+            {
+              "reponse": "Dans un bloc de branche, le ventricule bloqué est activé de myocyte à myocyte.",
+              "explication": "Conduction lente."
+            },
+            {
+              "reponse": "Dans un bloc de branche, les 2 ventricules ne s'activent pas de façon synchrone.",
+              "explication": "L'un après l'autre."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans un bloc de branche complet, le QRS dure moins de 80 millisecondes.",
+              "explication": "Il dure plus de 120 ms."
+            },
+            {
+              "reponse": "Un bloc de branche incomplet se définit par un QRS de plus de 120 millisecondes.",
+              "explication": "Au-delà de 120 ms, le bloc est complet."
+            },
+            {
+              "reponse": "Dans un bloc de branche, le ventricule bloqué est activé plus rapidement que normalement.",
+              "explication": "Il est activé avec retard et lentement."
+            },
+            {
+              "reponse": "Dans un bloc de branche, les 2 ventricules se contractent ensemble.",
+              "explication": "Ils s'activent l'un après l'autre."
+            },
+            {
+              "reponse": "Un bloc de branche se traduit par des QRS fins.",
+              "explication": "Les QRS sont élargis."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-060",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les hémiblocs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 44,
+            "surligner": "l'hémibranche antérieure gauche ne sert pas à grand-chose"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un hémibloc antérieur gauche peut exister sans gravité.",
+              "explication": "L'hémibranche antérieure gauche ne sert pas à grand-chose."
+            },
+            {
+              "reponse": "Un hémibloc antérieur gauche se traduit par une déviation axiale gauche.",
+              "explication": "Déviation axiale gauche = hémibloc antérieur gauche."
+            },
+            {
+              "reponse": "Un hémibloc antérieur gauche peut donner un retard de transition du QRS dans les précordiales.",
+              "explication": "Signe du cours."
+            },
+            {
+              "reponse": "Un hémibloc antérieur gauche peut donner des ondes S en V5 et V6.",
+              "explication": "Signe du cours."
+            },
+            {
+              "reponse": "Un hémibloc postérieur gauche se traduit par une déviation axiale droite.",
+              "explication": "À l'inverse de l'hémibloc antérieur."
+            },
+            {
+              "reponse": "Des QRS fins avec un axe normal indiquent l'absence de trouble conductif.",
+              "explication": "État normal des branches gauches."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un hémibloc antérieur gauche se traduit par une déviation axiale droite.",
+              "explication": "Il donne une déviation axiale gauche."
+            },
+            {
+              "reponse": "Un hémibloc postérieur gauche se traduit par une déviation axiale gauche.",
+              "explication": "Il donne une déviation axiale droite."
+            },
+            {
+              "reponse": "Un hémibloc isolé élargit le QRS au-delà de 120 millisecondes.",
+              "explication": "Les QRS restent fins."
+            },
+            {
+              "reponse": "Des QRS fins avec un axe gauche indiquent l'absence de trouble conductif.",
+              "explication": "Ils indiquent un hémibloc antérieur gauche."
+            },
+            {
+              "reponse": "Un hémibloc antérieur gauche est toujours grave.",
+              "explication": "Il peut exister sans gravité."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-061",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Des QRS fins associés à une déviation axiale droite évoquent : (une seule réponse attendue)",
+          "cours": {
+            "page": 44,
+            "surligner": "Un hémibloc postérieur gauche donne, à l'inverse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un hémibloc postérieur gauche.",
+              "explication": "QRS fins et axe droit = hémibloc postérieur gauche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un hémibloc antérieur gauche.",
+              "explication": "Il donne une déviation axiale gauche."
+            },
+            {
+              "reponse": "Un bloc de branche gauche complet.",
+              "explication": "Il élargit le QRS au-delà de 120 ms."
+            },
+            {
+              "reponse": "Un bloc de branche droit complet.",
+              "explication": "Il élargit le QRS au-delà de 120 ms."
+            },
+            {
+              "reponse": "Un tracé normal sans trouble conductif.",
+              "explication": "QRS fins et axe normal = pas de trouble conductif."
+            },
+            {
+              "reponse": "Une hypertrophie atriale gauche.",
+              "explication": "Elle modifie l'onde P, pas l'axe du QRS."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-062",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le bloc de branche gauche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 45,
+            "surligner": "V1 voit l'activation fuir"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans le bloc de branche gauche, le ventricule droit s'active en premier.",
+              "explication": "Puis le ventricule gauche, de proche en proche."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, le septum est activé de droite à gauche.",
+              "explication": "L'activation part de la droite."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, le QRS est large et négatif en V1.",
+              "explication": "V1 voit l'activation fuir."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, le QRS est large et positif en V6, souvent crocheté.",
+              "explication": "V6 voit l'activation arriver."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, l'onde T est positive en V1 et négative en V6.",
+              "explication": "De sens opposé au QRS."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, le QRS ressemble à la somme des 2 activations ventriculaires successives.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans le bloc de branche gauche, le QRS est positif en V1.",
+              "explication": "Il est négatif en V1."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, le ventricule gauche s'active en premier.",
+              "explication": "C'est le ventricule droit."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, le QRS est négatif en V6.",
+              "explication": "Il est positif en V6."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, les QRS sont fins.",
+              "explication": "Ils sont élargis."
+            },
+            {
+              "reponse": "Dans le bloc de branche gauche, l'aspect en V1 est de type rSR' en « M ».",
+              "explication": "C'est l'aspect du bloc de branche droit."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-063",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le bloc de branche droit, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 46,
+            "surligner": "puis le ventricule droit est activé en retard"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans le bloc de branche droit, le septum et le ventricule gauche s'activent normalement par la branche gauche.",
+              "explication": "Puis le ventricule droit est activé en retard."
+            },
+            {
+              "reponse": "Dans le bloc de branche droit, le ventricule droit est activé en retard.",
+              "explication": "Par une conduction lente."
+            },
+            {
+              "reponse": "Dans le bloc de branche droit, V1 montre un aspect rSR' en « M ».",
+              "explication": "Grande onde R' tardive."
+            },
+            {
+              "reponse": "Dans le bloc de branche droit, l'onde T est négative en V1.",
+              "explication": "Aspect des diapositives."
+            },
+            {
+              "reponse": "Dans le bloc de branche droit, V6 montre une onde R suivie d'une onde S élargie.",
+              "explication": "Aspect du cours."
+            },
+            {
+              "reponse": "L'onde R' apparaît après l'onde S et avant l'onde T.",
+              "explication": "Elle traduit le décalage entre les 2 contractions ventriculaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans le bloc de branche droit, V1 est profondément négatif (aspect QS).",
+              "explication": "C'est l'aspect du bloc de branche gauche."
+            },
+            {
+              "reponse": "Dans le bloc de branche droit, le ventricule droit s'active en premier.",
+              "explication": "Il s'active en dernier."
+            },
+            {
+              "reponse": "Dans le bloc de branche droit, le septum est activé de droite à gauche.",
+              "explication": "Il est activé normalement, de gauche à droite."
+            },
+            {
+              "reponse": "Dans le bloc de branche droit, V6 montre un QRS large positif et crocheté, aspect RR'.",
+              "explication": "C'est l'aspect du bloc de branche gauche."
+            },
+            {
+              "reponse": "L'onde R' précède l'onde Q.",
+              "explication": "Elle apparaît après l'onde S."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-064",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la démarche diagnostique devant un QRS large, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 49,
+            "surligner": "Pour savoir si un bloc est gauche ou droit"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un QRS à prédominance positive en V1 et V2 oriente vers un bloc de branche droit.",
+              "explication": "Étape 2 de la démarche."
+            },
+            {
+              "reponse": "Un QRS à prédominance négative en V1 et V2 oriente vers un bloc de branche gauche.",
+              "explication": "Étape 2 de la démarche."
+            },
+            {
+              "reponse": "V6 est le « miroir » de V1.",
+              "explication": "Étape 3 de la démarche."
+            },
+            {
+              "reponse": "DI « ressemble » à V6.",
+              "explication": "Étape 4 de la démarche."
+            },
+            {
+              "reponse": "Si l'aspect ne correspond ni à un bloc droit ni à un bloc gauche, on parle de trouble conductif intraventriculaire indéterminé.",
+              "explication": "Étape 5 de la démarche."
+            },
+            {
+              "reponse": "La première étape consiste à vérifier si le QRS est large.",
+              "explication": "Plus de 120 ms : bloc complet."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un QRS à prédominance négative en V1 oriente vers un bloc de branche droit.",
+              "explication": "Il oriente vers un bloc de branche gauche."
+            },
+            {
+              "reponse": "Un QRS à prédominance positive en V1 oriente vers un bloc de branche gauche.",
+              "explication": "Il oriente vers un bloc de branche droit."
+            },
+            {
+              "reponse": "DI « ressemble » à V1.",
+              "explication": "DI ressemble à V6, miroir de V1."
+            },
+            {
+              "reponse": "V6 a normalement le même aspect que V1.",
+              "explication": "V6 est le miroir de V1."
+            },
+            {
+              "reponse": "Pour distinguer un bloc gauche d'un bloc droit, on regarde d'abord aVR.",
+              "explication": "On regarde V1 et V2."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-065",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'état des branches gauches en cas de bloc de branche, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 48,
+            "surligner": "on regarde donc l'axe pour connaître l'état des branches"
+          },
+          "bonnes": [
+            {
+              "reponse": "En cas de bloc de branche gauche, la branche droite conduit bien.",
+              "explication": "Si tout le côté gauche est bloqué, la droite fonctionne."
+            },
+            {
+              "reponse": "En cas de bloc de branche droit, on regarde l'axe pour connaître l'état des branches gauches.",
+              "explication": "Point sur lequel l'enseignant a insisté."
+            },
+            {
+              "reponse": "Un bloc de branche droit avec un axe normal correspond à un bloc de branche droit isolé.",
+              "explication": "aVF positive."
+            },
+            {
+              "reponse": "Un bloc de branche droit avec un axe gauche correspond à un bloc de branche droit associé à un hémibloc antérieur gauche.",
+              "explication": "Règle du cours."
+            },
+            {
+              "reponse": "Un bloc de branche droit avec un axe droit correspond à un bloc de branche droit associé à un hémibloc postérieur gauche.",
+              "explication": "Situation grave."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un bloc de branche droit avec un axe gauche correspond à un bloc de branche droit associé à un hémibloc postérieur gauche.",
+              "explication": "Axe gauche = hémibloc antérieur gauche."
+            },
+            {
+              "reponse": "Un bloc de branche droit avec un axe droit est une situation bénigne.",
+              "explication": "C'est une situation grave."
+            },
+            {
+              "reponse": "En cas de bloc de branche gauche, la branche droite ne conduit plus.",
+              "explication": "Elle conduit bien."
+            },
+            {
+              "reponse": "En cas de bloc de branche droit, les branches gauches conduisent forcément normalement.",
+              "explication": "Un hémibloc peut s'y associer : il faut regarder l'axe."
+            },
+            {
+              "reponse": "Un bloc de branche droit avec un axe droit correspond à un bloc de branche droit isolé.",
+              "explication": "Il s'y associe un hémibloc postérieur gauche."
+            }
+          ]
+        },
+        {
+          "id": "cardio-physio-ecg-066",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Un bloc de branche droit associé à une déviation axiale gauche correspond à : (une seule réponse attendue)",
+          "cours": {
+            "page": 48,
+            "surligner": "bloc de branche droit et hémibloc antérieur gauche"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un bloc de branche droit associé à un hémibloc antérieur gauche.",
+              "explication": "Axe gauche = hémibloc antérieur gauche."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un bloc de branche droit isolé.",
+              "explication": "Il s'accompagne d'un axe normal."
+            },
+            {
+              "reponse": "Un bloc de branche droit associé à un hémibloc postérieur gauche.",
+              "explication": "Il s'accompagne d'un axe droit."
+            },
+            {
+              "reponse": "Un bloc de branche gauche complet.",
+              "explication": "Le QRS serait négatif en V1."
+            },
+            {
+              "reponse": "Une hypertrophie ventriculaire droite isolée.",
+              "explication": "Elle donne une déviation axiale droite."
+            },
+            {
+              "reponse": "Un trouble conductif intraventriculaire indéterminé.",
+              "explication": "L'association est ici bien caractérisée."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3485 @@
+{
+  "meta": {
+    "theme": "Appareil respiratoire",
+    "section": "Biochimie",
+    "titre": "Mucus bronchique, surfactant, alpha-1 antitrypsine et liquide pleural",
+    "description": "Biochimie des fluides et molécules de protection du poumon : mucus bronchique et mucoviscidose, surfactant et détresse respiratoire du nouveau-né, alpha-1 antitrypsine et emphysème, liquide pleural et analyses biochimiques.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "resp-biochim-mucus-surfactant-pleural.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'exposition et la défense du poumon, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "il filtre chaque jour environ 10 000 litres d'air"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le poumon filtre chaque jour environ 10 000 litres d'air.",
+              "explication": "Chiffre donné en introduction du cours."
+            },
+            {
+              "reponse": "L'air inhalé contient de nombreux agents pathogènes et polluants.",
+              "explication": "Le poumon est donc potentiellement soumis à des agressions."
+            },
+            {
+              "reponse": "Le système défensif du poumon relève de la défense immunitaire innée.",
+              "explication": "C'est ce que précise le cours."
+            },
+            {
+              "reponse": "Le système défensif du poumon repose sur 4 types de mécanismes.",
+              "explication": "Anatomiques, dynamiques, moléculaires et immunologiques."
+            },
+            {
+              "reponse": "Les mécanismes moléculaires font partie des défenses du poumon.",
+              "explication": "Ils sont l'un des 4 types de mécanismes cités."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le poumon filtre chaque jour environ 1 000 litres d'air.",
+              "explication": "C'est environ 10 000 litres par jour."
+            },
+            {
+              "reponse": "Le poumon filtre chaque jour environ 100 000 litres d'air.",
+              "explication": "C'est environ 10 000 litres par jour."
+            },
+            {
+              "reponse": "Le système défensif du poumon relève exclusivement de l'immunité acquise.",
+              "explication": "Il relève de la défense immunitaire innée."
+            },
+            {
+              "reponse": "Le système défensif du poumon repose sur 2 types de mécanismes seulement.",
+              "explication": "Il en compte 4."
+            },
+            {
+              "reponse": "L'air qui parvient au poumon est stérile : le poumon n'est pas exposé aux agressions extérieures.",
+              "explication": "Le poumon est en relation étroite avec l'extérieur et exposé aux pathogènes et polluants."
+            },
+            {
+              "reponse": "Les mécanismes hormonaux font partie des 4 types de mécanismes de défense du poumon.",
+              "explication": "Les 4 types sont anatomiques, dynamiques, moléculaires et immunologiques."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-002",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'arbre bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "L'arbre bronchique est un système de convection"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'arbre bronchique est un système de convection de l'air vers l'alvéole.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'arbre bronchique humidifie et réchauffe l'air avant qu'il n'arrive aux alvéoles.",
+              "explication": "Il conditionne l'air pour ne pas déshydrater les alvéoles."
+            },
+            {
+              "reponse": "L'arbre bronchique participe à la conduction de l'air.",
+              "explication": "Il joue un rôle dans la conduction et le conditionnement de l'air."
+            },
+            {
+              "reponse": "Les cellules caliciformes participent à la fabrication du mucus bronchique.",
+              "explication": "Avec l'épithélium bronchique et les glandes séro-muqueuses."
+            },
+            {
+              "reponse": "Les glandes séro-muqueuses participent à la fabrication du mucus bronchique.",
+              "explication": "Le mucus piège les pollutions microbiennes ou particulaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'arbre bronchique est le lieu des échanges gazeux.",
+              "explication": "Les échanges gazeux ont lieu dans le poumon périphérique."
+            },
+            {
+              "reponse": "L'arbre bronchique assèche l'air inspiré pour protéger les alvéoles.",
+              "explication": "Il l'humidifie, pour ne pas déshydrater les alvéoles."
+            },
+            {
+              "reponse": "L'arbre bronchique refroidit l'air inspiré.",
+              "explication": "Il le réchauffe."
+            },
+            {
+              "reponse": "Le mucus bronchique est fabriqué par les pneumocytes de type II.",
+              "explication": "Les pneumocytes de type II sécrètent le surfactant, pas le mucus."
+            },
+            {
+              "reponse": "Le surfactant tapisse la surface de l'arbre bronchique.",
+              "explication": "Le surfactant tapisse les alvéoles ; les bronches sont protégées par le mucus."
+            },
+            {
+              "reponse": "Le mucus bronchique est le fluide de protection du poumon périphérique.",
+              "explication": "Il protège l'arbre bronchique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la protection du poumon périphérique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "la paroi alvéolaire, protégée par l'alpha-1 antitrypsine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les alvéoles sont tapissées par le surfactant.",
+              "explication": "Le surfactant maintient l'alvéole ouverte."
+            },
+            {
+              "reponse": "Le surfactant évite que les alvéoles les moins gonflées se vident dans les plus gonflées.",
+              "explication": "Il évite aussi qu'elles éclatent ou se collabent."
+            },
+            {
+              "reponse": "La paroi alvéolaire est protégée par l'alpha-1 antitrypsine sécrétée par le foie.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine protège l'élasticité pulmonaire contre nos propres enzymes libérées lors de la réaction immunitaire.",
+              "explication": "C'est son rôle dans la paroi alvéolaire."
+            },
+            {
+              "reponse": "Le liquide pleural se situe à l'interface entre la plèvre viscérale et la plèvre pariétale.",
+              "explication": "La plèvre est formée de 2 feuillets."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'alpha-1 antitrypsine protège les élastases.",
+              "explication": "C'est l'inverse : elle protège l'élastine contre les élastases (erreur des notes corrigée)."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine de la paroi alvéolaire est sécrétée principalement par les pneumocytes de type II.",
+              "explication": "Elle est sécrétée par le foie."
+            },
+            {
+              "reponse": "Au niveau alvéolaire, le surfactant a un rôle surtout immunitaire plutôt qu'un rôle dans l'élasticité pulmonaire.",
+              "explication": "Le cours précise qu'il s'agit moins de défense immunitaire que d'élasticité pulmonaire."
+            },
+            {
+              "reponse": "La plèvre est formée de 3 feuillets.",
+              "explication": "Elle est formée de 2 feuillets, viscéral et pariétal."
+            },
+            {
+              "reponse": "Le liquide pleural se situe entre la plèvre pariétale et la paroi thoracique.",
+              "explication": "Il se situe entre les 2 feuillets de la plèvre."
+            },
+            {
+              "reponse": "Le surfactant favorise le collapsus des alvéoles.",
+              "explication": "Il évite que les alvéoles se collabent."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-004",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle molécule protège la paroi alvéolaire contre les enzymes libérées lors de la réaction immunitaire ? (une seule réponse attendue)",
+          "cours": {
+            "page": 2,
+            "surligner": "la paroi alvéolaire, protégée par l'alpha-1 antitrypsine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'alpha-1 antitrypsine.",
+              "explication": "Sécrétée par le foie, elle protège l'élasticité pulmonaire contre nos propres enzymes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le surfactant.",
+              "explication": "Il tapisse les alvéoles et assure leur stabilité mécanique, il ne bloque pas les enzymes de la réaction immunitaire."
+            },
+            {
+              "reponse": "Les mucines.",
+              "explication": "Ce sont des glycoprotéines du mucus bronchique."
+            },
+            {
+              "reponse": "Le lysozyme.",
+              "explication": "Enzyme antibactérienne du mucus, qui dégrade les peptidoglycanes bactériens."
+            },
+            {
+              "reponse": "L'hémoglobine.",
+              "explication": "Elle est associée à la barrière alvéolo-capillaire."
+            },
+            {
+              "reponse": "L'élastase des polynucléaires neutrophiles.",
+              "explication": "C'est au contraire l'enzyme contre laquelle la paroi doit être protégée."
+            },
+            {
+              "reponse": "La lactoferrine.",
+              "explication": "Protéine du mucus, bactéricide et chélatrice du fer."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les fluides et molécules de protection associés aux secteurs du poumon, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "associé à un fluide ou à une molécule de protection"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le mucus bronchique est associé à l'arbre bronchique.",
+              "explication": "Il piège les pollutions venues de l'air ambiant."
+            },
+            {
+              "reponse": "Le surfactant est associé aux alvéoles.",
+              "explication": "Il tapisse les alvéoles."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est associée à la paroi alvéolaire.",
+              "explication": "Elle protège la paroi alvéolaire."
+            },
+            {
+              "reponse": "L'hémoglobine est associée à la barrière alvéolo-capillaire.",
+              "explication": "Elle n'est pas développée dans ce cours."
+            },
+            {
+              "reponse": "Le liquide pleural est associé à la plèvre.",
+              "explication": "Il se trouve entre les 2 feuillets pleuraux."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le surfactant tapisse la plèvre.",
+              "explication": "Le surfactant tapisse les alvéoles."
+            },
+            {
+              "reponse": "Le liquide pleural tapisse les alvéoles.",
+              "explication": "Il se situe entre les feuillets de la plèvre."
+            },
+            {
+              "reponse": "Le mucus bronchique tapisse les alvéoles.",
+              "explication": "Il tapisse l'arbre bronchique ; les alvéoles sont tapissées par le surfactant."
+            },
+            {
+              "reponse": "L'hémoglobine protège la paroi alvéolaire contre les élastases.",
+              "explication": "C'est le rôle de l'alpha-1 antitrypsine."
+            },
+            {
+              "reponse": "Le surfactant est fabriqué par les glandes séro-muqueuses.",
+              "explication": "Les glandes séro-muqueuses fabriquent le mucus ; le surfactant vient des pneumocytes de type II."
+            },
+            {
+              "reponse": "Le poumon comprend 3 secteurs anatomiques.",
+              "explication": "Le cours en distingue 2 : l'arbre bronchique et le poumon périphérique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le mucus bronchique"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-006",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2021-2022",
+                "qcm": 12
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2019-2020",
+                "qcm": 26
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2018-2019",
+                "qcm": 36
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2017-2018",
+                "qcm": 40
+              }
+            ]
+          },
+          "question": "Concernant le mucus bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "une couche profonde, fluide, aqueuse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le mucus bronchique comporte une phase liquide profonde qui permet aux cellules ciliées de le faire remonter jusqu'au carrefour aéro-digestif.",
+              "annale": true,
+              "explication": "Les cils mettent en mouvement la phase solution vers le carrefour aéro-digestif. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La clairance mucociliaire amène le mucus bronchique au carrefour aéro-digestif, où il est dégluti.",
+              "annale": true,
+              "explication": "Il y est en très grande majorité dégluti. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le mucus bronchique est composé d'une phase liquide en profondeur et d'une phase gel en surface.",
+              "annale": true,
+              "explication": "Phase « solution » profonde et phase « gel » superficielle. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le mucus bronchique contient de nombreuses protéines de défense de l'immunité innée et acquise.",
+              "annale": true,
+              "explication": "Lysozyme, lactoferrine, défensines… (innée) et immunoglobulines A sécrétoires (acquise). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les mucines sont des protéines branchées de chaînes glucidiques hydrophiles.",
+              "annale": true,
+              "explication": "Axe peptidique sur lequel sont branchées des chaînes de 1 à 20 sucres, très hydrophiles. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Lors de la mucoviscidose, des mutations du gène CFTR entraînent un épaississement de la phase gel qui limite la clairance mucociliaire.",
+              "annale": true,
+              "explication": "Le mucus déshydraté devient épais et visqueux, et plus rien ne bouge. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le mucus bronchique est sécrété par les cellules ciliées.",
+              "annale": true,
+              "explication": "Il est sécrété par les cellules sécrétrices (caliciformes) et les glandes ; les cellules ciliées le mettent en mouvement. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est responsable de la fluidité du mucus bronchique.",
+              "annale": true,
+              "explication": "Le surfactant tapisse les alvéoles ; la fluidité du mucus dépend des transports d'ions et d'eau. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La phase liquide profonde du mucus permet aux cellules ciliées de le faire descendre jusqu'aux alvéoles.",
+              "annale": true,
+              "explication": "Le mucus remonte vers le carrefour aéro-digestif. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-007",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2024-2025",
+                "qcm": 29
+              }
+            ]
+          },
+          "question": "Concernant le mucus bronchique, quelles propositions sont exactes ? (2 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "des protéines de l'immunité innée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le mucus bronchique contient de nombreuses protéines de défense de l'immunité innée et acquise.",
+              "annale": true,
+              "explication": "Protéines de l'immunité innée (lysozyme, lactoferrine…) et IgA sécrétoires (acquise). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Lors de la mucoviscidose, des mutations du gène CFTR entraînent un épaississement de la phase gel qui limite la clairance mucociliaire.",
+              "annale": true,
+              "explication": "Le mucus déshydraté devient épais et visqueux. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sécrétion du mucus bronchique est inhibée par une inflammation locale.",
+              "annale": true,
+              "explication": "L'inflammation entraîne au contraire une hypersécrétion de mucines. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est responsable de la fluidité du mucus bronchique.",
+              "annale": true,
+              "explication": "Le surfactant tapisse les alvéoles, pas les bronches. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La phase liquide profonde du mucus permet aux cellules ciliées de le faire descendre jusqu'aux alvéoles.",
+              "annale": true,
+              "explication": "Le mucus remonte vers le carrefour aéro-digestif. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'organisation du mucus bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "une augmentation de la viscosité de la surface épithéliale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La viscosité du mucus augmente de la surface épithéliale vers la lumière du conduit aérien.",
+              "explication": "Principe d'organisation du mucus."
+            },
+            {
+              "reponse": "La phase profonde du mucus, dite « solution », est fluide et aqueuse.",
+              "explication": "Elle est mise en mouvement par les cils."
+            },
+            {
+              "reponse": "La phase superficielle du mucus, dite « gel », est visqueuse et élastique.",
+              "explication": "Elle flotte à la surface de la phase aqueuse."
+            },
+            {
+              "reponse": "La phase gel piège les micro-organismes et les poussières.",
+              "explication": "Les microbes s'engluent sur des îlots de gel visqueux."
+            },
+            {
+              "reponse": "Le mucus qui atteint le carrefour aéro-digestif est en très grande majorité dégluti.",
+              "explication": "Une partie peut aussi être expectorée."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La viscosité du mucus diminue de la surface épithéliale vers la lumière.",
+              "explication": "Elle augmente vers la lumière."
+            },
+            {
+              "reponse": "La phase gel est située au contact de l'épithélium.",
+              "explication": "La phase gel est superficielle ; la phase solution est profonde."
+            },
+            {
+              "reponse": "Les cils battent dans la phase gel.",
+              "explication": "Ils battent dans la phase liquide profonde, qu'ils mettent en mouvement."
+            },
+            {
+              "reponse": "La phase solution est la phase qui piège les micro-organismes.",
+              "explication": "C'est la phase gel, superficielle, qui les piège."
+            },
+            {
+              "reponse": "Le mucus qui atteint le carrefour aéro-digestif est en très grande majorité expectoré.",
+              "explication": "Il est en très grande majorité dégluti."
+            },
+            {
+              "reponse": "La phase gel est une couche aqueuse peu visqueuse.",
+              "explication": "Elle est visqueuse et élastique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la composition du mucus bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "les mucines, qui représentent environ"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le mucus contient environ 95 % d'eau et d'électrolytes.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les principaux électrolytes du mucus sont le sodium et le chlorure.",
+              "explication": "Na+ et Cl−."
+            },
+            {
+              "reponse": "Les mucines représentent environ 2 % du mucus.",
+              "explication": "Ce sont des glycoprotéines."
+            },
+            {
+              "reponse": "Le mucus contient des lipoprotéines.",
+              "explication": "Elles font partie des protéines du mucus."
+            },
+            {
+              "reponse": "Les immunoglobulines A sécrétoires du mucus relèvent de l'immunité acquise.",
+              "explication": "Ce sont des protéines de l'immunité acquise."
+            },
+            {
+              "reponse": "Le lysozyme du mucus est une protéine de l'immunité innée non spécifique.",
+              "explication": "Il agit sans exposition préalable aux antigènes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les mucines représentent environ 95 % du mucus.",
+              "explication": "Elles en représentent environ 2 % ; l'eau et les électrolytes, environ 95 %."
+            },
+            {
+              "reponse": "Le mucus contient environ 50 % d'eau.",
+              "explication": "Il contient environ 95 % d'eau et d'électrolytes."
+            },
+            {
+              "reponse": "Les immunoglobulines A sécrétoires relèvent de l'immunité innée.",
+              "explication": "Elles relèvent de l'immunité acquise."
+            },
+            {
+              "reponse": "Le lysozyme est une protéine de l'immunité acquise, spécifique d'un antigène.",
+              "explication": "Il relève de l'immunité innée, non spécifique."
+            },
+            {
+              "reponse": "Les mucines sont des lipoprotéines.",
+              "explication": "Ce sont des glycoprotéines."
+            },
+            {
+              "reponse": "Les principaux électrolytes du mucus sont le potassium et le calcium.",
+              "explication": "Ce sont le sodium et le chlorure."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-010",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle proportion approximative du mucus bronchique représentent les mucines ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "les mucines, qui représentent environ"
+          },
+          "bonnes": [
+            {
+              "reponse": "Environ 2 %.",
+              "explication": "Valeur du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Environ 0,02 %.",
+              "explication": "C'est environ 2 %."
+            },
+            {
+              "reponse": "Environ 20 %.",
+              "explication": "C'est environ 2 %."
+            },
+            {
+              "reponse": "Environ 50 %.",
+              "explication": "C'est environ 2 % ; plus de 50 % est la proportion de sucres dans une mucine."
+            },
+            {
+              "reponse": "Environ 85 %.",
+              "explication": "C'est environ 2 %."
+            },
+            {
+              "reponse": "Environ 95 %.",
+              "explication": "95 % correspond à l'eau et aux électrolytes."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rôle du mucus et la clairance mucociliaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "font battre leurs cils dans le même sens"
+          },
+          "bonnes": [
+            {
+              "reponse": "La clairance mucociliaire ramène les poussières et les bactéries vers la partie haute de la trachée.",
+              "explication": "Elles sont ensuite dégluties et digérées, ou expectorées."
+            },
+            {
+              "reponse": "Le mucus assure une défense antibactérienne, antiprotéasique et anti-oxydante.",
+              "explication": "C'est son deuxième rôle."
+            },
+            {
+              "reponse": "L'épithélium bronchique est exposé en permanence à l'oxygène de l'air ambiant.",
+              "explication": "D'où l'intérêt de la défense anti-oxydante."
+            },
+            {
+              "reponse": "Les cellules ciliées font battre leurs cils dans le même sens.",
+              "explication": "De la profondeur vers le carrefour aéro-digestif."
+            },
+            {
+              "reponse": "Le mucus est produit par les cellules sécrétrices de surface et par les glandes séreuses et muqueuses.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les cellules ciliées mettent le mucus en mouvement.",
+              "explication": "Elles ne le sécrètent pas."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le mucus est sécrété par les cellules ciliées.",
+              "explication": "Erreur des notes corrigée : ce sont les cellules sécrétrices et les glandes qui le produisent."
+            },
+            {
+              "reponse": "Les cils battent des bronches vers les alvéoles.",
+              "explication": "Ils battent de la profondeur vers le carrefour aéro-digestif."
+            },
+            {
+              "reponse": "Les cils des cellules voisines battent en sens opposés.",
+              "explication": "Ils battent tous dans le même sens."
+            },
+            {
+              "reponse": "Le mucus a une action pro-oxydante sur l'épithélium.",
+              "explication": "Il a une action anti-oxydante."
+            },
+            {
+              "reponse": "Les bactéries ramenées par la clairance mucociliaire sont toujours expectorées.",
+              "explication": "Elles sont dégluties et digérées, ou expectorées."
+            },
+            {
+              "reponse": "La clairance mucociliaire ramène les poussières vers les alvéoles.",
+              "explication": "Elle les ramène vers la partie haute de la trachée."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les transports ioniques de l'épithélium bronchique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "flux net du compartiment muqueux vers le compartiment séreux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sodium présente un flux net du compartiment muqueux vers le compartiment séreux.",
+              "explication": "C'est une absorption."
+            },
+            {
+              "reponse": "Le sodium entre dans la cellule bronchique par un canal sodium du pôle apical.",
+              "explication": "Première étape de son absorption."
+            },
+            {
+              "reponse": "Le sodium sort de la cellule bronchique par la pompe Na+/K+ ATPase basolatérale.",
+              "explication": "Elle consomme de l'ATP : c'est un transport actif."
+            },
+            {
+              "reponse": "Le passage paracellulaire du chlore induit une absorption d'eau du mucus vers le milieu interstitiel.",
+              "explication": "L'eau suit les mouvements d'ions."
+            },
+            {
+              "reponse": "Le chlore est sécrété vers le mucus par des canaux de la membrane apicale comme le CFTR.",
+              "explication": "Les transporteurs basolatéraux le font entrer dans la cellule."
+            },
+            {
+              "reponse": "L'équilibre entre absorption de sodium et sécrétion de chlore permet une hydratation correcte des voies aériennes.",
+              "explication": "Il contrôle aussi les mouvements d'eau et la qualité de la clairance mucociliaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sodium présente un flux net du compartiment séreux vers le compartiment muqueux.",
+              "explication": "Le flux net va du compartiment muqueux vers le séreux (absorption)."
+            },
+            {
+              "reponse": "Le sodium sort de la cellule par une pompe Na+/K+ ATPase apicale.",
+              "explication": "La pompe est basolatérale."
+            },
+            {
+              "reponse": "La pompe Na+/K+ ATPase réalise un transport passif.",
+              "explication": "Elle consomme de l'ATP : transport actif."
+            },
+            {
+              "reponse": "Le chlore sort de la cellule vers le mucus par le cotransporteur Na+/K+/2Cl− basolatéral.",
+              "explication": "Ce cotransporteur fait entrer le chlore dans la cellule ; la sortie vers le mucus se fait par les canaux apicaux."
+            },
+            {
+              "reponse": "Le CFTR est un canal sodium.",
+              "explication": "C'est un canal chlorure."
+            },
+            {
+              "reponse": "L'eau se déplace indépendamment des mouvements d'ions.",
+              "explication": "L'eau suit les mouvements d'ions."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-013",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels canaux font sortir le chlore de la cellule épithéliale bronchique vers le mucus, au pôle apical ? (2 réponses attendues)",
+          "cours": {
+            "page": 5,
+            "surligner": "qui le font sortir vers le mucus"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le CFTR fait sortir le chlore vers le mucus au pôle apical.",
+              "explication": "Canal chlorure apical (Cystic Fibrosis Transmembrane conductance Regulator)."
+            },
+            {
+              "reponse": "Le canal chlorure activé par le calcium fait sortir le chlore vers le mucus au pôle apical.",
+              "explication": "C'est l'un des 3 canaux apicaux du schéma."
+            },
+            {
+              "reponse": "L'ORCC fait sortir le chlore vers le mucus au pôle apical.",
+              "explication": "Canal chlorure à rectification sortante, activé par le CFTR."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cotransporteur Na+/K+/2Cl− fait sortir le chlore vers le mucus au pôle apical.",
+              "explication": "Il est basolatéral et fait entrer le chlore dans la cellule."
+            },
+            {
+              "reponse": "La pompe Na+/K+ ATPase fait sortir le chlore vers le mucus au pôle apical.",
+              "explication": "Elle est basolatérale et échange sodium et potassium."
+            },
+            {
+              "reponse": "Le canal sodium apical fait sortir le chlore vers le mucus.",
+              "explication": "Il fait entrer le sodium dans la cellule."
+            },
+            {
+              "reponse": "Le canal potassique basolatéral fait sortir le chlore vers le mucus.",
+              "explication": "Il laisse ressortir le potassium au pôle basal."
+            },
+            {
+              "reponse": "La voie paracellulaire fait sortir le chlore de la cellule vers le mucus.",
+              "explication": "Elle passe entre les cellules, du mucus vers le côté basal."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le CFTR, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "permet d'hydrater le gel pour qu'il reste"
+          },
+          "bonnes": [
+            {
+              "reponse": "CFTR signifie Cystic Fibrosis Transmembrane conductance Regulator.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le CFTR est un canal chlorure de la membrane apicale.",
+              "explication": "Il fait sortir le chlore vers le mucus."
+            },
+            {
+              "reponse": "Le CFTR exerce une régulation négative du canal sodium du pôle apical.",
+              "explication": "Il inhibe l'entrée de Na+."
+            },
+            {
+              "reponse": "Le CFTR active l'ORCC.",
+              "explication": "Signe « + » sur le schéma de la diapositive n°7."
+            },
+            {
+              "reponse": "En régulant les flux de chlore et donc d'eau, le CFTR permet d'hydrater le gel pour qu'il reste mobile.",
+              "explication": "Le gel reste ainsi suffisamment mobile à la surface de l'épithélium."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le CFTR est un canal sodium basolatéral.",
+              "explication": "C'est un canal chlorure apical."
+            },
+            {
+              "reponse": "Le CFTR active le canal sodium du pôle apical.",
+              "explication": "Il l'inhibe (régulation négative)."
+            },
+            {
+              "reponse": "Le CFTR déshydrate le gel du mucus.",
+              "explication": "Il permet de l'hydrater."
+            },
+            {
+              "reponse": "Le CFTR est une pompe Na+/K+ ATPase.",
+              "explication": "C'est un canal chlorure."
+            },
+            {
+              "reponse": "Le CFTR inhibe l'ORCC.",
+              "explication": "Il l'active."
+            },
+            {
+              "reponse": "L'appel d'ions vers la surface crée une fuite d'eau du mucus vers la cellule.",
+              "explication": "Il crée un appel d'eau vers la surface."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les mucines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "riche en sérine et thréonine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les mucines sont des glycoprotéines de très haut poids moléculaire.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les mucines contiennent plus de 50 % de sucres.",
+              "explication": "Elles sont très riches en sucres."
+            },
+            {
+              "reponse": "L'axe peptidique des mucines est riche en sérine et thréonine.",
+              "explication": "Les sucres y sont fixés."
+            },
+            {
+              "reponse": "Les mucines portent des chaînes de 1 à 20 sucres.",
+              "explication": "Branchées sur l'axe peptidique."
+            },
+            {
+              "reponse": "Les mucines sont des structures filamenteuses et flexibles.",
+              "explication": "Elles forment un piège à eau."
+            },
+            {
+              "reponse": "Les chaînes de glycanes des mucines servent de récepteurs pour la reconnaissance et l'adhérence bactérienne.",
+              "explication": "Elles portent des motifs spécifiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les mucines sont des glycoprotéines de faible poids moléculaire.",
+              "explication": "Elles sont de très haut poids moléculaire."
+            },
+            {
+              "reponse": "Les mucines contiennent moins de 10 % de sucres.",
+              "explication": "Elles en contiennent plus de 50 %."
+            },
+            {
+              "reponse": "Les mucines portent des chaînes de 50 à 200 sucres.",
+              "explication": "Les chaînes comptent de 1 à 20 sucres."
+            },
+            {
+              "reponse": "Les mucines sont des structures rigides et globulaires.",
+              "explication": "Elles sont filamenteuses et flexibles."
+            },
+            {
+              "reponse": "Les chaînes de sucres des mucines sont hydrophobes.",
+              "explication": "Elles sont très hydrophiles et constituent des réserves d'eau."
+            },
+            {
+              "reponse": "Les mucines constituent une défense spécifique dirigée contre une bactérie donnée.",
+              "explication": "C'est un système de défense inné, non destiné à une bactérie en particulier."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la réponse du mucus aux agressions, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Cette hypersécrétion augmente la clairance mucociliaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les mucines piègent les particules inhalées, les microbes, les toxines et les allergènes.",
+              "explication": "Elles constituent un système de défense muqueux inné."
+            },
+            {
+              "reponse": "En présence de pathogènes, les cytokines activées entraînent une hypersécrétion de mucines.",
+              "explication": "Avec une inflammation des parois bronchiques."
+            },
+            {
+              "reponse": "L'hypersécrétion de mucines augmente la clairance mucociliaire.",
+              "explication": "Elle piège au maximum les molécules inhalées."
+            },
+            {
+              "reponse": "Lors d'une bronchite, la toux d'abord sèche devient productive.",
+              "explication": "La quantité de mucus augmente."
+            },
+            {
+              "reponse": "Si la clairance est efficace, les germes piégés sont déglutis et détruits dans l'estomac.",
+              "explication": "Exemple du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une inflammation bronchique inhibe la sécrétion de mucines.",
+              "explication": "Elle entraîne une hypersécrétion de mucines."
+            },
+            {
+              "reponse": "L'hypersécrétion de mucines diminue la clairance mucociliaire.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "Lors d'une bronchite, la toux d'abord productive devient sèche.",
+              "explication": "C'est l'inverse : sèche puis productive."
+            },
+            {
+              "reponse": "Les germes piégés par le mucus sont détruits dans les alvéoles.",
+              "explication": "Ils sont déglutis et détruits dans l'estomac."
+            },
+            {
+              "reponse": "Les mucines créent des îlots de gel en profondeur, au contact des cils.",
+              "explication": "Les îlots de gel sont à la surface ; l'eau entretient la phase fluide en profondeur."
+            },
+            {
+              "reponse": "L'hypersécrétion de mucines est déclenchée par une diminution des cytokines.",
+              "explication": "Elle fait suite à l'activation des cytokines."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le lysozyme, la lactoferrine et la bronchotransferrine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "dégrade les peptidoglycanes des parois"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le lysozyme est une enzyme antibactérienne non spécifique.",
+              "explication": "Il est sécrété en grandes quantités."
+            },
+            {
+              "reponse": "Le lysozyme est une protéine basique de 15 kDa.",
+              "explication": "C'est une enzyme de petite taille."
+            },
+            {
+              "reponse": "Le lysozyme dégrade les peptidoglycanes des parois bactériennes.",
+              "explication": "Mode d'action du lysozyme."
+            },
+            {
+              "reponse": "La lactoferrine a une activité bactéricide directe par liaison à la membrane externe des bactéries à Gram négatif.",
+              "explication": "Activité partagée avec la bronchotransferrine."
+            },
+            {
+              "reponse": "La bronchotransferrine freine la pousse bactérienne en liant le fer.",
+              "explication": "Le fer est un cofacteur de nombreuses enzymes bactériennes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le lysozyme est une protéine acide de 150 kDa.",
+              "explication": "C'est une protéine basique de 15 kDa."
+            },
+            {
+              "reponse": "Le lysozyme dégrade l'élastine des parois alvéolaires.",
+              "explication": "Il dégrade les peptidoglycanes bactériens."
+            },
+            {
+              "reponse": "Le lysozyme est sécrété en très faibles quantités.",
+              "explication": "Il est sécrété en grandes quantités."
+            },
+            {
+              "reponse": "La lactoferrine favorise la pousse bactérienne en fournissant du fer aux bactéries.",
+              "explication": "Elle capte le fer et défavorise la pousse bactérienne."
+            },
+            {
+              "reponse": "La lactoferrine se lie à la membrane externe des bactéries à Gram positif.",
+              "explication": "Elle se lie à la membrane externe des bactéries à Gram négatif."
+            },
+            {
+              "reponse": "Le lysozyme est une immunoglobuline de l'immunité acquise.",
+              "explication": "C'est une enzyme de l'immunité innée."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-018",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel constituant du mucus bronchique inhibe l'élastase des neutrophiles ? (une seule réponse attendue)",
+          "cours": {
+            "page": 8,
+            "surligner": "inhibe l'élastase des neutrophiles"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'inhibiteur de leucoprotéases (SLPI).",
+              "explication": "Il possède aussi une activité antibactérienne."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le lysozyme.",
+              "explication": "Il dégrade les peptidoglycanes bactériens."
+            },
+            {
+              "reponse": "La lactoferrine.",
+              "explication": "Elle est bactéricide et lie le fer."
+            },
+            {
+              "reponse": "La bronchotransferrine.",
+              "explication": "Elle est bactéricide et lie le fer."
+            },
+            {
+              "reponse": "Les mucines.",
+              "explication": "Ce sont des glycoprotéines qui piègent les particules et les microbes."
+            },
+            {
+              "reponse": "Les défensines.",
+              "explication": "Ce sont des peptides cytotoxiques."
+            },
+            {
+              "reponse": "Les immunoglobulines A sécrétoires.",
+              "explication": "Ce sont des anticorps de l'immunité acquise."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les protéines de l'immunité innée du mucus, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "sans faire intervenir les leucocytes ni les lymphocytes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les protéines de l'immunité innée du mucus sont codées par le génome sans « éducation » préalable.",
+              "explication": "Elles sont sécrétées telles quelles."
+            },
+            {
+              "reponse": "Les protéines de l'immunité innée du mucus sont efficaces en première ligne sans faire intervenir les lymphocytes.",
+              "explication": "Ni les leucocytes."
+            },
+            {
+              "reponse": "Les protéines de l'immunité innée du mucus sont non spécifiques.",
+              "explication": "Elles attaquent tel ou tel type de bactérie sans exposition préalable."
+            },
+            {
+              "reponse": "Les défensines sont des peptides de défense à activité cytotoxique.",
+              "explication": "Activité plus ou moins ciblée."
+            },
+            {
+              "reponse": "Les défensines agissent contre les bactéries, les levures et les parasites.",
+              "explication": "Cibles citées par le cours."
+            },
+            {
+              "reponse": "L'inhibiteur de leucoprotéases possède une activité antibactérienne.",
+              "explication": "En plus de l'inhibition de l'élastase des neutrophiles."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les protéines de l'immunité innée du mucus nécessitent une exposition préalable à l'antigène.",
+              "explication": "Elles agissent sans exposition préalable."
+            },
+            {
+              "reponse": "Les protéines de l'immunité innée du mucus sont spécifiques d'un antigène donné.",
+              "explication": "Elles sont non spécifiques."
+            },
+            {
+              "reponse": "Les protéines de l'immunité innée du mucus sont produites par les lymphocytes B après activation.",
+              "explication": "Elles sont codées par le génome et sécrétées telles quelles, sans lymphocytes."
+            },
+            {
+              "reponse": "Les défensines sont des glycoprotéines de très haut poids moléculaire.",
+              "explication": "Ce sont des peptides ; les glycoprotéines de très haut poids moléculaire sont les mucines."
+            },
+            {
+              "reponse": "L'inhibiteur de leucoprotéases active l'élastase des neutrophiles.",
+              "explication": "Il l'inhibe."
+            },
+            {
+              "reponse": "Le lysozyme, la lactoferrine et les défensines sont des protéines de l'immunité acquise.",
+              "explication": "Ce sont des protéines de l'immunité innée."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la mucoviscidose, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "mutations du gène codant la protéine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La mucoviscidose est une pathologie génétique grave.",
+              "explication": "Due à des mutations du gène codant la protéine CFTR."
+            },
+            {
+              "reponse": "La mucoviscidose entraîne des anomalies des transports d'eau et d'ions.",
+              "explication": "Avec infection et inflammation bronchiques."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, les sécrétions et le mucus sont déshydratés.",
+              "explication": "Le mucus devient épais et visqueux."
+            },
+            {
+              "reponse": "Les patients atteints de mucoviscidose ont très tôt des complications respiratoires chroniques.",
+              "explication": "Les bactéries se déposent dans un mucus qui ne bouge plus."
+            },
+            {
+              "reponse": "La mucoviscidose comporte une atteinte pancréatique et biliaire.",
+              "explication": "Le suc pancréatique, insuffisamment hydraté, devient trop épais."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, les enzymes pancréatiques s'activent dans le pancréas lui-même.",
+              "explication": "Ce qui entraîne une destruction lente de la glande."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La mucoviscidose est une maladie acquise d'origine infectieuse.",
+              "explication": "C'est une pathologie génétique."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, le mucus est trop fluide.",
+              "explication": "Il est déshydraté, épais et visqueux."
+            },
+            {
+              "reponse": "La mucoviscidose est due à des mutations du gène de l'alpha-1 antitrypsine.",
+              "explication": "Elle est due à des mutations du gène CFTR."
+            },
+            {
+              "reponse": "La mucoviscidose a une atteinte exclusivement respiratoire.",
+              "explication": "Elle comporte aussi une atteinte pancréatique et biliaire."
+            },
+            {
+              "reponse": "Les complications respiratoires de la mucoviscidose n'apparaissent qu'à l'âge adulte.",
+              "explication": "Elles apparaissent très tôt."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, le suc pancréatique est trop dilué.",
+              "explication": "Il est insuffisamment hydraté, donc trop épais."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-021",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles conséquences de la destruction du pancréas au cours de la mucoviscidose ont été citées à l'oral ? (2 réponses attendues)",
+          "cours": {
+            "page": 9,
+            "surligner": "diabète et pancréatite aiguë"
+          },
+          "bonnes": [
+            {
+              "reponse": "La destruction du pancréas dans la mucoviscidose peut entraîner un diabète.",
+              "explication": "Conséquence citée à l'oral."
+            },
+            {
+              "reponse": "La destruction du pancréas dans la mucoviscidose peut entraîner une pancréatite aiguë.",
+              "explication": "Conséquence citée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La destruction du pancréas dans la mucoviscidose entraîne un emphysème pulmonaire.",
+              "explication": "L'emphysème est la conséquence pulmonaire du déficit en alpha-1 antitrypsine."
+            },
+            {
+              "reponse": "La destruction du pancréas dans la mucoviscidose entraîne un chylothorax.",
+              "explication": "Le chylothorax est lié à une lésion du canal thoracique."
+            },
+            {
+              "reponse": "La destruction du pancréas dans la mucoviscidose entraîne une hypersécrétion de chlore.",
+              "explication": "La mucoviscidose s'accompagne au contraire d'un défaut de sécrétion de chlore."
+            },
+            {
+              "reponse": "La destruction du pancréas dans la mucoviscidose entraîne une fluidification du suc pancréatique.",
+              "explication": "Le suc pancréatique est trop épais, c'est la cause de la destruction."
+            },
+            {
+              "reponse": "La destruction du pancréas dans la mucoviscidose entraîne une détresse respiratoire du nouveau-né par déficit en surfactant.",
+              "explication": "Ce syndrome est lié à l'immaturité du surfactant."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les voies aériennes dans la mucoviscidose comparées aux voies aériennes normales, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "la couche de liquide de surface devient très mince"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la mucoviscidose, la sécrétion de chlore vers la surface est absente.",
+              "explication": "Pas de flèche montante sur le schéma de la diapositive n°11."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, l'absorption de sodium, de chlore et d'eau est augmentée.",
+              "explication": "Flèches descendantes plus grosses sur le schéma."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, la couche de liquide de surface devient très mince.",
+              "explication": "Le liquide est réabsorbé."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, les cils sont englués dans une couche de mucus épaissie.",
+              "explication": "Ils ne peuvent plus battre librement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans la mucoviscidose, la sécrétion de chlore vers la surface est augmentée.",
+              "explication": "Elle est absente."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, l'absorption de sodium est diminuée.",
+              "explication": "Elle est augmentée."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, la couche de liquide de surface est plus épaisse que la normale.",
+              "explication": "Elle devient très mince."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, les cils battent plus librement que la normale.",
+              "explication": "Ils sont englués dans le mucus."
+            },
+            {
+              "reponse": "Dans la mucoviscidose, la couche de mucus est plus fine que la normale.",
+              "explication": "Elle est épaissie."
+            },
+            {
+              "reponse": "Dans les voies aériennes normales, le liquide de surface est une couche très mince dans laquelle les cils sont englués.",
+              "explication": "Normalement, la couche de liquide est épaisse et les cils battent librement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le surfactant"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-023",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2023-2024",
+                "qcm": 1
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2020-2021",
+                "qcm": 12
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2015-2016",
+                "qcm": 38
+              }
+            ]
+          },
+          "question": "Concernant le surfactant pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Ce sont majoritairement des phospholipides"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le surfactant est une substance composée principalement de phospholipides (DPPC et phosphatidylglycérol) et de protéines.",
+              "annale": true,
+              "explication": "Lipides 85 à 90 %, surtout des phospholipides, et protéines 10 à 15 %. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est synthétisé par les pneumocytes de type II.",
+              "annale": true,
+              "explication": "Donnée du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est plus fluide à la naissance que pendant la grossesse.",
+              "annale": true,
+              "explication": "Le taux de phosphatidylglycérol, qui apporte la fluidité, augmente à l'approche de la fin de la grossesse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'immaturité du surfactant chez le prématuré est responsable de détresse respiratoire.",
+              "annale": true,
+              "explication": "Syndrome de détresse respiratoire du nouveau-né. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le surfactant est organisé en une bicouche lipidique comme une membrane plasmique.",
+              "annale": true,
+              "explication": "C'est un film mono ou multicouche, avec les têtes hydrophiles côté hypophase et les queues hydrophobes côté air. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est synthétisé par les pneumocytes de type I.",
+              "annale": true,
+              "explication": "Il est synthétisé par les pneumocytes de type II. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est moins fluide à la naissance que pendant la grossesse.",
+              "annale": true,
+              "explication": "Il devient plus fluide à l'approche du terme, avec l'augmentation du phosphatidylglycérol. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-024",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2022-2023",
+                "qcm": 23
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2019-2020",
+                "qcm": 27
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2018-2019",
+                "qcm": 35
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2017-2018",
+                "qcm": 39
+              }
+            ]
+          },
+          "question": "Concernant la synthèse et la maturation du surfactant pulmonaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Sa fabrication débute vers"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le surfactant est constitué principalement de dipalmitoylphosphatidylcholine (DPPC) et de phosphatidylglycérol (PG).",
+              "annale": true,
+              "explication": "Ce sont ses phospholipides principaux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La synthèse du surfactant commence in utero vers 19 semaines d'aménorrhée et il est fonctionnel vers 35 à 36 semaines d'aménorrhée.",
+              "annale": true,
+              "explication": "Chronologie du cours. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est un film lipidique dont le pôle hydrophobe est tourné vers la lumière alvéolaire et le pôle hydrophile vers la paroi alvéolaire.",
+              "annale": true,
+              "explication": "Les têtes polaires plongent dans l'hypophase, les queues hydrophobes sont dressées vers l'air. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La maturation du surfactant est ralentie par le diabète maternel.",
+              "annale": true,
+              "explication": "L'insuline ralentit la maturation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La maturation du surfactant est accélérée par les corticoïdes.",
+              "annale": true,
+              "explication": "Les glucocorticoïdes accélèrent la maturation. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le surfactant est sécrété par les pneumocytes de type I.",
+              "annale": true,
+              "explication": "Il est sécrété par les pneumocytes de type II. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est sécrété par les parois bronchiques.",
+              "annale": true,
+              "explication": "Il est sécrété par les pneumocytes de type II, au niveau alvéolaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La synthèse du surfactant commence in utero vers 35 à 36 semaines d'aménorrhée.",
+              "annale": true,
+              "explication": "Elle débute vers 19 SA ; il devient fonctionnel à 35-36 SA. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le surfactant est un film lipidique en bicouche comme les membranes plasmiques.",
+              "annale": true,
+              "explication": "C'est un film mono ou multicouche. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la définition et les rôles du surfactant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "substance lipoprotéique complexe"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le surfactant est une substance lipoprotéique complexe riche en phospholipides.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le surfactant tapisse la surface des alvéoles sous forme d'un film mono ou multicouche.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le surfactant contient des protéines qui peuvent protéger des pathogènes.",
+              "explication": "Il assure une défense pré-immune."
+            },
+            {
+              "reponse": "Le surfactant évite qu'une alvéole éclate pendant qu'une autre se rétracte et se colle.",
+              "explication": "Il maintient la stabilité et la souplesse des alvéoles."
+            },
+            {
+              "reponse": "Le surfactant assure l'homéostasie hydrique et protéique de l'alvéole.",
+              "explication": "C'est l'un de ses 3 rôles."
+            },
+            {
+              "reponse": "Le surfactant assure la stabilité mécanique de l'alvéole.",
+              "explication": "C'est l'un de ses 3 rôles."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le surfactant est une glycoprotéine très riche en sucres.",
+              "explication": "Ce sont les mucines ; le surfactant est une substance lipoprotéique."
+            },
+            {
+              "reponse": "Le surfactant tapisse la surface des bronches.",
+              "explication": "Il tapisse les alvéoles."
+            },
+            {
+              "reponse": "Le surfactant est purement lipidique, sans protéine.",
+              "explication": "Il contient 10 à 15 % de protéines."
+            },
+            {
+              "reponse": "Le surfactant est sécrété par les cellules caliciformes.",
+              "explication": "Il est sécrété par les pneumocytes de type II."
+            },
+            {
+              "reponse": "Le surfactant favorise l'affaissement des alvéoles en fin d'expiration.",
+              "explication": "Il maintient les alvéoles ouvertes."
+            },
+            {
+              "reponse": "Le surfactant n'a aucun rôle dans la défense contre les pathogènes.",
+              "explication": "Il assure une défense pré-immune."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la chronologie de la synthèse du surfactant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Sa composition continue d'évoluer jusqu'à"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fabrication du surfactant débute vers 19 semaines d'aménorrhée.",
+              "explication": "Chronologie du cours."
+            },
+            {
+              "reponse": "Le surfactant est fonctionnel à 35-36 semaines d'aménorrhée.",
+              "explication": "Chronologie du cours."
+            },
+            {
+              "reponse": "La composition du surfactant continue d'évoluer jusqu'à 39 semaines d'aménorrhée.",
+              "explication": "Chronologie du cours."
+            },
+            {
+              "reponse": "Plus la naissance est précoce, moins le surfactant est fonctionnel.",
+              "explication": "D'où la détresse respiratoire du grand prématuré."
+            },
+            {
+              "reponse": "Le surfactant est sécrété par les pneumocytes de type II.",
+              "explication": "Cellules alvéolaires arrondies."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fabrication du surfactant débute vers 35-36 semaines d'aménorrhée.",
+              "explication": "Elle débute vers 19 SA."
+            },
+            {
+              "reponse": "Le surfactant est fonctionnel dès 19 semaines d'aménorrhée.",
+              "explication": "Sa fabrication débute à 19 SA, mais il n'est fonctionnel qu'à 35-36 SA."
+            },
+            {
+              "reponse": "La composition du surfactant est définitive dès 35 semaines d'aménorrhée.",
+              "explication": "Elle évolue jusqu'à 39 SA."
+            },
+            {
+              "reponse": "La synthèse du surfactant ne débute qu'après la naissance.",
+              "explication": "Elle débute in utero vers 19 SA."
+            },
+            {
+              "reponse": "Plus la naissance est précoce, plus le surfactant est fonctionnel.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le surfactant est fonctionnel dès 25 semaines d'aménorrhée.",
+              "explication": "Il est fonctionnel à 35-36 SA."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-027",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Vers quel terme le surfactant devient-il fonctionnel ? (une seule réponse attendue)",
+          "cours": {
+            "page": 10,
+            "surligner": "il est fonctionnel à 35-36 semaines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Vers 35-36 semaines d'aménorrhée.",
+              "explication": "Chronologie du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Vers 12 semaines d'aménorrhée.",
+              "explication": "Il est fonctionnel vers 35-36 SA."
+            },
+            {
+              "reponse": "Vers 19 semaines d'aménorrhée.",
+              "explication": "C'est le début de sa fabrication, pas son caractère fonctionnel."
+            },
+            {
+              "reponse": "Vers 25 semaines d'aménorrhée.",
+              "explication": "Il est fonctionnel vers 35-36 SA."
+            },
+            {
+              "reponse": "Vers 28 semaines d'aménorrhée.",
+              "explication": "Il est fonctionnel vers 35-36 SA."
+            },
+            {
+              "reponse": "Vers 32 semaines d'aménorrhée.",
+              "explication": "Il est fonctionnel vers 35-36 SA."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la composition lipidique du surfactant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Le phospholipide quantitativement majoritaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le surfactant est constitué de 85 à 90 % de lipides.",
+              "explication": "Et de 10 à 15 % de protéines, plus quelques sucres."
+            },
+            {
+              "reponse": "Les lipides du surfactant sont majoritairement des phospholipides.",
+              "explication": "Molécules à région hydrophile et 2 chaînes lipidiques."
+            },
+            {
+              "reponse": "La dipalmitoylphosphatidylcholine (DPPC) est le phospholipide quantitativement majoritaire du surfactant.",
+              "explication": "À connaître absolument."
+            },
+            {
+              "reponse": "La DPPC est présente chez le prématuré.",
+              "explication": "Contrairement au phosphatidylglycérol."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol est un phospholipide présent uniquement dans le poumon.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol est absent chez le prématuré.",
+              "explication": "Il apparaît tard dans le développement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le surfactant est constitué de 85 à 90 % de protéines.",
+              "explication": "Ce sont les lipides ; les protéines représentent 10 à 15 %."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol est le phospholipide quantitativement majoritaire du surfactant.",
+              "explication": "C'est la DPPC."
+            },
+            {
+              "reponse": "La DPPC est absente chez le prématuré.",
+              "explication": "Elle est présente ; c'est le phosphatidylglycérol qui est absent."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol est présent dans toutes les membranes de l'organisme.",
+              "explication": "Il est présent uniquement dans le poumon."
+            },
+            {
+              "reponse": "La quantité de phosphatidylglycérol diminue à l'approche de la maturité pulmonaire.",
+              "explication": "Elle augmente."
+            },
+            {
+              "reponse": "Le cholestérol est le principal lipide du surfactant.",
+              "explication": "C'est la DPPC ; le cholestérol fait partie des autres lipides."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-029",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel est le phospholipide quantitativement majoritaire du surfactant ? (une seule réponse attendue)",
+          "cours": {
+            "page": 11,
+            "surligner": "Le phospholipide quantitativement majoritaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dipalmitoylphosphatidylcholine (DPPC).",
+              "explication": "À connaître absolument."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le phosphatidylglycérol.",
+              "explication": "Il conditionne la maturité du surfactant mais n'est pas majoritaire."
+            },
+            {
+              "reponse": "Le cholestérol.",
+              "explication": "Ce n'est pas un phospholipide ; il fait partie des autres lipides."
+            },
+            {
+              "reponse": "La phosphatidylsérine.",
+              "explication": "Ce n'est pas le phospholipide majoritaire du surfactant."
+            },
+            {
+              "reponse": "La phosphatidyléthanolamine.",
+              "explication": "Ce n'est pas le phospholipide majoritaire du surfactant."
+            },
+            {
+              "reponse": "La sphingomyéline.",
+              "explication": "Ce n'est pas le phospholipide majoritaire du surfactant."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-030",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel constituant du surfactant conditionne surtout sa bonne maturité ? (une seule réponse attendue)",
+          "cours": {
+            "page": 11,
+            "surligner": "conditionne la bonne maturité du surfactant"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le phosphatidylglycérol.",
+              "explication": "Plus il y a de PG, plus le surfactant est mature."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dipalmitoylphosphatidylcholine (DPPC).",
+              "explication": "Elle est majoritaire et déjà présente chez le prématuré ; seule, elle donne un surfactant peu élastique."
+            },
+            {
+              "reponse": "Le cholestérol.",
+              "explication": "C'est surtout le phosphatidylglycérol qui conditionne la maturité."
+            },
+            {
+              "reponse": "Les lipides neutres.",
+              "explication": "Ils participent à la fluidité, mais c'est surtout le phosphatidylglycérol qui conditionne la maturité."
+            },
+            {
+              "reponse": "Les sucres.",
+              "explication": "Ils sont présents en faible quantité et ne conditionnent pas la maturité."
+            },
+            {
+              "reponse": "La choline.",
+              "explication": "Elle forme la tête polaire de la DPPC ; c'est le phosphatidylglycérol qui conditionne la maturité."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la fluidité du surfactant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "c'est principalement le PG qui fluidifie la DPPC"
+          },
+          "bonnes": [
+            {
+              "reponse": "Quand le surfactant ne contient que de la DPPC, il est peu élastique et ne maintient pas les alvéoles ouvertes.",
+              "explication": "La DPPC doit être fluidifiée."
+            },
+            {
+              "reponse": "C'est principalement le phosphatidylglycérol qui fluidifie la DPPC.",
+              "explication": "Pour obtenir un surfactant efficace."
+            },
+            {
+              "reponse": "Les lipides neutres participent à la fluidification de la DPPC.",
+              "explication": "Avec le phosphatidylglycérol."
+            },
+            {
+              "reponse": "La fluidité du surfactant permet d'encaisser les variations de taille de la surface alvéolaire.",
+              "explication": "Elle participe à son élasticité."
+            },
+            {
+              "reponse": "La DPPC porte 2 chaînes d'acide palmitique.",
+              "explication": "Notées 16:0 sur le schéma de la diapositive n°13."
+            },
+            {
+              "reponse": "Dans le phosphatidylglycérol, un second glycérol remplace la choline.",
+              "explication": "Schéma de la diapositive n°13."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un surfactant composé uniquement de DPPC est très élastique.",
+              "explication": "Il est peu élastique et ne maintient pas les alvéoles ouvertes."
+            },
+            {
+              "reponse": "C'est principalement le cholestérol qui fluidifie la DPPC.",
+              "explication": "C'est principalement le phosphatidylglycérol."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol porte une tête de choline.",
+              "explication": "C'est la DPPC qui porte la choline ; le PG porte un second glycérol."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol apparaît tôt dans le développement pulmonaire.",
+              "explication": "Il apparaît tard."
+            },
+            {
+              "reponse": "Le taux de phosphatidylglycérol diminue à l'approche de la fin de la grossesse.",
+              "explication": "Il augmente."
+            },
+            {
+              "reponse": "La DPPC porte 2 chaînes d'acides gras insaturés.",
+              "explication": "Elle porte 2 chaînes d'acide palmitique (16:0), saturées."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les protéines du surfactant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "SP-A et SP-D sont hydrophiles et de grande taille"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe 4 principales protéines du surfactant : SP-A, SP-B, SP-C et SP-D.",
+              "explication": "SP pour surfactant protein."
+            },
+            {
+              "reponse": "SP-A et SP-D sont hydrophiles et de grande taille.",
+              "explication": "Elles contrôlent le métabolisme du surfactant."
+            },
+            {
+              "reponse": "SP-B et SP-C sont hydrophobes et de petite taille.",
+              "explication": "Elles facilitent l'adsorption des phospholipides."
+            },
+            {
+              "reponse": "La SP-A est un marqueur de maturation pulmonaire.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "SP-B et SP-C facilitent l'adsorption des phospholipides à l'interface air-liquide.",
+              "explication": "Adsorption : fixation à une surface."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol interagit avec la SP-B.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "SP-A et SP-D sont hydrophobes et de petite taille.",
+              "explication": "Elles sont hydrophiles et de grande taille."
+            },
+            {
+              "reponse": "SP-B et SP-C sont hydrophiles et de grande taille.",
+              "explication": "Elles sont hydrophobes et de petite taille."
+            },
+            {
+              "reponse": "La SP-C est le marqueur de maturation pulmonaire.",
+              "explication": "C'est la SP-A."
+            },
+            {
+              "reponse": "SP-B et SP-C facilitent l'absorption des phospholipides par les pneumocytes.",
+              "explication": "Erreur des notes corrigée : il s'agit de l'adsorption à l'interface air-liquide."
+            },
+            {
+              "reponse": "Le phosphatidylglycérol interagit avec la SP-D.",
+              "explication": "Il interagit avec la SP-B."
+            },
+            {
+              "reponse": "L'opsonisation correspond à la sortie des macrophages hors du capillaire.",
+              "explication": "Erreur des notes corrigée : cette sortie est la diapédèse ; l'opsonisation recouvre le microbe pour faciliter sa phagocytose."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-033",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles protéines du surfactant sont hydrophobes et de petite taille ? (2 réponses attendues)",
+          "cours": {
+            "page": 12,
+            "surligner": "SP-B et SP-C sont hydrophobes et de petite taille"
+          },
+          "bonnes": [
+            {
+              "reponse": "La SP-B est une protéine du surfactant hydrophobe et de petite taille.",
+              "explication": "Elle facilite l'adsorption des phospholipides."
+            },
+            {
+              "reponse": "La SP-C est une protéine du surfactant hydrophobe et de petite taille.",
+              "explication": "Elle facilite l'adsorption des phospholipides."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La SP-A est une protéine du surfactant hydrophobe et de petite taille.",
+              "explication": "Elle est hydrophile et de grande taille."
+            },
+            {
+              "reponse": "La SP-D est une protéine du surfactant hydrophobe et de petite taille.",
+              "explication": "Elle est hydrophile et de grande taille."
+            },
+            {
+              "reponse": "Le lysozyme est une protéine du surfactant hydrophobe et de petite taille.",
+              "explication": "Le lysozyme est une enzyme basique du mucus bronchique."
+            },
+            {
+              "reponse": "Les mucines sont des protéines du surfactant hydrophobes et de petite taille.",
+              "explication": "Ce sont des glycoprotéines de très haut poids moléculaire du mucus."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est une protéine du surfactant hydrophobe et de petite taille.",
+              "explication": "C'est une glycoprotéine antiprotéase, surtout d'origine hépatique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-034",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la régulation de la synthèse du surfactant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "l'insuline et les androgènes ralentissent la maturation"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'insuline ralentit la maturation du surfactant.",
+              "explication": "Facteur hormonal ralentisseur."
+            },
+            {
+              "reponse": "Les androgènes ralentissent la maturation du surfactant.",
+              "explication": "Facteur hormonal ralentisseur."
+            },
+            {
+              "reponse": "Les glucocorticoïdes accélèrent la maturation du surfactant.",
+              "explication": "Facteur hormonal accélérateur."
+            },
+            {
+              "reponse": "Les hormones thyroïdiennes accélèrent la maturation du surfactant.",
+              "explication": "Facteur hormonal accélérateur."
+            },
+            {
+              "reponse": "Les prostaglandines accélèrent la maturation du surfactant.",
+              "explication": "Facteur hormonal accélérateur."
+            },
+            {
+              "reponse": "Les facteurs de croissance accélèrent la maturation du surfactant.",
+              "explication": "Facteur accélérateur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'insuline accélère la maturation du surfactant.",
+              "explication": "Elle la ralentit."
+            },
+            {
+              "reponse": "Les androgènes accélèrent la maturation du surfactant.",
+              "explication": "Ils la ralentissent."
+            },
+            {
+              "reponse": "Les glucocorticoïdes ralentissent la maturation du surfactant.",
+              "explication": "Ils l'accélèrent."
+            },
+            {
+              "reponse": "Les hormones thyroïdiennes ralentissent la maturation du surfactant.",
+              "explication": "Elles l'accélèrent."
+            },
+            {
+              "reponse": "Les prostaglandines ralentissent la maturation du surfactant.",
+              "explication": "Elles l'accélèrent."
+            },
+            {
+              "reponse": "Le sexe féminin du fœtus augmente le risque de surfactant immature.",
+              "explication": "C'est le sexe masculin (androgènes) qui augmente ce risque."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-035",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels facteurs accélèrent la maturation du surfactant ? (3 réponses attendues)",
+          "cours": {
+            "page": 12,
+            "surligner": "les glucocorticoïdes, les prostaglandines"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les glucocorticoïdes accélèrent la maturation du surfactant.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les prostaglandines accélèrent la maturation du surfactant.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les hormones thyroïdiennes accélèrent la maturation du surfactant.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les facteurs de croissance accélèrent la maturation du surfactant.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'insuline accélère la maturation du surfactant.",
+              "explication": "Elle la ralentit."
+            },
+            {
+              "reponse": "Les androgènes accélèrent la maturation du surfactant.",
+              "explication": "Ils la ralentissent."
+            },
+            {
+              "reponse": "L'hyperinsulinisme fœtal accélère la maturation du surfactant.",
+              "explication": "L'insuline ralentit la maturation."
+            },
+            {
+              "reponse": "Le diabète maternel accélère la maturation du surfactant.",
+              "explication": "Il la ralentit."
+            },
+            {
+              "reponse": "Le sexe masculin du fœtus accélère la maturation du surfactant.",
+              "explication": "Les androgènes la ralentissent."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-036",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels facteurs augmentent le risque de détresse respiratoire du nouveau-né par immaturité du surfactant ? (3 réponses attendues)",
+          "cours": {
+            "page": 12,
+            "surligner": "prématurité, mère diabétique, sexe masculin"
+          },
+          "bonnes": [
+            {
+              "reponse": "La prématurité augmente le risque de détresse respiratoire du nouveau-né.",
+              "explication": "Point sur lequel l'enseignant a insisté."
+            },
+            {
+              "reponse": "Un diabète maternel augmente le risque de détresse respiratoire du nouveau-né.",
+              "explication": "L'insuline ralentit la maturation du surfactant."
+            },
+            {
+              "reponse": "Le sexe masculin du nouveau-né augmente le risque de détresse respiratoire.",
+              "explication": "Les androgènes ralentissent la maturation du surfactant."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une corticothérapie anténatale augmente le risque de détresse respiratoire du nouveau-né.",
+              "explication": "Les glucocorticoïdes accélèrent la maturation du surfactant."
+            },
+            {
+              "reponse": "Le sexe féminin du nouveau-né augmente le risque de détresse respiratoire.",
+              "explication": "C'est le sexe masculin qui est un facteur de risque."
+            },
+            {
+              "reponse": "Un taux élevé de phosphatidylglycérol dans le surfactant augmente le risque de détresse respiratoire.",
+              "explication": "Un taux élevé de PG témoigne d'un surfactant mature."
+            },
+            {
+              "reponse": "Un traitement par hormones thyroïdiennes augmente le risque de surfactant immature.",
+              "explication": "Les hormones thyroïdiennes accélèrent la maturation."
+            },
+            {
+              "reponse": "Une naissance à terme d'une mère non diabétique est le principal facteur de risque de détresse respiratoire par immaturité du surfactant.",
+              "explication": "Le risque concerne surtout le prématuré, le diabète maternel et le sexe masculin."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le syndrome de détresse respiratoire du nouveau-né, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "déficit de synthèse du surfactant, qualitatif ou quantitatif"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né correspond à un déficit de synthèse du surfactant qualitatif ou quantitatif.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né survient chez le prématuré.",
+              "explication": "La synthèse est tardive au cours de la grossesse."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire peut survenir chez un nouveau-né à terme dont la mère est diabétique.",
+              "explication": "Le diabète gestationnel est une pathologie fréquente."
+            },
+            {
+              "reponse": "Dans ce syndrome, les alvéoles éclatent les unes dans les autres quand le nouveau-né respire.",
+              "explication": "Le surfactant ne joue pas son rôle."
+            },
+            {
+              "reponse": "Chez le prématuré, la naissance est trop précoce par rapport à la maturité du phosphatidylglycérol.",
+              "explication": "D'où un surfactant immature."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né est très fréquent.",
+              "explication": "Syndrome à bien connaître, sur lequel l'enseignant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né correspond à un déficit uniquement quantitatif en surfactant.",
+              "explication": "Le déficit peut être qualitatif ou quantitatif."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né ne survient jamais chez un nouveau-né à terme.",
+              "explication": "Il peut survenir à terme quand la mère est diabétique."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né est dû à un excès de surfactant.",
+              "explication": "Il est dû à un déficit de surfactant."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né est dû à un déficit en alpha-1 antitrypsine.",
+              "explication": "Il est dû à un déficit en surfactant."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né est exceptionnel.",
+              "explication": "Il est très fréquent."
+            },
+            {
+              "reponse": "Le syndrome de détresse respiratoire du nouveau-né survient surtout chez le nouveau-né post-terme.",
+              "explication": "Il survient surtout chez le prématuré."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "L'alpha-1 antitrypsine"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-038",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2024-2025",
+                "qcm": 28
+              },
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2016-2017",
+                "qcm": 22
+              }
+            ]
+          },
+          "question": "Concernant l'alpha-1 antitrypsine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "C'est une antiprotéase : elle bloque des enzymes"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'alpha-1 antitrypsine est une antiprotéase qui limite l'action de l'élastase des polynucléaires neutrophiles.",
+              "annale": true,
+              "explication": "Sa cible principale est l'élastase des neutrophiles (anti-élastase leucocytaire). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "En cas de synthèse insuffisante d'alpha-1 antitrypsine, la paroi des alvéoles évolue vers l'emphysème par destruction des fibres d'élastine.",
+              "annale": true,
+              "explication": "Les élastases détruisent l'élastine des parois alvéolaires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est un marqueur de l'inflammation.",
+              "annale": true,
+              "explication": "Sa concentration peut être multipliée par 2 à 3 lors d'un processus inflammatoire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est une protéine synthétisée par le foie et le poumon.",
+              "annale": true,
+              "explication": "Par le foie principalement, et par l'épithélium pulmonaire et les macrophages. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le déficit de synthèse de l'alpha-1 antitrypsine est une pathologie génétique.",
+              "annale": true,
+              "explication": "Maladie génétique avec diminution de la concentration sérique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le déficit en alpha-1 antitrypsine est aggravé par le tabagisme.",
+              "annale": true,
+              "explication": "Le tabac augmente la libération d'élastase. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'alpha-1 antitrypsine est une enzyme synthétisée par le foie, l'épithélium pulmonaire et les macrophages.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Les lieux de synthèse sont exacts, mais c'est une glycoprotéine antiprotéase qui bloque des enzymes, pas une enzyme ; placé en faux selon cette lecture. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "Un déficit en alpha-1 antitrypsine se mesure par son activité dans le liquide pleural.",
+              "annale": true,
+              "explication": "Il se diagnostique par un dosage quantitatif de l'A1AT dans le sérum. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine protège le surfactant des structures alvéolaires.",
+              "annale": true,
+              "explication": "Elle protège l'élastine des parois alvéolaires contre l'élastase. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les caractéristiques de l'alpha-1 antitrypsine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "reconnu par des récepteurs hépatiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'alpha-1 antitrypsine est une glycoprotéine.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine plasmatique est synthétisée principalement par le foie.",
+              "explication": "Elle est aussi synthétisée par l'épithélium pulmonaire et les macrophages."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est aussi synthétisée par les macrophages.",
+              "explication": "Et par l'épithélium pulmonaire."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine forme avec l'élastase un complexe reconnu par des récepteurs hépatiques puis éliminé.",
+              "explication": "Complexe « A1AT-élastase »."
+            },
+            {
+              "reponse": "La concentration d'alpha-1 antitrypsine peut être multipliée par 2 à 3 lors d'un processus inflammatoire.",
+              "explication": "Pour protéger le poumon de l'attaque des neutrophiles."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine limite les dégâts collatéraux des neutrophiles.",
+              "explication": "En bloquant leur élastase."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'alpha-1 antitrypsine plasmatique est synthétisée principalement par le poumon.",
+              "explication": "Elle est synthétisée principalement par le foie."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est une protéase qui dégrade l'élastine.",
+              "explication": "C'est une antiprotéase qui empêche la dégradation de l'élastine."
+            },
+            {
+              "reponse": "Le complexe alpha-1 antitrypsine-élastase est éliminé par le rein.",
+              "explication": "Il est reconnu par des récepteurs hépatiques et éliminé."
+            },
+            {
+              "reponse": "La concentration d'alpha-1 antitrypsine diminue lors d'un processus inflammatoire.",
+              "explication": "Elle peut être multipliée par 2 à 3."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est un phospholipide du surfactant.",
+              "explication": "C'est une glycoprotéine antiprotéase."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine protège les élastases contre leur dégradation.",
+              "explication": "Erreur des notes corrigée : elle protège l'élastine contre les élastases."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-040",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la cible principale de l'alpha-1 antitrypsine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 13,
+            "surligner": "Sa cible principale est l'élastase des polynucléaires neutrophiles"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'élastase des polynucléaires neutrophiles.",
+              "explication": "Enzyme qui dégrade l'élastine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'élastine.",
+              "explication": "C'est la protéine que l'A1AT protège, pas sa cible."
+            },
+            {
+              "reponse": "Le lysozyme.",
+              "explication": "Enzyme antibactérienne du mucus, ce n'est pas la cible de l'A1AT."
+            },
+            {
+              "reponse": "Les mucines.",
+              "explication": "Glycoprotéines du mucus, ce ne sont pas la cible de l'A1AT."
+            },
+            {
+              "reponse": "Les peptidoglycanes bactériens.",
+              "explication": "C'est la cible du lysozyme."
+            },
+            {
+              "reponse": "La protéine SP-A du surfactant.",
+              "explication": "Ce n'est pas la cible de l'A1AT."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'équilibre protéases/antiprotéases dans le poumon, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "équilibre physiologique entre les concentrations de protéases"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe un équilibre physiologique entre les concentrations de protéases et d'antiprotéases dans le poumon.",
+              "explication": "Il protège les structures pulmonaires."
+            },
+            {
+              "reponse": "Cet équilibre protège les structures pulmonaires de la toxicité de l'élastase neutrophile.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "En cas de déséquilibre, les élastases détruisent l'élastine des parois alvéolaires.",
+              "explication": "Les alvéoles ne peuvent plus se dilater correctement."
+            },
+            {
+              "reponse": "Sans protection par l'alpha-1 antitrypsine, les alvéoles perdent leur fonction par déchirure avec formation de bulles d'emphysème.",
+              "explication": "Rôle protecteur de l'A1AT."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine préserve l'élasticité des alvéoles.",
+              "explication": "En empêchant la dégradation de l'élastine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un excès d'alpha-1 antitrypsine entraîne la destruction des parois alvéolaires.",
+              "explication": "C'est un déficit en A1AT (excès relatif d'élastase) qui les détruit."
+            },
+            {
+              "reponse": "L'élastase des neutrophiles protège l'élastine des parois alvéolaires.",
+              "explication": "Elle dégrade l'élastine."
+            },
+            {
+              "reponse": "En cas de déséquilibre en faveur des protéases, les alvéoles se dilatent mieux.",
+              "explication": "Elles ne peuvent plus se dilater correctement."
+            },
+            {
+              "reponse": "L'équilibre protéases/antiprotéases protège le poumon de la toxicité du surfactant.",
+              "explication": "Il protège de la toxicité de l'élastase neutrophile."
+            },
+            {
+              "reponse": "L'alpha-1 antitrypsine est un marqueur de maturation pulmonaire.",
+              "explication": "C'est la SP-A du surfactant."
+            },
+            {
+              "reponse": "L'élastine est une enzyme libérée par les neutrophiles.",
+              "explication": "L'élastine est la protéine qui donne leur élasticité aux tissus ; l'enzyme est l'élastase."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le déficit en alpha-1 antitrypsine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Nul : absence totale d'A1AT"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le déficit en alpha-1 antitrypsine est une maladie génétique.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le déficit en alpha-1 antitrypsine se caractérise par une diminution de la concentration sérique d'A1AT.",
+              "explication": "Par rapport à la population normale."
+            },
+            {
+              "reponse": "Le diagnostic du déficit repose sur un dosage quantitatif de l'A1AT dans le sérum.",
+              "explication": "Il faut ensuite caractériser l'anomalie."
+            },
+            {
+              "reponse": "Le variant M de l'alpha-1 antitrypsine est le variant normal.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les variants S et Z de l'alpha-1 antitrypsine s'accompagnent d'une concentration diminuée.",
+              "explication": "Donnée des diapositives."
+            },
+            {
+              "reponse": "Le variant Nul correspond à une absence totale d'A1AT.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les manifestations cliniques prédominantes du déficit sont pulmonaires et hépatiques.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le déficit en alpha-1 antitrypsine est une maladie acquise.",
+              "explication": "C'est une maladie génétique."
+            },
+            {
+              "reponse": "Le diagnostic du déficit repose sur le dosage de l'A1AT dans le liquide pleural.",
+              "explication": "Il repose sur un dosage quantitatif dans le sérum."
+            },
+            {
+              "reponse": "Le variant Z de l'alpha-1 antitrypsine est le variant normal.",
+              "explication": "Le variant normal est M ; Z s'accompagne d'une concentration diminuée."
+            },
+            {
+              "reponse": "Le variant M correspond à une absence totale d'A1AT.",
+              "explication": "M est le variant normal ; l'absence totale correspond au variant Nul."
+            },
+            {
+              "reponse": "Les manifestations cliniques prédominantes du déficit sont rénales.",
+              "explication": "Elles sont pulmonaires et hépatiques."
+            },
+            {
+              "reponse": "Le diagnostic du déficit est difficile et nécessite une biopsie pulmonaire.",
+              "explication": "Il est facile : un dosage sérique suffit."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-043",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel variant de l'alpha-1 antitrypsine correspond au variant normal ? (une seule réponse attendue)",
+          "cours": {
+            "page": 14,
+            "surligner": "M : variant normal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le variant M.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le variant S.",
+              "explication": "Concentration d'A1AT diminuée."
+            },
+            {
+              "reponse": "Le variant Z.",
+              "explication": "Concentration d'A1AT diminuée."
+            },
+            {
+              "reponse": "Le variant Nul.",
+              "explication": "Absence totale d'A1AT."
+            },
+            {
+              "reponse": "Le variant ZZ.",
+              "explication": "Il associe deux allèles Z, à concentration diminuée."
+            },
+            {
+              "reponse": "Le variant SZ.",
+              "explication": "Il associe deux allèles à concentration diminuée."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'emphysème lié au déficit en alpha-1 antitrypsine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "débute entre 30 et 40 ans"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans l'emphysème, les alvéoles qui ne sont plus élastiques éclatent les unes dans les autres et forment des macrobulles.",
+              "explication": "Si elles se gonflent trop."
+            },
+            {
+              "reponse": "Les macrobulles de l'emphysème diminuent fortement la surface d'échange.",
+              "explication": "Une grosse bulle remplace de nombreuses petites alvéoles."
+            },
+            {
+              "reponse": "Dans l'emphysème, la clairance est moins bonne et l'inflammation s'entretient.",
+              "explication": "Les dépôts ne sont pas éliminés."
+            },
+            {
+              "reponse": "L'emphysème pulmonaire déficitaire primaire débute entre 30 et 40 ans.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "La fumée de tabac augmente la libération d'élastase par une inflammation bronchique chronique.",
+              "explication": "Alors que l'A1AT est insuffisante pour la neutraliser."
+            },
+            {
+              "reponse": "Dans le déficit en alpha-1 antitrypsine, l'arrêt du tabac est recommandé dès le diagnostic.",
+              "explication": "Le tabac est une contre-indication."
+            },
+            {
+              "reponse": "Un dépistage peut être proposé dans les familles où la maladie est connue.",
+              "explication": "C'est une maladie génétique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'emphysème pulmonaire déficitaire primaire débute entre 60 et 70 ans.",
+              "explication": "Il débute entre 30 et 40 ans."
+            },
+            {
+              "reponse": "Le tabac est un facteur protecteur dans le déficit en alpha-1 antitrypsine.",
+              "explication": "C'est un facteur aggravant."
+            },
+            {
+              "reponse": "La fumée de tabac diminue la libération d'élastase.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "Les macrobulles de l'emphysème augmentent la surface d'échange.",
+              "explication": "Elles la diminuent fortement."
+            },
+            {
+              "reponse": "Le dépistage familial est inutile dans le déficit en alpha-1 antitrypsine.",
+              "explication": "Il peut être fait dans les familles où la maladie est connue."
+            },
+            {
+              "reponse": "L'emphysème est une pathologie exceptionnelle.",
+              "explication": "Le cours la décrit comme assez fréquente."
+            },
+            {
+              "reponse": "Le tabac est le seul polluant capable d'aggraver le déficit en alpha-1 antitrypsine.",
+              "explication": "D'autres polluants peuvent jouer le même rôle."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-045",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À quel âge débute habituellement l'emphysème pulmonaire déficitaire primaire ? (une seule réponse attendue)",
+          "cours": {
+            "page": 14,
+            "surligner": "débute entre 30 et 40 ans"
+          },
+          "bonnes": [
+            {
+              "reponse": "Entre 30 et 40 ans.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dès la période néonatale.",
+              "explication": "Il débute entre 30 et 40 ans."
+            },
+            {
+              "reponse": "Entre 10 et 20 ans.",
+              "explication": "Il débute entre 30 et 40 ans."
+            },
+            {
+              "reponse": "Entre 50 et 60 ans.",
+              "explication": "Il débute entre 30 et 40 ans."
+            },
+            {
+              "reponse": "Entre 60 et 70 ans.",
+              "explication": "Il débute entre 30 et 40 ans."
+            },
+            {
+              "reponse": "Après 80 ans.",
+              "explication": "Il débute entre 30 et 40 ans."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Le liquide pleural"
+      },
+      "questions": [
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-046",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2022-2023",
+                "qcm": 22
+              }
+            ]
+          },
+          "question": "Concernant la ponction pleurale et l'analyse du liquide, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "épanchements inflammatoires exsudatifs : protéines supérieures"
+          },
+          "bonnes": [
+            {
+              "reponse": "La présence de chylomicrons dans le liquide pleural est possible en cas de lésion du canal thoracique.",
+              "annale": true,
+              "explication": "Le liquide contient alors de nombreux chylomicrons venus de la lymphe. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La ponction pleurale se fait avec un système anti-retour pour éviter l'entrée d'air dans l'espace pleural.",
+              "annale": true,
+              "explication": "Il faut fermer le robinet : de l'air remplacerait le liquide et provoquerait un pneumothorax. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le site de prélèvement de la ponction pleurale se situe dans les culs-de-sac pleuraux.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le cours indique de piquer à la partie basse ; le cours d'anatomie (annales) décrit des récessus costo-diaphragmatiques ponctionnables car sans parenchyme pulmonaire. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un épanchement inflammatoire exsudatif contient moins de 30 g/L de protéines.",
+              "annale": true,
+              "explication": "Il en contient plus de 30 g/L. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un épanchement inflammatoire transsudatif contient moins de 20 g/L de protéines.",
+              "annale": true,
+              "explication": "Le transsudat est mécanique et non inflammatoire, avec un seuil à 25 g/L. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-047",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Appareil respiratoire",
+                "discipline": "Biochimie",
+                "annee": "2016-2017",
+                "qcm": 21
+              }
+            ]
+          },
+          "question": "Concernant le mucus bronchique, le liquide pleural et sa ponction, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Il permet aux 2 feuillets de glisser"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le liquide bronchique présente une couche superficielle visqueuse et une couche profonde fluide entraînée vers le carrefour aéro-digestif.",
+              "annale": true,
+              "explication": "Phase gel superficielle et phase solution profonde mise en mouvement par les cils. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le liquide pleural permet physiologiquement aux 2 feuillets de la plèvre de coulisser l'un sur l'autre lors des mouvements respiratoires.",
+              "annale": true,
+              "explication": "Rôle du liquide pleural. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le pneumothorax peut compliquer la ponction de liquide pleural.",
+              "annale": true,
+              "explication": "C'est la complication majeure du geste. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La présence de chylomicrons dans le liquide pleural doit faire suspecter une lésion du canal thoracique.",
+              "annale": true,
+              "explication": "Par exemple une déchirure traumatique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La présence de 10 g/L de protéines dans le liquide pleural oriente vers un exsudat.",
+              "annale": true,
+              "explication": "Moins de 25 g/L oriente vers un transsudat. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-048",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le liquide pleural et l'épanchement pleural, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "Il est physiologique en très petite quantité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le liquide pleural se situe entre la plèvre viscérale et la plèvre pariétale.",
+              "explication": "Dans une cavité virtuelle."
+            },
+            {
+              "reponse": "Le liquide pleural permet aux 2 feuillets de la plèvre de glisser l'un sur l'autre.",
+              "explication": "Lors des mouvements respiratoires."
+            },
+            {
+              "reponse": "Le liquide pleural est physiologique en très petite quantité.",
+              "explication": "Son volume est quasi inexistant et invisible à l'échographie."
+            },
+            {
+              "reponse": "Un épanchement pleural peut être dû à une production excessive de liquide.",
+              "explication": "Première cause de syndrome d'épanchement."
+            },
+            {
+              "reponse": "Un épanchement pleural peut être dû à un défaut de résorption du liquide.",
+              "explication": "Un processus pathologique empêche sa résorption normale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le liquide pleural physiologique est abondant et bien visible à l'échographie.",
+              "explication": "Il est en très petite quantité, invisible à l'échographie."
+            },
+            {
+              "reponse": "Le liquide pleural se situe entre la plèvre pariétale et la paroi thoracique.",
+              "explication": "Il se situe entre les 2 feuillets de la plèvre."
+            },
+            {
+              "reponse": "Le liquide pleural empêche les feuillets de la plèvre de glisser l'un sur l'autre.",
+              "explication": "Il leur permet de glisser."
+            },
+            {
+              "reponse": "Un épanchement pleural est toujours dû à un excès de production de liquide.",
+              "explication": "Il peut aussi être dû à un défaut de résorption."
+            },
+            {
+              "reponse": "La cavité pleurale est physiologiquement une cavité réelle remplie d'air.",
+              "explication": "C'est une cavité virtuelle contenant une très petite quantité de liquide."
+            },
+            {
+              "reponse": "Le liquide pleural est sécrété par les pneumocytes de type II.",
+              "explication": "Les pneumocytes de type II sécrètent le surfactant."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'exsudat et le transsudat pleuraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "augmentation de la perméabilité capillaire d'origine inflammatoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'exsudat résulte d'une augmentation de la perméabilité capillaire d'origine inflammatoire.",
+              "explication": "La paroi capillaire altérée laisse tout passer."
+            },
+            {
+              "reponse": "L'exsudat est riche en protéines.",
+              "explication": "EXsudat comme EXcès, donc riche."
+            },
+            {
+              "reponse": "Le transsudat résulte d'un phénomène mécanique.",
+              "explication": "Augmentation de la pression capillaire ou baisse de la pression oncotique."
+            },
+            {
+              "reponse": "Une augmentation de la pression capillaire pulmonaire peut donner un transsudat.",
+              "explication": "Phénomène mécanique."
+            },
+            {
+              "reponse": "Une diminution de la pression oncotique du plasma peut donner un transsudat.",
+              "explication": "Phénomène mécanique."
+            },
+            {
+              "reponse": "Le transsudat est pauvre en protéines.",
+              "explication": "Le liquide est filtré par la paroi capillaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'exsudat est pauvre en protéines.",
+              "explication": "Il est riche en protéines."
+            },
+            {
+              "reponse": "Le transsudat est d'origine inflammatoire.",
+              "explication": "Il est d'origine mécanique."
+            },
+            {
+              "reponse": "Le transsudat est riche en protéines.",
+              "explication": "Il est pauvre en protéines."
+            },
+            {
+              "reponse": "Une augmentation de la pression oncotique du plasma donne un transsudat.",
+              "explication": "C'est une diminution de la pression oncotique qui donne un transsudat."
+            },
+            {
+              "reponse": "L'exsudat résulte d'une diminution de la perméabilité capillaire.",
+              "explication": "Il résulte d'une augmentation de la perméabilité capillaire."
+            },
+            {
+              "reponse": "Une diminution de la pression capillaire pulmonaire donne un transsudat.",
+              "explication": "C'est une augmentation de la pression capillaire."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-050",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel mécanisme est à l'origine d'un exsudat pleural ? (une seule réponse attendue)",
+          "cours": {
+            "page": 14,
+            "surligner": "augmentation de la perméabilité capillaire d'origine inflammatoire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une augmentation de la perméabilité capillaire d'origine inflammatoire.",
+              "explication": "La paroi capillaire laisse passer l'eau et les protéines."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une augmentation de la pression capillaire pulmonaire.",
+              "explication": "Ce mécanisme donne un transsudat."
+            },
+            {
+              "reponse": "Une diminution de la pression oncotique du plasma.",
+              "explication": "Ce mécanisme donne un transsudat."
+            },
+            {
+              "reponse": "Une diminution de la perméabilité capillaire.",
+              "explication": "L'exsudat est dû à une augmentation de la perméabilité."
+            },
+            {
+              "reponse": "Une augmentation de la résorption du liquide pleural.",
+              "explication": "Elle diminuerait le liquide au lieu de produire un épanchement."
+            },
+            {
+              "reponse": "Une entrée d'air dans la cavité pleurale.",
+              "explication": "C'est un pneumothorax, pas un exsudat."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-051",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les origines et la prise en charge d'un épanchement pleural, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "on cherche à identifier la nature du liquide"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une pancréatite peut être à l'origine d'un épanchement pleural de liquide inflammatoire.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Une déchirure du canal thoracique peut être à l'origine d'un épanchement de lymphe.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Devant un épanchement visible à la radiographie, on cherche à identifier la nature du liquide.",
+              "explication": "Pour en déduire le problème sous-jacent (aspect diagnostique)."
+            },
+            {
+              "reponse": "L'évacuation d'un épanchement pleural a aussi un intérêt curatif.",
+              "explication": "Un poumon refoulé par 1 à 2 litres de liquide se gonfle moins bien."
+            },
+            {
+              "reponse": "Le recueil du liquide se fait par ponction pleurale.",
+              "explication": "Geste médical, voire chirurgical."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un épanchement pleural est toujours d'origine cardiaque.",
+              "explication": "Il a plusieurs origines possibles (pancréatite, canal thoracique…)."
+            },
+            {
+              "reponse": "La ponction pleurale a un intérêt purement diagnostique, jamais curatif.",
+              "explication": "Elle a aussi un intérêt curatif."
+            },
+            {
+              "reponse": "Un poumon refoulé par un épanchement ventile mieux.",
+              "explication": "Il se gonfle moins bien."
+            },
+            {
+              "reponse": "Une pancréatite donne un épanchement pleural mécanique transsudatif.",
+              "explication": "Elle donne un liquide inflammatoire."
+            },
+            {
+              "reponse": "Une déchirure du canal thoracique donne un épanchement de mucus.",
+              "explication": "Elle donne un épanchement de lymphe."
+            },
+            {
+              "reponse": "La ponction pleurale est un geste réalisé sans précaution d'asepsie.",
+              "explication": "Elle impose asepsie, anesthésie locale et port de gants."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-052",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la technique de la ponction pleurale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "on pique à la partie basse"
+          },
+          "bonnes": [
+            {
+              "reponse": "La ponction pleurale nécessite asepsie, anesthésie locale et port de gants.",
+              "explication": "En raison du risque d'infection."
+            },
+            {
+              "reponse": "Lors de la ponction pleurale, on pique à la partie basse de l'épanchement.",
+              "explication": "En bas, on atteint le liquide avant d'atteindre le poumon."
+            },
+            {
+              "reponse": "Le patient est installé de façon à dérouler au maximum les côtes.",
+              "explication": "Pour écarter les côtes."
+            },
+            {
+              "reponse": "La ponction pleurale utilise un trocart.",
+              "explication": "Aiguille initiale très pointue qui renferme une partie arrondie."
+            },
+            {
+              "reponse": "Le bout arrondi du trocart permet de ponctionner le liquide sans transpercer le poumon.",
+              "explication": "Le poumon se rapproche de l'aiguille à mesure que le liquide est retiré."
+            },
+            {
+              "reponse": "Le liquide est aspiré par le petit orifice latéral du trocart.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il faut fermer le robinet après avoir retiré la seringue.",
+              "explication": "Pour éviter un pneumothorax accidentel."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Lors de la ponction pleurale, on pique à la partie haute de l'épanchement.",
+              "explication": "En haut se trouve le parenchyme pulmonaire : on pique en bas."
+            },
+            {
+              "reponse": "La partie pointue du trocart est utilisée pour traverser la plèvre et ponctionner le liquide.",
+              "explication": "C'est le bout arrondi, non piquant, qui traverse la plèvre."
+            },
+            {
+              "reponse": "Le liquide est aspiré par un orifice situé à la pointe du trocart.",
+              "explication": "Il est aspiré par le petit orifice latéral."
+            },
+            {
+              "reponse": "On peut laisser le tube ouvert sans risque après avoir retiré la seringue.",
+              "explication": "De l'air remplacerait le liquide : pneumothorax."
+            },
+            {
+              "reponse": "La complication majeure de la ponction pleurale est le chylothorax.",
+              "explication": "C'est le pneumothorax."
+            },
+            {
+              "reponse": "La ponction pleurale se fait sans anesthésie locale.",
+              "explication": "Elle se fait sous anesthésie locale."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-053",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la complication majeure de la ponction pleurale ? (une seule réponse attendue)",
+          "cours": {
+            "page": 16,
+            "surligner": "complication majeure du geste"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le pneumothorax.",
+              "explication": "Piquer le parenchyme ou laisser entrer de l'air provoque un pneumothorax."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le chylothorax.",
+              "explication": "Il est lié à une lésion du canal thoracique."
+            },
+            {
+              "reponse": "L'emphysème pulmonaire.",
+              "explication": "Il est lié notamment au déficit en alpha-1 antitrypsine."
+            },
+            {
+              "reponse": "La pancréatite aiguë.",
+              "explication": "C'est une cause possible d'épanchement, pas une complication de la ponction."
+            },
+            {
+              "reponse": "L'apparition d'un transsudat.",
+              "explication": "Le transsudat est un type d'épanchement d'origine mécanique."
+            },
+            {
+              "reponse": "La fibrose pulmonaire.",
+              "explication": "Ce n'est pas la complication du geste décrite dans le cours."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-054",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le pneumothorax lors d'une ponction pleurale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "à cause d'un effet de clapet"
+          },
+          "bonnes": [
+            {
+              "reponse": "Si l'on laisse le tube ouvert après avoir retiré la seringue, de l'air remplace le liquide et le poumon se rétracte.",
+              "explication": "C'est un pneumothorax."
+            },
+            {
+              "reponse": "Piquer le poumon lors de la ponction est particulièrement dangereux à cause d'un effet de clapet.",
+              "explication": "Précision donnée à l'oral."
+            },
+            {
+              "reponse": "Lors de l'effet de clapet, l'air sorti du poumon reste piégé dans la plèvre.",
+              "explication": "Il ne peut pas revenir dans le poumon."
+            },
+            {
+              "reponse": "Le pneumothorax est une urgence.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "En cas de rétraction importante, on aspire l'air par un système de dépression qui ramène le poumon à la paroi.",
+              "explication": "Pour lever la surpression gazeuse."
+            },
+            {
+              "reponse": "En cas de fuite prolongée, on peut poudrer l'intérieur de la plèvre avec du talc pour coller le poumon à la paroi.",
+              "explication": "Le talc crée une réaction inflammatoire (précision donnée à l'oral)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Lors de l'effet de clapet, l'air piégé dans la plèvre revient dans le poumon à chaque expiration.",
+              "explication": "L'air reste piégé dans la plèvre."
+            },
+            {
+              "reponse": "Le pneumothorax n'est pas une urgence.",
+              "explication": "C'est une urgence."
+            },
+            {
+              "reponse": "Le talc pleural est utilisé pour décoller le poumon de la paroi.",
+              "explication": "Il colle le poumon à la paroi."
+            },
+            {
+              "reponse": "Le talc pleural agit en supprimant toute réaction inflammatoire.",
+              "explication": "Il crée une réaction inflammatoire qui colle le poumon à la paroi."
+            },
+            {
+              "reponse": "On traite un pneumothorax important en insufflant de l'air dans la cavité pleurale.",
+              "explication": "On aspire l'air par un système de dépression."
+            },
+            {
+              "reponse": "Dans un pneumothorax, le poumon reste plaqué contre la paroi.",
+              "explication": "Le poumon se rétracte."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-055",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le dosage des protéines dans le liquide pleural, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Le principal intérêt des analyses biochimiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le principal intérêt des analyses biochimiques du liquide pleural est d'opposer transsudat et exsudat.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le dosage des protéines du liquide pleural est indispensable.",
+              "explication": "Pour séparer exsudat et transsudat."
+            },
+            {
+              "reponse": "Un épanchement inflammatoire exsudatif contient plus de 30 g/L de protéines.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Un épanchement mécanique transsudatif contient moins de 25 g/L de protéines.",
+              "explication": "Seuil du cours."
+            },
+            {
+              "reponse": "Entre 25 et 30 g/L de protéines, on se trouve dans une zone grise.",
+              "explication": "Ni exsudat ni transsudat certain."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un épanchement exsudatif contient moins de 25 g/L de protéines.",
+              "explication": "Il en contient plus de 30 g/L."
+            },
+            {
+              "reponse": "Un épanchement transsudatif contient plus de 30 g/L de protéines.",
+              "explication": "Il en contient moins de 25 g/L."
+            },
+            {
+              "reponse": "La zone grise du dosage des protéines pleurales se situe entre 20 et 25 g/L.",
+              "explication": "Elle se situe entre 25 et 30 g/L."
+            },
+            {
+              "reponse": "Le dosage des protéines du liquide pleural est facultatif.",
+              "explication": "Il est indispensable."
+            },
+            {
+              "reponse": "Un liquide pleural à 10 g/L de protéines oriente vers un exsudat.",
+              "explication": "Moins de 25 g/L oriente vers un transsudat."
+            },
+            {
+              "reponse": "Le principal intérêt des analyses biochimiques du liquide pleural est de doser l'alpha-1 antitrypsine.",
+              "explication": "C'est d'opposer transsudat et exsudat."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-056",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Un liquide pleural contient 40 g/L de protéines. Vers quoi cette valeur oriente-t-elle ? (une seule réponse attendue)",
+          "cours": {
+            "page": 17,
+            "surligner": "épanchements inflammatoires exsudatifs : protéines supérieures"
+          },
+          "bonnes": [
+            {
+              "reponse": "Vers un exsudat.",
+              "explication": "Plus de 30 g/L de protéines : épanchement inflammatoire exsudatif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Vers un transsudat.",
+              "explication": "Un transsudat contient moins de 25 g/L de protéines."
+            },
+            {
+              "reponse": "Vers la zone grise entre exsudat et transsudat.",
+              "explication": "La zone grise se situe entre 25 et 30 g/L."
+            },
+            {
+              "reponse": "Vers un liquide pleural physiologique.",
+              "explication": "Le liquide physiologique est en quantité quasi inexistante ; un épanchement à 40 g/L est pathologique."
+            },
+            {
+              "reponse": "Vers un épanchement dû à une augmentation de la pression capillaire pulmonaire.",
+              "explication": "Ce mécanisme donne un transsudat, pauvre en protéines."
+            },
+            {
+              "reponse": "Vers un épanchement dû à une baisse de la pression oncotique du plasma.",
+              "explication": "Ce mécanisme donne un transsudat, pauvre en protéines."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-057",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dosages de l'amylase et des lipides dans le liquide pleural, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Dosage de l'amylase : une amylopleurie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une amylopleurie 10 à 20 fois supérieure à l'amylasémie est en faveur d'une origine pancréatique de l'épanchement.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "En cas de pancréatite, les sécrétions pancréatiques peuvent diffuser à travers le diaphragme.",
+              "explication": "Ce qui élève fortement l'amylase pleurale."
+            },
+            {
+              "reponse": "Devant un épanchement lactescent, on dose les lipides et on recherche des chylomicrons.",
+              "explication": "Cholestérol et triglycérides."
+            },
+            {
+              "reponse": "Un épanchement riche en chylomicrons évoque une atteinte du canal thoracique.",
+              "explication": "Où confluent les vaisseaux lymphatiques."
+            },
+            {
+              "reponse": "Le canal thoracique peut être déchiré par un traumatisme.",
+              "explication": "Par exemple un accident de la route."
+            },
+            {
+              "reponse": "Les chylomicrons du liquide pleural viennent de la circulation lymphatique après les repas.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une amylopleurie inférieure à l'amylasémie est en faveur d'une origine pancréatique.",
+              "explication": "C'est une amylopleurie 10 à 20 fois supérieure à l'amylasémie."
+            },
+            {
+              "reponse": "Le dosage de l'amylase pleurale sert à rechercher une lésion du canal thoracique.",
+              "explication": "Il oriente vers une origine pancréatique."
+            },
+            {
+              "reponse": "La présence de chylomicrons dans le liquide pleural oriente vers une pancréatite.",
+              "explication": "Elle oriente vers une atteinte du canal thoracique."
+            },
+            {
+              "reponse": "Un épanchement lactescent oriente vers une origine pancréatique.",
+              "explication": "Il oriente vers une atteinte du canal thoracique."
+            },
+            {
+              "reponse": "Les chylomicrons du liquide pleural proviennent du foie à jeun.",
+              "explication": "Ils viennent de la lymphe, après les repas."
+            },
+            {
+              "reponse": "Le dosage des lipides du liquide pleural sert à opposer exsudat et transsudat.",
+              "explication": "C'est le rôle du dosage des protéines."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-058",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles anomalies du liquide pleural sont en faveur d'une pleurésie infectieuse ? (3 réponses attendues)",
+          "cours": {
+            "page": 18,
+            "surligner": "un pH diminué, un lactate augmenté"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un pH diminué du liquide pleural est en faveur d'une infection.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Un lactate augmenté dans le liquide pleural est en faveur d'une infection.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Un glucose diminué dans le liquide pleural est en faveur d'une infection.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Des protéines augmentées dans le liquide pleural sont en faveur d'une infection.",
+              "explication": "Donnée du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un pH augmenté du liquide pleural est en faveur d'une infection.",
+              "explication": "L'infection diminue le pH."
+            },
+            {
+              "reponse": "Un lactate diminué dans le liquide pleural est en faveur d'une infection.",
+              "explication": "L'infection augmente le lactate."
+            },
+            {
+              "reponse": "Un glucose augmenté dans le liquide pleural est en faveur d'une infection.",
+              "explication": "L'infection diminue le glucose."
+            },
+            {
+              "reponse": "Des protéines inférieures à 25 g/L sont en faveur d'une pleurésie infectieuse.",
+              "explication": "Ce taux oriente vers un transsudat mécanique."
+            },
+            {
+              "reponse": "La présence de chylomicrons dans le liquide pleural est en faveur d'une infection.",
+              "explication": "Elle oriente vers une atteinte du canal thoracique."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-059",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les autres dosages du liquide pleural, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "oriente en général vers une origine bactérienne"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un pH acide avec un lactate élevé dans le liquide pleural oriente en général vers une origine bactérienne.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les dosages du glucose et de l'acide hyaluronique dans le liquide pleural sont rares.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le dosage d'autres enzymes dans le liquide pleural apporte un renseignement incertain.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Il faut connaître les valeurs de référence et l'utilité attendue de chaque dosage du liquide pleural.",
+              "explication": "Il ne faut pas doser tout et n'importe quoi."
+            },
+            {
+              "reponse": "Il faut analyser l'environnement du patient pour savoir si une pathologie pleurale peut être liée à l'amiante.",
+              "explication": "Précision donnée à l'oral."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un pH alcalin avec un lactate bas oriente vers une origine bactérienne.",
+              "explication": "C'est un pH acide avec un lactate élevé."
+            },
+            {
+              "reponse": "Les dosages du glucose et de l'acide hyaluronique pleuraux sont des examens de routine.",
+              "explication": "Ils sont rares."
+            },
+            {
+              "reponse": "Le dosage systématique de toutes les enzymes est recommandé dans le liquide pleural.",
+              "explication": "Il ne faut pas doser tout et n'importe quoi ; ce dosage est peu informatif."
+            },
+            {
+              "reponse": "Le dosage d'autres enzymes dans le liquide pleural apporte un renseignement fiable.",
+              "explication": "Il apporte un renseignement incertain."
+            },
+            {
+              "reponse": "L'amiante est sans lien avec les cancers.",
+              "explication": "L'amiante peut causer des cancers."
+            },
+            {
+              "reponse": "L'environnement du patient n'a pas d'intérêt dans l'analyse d'une pathologie pleurale.",
+              "explication": "Il faut l'analyser (exposition professionnelle, mode de vie…)."
+            }
+          ]
+        },
+        {
+          "id": "resp-biochim-mucus-surfactant-pleural-060",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'orientation donnée par les dosages du liquide pleural, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "Dosage des protéines : il est indispensable"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le dosage des protéines du liquide pleural sert à séparer exsudat et transsudat.",
+              "explication": "Seuils de 25 et 30 g/L."
+            },
+            {
+              "reponse": "Le dosage de l'amylase du liquide pleural oriente vers une origine pancréatique.",
+              "explication": "Si l'amylopleurie dépasse 10 à 20 fois l'amylasémie."
+            },
+            {
+              "reponse": "La recherche de chylomicrons dans le liquide pleural oriente vers une atteinte du canal thoracique.",
+              "explication": "Épanchement lactescent."
+            },
+            {
+              "reponse": "Le pH et le lactate du liquide pleural orientent vers une origine bactérienne.",
+              "explication": "pH acide et lactate élevé."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le dosage de l'amylase du liquide pleural sert principalement à opposer exsudat et transsudat.",
+              "explication": "C'est le rôle du dosage des protéines."
+            },
+            {
+              "reponse": "La recherche de chylomicrons dans le liquide pleural oriente vers une infection bactérienne.",
+              "explication": "Elle oriente vers une atteinte du canal thoracique."
+            },
+            {
+              "reponse": "Le dosage des protéines du liquide pleural oriente vers une origine pancréatique.",
+              "explication": "C'est le dosage de l'amylase."
+            },
+            {
+              "reponse": "Un glucose pleural augmenté oriente vers une infection bactérienne.",
+              "explication": "L'infection diminue le glucose."
+            },
+            {
+              "reponse": "Le pH du liquide pleural sert à rechercher une lésion du canal thoracique.",
+              "explication": "On recherche alors des chylomicrons et on dose les lipides."
+            },
+            {
+              "reponse": "Un liquide pleural pauvre en protéines oriente vers un exsudat.",
+              "explication": "Il oriente vers un transsudat."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
