@@ -1,0 +1,2353 @@
+{
+  "meta": {
+    "theme": "Pharmacologie",
+    "section": "Pharmacologie des systèmes",
+    "titre": "Pharmacologie du système histaminergique",
+    "description": "Histamine, bétahistine et antihistaminiques (H1 de 1re et 2e génération, indirects, H2, H3 et H4) : mécanismes, indications, effets indésirables.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "btm-pharmaco-histamine.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Rappels sur l'histamine"
+      },
+      "questions": [
+        {
+          "id": "btm-pharmaco-histamine-001",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2025-2026",
+                "session": 1,
+                "qcm": 13
+              }
+            ]
+          },
+          "question": "Concernant l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "On retrouve l'histamine dans 4 types cellulaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les aliments comme la charcuterie, le fromage ou le vin peuvent entraîner une libération non spécifique d'histamine.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Correction de l'annale : certains aliments (charcuterie, fromage, vin, fraises, crustacés…) libèrent l'histamine de façon non spécifique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les récepteurs histaminergiques sont couplés à une protéine G.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Correction de l'annale : les 4 récepteurs H1 à H4 sont couplés aux protéines G (7 hélices transmembranaires). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'histamine est impliquée dans le mécanisme de l'allergie.",
+              "annale": true,
+              "explication": "Correction de l'annale : la liaison antigène-IgE sur les mastocytes et basophiles libère l'histamine, responsable des symptômes allergiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il n'y a pas de neurones histaminergiques dans le système nerveux central.",
+              "annale": true,
+              "explication": "Correction de l'annale : les neurones histaminergiques sont l'un des 4 types cellulaires contenant de l'histamine, et ils sont centraux."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 diminue la sécrétion salivaire.",
+              "annale": true,
+              "explication": "Correction de l'annale : la stimulation H1 augmente la sécrétion salivaire."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-002",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "session": 1,
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Concernant l'histamine et ses récepteurs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "vasodilatation et augmentation de la perméabilité"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'histamine est synthétisée à partir de la L-histidine.",
+              "annale": true,
+              "explication": "Correction de l'annale : elle provient essentiellement de la décarboxylation de l'histidine."
+            },
+            {
+              "reponse": "L'histamine est impliquée dans la physiopathologie de l'allergie.",
+              "annale": true,
+              "explication": "Correction de l'annale : libérée par les mastocytes et basophiles après liaison antigène-IgE, elle augmente la perméabilité capillaire."
+            },
+            {
+              "reponse": "Les récepteurs H2 sont exprimés par les cellules pariétales gastriques.",
+              "annale": true,
+              "explication": "Correction de l'annale : leur stimulation augmente la sécrétion d'acide gastrique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'histamine est peu présente dans les mastocytes.",
+              "annale": true,
+              "explication": "Correction de l'annale : au contraire, les mastocytes sont riches en granules d'histamine."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 entraîne une vasoconstriction et une diminution de la perméabilité vasculaire.",
+              "annale": true,
+              "explication": "Correction de l'annale : elle entraîne une vasodilatation et une augmentation de la perméabilité."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-003",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 23
+              },
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 19
+              }
+            ]
+          },
+          "question": "Concernant l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "provient donc essentiellement de la décarboxylation de l'histidine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'histamine peut être libérée de façon non spécifique après la consommation de certains aliments, substances ou médicaments.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Correction de l'annale : il existe une libération non spécifique d'histamine, en dehors de la réaction antigène-anticorps. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'histamine augmente la sécrétion d'acide gastrique par stimulation des récepteurs H2.",
+              "annale": true,
+              "explication": "Correction de l'annale : les récepteurs H2 des cellules pariétales commandent la libération de protons."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'histamine est obtenue par décarboxylation du tryptophane hydroxylé.",
+              "annale": true,
+              "explication": "Correction de l'annale : c'est la synthèse de la sérotonine ; l'histamine vient de la décarboxylation de l'histidine."
+            },
+            {
+              "reponse": "L'histamine entraîne une rétention urinaire par stimulation des récepteurs muscariniques.",
+              "annale": true,
+              "explication": "Correction de l'annale : l'histamine agit sur ses récepteurs H1 à H4 ; les récepteurs muscariniques sont ceux de l'acétylcholine."
+            },
+            {
+              "reponse": "L'histamine est indiquée dans le traitement de la maladie d'Alzheimer.",
+              "annale": true,
+              "explication": "Correction de l'annale : l'histamine n'est pas un médicament ; seuls les anti-H3 sont évoqués comme pistes dans la maladie d'Alzheimer."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-004",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "D'où provient essentiellement l'histamine de l'organisme ? (une seule réponse attendue)",
+          "cours": {
+            "page": 1,
+            "surligner": "provient donc essentiellement de la décarboxylation de l'histidine"
+          },
+          "bonnes": [
+            {
+              "reponse": "De la décarboxylation de l'histidine.",
+              "explication": "L'apport alimentaire est faible : l'histamine est surtout synthétisée par décarboxylation de l'histidine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "De l'apport alimentaire.",
+              "explication": "L'histamine est faiblement apportée par l'alimentation."
+            },
+            {
+              "reponse": "De l'hydroxylation du tryptophane.",
+              "explication": "C'est la voie de synthèse de la sérotonine."
+            },
+            {
+              "reponse": "De la décarboxylation de la DOPA.",
+              "explication": "C'est la voie de synthèse de la dopamine."
+            },
+            {
+              "reponse": "De la dégradation de la sérotonine.",
+              "explication": "Aucun lien : l'histamine dérive de l'histidine."
+            },
+            {
+              "reponse": "De l'hydroxylation de la tyrosine.",
+              "explication": "C'est la première étape de la synthèse des catécholamines."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-005",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels types cellulaires contiennent de l'histamine ? (3 réponses attendues)",
+          "cours": {
+            "page": 2,
+            "surligner": "On retrouve l'histamine dans 4 types cellulaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les neurones histaminergiques.",
+              "explication": "Un des 4 types cellulaires du cours ; l'histamine y est libérée par un potentiel d'action."
+            },
+            {
+              "reponse": "Les cellules entérochromaffines.",
+              "explication": "Un des 4 types cellulaires du cours ; l'histamine y est libérée sous l'effet de la gastrine."
+            },
+            {
+              "reponse": "Les mastocytes.",
+              "explication": "Un des 4 types cellulaires du cours ; libération après liaison antigène-anticorps."
+            },
+            {
+              "reponse": "Les polynucléaires basophiles.",
+              "explication": "Un des 4 types cellulaires du cours ; libération après liaison antigène-anticorps."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules pariétales gastriques.",
+              "explication": "Elles portent les récepteurs H2 mais ne produisent pas l'histamine : elles sécrètent les protons."
+            },
+            {
+              "reponse": "Les hépatocytes.",
+              "explication": "Ils ne font pas partie des 4 types cellulaires contenant de l'histamine."
+            },
+            {
+              "reponse": "Les lymphocytes B.",
+              "explication": "Ils produisent les anticorps (IgE), pas l'histamine."
+            },
+            {
+              "reponse": "Les cellules endothéliales.",
+              "explication": "Elles portent des récepteurs H1 : ce sont des cibles, pas des sources d'histamine."
+            },
+            {
+              "reponse": "Les fibroblastes.",
+              "explication": "Ils ne font pas partie des 4 types cellulaires contenant de l'histamine."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la libération de l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "la liaison d'un antigène à un anticorps"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans les neurones histaminergiques, l'histamine est libérée à la suite d'un potentiel d'action.",
+              "explication": "Stimulus de libération propre aux neurones."
+            },
+            {
+              "reponse": "Dans les cellules entérochromaffines, la libération d'histamine est déclenchée par la gastrine.",
+              "explication": "La gastrine stimule les cellules entérochromaffin-like de l'estomac."
+            },
+            {
+              "reponse": "Dans les mastocytes, la libération d'histamine fait suite à la liaison d'un antigène à un anticorps.",
+              "explication": "Mécanisme de l'allergie, commun aux mastocytes et aux basophiles."
+            },
+            {
+              "reponse": "Dans les polynucléaires basophiles, la libération d'histamine fait suite à la liaison d'un antigène à un anticorps.",
+              "explication": "Même stimulus que pour les mastocytes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans les mastocytes, la libération d'histamine est déclenchée par la gastrine.",
+              "explication": "La gastrine agit sur les cellules entérochromaffines ; les mastocytes répondent à la liaison antigène-anticorps."
+            },
+            {
+              "reponse": "Dans les neurones histaminergiques, la libération d'histamine fait suite à la liaison d'un antigène à un anticorps.",
+              "explication": "Les neurones libèrent l'histamine après un potentiel d'action."
+            },
+            {
+              "reponse": "Dans les cellules entérochromaffines, la libération d'histamine fait suite à un potentiel d'action.",
+              "explication": "C'est la gastrine qui déclenche la libération dans ces cellules."
+            },
+            {
+              "reponse": "La gastrine inhibe la libération d'histamine par les cellules entérochromaffines.",
+              "explication": "Elle la stimule."
+            },
+            {
+              "reponse": "Les polynucléaires basophiles libèrent l'histamine sous l'effet de la gastrine.",
+              "explication": "Les basophiles répondent à la liaison antigène-anticorps."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets de l'histamine via les récepteurs H1, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "bronchoconstriction et augmentation de la motilité intestinale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au niveau du cœur, la stimulation H1 diminue la conduction.",
+              "explication": "Cœur : H1 → diminution de la conduction ; H2 → augmentation du rythme et de la contraction."
+            },
+            {
+              "reponse": "La stimulation H1 entraîne une bronchoconstriction.",
+              "explication": "Effet H1 sur les muscles lisses."
+            },
+            {
+              "reponse": "La stimulation H1 augmente la motilité intestinale.",
+              "explication": "Effet H1 sur les muscles lisses."
+            },
+            {
+              "reponse": "La stimulation H1 des nerfs périphériques provoque prurit et douleur.",
+              "explication": "Nerfs périphériques : H1 → prurit, douleur."
+            },
+            {
+              "reponse": "Au niveau cérébral, la stimulation H1 favorise la veille.",
+              "explication": "Cerveau : H1 → veille, nausées et vomissements."
+            },
+            {
+              "reponse": "La stimulation H1 augmente la sécrétion salivaire.",
+              "explication": "Glandes exocrines : H1 → sécrétion salivaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La stimulation H1 entraîne une bronchodilatation.",
+              "explication": "Elle entraîne une bronchoconstriction."
+            },
+            {
+              "reponse": "La stimulation H1 augmente la sécrétion d'acide gastrique.",
+              "explication": "La sécrétion gastrique dépend des récepteurs H2."
+            },
+            {
+              "reponse": "Au niveau du cœur, la stimulation H1 augmente le rythme et la contraction.",
+              "explication": "Ce sont des effets H2 ; H1 diminue la conduction."
+            },
+            {
+              "reponse": "La stimulation H1 entraîne une vasoconstriction.",
+              "explication": "H1 et H2 entraînent une vasodilatation."
+            },
+            {
+              "reponse": "Au niveau cérébral, la stimulation H1 favorise le sommeil.",
+              "explication": "Elle favorise la veille, d'où l'effet sédatif des anti-H1 qui passent la BHE."
+            },
+            {
+              "reponse": "La stimulation H1 diminue la perméabilité vasculaire.",
+              "explication": "Elle l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-008",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels effets de l'histamine passent par les récepteurs H2 ? (2 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "augmentation de la sécrétion gastrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'augmentation de la sécrétion gastrique.",
+              "explication": "Glandes exocrines : H2 → augmentation de la sécrétion gastrique."
+            },
+            {
+              "reponse": "L'augmentation du rythme cardiaque.",
+              "explication": "Cœur : H2 → augmentation du rythme et de la contraction."
+            },
+            {
+              "reponse": "L'augmentation de la contraction cardiaque.",
+              "explication": "Cœur : H2 → augmentation du rythme et de la contraction."
+            },
+            {
+              "reponse": "La vasodilatation.",
+              "explication": "Vaisseaux : H1 et H2 → vasodilatation."
+            },
+            {
+              "reponse": "L'augmentation de la perméabilité vasculaire.",
+              "explication": "Vaisseaux : H1 et H2 → augmentation de la perméabilité."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La bronchoconstriction.",
+              "explication": "Effet H1 sur les muscles lisses."
+            },
+            {
+              "reponse": "Le prurit.",
+              "explication": "Effet H1 sur les nerfs périphériques."
+            },
+            {
+              "reponse": "Le maintien de l'état de veille.",
+              "explication": "Effet H1 cérébral."
+            },
+            {
+              "reponse": "Les nausées et vomissements.",
+              "explication": "Effet H1 cérébral."
+            },
+            {
+              "reponse": "La diminution de la conduction cardiaque.",
+              "explication": "Effet H1 cardiaque."
+            },
+            {
+              "reponse": "L'augmentation de la sécrétion salivaire.",
+              "explication": "Effet H1 sur les glandes exocrines."
+            },
+            {
+              "reponse": "L'augmentation de la motilité intestinale.",
+              "explication": "Effet H1 sur les muscles lisses."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Médicaments du système histaminergique et bétahistine"
+      },
+      "questions": [
+        {
+          "id": "btm-pharmaco-histamine-009",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2025-2026",
+                "session": 1,
+                "qcm": 14
+              }
+            ]
+          },
+          "question": "Concernant les médicaments du système histaminergique, quelles propositions sont exactes ? (3 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "on retrouve un seul histaminomimétique, dont la seule indication"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les agonistes histaminergiques sont indiqués dans la prise en charge des vertiges.",
+              "annale": true,
+              "explication": "Correction de l'annale : le seul agoniste, la bétahistine, est indiqué dans les troubles vertigineux."
+            },
+            {
+              "reponse": "Les antagonistes H1 de première génération provoquent fréquemment une rétention urinaire.",
+              "annale": true,
+              "explication": "Correction de l'annale : effet indésirable lié à leurs propriétés anticholinergiques."
+            },
+            {
+              "reponse": "Les antagonistes H1 de deuxième génération ont peu d'effets anticholinergiques.",
+              "annale": true,
+              "explication": "Correction de l'annale : plus sélectifs des récepteurs H1, ils ont moins de propriétés anticholinergiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antagonistes H2 sont anti-allergiques.",
+              "annale": true,
+              "explication": "Correction de l'annale : les anti-H2 sont anti-ulcéreux ; les anti-allergiques sont les anti-H1."
+            },
+            {
+              "reponse": "Les antagonistes H1 de deuxième génération ont en général une demi-vie plasmatique courte.",
+              "annale": true,
+              "explication": "Correction de l'annale : leur demi-vie est plus longue, ce qui autorise une seule prise par jour."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la classification des médicaments du système histaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "on retrouve un seul histaminomimétique, dont la seule indication"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il n'existe qu'un seul médicament histaminomimétique.",
+              "explication": "La bétahistine est le seul agoniste histaminergique."
+            },
+            {
+              "reponse": "La seule indication de l'histaminomimétique est les troubles vertigineux.",
+              "explication": "Indication unique de la bétahistine."
+            },
+            {
+              "reponse": "La principale indication des antagonistes H1 est les manifestations allergiques.",
+              "explication": "Anti-H1 = anti-allergiques."
+            },
+            {
+              "reponse": "La principale indication des antagonistes H2 est les ulcères gastroduodénaux.",
+              "explication": "Anti-H2 = anti-ulcéreux."
+            },
+            {
+              "reponse": "Les antagonistes des récepteurs H1 et H2 font partie des histaminolytiques.",
+              "explication": "Les histaminolytiques s'opposent aux effets de l'histamine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il existe de nombreux médicaments histaminomimétiques.",
+              "explication": "Il n'en existe qu'un ; ce sont les histaminolytiques qui sont nombreux."
+            },
+            {
+              "reponse": "La principale indication des antagonistes H2 est les manifestations allergiques.",
+              "explication": "C'est celle des anti-H1 ; les anti-H2 sont anti-ulcéreux."
+            },
+            {
+              "reponse": "La principale indication des antagonistes H1 est les ulcères gastroduodénaux.",
+              "explication": "C'est celle des anti-H2."
+            },
+            {
+              "reponse": "L'histaminomimétique est indiqué dans les manifestations allergiques.",
+              "explication": "Il est indiqué dans les troubles vertigineux ; il aggraverait plutôt l'allergie."
+            },
+            {
+              "reponse": "La bétahistine est un histaminolytique.",
+              "explication": "C'est un histaminomimétique (agoniste)."
+            },
+            {
+              "reponse": "Les histaminomimétiques sont indiqués dans les ulcères gastroduodénaux.",
+              "explication": "Ce sont les anti-H2 (histaminolytiques) qui le sont."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-011",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Par quel effet principal la bétahistine facilite-t-elle la transmission histaminergique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 4,
+            "surligner": "facilite la transmission histaminergique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un effet antagoniste des récepteurs H3.",
+              "explication": "Son effet passe « surtout » par le blocage des récepteurs H3 présynaptiques, en plus d'un faible effet agoniste H1."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un effet agoniste des récepteurs H2.",
+              "explication": "Le cours ne décrit pas d'effet H2 de la bétahistine."
+            },
+            {
+              "reponse": "Un effet antagoniste des récepteurs H1.",
+              "explication": "Elle est faiblement agoniste H1, pas antagoniste."
+            },
+            {
+              "reponse": "Une inhibition de l'histidine décarboxylase.",
+              "explication": "C'est le mécanisme de la tritoqualine, qui diminue la synthèse d'histamine."
+            },
+            {
+              "reponse": "Un effet agoniste des récepteurs H3.",
+              "explication": "Elle les bloque ; les activer diminuerait la libération d'histamine."
+            },
+            {
+              "reponse": "Une inhibition de la libération d'histamine par les mastocytes.",
+              "explication": "C'est le mécanisme du cromoglycate de sodium."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les récepteurs H3 et le mécanisme d'action de la bétahistine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "en position présynaptique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs H3 sont présents dans le système nerveux central.",
+              "explication": "Localisation centrale décrite dans le cours."
+            },
+            {
+              "reponse": "Les récepteurs H3 sont situés en position présynaptique.",
+              "explication": "Ce sont des récepteurs « frein » présynaptiques."
+            },
+            {
+              "reponse": "L'activation des récepteurs H3 diminue la libération de nombreux neurotransmetteurs, dont l'histamine.",
+              "explication": "Rétrocontrôle négatif."
+            },
+            {
+              "reponse": "En bloquant les récepteurs H3, la bétahistine favorise la synthèse et la libération d'histamine au niveau central.",
+              "explication": "Levée du frein présynaptique."
+            },
+            {
+              "reponse": "La bétahistine améliore la microcirculation de l'oreille interne.",
+              "explication": "Ce qui diminue la fréquence et l'intensité des crises vertigineuses."
+            },
+            {
+              "reponse": "Le mécanisme d'action de la bétahistine n'est pas complètement élucidé.",
+              "explication": "Le cours le précise."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs H3 sont situés en position postsynaptique.",
+              "explication": "Ils sont présynaptiques."
+            },
+            {
+              "reponse": "L'activation des récepteurs H3 augmente la libération d'histamine.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "En bloquant les récepteurs H3, la bétahistine diminue la libération d'histamine centrale.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La bétahistine diminue la fréquence des crises vertigineuses mais pas leur intensité.",
+              "explication": "Elle diminue les deux."
+            },
+            {
+              "reponse": "La bétahistine est un antagoniste puissant des récepteurs H1.",
+              "explication": "Elle a un faible effet agoniste H1."
+            },
+            {
+              "reponse": "Le mécanisme d'action de la bétahistine est entièrement élucidé.",
+              "explication": "Il ne l'est pas complètement."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la bétahistine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "on recommande donc la prise au milieu d'un repas"
+          },
+          "bonnes": [
+            {
+              "reponse": "La bétahistine est un analogue structural de l'histamine.",
+              "explication": "Sa formule chimique est très proche de celle de l'histamine."
+            },
+            {
+              "reponse": "La bétahistine peut provoquer des gastralgies.",
+              "explication": "D'où la prise recommandée au milieu d'un repas."
+            },
+            {
+              "reponse": "La bétahistine se prend de préférence au milieu d'un repas.",
+              "explication": "Pour limiter les gastralgies."
+            },
+            {
+              "reponse": "La bétahistine est à éviter chez les asthmatiques.",
+              "explication": "Elle peut provoquer une bronchoconstriction."
+            },
+            {
+              "reponse": "L'association de bétahistine et d'un antagoniste H1 peut atténuer les effets des deux principes actifs.",
+              "explication": "Atténuation mutuelle : aucun intérêt à associer agoniste et antagoniste H1."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La bétahistine se prend de préférence à jeun.",
+              "explication": "Au milieu d'un repas, à cause des gastralgies."
+            },
+            {
+              "reponse": "La bétahistine provoque une bronchodilatation utile chez l'asthmatique.",
+              "explication": "Elle provoque une bronchoconstriction : à éviter chez l'asthmatique."
+            },
+            {
+              "reponse": "L'association de bétahistine et d'un antagoniste H1 potentialise l'effet antivertigineux.",
+              "explication": "Les deux effets s'atténuent mutuellement."
+            },
+            {
+              "reponse": "La bétahistine est indiquée dans le mal des transports.",
+              "explication": "Elle est indiquée dans les troubles vertigineux ; le mal des transports relève des anti-H1 antinaupathiques."
+            },
+            {
+              "reponse": "La structure chimique de la bétahistine est sans rapport avec celle de l'histamine.",
+              "explication": "C'est un analogue structural de l'histamine."
+            },
+            {
+              "reponse": "La bétahistine est indiquée dans les manifestations allergiques.",
+              "explication": "Sa seule indication est les troubles vertigineux."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-014",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels noms de spécialité correspondent à la bétahistine ? (2 réponses attendues)",
+          "cours": {
+            "page": 4,
+            "surligner": "commercialisée sous les noms de spécialité"
+          },
+          "bonnes": [
+            {
+              "reponse": "SERC®.",
+              "explication": "Spécialité de bétahistine."
+            },
+            {
+              "reponse": "BETASERC®.",
+              "explication": "Spécialité de bétahistine."
+            },
+            {
+              "reponse": "LECTIL®.",
+              "explication": "Spécialité de bétahistine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "ATARAX®.",
+              "explication": "Hydroxyzine, anti-H1 de première génération."
+            },
+            {
+              "reponse": "POLARAMINE®.",
+              "explication": "Dexchlorphéniramine, anti-H1 de première génération."
+            },
+            {
+              "reponse": "MERCALM®.",
+              "explication": "Dimenhydrinate, anti-H1 antinaupathique."
+            },
+            {
+              "reponse": "LOMUDAL®.",
+              "explication": "Cromoglycate de sodium, antihistaminolibérateur."
+            },
+            {
+              "reponse": "TELFAST®.",
+              "explication": "Fexofénadine, anti-H1 de deuxième génération."
+            },
+            {
+              "reponse": "HYPOSTAMINE®.",
+              "explication": "Tritoqualine, inhibiteur de la synthèse d'histamine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Antihistaminiques H1 de première génération"
+      },
+      "questions": [
+        {
+          "id": "btm-pharmaco-histamine-015",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "session": 1,
+                "qcm": 4
+              }
+            ]
+          },
+          "question": "Concernant les antihistaminiques H1 de première génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "traitement préventif ou curatif du mal des transports"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement du mal des transports.",
+              "annale": true,
+              "explication": "Correction de l'annale : le dimenhydrinate et la diphenhydramine sont antinaupathiques."
+            },
+            {
+              "reponse": "Ils ont un effet sédatif.",
+              "annale": true,
+              "explication": "Correction de l'annale : lipophiles, ils passent la BHE et bloquent les récepteurs H1 centraux."
+            },
+            {
+              "reponse": "Ils ont des effets indésirables de type anticholinergique.",
+              "annale": true,
+              "explication": "Correction de l'annale : peu sélectifs, ils bloquent aussi les récepteurs muscariniques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils réduisent de façon importante la sécrétion d'acide gastrique.",
+              "annale": true,
+              "explication": "Correction de l'annale : c'est la propriété des anti-H2."
+            },
+            {
+              "reponse": "Ils ne passent pas la barrière hémato-encéphalique.",
+              "annale": true,
+              "explication": "Correction de l'annale : lipophiles, ils la franchissent, d'où l'effet sédatif."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-016",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 20
+              }
+            ]
+          },
+          "question": "Concernant les antihistaminiques H1, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "les insomnies et l'anxiété légère"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement des insomnies légères.",
+              "annale": true,
+              "explication": "Les anti-H1 de première génération sont proposés dans les insomnies occasionnelles ou transitoires. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils entraînent un risque de sédation s'ils passent la barrière hémato-encéphalique.",
+              "annale": true,
+              "explication": "Le blocage des récepteurs H1 centraux provoque la sédation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ceux de deuxième génération entraînent généralement moins d'effets indésirables que ceux de première génération.",
+              "annale": true,
+              "explication": "Plus hydrophiles et plus sélectifs, ils ont moins d'effets secondaires. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement de l'ulcère gastroduodénal.",
+              "annale": true,
+              "explication": "C'est l'indication des anti-H2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils sont indiqués dans le traitement de la maladie de Parkinson.",
+              "annale": true,
+              "explication": "Ce n'est pas une de leurs indications, dont le cours fait le bilan (allergie, mal des transports, insomnie, anxiété, toux sèche). (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-017",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles propriétés les antihistaminiques H1 peuvent-ils avoir en s'opposant aux effets de l'histamine ? (3 réponses attendues)",
+          "cours": {
+            "page": 5,
+            "surligner": "les antihistaminiques H1 peuvent avoir des propriétés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Antiallergiques.",
+              "explication": "Une des 5 propriétés citées."
+            },
+            {
+              "reponse": "Antitussives.",
+              "explication": "Une des 5 propriétés citées."
+            },
+            {
+              "reponse": "Antinaupathiques.",
+              "explication": "Une des 5 propriétés citées (mal des transports)."
+            },
+            {
+              "reponse": "Sédatives.",
+              "explication": "Une des 5 propriétés citées."
+            },
+            {
+              "reponse": "Anxiolytiques.",
+              "explication": "Une des 5 propriétés citées."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Antiulcéreuses.",
+              "explication": "C'est la propriété des anti-H2."
+            },
+            {
+              "reponse": "Antihypertensives.",
+              "explication": "Aucune indication des anti-H1 ; ils peuvent au contraire donner une hypotension orthostatique (effet indésirable)."
+            },
+            {
+              "reponse": "Antiparkinsoniennes.",
+              "explication": "Aucune indication des anti-H1 dans le cours."
+            },
+            {
+              "reponse": "Anticoagulantes.",
+              "explication": "Aucune indication des anti-H1."
+            },
+            {
+              "reponse": "Antivertigineuses par effet agoniste H1.",
+              "explication": "C'est la bétahistine, agoniste, qui est antivertigineuse."
+            },
+            {
+              "reponse": "Antiépileptiques.",
+              "explication": "Aucune indication des anti-H1."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antihistaminiques H1 de première génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Étant lipophiles, ces molécules sont capables"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils sont lipophiles et franchissent la barrière hémato-encéphalique.",
+              "explication": "D'où le blocage des récepteurs H1 centraux."
+            },
+            {
+              "reponse": "Ils ont des propriétés sédatives et anticholinergiques.",
+              "explication": "Ce qui les distingue de la deuxième génération."
+            },
+            {
+              "reponse": "Ils sont peu sélectifs et bloquent aussi les récepteurs muscariniques et α-adrénergiques.",
+              "explication": "D'où des propriétés anticholinergiques et adrénolytiques."
+            },
+            {
+              "reponse": "Dans l'insomnie, ils ne sont proposés que dans les situations occasionnelles ou transitoires.",
+              "explication": "Restriction donnée par le cours."
+            },
+            {
+              "reponse": "Leur effet anxiolytique est moins puissant que celui des benzodiazépines.",
+              "explication": "Ils sont réservés aux formes mineures de l'anxiété."
+            },
+            {
+              "reponse": "Ils peuvent être utilisés en prémédication d'une anesthésie générale.",
+              "explication": "Indication anxiolytique."
+            },
+            {
+              "reponse": "C'est un traitement symptomatique de l'allergie car ils ne s'opposent ni à la réaction antigène-anticorps ni à la libération d'histamine.",
+              "explication": "Ils s'opposent seulement aux effets de l'histamine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils sont hydrophiles et passent peu la barrière hémato-encéphalique.",
+              "explication": "C'est le cas de la deuxième génération."
+            },
+            {
+              "reponse": "Ils sont très sélectifs des récepteurs H1.",
+              "explication": "Ils sont peu sélectifs."
+            },
+            {
+              "reponse": "Ils sont indiqués dans l'insomnie chronique.",
+              "explication": "Seulement dans les insomnies occasionnelles ou transitoires."
+            },
+            {
+              "reponse": "Leur effet anxiolytique est plus puissant que celui des benzodiazépines.",
+              "explication": "Il est moins puissant."
+            },
+            {
+              "reponse": "Ils empêchent la libération d'histamine par les mastocytes.",
+              "explication": "Ils bloquent seulement les effets de l'histamine sur les récepteurs H1."
+            },
+            {
+              "reponse": "Ils sont indiqués dans les formes sévères de l'anxiété.",
+              "explication": "Seulement dans les formes mineures."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antihistaminiques H1 de première génération commercialisés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Quelques-unes des molécules commercialisées en France"
+          },
+          "bonnes": [
+            {
+              "reponse": "La doxylamine (DONORMYL®) est indiquée dans l'insomnie.",
+              "explication": "Seule indication de la doxylamine dans le tableau du cours."
+            },
+            {
+              "reponse": "L'hydroxyzine (ATARAX®) est indiquée dans l'anxiété.",
+              "explication": "Hydroxyzine : antiallergique, insomnie, anxiété."
+            },
+            {
+              "reponse": "L'oxomémazine (TOPLEXIL®) est indiquée comme antitussif.",
+              "explication": "Seule indication de l'oxomémazine dans le tableau."
+            },
+            {
+              "reponse": "La dexchlorphéniramine (POLARAMINE®) est indiquée comme antiallergique.",
+              "explication": "Seule indication de la dexchlorphéniramine dans le tableau."
+            },
+            {
+              "reponse": "L'alimémazine (THÉRALÈNE®) est indiquée comme antitussif.",
+              "explication": "L'alimémazine a les 4 indications du tableau."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La doxylamine (DONORMYL®) est indiquée comme antitussif.",
+              "explication": "Elle est indiquée dans l'insomnie."
+            },
+            {
+              "reponse": "L'oxomémazine (TOPLEXIL®) est indiquée dans l'insomnie.",
+              "explication": "Elle est indiquée comme antitussif."
+            },
+            {
+              "reponse": "La dexchlorphéniramine (POLARAMINE®) est indiquée dans l'anxiété.",
+              "explication": "Elle est seulement antiallergique dans le tableau du cours."
+            },
+            {
+              "reponse": "L'hydroxyzine est commercialisée sous le nom de POLARAMINE®.",
+              "explication": "L'hydroxyzine est ATARAX® ; POLARAMINE® est la dexchlorphéniramine."
+            },
+            {
+              "reponse": "La prométhazine est commercialisée sous le nom de DONORMYL®.",
+              "explication": "La prométhazine est PHÉNERGAN® ; DONORMYL® est la doxylamine."
+            },
+            {
+              "reponse": "L'alimémazine est commercialisée sous le nom de TOPLEXIL®.",
+              "explication": "L'alimémazine est THÉRALÈNE® ; TOPLEXIL® est l'oxomémazine."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-020",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels antihistaminiques H1 de première génération peuvent être proposés dans les toux sèches gênantes ? (2 réponses attendues)",
+          "cours": {
+            "page": 7,
+            "surligner": "L'alimémazine et l'oxomémazine peuvent être proposées"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'alimémazine.",
+              "explication": "Antitussive, privilégiée si la toux est à prédominance nocturne."
+            },
+            {
+              "reponse": "L'oxomémazine.",
+              "explication": "Antitussive, privilégiée si la toux est à prédominance nocturne."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La doxylamine.",
+              "explication": "Indiquée dans l'insomnie."
+            },
+            {
+              "reponse": "La dexchlorphéniramine.",
+              "explication": "Indiquée comme antiallergique."
+            },
+            {
+              "reponse": "L'hydroxyzine.",
+              "explication": "Antiallergique, insomnie et anxiété, pas antitussive."
+            },
+            {
+              "reponse": "La cétirizine.",
+              "explication": "Anti-H1 de deuxième génération, antiallergique."
+            },
+            {
+              "reponse": "Le dimenhydrinate.",
+              "explication": "Antinaupathique (mal des transports)."
+            },
+            {
+              "reponse": "La prométhazine.",
+              "explication": "Antiallergique et insomnie dans le tableau du cours."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'indication antitussive des antihistaminiques H1 de première génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "toux non productives gênantes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Elle concerne les toux non productives gênantes, c'est-à-dire les toux sèches.",
+              "explication": "Définition donnée par le cours."
+            },
+            {
+              "reponse": "L'effet antitussif passe par le blocage des récepteurs H1 au niveau bronchique.",
+              "explication": "Mécanisme donné par le cours."
+            },
+            {
+              "reponse": "On privilégie ces molécules quand la toux est à prédominance nocturne.",
+              "explication": "En raison de leur effet sédatif."
+            },
+            {
+              "reponse": "C'est un traitement symptomatique de la toux.",
+              "explication": "Le cours parle de traitement symptomatique des toux non productives."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Elle concerne les toux grasses productives.",
+              "explication": "Seulement les toux sèches, non productives."
+            },
+            {
+              "reponse": "On privilégie ces molécules quand la toux est à prédominance diurne.",
+              "explication": "Plutôt nocturne, du fait de l'effet sédatif."
+            },
+            {
+              "reponse": "L'effet antitussif passe par le blocage des récepteurs H2 bronchiques.",
+              "explication": "Par le blocage des récepteurs H1."
+            },
+            {
+              "reponse": "Tous les anti-H1 de première génération ont une indication antitussive.",
+              "explication": "Seules l'alimémazine et l'oxomémazine sont citées."
+            },
+            {
+              "reponse": "L'effet antitussif est dû à leur action agoniste sur les récepteurs H1.",
+              "explication": "Ce sont des antagonistes H1."
+            },
+            {
+              "reponse": "Ces molécules sont dépourvues d'effet sédatif.",
+              "explication": "Elles sont sédatives, ce qui justifie leur choix dans la toux nocturne."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-022",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels antihistaminiques H1 sont utilisés dans le mal des transports ? (2 réponses attendues)",
+          "cours": {
+            "page": 7,
+            "surligner": "le dimenhydrinate et la diphenhydramine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le dimenhydrinate.",
+              "explication": "MERCALM®, NAUSICALM® : traitement préventif ou curatif du mal des transports."
+            },
+            {
+              "reponse": "La diphenhydramine.",
+              "explication": "NAUTAMINE® : traitement préventif ou curatif du mal des transports."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La bétahistine.",
+              "explication": "Agoniste histaminergique indiqué dans les troubles vertigineux."
+            },
+            {
+              "reponse": "La cétirizine.",
+              "explication": "Anti-H1 de deuxième génération, antiallergique."
+            },
+            {
+              "reponse": "L'oxomémazine.",
+              "explication": "Antitussive."
+            },
+            {
+              "reponse": "La loratadine.",
+              "explication": "Anti-H1 de deuxième génération, antiallergique."
+            },
+            {
+              "reponse": "La cimétidine.",
+              "explication": "Anti-H2, anti-ulcéreux."
+            },
+            {
+              "reponse": "La doxylamine.",
+              "explication": "Indiquée dans l'insomnie."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mal des transports et les antihistaminiques H1 antinaupathiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "situé dans le tronc cérébral"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le centre du vomissement est situé dans le tronc cérébral.",
+              "explication": "Quel que soit le stimulus émétique, c'est ce centre effecteur qui déclenche le vomissement."
+            },
+            {
+              "reponse": "L'appareil vestibulaire est une des voies afférentes du centre du vomissement.",
+              "explication": "Avec le SNC, la zone gâchette chémoréceptrice et des voies périphériques viscérales."
+            },
+            {
+              "reponse": "La zone gâchette chémoréceptrice est située dans l'area postrema.",
+              "explication": "Elle active le centre du vomissement."
+            },
+            {
+              "reponse": "Le mal des transports serait lié à un conflit neurosensoriel entre signaux vestibulaires, visuels et proprioceptifs.",
+              "explication": "Ce conflit suractive la voie vestibulaire vers le centre du vomissement."
+            },
+            {
+              "reponse": "L'activation du centre du vomissement par le système vestibulaire implique l'histamine et l'acétylcholine.",
+              "explication": "Via des récepteurs H1 et muscariniques M1."
+            },
+            {
+              "reponse": "Le dimenhydrinate et la diphenhydramine ont des propriétés antihistaminiques et antimuscariniques.",
+              "explication": "Ils bloquent l'activation vestibulaire du centre du vomissement."
+            },
+            {
+              "reponse": "Le dimenhydrinate et la diphenhydramine sont dépourvus d'effets adrénolytiques.",
+              "explication": "Contrairement aux autres anti-H1 de première génération."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le centre du vomissement est situé dans le cortex cérébral.",
+              "explication": "Il est situé dans le tronc cérébral."
+            },
+            {
+              "reponse": "Dans le mal des transports, l'activation vestibulaire du centre du vomissement implique surtout la dopamine via les récepteurs D2.",
+              "explication": "Elle implique l'histamine (H1) et l'acétylcholine (M1)."
+            },
+            {
+              "reponse": "Les récepteurs muscariniques impliqués dans le mal des transports sont de type M3.",
+              "explication": "Ils sont de type M1."
+            },
+            {
+              "reponse": "Le dimenhydrinate et la diphenhydramine ne passent pas la barrière hémato-encéphalique.",
+              "explication": "Ils la passent."
+            },
+            {
+              "reponse": "Le dimenhydrinate et la diphenhydramine ont des propriétés adrénolytiques marquées.",
+              "explication": "Ils en sont dépourvus."
+            },
+            {
+              "reponse": "Le dimenhydrinate et la diphenhydramine sont dépourvus d'effets anticholinergiques.",
+              "explication": "Ils ont des propriétés anticholinergiques (antimuscariniques)."
+            },
+            {
+              "reponse": "NAUSICALM® est indiqué dans les nausées et vomissements fébriles.",
+              "explication": "Seulement les nausées et vomissements non accompagnés de fièvre."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables et contre-indications des antihistaminiques H1 de première génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "un adénome prostatique, pour ne pas aggraver"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils exposent à une sécheresse buccale.",
+              "explication": "Effet anticholinergique."
+            },
+            {
+              "reponse": "Ils exposent à des troubles de l'accommodation.",
+              "explication": "Effet anticholinergique."
+            },
+            {
+              "reponse": "Ils exposent à un ralentissement du transit.",
+              "explication": "Effet anticholinergique."
+            },
+            {
+              "reponse": "Certains exposent à une hypotension orthostatique.",
+              "explication": "Par effet adrénolytique α périphérique."
+            },
+            {
+              "reponse": "Ils sont contre-indiqués en cas d'adénome prostatique.",
+              "explication": "Pour ne pas aggraver la rétention urinaire."
+            },
+            {
+              "reponse": "Ils sont contre-indiqués en cas de glaucome à angle fermé.",
+              "explication": "Du fait de leur effet potentiellement mydriatique."
+            },
+            {
+              "reponse": "Ils sont contre-indiqués chez l'enfant de moins de 2 ans en raison d'un risque de dépression respiratoire.",
+              "explication": "La limite d'âge peut aller au-delà de 2 ans selon la molécule."
+            },
+            {
+              "reponse": "L'association avec les boissons alcoolisées est déconseillée.",
+              "explication": "L'alcool majore l'effet sédatif."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils exposent à une diarrhée.",
+              "explication": "Ils ralentissent le transit (effet anticholinergique)."
+            },
+            {
+              "reponse": "Ils exposent à un myosis.",
+              "explication": "Leur effet est potentiellement mydriatique."
+            },
+            {
+              "reponse": "Ils sont contre-indiqués chez l'enfant de moins de 2 ans en raison de leur effet anticholinergique.",
+              "explication": "La justification est le risque de dépression respiratoire."
+            },
+            {
+              "reponse": "L'hypotension orthostatique est liée à leur effet anticholinergique.",
+              "explication": "Elle est liée à l'effet adrénolytique α périphérique."
+            },
+            {
+              "reponse": "L'alcool diminue leur effet sédatif.",
+              "explication": "Il le majore."
+            },
+            {
+              "reponse": "Leur effet sédatif est lié uniquement au blocage des récepteurs H1 périphériques.",
+              "explication": "Il est central : blocage H1 et effet adrénolytique centraux."
+            },
+            {
+              "reponse": "Ils sont recommandés en cas d'adénome prostatique.",
+              "explication": "Ils y sont contre-indiqués (risque de rétention urinaire)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Antihistaminiques H1 de deuxième génération"
+      },
+      "questions": [
+        {
+          "id": "btm-pharmaco-histamine-025",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 24
+              },
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2020-2021",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant les antihistaminiques H1 de deuxième génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "sont préconisés dans le traitement symptomatique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement symptomatique des rhinites allergiques.",
+              "annale": true,
+              "explication": "Correction de l'annale : ils sont préconisés dans le traitement symptomatique des manifestations allergiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement des insomnies légères.",
+              "annale": true,
+              "explication": "Plus hydrophiles, ils passent peu la BHE : l'indication insomnie est celle de la première génération. La correction du livret 2022-2023 compte cet item vrai, probablement par confusion avec la première génération. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils réduisent de façon importante la sécrétion d'acide gastrique.",
+              "annale": true,
+              "explication": "Correction de l'annale : c'est la propriété des anti-H2."
+            },
+            {
+              "reponse": "Ils bloquent la décarboxylation de la L-histidine.",
+              "annale": true,
+              "explication": "Correction de l'annale : c'est le mécanisme de la tritoqualine, inhibiteur de la synthèse."
+            },
+            {
+              "reponse": "Ils ont une demi-vie plasmatique courte (inférieure à 1 h).",
+              "annale": true,
+              "explication": "Correction de l'annale : leur demi-vie est plus longue, ce qui autorise une seule prise par jour."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-026",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2018-2019",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant les antihistaminiques H1 de deuxième génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "ce qui autorise une seule administration par jour"
+          },
+          "bonnes": [],
+          "mauvaises": [
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement du mal des transports.",
+              "annale": true,
+              "explication": "Ce sont les anti-H1 de première génération antinaupathiques (dimenhydrinate, diphenhydramine). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils réduisent de façon importante la sécrétion d'acide gastrique.",
+              "annale": true,
+              "explication": "C'est la propriété des anti-H2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils peuvent être indiqués dans la prise en charge des troubles vertigineux.",
+              "annale": true,
+              "explication": "C'est l'indication de la bétahistine, agoniste histaminergique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils bloquent la décarboxylation de la L-histidine.",
+              "annale": true,
+              "explication": "C'est le mécanisme de la tritoqualine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils ont une demi-vie plasmatique courte (inférieure à 1 h).",
+              "annale": true,
+              "explication": "Leur demi-vie est plus longue, ce qui autorise une seule prise par jour. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-027",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2017-2018",
+                "qcm": 17
+              }
+            ]
+          },
+          "question": "Concernant la cétirizine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "plus hydrophiles, et donc à moins passer"
+          },
+          "bonnes": [],
+          "mauvaises": [
+            {
+              "reponse": "La cétirizine est un antihistaminique H2.",
+              "annale": true,
+              "explication": "C'est un anti-H1 de deuxième génération. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cétirizine passe la barrière hémato-encéphalique.",
+              "annale": true,
+              "explication": "Anti-H1 de deuxième génération, plus hydrophile, elle passe peu la BHE. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cétirizine réduit de façon importante la sécrétion d'acide gastrique.",
+              "annale": true,
+              "explication": "C'est la propriété des anti-H2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La cétirizine est indiquée dans le mal des transports.",
+              "annale": true,
+              "explication": "C'est un antiallergique ; le mal des transports relève du dimenhydrinate et de la diphenhydramine. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les caractéristiques des antihistaminiques H1 de deuxième génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "moins métabolisées par le foie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils sont plus hydrophiles que ceux de première génération.",
+              "explication": "Pour moins passer la barrière hémato-encéphalique."
+            },
+            {
+              "reponse": "Ils passent moins la barrière hémato-encéphalique.",
+              "explication": "D'où un effet sédatif moindre."
+            },
+            {
+              "reponse": "Ils sont plus sélectifs des récepteurs H1.",
+              "explication": "D'où moins de propriétés anticholinergiques et adrénolytiques."
+            },
+            {
+              "reponse": "Leur demi-vie plasmatique plus longue autorise une seule administration par jour.",
+              "explication": "Avantage pharmacocinétique."
+            },
+            {
+              "reponse": "Ils sont moins métabolisés par le foie, ce qui diminue le risque d'interactions médicamenteuses.",
+              "explication": "Avantage pharmacocinétique."
+            },
+            {
+              "reponse": "Au niveau périphérique, ils ont le même mécanisme d'action que ceux de première génération.",
+              "explication": "Blocage des récepteurs H1."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils sont plus lipophiles que ceux de première génération.",
+              "explication": "Ils sont plus hydrophiles."
+            },
+            {
+              "reponse": "Leur demi-vie courte impose plusieurs prises par jour.",
+              "explication": "Elle est longue : une seule prise par jour."
+            },
+            {
+              "reponse": "Ils sont davantage métabolisés par le foie.",
+              "explication": "Ils le sont moins."
+            },
+            {
+              "reponse": "Ils exposent à plus d'interactions médicamenteuses que ceux de première génération.",
+              "explication": "Moins, car moins métabolisés par le foie."
+            },
+            {
+              "reponse": "Ils ont plus de propriétés anticholinergiques que ceux de première génération.",
+              "explication": "Ils en ont moins, étant plus sélectifs."
+            },
+            {
+              "reponse": "Au niveau périphérique, ils bloquent les récepteurs H2.",
+              "explication": "Ils bloquent les récepteurs H1."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-029",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules sont des antihistaminiques H1 de deuxième génération ? (3 réponses attendues)",
+          "cours": {
+            "page": 10,
+            "surligner": "plus hydrophiles, et donc à moins passer"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cétirizine.",
+              "explication": "VIRLIX®, ZYRTEC®."
+            },
+            {
+              "reponse": "La lévocétirizine.",
+              "explication": "XYZALL®."
+            },
+            {
+              "reponse": "La loratadine.",
+              "explication": "CLARITYNE®."
+            },
+            {
+              "reponse": "La desloratadine.",
+              "explication": "AERIUS®."
+            },
+            {
+              "reponse": "La fexofénadine.",
+              "explication": "TELFAST®."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'hydroxyzine.",
+              "explication": "Anti-H1 de première génération (ATARAX®)."
+            },
+            {
+              "reponse": "La dexchlorphéniramine.",
+              "explication": "Anti-H1 de première génération (POLARAMINE®)."
+            },
+            {
+              "reponse": "La prométhazine.",
+              "explication": "Anti-H1 de première génération (PHÉNERGAN®)."
+            },
+            {
+              "reponse": "La doxylamine.",
+              "explication": "Anti-H1 de première génération (DONORMYL®)."
+            },
+            {
+              "reponse": "Le dimenhydrinate.",
+              "explication": "Anti-H1 de première génération antinaupathique."
+            },
+            {
+              "reponse": "La cimétidine.",
+              "explication": "Anti-H2."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les spécialités d'antihistaminiques H1 de deuxième génération, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "n'apportent pas d'amélioration réelle du service médical rendu"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cétirizine est commercialisée sous les noms VIRLIX® et ZYRTEC®.",
+              "explication": "Tableau du cours."
+            },
+            {
+              "reponse": "La loratadine est commercialisée sous le nom CLARITYNE®.",
+              "explication": "Tableau du cours."
+            },
+            {
+              "reponse": "La fexofénadine est commercialisée sous le nom TELFAST®.",
+              "explication": "Tableau du cours."
+            },
+            {
+              "reponse": "La lévocétirizine est commercialisée sous le nom XYZALL®.",
+              "explication": "Tableau du cours."
+            },
+            {
+              "reponse": "La desloratadine et la lévocétirizine n'apportent pas d'amélioration réelle du service médical rendu par rapport à la loratadine et à la cétirizine.",
+              "explication": "Malgré leur caractère récent."
+            },
+            {
+              "reponse": "La desloratadine et la lévocétirizine ont été mises sur le marché essentiellement en raison de l'expiration des brevets.",
+              "explication": "Brevets de la loratadine et de la cétirizine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La loratadine est commercialisée sous le nom ZYRTEC®.",
+              "explication": "ZYRTEC® est la cétirizine ; la loratadine est CLARITYNE®."
+            },
+            {
+              "reponse": "La fexofénadine est commercialisée sous le nom CLARITYNE®.",
+              "explication": "CLARITYNE® est la loratadine ; la fexofénadine est TELFAST®."
+            },
+            {
+              "reponse": "La cétirizine est commercialisée sous le nom TELFAST®.",
+              "explication": "TELFAST® est la fexofénadine."
+            },
+            {
+              "reponse": "La desloratadine et la lévocétirizine apportent une nette amélioration du service médical rendu.",
+              "explication": "Aucune amélioration réelle selon le cours."
+            },
+            {
+              "reponse": "La lévocétirizine est commercialisée sous le nom ATARAX®.",
+              "explication": "ATARAX® est l'hydroxyzine, anti-H1 de première génération."
+            },
+            {
+              "reponse": "La cétirizine est commercialisée sous le nom POLARAMINE®.",
+              "explication": "POLARAMINE® est la dexchlorphéniramine."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rôle de l'histamine dans l'allergie et l'action des antihistaminiques H1, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "En cas de réexposition à un antigène"
+          },
+          "bonnes": [
+            {
+              "reponse": "Lors d'une réexposition à un antigène, les mastocytes et les polynucléaires basophiles libèrent de grandes quantités d'histamine.",
+              "explication": "Mécanisme de la réaction allergique."
+            },
+            {
+              "reponse": "Les récepteurs H1 impliqués sont présents sur l'endothélium vasculaire et les terminaisons libres des nerfs sensitifs.",
+              "explication": "Cibles de l'histamine dans l'allergie."
+            },
+            {
+              "reponse": "La stimulation H1 provoque une vasodilatation et une augmentation de la perméabilité capillaire.",
+              "explication": "À l'origine des réactions œdémateuses."
+            },
+            {
+              "reponse": "La stimulation des nerfs sensitifs par l'histamine a un effet nociceptif.",
+              "explication": "D'où le prurit."
+            },
+            {
+              "reponse": "La rhinite allergique associe éternuements, rhinorrhée et obstruction nasale.",
+              "explication": "Symptômes ORL décrits par le cours."
+            },
+            {
+              "reponse": "Les antihistaminiques H1 soulagent les symptômes en environ 1 heure.",
+              "explication": "Délai donné par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antihistaminiques H1 empêchent la libération d'histamine par les mastocytes.",
+              "explication": "Ils bloquent seulement ses effets : c'est un traitement symptomatique."
+            },
+            {
+              "reponse": "Les antihistaminiques H1 s'opposent à la réaction antigène-anticorps.",
+              "explication": "Ils ne s'y opposent pas."
+            },
+            {
+              "reponse": "Les antihistaminiques H1 mettent environ 24 heures à soulager les symptômes.",
+              "explication": "Environ 1 heure."
+            },
+            {
+              "reponse": "La stimulation H1 dans l'allergie provoque une contraction des muscles lisses vasculaires.",
+              "explication": "Elle les relâche (vasodilatation)."
+            },
+            {
+              "reponse": "Les mastocytes sont surtout présents dans le sang.",
+              "explication": "Les mastocytes sont tissulaires (derme, conjonctives, voies aériennes) ; ce sont les basophiles qui sont sanguins."
+            },
+            {
+              "reponse": "Dans l'allergie, l'histamine diminue la perméabilité capillaire.",
+              "explication": "Elle l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'efficacité des antihistaminiques H1 de deuxième génération dans les manifestations allergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "peu d'effet sur l'obstruction nasale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la rhinite allergique, ils sont efficaces sur le prurit oculaire.",
+              "explication": "Résultat des essais cliniques."
+            },
+            {
+              "reponse": "Dans la rhinite allergique, ils sont efficaces sur le larmoiement.",
+              "explication": "Résultat des essais cliniques."
+            },
+            {
+              "reponse": "Dans la rhinite allergique, ils sont efficaces sur la rhinorrhée.",
+              "explication": "Résultat des essais cliniques."
+            },
+            {
+              "reponse": "Dans la rhinite allergique, ils ont peu d'effet sur l'obstruction nasale.",
+              "explication": "Limite donnée par le cours."
+            },
+            {
+              "reponse": "Dans les dermatoses allergiques, ils diminuent les démangeaisons et l'érythème.",
+              "explication": "Indication cutanée."
+            },
+            {
+              "reponse": "Dans les manifestations allergiques, il n'y a aucune raison de prescrire un anti-H1 de première génération.",
+              "explication": "Du fait de l'efficacité et de la bonne tolérance de la deuxième génération."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans la rhinite allergique, ils sont très efficaces sur l'obstruction nasale.",
+              "explication": "Ils ont peu d'effet sur l'obstruction nasale."
+            },
+            {
+              "reponse": "Dans les manifestations allergiques, les anti-H1 de première génération restent à privilégier.",
+              "explication": "Aucune raison de les prescrire dans cette indication."
+            },
+            {
+              "reponse": "Dans la rhinite allergique, ils sont inefficaces sur la rhinorrhée.",
+              "explication": "Ils sont efficaces sur la rhinorrhée."
+            },
+            {
+              "reponse": "Ils sont inefficaces dans les dermatoses allergiques.",
+              "explication": "Ils diminuent démangeaisons et érythème."
+            },
+            {
+              "reponse": "Ils soulagent les symptômes allergiques en plusieurs jours.",
+              "explication": "En environ 1 heure."
+            },
+            {
+              "reponse": "Ils sont indiqués en première intention dans les insomnies.",
+              "explication": "Ils passent peu la BHE ; l'insomnie relève de la première génération."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-033",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Dans la rhinite allergique, sur quel symptôme les antihistaminiques H1 de deuxième génération ont-ils peu d'effet ? (une seule réponse attendue)",
+          "cours": {
+            "page": 12,
+            "surligner": "peu d'effet sur l'obstruction nasale"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'obstruction nasale.",
+              "explication": "Les essais cliniques montrent peu d'effet sur ce symptôme."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le prurit oculaire.",
+              "explication": "Ils sont efficaces sur le prurit oculaire."
+            },
+            {
+              "reponse": "Le larmoiement.",
+              "explication": "Ils sont efficaces sur le larmoiement."
+            },
+            {
+              "reponse": "La rhinorrhée.",
+              "explication": "Ils sont efficaces sur la rhinorrhée."
+            },
+            {
+              "reponse": "Les démangeaisons des dermatoses allergiques.",
+              "explication": "Ils les diminuent."
+            },
+            {
+              "reponse": "L'érythème des dermatoses allergiques.",
+              "explication": "Ils le diminuent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Antihistaminiques indirects, H2, H3 et H4"
+      },
+      "questions": [
+        {
+          "id": "btm-pharmaco-histamine-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 21
+              },
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2018-2019",
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant les antihistaminiques H2, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "la libération de protons par les cellules pariétales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement de l'ulcère gastroduodénal.",
+              "annale": true,
+              "explication": "Indication principale des anti-H2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ce sont des antagonistes compétitifs des récepteurs H2 présents à la surface des cellules pariétales.",
+              "annale": true,
+              "explication": "Ils se fixent sur les récepteurs H2 des cellules pariétales sans les activer et empêchent l'histamine d'agir. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils entraînent une diminution de la libération de protons.",
+              "annale": true,
+              "explication": "Le blocage H2 diminue la sécrétion d'acide gastrique. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Ils inhibent la sécrétion de gastrine.",
+              "annale": true,
+              "explication": "Ils agissent en aval : la gastrine libère l'histamine des cellules ECL, et ils bloquent l'action de cette histamine sur les cellules pariétales. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement de la maladie de Parkinson.",
+              "annale": true,
+              "explication": "Leur indication est digestive (ulcère, œsophagite par reflux). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Ils peuvent être indiqués dans le traitement de la maladie d'Alzheimer.",
+              "annale": true,
+              "explication": "Ce sont les anti-H3 qui pourraient avoir un intérêt dans la maladie d'Alzheimer. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-035",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 1
+              },
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2017-2018",
+                "qcm": 16
+              }
+            ]
+          },
+          "question": "Quels effets de l'histamine sont bloqués par les antihistaminiques H2 ?",
+          "cours": {
+            "page": 3,
+            "surligner": "augmentation de la sécrétion gastrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sécrétion gastrique.",
+              "annale": true,
+              "explication": "Effet H2 : glandes exocrines → augmentation de la sécrétion gastrique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La vasodilatation.",
+              "annale": true,
+              "explication": "D'après le tableau du cours, la vasodilatation passe par les récepteurs H1 et H2 : les anti-H2 en bloquent la part H2. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La bronchoconstriction.",
+              "annale": true,
+              "explication": "Effet H1 sur les muscles lisses. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le maintien de l'état de veille.",
+              "annale": true,
+              "explication": "Effet H1 cérébral. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Le prurit.",
+              "annale": true,
+              "explication": "Effet H1 sur les nerfs périphériques. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme et l'usage des antihistaminiques H2, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "diminuent la sécrétion d'acide gastrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La gastrine entraîne la libération d'histamine par les cellules entérochromaffin-like.",
+              "explication": "Première étape de la chaîne."
+            },
+            {
+              "reponse": "L'histamine active les récepteurs H2 des cellules pariétales, qui libèrent des protons.",
+              "explication": "D'où la sécrétion acide."
+            },
+            {
+              "reponse": "Les antihistaminiques H2 diminuent la sécrétion d'acide gastrique.",
+              "explication": "En s'opposant aux effets de l'histamine sur les récepteurs H2."
+            },
+            {
+              "reponse": "La cimétidine est un antihistaminique H2.",
+              "explication": "Molécule commercialisée citée par le cours."
+            },
+            {
+              "reponse": "Les anti-H2 sont utilisés dans les œsophagites par reflux gastro-œsophagien.",
+              "explication": "Avec les ulcères gastroduodénaux."
+            },
+            {
+              "reponse": "L'intérêt des anti-H2 a diminué depuis l'avènement des inhibiteurs de la pompe à protons.",
+              "explication": "Le cours le précise."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs H2 impliqués dans la sécrétion acide sont situés sur les cellules entérochromaffin-like.",
+              "explication": "Ils sont situés sur les cellules pariétales ; les cellules ECL libèrent l'histamine."
+            },
+            {
+              "reponse": "Les antihistaminiques H2 augmentent la sécrétion d'acide gastrique.",
+              "explication": "Ils la diminuent."
+            },
+            {
+              "reponse": "Les anti-H2 sont indiqués dans les manifestations allergiques.",
+              "explication": "C'est l'indication des anti-H1."
+            },
+            {
+              "reponse": "Les anti-H2 ont un intérêt accru depuis l'avènement des inhibiteurs de la pompe à protons.",
+              "explication": "Leur intérêt a diminué."
+            },
+            {
+              "reponse": "La cimétidine est un antihistaminique H1 de deuxième génération.",
+              "explication": "C'est un anti-H2."
+            },
+            {
+              "reponse": "L'histamine inhibe la libération de protons par les cellules pariétales.",
+              "explication": "Elle la stimule via les récepteurs H2."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-037",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Sur quelles cellules les antihistaminiques H2 bloquent-ils les récepteurs responsables de la sécrétion acide ? (une seule réponse attendue)",
+          "cours": {
+            "page": 13,
+            "surligner": "la libération de protons par les cellules pariétales"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules pariétales gastriques.",
+              "explication": "Elles portent les récepteurs H2 et libèrent les protons."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules entérochromaffin-like.",
+              "explication": "Elles libèrent l'histamine sous l'effet de la gastrine."
+            },
+            {
+              "reponse": "Les mastocytes.",
+              "explication": "Ils libèrent l'histamine dans l'allergie."
+            },
+            {
+              "reponse": "Les polynucléaires basophiles.",
+              "explication": "Ils libèrent l'histamine dans l'allergie."
+            },
+            {
+              "reponse": "Les neurones histaminergiques.",
+              "explication": "Ils libèrent l'histamine au niveau central."
+            },
+            {
+              "reponse": "Les hépatocytes.",
+              "explication": "Ils n'interviennent pas dans la sécrétion acide."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antihistaminiques indirects, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "diminuant la libération d'histamine par les mastocytes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cromoglycate de sodium diminue la libération d'histamine par les mastocytes.",
+              "explication": "C'est un antihistaminolibérateur."
+            },
+            {
+              "reponse": "Le mécanisme d'action du cromoglycate de sodium est mal élucidé.",
+              "explication": "Le cours le précise."
+            },
+            {
+              "reponse": "Le cromoglycate de sodium peut être indiqué par voie inhalée en traitement continu de l'asthme persistant.",
+              "explication": "Indication donnée par le cours."
+            },
+            {
+              "reponse": "LOMUDAL® est une spécialité de cromoglycate de sodium.",
+              "explication": "Nom de spécialité cité."
+            },
+            {
+              "reponse": "La tritoqualine inhibe l'histidine décarboxylase.",
+              "explication": "Elle diminue ainsi la synthèse d'histamine."
+            },
+            {
+              "reponse": "La tritoqualine a été retirée du marché en 2011.",
+              "explication": "Elle n'a plus d'autorisation de mise sur le marché."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le cromoglycate de sodium est un antagoniste des récepteurs H1.",
+              "explication": "Il agit en diminuant la libération d'histamine, pas sur les récepteurs."
+            },
+            {
+              "reponse": "Le cromoglycate de sodium est indiqué dans le traitement de la crise d'asthme.",
+              "explication": "En traitement continu de l'asthme persistant."
+            },
+            {
+              "reponse": "La tritoqualine est encore largement prescrite.",
+              "explication": "Elle a été retirée du marché en 2011."
+            },
+            {
+              "reponse": "La tritoqualine diminue la libération d'histamine par les mastocytes.",
+              "explication": "Elle diminue sa synthèse en inhibant l'histidine décarboxylase."
+            },
+            {
+              "reponse": "Plusieurs molécules commercialisées inhibent l'histidine décarboxylase.",
+              "explication": "Seule la tritoqualine agissait par ce mécanisme."
+            },
+            {
+              "reponse": "Le cromoglycate de sodium inhibe l'histidine décarboxylase.",
+              "explication": "C'est le mécanisme de la tritoqualine."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-039",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Par quel mécanisme la tritoqualine diminuait-elle les effets de l'histamine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 13,
+            "surligner": "en inhibant l'histidine décarboxylase"
+          },
+          "bonnes": [
+            {
+              "reponse": "En inhibant l'histidine décarboxylase.",
+              "explication": "Elle diminuait la synthèse d'histamine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En bloquant les récepteurs H1.",
+              "explication": "C'est le mécanisme des anti-H1."
+            },
+            {
+              "reponse": "En bloquant les récepteurs H2.",
+              "explication": "C'est le mécanisme des anti-H2."
+            },
+            {
+              "reponse": "En diminuant la libération d'histamine par les mastocytes.",
+              "explication": "C'est le mécanisme du cromoglycate de sodium."
+            },
+            {
+              "reponse": "En bloquant les récepteurs H3 présynaptiques.",
+              "explication": "C'est surtout le mécanisme de la bétahistine."
+            },
+            {
+              "reponse": "En inhibant la pompe à protons des cellules pariétales.",
+              "explication": "C'est le mécanisme des IPP."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antagonistes des récepteurs H3 et H4, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "les anti-H3 pourraient être intéressants dans la narcolepsie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les anti-H3 pourraient être intéressants dans la narcolepsie.",
+              "explication": "Trouble du sommeil avec temps de sommeil excessif."
+            },
+            {
+              "reponse": "Les anti-H3 pourraient être intéressants dans la maladie d'Alzheimer.",
+              "explication": "Piste citée par le cours."
+            },
+            {
+              "reponse": "Les anti-H3 pourraient être intéressants dans le déficit de l'attention.",
+              "explication": "Piste citée par le cours."
+            },
+            {
+              "reponse": "Les anti-H3 pourraient être intéressants dans la schizophrénie et l'obésité.",
+              "explication": "Pistes citées par le cours."
+            },
+            {
+              "reponse": "Les anti-H4 pourraient s'avérer plus efficaces que les anti-H1 dans les manifestations allergiques.",
+              "explication": "Certaines molécules sont en développement."
+            },
+            {
+              "reponse": "Aucun antagoniste H4 n'est commercialisé.",
+              "explication": "Des molécules sont seulement en voie de développement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anti-H4 pourraient être intéressants dans la narcolepsie.",
+              "explication": "C'est une piste des anti-H3."
+            },
+            {
+              "reponse": "Les anti-H3 pourraient s'avérer plus efficaces que les anti-H1 dans l'allergie.",
+              "explication": "C'est une piste des anti-H4."
+            },
+            {
+              "reponse": "Les anti-H3 sont indiqués dans l'ulcère gastroduodénal.",
+              "explication": "C'est l'indication des anti-H2."
+            },
+            {
+              "reponse": "Les anti-H4 sont largement commercialisés dans l'allergie.",
+              "explication": "Aucun n'est commercialisé."
+            },
+            {
+              "reponse": "Les anti-H4 pourraient être intéressants dans la maladie d'Alzheimer.",
+              "explication": "C'est une piste des anti-H3."
+            },
+            {
+              "reponse": "Les anti-H3 sont indiqués dans les troubles vertigineux.",
+              "explication": "C'est l'indication de la bétahistine, agoniste histaminergique."
+            }
+          ]
+        },
+        {
+          "id": "btm-pharmaco-histamine-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À ne pas confondre : quelles associations molécule–classe sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "on retrouve un seul histaminomimétique, dont la seule indication"
+          },
+          "bonnes": [
+            {
+              "reponse": "La bétahistine est un agoniste histaminergique.",
+              "explication": "Seul histaminomimétique."
+            },
+            {
+              "reponse": "La cimétidine est un antagoniste des récepteurs H2.",
+              "explication": "Anti-ulcéreux."
+            },
+            {
+              "reponse": "Le cromoglycate de sodium est un antihistaminolibérateur.",
+              "explication": "Il diminue la libération d'histamine par les mastocytes."
+            },
+            {
+              "reponse": "La tritoqualine est un inhibiteur de la synthèse d'histamine.",
+              "explication": "Inhibition de l'histidine décarboxylase."
+            },
+            {
+              "reponse": "Le dimenhydrinate est un antihistaminique H1 de première génération.",
+              "explication": "Antinaupathique."
+            },
+            {
+              "reponse": "La fexofénadine est un antihistaminique H1 de deuxième génération.",
+              "explication": "TELFAST®."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La bétahistine est un antagoniste des récepteurs H1.",
+              "explication": "C'est un agoniste (faible agoniste H1, surtout antagoniste H3)."
+            },
+            {
+              "reponse": "La cimétidine est un antihistaminique H1 de première génération.",
+              "explication": "C'est un anti-H2."
+            },
+            {
+              "reponse": "Le cromoglycate de sodium est un antagoniste des récepteurs H2.",
+              "explication": "C'est un antihistaminolibérateur."
+            },
+            {
+              "reponse": "La tritoqualine est un antagoniste des récepteurs H1.",
+              "explication": "C'est un inhibiteur de la synthèse."
+            },
+            {
+              "reponse": "Le dimenhydrinate est un antihistaminique H1 de deuxième génération.",
+              "explication": "Il est de première génération (sédatif, anticholinergique)."
+            },
+            {
+              "reponse": "L'hydroxyzine est un antihistaminique H1 de deuxième génération.",
+              "explication": "Elle est de première génération (ATARAX®)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

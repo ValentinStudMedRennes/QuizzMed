@@ -1,0 +1,2908 @@
+{
+  "meta": {
+    "theme": "Pharmacologie",
+    "section": "Pharmacologie des systèmes",
+    "titre": "Pharmacologie du système dopaminergique",
+    "description": "Agonistes et antagonistes dopaminergiques, directs et indirects : mécanismes, molécules, indications et effets indésirables.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "neuro-pharmaco-dopamine.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Agonistes dopaminergiques directs"
+      },
+      "questions": [
+        {
+          "id": "neuro-pharmaco-dopamine-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la dopamine utilisée comme médicament, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "ne traverse pas seule la barrière hémato-encéphalique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les effets de la dopamine administrée comme médicament sont uniquement périphériques.",
+              "explication": "Elle ne traverse pas seule la BHE."
+            },
+            {
+              "reponse": "La dopamine est administrée par voie intraveineuse.",
+              "explication": "Injection IV, en situation d'urgence."
+            },
+            {
+              "reponse": "La dopamine est indiquée dans le choc cardiogénique.",
+              "explication": "Indication d'urgence citée par le cours."
+            },
+            {
+              "reponse": "La dopamine est indiquée dans le choc septique.",
+              "explication": "Indication d'urgence citée par le cours."
+            },
+            {
+              "reponse": "Les effets périphériques de la dopamine sont dose-dépendants.",
+              "explication": "Le récepteur stimulé change selon la dose."
+            },
+            {
+              "reponse": "La dopamine participe à un effet natriurétique.",
+              "explication": "Par diminution de la réabsorption du sodium."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine traverse seule la barrière hémato-encéphalique.",
+              "explication": "Elle ne la traverse pas seule : effets uniquement périphériques."
+            },
+            {
+              "reponse": "La dopamine est administrée par voie orale.",
+              "explication": "Elle est injectée par voie IV."
+            },
+            {
+              "reponse": "La dopamine injectable est indiquée dans la maladie de Parkinson.",
+              "explication": "Elle ne passe pas la BHE ; indication : états de choc."
+            },
+            {
+              "reponse": "La relation effet-dose de la dopamine est systématique et identique d'un individu à l'autre.",
+              "explication": "Les effets sont très variables d'un individu à l'autre ; les seuils sont des repères."
+            },
+            {
+              "reponse": "La dopamine est administrée par voie sous-cutanée au moyen d'une mini-pompe.",
+              "explication": "C'est le mode d'administration de l'apomorphine."
+            },
+            {
+              "reponse": "La dopamine augmente la réabsorption du sodium.",
+              "explication": "Elle la diminue (effet natriurétique)."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-002",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel récepteur la dopamine stimule-t-elle à faible dose (moins de 3 µg/min/kg) ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "stimule les récepteurs D1, dits vasculaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "À faible dose, la dopamine stimule les récepteurs D1 vasculaires.",
+              "explication": "D'où une vasodilatation coronaire, mésentérique et rénale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À faible dose, la dopamine stimule surtout les récepteurs bêta-1 cardiaques.",
+              "explication": "Effet bêta-1 à dose moyenne (3 à 10 µg/min/kg)."
+            },
+            {
+              "reponse": "À faible dose, la dopamine stimule surtout les récepteurs alpha-1 vasculaires.",
+              "explication": "Effet alpha-1 à forte dose (> 10 µg/min/kg)."
+            },
+            {
+              "reponse": "À faible dose, la dopamine stimule surtout les récepteurs D2 de l'area postrema.",
+              "explication": "La dopamine IV agit en périphérie sur les récepteurs D1 vasculaires à faible dose."
+            },
+            {
+              "reponse": "À faible dose, la dopamine stimule surtout les récepteurs bêta-2 bronchiques.",
+              "explication": "Non décrit : faible dose = D1 vasculaires."
+            },
+            {
+              "reponse": "À faible dose, la dopamine stimule surtout les récepteurs D2 hypophysaires.",
+              "explication": "Faible dose = D1 vasculaires."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets dose-dépendants de la dopamine injectable, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "elle exerce un effet alpha-1 vasculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "À faible dose, la dopamine provoque une vasodilatation coronaire, mésentérique et rénale.",
+              "explication": "Par stimulation des récepteurs D1 vasculaires."
+            },
+            {
+              "reponse": "Entre 3 et 10 µg/min/kg, la dopamine a des effets inotrope positif et chronotrope positif.",
+              "explication": "Stimulation des récepteurs bêta-1 cardiaques."
+            },
+            {
+              "reponse": "À dose moyenne, la vasodilatation est toujours présente.",
+              "explication": "Elle persiste avec les effets bêta-1."
+            },
+            {
+              "reponse": "Au-delà de 10 µg/min/kg, la dopamine exerce un effet alpha-1 vasculaire avec vasoconstriction.",
+              "explication": "Forte dose : effet alpha-1."
+            },
+            {
+              "reponse": "À forte dose, les effets inotropes positifs de la dopamine persistent.",
+              "explication": "Ils s'accompagnent alors d'une vasoconstriction."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À faible dose, la dopamine provoque une vasoconstriction rénale.",
+              "explication": "Faible dose : vasodilatation rénale (D1)."
+            },
+            {
+              "reponse": "À dose moyenne, l'effet de la dopamine est principalement alpha-1.",
+              "explication": "Dose moyenne : effet bêta-1."
+            },
+            {
+              "reponse": "À forte dose, la dopamine provoque une vasodilatation pure, sans vasoconstriction.",
+              "explication": "Forte dose : vasoconstriction (alpha-1)."
+            },
+            {
+              "reponse": "L'effet alpha-1 de la dopamine apparaît dès 3 µg/min/kg.",
+              "explication": "Il apparaît au-delà de 10 µg/min/kg."
+            },
+            {
+              "reponse": "Un effet chronotrope positif désigne une augmentation de la force de contraction du cœur.",
+              "explication": "C'est l'effet inotrope ; chronotrope = fréquence."
+            },
+            {
+              "reponse": "À forte dose, la dopamine perd son effet inotrope positif.",
+              "explication": "L'effet inotrope positif persiste à forte dose."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'apomorphine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Elle est donc administrée par voie sous-cutanée"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'apomorphine est indiquée dans la maladie de Parkinson lorsque les traitements oraux deviennent insuffisants.",
+              "explication": "Indication du cours."
+            },
+            {
+              "reponse": "La demi-vie de l'apomorphine est d'environ 30 minutes.",
+              "explication": "Demi-vie très courte."
+            },
+            {
+              "reponse": "L'apomorphine est administrée par voie sous-cutanée en perfusion continue par mini-pompe.",
+              "explication": "Conséquence de sa demi-vie très courte."
+            },
+            {
+              "reponse": "L'apomorphine agit sur les récepteurs D1 et D2 post-synaptiques.",
+              "explication": "C'est l'action recherchée."
+            },
+            {
+              "reponse": "L'apomorphine est fortement émétisante.",
+              "explication": "Par action sur les récepteurs dopaminergiques de l'area postrema."
+            },
+            {
+              "reponse": "L'apomorphine doit être systématiquement associée à la dompéridone.",
+              "explication": "Pour contrer son effet émétisant."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'apomorphine est administrée par voie orale.",
+              "explication": "Voie sous-cutanée en perfusion continue."
+            },
+            {
+              "reponse": "La demi-vie de l'apomorphine est d'environ 40 jours.",
+              "explication": "Environ 30 minutes ; 40 jours = durée d'inhibition des IMAO-B."
+            },
+            {
+              "reponse": "L'apomorphine est systématiquement associée au métoclopramide.",
+              "explication": "Elle est associée à la dompéridone ; le métoclopramide, à action centrale, est déconseillé avec les agonistes."
+            },
+            {
+              "reponse": "L'apomorphine est injectée par voie IV dans le choc cardiogénique.",
+              "explication": "C'est la dopamine."
+            },
+            {
+              "reponse": "L'apomorphine agit uniquement sur les récepteurs D1.",
+              "explication": "Elle agit sur D1 et D2 post-synaptiques."
+            },
+            {
+              "reponse": "L'apomorphine a un effet antiémétique.",
+              "explication": "Elle est au contraire fortement émétisante."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-005",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Pourquoi associe-t-on systématiquement la dompéridone à l'apomorphine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "systématiquement associée à la dompéridone"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dompéridone est associée à l'apomorphine pour bloquer son effet émétisant lié à l'area postrema.",
+              "explication": "La dompéridone est un antagoniste D2 périphérique qui agit sur la CTZ."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dompéridone est associée à l'apomorphine pour allonger sa demi-vie.",
+              "explication": "Elle n'agit pas sur la demi-vie : l'apomorphine reste en perfusion continue."
+            },
+            {
+              "reponse": "La dompéridone est associée à l'apomorphine pour favoriser son passage de la BHE.",
+              "explication": "Rôle des inhibiteurs de la DDC vis-à-vis de la lévodopa, pas de la dompéridone."
+            },
+            {
+              "reponse": "La dompéridone est associée à l'apomorphine pour inhiber la dopa-décarboxylase périphérique.",
+              "explication": "C'est le rôle de la carbidopa et du bensérazide."
+            },
+            {
+              "reponse": "La dompéridone est associée à l'apomorphine pour potentialiser son effet antiparkinsonien central.",
+              "explication": "La dompéridone reste périphérique ; elle cible les nausées."
+            },
+            {
+              "reponse": "La dompéridone est associée à l'apomorphine pour prévenir une hypertension sévère.",
+              "explication": "Son rôle est antiémétique."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-006",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels agonistes dopaminergiques à action centrale sont des dérivés de l'ergot de seigle ? (3 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "bromocriptine, cabergoline et lisuride"
+          },
+          "bonnes": [
+            {
+              "reponse": "La bromocriptine est un dérivé de l'ergot de seigle.",
+              "explication": "Classification chimique du cours."
+            },
+            {
+              "reponse": "La cabergoline est un dérivé de l'ergot de seigle.",
+              "explication": "Classification chimique du cours."
+            },
+            {
+              "reponse": "Le lisuride est un dérivé de l'ergot de seigle.",
+              "explication": "Classification chimique du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le piribédil est un dérivé de l'ergot de seigle.",
+              "explication": "Non dérivé de l'ergot."
+            },
+            {
+              "reponse": "Le ropinirole est un dérivé de l'ergot de seigle.",
+              "explication": "Non dérivé de l'ergot."
+            },
+            {
+              "reponse": "Le pramipexole est un dérivé de l'ergot de seigle.",
+              "explication": "Non dérivé de l'ergot."
+            },
+            {
+              "reponse": "La quinagolide est un dérivé de l'ergot de seigle.",
+              "explication": "Non dérivée de l'ergot."
+            },
+            {
+              "reponse": "L'apomorphine est un dérivé de l'ergot de seigle.",
+              "explication": "Elle n'est pas classée parmi les dérivés de l'ergot."
+            },
+            {
+              "reponse": "L'halopéridol est un dérivé de l'ergot de seigle.",
+              "explication": "C'est un antipsychotique (butyrophénone)."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-007",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels agonistes dopaminergiques sont indiqués dans les hyperprolactinémies ? (3 réponses attendues)",
+          "cours": {
+            "page": 4,
+            "surligner": "La cabergoline, le lisuride et la quinagolide sont indiqués"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cabergoline est indiquée dans les hyperprolactinémies.",
+              "explication": "Indication du cours."
+            },
+            {
+              "reponse": "Le lisuride est indiqué dans les hyperprolactinémies.",
+              "explication": "Indication du cours."
+            },
+            {
+              "reponse": "La quinagolide est indiquée dans les hyperprolactinémies.",
+              "explication": "Indication du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le piribédil est indiqué dans les hyperprolactinémies.",
+              "explication": "Indiqué dans la maladie de Parkinson et le syndrome des jambes sans repos."
+            },
+            {
+              "reponse": "Le ropinirole est indiqué dans les hyperprolactinémies.",
+              "explication": "Indiqué dans la maladie de Parkinson et le syndrome des jambes sans repos."
+            },
+            {
+              "reponse": "Le pramipexole est indiqué dans les hyperprolactinémies.",
+              "explication": "Indiqué dans la maladie de Parkinson et le syndrome des jambes sans repos."
+            },
+            {
+              "reponse": "L'apomorphine est indiquée dans les hyperprolactinémies.",
+              "explication": "Indiquée dans la maladie de Parkinson."
+            },
+            {
+              "reponse": "L'amantadine est indiquée dans les hyperprolactinémies.",
+              "explication": "Traitement antiparkinsonien potentiel (libération de dopamine)."
+            },
+            {
+              "reponse": "La sélégiline est indiquée dans les hyperprolactinémies.",
+              "explication": "IMAO-B associé à la lévodopa dans la maladie de Parkinson."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les agonistes dopaminergiques à action centrale administrés par voie orale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "seul le lisuride est indiqué dans l'arrêt"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les agonistes oraux à action centrale agissent par stimulation directe des récepteurs D2.",
+              "explication": "Mécanisme commun à toutes ces molécules."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle exercent aussi des effets alpha-1-adrénergiques et sérotoninergiques.",
+              "explication": "Responsables de vasoconstriction et d'interactions médicamenteuses."
+            },
+            {
+              "reponse": "Le piribédil, le ropinirole et le pramipexole sont indiqués dans la maladie de Parkinson.",
+              "explication": "Avec la bromocriptine."
+            },
+            {
+              "reponse": "Ces agonistes peuvent être indiqués dans les formes sévères du syndrome des jambes sans repos.",
+              "explication": "Bromocriptine, piribédil, ropinirole, pramipexole."
+            },
+            {
+              "reponse": "Le lisuride est indiqué dans l'arrêt de la lactation physiologique du post-partum pour raison médicale.",
+              "explication": "Seule molécule dans cette indication."
+            },
+            {
+              "reponse": "Aucun agoniste dopaminergique n'est plus indiqué dans l'arrêt de la lactation pour une raison non médicale.",
+              "explication": "Point de vigilance du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cabergoline est indiquée dans l'arrêt de la lactation pour convenance personnelle.",
+              "explication": "Plus aucune molécule n'a cette indication."
+            },
+            {
+              "reponse": "La quinagolide est indiquée dans la maladie de Parkinson.",
+              "explication": "Elle est indiquée dans les hyperprolactinémies."
+            },
+            {
+              "reponse": "Les indications de ces agonistes recoupent exactement leur classification chimique.",
+              "explication": "Les deux groupes d'indications ne recoupent pas la classification chimique."
+            },
+            {
+              "reponse": "Les agonistes non dérivés de l'ergot ont une structure chimique commune.",
+              "explication": "Ils n'ont pas de point commun chimique entre eux."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle sont strictement sélectifs des récepteurs D2.",
+              "explication": "Ils ont aussi des effets alpha-1 et sérotoninergiques."
+            },
+            {
+              "reponse": "Les effets alpha-1 des dérivés de l'ergot provoquent une vasodilatation.",
+              "explication": "Ils provoquent une vasoconstriction."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables des agonistes dopaminergiques directs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "jeu pathologique, hypersexualité, consommation excessive"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les nausées et vomissements des agonistes directs sont liés à la stimulation des récepteurs D2 de l'area postrema.",
+              "explication": "Origine des nausées selon le cours."
+            },
+            {
+              "reponse": "Les agonistes directs peuvent provoquer une hypotension orthostatique.",
+              "explication": "Par vasodilatation (stimulation D1 périphérique)."
+            },
+            {
+              "reponse": "Les agonistes directs peuvent provoquer des troubles du rythme.",
+              "explication": "Effets inotrope et chronotrope positifs (D1 périphérique)."
+            },
+            {
+              "reponse": "Les agonistes directs peuvent provoquer une hypersomnie diurne.",
+              "explication": "Trouble du sommeil lié à la stimulation centrale."
+            },
+            {
+              "reponse": "Les agonistes directs peuvent provoquer une agitation, une irritation et des délires.",
+              "explication": "Stimulation excessive des récepteurs méso-cortico-limbiques."
+            },
+            {
+              "reponse": "Les agonistes directs peuvent provoquer un jeu pathologique, une hypersexualité ou une consommation excessive de nourriture.",
+              "explication": "Défaut du contrôle des impulsions."
+            },
+            {
+              "reponse": "Les troubles du contrôle des impulsions surviennent surtout avec les agonistes non ergotés.",
+              "explication": "Précision du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les nausées des agonistes directs sont liées à la stimulation de récepteurs D1 de la paroi gastrique.",
+              "explication": "Elles sont liées aux récepteurs D2 de l'area postrema."
+            },
+            {
+              "reponse": "Les agonistes directs provoquent typiquement une bradycardie.",
+              "explication": "Effet chronotrope positif ; troubles du rythme."
+            },
+            {
+              "reponse": "Les troubles du contrôle des impulsions surviennent surtout avec les dérivés de l'ergot.",
+              "explication": "Surtout avec les molécules non ergotées."
+            },
+            {
+              "reponse": "Les agonistes directs provoquent typiquement un syndrome extrapyramidal.",
+              "explication": "Effet des antagonistes (antipsychotiques)."
+            },
+            {
+              "reponse": "L'hypotension orthostatique des agonistes directs est due à une vasoconstriction alpha-1.",
+              "explication": "Elle est due à la vasodilatation (D1 périphérique)."
+            },
+            {
+              "reponse": "Les agonistes directs provoquent typiquement une hyperprolactinémie.",
+              "explication": "Ils font baisser la prolactine ; l'hyperprolactinémie est un effet des antagonistes."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'hypothèse expliquant le jeu pathologique sous agonistes dopaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "moins fréquents avec la lévodopa"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le jeu pathologique semble lié à la stimulation de certains récepteurs dopaminergiques au détriment d'autres.",
+              "explication": "Hypothèse du cours."
+            },
+            {
+              "reponse": "Les troubles du contrôle des impulsions sont beaucoup moins fréquents avec la lévodopa qu'avec les agonistes.",
+              "explication": "La lévodopa stimule tous les types de récepteurs."
+            },
+            {
+              "reponse": "La stimulation continue des récepteurs D2 contribuerait à les rendre inefficaces.",
+              "explication": "Mécanisme proposé."
+            },
+            {
+              "reponse": "Le jeu pathologique s'expliquerait par une incapacité à apprendre les conséquences négatives d'un choix.",
+              "explication": "D'où l'incapacité à percevoir les effets néfastes du jeu."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les troubles du contrôle des impulsions sont plus fréquents avec la lévodopa qu'avec les agonistes.",
+              "explication": "Ils sont beaucoup moins fréquents avec la lévodopa."
+            },
+            {
+              "reponse": "La lévodopa ne stimule que les récepteurs D2.",
+              "explication": "Elle stimule tous les types de récepteurs."
+            },
+            {
+              "reponse": "Le jeu pathologique est lié au blocage des récepteurs D2.",
+              "explication": "Il est lié à leur stimulation (continue)."
+            },
+            {
+              "reponse": "La stimulation continue des récepteurs D2 les rendrait hypersensibles.",
+              "explication": "Elle contribuerait à les rendre inefficaces."
+            },
+            {
+              "reponse": "Le jeu pathologique est dû à la stimulation des récepteurs de l'area postrema.",
+              "explication": "L'area postrema est impliquée dans les nausées."
+            },
+            {
+              "reponse": "Le jeu pathologique est dû aux effets alpha-1 des dérivés de l'ergot.",
+              "explication": "Les effets alpha-1 expliquent la vasoconstriction."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-011",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2018-2019",
+                "qcm": 18
+              }
+            ]
+          },
+          "question": "Concernant la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "les effets inotropes positifs persistent"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine est impliquée dans la sécrétion de prolactine.",
+              "annale": true,
+              "explication": "La dopamine est le frein physiologique de la sécrétion de prolactine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "À forte dose, la dopamine peut provoquer des effets alpha et bêta-1 adrénergiques.",
+              "annale": true,
+              "explication": "Au-delà de 10 µg/min/kg : effet alpha-1 vasculaire, avec persistance des effets inotropes (bêta-1). (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine passe la barrière hémato-encéphalique.",
+              "annale": true,
+              "explication": "Elle ne la traverse pas seule : effets uniquement périphériques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les récepteurs de la famille D2 se trouvent tous au niveau limbique.",
+              "annale": true,
+              "explication": "On en trouve aussi dans l'area postrema et l'hypophyse. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La stimulation périphérique des récepteurs D1 vasculaires provoque une vasoconstriction.",
+              "annale": true,
+              "explication": "Elle provoque une vasodilatation coronaire, mésentérique et rénale. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-012",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2018-2019",
+                "qcm": 19
+              }
+            ]
+          },
+          "question": "Concernant les médicaments du système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "récepteurs D2 de l'area postrema"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe des médicaments qui inhibent la recapture de la dopamine.",
+              "annale": true,
+              "explication": "Méthylphénidate, bupropion, antidépresseurs tricycliques (et la cocaïne, drogue). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antipsychotiques peuvent provoquer des effets indésirables de type pseudo-parkinsonien.",
+              "annale": true,
+              "explication": "Syndrome extrapyramidal lié au blocage des récepteurs D2 centraux. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'apomorphine, indiquée dans la maladie de Parkinson, provoque des diarrhées importantes.",
+              "annale": true,
+              "explication": "Son effet indésirable marquant est émétisant (nausées, vomissements). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les agonistes dopaminergiques directs dérivés de l'ergot de seigle sont très spécifiques des récepteurs D2.",
+              "annale": true,
+              "explication": "Ils ont aussi des effets alpha-1-adrénergiques et sérotoninergiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les nausées induites par les agonistes dopaminergiques sont liées à la stimulation de récepteurs D1 de la paroi de l'estomac.",
+              "annale": true,
+              "explication": "Elles sont liées aux récepteurs D2 de l'area postrema. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-013",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Lors d'un essai clinique d'un agoniste dopaminergique donné par voie orale en monothérapie, quels effets pharmacologiques (souhaités ou non) peut-on observer ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Ces effets sont communs à tous les agonistes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un agoniste dopaminergique oral peut provoquer des nausées.",
+              "annale": true,
+              "explication": "Stimulation des récepteurs D2 de l'area postrema. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un agoniste dopaminergique oral peut favoriser le développement d'une addiction.",
+              "annale": true,
+              "explication": "Troubles du contrôle des impulsions : jeu pathologique, hypersexualité, consommation excessive de nourriture. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un agoniste dopaminergique oral provoque typiquement un prurit.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le prurit relève de l'histamine, pas de la stimulation dopaminergique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Un agoniste dopaminergique oral provoque typiquement une bradycardie.",
+              "annale": true,
+              "explication": "La stimulation D1 périphérique donne des effets chronotrope positif et des troubles du rythme. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un agoniste dopaminergique oral provoque typiquement une bradykinésie.",
+              "annale": true,
+              "explication": "Ils traitent la maladie de Parkinson ; c'est le blocage dopaminergique qui donne un syndrome parkinsonien. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Agonistes dopaminergiques indirects"
+      },
+      "questions": [
+        {
+          "id": "neuro-pharmaco-dopamine-014",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels mécanismes relèvent des agonistes dopaminergiques indirects ? (3 réponses attendues)",
+          "cours": {
+            "page": 5,
+            "surligner": "apporter un précurseur, inhiber la recapture"
+          },
+          "bonnes": [
+            {
+              "reponse": "Apporter un précurseur de la dopamine est un mécanisme d'agoniste indirect.",
+              "explication": "Lévodopa."
+            },
+            {
+              "reponse": "Inhiber la recapture de la dopamine est un mécanisme d'agoniste indirect.",
+              "explication": "Méthylphénidate, bupropion, cocaïne."
+            },
+            {
+              "reponse": "Inhiber le catabolisme de la dopamine est un mécanisme d'agoniste indirect.",
+              "explication": "IMAO-B et ICOMT."
+            },
+            {
+              "reponse": "Favoriser la libération de la dopamine est un mécanisme d'agoniste indirect.",
+              "explication": "Amantadine, amphétamines."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Stimuler directement les récepteurs D2 est un mécanisme d'agoniste indirect.",
+              "explication": "C'est un mécanisme d'agoniste direct."
+            },
+            {
+              "reponse": "Diminuer le stockage vésiculaire de la dopamine est un mécanisme d'agoniste indirect.",
+              "explication": "Mécanisme d'antagoniste indirect (tétrabénazine, réserpine)."
+            },
+            {
+              "reponse": "Inhiber la dopa-décarboxylase périphérique est un mécanisme d'agoniste indirect.",
+              "explication": "Le cours le range parmi les antagonistes indirects (diminution de la synthèse périphérique)."
+            },
+            {
+              "reponse": "Diminuer la libération de la dopamine est un mécanisme d'agoniste indirect.",
+              "explication": "Mécanisme d'antagoniste indirect (GHB)."
+            },
+            {
+              "reponse": "Bloquer les récepteurs D2 est un mécanisme d'agoniste indirect.",
+              "explication": "C'est un antagonisme direct."
+            },
+            {
+              "reponse": "Lier directement les récepteurs D1 est un mécanisme d'agoniste indirect.",
+              "explication": "Les indirects agissent sans se lier aux récepteurs."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la lévodopa, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "toujours associée à un inhibiteur"
+          },
+          "bonnes": [
+            {
+              "reponse": "La lévodopa est un précurseur de la dopamine.",
+              "explication": "Agoniste indirect par apport de précurseur."
+            },
+            {
+              "reponse": "La lévodopa peut franchir la BHE si elle n'a pas été transformée en périphérie.",
+              "explication": "Condition indiquée par le cours."
+            },
+            {
+              "reponse": "La lévodopa est toujours associée à un inhibiteur de la dopa-décarboxylase périphérique.",
+              "explication": "Pour empêcher sa dégradation en périphérie."
+            },
+            {
+              "reponse": "On peut associer des inhibiteurs de la COMT à la lévodopa.",
+              "explication": "Option citée par le cours."
+            },
+            {
+              "reponse": "L'enzyme bloquée en périphérie et l'enzyme utile au niveau central sont toutes deux la dopa-décarboxylase.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "L'inhibiteur de la dopa-décarboxylase associé à la lévodopa ne franchit pas la BHE.",
+              "explication": "La transformation en dopamine est donc conservée dans le cerveau."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La lévodopa ne peut pas franchir la BHE.",
+              "explication": "Elle la franchit, à condition de ne pas avoir été transformée en périphérie."
+            },
+            {
+              "reponse": "L'inhibiteur de la dopa-décarboxylase associé à la lévodopa franchit la BHE.",
+              "explication": "Il ne la franchit pas : c'est tout l'intérêt du dispositif."
+            },
+            {
+              "reponse": "L'enzyme bloquée en périphérie lors d'un traitement par lévodopa est la COMT, l'enzyme centrale étant la DDC.",
+              "explication": "C'est la même enzyme, la DDC (l'ajout d'un ICOMT est optionnel)."
+            },
+            {
+              "reponse": "La lévodopa est un agoniste direct des récepteurs D2.",
+              "explication": "C'est un agoniste indirect (précurseur)."
+            },
+            {
+              "reponse": "La lévodopa est transformée en dopamine par la COMT.",
+              "explication": "Elle est transformée par la dopa-décarboxylase."
+            },
+            {
+              "reponse": "La lévodopa est systématiquement associée à un IMAO-A.",
+              "explication": "Elle est associée à un inhibiteur de la DDC périphérique (IMAO-B possibles dans la maladie de Parkinson)."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les médicaments et substances qui inhibent la recapture de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "commercialisé sous le nom de Ritaline"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le méthylphénidate est donné dans les troubles de l'attention avec hyperactivité de l'enfant.",
+              "explication": "Commercialisé sous le nom de Ritaline."
+            },
+            {
+              "reponse": "Le bupropion est indiqué dans l'aide au sevrage tabagique.",
+              "explication": "Indication du cours."
+            },
+            {
+              "reponse": "Le bupropion peut provoquer une hypertension sévère.",
+              "explication": "Parmi ses nombreux effets indésirables."
+            },
+            {
+              "reponse": "La cocaïne inhibe les transporteurs DAT.",
+              "explication": "Elle empêche la recapture de la dopamine."
+            },
+            {
+              "reponse": "La cocaïne est une drogue et non un médicament.",
+              "explication": "Précision du cours."
+            },
+            {
+              "reponse": "La dépendance à la cocaïne s'explique par un état de manque en l'absence de la substance.",
+              "explication": "Après la mise en place du circuit de récompense."
+            },
+            {
+              "reponse": "Les antidépresseurs tricycliques sont peu spécifiques, ce qui explique leurs effets indésirables.",
+              "explication": "Antidépresseurs de première génération."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le méthylphénidate est commercialisé sous le nom de Sibelium.",
+              "explication": "Ritaline ; Sibelium = flunarizine."
+            },
+            {
+              "reponse": "Le bupropion est indiqué dans la maladie de Parkinson.",
+              "explication": "Il est indiqué dans l'aide au sevrage tabagique."
+            },
+            {
+              "reponse": "Le bupropion peut provoquer une hypotension sévère.",
+              "explication": "Il peut provoquer une hypertension sévère."
+            },
+            {
+              "reponse": "La cocaïne stimule directement les récepteurs D2.",
+              "explication": "Elle inhibe la recapture (DAT)."
+            },
+            {
+              "reponse": "La cocaïne augmente l'activité des transporteurs DAT.",
+              "explication": "Elle les inhibe."
+            },
+            {
+              "reponse": "Les antidépresseurs tricycliques sont très spécifiques de la dopamine.",
+              "explication": "Ils sont peu spécifiques."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les inhibiteurs du catabolisme de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "la sélégiline et la rasagiline"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sélégiline est un inhibiteur de la MAO-B.",
+              "explication": "IMAO-B."
+            },
+            {
+              "reponse": "La rasagiline est un inhibiteur de la MAO-B.",
+              "explication": "IMAO-B."
+            },
+            {
+              "reponse": "Les IMAO-B sont souvent associés à la lévodopa dans la maladie de Parkinson.",
+              "explication": "Usage cité par le cours."
+            },
+            {
+              "reponse": "L'inhibition de la MAO-B par la sélégiline ou la rasagiline dure environ 40 jours.",
+              "explication": "Durée indiquée par le cours."
+            },
+            {
+              "reponse": "L'entacapone est un inhibiteur périphérique de la COMT.",
+              "explication": "ICOMT périphérique."
+            },
+            {
+              "reponse": "L'opicapone est un inhibiteur périphérique de la COMT.",
+              "explication": "ICOMT périphérique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La tolcapone est un inhibiteur strictement périphérique de la COMT.",
+              "explication": "Elle exerce une action centrale."
+            },
+            {
+              "reponse": "L'entacapone exerce une action centrale.",
+              "explication": "C'est un inhibiteur périphérique."
+            },
+            {
+              "reponse": "L'inhibition de la MAO-B par la sélégiline dure environ 30 minutes.",
+              "explication": "Environ 40 jours."
+            },
+            {
+              "reponse": "La sélégiline est un inhibiteur de la COMT.",
+              "explication": "C'est un IMAO-B."
+            },
+            {
+              "reponse": "Les IMAO-B sont des agonistes dopaminergiques directs.",
+              "explication": "Ce sont des agonistes indirects."
+            },
+            {
+              "reponse": "La rasagiline est indiquée dans les hyperprolactinémies.",
+              "explication": "Elle est utilisée dans la maladie de Parkinson."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-018",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel inhibiteur de la COMT exerce une action centrale ? (une seule réponse attendue)",
+          "cours": {
+            "page": 6,
+            "surligner": "et la tolcapone, qui exerce une action centrale"
+          },
+          "bonnes": [
+            {
+              "reponse": "La tolcapone est l'inhibiteur de la COMT à action centrale.",
+              "explication": "L'entacapone et l'opicapone sont périphériques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'entacapone est l'inhibiteur de la COMT à action centrale.",
+              "explication": "Inhibiteur périphérique."
+            },
+            {
+              "reponse": "L'opicapone est l'inhibiteur de la COMT à action centrale.",
+              "explication": "Inhibiteur périphérique."
+            },
+            {
+              "reponse": "La sélégiline est l'inhibiteur de la COMT à action centrale.",
+              "explication": "C'est un IMAO-B."
+            },
+            {
+              "reponse": "La rasagiline est l'inhibiteur de la COMT à action centrale.",
+              "explication": "C'est un IMAO-B."
+            },
+            {
+              "reponse": "La carbidopa est l'inhibiteur de la COMT à action centrale.",
+              "explication": "Inhibiteur de la DDC périphérique."
+            },
+            {
+              "reponse": "Le bensérazide est l'inhibiteur de la COMT à action centrale.",
+              "explication": "Inhibiteur de la DDC périphérique."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les substances qui favorisent la libération de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Le seul médicament qui agit par cette voie est l'amantadine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'amantadine est le seul médicament qui agit en favorisant la libération de la dopamine.",
+              "explication": "Mécanisme agoniste indirect."
+            },
+            {
+              "reponse": "L'amantadine provoque la libération de dopamine dans le striatum.",
+              "explication": "Action centrale : traitement antiparkinsonien potentiel."
+            },
+            {
+              "reponse": "L'indication de l'amantadine dans la grippe n'a rien à voir avec la dopamine.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Les amphétamines entrent dans le bouton pré-synaptique par diffusion passive ou par les transporteurs DAT.",
+              "explication": "Deux voies d'entrée."
+            },
+            {
+              "reponse": "Les amphétamines libèrent la dopamine de ses vésicules, qui sort dans la synapse par réversion des DAT.",
+              "explication": "Mécanisme libérateur."
+            },
+            {
+              "reponse": "À forte dose, les amphétamines inhibent la MAO-A.",
+              "explication": "Précision du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'amantadine agit en inhibant la recapture de la dopamine.",
+              "explication": "Elle favorise sa libération."
+            },
+            {
+              "reponse": "L'amantadine agit uniquement en périphérie.",
+              "explication": "Son action est centrale (striatum)."
+            },
+            {
+              "reponse": "L'effet de l'amantadine contre la grippe s'explique par son action dopaminergique.",
+              "explication": "Il n'a rien à voir avec la dopamine."
+            },
+            {
+              "reponse": "Les amphétamines augmentent la recapture de la dopamine.",
+              "explication": "Elles favorisent sa libération par réversion des DAT."
+            },
+            {
+              "reponse": "À faible dose, les amphétamines inhibent la MAO-B.",
+              "explication": "C'est à forte dose qu'elles inhibent la MAO-A."
+            },
+            {
+              "reponse": "Les amphétamines agissent en stimulant directement les récepteurs D1.",
+              "explication": "Ce sont des agonistes indirects (libération)."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la synapse dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "couplés à la protéine Gs"
+          },
+          "bonnes": [
+            {
+              "reponse": "La MAO dégrade la dopamine en DOPAC.",
+              "explication": "Dans le bouton pré-synaptique."
+            },
+            {
+              "reponse": "La COMT dégrade la dopamine en acide homovanillique (AHV).",
+              "explication": "Dans la fente synaptique."
+            },
+            {
+              "reponse": "Le transporteur VMAT fait entrer la dopamine dans ses vésicules de stockage.",
+              "explication": "Transporteur vésiculaire."
+            },
+            {
+              "reponse": "Le DAT est le transporteur membranaire de recapture de la dopamine.",
+              "explication": "Cible de la cocaïne."
+            },
+            {
+              "reponse": "Les récepteurs D1 et D5 sont couplés à la protéine Gs.",
+              "explication": "Famille D1."
+            },
+            {
+              "reponse": "Les récepteurs D2, D3 et D4 sont couplés à la protéine Gi.",
+              "explication": "Famille D2."
+            },
+            {
+              "reponse": "Des autorécepteurs D2 et D3 sont présents sur la membrane pré-synaptique.",
+              "explication": "Représentés sur le schéma de la synapse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La COMT dégrade la dopamine en DOPAC.",
+              "explication": "La COMT donne l'AHV ; la MAO donne le DOPAC."
+            },
+            {
+              "reponse": "La MAO dégrade la dopamine en acide homovanillique.",
+              "explication": "La MAO donne le DOPAC."
+            },
+            {
+              "reponse": "Les récepteurs D1 sont couplés à la protéine Gi.",
+              "explication": "Ils sont couplés à Gs."
+            },
+            {
+              "reponse": "Le récepteur D4 appartient à la famille D1.",
+              "explication": "Famille D2 (D2, D3, D4)."
+            },
+            {
+              "reponse": "Le récepteur D5 appartient à la famille D2.",
+              "explication": "Famille D1 (D1, D5)."
+            },
+            {
+              "reponse": "Le VMAT est le transporteur membranaire de recapture de la dopamine.",
+              "explication": "C'est le DAT ; le VMAT est vésiculaire."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-021",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2020-2021",
+                "qcm": 4
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "elles libèrent la dopamine de ses vésicules"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les traitements antipsychotiques bloquent le système dopaminergique.",
+              "annale": true,
+              "explication": "Ce sont des antagonistes des récepteurs D2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les IMAO sont des agonistes dopaminergiques indirects.",
+              "annale": true,
+              "explication": "Ils inhibent le catabolisme de la dopamine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La L-DOPA est un précurseur de la dopamine.",
+              "annale": true,
+              "explication": "Agoniste indirect par apport de précurseur. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les amphétamines favorisent la libération de la dopamine de ses vésicules de stockage.",
+              "annale": true,
+              "explication": "Sortie par réversion des DAT. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les traitements antimigraineux stimulent le système dopaminergique.",
+              "annale": true,
+              "explication": "La flunarizine, antimigraineux, est au contraire un neuroleptique caché (blocage dopaminergique). (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Antagonistes dopaminergiques directs"
+      },
+      "questions": [
+        {
+          "id": "neuro-pharmaco-dopamine-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antagonistes dopaminergiques directs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "cette seule propriété pharmacocinétique détermine leur classe thérapeutique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les antagonistes dopaminergiques directs sont essentiellement des antagonistes des récepteurs D2.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le passage ou non de la BHE détermine la classe thérapeutique des antagonistes directs.",
+              "explication": "Une propriété pharmacocinétique."
+            },
+            {
+              "reponse": "Les antagonistes D2 qui passent la BHE sont utilisés comme antipsychotiques dans la schizophrénie.",
+              "explication": "Effets centraux."
+            },
+            {
+              "reponse": "Les antagonistes D2 à passage faible ou nul de la BHE sont utilisés comme antiémétiques.",
+              "explication": "Effets périphériques."
+            },
+            {
+              "reponse": "Le terme de neuroleptiques désigne surtout les antipsychotiques les plus anciens.",
+              "explication": "Précision du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antagonistes des récepteurs D1 sont utilisés en thérapeutique comme antipsychotiques.",
+              "explication": "La famille D1 n'est pas utilisée ; ce sont des antagonistes D2."
+            },
+            {
+              "reponse": "C'est l'affinité relative D1/D2 qui détermine la classe thérapeutique des antagonistes directs.",
+              "explication": "C'est le passage de la BHE."
+            },
+            {
+              "reponse": "Les antiémétiques antidopaminergiques passent largement la BHE.",
+              "explication": "Passage faible voire nul."
+            },
+            {
+              "reponse": "Le terme de neuroleptiques désigne surtout les antipsychotiques les plus récents.",
+              "explication": "Il désigne surtout les plus anciens."
+            },
+            {
+              "reponse": "Les antipsychotiques sont des agonistes des récepteurs D2.",
+              "explication": "Ce sont des antagonistes D2."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la théorie dopaminergique de la schizophrénie et les générations d'antipsychotiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "symptômes productifs seraient dus à une hyperactivité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les symptômes productifs de la schizophrénie seraient dus à une hyperactivité dopaminergique.",
+              "explication": "Théorie dopaminergique."
+            },
+            {
+              "reponse": "Les symptômes déficitaires de la schizophrénie seraient dus à une hypoactivité dopaminergique.",
+              "explication": "Théorie dopaminergique."
+            },
+            {
+              "reponse": "Les antipsychotiques de première génération agissent essentiellement sur les symptômes positifs.",
+              "explication": "Neuroleptiques."
+            },
+            {
+              "reponse": "Les antipsychotiques de deuxième génération donnent moins d'effets indésirables moteurs.",
+              "explication": "Meilleur profil de tolérance neurologique."
+            },
+            {
+              "reponse": "Les antipsychotiques de deuxième génération ont un effet plus marqué sur la composante négative.",
+              "explication": "Caractéristique de la 2e génération."
+            },
+            {
+              "reponse": "Les antipsychotiques de deuxième génération ont des mécanismes d'action distincts les uns des autres.",
+              "explication": "Précision du cours."
+            },
+            {
+              "reponse": "Dans la schizophrénie, le système dopaminergique est hypoactif dans certaines régions et hyperactif dans d'autres.",
+              "explication": "D'où la complexité de sa modulation pharmacologique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les symptômes productifs de la schizophrénie seraient dus à une hypoactivité dopaminergique.",
+              "explication": "Ils seraient dus à une hyperactivité."
+            },
+            {
+              "reponse": "Les antipsychotiques de première génération agissent surtout sur les symptômes négatifs.",
+              "explication": "Surtout sur les symptômes positifs."
+            },
+            {
+              "reponse": "Les antipsychotiques de deuxième génération donnent plus d'effets indésirables moteurs que la première.",
+              "explication": "Ils en donnent moins."
+            },
+            {
+              "reponse": "Un antipsychotique agit sélectivement dans les régions cérébrales où la dopamine est hyperactive.",
+              "explication": "Le médicament agit partout de la même façon."
+            },
+            {
+              "reponse": "Les hallucinations et le délire sont des symptômes négatifs.",
+              "explication": "Ce sont des symptômes positifs (productifs)."
+            },
+            {
+              "reponse": "Le blocage des récepteurs dopaminergiques par les antipsychotiques n'a aucune conséquence sur les autres systèmes de neurotransmission.",
+              "explication": "La dopamine interagit avec tous les autres systèmes."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les indications et le profil des antipsychotiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "traitement des psychoses aiguës et chroniques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les antipsychotiques sont indiqués dans les psychoses aiguës et chroniques.",
+              "explication": "Indication principale."
+            },
+            {
+              "reponse": "Certains antipsychotiques sont indiqués dans les troubles bipolaires.",
+              "explication": "Indication citée."
+            },
+            {
+              "reponse": "Certains antipsychotiques sont indiqués dans les états d'agitation ou d'agressivité.",
+              "explication": "Indication citée."
+            },
+            {
+              "reponse": "Certains antipsychotiques sont indiqués dans l'anxiété.",
+              "explication": "Indication citée."
+            },
+            {
+              "reponse": "Certains antipsychotiques sont indiqués dans les épisodes dépressifs sévères.",
+              "explication": "Indication citée."
+            },
+            {
+              "reponse": "Les antipsychotiques agissent aussi sur d'autres sous-types de récepteurs dopaminergiques et sur les voies monoaminergiques.",
+              "explication": "D'où un profil de tolérance complexe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antipsychotiques sont indiqués dans la maladie de Parkinson.",
+              "explication": "Ils bloquent les récepteurs D2 et provoquent un syndrome pseudo-parkinsonien."
+            },
+            {
+              "reponse": "Les antipsychotiques sont indiqués dans le traitement des hyperprolactinémies.",
+              "explication": "Ils provoquent au contraire une hyperprolactinémie."
+            },
+            {
+              "reponse": "Les antipsychotiques agissent exclusivement sur les récepteurs D2.",
+              "explication": "Ils agissent sur d'autres sous-types et sur l'ensemble des voies monoaminergiques."
+            },
+            {
+              "reponse": "Les antipsychotiques ont un profil de tolérance simple, avec peu d'effets indésirables.",
+              "explication": "Profil complexe, nombreux effets indésirables potentiels."
+            },
+            {
+              "reponse": "Les antipsychotiques sont indiqués dans le syndrome des jambes sans repos.",
+              "explication": "Indication de certains agonistes dopaminergiques."
+            },
+            {
+              "reponse": "Les antipsychotiques sont indiqués dans la narcolepsie avec cataplexie.",
+              "explication": "Indication du GHB."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-025",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules sont des antipsychotiques de première génération ? (3 réponses attendues)",
+          "cours": {
+            "page": 8,
+            "surligner": "cyamémazine, représentant des phénothiazines"
+          },
+          "bonnes": [
+            {
+              "reponse": "La cyamémazine est un antipsychotique de première génération.",
+              "explication": "Représentant des phénothiazines."
+            },
+            {
+              "reponse": "L'halopéridol est un antipsychotique de première génération.",
+              "explication": "Représentant des butyrophénones."
+            },
+            {
+              "reponse": "Le sulpiride est un antipsychotique de première génération.",
+              "explication": "Représentant des benzamides."
+            },
+            {
+              "reponse": "Le flupentixol est un antipsychotique de première génération.",
+              "explication": "Représentant des thioxanthènes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La clozapine est un antipsychotique de première génération.",
+              "explication": "Deuxième génération."
+            },
+            {
+              "reponse": "L'olanzapine est un antipsychotique de première génération.",
+              "explication": "Deuxième génération."
+            },
+            {
+              "reponse": "La rispéridone est un antipsychotique de première génération.",
+              "explication": "Deuxième génération."
+            },
+            {
+              "reponse": "L'amisulpride est un antipsychotique de première génération.",
+              "explication": "Deuxième génération."
+            },
+            {
+              "reponse": "La quétiapine est un antipsychotique de première génération.",
+              "explication": "Deuxième génération."
+            },
+            {
+              "reponse": "La dompéridone est un antipsychotique de première génération.",
+              "explication": "C'est un antiémétique périphérique."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la classification chimique des antipsychotiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "halopéridol, représentant des butyrophénones"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'halopéridol est le représentant des butyrophénones.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "Le sulpiride est le représentant des benzamides.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "Le flupentixol est le représentant des thioxanthènes.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "La cyamémazine est le représentant des phénothiazines.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "Les antipsychotiques de première génération se divisent en 4 grands groupes chimiques.",
+              "explication": "Phénothiazines, butyrophénones, benzamides, thioxanthènes."
+            },
+            {
+              "reponse": "Les antipsychotiques de deuxième génération n'ont pas de point commun chimique particulier.",
+              "explication": "Ils sont énumérés indépendamment."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'halopéridol est le représentant des phénothiazines.",
+              "explication": "Butyrophénones."
+            },
+            {
+              "reponse": "La cyamémazine est le représentant des butyrophénones.",
+              "explication": "Phénothiazines."
+            },
+            {
+              "reponse": "Le sulpiride est le représentant des thioxanthènes.",
+              "explication": "Benzamides."
+            },
+            {
+              "reponse": "Le flupentixol est le représentant des benzamides.",
+              "explication": "Thioxanthènes."
+            },
+            {
+              "reponse": "Les antipsychotiques de première génération se divisent en 3 grands groupes chimiques.",
+              "explication": "4 groupes."
+            },
+            {
+              "reponse": "Les antipsychotiques de deuxième génération appartiennent tous à la classe des benzamides.",
+              "explication": "Ils n'ont pas de point commun chimique."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-027",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules sont des antipsychotiques de deuxième génération ? (3 réponses attendues)",
+          "cours": {
+            "page": 8,
+            "surligner": "n'ont pas de point commun chimique particulier"
+          },
+          "bonnes": [
+            {
+              "reponse": "La clozapine est un antipsychotique de deuxième génération.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "L'olanzapine est un antipsychotique de deuxième génération.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "La rispéridone est un antipsychotique de deuxième génération.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "L'amisulpride est un antipsychotique de deuxième génération.",
+              "explication": "Tableau de classification."
+            },
+            {
+              "reponse": "La quétiapine est un antipsychotique de deuxième génération.",
+              "explication": "Tableau de classification."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'halopéridol est un antipsychotique de deuxième génération.",
+              "explication": "Première génération (butyrophénones)."
+            },
+            {
+              "reponse": "La cyamémazine est un antipsychotique de deuxième génération.",
+              "explication": "Première génération (phénothiazines)."
+            },
+            {
+              "reponse": "Le sulpiride est un antipsychotique de deuxième génération.",
+              "explication": "Première génération (benzamides)."
+            },
+            {
+              "reponse": "Le flupentixol est un antipsychotique de deuxième génération.",
+              "explication": "Première génération (thioxanthènes)."
+            },
+            {
+              "reponse": "Le métoclopramide est un antipsychotique de deuxième génération.",
+              "explication": "Antiémétique (benzamide)."
+            },
+            {
+              "reponse": "La tétrabénazine est un antipsychotique de deuxième génération.",
+              "explication": "Inhibiteur du stockage vésiculaire."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets indésirables centraux des antipsychotiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "akathisies, c'est-à-dire l'impossibilité de rester assis"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les antipsychotiques peuvent provoquer un syndrome pseudo-parkinsonien (extrapyramidal).",
+              "explication": "Effet indésirable moteur."
+            },
+            {
+              "reponse": "Les antipsychotiques peuvent provoquer des dystonies.",
+              "explication": "Troubles du mouvement."
+            },
+            {
+              "reponse": "L'akathisie correspond à l'impossibilité de rester assis.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les antipsychotiques peuvent provoquer des dyskinésies irréversibles.",
+              "explication": "Effet indésirable moteur."
+            },
+            {
+              "reponse": "L'hyperprolactinémie des antipsychotiques est liée au blocage des récepteurs dopaminergiques hypophysaires.",
+              "explication": "Levée du frein dopaminergique."
+            },
+            {
+              "reponse": "L'hyperprolactinémie des antipsychotiques peut se traduire par une galactorrhée, une aménorrhée, une gynécomastie et des troubles de la libido.",
+              "explication": "Effets endocriniens."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'akathisie correspond à des mouvements involontaires de la bouche et de la langue.",
+              "explication": "C'est l'impossibilité de rester assis ; la description évoque les dyskinésies tardives."
+            },
+            {
+              "reponse": "Les antipsychotiques provoquent une hypoprolactinémie.",
+              "explication": "Ils provoquent une hyperprolactinémie."
+            },
+            {
+              "reponse": "L'hyperprolactinémie des antipsychotiques est liée au blocage des récepteurs de l'area postrema.",
+              "explication": "Elle est liée au blocage hypophysaire."
+            },
+            {
+              "reponse": "Les dyskinésies induites par les antipsychotiques sont toujours réversibles.",
+              "explication": "Le cours les décrit comme irréversibles."
+            },
+            {
+              "reponse": "La galactorrhée sous antipsychotique est liée à la stimulation des récepteurs D2 hypophysaires.",
+              "explication": "Elle est liée à leur blocage."
+            },
+            {
+              "reponse": "Les antipsychotiques provoquent typiquement un jeu pathologique par défaut du contrôle des impulsions.",
+              "explication": "Effet indésirable des agonistes."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les neuroleptiques cachés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "neuroleptiques cachés, parfois peu connus des médecins"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les neuroleptiques cachés ont un mode d'action principal sans lien avec le système dopaminergique.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les neuroleptiques cachés exercent une action secondaire de blocage des récepteurs dopaminergiques.",
+              "explication": "D'où leurs effets indésirables."
+            },
+            {
+              "reponse": "La flunarizine (Sibelium), un antimigraineux, est un neuroleptique caché.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "L'acépromazine, présente dans le Noctran, est une phénothiazine hypnotique à effet neuroleptique caché.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "La prométhazine (Phénergan), un antihistaminique de la classe des phénothiazines, est un neuroleptique caché.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Les neuroleptiques cachés exposent surtout à des interactions médicamenteuses dangereuses, du même type que celles des antipsychotiques.",
+              "explication": "Point souligné par le cours."
+            },
+            {
+              "reponse": "Les neuroleptiques cachés peuvent exposer à des effets indésirables graves, en particulier en cas de surdosage.",
+              "explication": "Point souligné par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les neuroleptiques cachés ont un mode d'action principal dopaminergique.",
+              "explication": "Leur action dopaminergique est secondaire."
+            },
+            {
+              "reponse": "Les neuroleptiques cachés sont bien connus de tous les médecins.",
+              "explication": "Ils sont parfois peu connus des médecins."
+            },
+            {
+              "reponse": "La flunarizine est commercialisée sous le nom de Noctran.",
+              "explication": "Sibelium ; le Noctran contient de l'acépromazine."
+            },
+            {
+              "reponse": "La prométhazine est un antimigraineux.",
+              "explication": "C'est un antihistaminique (phénothiazine)."
+            },
+            {
+              "reponse": "L'acépromazine est commercialisée sous le nom de Phénergan.",
+              "explication": "Phénergan = prométhazine."
+            },
+            {
+              "reponse": "La flunarizine stimule les récepteurs dopaminergiques.",
+              "explication": "Elle les bloque (effet neuroleptique)."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-030",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels médicaments sont cités comme neuroleptiques cachés ? (3 réponses attendues)",
+          "cours": {
+            "page": 9,
+            "surligner": "la flunarizine, commercialisée sous le nom de Sibelium"
+          },
+          "bonnes": [
+            {
+              "reponse": "La flunarizine est un neuroleptique caché.",
+              "explication": "Antimigraineux (Sibelium)."
+            },
+            {
+              "reponse": "L'acépromazine est un neuroleptique caché.",
+              "explication": "Phénothiazine hypnotique (Noctran)."
+            },
+            {
+              "reponse": "La prométhazine est un neuroleptique caché.",
+              "explication": "Antihistaminique phénothiazine (Phénergan)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'halopéridol est un neuroleptique caché.",
+              "explication": "Antipsychotique : son action dopaminergique est principale."
+            },
+            {
+              "reponse": "La cyamémazine est un neuroleptique caché.",
+              "explication": "Antipsychotique de première génération."
+            },
+            {
+              "reponse": "L'amantadine est un neuroleptique caché.",
+              "explication": "Elle favorise la libération de dopamine."
+            },
+            {
+              "reponse": "La bromocriptine est un neuroleptique caché.",
+              "explication": "Agoniste dopaminergique direct."
+            },
+            {
+              "reponse": "La sélégiline est un neuroleptique caché.",
+              "explication": "IMAO-B, agoniste indirect."
+            },
+            {
+              "reponse": "La carbidopa est un neuroleptique caché.",
+              "explication": "Inhibiteur de la DDC périphérique."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antiémétiques antagonistes dopaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "reste strictement périphérique, sans passage"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les antagonistes D2 périphériques sont utilisés contre les nausées, les vomissements et le reflux gastro-œsophagien.",
+              "explication": "Prévention des troubles digestifs."
+            },
+            {
+              "reponse": "La dompéridone reste strictement périphérique, sans passage de la BHE.",
+              "explication": "Précision du cours."
+            },
+            {
+              "reponse": "La dompéridone agit par inhibition des récepteurs D2 de la CTZ.",
+              "explication": "Zone gâchette des nausées et vomissements."
+            },
+            {
+              "reponse": "Le métoclopramide traverse faiblement la BHE.",
+              "explication": "Comme la métopimazine et l'alizapride."
+            },
+            {
+              "reponse": "À forte posologie, la métopimazine, le métoclopramide et l'alizapride exposent à des troubles extrapyramidaux.",
+              "explication": "Effets indésirables centraux."
+            },
+            {
+              "reponse": "Le métoclopramide et l'alizapride sont des benzamides.",
+              "explication": "Classes indiquées par le cours."
+            },
+            {
+              "reponse": "La métopimazine fait partie des phénothiazines.",
+              "explication": "Classe indiquée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dompéridone traverse largement la BHE.",
+              "explication": "Elle reste strictement périphérique."
+            },
+            {
+              "reponse": "Le métoclopramide est strictement périphérique, sans aucun passage de la BHE.",
+              "explication": "Il traverse faiblement la BHE."
+            },
+            {
+              "reponse": "La métopimazine est un benzamide.",
+              "explication": "C'est une phénothiazine."
+            },
+            {
+              "reponse": "Les antiémétiques antidopaminergiques agissent sur des récepteurs D1 de la paroi gastrique.",
+              "explication": "Ils agissent sur les récepteurs D2 de la CTZ."
+            },
+            {
+              "reponse": "Les antiémétiques antidopaminergiques sont des agonistes D2.",
+              "explication": "Ce sont des antagonistes D2."
+            },
+            {
+              "reponse": "L'alizapride ne donne jamais d'effet indésirable central, quelle que soit la posologie.",
+              "explication": "À forte posologie : troubles extrapyramidaux."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les associations des antiémétiques antidopaminergiques à action centrale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "interaction pharmacodynamique par antagonisme d'action"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les antiémétiques à action centrale sont déconseillés en association avec les antipsychotiques.",
+              "explication": "Effets indésirables potentiellement plus importants."
+            },
+            {
+              "reponse": "Les antiémétiques à action centrale sont déconseillés avec la lévodopa.",
+              "explication": "Antagonisme d'action."
+            },
+            {
+              "reponse": "Les antiémétiques à action centrale sont déconseillés avec les agonistes dopaminergiques.",
+              "explication": "Antagonisme d'action."
+            },
+            {
+              "reponse": "L'association d'un antiémétique central et de la lévodopa est une interaction pharmacodynamique par antagonisme d'action.",
+              "explication": "Les deux médicaments agissent en sens inverse sur la même cible."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'association d'un antiémétique central et de la lévodopa est une interaction pharmacocinétique par inhibition enzymatique.",
+              "explication": "C'est une interaction pharmacodynamique."
+            },
+            {
+              "reponse": "L'association d'un antiémétique central et d'un antipsychotique est recommandée pour potentialiser l'effet antipsychotique.",
+              "explication": "Elle est déconseillée."
+            },
+            {
+              "reponse": "Un antagonisme d'action désigne deux médicaments agissant dans le même sens sur la même cible.",
+              "explication": "Ils agissent en sens inverse."
+            },
+            {
+              "reponse": "Le métoclopramide est recommandé pour traiter les nausées sous lévodopa.",
+              "explication": "Il est déconseillé avec la lévodopa (action centrale)."
+            },
+            {
+              "reponse": "La dompéridone est contre-indiquée avec l'apomorphine.",
+              "explication": "Elle lui est au contraire systématiquement associée."
+            },
+            {
+              "reponse": "Les antiémétiques à action centrale sont sans risque avec les agonistes dopaminergiques.",
+              "explication": "Association déconseillée."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-033",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2020-2021",
+                "qcm": 5
+              }
+            ]
+          },
+          "question": "Lors d'un essai clinique d'un antagoniste dopaminergique donné par voie orale en monothérapie, quels effets pharmacologiques (souhaités ou non) peut-on observer ?",
+          "cours": {
+            "page": 9,
+            "surligner": "survenue possible d'un syndrome pseudo-parkinsonien"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un antagoniste dopaminergique oral peut provoquer un syndrome pseudo-parkinsonien.",
+              "annale": true,
+              "explication": "Blocage des récepteurs D2 centraux (syndrome extrapyramidal). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un antagoniste dopaminergique oral peut provoquer une hyperprolactinémie.",
+              "annale": true,
+              "explication": "Blocage des récepteurs dopaminergiques hypophysaires. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un antagoniste dopaminergique oral provoque typiquement des vomissements.",
+              "annale": true,
+              "explication": "Les antagonistes D2 sont au contraire antiémétiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un antagoniste dopaminergique oral provoque typiquement le développement d'une addiction.",
+              "annale": true,
+              "explication": "Les troubles addictifs relèvent de la stimulation dopaminergique (agonistes, cocaïne). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un antagoniste dopaminergique oral provoque typiquement un syndrome psychotique.",
+              "annale": true,
+              "explication": "Les antagonistes D2 centraux sont des antipsychotiques. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique et ses médicaments, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Antimigraineux : la flunarizine"
+          },
+          "bonnes": [],
+          "mauvaises": [
+            {
+              "reponse": "Les antagonistes dopaminergiques sont indiqués dans la migraine.",
+              "annale": true,
+              "explication": "Correction : c'est plutôt la pharmacologie du système sérotoninergique qui fournit les traitements de la migraine ; la flunarizine est un antimigraineux dont l'action dopaminergique n'est que secondaire (neuroleptique caché)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Antagonistes dopaminergiques indirects"
+      },
+      "questions": [
+        {
+          "id": "neuro-pharmaco-dopamine-035",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels mécanismes relèvent des antagonistes dopaminergiques indirects ? (3 réponses attendues)",
+          "cours": {
+            "page": 10,
+            "surligner": "diminuer la synthèse, diminuer le stockage"
+          },
+          "bonnes": [
+            {
+              "reponse": "Diminuer la synthèse de la dopamine est un mécanisme d'antagoniste indirect.",
+              "explication": "Inhibiteurs de la DDC périphérique."
+            },
+            {
+              "reponse": "Diminuer le stockage vésiculaire de la dopamine est un mécanisme d'antagoniste indirect.",
+              "explication": "Réserpine, tétrabénazine."
+            },
+            {
+              "reponse": "Diminuer la libération de la dopamine est un mécanisme d'antagoniste indirect.",
+              "explication": "GHB."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Inhiber la recapture de la dopamine est un mécanisme d'antagoniste indirect.",
+              "explication": "Mécanisme d'agoniste indirect."
+            },
+            {
+              "reponse": "Inhiber le catabolisme de la dopamine est un mécanisme d'antagoniste indirect.",
+              "explication": "Mécanisme d'agoniste indirect (IMAO-B, ICOMT)."
+            },
+            {
+              "reponse": "Apporter un précurseur de la dopamine est un mécanisme d'antagoniste indirect.",
+              "explication": "Mécanisme d'agoniste indirect (lévodopa)."
+            },
+            {
+              "reponse": "Bloquer directement les récepteurs D2 est un mécanisme d'antagoniste indirect.",
+              "explication": "C'est un antagonisme direct."
+            },
+            {
+              "reponse": "Favoriser la libération de la dopamine est un mécanisme d'antagoniste indirect.",
+              "explication": "Mécanisme d'agoniste indirect (amantadine)."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le bensérazide et la carbidopa, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "le bensérazide et la carbidopa"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le bensérazide et la carbidopa sont des inhibiteurs de la dopa-décarboxylase périphérique.",
+              "explication": "Diminution de la synthèse de dopamine en périphérie."
+            },
+            {
+              "reponse": "Le bensérazide et la carbidopa sont systématiquement associés à la lévodopa.",
+              "explication": "Ils ne sont jamais administrés seuls."
+            },
+            {
+              "reponse": "Le bensérazide et la carbidopa ne franchissent pas la BHE.",
+              "explication": "Ils n'agissent qu'en périphérie."
+            },
+            {
+              "reponse": "Le bensérazide et la carbidopa facilitent le passage de la lévodopa à travers la BHE.",
+              "explication": "En évitant sa transformation périphérique."
+            },
+            {
+              "reponse": "Les inhibiteurs de la DDC périphérique sont un traitement indispensable de la maladie de Parkinson.",
+              "explication": "Précision du cours."
+            },
+            {
+              "reponse": "Les inhibiteurs de la DDC périphérique sont rangés parmi les antagonistes, alors que leur finalité est d'augmenter la dopamine centrale.",
+              "explication": "Mécanisme et but thérapeutique vont en sens inverse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le bensérazide et la carbidopa peuvent être administrés seuls.",
+              "explication": "Jamais seuls : toujours avec la lévodopa."
+            },
+            {
+              "reponse": "Le bensérazide et la carbidopa franchissent la BHE.",
+              "explication": "Ils ne la franchissent pas."
+            },
+            {
+              "reponse": "Le bensérazide et la carbidopa inhibent la COMT.",
+              "explication": "Ils inhibent la dopa-décarboxylase."
+            },
+            {
+              "reponse": "La finalité thérapeutique de la carbidopa est de diminuer la dopamine centrale.",
+              "explication": "Elle sert à augmenter la dopamine centrale."
+            },
+            {
+              "reponse": "La carbidopa est indiquée dans la schizophrénie.",
+              "explication": "Elle est utilisée dans la maladie de Parkinson."
+            },
+            {
+              "reponse": "La carbidopa bloque la transformation de la lévodopa en dopamine dans le cerveau.",
+              "explication": "Elle n'agit qu'en périphérie."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les médicaments qui diminuent le stockage vésiculaire de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "chorée de Huntington et de l'hémiballisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "La réserpine diminue le stockage vésiculaire de la dopamine en inhibant les transporteurs VMAT.",
+              "explication": "Antagoniste indirect."
+            },
+            {
+              "reponse": "La tétrabénazine diminue le stockage vésiculaire de la dopamine en inhibant les transporteurs VMAT.",
+              "explication": "Antagoniste indirect."
+            },
+            {
+              "reponse": "La tétrabénazine est indiquée dans la chorée de Huntington.",
+              "explication": "Indication du cours."
+            },
+            {
+              "reponse": "La tétrabénazine est indiquée dans l'hémiballisme.",
+              "explication": "Indication du cours."
+            },
+            {
+              "reponse": "La tétrabénazine peut provoquer des dépressions potentiellement sévères.",
+              "explication": "Effet indésirable important."
+            },
+            {
+              "reponse": "La tétrabénazine peut provoquer des syndromes parkinsoniens.",
+              "explication": "Effet indésirable important."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La tétrabénazine inhibe le transporteur de recapture DAT.",
+              "explication": "Elle inhibe les transporteurs vésiculaires VMAT."
+            },
+            {
+              "reponse": "La tétrabénazine est indiquée dans la maladie de Parkinson.",
+              "explication": "Elle peut au contraire provoquer des syndromes parkinsoniens."
+            },
+            {
+              "reponse": "La tétrabénazine augmente le stockage vésiculaire de la dopamine.",
+              "explication": "Elle le diminue."
+            },
+            {
+              "reponse": "La réserpine inhibe la dopa-décarboxylase.",
+              "explication": "Elle inhibe les VMAT."
+            },
+            {
+              "reponse": "La tétrabénazine est indiquée dans la narcolepsie avec cataplexie.",
+              "explication": "Indication du GHB."
+            },
+            {
+              "reponse": "Les VMAT sont les transporteurs membranaires de recapture de la dopamine.",
+              "explication": "Ce sont les transporteurs vésiculaires ; la recapture passe par le DAT."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le gamma-hydroxybutyrate (GHB), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "à faible dose, la molécule empêche la libération"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le GHB est indiqué dans la narcolepsie en cas de cataplexie.",
+              "explication": "Indication du cours."
+            },
+            {
+              "reponse": "La narcolepsie correspond à une hypersomnie diurne.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La cataplexie est une chute brutale du tonus musculaire sans perte de conscience.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "À faible dose, le GHB empêche la libération de dopamine.",
+              "explication": "Antagoniste indirect."
+            },
+            {
+              "reponse": "À forte dose, le GHB a un effet inverse sur la libération de dopamine.",
+              "explication": "Effet inversé selon la dose."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La cataplexie s'accompagne d'une perte de conscience.",
+              "explication": "Sans perte de conscience."
+            },
+            {
+              "reponse": "Le GHB inhibe les transporteurs VMAT.",
+              "explication": "Il diminue la libération de dopamine."
+            },
+            {
+              "reponse": "L'effet du GHB sur la libération de dopamine est le même quelle que soit la dose.",
+              "explication": "Il est inversé selon la dose."
+            },
+            {
+              "reponse": "Le GHB est indiqué dans la chorée de Huntington.",
+              "explication": "Indication de la tétrabénazine."
+            },
+            {
+              "reponse": "À faible dose, le GHB favorise la libération de dopamine.",
+              "explication": "À faible dose il l'empêche."
+            },
+            {
+              "reponse": "La narcolepsie correspond à une insomnie.",
+              "explication": "C'est une hypersomnie diurne."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-039",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel antagoniste dopaminergique indirect agit en diminuant la libération de dopamine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 11,
+            "surligner": "Le gamma-hydroxybutyrate, ou GHB, est indiqué"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le GHB est l'antagoniste dopaminergique indirect qui diminue la libération de dopamine.",
+              "explication": "Dernier mécanisme antagoniste indirect."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La tétrabénazine est l'antagoniste dopaminergique indirect qui diminue la libération de dopamine.",
+              "explication": "Elle diminue le stockage vésiculaire."
+            },
+            {
+              "reponse": "La réserpine est l'antagoniste dopaminergique indirect qui diminue la libération de dopamine.",
+              "explication": "Elle diminue le stockage vésiculaire."
+            },
+            {
+              "reponse": "La carbidopa est l'antagoniste dopaminergique indirect qui diminue la libération de dopamine.",
+              "explication": "Elle diminue la synthèse périphérique."
+            },
+            {
+              "reponse": "Le bensérazide est l'antagoniste dopaminergique indirect qui diminue la libération de dopamine.",
+              "explication": "Il diminue la synthèse périphérique."
+            },
+            {
+              "reponse": "L'amantadine est l'antagoniste dopaminergique indirect qui diminue la libération de dopamine.",
+              "explication": "Elle favorise la libération (agoniste indirect)."
+            },
+            {
+              "reponse": "La cocaïne est l'antagoniste dopaminergique indirect qui diminue la libération de dopamine.",
+              "explication": "Elle inhibe la recapture (effet agoniste)."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À ne pas confondre : quelles associations entre un antagoniste indirect et son mécanisme sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "l'inhibition du stockage"
+          },
+          "bonnes": [
+            {
+              "reponse": "La carbidopa diminue la synthèse périphérique de la dopamine.",
+              "explication": "Inhibiteur de la DDC périphérique."
+            },
+            {
+              "reponse": "La tétrabénazine diminue le stockage vésiculaire de la dopamine.",
+              "explication": "Inhibiteur des VMAT."
+            },
+            {
+              "reponse": "Le GHB diminue la libération de la dopamine.",
+              "explication": "À faible dose."
+            },
+            {
+              "reponse": "La réserpine diminue le stockage vésiculaire de la dopamine.",
+              "explication": "Inhibiteur des VMAT."
+            },
+            {
+              "reponse": "Le bensérazide diminue la synthèse périphérique de la dopamine.",
+              "explication": "Inhibiteur de la DDC périphérique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La carbidopa diminue le stockage vésiculaire de la dopamine.",
+              "explication": "Elle diminue la synthèse périphérique."
+            },
+            {
+              "reponse": "Le GHB diminue la synthèse de la dopamine.",
+              "explication": "Il diminue sa libération."
+            },
+            {
+              "reponse": "La tétrabénazine diminue la libération de la dopamine par inhibition de la DDC.",
+              "explication": "Elle diminue le stockage (VMAT)."
+            },
+            {
+              "reponse": "L'amantadine diminue la libération de la dopamine.",
+              "explication": "Elle la favorise."
+            },
+            {
+              "reponse": "Le bensérazide inhibe la COMT.",
+              "explication": "Il inhibe la DDC périphérique."
+            },
+            {
+              "reponse": "La réserpine diminue la synthèse périphérique de la dopamine.",
+              "explication": "Elle diminue le stockage vésiculaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Synthèse : classification et profil des médicaments dopaminergiques"
+      },
+      "questions": [
+        {
+          "id": "neuro-pharmaco-dopamine-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la classification des médicaments du système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "ou dopaminolytiques, le réduisent ou le suppriment"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les agonistes dopaminergiques sont aussi appelés dopaminergiques.",
+              "explication": "Ils reproduisent ou amplifient l'effet de la dopamine."
+            },
+            {
+              "reponse": "Les antagonistes dopaminergiques sont aussi appelés dopaminolytiques.",
+              "explication": "Ils réduisent ou suppriment l'effet de la dopamine."
+            },
+            {
+              "reponse": "Les médicaments dopaminergiques directs se lient aux récepteurs dopaminergiques.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les médicaments dopaminergiques indirects modifient la quantité de dopamine dans la synapse sans se lier aux récepteurs.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les agonistes de la famille D1 ne sont pas utilisés en thérapeutique.",
+              "explication": "Schéma de synthèse du cours."
+            },
+            {
+              "reponse": "Les antagonistes de la famille D1 ne sont pas utilisés en thérapeutique.",
+              "explication": "Schéma de synthèse du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antagonistes dopaminergiques sont aussi appelés dopaminergiques.",
+              "explication": "Ils sont appelés dopaminolytiques."
+            },
+            {
+              "reponse": "Les médicaments dopaminergiques indirects se lient directement aux récepteurs.",
+              "explication": "Ils agissent sans se lier aux récepteurs."
+            },
+            {
+              "reponse": "Les dopaminolytiques amplifient l'effet de la dopamine.",
+              "explication": "Ils le réduisent ou le suppriment."
+            },
+            {
+              "reponse": "La lévodopa est un agoniste dopaminergique direct.",
+              "explication": "Agoniste indirect (précurseur)."
+            },
+            {
+              "reponse": "Les IMAO-B sont des agonistes dopaminergiques directs.",
+              "explication": "Agonistes indirects (catabolisme)."
+            },
+            {
+              "reponse": "Les antagonistes de la famille D1 sont utilisés comme antipsychotiques.",
+              "explication": "Famille D1 non utilisée ; antipsychotiques = antagonistes D2."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le profil d'affinité des agonistes et antagonistes dopaminergiques directs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "ce qui en fait les plus sélectives"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les agonistes comme les antagonistes dopaminergiques directs ont une affinité prépondérante pour la famille D2.",
+              "explication": "Constat du tableau."
+            },
+            {
+              "reponse": "Les benzamides ont une affinité nulle pour la famille D1.",
+              "explication": "Ce qui en fait les plus sélectifs."
+            },
+            {
+              "reponse": "La clozapine a une affinité portant particulièrement sur le récepteur D4.",
+              "explication": "Constat du tableau."
+            },
+            {
+              "reponse": "La clozapine a l'affinité D1 la plus marquée des antagonistes du tableau.",
+              "explication": "Constat du tableau."
+            },
+            {
+              "reponse": "La famille D1 regroupe les récepteurs D1 et D5.",
+              "explication": "Définition."
+            },
+            {
+              "reponse": "La famille D2 regroupe les récepteurs D2, D3 et D4.",
+              "explication": "Définition."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les benzamides ont une affinité prépondérante pour la famille D1.",
+              "explication": "Affinité nulle pour D1."
+            },
+            {
+              "reponse": "L'apomorphine a plus d'affinité pour la famille D1 que pour la famille D2.",
+              "explication": "Affinité D2 prépondérante (+++ contre +)."
+            },
+            {
+              "reponse": "La famille D1 regroupe les récepteurs D1 et D3.",
+              "explication": "D1 et D5."
+            },
+            {
+              "reponse": "La clozapine n'a aucune affinité pour la famille D1.",
+              "explication": "Elle a l'affinité D1 la plus marquée des antagonistes."
+            },
+            {
+              "reponse": "Les phénothiazines ont une affinité nulle pour la famille D1.",
+              "explication": "Affinité faible (+), pas nulle."
+            },
+            {
+              "reponse": "La famille D2 comprend le récepteur D5.",
+              "explication": "D5 appartient à la famille D1."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-043",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle classe d'antagonistes dopaminergiques directs a une affinité nulle pour la famille D1 ? (une seule réponse attendue)",
+          "cours": {
+            "page": 13,
+            "surligner": "Les benzamides se distinguent par une affinité nulle"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les benzamides ont une affinité nulle pour la famille D1.",
+              "explication": "Ce sont les plus sélectifs."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les phénothiazines ont une affinité nulle pour la famille D1.",
+              "explication": "Affinité faible (+)."
+            },
+            {
+              "reponse": "Les butyrophénones ont une affinité nulle pour la famille D1.",
+              "explication": "Affinité faible (+)."
+            },
+            {
+              "reponse": "La clozapine a une affinité nulle pour la famille D1.",
+              "explication": "Affinité D1 la plus marquée des antagonistes (++)."
+            },
+            {
+              "reponse": "L'apomorphine a une affinité nulle pour la famille D1.",
+              "explication": "Affinité faible (+) ; c'est un agoniste."
+            },
+            {
+              "reponse": "La bromocriptine a une affinité nulle pour la famille D1.",
+              "explication": "Affinité faible (+) ; c'est un agoniste."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À ne pas confondre : quelles propositions associent correctement une molécule à sa catégorie pharmacologique ?",
+          "cours": {
+            "page": 7,
+            "surligner": "précurseur de la dopamine : lévodopa"
+          },
+          "bonnes": [
+            {
+              "reponse": "La lévodopa est un agoniste dopaminergique indirect.",
+              "explication": "Précurseur de la dopamine."
+            },
+            {
+              "reponse": "La sélégiline est un agoniste dopaminergique indirect.",
+              "explication": "IMAO-B."
+            },
+            {
+              "reponse": "La cocaïne a un effet agoniste dopaminergique indirect.",
+              "explication": "Inhibition de la recapture."
+            },
+            {
+              "reponse": "L'halopéridol est un antagoniste dopaminergique direct.",
+              "explication": "Antipsychotique (butyrophénone)."
+            },
+            {
+              "reponse": "La carbidopa est classée parmi les antagonistes dopaminergiques indirects.",
+              "explication": "Diminution de la synthèse périphérique."
+            },
+            {
+              "reponse": "L'apomorphine est un agoniste dopaminergique direct.",
+              "explication": "Agit sur D1 et D2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'amantadine est un antagoniste dopaminergique indirect.",
+              "explication": "Agoniste indirect (libération)."
+            },
+            {
+              "reponse": "La tétrabénazine est un agoniste dopaminergique indirect.",
+              "explication": "Antagoniste indirect (stockage)."
+            },
+            {
+              "reponse": "La dompéridone est un agoniste dopaminergique direct.",
+              "explication": "Antagoniste D2 périphérique."
+            },
+            {
+              "reponse": "La bromocriptine est un antagoniste dopaminergique direct.",
+              "explication": "Agoniste direct (D2)."
+            },
+            {
+              "reponse": "Le GHB est un agoniste dopaminergique direct.",
+              "explication": "Antagoniste indirect (libération)."
+            },
+            {
+              "reponse": "L'entacapone est un agoniste dopaminergique direct.",
+              "explication": "ICOMT : agoniste indirect."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-045",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2025-2026",
+                "session": 1,
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant les médicaments du système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "Les agonistes indirects augmentent la quantité de médiateur"
+          },
+          "bonnes": [
+            {
+              "reponse": "La stimulation dopaminergique vasculaire provoque une vasodilatation.",
+              "annale": true,
+              "explication": "Correction : vrai ; à forte dose, la dopamine devient toutefois vasoconstrictrice (alpha-1)."
+            },
+            {
+              "reponse": "Les inhibiteurs de la monoamine oxydase de type B sont des agonistes indirects.",
+              "annale": true,
+              "explication": "Correction : sélégiline et rasagiline, souvent associées à la L-DOPA dans la maladie de Parkinson."
+            },
+            {
+              "reponse": "Les antipsychotiques sont des antagonistes dopaminergiques.",
+              "annale": true,
+              "explication": "Correction : ils passent la BHE et bloquent les récepteurs D2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les précurseurs de la dopamine sont des agonistes directs.",
+              "annale": true,
+              "explication": "Correction : ce sont des agonistes indirects."
+            },
+            {
+              "reponse": "Les antagonistes dopaminergiques peuvent entraîner une amélioration de la motricité spontanée.",
+              "annale": true,
+              "explication": "Correction : les troubles moteurs (syndrome pseudo-parkinsonien) sont au contraire l'un de leurs principaux effets indésirables."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-046",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "session": 1,
+                "qcm": 2
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique et ses médicaments, quelles propositions sont exactes ? (3 réponses attendues)",
+          "cours": {
+            "page": 4,
+            "surligner": "Troubles du comportement par défaut du contrôle des impulsions"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les agonistes dopaminergiques peuvent provoquer des troubles du contrôle des impulsions.",
+              "annale": true,
+              "explication": "Correction : vrai (jeu pathologique, hypersexualité, consommation excessive de nourriture)."
+            },
+            {
+              "reponse": "Des antagonistes D2 peuvent être utilisés comme antiémétiques.",
+              "annale": true,
+              "explication": "Correction : les nausées sont liées à la stimulation des récepteurs D2 de l'area postrema ; les bloquer est antiémétique."
+            },
+            {
+              "reponse": "La stimulation des récepteurs dopaminergiques vasculaires entraîne une vasodilatation.",
+              "annale": true,
+              "explication": "Correction : à faible dose, stimulation D1 vasculaire et vasodilatation coronaire, mésentérique et rénale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'inhibition de la COMT peut bloquer la libération de dopamine dans la synapse.",
+              "annale": true,
+              "explication": "Correction : la COMT intervient dans la dégradation de la dopamine, pas dans sa libération."
+            },
+            {
+              "reponse": "Les antipsychotiques agissent en stimulant les récepteurs dopaminergiques centraux.",
+              "annale": true,
+              "explication": "Correction : ils bloquent les récepteurs dopaminergiques centraux."
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-047",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique et ses médicaments, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "toutes pour effet le blocage des récepteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les agonistes dopaminergiques indirects peuvent inhiber la recapture de la dopamine.",
+              "annale": true,
+              "explication": "Méthylphénidate, bupropion, cocaïne. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'inhibition de la COMT peut augmenter la transmission dopaminergique.",
+              "annale": true,
+              "explication": "Les ICOMT inhibent le catabolisme : agonistes indirects. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'hyperprolactinémie est un effet indésirable courant des antagonistes dopaminergiques.",
+              "annale": true,
+              "explication": "Blocage des récepteurs dopaminergiques hypophysaires. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antipsychotiques agissent en stimulant les récepteurs dopaminergiques centraux.",
+              "annale": true,
+              "explication": "Ils bloquent les récepteurs dopaminergiques centraux. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-048",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique et ses médicaments, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Hypotension orthostatique et troubles du rythme"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'effet vasodilatateur dopaminergique peut provoquer une hypotension orthostatique.",
+              "annale": true,
+              "explication": "Stimulation D1 périphérique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les agonistes dopaminergiques peuvent provoquer des comportements addictifs.",
+              "annale": true,
+              "explication": "Défaut du contrôle des impulsions (jeu pathologique…). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La L-DOPA provoque des nausées et vomissements.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La dopamine formée en périphérie stimule les récepteurs D2 de l'area postrema, d'où l'association à un inhibiteur de la DDC périphérique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les antagonistes dopaminergiques sont indiqués dans la dépression et la maladie d'Alzheimer.",
+              "annale": true,
+              "explication": "Certains antipsychotiques sont indiqués dans les épisodes dépressifs sévères, mais la maladie d'Alzheimer n'est pas une indication. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antagonistes dopaminergiques sont contre-indiqués dans l'hypertrophie bénigne de la prostate.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "La rétention urinaire relève des effets anticholinergiques, et non du blocage dopaminergique ; certaines phénothiazines anticholinergiques ont cependant des précautions dans ce cas. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-049",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "utilisés comme antipsychotiques dans la schizophrénie"
+          },
+          "bonnes": [
+            {
+              "reponse": "La voie mésocorticale intervient dans la régulation des fonctions cognitives.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Voie dopaminergique méso-corticale (physiologie du système dopaminergique). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les antagonistes dopaminergiques sont indiqués dans le traitement de la schizophrénie.",
+              "annale": true,
+              "explication": "Antagonistes D2 centraux = antipsychotiques. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La voie nigro-striée intervient dans la régulation de l'humeur.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle intervient dans le contrôle de la motricité (sa dégénérescence donne la maladie de Parkinson). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les agonistes dopaminergiques ont des propriétés antiémétiques.",
+              "annale": true,
+              "explication": "Ils sont émétisants (area postrema) ; ce sont les antagonistes D2 qui sont antiémétiques. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-050",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "Parmi ces molécules, seul le lisuride"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les agonistes dopaminergiques ont une indication majeure dans la maladie de Parkinson.",
+              "annale": true,
+              "explication": "Apomorphine, bromocriptine, piribédil, ropinirole, pramipexole. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antipsychotiques peuvent provoquer des symptômes pseudo-parkinsoniens.",
+              "annale": true,
+              "explication": "Syndrome extrapyramidal par blocage D2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Il existe une molécule agoniste dopaminergique indiquée pour stopper la lactation en post-partum.",
+              "annale": true,
+              "explication": "Le lisuride, pour raison médicale uniquement. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les amphétamines augmentent la recapture pré-synaptique de la dopamine.",
+              "annale": true,
+              "explication": "Elles favorisent sa libération par réversion des DAT. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dopamine contenue dans les plaquettes contribue à la coagulation.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "C'est la sérotonine plaquettaire qui intervient dans l'agrégation, pas la dopamine. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "neuro-pharmaco-dopamine-051",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2017-2018",
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "À propos des effets dopaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "essentiellement des antagonistes des récepteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "La stimulation des récepteurs D2 entraîne un effet émétisant.",
+              "annale": true,
+              "explication": "Récepteurs D2 de l'area postrema. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les effets agonistes dopaminergiques sont utilisés en thérapeutique dans le traitement de la maladie de Parkinson.",
+              "annale": true,
+              "explication": "Agonistes directs et indirects antiparkinsoniens. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antagonistes D2 sont utilisés en thérapeutique.",
+              "annale": true,
+              "explication": "Antipsychotiques et antiémétiques. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine a de nombreux effets centraux en raison d'une forte diffusion à travers la barrière hémato-méningée.",
+              "annale": true,
+              "explication": "Elle ne traverse pas seule la BHE : effets uniquement périphériques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'effet antagoniste D3 est utilisé dans le traitement de la migraine.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Aucun antagoniste D3 n'est utilisé dans la migraine ; ses traitements relèvent surtout du système sérotoninergique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

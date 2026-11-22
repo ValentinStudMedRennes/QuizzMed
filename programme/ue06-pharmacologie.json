@@ -1,0 +1,193 @@
+{
+ "ue": "UE6",
+ "matiere": "Pharmacologie",
+ "niveau": "DFGSM2",
+ "annee": "2026-2027",
+ "planning": "Tableau des capsules et TD (capture d'écran)",
+ "cours": [
+  {
+   "titre": "Physiologie du système dopaminergique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Pharmacologie du système dopaminergique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": ["neuro-pharmaco-dopamine.pdf"],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Physiologie du système histaminergique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Pharmacologie du système histaminergique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": ["btm-pharmaco-histamine.pdf"],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Physiologie du système sérotoninergique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Pharmacologie du système sérotoninergique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Physiologie des systèmes orthosympathique et parasympathique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Pharmacologie du système sympathique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Pharmacologie du système parasympathique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
+  },
+  {
+   "titre": "Pharmacocinétique qualitative",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Pharmacocinétique et suivi thérapeutique pharmacologique (semaine du 12/10)"
+  },
+  {
+   "titre": "Pharmacocinétique quantitative",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Pharmacocinétique et suivi thérapeutique pharmacologique (semaine du 12/10)"
+  },
+  {
+   "titre": "Suivi thérapeutique pharmacologique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Pharmacocinétique et suivi thérapeutique pharmacologique (semaine du 12/10)"
+  },
+  {
+   "titre": "Pharmacologie des anticorps",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Pharmacocinétique et suivi thérapeutique pharmacologique (semaine du 12/10)"
+  },
+  {
+   "titre": "Facteurs de variabilité pathologiques",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Pharmacocinétique et suivi thérapeutique pharmacologique (semaine du 12/10), TD Variabilité et interactions (semaine du 2/11)"
+  },
+  {
+   "titre": "Facteurs de variabilité physiologiques",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Variabilité et interactions (semaine du 2/11)"
+  },
+  {
+   "titre": "Pharmacogénétique",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Variabilité et interactions (semaine du 2/11)"
+  },
+  {
+   "titre": "Interactions médicamenteuses",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Iatrogénie et bon usage (semaine du 5/10), TD Variabilité et interactions (semaine du 2/11)"
+  },
+  {
+   "titre": "Formes pharmaceutiques",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Pharmacocinétique et suivi thérapeutique pharmacologique (semaine du 12/10), TD Variabilité et interactions (semaine du 2/11)"
+  },
+  {
+   "titre": "Iatrogénie",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Capsule vidéo, à voir avant : TD Iatrogénie et bon usage (semaine du 5/10)"
+  },
+  {
+   "titre": "TD consolidation",
+   "type": "TD",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Jour exact inconnu (semaine du 22/09 ; capsules : physiologie et pharmacologie des systèmes dopaminergique, histaminergique, sérotoninergique, sympathique et parasympathique)"
+  },
+  {
+   "titre": "TD Iatrogénie et bon usage",
+   "type": "TD",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Jour exact inconnu (semaine du 5/10 ; capsules : iatrogénie, interactions médicamenteuses)"
+  },
+  {
+   "titre": "TD Pharmacocinétique et suivi thérapeutique pharmacologique",
+   "type": "TD",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Jour exact inconnu (semaine du 12/10 ; capsules : pharmacocinétique qualitative et quantitative, suivi thérapeutique, anticorps, variabilité pathologique, formes pharmaceutiques)"
+  },
+  {
+   "titre": "TD Variabilité et interactions",
+   "type": "TD",
+   "heures": null,
+   "dates": [],
+   "fichiers": [],
+   "remarque": "Jour exact inconnu (semaine du 2/11 ; capsules : facteurs de variabilité, pharmacogénétique, interactions, formes pharmaceutiques)"
+  }
+ ]
+}
