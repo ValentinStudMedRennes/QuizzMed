@@ -1,0 +1,2207 @@
+{
+  "meta": {
+    "theme": "Neuropharmacologie",
+    "section": "Physiologie",
+    "titre": "Physiologie du système dopaminergique",
+    "description": "Domaine dopaminergique, synthèse, devenir et récepteurs de la dopamine, et effets physiologiques centraux et périphériques de leur stimulation.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "neuropharma-physio-dopa.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Le domaine dopaminergique"
+      },
+      "questions": [
+        {
+          "id": "neuropharma-physio-dopa-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les neurones dopaminergiques centraux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "dont les axones forment le faisceau nigro-strié"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les axones des neurones de la substance noire forment le faisceau nigro-strié.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les neurones de l'aire tegmentale ventrale du mésencéphale sont à l'origine du faisceau méso-limbique.",
+              "explication": "L'aire tegmentale ventrale donne les faisceaux méso-limbique et méso-cortical."
+            },
+            {
+              "reponse": "Les neurones de l'aire tegmentale ventrale sont à l'origine du faisceau méso-cortical.",
+              "explication": "L'aire tegmentale ventrale donne les faisceaux méso-limbique et méso-cortical."
+            },
+            {
+              "reponse": "Les axones des neurones dopaminergiques de l'hypothalamus forment le faisceau tubéro-infundibulaire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les axones des neurones de la substance noire forment le faisceau méso-limbique.",
+              "explication": "La substance noire donne le faisceau nigro-strié ; le méso-limbique vient de l'aire tegmentale ventrale."
+            },
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire naît de l'aire tegmentale ventrale.",
+              "explication": "Il naît des neurones de l'hypothalamus."
+            },
+            {
+              "reponse": "Le faisceau nigro-strié naît des neurones de l'hypothalamus.",
+              "explication": "Il naît de la substance noire."
+            },
+            {
+              "reponse": "Le faisceau méso-cortical naît de la substance noire.",
+              "explication": "Il naît de l'aire tegmentale ventrale du mésencéphale."
+            },
+            {
+              "reponse": "Le domaine dopaminergique ne comprend que des neurones centraux.",
+              "explication": "Il comprend des neurones centraux et périphériques."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-002",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Où le faisceau tubéro-infundibulaire fait-il synapse ? (2 réponses attendues)",
+          "cours": {
+            "page": 2,
+            "surligner": "qui fait synapse dans l'éminence médiane"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire fait synapse dans l'éminence médiane.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire fait synapse dans l'hypophyse.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire fait synapse dans le striatum.",
+              "explication": "Le striatum est la cible de la voie nigro-striée."
+            },
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire fait synapse dans le noyau accumbens.",
+              "explication": "Le noyau accumbens relève du système limbique (voie méso-limbique)."
+            },
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire fait synapse dans le cortex frontal.",
+              "explication": "Le cortex est la cible de la voie méso-corticale."
+            },
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire fait synapse dans la rétine.",
+              "explication": "La rétine est une autre localisation dopaminergique, sans lien avec ce faisceau."
+            },
+            {
+              "reponse": "Le faisceau tubéro-infundibulaire fait synapse dans la médullosurrénale.",
+              "explication": "La médullosurrénale est une localisation périphérique (cellules chromaffines)."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les autres localisations centrales des neurones à dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "notamment le bulbe olfactif, le centre du vomissement"
+          },
+          "bonnes": [
+            {
+              "reponse": "On trouve des neurones à dopamine dans le bulbe olfactif.",
+              "explication": "Localisation citée par le cours."
+            },
+            {
+              "reponse": "On trouve des neurones à dopamine au niveau du centre du vomissement (Chemo Trigger Zone).",
+              "explication": "Localisation citée par le cours."
+            },
+            {
+              "reponse": "On trouve des neurones à dopamine dans la rétine.",
+              "explication": "Localisation citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les neurones à dopamine sont exclusivement localisés dans la substance noire.",
+              "explication": "Il existe de nombreuses autres localisations (aire tegmentale ventrale, hypothalamus, bulbe olfactif…)."
+            },
+            {
+              "reponse": "La Chemo Trigger Zone est dépourvue de structures dopaminergiques.",
+              "explication": "Le centre du vomissement fait partie des localisations dopaminergiques."
+            },
+            {
+              "reponse": "La rétine ne contient pas de neurones à dopamine.",
+              "explication": "La rétine est une localisation citée par le cours."
+            },
+            {
+              "reponse": "Les neurones à dopamine sont absents de l'hypothalamus.",
+              "explication": "L'hypothalamus est à l'origine du faisceau tubéro-infundibulaire."
+            },
+            {
+              "reponse": "Le domaine dopaminergique central se limite au mésencéphale.",
+              "explication": "L'hypothalamus, le bulbe olfactif et la rétine en font aussi partie."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les neurones dopaminergiques périphériques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "Au niveau des vaisseaux rénaux"
+          },
+          "bonnes": [
+            {
+              "reponse": "On trouve des neurones à dopamine parmi les neurones post-ganglionnaires du système sympathique.",
+              "explication": "Localisation périphérique citée par le cours."
+            },
+            {
+              "reponse": "On trouve des structures dopaminergiques au niveau des vaisseaux rénaux.",
+              "explication": "Localisation sur laquelle un intervenant a insisté."
+            },
+            {
+              "reponse": "On trouve des structures dopaminergiques au niveau des vaisseaux cardiaques.",
+              "explication": "Localisation citée par le cours."
+            },
+            {
+              "reponse": "Les cellules chromaffines de la médullosurrénale font partie du domaine dopaminergique périphérique.",
+              "explication": "Localisation citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les neurones dopaminergiques périphériques sont des neurones pré-ganglionnaires sympathiques.",
+              "explication": "Le cours cite les neurones post-ganglionnaires."
+            },
+            {
+              "reponse": "Les cellules dopaminergiques surrénaliennes sont situées dans la corticosurrénale.",
+              "explication": "Il s'agit des cellules chromaffines de la médullosurrénale."
+            },
+            {
+              "reponse": "Il n'existe pas de neurones dopaminergiques en périphérie.",
+              "explication": "Le domaine comprend des neurones centraux et périphériques."
+            },
+            {
+              "reponse": "Les vaisseaux rénaux sont dépourvus de structures dopaminergiques.",
+              "explication": "Les vaisseaux rénaux sont une localisation périphérique majeure."
+            },
+            {
+              "reponse": "Les cellules chromaffines appartiennent au domaine dopaminergique central.",
+              "explication": "Elles font partie des localisations périphériques."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la répartition centrale ou périphérique du domaine dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "Il comprend des neurones centraux et des neurones périphériques"
+          },
+          "bonnes": [
+            {
+              "reponse": "La substance noire appartient au domaine dopaminergique central.",
+              "explication": "Neurones centraux à l'origine du faisceau nigro-strié."
+            },
+            {
+              "reponse": "La médullosurrénale appartient au domaine dopaminergique périphérique.",
+              "explication": "Cellules chromaffines de la médullosurrénale."
+            },
+            {
+              "reponse": "Le bulbe olfactif contient des neurones dopaminergiques centraux.",
+              "explication": "Localisation centrale citée par le cours."
+            },
+            {
+              "reponse": "L'hypothalamus contient des neurones dopaminergiques centraux.",
+              "explication": "À l'origine du faisceau tubéro-infundibulaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La médullosurrénale appartient au domaine dopaminergique central.",
+              "explication": "C'est une localisation périphérique."
+            },
+            {
+              "reponse": "Les neurones post-ganglionnaires sympathiques font partie des neurones dopaminergiques centraux.",
+              "explication": "Ce sont des neurones périphériques."
+            },
+            {
+              "reponse": "L'aire tegmentale ventrale est une localisation dopaminergique périphérique.",
+              "explication": "Elle est située dans le mésencéphale (central)."
+            },
+            {
+              "reponse": "La rétine est une localisation dopaminergique périphérique.",
+              "explication": "Le cours la range parmi les localisations des neurones centraux."
+            },
+            {
+              "reponse": "Les vaisseaux cardiaques font partie du domaine dopaminergique central.",
+              "explication": "C'est une localisation périphérique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Synthèse de la dopamine"
+      },
+      "questions": [
+        {
+          "id": "neuropharma-physio-dopa-006",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2025-2026",
+                "session": 1,
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "est ensuite transformée en dopamine par la DOPA-décarboxylase"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine est formée par intervention de la DOPA-décarboxylase.",
+              "annale": true,
+              "explication": "Vrai : la tyrosine est transformée en DOPA puis en dopamine par la DOPA-décarboxylase."
+            },
+            {
+              "reponse": "La monoamine oxydase (MAO) synaptique dégrade la dopamine.",
+              "annale": true,
+              "explication": "Vrai : la dopamine est dégradée dans la synapse par les MAO-A et MAO-B (et la COMT)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le tryptophane est un précurseur de la dopamine.",
+              "annale": true,
+              "explication": "Faux : le précurseur de la dopamine est la tyrosine (le tryptophane est celui de la sérotonine)."
+            },
+            {
+              "reponse": "L'activation dopaminergique tubéro-infundibulaire entraîne une sécrétion de prolactine.",
+              "annale": true,
+              "explication": "Faux : elle entraîne une inhibition de la sécrétion de prolactine."
+            },
+            {
+              "reponse": "On trouve 3 familles de récepteurs dopaminergiques (DA, DB et DC).",
+              "annale": true,
+              "explication": "Faux : il y a 2 familles, D1 et D2."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-007",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2021-2022",
+                "qcm": 7
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "la dopamine est transformée en noradrénaline puis en adrénaline"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine est un précurseur de l'adrénaline.",
+              "annale": true,
+              "explication": "Dans les neurones noradrénergiques, la dopamine est transformée en noradrénaline puis en adrénaline. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dopamine est dégradée par la monoamine oxydase (MAO).",
+              "annale": true,
+              "explication": "Les catécholamines sont métabolisées par les MAO et la COMT. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs dopaminergiques de la famille D2 se trouvent essentiellement au niveau périphérique.",
+              "annale": true,
+              "explication": "Les récepteurs D1 et D2 sont largement répartis dans le SNC ; ils ont aussi des localisations périphériques, mais pas de façon prédominante. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dopamine joue un rôle dans la sécrétion d'insuline.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours ne cite que la prolactine comme sécrétion hormonale contrôlée par la dopamine ; un effet de la dopamine sur la cellule bêta pancréatique est décrit en recherche mais ne figure dans aucune source du cours, réponse probablement attendue : faux. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'hyperactivité dopaminergique est impliquée dans la maladie de Parkinson.",
+              "annale": true,
+              "explication": "La maladie de Parkinson correspond à un déficit et à une dégénérescence des neurones nigro-striés. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-008",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la biosynthèse de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "La dopamine est fabriquée à partir de la tyrosine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine est synthétisée à partir de la tyrosine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La tyrosine est transformée en DOPA (dihydroxyphénylalanine).",
+              "explication": "Première étape de la synthèse."
+            },
+            {
+              "reponse": "La DOPA est transformée en dopamine par la DOPA-décarboxylase.",
+              "explication": "Deuxième étape de la synthèse."
+            },
+            {
+              "reponse": "La dopamine est synthétisée dans le neurone.",
+              "explication": "La dopamine est fabriquée à partir de la tyrosine dans le neurone."
+            },
+            {
+              "reponse": "La dopamine est une petite molécule du groupe des catécholamines.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine est synthétisée à partir du tryptophane.",
+              "explication": "Son précurseur est la tyrosine."
+            },
+            {
+              "reponse": "La DOPA est transformée en dopamine par la dopamine β-hydroxylase.",
+              "explication": "C'est la DOPA-décarboxylase ; la dopamine β-hydroxylase transforme la dopamine en noradrénaline."
+            },
+            {
+              "reponse": "La dopamine est synthétisée par la COMT.",
+              "explication": "La COMT est une enzyme de dégradation."
+            },
+            {
+              "reponse": "La DOPA-décarboxylase transforme la dopamine en noradrénaline.",
+              "explication": "Elle transforme la DOPA en dopamine."
+            },
+            {
+              "reponse": "La DOPA est le précurseur de la tyrosine.",
+              "explication": "C'est l'inverse : la tyrosine est transformée en DOPA."
+            },
+            {
+              "reponse": "La dopamine est un neuropeptide de grande taille.",
+              "explication": "C'est une petite molécule, une catécholamine."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le devenir de la dopamine synthétisée selon le type de neurone, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "la synthèse s'arrête à la dopamine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans les neurones dopaminergiques, la synthèse s'arrête à la dopamine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans les neurones noradrénergiques, la dopamine est transformée en noradrénaline.",
+              "explication": "En présence de dopamine β-hydroxylase."
+            },
+            {
+              "reponse": "La dopamine β-hydroxylase transforme la dopamine en noradrénaline.",
+              "explication": "Nom exact de l'enzyme retenu après correction des notes."
+            },
+            {
+              "reponse": "La dopamine est un précurseur de la noradrénaline.",
+              "explication": "Chaîne tyrosine → DOPA → dopamine → noradrénaline → adrénaline."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans les neurones dopaminergiques, la dopamine est systématiquement transformée en noradrénaline.",
+              "explication": "Dans ces neurones, la synthèse s'arrête à la dopamine."
+            },
+            {
+              "reponse": "Dans les neurones noradrénergiques, la synthèse s'arrête à la dopamine.",
+              "explication": "La dopamine y est transformée en noradrénaline puis en adrénaline."
+            },
+            {
+              "reponse": "La dopamine β-hydroxylase transforme la DOPA en dopamine.",
+              "explication": "C'est le rôle de la DOPA-décarboxylase."
+            },
+            {
+              "reponse": "La noradrénaline est le précurseur de la dopamine.",
+              "explication": "C'est l'inverse : la dopamine est le précurseur de la noradrénaline."
+            },
+            {
+              "reponse": "L'adrénaline est synthétisée directement à partir de la DOPA.",
+              "explication": "Elle dérive de la noradrénaline, elle-même issue de la dopamine."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-010",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle enzyme transforme la DOPA en dopamine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "est ensuite transformée en dopamine par la DOPA-décarboxylase"
+          },
+          "bonnes": [
+            {
+              "reponse": "La DOPA-décarboxylase.",
+              "explication": "Elle retire le groupement carboxyle de la DOPA pour donner la dopamine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine β-hydroxylase.",
+              "explication": "Elle transforme la dopamine en noradrénaline."
+            },
+            {
+              "reponse": "La catéchol-O-méthyltransférase (COMT).",
+              "explication": "Enzyme de dégradation des catécholamines."
+            },
+            {
+              "reponse": "La monoamine oxydase A (MAO-A).",
+              "explication": "Enzyme de dégradation (en DOPAC en présynaptique)."
+            },
+            {
+              "reponse": "La monoamine oxydase B (MAO-B).",
+              "explication": "Enzyme de dégradation synaptique."
+            },
+            {
+              "reponse": "L'aldéhyde déshydrogénase.",
+              "explication": "Enzyme citée parmi celles de la dégradation synaptique."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-011",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel acide aminé est le précurseur de la dopamine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "La dopamine est fabriquée à partir de la tyrosine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La tyrosine.",
+              "explication": "La dopamine est fabriquée à partir de la tyrosine dans le neurone."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le tryptophane.",
+              "explication": "Précurseur de la sérotonine, pas de la dopamine."
+            },
+            {
+              "reponse": "L'histidine.",
+              "explication": "Précurseur de l'histamine, pas de la dopamine."
+            },
+            {
+              "reponse": "Le glutamate.",
+              "explication": "Ce n'est pas le précurseur des catécholamines."
+            },
+            {
+              "reponse": "La glycine.",
+              "explication": "Ce n'est pas le précurseur des catécholamines."
+            },
+            {
+              "reponse": "La lysine.",
+              "explication": "Ce n'est pas le précurseur des catécholamines."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-012",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules forment les catécholamines ? (3 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "Dopamine, noradrénaline et adrénaline forment les catécholamines"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine.",
+              "explication": "Catécholamine citée par le cours."
+            },
+            {
+              "reponse": "La noradrénaline.",
+              "explication": "Catécholamine citée par le cours."
+            },
+            {
+              "reponse": "L'adrénaline.",
+              "explication": "Catécholamine citée par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sérotonine.",
+              "explication": "Elle n'appartient pas aux catécholamines (pas de noyau catéchol, précurseur différent)."
+            },
+            {
+              "reponse": "L'histamine.",
+              "explication": "Elle n'appartient pas aux catécholamines."
+            },
+            {
+              "reponse": "L'acétylcholine.",
+              "explication": "Elle n'appartient pas aux catécholamines."
+            },
+            {
+              "reponse": "La tyrosine.",
+              "explication": "C'est le précurseur des catécholamines, pas une catécholamine."
+            },
+            {
+              "reponse": "L'acide homovanillique (HVA).",
+              "explication": "C'est un produit de dégradation de la dopamine."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les catécholamines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "dériver d'une molécule commune, la tyrosine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les catécholamines dérivent toutes de la tyrosine.",
+              "explication": "Elles dérivent d'une molécule commune, la tyrosine."
+            },
+            {
+              "reponse": "Les catécholamines sont métabolisées par les monoamine oxydases (MAO).",
+              "explication": "Mêmes enzymes de dégradation : MAO et COMT."
+            },
+            {
+              "reponse": "Les catécholamines sont métabolisées par la catéchol-O-méthyltransférase (COMT).",
+              "explication": "Mêmes enzymes de dégradation : MAO et COMT."
+            },
+            {
+              "reponse": "Les catécholamines peuvent aussi être appelées les amines.",
+              "explication": "Terme cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les catécholamines dérivent du tryptophane.",
+              "explication": "Elles dérivent de la tyrosine."
+            },
+            {
+              "reponse": "Les catécholamines sont dégradées par la DOPA-décarboxylase.",
+              "explication": "C'est une enzyme de synthèse."
+            },
+            {
+              "reponse": "Chaque catécholamine est dégradée par une enzyme qui lui est propre.",
+              "explication": "Elles sont métabolisées par les mêmes enzymes (MAO, COMT)."
+            },
+            {
+              "reponse": "La COMT est une enzyme de synthèse des catécholamines.",
+              "explication": "C'est une enzyme de dégradation."
+            },
+            {
+              "reponse": "La dopamine est la seule catécholamine métabolisée par la COMT.",
+              "explication": "Toutes les catécholamines sont métabolisées par la MAO et la COMT."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Devenir de la dopamine"
+      },
+      "questions": [
+        {
+          "id": "neuropharma-physio-dopa-014",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2024-2025",
+                "session": 1,
+                "qcm": 1
+              },
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2022-2023",
+                "qcm": 4
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "La dopamine est également dégradée dans la synapse"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine est un précurseur de la noradrénaline.",
+              "annale": true,
+              "explication": "Vrai : dans les neurones noradrénergiques, la dopamine est transformée en noradrénaline puis en adrénaline."
+            },
+            {
+              "reponse": "On trouve des récepteurs dopaminergiques de la famille D2 au niveau de la Chemo Trigger Zone (area postrema).",
+              "annale": true,
+              "explication": "Vrai : la stimulation des récepteurs D2 de l'area postrema commande le centre du vomissement."
+            },
+            {
+              "reponse": "La dopamine est impliquée dans le contrôle moteur.",
+              "annale": true,
+              "explication": "Vrai : la voie nigro-striée (80 % des neurones dopaminergiques) intervient dans le contrôle de la motricité."
+            },
+            {
+              "reponse": "Une hypoactivité dopaminergique est à l'origine des symptômes de la maladie de Parkinson.",
+              "annale": true,
+              "explication": "Vrai : la maladie de Parkinson est un déficit et une dégénérescence des neurones nigro-striés."
+            },
+            {
+              "reponse": "La dopamine est dégradée par les monoamine oxydases.",
+              "annale": true,
+              "explication": "Vrai : dégradation en DOPAC par la MAO-A en présynaptique, et par les MAO-A et MAO-B dans la synapse."
+            },
+            {
+              "reponse": "La dopamine joue un rôle dans la sécrétion de prolactine.",
+              "annale": true,
+              "explication": "Vrai : la voie tubéro-infundibulaire inhibe la sécrétion de prolactine par les cellules lactotropes de l'antéhypophyse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine est synthétisée par la COMT.",
+              "annale": true,
+              "explication": "Faux : la COMT participe à la dégradation de la dopamine ; la dopamine est synthétisée à partir de la tyrosine (DOPA-décarboxylase)."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-015",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le stockage et la dégradation présynaptique de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "où elle entre grâce aux transporteurs VMAT"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine est stockée en présynaptique dans des vésicules.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dopamine entre dans les vésicules grâce aux transporteurs VMAT.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "VMAT désigne le transporteur vésiculaire des monoamines.",
+              "explication": "Vesicular monoamine transporter (signification corrigée)."
+            },
+            {
+              "reponse": "En présynaptique, la dopamine peut être dégradée en DOPAC par la MAO-A.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La MAO-A est une enzyme mitochondriale.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "VMAT est le transporteur qui assure la recapture de la dopamine depuis la fente synaptique.",
+              "explication": "La recapture est assurée par le DAT ; VMAT fait entrer la dopamine dans les vésicules."
+            },
+            {
+              "reponse": "La dopamine entre dans les vésicules grâce au DAT.",
+              "explication": "Elle y entre grâce au VMAT."
+            },
+            {
+              "reponse": "En présynaptique, la dopamine est dégradée en acide homovanillique par la MAO-A.",
+              "explication": "La MAO-A présynaptique produit le DOPAC ; l'HVA résulte de la dégradation synaptique."
+            },
+            {
+              "reponse": "La MAO-A est une enzyme du réticulum endoplasmique.",
+              "explication": "C'est une enzyme mitochondriale."
+            },
+            {
+              "reponse": "La dopamine est stockée dans des vésicules du neurone postsynaptique.",
+              "explication": "Elle est stockée en présynaptique."
+            },
+            {
+              "reponse": "VMAT signifie « vesiculum mono amine transporteur ».",
+              "explication": "Formulation erronée des notes : VMAT signifie vesicular monoamine transporter."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la libération de la dopamine et son rétrocontrôle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "conduit à un rétrocontrôle négatif qui inhibe la libération"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le potentiel d'action présynaptique libère la dopamine dans la synapse.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La fixation de la dopamine sur ses autorécepteurs présynaptiques entraîne un rétrocontrôle négatif.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le rétrocontrôle négatif inhibe la libération de la dopamine à partir de ses vésicules.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le rétrocontrôle négatif agit également sur la synthèse et le stockage de la dopamine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dopamine se fixe sur des récepteurs pré- et post-synaptiques des familles D1 et D2.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La fixation de la dopamine sur ses autorécepteurs présynaptiques augmente sa libération.",
+              "explication": "Elle conduit à un rétrocontrôle négatif qui inhibe la libération."
+            },
+            {
+              "reponse": "Le rétrocontrôle négatif n'agit que sur la libération, sans effet sur la synthèse.",
+              "explication": "Il agit aussi sur la synthèse et le stockage."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine sont exclusivement postsynaptiques.",
+              "explication": "Il existe des récepteurs (autorécepteurs) présynaptiques."
+            },
+            {
+              "reponse": "Sur le schéma récapitulatif, les autorécepteurs présynaptiques sont de type D1-D5.",
+              "explication": "Ce sont des autorécepteurs D2-D3."
+            },
+            {
+              "reponse": "La libération de dopamine dans la synapse est indépendante du potentiel d'action.",
+              "explication": "C'est le potentiel d'action présynaptique qui la libère."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la dégradation synaptique de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "production d'acide homovanillique (HVA), qui est un marqueur urinaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la synapse, la dopamine est dégradée par la MAO-A.",
+              "explication": "Enzyme citée par le cours."
+            },
+            {
+              "reponse": "Dans la synapse, la dopamine est dégradée par la MAO-B.",
+              "explication": "Enzyme citée par le cours."
+            },
+            {
+              "reponse": "Dans la synapse, la dopamine est dégradée par la COMT.",
+              "explication": "Enzyme citée par le cours."
+            },
+            {
+              "reponse": "La dégradation synaptique de la dopamine aboutit à l'acide homovanillique (HVA).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'acide homovanillique est un marqueur urinaire de la production périphérique de dopamine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le dosage urinaire de l'acide homovanillique est utilisé dans le diagnostic du phéochromocytome.",
+              "explication": "Tumeur des surrénales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'acide homovanillique est un marqueur sanguin de la production centrale de dopamine.",
+              "explication": "C'est un marqueur urinaire de la production périphérique."
+            },
+            {
+              "reponse": "Le DOPAC est le produit final de la dégradation synaptique par la COMT.",
+              "explication": "Le DOPAC est produit en présynaptique par la MAO-A ; la dégradation synaptique aboutit à l'HVA."
+            },
+            {
+              "reponse": "Le phéochromocytome est une tumeur de l'hypophyse.",
+              "explication": "C'est une tumeur des surrénales."
+            },
+            {
+              "reponse": "Dans la synapse, la dopamine est dégradée par la DOPA-décarboxylase.",
+              "explication": "C'est une enzyme de synthèse."
+            },
+            {
+              "reponse": "Le dosage de l'acide homovanillique sert au diagnostic de la maladie de Parkinson.",
+              "explication": "Le cours le cite pour le diagnostic du phéochromocytome."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-018",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la voie principale de disparition de la dopamine de la synapse ? (une seule réponse attendue)",
+          "cours": {
+            "page": 5,
+            "surligner": "C'est la voie principale de sa disparition de la synapse"
+          },
+          "bonnes": [
+            {
+              "reponse": "La recapture par les transporteurs à dopamine (DAT).",
+              "explication": "La recapture par le DAT, qui réinternalise la dopamine dans les vésicules, est la voie principale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dégradation par la COMT synaptique.",
+              "explication": "Voie de dégradation, mais pas la voie principale de disparition."
+            },
+            {
+              "reponse": "La dégradation par la MAO-B synaptique.",
+              "explication": "Voie de dégradation, mais pas la voie principale de disparition."
+            },
+            {
+              "reponse": "La dégradation présynaptique par la MAO-A.",
+              "explication": "Elle concerne la dopamine avant sa libération."
+            },
+            {
+              "reponse": "La fixation sur les récepteurs postsynaptiques D1.",
+              "explication": "La fixation aux récepteurs ne fait pas disparaître la dopamine de la synapse."
+            },
+            {
+              "reponse": "La transformation en noradrénaline par la dopamine β-hydroxylase.",
+              "explication": "Elle a lieu dans les neurones noradrénergiques, pas dans la synapse dopaminergique."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-019",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel métabolite résulte de la dégradation présynaptique de la dopamine par la MAO-A ? (une seule réponse attendue)",
+          "cours": {
+            "page": 4,
+            "surligner": "Elle peut également être dégradée en présynaptique en DOPAC"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le DOPAC.",
+              "explication": "La dopamine peut être dégradée en présynaptique en DOPAC par la MAO-A."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'acide homovanillique (HVA).",
+              "explication": "Produit de la dégradation synaptique (MAO-A, MAO-B, COMT)."
+            },
+            {
+              "reponse": "La DOPA.",
+              "explication": "C'est le précurseur de la dopamine."
+            },
+            {
+              "reponse": "La noradrénaline.",
+              "explication": "Produite par la dopamine β-hydroxylase dans les neurones noradrénergiques."
+            },
+            {
+              "reponse": "La tyrosine.",
+              "explication": "C'est le précurseur de la DOPA."
+            },
+            {
+              "reponse": "L'adrénaline.",
+              "explication": "Dérive de la noradrénaline, pas de la dégradation de la dopamine."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "D'après le schéma récapitulatif du devenir de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "ramène la dopamine dans le neurone présynaptique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le transporteur DAT ramène la dopamine de la fente synaptique vers le neurone présynaptique.",
+              "explication": "C'est la recapture."
+            },
+            {
+              "reponse": "Sur le neurone postsynaptique figurent des récepteurs D1-D5 et des récepteurs D2-D3-D4.",
+              "explication": "Description du schéma."
+            },
+            {
+              "reponse": "Des autorécepteurs D2-D3 présynaptiques exercent un rétrocontrôle négatif sur la libération.",
+              "explication": "Description du schéma."
+            },
+            {
+              "reponse": "La MAO présynaptique est représentée sur une mitochondrie.",
+              "explication": "La MAO-A est une enzyme mitochondriale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le transporteur DAT est situé sur le neurone postsynaptique.",
+              "explication": "Il est présynaptique : il ramène la dopamine dans le neurone présynaptique."
+            },
+            {
+              "reponse": "La DOPA-décarboxylase agit dans la fente synaptique.",
+              "explication": "Elle agit dans le neurone présynaptique (synthèse)."
+            },
+            {
+              "reponse": "Les autorécepteurs présynaptiques exercent un rétrocontrôle positif sur la libération.",
+              "explication": "Le rétrocontrôle est négatif."
+            },
+            {
+              "reponse": "Sur le schéma, la dégradation synaptique par la MAO et la COMT aboutit au DOPAC.",
+              "explication": "Elle aboutit à l'HVA ; le DOPAC est produit en présynaptique."
+            },
+            {
+              "reponse": "Les récepteurs D2 sont exclusivement présynaptiques.",
+              "explication": "Ils sont pré- et post-synaptiques."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les récepteurs de la dopamine"
+      },
+      "questions": [
+        {
+          "id": "neuropharma-physio-dopa-021",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2017-2018",
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "Concernant les effets dopaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "La stimulation des récepteurs D2 de l'area postrema"
+          },
+          "bonnes": [
+            {
+              "reponse": "La stimulation des récepteurs D2 entraîne un effet émétisant.",
+              "annale": true,
+              "explication": "La stimulation des récepteurs D2 de l'area postrema commande le centre du vomissement. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les agonistes dopaminergiques sont utilisés en thérapeutique dans le traitement de la maladie de Parkinson.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La maladie de Parkinson est un déficit dopaminergique nigro-strié, que les agonistes dopaminergiques compensent ; leur usage thérapeutique relève du cours de pharmacologie du système dopaminergique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les antagonistes D2 sont utilisés en thérapeutique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Antiémétiques et antipsychotiques sont des antagonistes D2 ; le cours signale d'ailleurs les récepteurs D2 de l'area postrema comme cible pharmacologique. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine entraîne de nombreux effets centraux en raison d'une forte diffusion au travers de la barrière hémato-méningée.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La dopamine ne franchit pas la barrière hémato-encéphalique (c'est pourquoi on administre son précurseur, la L-DOPA). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "L'effet antagoniste D3 est utilisé dans le traitement de la migraine.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Les traitements de la migraine relèvent surtout de la pharmacologie du système sérotoninergique (correction de l'annale 2022-2023, QCM 6). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la nature des récepteurs de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Les récepteurs de la dopamine sont des RCPG"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs de la dopamine sont des récepteurs couplés aux protéines G (RCPG).",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine peuvent avoir l'AMPc pour second messager.",
+              "explication": "Seconds messagers : AMPc, phospholipase A ou C, canaux ioniques."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine peuvent agir via la phospholipase A ou C.",
+              "explication": "Seconds messagers : AMPc, phospholipase A ou C, canaux ioniques."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine sont classés en 2 familles selon leur effet sur la production d'AMPc.",
+              "explication": "Familles D1 et D2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs de la dopamine sont des récepteurs-canaux ionotropiques.",
+              "explication": "Ce sont des RCPG."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine sont des récepteurs nucléaires.",
+              "explication": "Ce sont des RCPG membranaires."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine sont classés en 3 familles (DA, DB, DC).",
+              "explication": "Il y a 2 familles, D1 et D2."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine sont classés selon leur localisation centrale ou périphérique.",
+              "explication": "Ils sont classés selon leur effet sur la production d'AMPc."
+            },
+            {
+              "reponse": "Les récepteurs de la dopamine sont des récepteurs à activité tyrosine kinase.",
+              "explication": "Ce sont des RCPG."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-023",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels récepteurs appartiennent à la famille D2 ? (3 réponses attendues)",
+          "cours": {
+            "page": 7,
+            "surligner": "Les récepteurs de la famille D2 sont dits inhibiteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le récepteur D2.",
+              "explication": "La famille D2 comprend D2, D3 et D4."
+            },
+            {
+              "reponse": "Le récepteur D3.",
+              "explication": "La famille D2 comprend D2, D3 et D4."
+            },
+            {
+              "reponse": "Le récepteur D4.",
+              "explication": "La famille D2 comprend D2, D3 et D4."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le récepteur D1.",
+              "explication": "Il appartient à la famille D1."
+            },
+            {
+              "reponse": "Le récepteur D5.",
+              "explication": "Il appartient à la famille D1."
+            },
+            {
+              "reponse": "Le récepteur bêta-1 adrénergique.",
+              "explication": "Récepteur adrénergique, pas dopaminergique."
+            },
+            {
+              "reponse": "Le récepteur alpha-adrénergique.",
+              "explication": "Récepteur adrénergique, pas dopaminergique."
+            },
+            {
+              "reponse": "Le transporteur DAT.",
+              "explication": "C'est le transporteur de recapture, pas un récepteur."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-024",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels récepteurs appartiennent à la famille D1 ? (2 réponses attendues)",
+          "cours": {
+            "page": 6,
+            "surligner": "D5 (périphérique : vaisseaux rénaux"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le récepteur D1.",
+              "explication": "La famille D1 comprend D1 et D5."
+            },
+            {
+              "reponse": "Le récepteur D5.",
+              "explication": "La famille D1 comprend D1 et D5."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le récepteur D2.",
+              "explication": "Il appartient à la famille D2."
+            },
+            {
+              "reponse": "Le récepteur D3.",
+              "explication": "Il appartient à la famille D2."
+            },
+            {
+              "reponse": "Le récepteur D4.",
+              "explication": "Il appartient à la famille D2."
+            },
+            {
+              "reponse": "Le récepteur bêta-1 adrénergique.",
+              "explication": "Récepteur adrénergique, pas dopaminergique."
+            },
+            {
+              "reponse": "Le transporteur VMAT.",
+              "explication": "C'est le transporteur vésiculaire, pas un récepteur."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les mécanismes des familles de récepteurs dopaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "ils augmentent la production d'AMPc"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs de la famille D1 augmentent la production d'AMPc.",
+              "explication": "Ils sont activateurs."
+            },
+            {
+              "reponse": "Les récepteurs de la famille D1 augmentent l'excitabilité neuronale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs de la famille D2 diminue la production d'AMPc.",
+              "explication": "Ils sont dits inhibiteurs."
+            },
+            {
+              "reponse": "La stimulation des récepteurs de la famille D2 diminue l'excitabilité neuronale.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs D2 sont à la fois pré- et post-synaptiques.",
+              "explication": "D'après le tableau des sous-types."
+            },
+            {
+              "reponse": "Les récepteurs D1 et D5 sont post-synaptiques.",
+              "explication": "D'après le tableau des sous-types."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs de la famille D1 diminuent la production d'AMPc.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Les récepteurs de la famille D2 sont dits activateurs.",
+              "explication": "Ils sont dits inhibiteurs."
+            },
+            {
+              "reponse": "La stimulation des récepteurs de la famille D2 augmente l'excitabilité neuronale.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Les récepteurs D1 sont exclusivement présynaptiques.",
+              "explication": "Ils sont post-synaptiques."
+            },
+            {
+              "reponse": "Le récepteur D4 appartient à la famille activatrice des récepteurs dopaminergiques.",
+              "explication": "Il appartient à la famille D2, inhibitrice."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-026",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "D'après le tableau des sous-types de récepteurs dopaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "récepteurs D1 et D2 sont largement répartis dans le SNC"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs D1 et D2 sont largement répartis dans le SNC.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le récepteur D1 est présent dans le cortex et le striatum.",
+              "explication": "Localisations du tableau."
+            },
+            {
+              "reponse": "Le récepteur D2 est présent sur les cellules lactotropes de l'antéhypophyse.",
+              "explication": "Localisation du tableau."
+            },
+            {
+              "reponse": "Le récepteur D2 est présent au niveau de l'area postrema.",
+              "explication": "Localisation du tableau."
+            },
+            {
+              "reponse": "Le récepteur D3 est présent dans le noyau accumbens.",
+              "explication": "Localisation du tableau."
+            },
+            {
+              "reponse": "Le récepteur D3 est présent en périphérie sur les cellules tubulaires rénales.",
+              "explication": "Localisation du tableau."
+            },
+            {
+              "reponse": "Le récepteur D4 est présent dans le cortex frontal et l'hippocampe.",
+              "explication": "Localisation du tableau."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs D3 et D4 sont largement répartis dans tout le SNC.",
+              "explication": "Ils ne sont présents qu'au niveau de structures spécifiques liées au système limbique."
+            },
+            {
+              "reponse": "Les récepteurs dopaminergiques sont exclusivement centraux.",
+              "explication": "Tous ont aussi des localisations périphériques."
+            },
+            {
+              "reponse": "Le récepteur D1 est le sous-type présent sur les cellules lactotropes de l'antéhypophyse.",
+              "explication": "C'est le récepteur D2."
+            },
+            {
+              "reponse": "Le récepteur D2 est exclusivement périphérique.",
+              "explication": "Il est largement réparti dans le SNC."
+            },
+            {
+              "reponse": "Le récepteur D3 est le sous-type présent au niveau de l'area postrema.",
+              "explication": "C'est le récepteur D2."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-027",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "La stimulation de quels récepteurs de l'area postrema commande le centre du vomissement ? (une seule réponse attendue)",
+          "cours": {
+            "page": 8,
+            "surligner": "commande le centre du vomissement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs D2.",
+              "explication": "La stimulation des récepteurs D2 de l'area postrema commande le centre du vomissement."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs D1.",
+              "explication": "Ce ne sont pas les récepteurs de l'area postrema impliqués dans le vomissement."
+            },
+            {
+              "reponse": "Les récepteurs D5.",
+              "explication": "Localisation périphérique (vaisseaux rénaux, cœur) d'après le tableau."
+            },
+            {
+              "reponse": "Les récepteurs bêta-1 adrénergiques.",
+              "explication": "Récepteurs adrénergiques, surtout cardiaques."
+            },
+            {
+              "reponse": "Les récepteurs alpha-adrénergiques.",
+              "explication": "Récepteurs adrénergiques vasculaires."
+            },
+            {
+              "reponse": "Les transporteurs VMAT.",
+              "explication": "Ce sont des transporteurs vésiculaires, pas des récepteurs."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'area postrema, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "il est à la fois source d'effets indésirables"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'area postrema est située au niveau de la Chemo Trigger Zone.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs D2 de l'area postrema sont une source d'effets indésirables des traitements agissant sur le système dopaminergique.",
+              "explication": "Point sur lequel un intervenant a insisté."
+            },
+            {
+              "reponse": "Les récepteurs D2 de l'area postrema sont une cible pharmacologique pour certains traitements.",
+              "explication": "Point sur lequel un intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La stimulation des récepteurs D2 de l'area postrema inhibe le centre du vomissement.",
+              "explication": "Elle le commande (effet émétisant)."
+            },
+            {
+              "reponse": "L'area postrema est située dans l'antéhypophyse.",
+              "explication": "Elle est située au niveau de la Chemo Trigger Zone."
+            },
+            {
+              "reponse": "Le vomissement est commandé par la stimulation des récepteurs D1 de l'area postrema.",
+              "explication": "Ce sont les récepteurs D2."
+            },
+            {
+              "reponse": "Les récepteurs de l'area postrema n'ont aucun intérêt pharmacologique.",
+              "explication": "Ils sont à la fois source d'effets indésirables et cible pharmacologique."
+            },
+            {
+              "reponse": "Le vomissement d'origine dopaminergique est lié aux récepteurs D5 cardiaques.",
+              "explication": "Il est lié aux récepteurs D2 de l'area postrema."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Effets physiologiques centraux"
+      },
+      "questions": [
+        {
+          "id": "neuropharma-physio-dopa-029",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2019-2020",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "associée à la vie émotionnelle et aux fonctions cognitives"
+          },
+          "bonnes": [
+            {
+              "reponse": "La voie méso-corticale intervient dans la régulation des fonctions cognitives.",
+              "annale": true,
+              "explication": "La dopamine méso-corticale est associée à la vie émotionnelle et aux fonctions cognitives. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antagonistes dopaminergiques sont indiqués dans le traitement de la schizophrénie.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Les antipsychotiques sont des antagonistes des récepteurs D2 (pharmacologie du système dopaminergique). (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La voie nigro-striée intervient dans la régulation de l'humeur.",
+              "annale": true,
+              "explication": "La voie nigro-striée intervient dans le contrôle de la motricité. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les agonistes dopaminergiques ont des propriétés anti-émétiques.",
+              "annale": true,
+              "explication": "La stimulation des récepteurs D2 de l'area postrema provoque des nausées et vomissements : les agonistes sont émétisants. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-030",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Combien de voies dopaminergiques centrales principales décrit-on ? (une seule réponse attendue)",
+          "cours": {
+            "page": 8,
+            "surligner": "On décrit 4 voies principales"
+          },
+          "bonnes": [
+            {
+              "reponse": "On décrit 4 voies dopaminergiques principales.",
+              "explication": "Voies méso-limbique, méso-corticale, nigro-striée et tubéro-infundibulaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On décrit 2 voies dopaminergiques principales.",
+              "explication": "On en décrit 4."
+            },
+            {
+              "reponse": "On décrit 3 voies dopaminergiques principales.",
+              "explication": "On en décrit 4."
+            },
+            {
+              "reponse": "On décrit 5 voies dopaminergiques principales.",
+              "explication": "On en décrit 4."
+            },
+            {
+              "reponse": "On décrit 6 voies dopaminergiques principales.",
+              "explication": "On en décrit 4."
+            },
+            {
+              "reponse": "On décrit 8 voies dopaminergiques principales.",
+              "explication": "On en décrit 4."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la voie méso-limbique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "la dopamine est associée à la notion de plaisir"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au niveau méso-limbique, la dopamine est associée à la notion de plaisir.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dopamine méso-limbique joue un rôle important dans la motivation.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dopamine méso-limbique peut être impliquée dans l'addiction via le circuit de récompense.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dopamine est surnommée « hormone du plaisir ».",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La voie méso-limbique intervient principalement dans le contrôle de la motricité.",
+              "explication": "C'est le rôle de la voie nigro-striée."
+            },
+            {
+              "reponse": "La voie méso-limbique inhibe la sécrétion de prolactine.",
+              "explication": "C'est le rôle de la voie tubéro-infundibulaire."
+            },
+            {
+              "reponse": "La dopamine méso-limbique n'intervient pas dans les addictions.",
+              "explication": "Elle peut être impliquée dans l'addiction via le circuit de récompense."
+            },
+            {
+              "reponse": "La voie méso-limbique regroupe 80 % des neurones dopaminergiques.",
+              "explication": "C'est la voie nigro-striée."
+            },
+            {
+              "reponse": "Le faisceau méso-limbique naît de la substance noire.",
+              "explication": "Il naît de l'aire tegmentale ventrale du mésencéphale."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la voie méso-corticale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "La dopamine y est associée à la vie émotionnelle"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine méso-corticale est associée à la vie émotionnelle.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dopamine méso-corticale est associée aux fonctions cognitives.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le faisceau méso-cortical naît de l'aire tegmentale ventrale du mésencéphale.",
+              "explication": "Comme le faisceau méso-limbique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La voie méso-corticale regroupe la majorité des neurones dopaminergiques.",
+              "explication": "C'est la voie nigro-striée (80 %)."
+            },
+            {
+              "reponse": "La voie méso-corticale contrôle la sécrétion de prolactine.",
+              "explication": "C'est la voie tubéro-infundibulaire."
+            },
+            {
+              "reponse": "Le faisceau méso-cortical naît de l'hypothalamus.",
+              "explication": "Il naît de l'aire tegmentale ventrale."
+            },
+            {
+              "reponse": "Le faisceau méso-cortical naît de la substance noire.",
+              "explication": "La substance noire donne le faisceau nigro-strié."
+            },
+            {
+              "reponse": "La maladie de Parkinson correspond à une dégénérescence de la voie méso-corticale.",
+              "explication": "Elle touche la voie nigro-striée."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la voie nigro-striée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "regroupe la majorité des neurones dopaminergiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "La voie nigro-striée regroupe la majorité des neurones dopaminergiques.",
+              "explication": "Environ 80 %."
+            },
+            {
+              "reponse": "La voie nigro-striée intervient dans le contrôle de la motricité.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La maladie de Parkinson correspond à un déficit et à une dégénérescence des neurones nigro-striés.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La maladie de Parkinson est liée à un excès de dopamine dans la voie nigro-striée.",
+              "explication": "Elle correspond à un déficit dopaminergique."
+            },
+            {
+              "reponse": "La voie nigro-striée intervient principalement dans la motivation et le plaisir.",
+              "explication": "C'est le rôle de la voie méso-limbique."
+            },
+            {
+              "reponse": "Le faisceau nigro-strié naît de l'aire tegmentale ventrale.",
+              "explication": "Il naît de la substance noire."
+            },
+            {
+              "reponse": "La voie nigro-striée regroupe une minorité (environ 20 %) des neurones dopaminergiques.",
+              "explication": "Elle en regroupe la majorité (80 %)."
+            },
+            {
+              "reponse": "La voie nigro-striée inhibe la sécrétion de prolactine.",
+              "explication": "C'est le rôle de la voie tubéro-infundibulaire."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-034",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle proportion des neurones dopaminergiques la voie nigro-striée regroupe-t-elle ? (une seule réponse attendue)",
+          "cours": {
+            "page": 9,
+            "surligner": "regroupe la majorité des neurones dopaminergiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Environ 80 % des neurones dopaminergiques.",
+              "explication": "Chiffre donné par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Environ 20 % des neurones dopaminergiques.",
+              "explication": "Elle en regroupe la majorité (80 %)."
+            },
+            {
+              "reponse": "Environ 40 % des neurones dopaminergiques.",
+              "explication": "Elle en regroupe 80 %."
+            },
+            {
+              "reponse": "Environ 50 % des neurones dopaminergiques.",
+              "explication": "Elle en regroupe 80 %."
+            },
+            {
+              "reponse": "Environ 60 % des neurones dopaminergiques.",
+              "explication": "Elle en regroupe 80 %."
+            },
+            {
+              "reponse": "La totalité des neurones dopaminergiques.",
+              "explication": "Elle en regroupe 80 %, les autres appartiennent aux autres voies."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la voie tubéro-infundibulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "la dopamine agit plutôt comme une neurohormone"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans la voie tubéro-infundibulaire, la dopamine agit plutôt comme une neurohormone.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation de la voie tubéro-infundibulaire inhibe la sécrétion de prolactine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La prolactine régulée par la voie tubéro-infundibulaire est sécrétée par les cellules lactotropes de l'antéhypophyse.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La stimulation de la voie tubéro-infundibulaire stimule la sécrétion de prolactine.",
+              "explication": "Elle l'inhibe."
+            },
+            {
+              "reponse": "Les cellules lactotropes sont situées dans la posthypophyse.",
+              "explication": "Elles sont situées dans l'antéhypophyse."
+            },
+            {
+              "reponse": "La voie tubéro-infundibulaire intervient dans le contrôle de la motricité.",
+              "explication": "C'est la voie nigro-striée."
+            },
+            {
+              "reponse": "Les neurones de la voie tubéro-infundibulaire naissent de la substance noire.",
+              "explication": "Ils naissent de l'hypothalamus."
+            },
+            {
+              "reponse": "La voie tubéro-infundibulaire est associée au plaisir et à la motivation.",
+              "explication": "C'est la voie méso-limbique."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-036",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle voie dopaminergique est atteinte dans la maladie de Parkinson ? (une seule réponse attendue)",
+          "cours": {
+            "page": 9,
+            "surligner": "La maladie de Parkinson correspond à un déficit"
+          },
+          "bonnes": [
+            {
+              "reponse": "La voie nigro-striée.",
+              "explication": "Déficit et dégénérescence des neurones de cette voie."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La voie méso-limbique.",
+              "explication": "Associée au plaisir, à la motivation et à l'addiction."
+            },
+            {
+              "reponse": "La voie méso-corticale.",
+              "explication": "Associée à la vie émotionnelle et aux fonctions cognitives."
+            },
+            {
+              "reponse": "La voie tubéro-infundibulaire.",
+              "explication": "Elle contrôle la sécrétion de prolactine."
+            },
+            {
+              "reponse": "Les neurones dopaminergiques de la rétine.",
+              "explication": "Ce n'est pas la voie dont le déficit cause la maladie de Parkinson."
+            },
+            {
+              "reponse": "Les neurones dopaminergiques du bulbe olfactif.",
+              "explication": "Ce n'est pas la voie dont le déficit cause la maladie de Parkinson."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Effets périphériques de la stimulation des récepteurs"
+      },
+      "questions": [
+        {
+          "id": "neuropharma-physio-dopa-037",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2018-2019",
+                "qcm": 18
+              }
+            ]
+          },
+          "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "en plus des effets alpha"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine est impliquée dans la sécrétion de prolactine.",
+              "annale": true,
+              "explication": "La voie tubéro-infundibulaire inhibe la sécrétion de prolactine par les cellules lactotropes. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La dopamine à forte dose peut provoquer des effets alpha et bêta-1 adrénergiques.",
+              "annale": true,
+              "explication": "À dose moyenne, effet bêta-1 ; à dose élevée s'y ajoutent des effets alpha-adrénergiques. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine passe la barrière hémato-encéphalique.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La dopamine ne franchit pas la barrière hémato-encéphalique ; c'est son précurseur, la L-DOPA, qui la franchit. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "Les récepteurs de la famille D2 se retrouvent tous au niveau limbique.",
+              "annale": true,
+              "explication": "Le récepteur D2 est largement réparti dans le SNC ; dans la famille D2, seuls D3 et D4 sont limités à des structures liées au système limbique. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La stimulation périphérique des récepteurs D1 vasculaires provoque une vasoconstriction.",
+              "annale": true,
+              "explication": "Elle provoque une vasodilatation (dose dopaminergique). (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets vasculaires de la dopamine à faible dose, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "À faible dose, appelée dose dopaminergique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La faible dose de dopamine est appelée dose dopaminergique ou « dose rénale ».",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans le système nerveux périphérique, les récepteurs D1 sont localisés au niveau des vaisseaux, en particulier au niveau du rein.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "À faible dose, la dopamine provoque une vasodilatation des territoires mésentériques et coronaires.",
+              "explication": "Ainsi que rénaux et cérébraux."
+            },
+            {
+              "reponse": "À faible dose, la dopamine provoque une vasodilatation des territoires rénaux et cérébraux.",
+              "explication": "Ainsi que mésentériques et coronaires."
+            },
+            {
+              "reponse": "L'amplitude des effets vasculaires à faible dose est importante chez le volontaire sain mais moindre chez le sujet malade.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La relation dose-effet de la dopamine est variable d'un individu à l'autre.",
+              "explication": "Point sur lequel un intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À faible dose, la dopamine provoque une vasoconstriction rénale.",
+              "explication": "Elle provoque une vasodilatation rénale."
+            },
+            {
+              "reponse": "L'amplitude des effets à faible dose est plus importante chez le sujet malade que chez le volontaire sain.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "La relation dose-effet de la dopamine est identique chez tous les individus.",
+              "explication": "Elle est variable d'un individu à l'autre."
+            },
+            {
+              "reponse": "À faible dose, la dopamine a des effets alpha-adrénergiques vasoconstricteurs.",
+              "explication": "Les effets alpha apparaissent à dose élevée."
+            },
+            {
+              "reponse": "La faible dose de dopamine est appelée « dose bêta ».",
+              "explication": "Elle est appelée dose dopaminergique ou dose rénale."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets rénaux et intestinaux de la dopamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "effet natriurétique, qui correspond à l'inhibition"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dopamine produite par les cellules tubulaires rénales participe à la régulation physiologique de l'excrétion sodée.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dopamine rénale a un effet natriurétique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'effet natriurétique de la dopamine correspond à l'inhibition de la réabsorption tubulaire du sodium.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Au niveau des cellules épithéliales intestinales, la dopamine diminue l'absorption sodique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "À faible dose, les effets rénaux de la dopamine seraient essentiellement diurétiques.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dopamine rénale augmente la réabsorption tubulaire du sodium.",
+              "explication": "Elle l'inhibe (effet natriurétique)."
+            },
+            {
+              "reponse": "Au niveau intestinal, la dopamine augmente l'absorption sodique.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "L'effet natriurétique correspond à une rétention de sodium.",
+              "explication": "Il correspond à une augmentation de l'excrétion de sodium."
+            },
+            {
+              "reponse": "La dopamine rénale n'intervient pas dans l'excrétion sodée.",
+              "explication": "Elle joue un rôle dans sa régulation physiologique."
+            },
+            {
+              "reponse": "À faible dose, les effets rénaux de la dopamine sont essentiellement antidiurétiques.",
+              "explication": "Ils seraient essentiellement diurétiques."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets de la dopamine à dose moyenne et à dose élevée, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "la dopamine a un effet bêta-1 positif"
+          },
+          "bonnes": [
+            {
+              "reponse": "À dose moyenne, la dopamine a un effet bêta-1 positif.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "À dose moyenne, la dopamine a une action inotrope positive.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "À dose moyenne, la dopamine a une action vasodilatatrice artériolaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "À dose élevée, la dopamine a en plus des effets alpha-adrénergiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "À dose élevée, la dopamine a un effet vasoconstricteur.",
+              "explication": "Lié aux effets alpha-adrénergiques."
+            },
+            {
+              "reponse": "La relation entre la dose de dopamine et ses effets est extrêmement variable d'un patient à l'autre.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "À dose moyenne, la dopamine a une action inotrope négative.",
+              "explication": "Elle a une action inotrope positive (bêta-1)."
+            },
+            {
+              "reponse": "À dose élevée, la dopamine a un effet vasodilatateur pur.",
+              "explication": "Elle a un effet vasoconstricteur (alpha)."
+            },
+            {
+              "reponse": "À dose élevée, les effets bêta-1 de la dopamine disparaissent au profit des effets alpha.",
+              "explication": "Les effets alpha s'ajoutent (« en plus ») aux effets bêta-1."
+            },
+            {
+              "reponse": "À dose moyenne, la dopamine a des effets exclusivement alpha-adrénergiques.",
+              "explication": "Elle a un effet bêta-1."
+            },
+            {
+              "reponse": "L'effet vasoconstricteur de la dopamine apparaît dès la dose dopaminergique.",
+              "explication": "Il apparaît à dose élevée."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-041",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À partir de quel débit de perfusion la dopamine est-elle considérée à dose élevée ? (une seule réponse attendue)",
+          "cours": {
+            "page": 10,
+            "surligner": "le seuil s'exprime en débit"
+          },
+          "bonnes": [
+            {
+              "reponse": "10 µg/kg/min.",
+              "explication": "Seuil de la dose élevée, exprimé en débit de perfusion."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "10 µg/kg en dose totale.",
+              "explication": "Formulation erronée des notes : la dopamine s'administre en perfusion continue, le seuil s'exprime en débit."
+            },
+            {
+              "reponse": "10 mg/kg/min.",
+              "explication": "Mauvaise unité : le seuil est de 10 µg/kg/min."
+            },
+            {
+              "reponse": "1 µg/kg/min.",
+              "explication": "Le seuil de la dose élevée est de 10 µg/kg/min."
+            },
+            {
+              "reponse": "50 µg/kg/min.",
+              "explication": "Le seuil de la dose élevée est de 10 µg/kg/min."
+            },
+            {
+              "reponse": "100 µg/kg/min.",
+              "explication": "Le seuil de la dose élevée est de 10 µg/kg/min."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets périphériques de la stimulation des récepteurs D2, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Ils se situent dans la zone chémoréceptrice"
+          },
+          "bonnes": [
+            {
+              "reponse": "La stimulation des récepteurs D2 de la zone chémoréceptrice provoque des nausées et vomissements.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les nausées et vomissements sont des effets indésirables des médicaments qui stimulent les récepteurs D2.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs D2 des neurones cholinergiques entériques diminue la libération d'acétylcholine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs D2 intestinaux peut provoquer une constipation.",
+              "explication": "Par baisse de l'acétylcholine et de la motiline."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La stimulation des récepteurs D2 entériques provoque une diarrhée.",
+              "explication": "Elle provoque une constipation."
+            },
+            {
+              "reponse": "La stimulation des récepteurs D2 entériques augmente la libération d'acétylcholine.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "La stimulation des récepteurs D2 augmente la synthèse de motiline.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Les nausées d'origine dopaminergique sont liées à la stimulation des récepteurs D1 de la paroi gastrique.",
+              "explication": "Elles sont liées aux récepteurs D2 de la zone chémoréceptrice."
+            },
+            {
+              "reponse": "La motiline diminue la motilité intestinale.",
+              "explication": "Elle contribue à la motilité intestinale."
+            }
+          ]
+        },
+        {
+          "id": "neuropharma-physio-dopa-043",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels mécanismes expliquent la constipation induite par la stimulation des récepteurs D2 ? (2 réponses attendues)",
+          "cours": {
+            "page": 10,
+            "surligner": "Cette constipation est aussi provoquée par la diminution"
+          },
+          "bonnes": [
+            {
+              "reponse": "La diminution de la libération d'acétylcholine par les neurones cholinergiques du système nerveux entérique.",
+              "explication": "Mécanisme cité par le cours."
+            },
+            {
+              "reponse": "La diminution de la synthèse de motiline.",
+              "explication": "La motiline contribue à la motilité intestinale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'augmentation de la libération d'acétylcholine par les neurones entériques.",
+              "explication": "La libération d'acétylcholine diminue."
+            },
+            {
+              "reponse": "L'augmentation de la synthèse de motiline.",
+              "explication": "La synthèse de motiline diminue."
+            },
+            {
+              "reponse": "La vasodilatation mésentérique liée aux récepteurs D1.",
+              "explication": "Effet vasculaire sans lien avec la constipation."
+            },
+            {
+              "reponse": "La stimulation des récepteurs bêta-1 adrénergiques.",
+              "explication": "Effet cardiaque (inotrope positif), sans lien avec la constipation."
+            },
+            {
+              "reponse": "L'inhibition de la réabsorption tubulaire du sodium.",
+              "explication": "Effet rénal natriurétique, sans lien avec la constipation."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
    "type": "cours",
    "heures": null,
    "dates": [],
-   "fichiers": [],
+   "fichiers": ["neuropharma-physio-dopa.pdf"],
    "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
   },
   {
@@ -50,7 +50,7 @@
    "type": "cours",
    "heures": null,
    "dates": [],
-   "fichiers": [],
+   "fichiers": ["pharmaco-neuro-serotonine.pdf"],
    "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
   },
   {

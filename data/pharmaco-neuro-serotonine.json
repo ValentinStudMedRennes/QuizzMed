@@ -1,0 +1,3226 @@
+{
+  "meta": {
+    "theme": "Pharmacologie",
+    "section": "Neuropharmacologie",
+    "titre": "Pharmacologie du système sérotoninergique",
+    "description": "Récepteurs de la sérotonine, pathologies associées et médicaments agonistes directs, indirects et antagonistes (triptans, antidépresseurs, sétrons…).",
+    "version": "6.0",
+    "cours": {
+      "fichier": "pharmaco-neuro-serotonine.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Organisation générale du système sérotoninergique"
+      },
+      "questions": [
+        {
+          "id": "pharmaco-neuro-serotonine-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les récepteurs sérotoninergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Toutes les familles de récepteurs sérotoninergiques sont des récepteurs couplés"
+          },
+          "bonnes": [
+            {
+              "reponse": "On distingue 7 familles de récepteurs sérotoninergiques, de 5-HT1 à 5-HT7.",
+              "explication": "Le tableau du cours aligne sept familles, de 5-HT1 à 5-HT7."
+            },
+            {
+              "reponse": "Toutes les familles de récepteurs sérotoninergiques sont couplées aux protéines G, sauf le récepteur 5-HT3.",
+              "explication": "Le 5-HT3 est la seule exception : c'est un récepteur-canal."
+            },
+            {
+              "reponse": "Le récepteur 5-HT3 est un canal ionique perméable au sodium, au potassium et au calcium.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Les récepteurs sérotoninergiques ont des localisations à la fois centrales et périphériques.",
+              "explication": "Cette dispersion explique qu'un médicament sérotoninergique agisse rarement sur un seul organe."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Toutes les familles de récepteurs sérotoninergiques, sans exception, sont couplées aux protéines G.",
+              "explication": "Le récepteur 5-HT3 fait exception : c'est un récepteur-canal."
+            },
+            {
+              "reponse": "Le récepteur 5-HT3 est couplé à une protéine Gq.",
+              "explication": "C'est un récepteur-canal, non couplé à une protéine G."
+            },
+            {
+              "reponse": "Le récepteur 5-HT3 est un canal perméable uniquement aux ions chlorure.",
+              "explication": "Il est perméable au sodium, au potassium et au calcium."
+            },
+            {
+              "reponse": "Les récepteurs sérotoninergiques sont exclusivement centraux.",
+              "explication": "Ils sont aussi périphériques : plaquettes, muscles lisses, tube digestif, cœur, vessie."
+            },
+            {
+              "reponse": "Un médicament agissant sur la sérotonine n'agit en général que sur un seul organe.",
+              "explication": "C'est l'inverse : la dispersion des récepteurs fait qu'il agit rarement sur un seul organe."
+            },
+            {
+              "reponse": "La plupart des récepteurs sérotoninergiques sont des récepteurs à activité tyrosine kinase.",
+              "explication": "Ce sont des récepteurs couplés aux protéines G."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-002",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel récepteur sérotoninergique est un récepteur-canal ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "le récepteur 5-HT3, qui est un récepteur-canal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le récepteur 5-HT3.",
+              "explication": "Seul récepteur-canal de la famille, perméable au sodium, au potassium et au calcium."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le récepteur 5-HT1A.",
+              "explication": "Couplé à une protéine Gi."
+            },
+            {
+              "reponse": "Le récepteur 5-HT2A.",
+              "explication": "Couplé à une protéine Gq."
+            },
+            {
+              "reponse": "Le récepteur 5-HT4.",
+              "explication": "Couplé à une protéine Gs."
+            },
+            {
+              "reponse": "Le récepteur 5-HT1B.",
+              "explication": "Couplé à une protéine Gi."
+            },
+            {
+              "reponse": "Le récepteur 5-HT2C.",
+              "explication": "Couplé à une protéine Gq."
+            },
+            {
+              "reponse": "Le récepteur 5-HT7.",
+              "explication": "Couplé à une protéine Gs."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-003",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel est le mode de transduction des récepteurs de la famille 5-HT2 ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "augmentation de la phospholipase C, protéine Gq"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs 5-HT2 sont couplés à une protéine Gq qui augmente l'activité de la phospholipase C.",
+              "explication": "Ligne « Effecteur » du tableau du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs 5-HT2 sont couplés à une protéine Gi qui diminue l'activité de l'adénylate cyclase.",
+              "explication": "C'est le couplage des récepteurs 5-HT1 (et 5-HT5)."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2 sont couplés à une protéine Gs qui augmente l'activité de l'adénylate cyclase.",
+              "explication": "C'est le couplage des récepteurs 5-HT4, 5-HT6 et 5-HT7."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2 sont des canaux ioniques perméables au sodium, au potassium et au calcium.",
+              "explication": "C'est le récepteur 5-HT3."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2 sont couplés à une protéine Gi qui augmente l'activité de la phospholipase C.",
+              "explication": "Couplage Gq, pas Gi."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2 sont des récepteurs à activité tyrosine kinase.",
+              "explication": "Ce sont des récepteurs couplés à une protéine Gq."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les mécanismes effecteurs des récepteurs 5-HT1 et 5-HT4, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "exercent donc une action inhibitrice"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs 5-HT1, couplés à une protéine Gi, diminuent la production d'AMP cyclique.",
+              "explication": "Couplage Gi, diminution de l'adénylate cyclase."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT1 exercent une action inhibitrice.",
+              "explication": "Conséquence de la baisse de l'AMPc."
+            },
+            {
+              "reponse": "Une partie des récepteurs 5-HT1 est présynaptique et freine la libération de sérotonine.",
+              "explication": "Rétrocontrôle négatif présynaptique."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4, couplés à une protéine Gs, augmentent la production d'AMP cyclique.",
+              "explication": "Ils produisent une stimulation postsynaptique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs 5-HT1 augmentent la production d'AMP cyclique.",
+              "explication": "Couplés à Gi, ils la diminuent."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT1 présynaptiques augmentent la libération de sérotonine.",
+              "explication": "Ils la freinent."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4 exercent une action inhibitrice présynaptique.",
+              "explication": "Ils produisent une stimulation postsynaptique."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4 sont couplés à une protéine Gi.",
+              "explication": "Ils sont couplés à une protéine Gs."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT1 sont couplés à une protéine Gq.",
+              "explication": "Ils sont couplés à une protéine Gi."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT1 sont tous exclusivement postsynaptiques.",
+              "explication": "Une partie d'entre eux est présynaptique."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-005",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sous-types appartiennent à la famille de récepteurs 5-HT2 ? (3 réponses attendues)",
+          "cours": {
+            "page": 3,
+            "surligner": "La troisième ligne, « Sous-types », détaille les récepteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le récepteur 5-HT2A appartient à la famille 5-HT2.",
+              "explication": "Sous-type de la famille 5-HT2."
+            },
+            {
+              "reponse": "Le récepteur 5-HT2B appartient à la famille 5-HT2.",
+              "explication": "Sous-type de la famille 5-HT2."
+            },
+            {
+              "reponse": "Le récepteur 5-HT2C appartient à la famille 5-HT2.",
+              "explication": "Sous-type de la famille 5-HT2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le récepteur 5-HT1A appartient à la famille 5-HT2.",
+              "explication": "Il appartient à la famille 5-HT1."
+            },
+            {
+              "reponse": "Le récepteur 5-HT1D appartient à la famille 5-HT2.",
+              "explication": "Il appartient à la famille 5-HT1."
+            },
+            {
+              "reponse": "Le récepteur 5-HT1F appartient à la famille 5-HT2.",
+              "explication": "Il appartient à la famille 5-HT1."
+            },
+            {
+              "reponse": "Le récepteur 5-HT5A appartient à la famille 5-HT2.",
+              "explication": "Il appartient à la famille 5-HT5."
+            },
+            {
+              "reponse": "Le récepteur 5-HT3 appartient à la famille 5-HT2.",
+              "explication": "Le 5-HT3 forme une famille à lui seul, de récepteurs-canaux."
+            },
+            {
+              "reponse": "Le récepteur 5-HT4 appartient à la famille 5-HT2.",
+              "explication": "Le 5-HT4 forme une famille à lui seul."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la localisation des récepteurs sérotoninergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "Muscles, glandes du tube digestif, vessie, cœur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs 5-HT1 sont situés dans le système nerveux central.",
+              "explication": "Pavé « SNC » sous les sous-types 5-HT1."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4 sont présents dans les muscles et glandes du tube digestif, la vessie et le cœur.",
+              "explication": "Localisation indiquée sous le 5-HT4."
+            },
+            {
+              "reponse": "Des récepteurs de la famille 5-HT2 sont présents sur les plaquettes, les muscles lisses et le cortex.",
+              "explication": "Pavé bleu rattaché à la zone 5-HT2A–5-HT2C."
+            },
+            {
+              "reponse": "Des récepteurs sérotoninergiques sont impliqués au niveau du centre du vomissement.",
+              "explication": "Pavé « Centre vomissement » couvrant la zone 5-HT2C à 5-HT3."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs 5-HT1 sont principalement situés dans le foie.",
+              "explication": "Ils sont situés dans le SNC."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4 sont exclusivement centraux.",
+              "explication": "Ils sont aussi digestifs, vésicaux et cardiaques."
+            },
+            {
+              "reponse": "Les récepteurs de la famille 5-HT2 sont absents du cœur.",
+              "explication": "Le tableau mentionne « Estomac-Cœur » pour la zone 5-HT2."
+            },
+            {
+              "reponse": "Les plaquettes sont dépourvues de récepteurs sérotoninergiques.",
+              "explication": "Les plaquettes portent des récepteurs de la famille 5-HT2."
+            },
+            {
+              "reponse": "Les récepteurs sérotoninergiques sont absents du tube digestif.",
+              "explication": "Les récepteurs 5-HT4 y sont présents (muscles, glandes)."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-007",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2025-2026",
+                "session": 1,
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Concernant le système sérotoninergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "freinent la libération de sérotonine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sérotonine est considérée comme une hormone.",
+              "annale": true,
+              "explication": "Vrai selon la correction officielle."
+            },
+            {
+              "reponse": "Les récepteurs présynaptiques 5-HT1 exercent un rétrocontrôle négatif sur la libération de sérotonine.",
+              "annale": true,
+              "explication": "Vrai selon la correction officielle (5-HT1A et 5-HT1B)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les 7 familles de récepteurs sérotoninergiques sont toutes couplées à une protéine G.",
+              "annale": true,
+              "explication": "Faux selon la correction officielle : le 5-HT3 est un récepteur-canal."
+            },
+            {
+              "reponse": "La sérotonine inhibe l'agrégation plaquettaire.",
+              "annale": true,
+              "explication": "Faux selon la correction officielle : la sérotonine est pro-agrégante."
+            },
+            {
+              "reponse": "La sérotonine est impliquée dans la régulation de la pression intraoculaire.",
+              "annale": true,
+              "explication": "Faux selon la correction officielle."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-008",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "session": 1,
+                "qcm": 5
+              }
+            ]
+          },
+          "question": "Concernant le système sérotoninergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "monoamine oxydase, enzyme qui dégrade la sérotonine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sérotonine est dégradée par la monoamine oxydase (MAO).",
+              "annale": true,
+              "explication": "Vrai selon la correction officielle ; c'est la cible des IMAO."
+            },
+            {
+              "reponse": "On trouve des récepteurs sérotoninergiques au niveau cardiaque.",
+              "annale": true,
+              "explication": "Vrai selon la correction officielle (récepteurs 5-HT2 et 5-HT4)."
+            },
+            {
+              "reponse": "La sérotonine joue un rôle dans le contrôle de la douleur.",
+              "annale": true,
+              "explication": "Vrai selon la correction officielle."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sérotonine a les mêmes précurseurs de synthèse que la dopamine.",
+              "annale": true,
+              "explication": "Faux selon la correction officielle : tryptophane pour la sérotonine, tyrosine pour la dopamine."
+            },
+            {
+              "reponse": "La sérotonine intervient dans le contrôle de la motricité.",
+              "annale": true,
+              "explication": "Faux selon la correction officielle."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-009",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant le système sérotoninergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "c'est-à-dire un canal ionique perméable au sodium"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sérotonine est impliquée dans l'agrégation plaquettaire.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La sérotonine est pro-agrégante ; les plaquettes portent des récepteurs 5-HT2. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "On trouve des récepteurs 5-HT2 au niveau du cœur.",
+              "annale": true,
+              "explication": "Le tableau du cours mentionne « Estomac-Cœur » pour la zone 5-HT2. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Seuls les récepteurs 5-HT3 sont des récepteurs-canaux.",
+              "annale": true,
+              "explication": "Toutes les autres familles sont couplées aux protéines G. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La sérotonine intervient dans le contrôle de la douleur.",
+              "annale": true,
+              "explication": "Contrôle de la transmission nociceptive (tramadol), effet des récepteurs 5-HT3 sur la douleur. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sérotonine a les mêmes précurseurs de synthèse que la dopamine.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "La sérotonine dérive du tryptophane, la dopamine de la tyrosine. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-010",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 11
+              }
+            ]
+          },
+          "question": "Concernant la sérotonine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "inhibent la monoamine oxydase"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sérotonine est métabolisée par des monoamines oxydases.",
+              "annale": true,
+              "explication": "Les IMAO inhibent l'enzyme qui dégrade la sérotonine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La sérotonine est le substrat de transporteurs présynaptiques SERT, utiles à sa recapture.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Le SERT assure la recapture présynaptique de la sérotonine, cible des ISRS. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La sérotonine est impliquée dans la régulation de l'appétit.",
+              "annale": true,
+              "explication": "Les agonistes sérotoninergiques (fenfluramine, benfluorex) sont anorexigènes. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La synthèse de la sérotonine se fait à partir de la phénylalanine.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Elle se fait à partir du tryptophane. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            },
+            {
+              "reponse": "La sérotonine est impliquée dans la régulation de la motricité.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Placé faux par cohérence avec la correction officielle 2024-2025 (« contrôle de la motricité » faux) ; le cours ne cite qu'un effet sur la motricité intestinale. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-011",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2018-2019",
+                "qcm": 20
+              }
+            ]
+          },
+          "question": "Concernant le système sérotoninergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "agonistes LSD et psilocybine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Certains récepteurs 5-HT1 sont des récepteurs présynaptiques inhibiteurs.",
+              "annale": true,
+              "explication": "Ils freinent la libération de sérotonine. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2 sont la cible du LSD, qui en est agoniste.",
+              "annale": true,
+              "explication": "Le tableau récapitulatif cite le LSD comme agoniste 5-HT2A. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La sérotonine intervient dans la régulation du sommeil et de la satiété.",
+              "annale": true,
+              "hors_cours": true,
+              "explication": "Rôle classique de la sérotonine ; l'effet sur la satiété explique l'usage d'agonistes comme anorexigènes. (hors cours : notion non abordée dans ce cours, réponse issue des connaissances générales)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs 5-HT3 sont des récepteurs couplés à une protéine G.",
+              "annale": true,
+              "explication": "Ce sont des récepteurs-canaux. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2B interviennent dans la régulation de l'humeur.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours rattache les 5-HT2B aux valves cardiaques (valvulopathies), pas à l'humeur. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-012",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2017-2018",
+                "qcm": 10
+              }
+            ]
+          },
+          "question": "Concernant les récepteurs sérotoninergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "SNC et centre du vomissement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs 5-HT3 sont les seuls de la famille à être des récepteurs-canaux.",
+              "annale": true,
+              "explication": "Toutes les autres familles sont couplées aux protéines G. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les récepteurs 5-HT3 sont présents au niveau du centre du vomissement.",
+              "annale": true,
+              "explication": "Tableau récapitulatif : SNC et centre du vomissement. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antidépresseurs comme la fluoxétine (Prozac) sont des agonistes indirects de la sérotonine.",
+              "annale": true,
+              "explication": "Les ISRS augmentent la sérotonine disponible en inhibant sa recapture. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs 5-HT1 sont principalement présents au niveau hépatique.",
+              "annale": true,
+              "explication": "Ils sont situés dans le SNC. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La plupart des récepteurs sérotoninergiques sont des récepteurs à activité tyrosine kinase.",
+              "annale": true,
+              "explication": "Ce sont des récepteurs couplés aux protéines G, sauf le 5-HT3. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Effets pathologiques"
+      },
+      "questions": [
+        {
+          "id": "pharmaco-neuro-serotonine-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la sérotonine et la crise migraineuse, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "une vasodilatation douloureuse, liée à un manque de sérotonine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La crise migraineuse débute par une vasoconstriction provoquée par une quantité importante de sérotonine.",
+              "explication": "Première phase de la crise."
+            },
+            {
+              "reponse": "La seconde phase de la crise est une vasodilatation douloureuse liée à un manque de sérotonine.",
+              "explication": "C'est elle qui produit la douleur."
+            },
+            {
+              "reponse": "Le traitement cherche à lutter contre la phase de vasodilatation.",
+              "explication": "C'est la phase douloureuse."
+            },
+            {
+              "reponse": "Pendant la première phase, la sérotonine agit sur la CTZ et la motricité intestinale.",
+              "explication": "D'où les vomissements fréquents associés à la crise."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La crise migraineuse débute par une vasodilatation liée à un excès de sérotonine.",
+              "explication": "Elle débute par une vasoconstriction liée à l'excès de sérotonine."
+            },
+            {
+              "reponse": "La douleur migraineuse est produite par la phase de vasoconstriction initiale.",
+              "explication": "Elle est produite par la vasodilatation."
+            },
+            {
+              "reponse": "La vasodilatation douloureuse est liée à un excès de sérotonine.",
+              "explication": "Elle est liée à un manque de sérotonine."
+            },
+            {
+              "reponse": "La migraine s'accompagne rarement de vomissements.",
+              "explication": "Elle s'en accompagne fréquemment."
+            },
+            {
+              "reponse": "Le traitement de la crise cherche à lutter contre la vasoconstriction initiale.",
+              "explication": "Il lutte contre la vasodilatation douloureuse."
+            },
+            {
+              "reponse": "La crise migraineuse se déroule en une seule phase.",
+              "explication": "Elle se déroule en 2 phases successives."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-014",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À quelle anomalie du système sérotoninergique la dépression est-elle associée ? (une seule réponse attendue)",
+          "cours": {
+            "page": 4,
+            "surligner": "associée à un hypofonctionnement sérotoninergique"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dépression est associée à un hypofonctionnement sérotoninergique.",
+              "explication": "Hypothèse qui justifie les antidépresseurs augmentant la sérotonine synaptique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dépression est associée à un hyperfonctionnement sérotoninergique.",
+              "explication": "C'est un hypofonctionnement."
+            },
+            {
+              "reponse": "La dépression est associée à une stimulation excessive des récepteurs 5-HT3.",
+              "explication": "La stimulation 5-HT3 est associée aux vomissements."
+            },
+            {
+              "reponse": "La dépression est associée à une libération massive de sérotonine par des tumeurs.",
+              "explication": "C'est le syndrome carcinoïde."
+            },
+            {
+              "reponse": "La dépression est associée à une accumulation de sérotonine d'origine médicamenteuse.",
+              "explication": "C'est le syndrome sérotoninergique."
+            },
+            {
+              "reponse": "La dépression est associée à une stimulation continue des récepteurs 5-HT2B.",
+              "explication": "Celle-ci provoque des valvulopathies."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-015",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À quel mécanisme sérotoninergique les vomissements sont-ils associés ? (une seule réponse attendue)",
+          "cours": {
+            "page": 4,
+            "surligner": "Les vomissements sont associés à une stimulation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les vomissements sont associés à une stimulation des récepteurs 5-HT3.",
+              "explication": "D'où l'usage des antagonistes 5-HT3 comme antiémétiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les vomissements sont associés à un blocage des récepteurs 5-HT3.",
+              "explication": "Le blocage 5-HT3 est antiémétique."
+            },
+            {
+              "reponse": "Les vomissements sont associés à une stimulation des récepteurs 5-HT1A.",
+              "explication": "Les 5-HT1A sont liés à l'anxiété."
+            },
+            {
+              "reponse": "Les vomissements sont associés à une stimulation des récepteurs 5-HT4.",
+              "explication": "Les 5-HT4 sont liés à la motricité digestive (constipation)."
+            },
+            {
+              "reponse": "Les vomissements sont associés à une stimulation des récepteurs 5-HT1B/1D.",
+              "explication": "Ce sont les cibles des triptans (migraine)."
+            },
+            {
+              "reponse": "Les vomissements sont associés à un hypofonctionnement sérotoninergique central.",
+              "explication": "C'est la dépression qui est associée à un hypofonctionnement."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le syndrome carcinoïde, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "libération massive de sérotonine par les tumeurs cancéreuses"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome carcinoïde correspond à une libération massive de sérotonine par des tumeurs ou des métastases.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Il peut survenir lors des traitements anticancéreux, par lyse des cellules tumorales.",
+              "explication": "Surtout quand la masse tumorale est importante."
+            },
+            {
+              "reponse": "Il se manifeste par un flush cutané.",
+              "explication": "Coloration rouge de la peau."
+            },
+            {
+              "reponse": "Il se manifeste par des diarrhées.",
+              "explication": "Signe cité en cours."
+            },
+            {
+              "reponse": "Il peut provoquer des valvulopathies cardiaques.",
+              "explication": "Signe cité en cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le syndrome carcinoïde correspond à un effondrement du taux de sérotonine.",
+              "explication": "C'est une libération massive."
+            },
+            {
+              "reponse": "Le syndrome carcinoïde survient surtout quand la masse tumorale est faible.",
+              "explication": "Il survient quand la masse tumorale est importante."
+            },
+            {
+              "reponse": "Le syndrome carcinoïde se manifeste par une constipation.",
+              "explication": "Il se manifeste par des diarrhées."
+            },
+            {
+              "reponse": "Le syndrome carcinoïde se manifeste par une pâleur cutanée.",
+              "explication": "Il se manifeste par un flush, coloration rouge de la peau."
+            },
+            {
+              "reponse": "Le syndrome carcinoïde est dû à un blocage des récepteurs 5-HT3.",
+              "explication": "Il est dû à un excès de sérotonine."
+            },
+            {
+              "reponse": "Le syndrome carcinoïde n'a aucun retentissement cardiaque.",
+              "explication": "Il peut provoquer des valvulopathies."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rôle de la sérotonine dans l'anxiété, l'inflammation et la schizophrénie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "ce n'est pas le seul médiateur responsable"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sérotonine intervient dans l'anxiété sans en être le seul médiateur.",
+              "explication": "D'autres systèmes y participent, ce qui limite une approche purement sérotoninergique."
+            },
+            {
+              "reponse": "La sérotonine intervient dans l'inflammation, mais son rôle y est mal éclairci.",
+              "explication": "Formulation du cours."
+            },
+            {
+              "reponse": "Le système sérotoninergique intervient dans la schizophrénie, en particulier dans la symptomatologie déficitaire.",
+              "explication": "D'où l'intérêt de l'action sérotoninolytique des antipsychotiques de 2e génération."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sérotonine est le seul médiateur responsable de l'anxiété.",
+              "explication": "D'autres systèmes de neurotransmission y participent."
+            },
+            {
+              "reponse": "Une approche purement sérotoninergique suffit toujours à traiter l'anxiété.",
+              "explication": "La participation d'autres médiateurs en limite l'efficacité."
+            },
+            {
+              "reponse": "Le rôle de la sérotonine dans l'inflammation est parfaitement élucidé.",
+              "explication": "Il est mal éclairci."
+            },
+            {
+              "reponse": "Dans la schizophrénie, le système sérotoninergique intervient surtout dans la symptomatologie positive.",
+              "explication": "Il intervient surtout dans la symptomatologie déficitaire."
+            },
+            {
+              "reponse": "Le système sérotoninergique n'intervient pas dans la psychose.",
+              "explication": "Il y intervient."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'utilisation thérapeutique du système sérotoninergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "ne peut pas être utilisée comme médicament"
+          },
+          "bonnes": [
+            {
+              "reponse": "En raison de ses effets pléiotropiques, la sérotonine ne peut pas être utilisée comme médicament.",
+              "explication": "Administrée telle quelle, elle agirait sur tous les récepteurs à la fois."
+            },
+            {
+              "reponse": "Contrairement à la sérotonine, la dopamine peut être administrée directement à un patient.",
+              "explication": "Comparaison faite en cours."
+            },
+            {
+              "reponse": "Un même patient peut présenter plusieurs pathologies sérotoninergiques à la fois.",
+              "explication": "Ces pathologies ne sont pas exclusives les unes des autres."
+            },
+            {
+              "reponse": "Traiter une migraine chez un patient déprimé expose à des interactions médicamenteuses.",
+              "explication": "Exemple donné en cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sérotonine est couramment administrée telle quelle comme médicament.",
+              "explication": "Ses effets pléiotropiques l'interdisent."
+            },
+            {
+              "reponse": "La dopamine, comme la sérotonine, ne peut jamais être administrée directement.",
+              "explication": "La dopamine peut l'être."
+            },
+            {
+              "reponse": "Les pathologies sérotoninergiques sont mutuellement exclusives chez un même patient.",
+              "explication": "Elles ne sont pas exclusives."
+            },
+            {
+              "reponse": "Les médicaments sérotoninergiques n'exposent qu'à de rares interactions médicamenteuses.",
+              "explication": "Ils exposent à de nombreuses interactions."
+            },
+            {
+              "reponse": "Les agonistes indirects agissent en se fixant directement sur les récepteurs sérotoninergiques.",
+              "explication": "Ils augmentent la sérotonine disponible sans se fixer sur le récepteur."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-019",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2025-2026",
+                "session": 1,
+                "qcm": 4
+              }
+            ]
+          },
+          "question": "Dans laquelle de ces indications n'utilise-t-on pas de médicaments sérotoninergiques ? (une seule réponse attendue)",
+          "cours": {
+            "page": 4,
+            "surligner": "induisent différentes pathologies, qui constituent autant de cibles"
+          },
+          "bonnes": [
+            {
+              "reponse": "La maladie de Parkinson.",
+              "annale": true,
+              "explication": "Correction officielle : on y utilise des médicaments dopaminergiques (dont des IMAO-B)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'anxiété.",
+              "annale": true,
+              "explication": "Correction officielle : la buspirone (agoniste 5-HT1A) y est indiquée."
+            },
+            {
+              "reponse": "La migraine.",
+              "annale": true,
+              "explication": "Correction officielle : triptans et dérivés de l'ergot de seigle."
+            },
+            {
+              "reponse": "Les nausées et vomissements.",
+              "annale": true,
+              "explication": "Correction officielle : sétrons (antagonistes 5-HT3)."
+            },
+            {
+              "reponse": "La schizophrénie.",
+              "annale": true,
+              "explication": "Correction officielle : antipsychotiques de 2e génération (antagonistes 5-HT2A/2C)."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-020",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2017-2018",
+                "qcm": 1
+              }
+            ]
+          },
+          "question": "Parmi les effets suivants, lesquels peuvent être attribués à des agonistes sérotoninergiques ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Le moyen de moduler pharmacologiquement ce système"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un effet antimigraineux peut être attribué à des agonistes sérotoninergiques.",
+              "annale": true,
+              "explication": "Triptans et dérivés de l'ergot, agonistes directs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un effet antidépresseur peut être attribué à des agonistes sérotoninergiques.",
+              "annale": true,
+              "explication": "Les antidépresseurs sont des agonistes sérotoninergiques indirects. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un effet anorexigène peut être attribué à des agonistes sérotoninergiques.",
+              "annale": true,
+              "explication": "Fenfluramine et benfluorex, agonistes directs. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un effet antiémétique peut être attribué à des agonistes sérotoninergiques.",
+              "annale": true,
+              "explication": "L'effet antiémétique est celui des antagonistes 5-HT3 (sétrons). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Un effet antipsychotique peut être attribué à des agonistes sérotoninergiques.",
+              "annale": true,
+              "explication": "Il est attribué aux antagonistes 5-HT2A/2C (antipsychotiques de 2e génération). (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Agonistes sérotoninergiques directs"
+      },
+      "questions": [
+        {
+          "id": "pharmaco-neuro-serotonine-021",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la buspirone, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "La buspirone est un agoniste complet"
+          },
+          "bonnes": [
+            {
+              "reponse": "La buspirone est un agoniste complet des récepteurs présynaptiques 5-HT1.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La buspirone est un agoniste partiel des récepteurs postsynaptiques 5-HT1.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "La buspirone est indiquée dans les troubles anxieux.",
+              "explication": "Effet anxiolytique."
+            },
+            {
+              "reponse": "L'effet anxiolytique de la buspirone est maximal en quelques semaines.",
+              "explication": "Délai d'action relativement long."
+            },
+            {
+              "reponse": "La buspirone n'a ni effet myorelaxant ni effet sédatif.",
+              "explication": "Avantage sur de nombreux autres anxiolytiques."
+            },
+            {
+              "reponse": "Le métabolisme hépatique de la buspirone par les cytochromes P450 l'expose à de nombreuses interactions.",
+              "explication": "Formulation du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La buspirone est un agoniste partiel des récepteurs présynaptiques et complet des récepteurs postsynaptiques 5-HT1.",
+              "explication": "C'est l'inverse : complet en présynaptique, partiel en postsynaptique."
+            },
+            {
+              "reponse": "L'effet anxiolytique de la buspirone est immédiat.",
+              "explication": "Le délai d'action est de quelques semaines."
+            },
+            {
+              "reponse": "La buspirone a un effet sédatif marqué.",
+              "explication": "Elle est sans effet sédatif."
+            },
+            {
+              "reponse": "La buspirone a un effet myorelaxant.",
+              "explication": "Elle est sans effet myorelaxant."
+            },
+            {
+              "reponse": "La buspirone est indiquée dans la crise migraineuse.",
+              "explication": "Elle est indiquée dans les troubles anxieux."
+            },
+            {
+              "reponse": "La buspirone est un antagoniste des récepteurs 5-HT1A.",
+              "explication": "C'est un agoniste."
+            },
+            {
+              "reponse": "La buspirone échappe au métabolisme hépatique.",
+              "explication": "Elle est métabolisée par les cytochromes P450."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-022",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle est la cible pharmacologique de la buspirone ? (une seule réponse attendue)",
+          "cours": {
+            "page": 6,
+            "surligner": "Agonistes des récepteurs 5-HT1A : la buspirone"
+          },
+          "bonnes": [
+            {
+              "reponse": "La buspirone est un agoniste des récepteurs 5-HT1A.",
+              "explication": "Agoniste 5-HT1A, effet sur l'anxiété."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La buspirone est un antagoniste des récepteurs 5-HT3.",
+              "explication": "Ce sont les sétrons."
+            },
+            {
+              "reponse": "La buspirone est un agoniste des récepteurs 5-HT4.",
+              "explication": "C'est le prucalopride."
+            },
+            {
+              "reponse": "La buspirone est un antagoniste des récepteurs 5-HT2A/2C.",
+              "explication": "Ce sont les antipsychotiques de 2e génération."
+            },
+            {
+              "reponse": "La buspirone est un inhibiteur de la recapture de la sérotonine.",
+              "explication": "C'est un agoniste direct, pas indirect."
+            },
+            {
+              "reponse": "La buspirone est un inhibiteur de la monoamine oxydase.",
+              "explication": "Ce sont les IMAO."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les triptans, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Ils possèdent une structure de type tryptamine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les triptans sont indiqués dans le traitement de la crise migraineuse.",
+              "explication": "Indication de toute la classe."
+            },
+            {
+              "reponse": "Les triptans possèdent une structure de type tryptamine, proche de celle de la sérotonine.",
+              "explication": "Toutes les molécules portent le suffixe « -triptan »."
+            },
+            {
+              "reponse": "Le sumatriptan est le premier triptan commercialisé.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les triptans ont remplacé les dérivés de l'ergot de seigle.",
+              "explication": "Ils sont plus récents."
+            },
+            {
+              "reponse": "Les triptans agissent par vasoconstriction des vaisseaux intracrâniens.",
+              "explication": "Premier mécanisme."
+            },
+            {
+              "reponse": "Les triptans inhibent la libération de substances algogènes et inflammatoires.",
+              "explication": "Second mécanisme."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les triptans sont des antagonistes des récepteurs 5-HT3.",
+              "explication": "Ce sont des agonistes 5-HT1B/1D ; les anti-5-HT3 sont les sétrons."
+            },
+            {
+              "reponse": "Les triptans agissent par vasodilatation des vaisseaux intracrâniens.",
+              "explication": "Ils agissent par vasoconstriction."
+            },
+            {
+              "reponse": "Les triptans sont plus anciens que les dérivés de l'ergot de seigle.",
+              "explication": "Ils sont plus récents et les ont remplacés."
+            },
+            {
+              "reponse": "Le naratriptan est le premier triptan commercialisé.",
+              "explication": "C'est le sumatriptan."
+            },
+            {
+              "reponse": "Les triptans sont des anti-émétiques puissants.",
+              "explication": "Ils sont antimigraineux."
+            },
+            {
+              "reponse": "Les triptans sont des agonistes des récepteurs 5-HT2B.",
+              "explication": "Ils sont agonistes 5-HT1B/1D."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-024",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel triptan est le seul à être indiqué dans l'algie vasculaire de la face ? (une seule réponse attendue)",
+          "cours": {
+            "page": 8,
+            "surligner": "une seule coche figure, en face du sumatriptan"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sumatriptan.",
+              "explication": "Seule molécule du tableau à avoir cette seconde indication."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le naratriptan.",
+              "explication": "Indiqué dans la seule crise migraineuse."
+            },
+            {
+              "reponse": "Le zolmitriptan.",
+              "explication": "Indiqué dans la seule crise migraineuse."
+            },
+            {
+              "reponse": "L'élétriptan.",
+              "explication": "Indiqué dans la seule crise migraineuse."
+            },
+            {
+              "reponse": "L'almotriptan.",
+              "explication": "Indiqué dans la seule crise migraineuse."
+            },
+            {
+              "reponse": "Le frovatriptan.",
+              "explication": "Indiqué dans la seule crise migraineuse."
+            },
+            {
+              "reponse": "Le rizatriptan.",
+              "explication": "Indiqué dans la seule crise migraineuse."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-025",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules appartiennent à la classe des triptans ? (3 réponses attendues)",
+          "cours": {
+            "page": 8,
+            "surligner": "Les sept molécules citées et leurs spécialités"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sumatriptan est un triptan.",
+              "explication": "Imigrane."
+            },
+            {
+              "reponse": "Le naratriptan est un triptan.",
+              "explication": "Naramig."
+            },
+            {
+              "reponse": "Le zolmitriptan est un triptan.",
+              "explication": "Zomig."
+            },
+            {
+              "reponse": "L'élétriptan est un triptan.",
+              "explication": "Relpax."
+            },
+            {
+              "reponse": "L'almotriptan est un triptan.",
+              "explication": "Almogran."
+            },
+            {
+              "reponse": "Le frovatriptan est un triptan.",
+              "explication": "Tigreat."
+            },
+            {
+              "reponse": "Le rizatriptan est un triptan.",
+              "explication": "Maxalt."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ondansétron est un triptan.",
+              "explication": "C'est un sétron, antagoniste 5-HT3."
+            },
+            {
+              "reponse": "Le granisétron est un triptan.",
+              "explication": "C'est un sétron, antagoniste 5-HT3."
+            },
+            {
+              "reponse": "La dihydroergotamine est un triptan.",
+              "explication": "C'est un dérivé de l'ergot de seigle."
+            },
+            {
+              "reponse": "La buspirone est un triptan.",
+              "explication": "C'est un agoniste 5-HT1A anxiolytique."
+            },
+            {
+              "reponse": "La fluoxétine est un triptan.",
+              "explication": "C'est un ISRS."
+            },
+            {
+              "reponse": "Le prucalopride est un triptan.",
+              "explication": "C'est un agoniste 5-HT4."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-026",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Par quels mécanismes les triptans soulagent-ils la crise migraineuse ? (2 réponses attendues)",
+          "cours": {
+            "page": 7,
+            "surligner": "par vasoconstriction des vaisseaux intracrâniens"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les triptans provoquent une vasoconstriction des vaisseaux intracrâniens.",
+              "explication": "Elle s'oppose à la vasodilatation douloureuse."
+            },
+            {
+              "reponse": "Les triptans inhibent la libération de substances algogènes et inflammatoires.",
+              "explication": "Substances responsables de la douleur migraineuse."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les triptans provoquent une vasodilatation des vaisseaux intracrâniens.",
+              "explication": "La vasodilatation est la cause de la douleur."
+            },
+            {
+              "reponse": "Les triptans bloquent les récepteurs 5-HT3.",
+              "explication": "Ce sont des agonistes 5-HT1B/1D."
+            },
+            {
+              "reponse": "Les triptans inhibent la recapture de la sérotonine.",
+              "explication": "Ce sont des agonistes directs."
+            },
+            {
+              "reponse": "Les triptans inhibent la monoamine oxydase.",
+              "explication": "C'est le mécanisme des IMAO."
+            },
+            {
+              "reponse": "Les triptans bloquent les récepteurs dopaminergiques D2.",
+              "explication": "Ce n'est pas leur mécanisme."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dérivés de l'ergot de seigle, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "ergotisme aigu mais également chronique avec nécroses des extrémités"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'ergotamine et la dihydroergotamine sont des dérivés de l'ergot de seigle.",
+              "explication": "Les deux molécules citées."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle sont indiqués dans la crise migraineuse.",
+              "explication": "Par vasoconstriction des vaisseaux intracrâniens."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle ont des effets agonistes dopaminergiques D2 et adrénergiques alpha-1.",
+              "explication": "Manque de sélectivité, source d'effets indésirables."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle peuvent provoquer un ergotisme avec nécrose des extrémités.",
+              "explication": "Toxicité par vasospasme, aiguë ou chronique."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle peuvent provoquer des valvulopathies.",
+              "explication": "Toxicité citée en cours."
+            },
+            {
+              "reponse": "L'ergotamine et la dihydroergotamine restent disponibles en association avec la caféine.",
+              "explication": "Seules molécules restantes."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les dérivés de l'ergot de seigle sont des agonistes très sélectifs.",
+              "explication": "Leur problème est leur manque de sélectivité."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle ont remplacé les triptans.",
+              "explication": "Ce sont les triptans qui les ont remplacés."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle agissent par vasodilatation des vaisseaux intracrâniens.",
+              "explication": "Ils agissent par vasoconstriction."
+            },
+            {
+              "reponse": "Les dérivés de l'ergot de seigle sont des antagonistes adrénergiques alpha-1.",
+              "explication": "Ils en sont agonistes."
+            },
+            {
+              "reponse": "L'ergotamine reste disponible en association avec le paracétamol.",
+              "explication": "Elle est associée à la caféine."
+            },
+            {
+              "reponse": "La toxicité des dérivés de l'ergot de seigle est faible.",
+              "explication": "Elle est importante (ergotisme, valvulopathies...)."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les dérivés amphétaminiques anorexigènes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "la fenfluramine a d'emblée été indiquée comme anorexigène"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fenfluramine (Isoméride) a d'emblée été indiquée comme anorexigène.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le benfluorex (Mediator), initialement indiqué dans le métabolisme glucidique, a été détourné pour son effet anorexigène.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les dérivés amphétaminiques anorexigènes sont des agonistes directs des récepteurs sérotoninergiques.",
+              "explication": "Leurs récepteurs sont stimulés en continu."
+            },
+            {
+              "reponse": "La stimulation des récepteurs 5-HT1B pulmonaires par ces molécules conduit à une hypertension artérielle pulmonaire.",
+              "explication": "Effet indésirable grave."
+            },
+            {
+              "reponse": "La stimulation des récepteurs 5-HT2B valvulaires par ces molécules conduit à des valvulopathies.",
+              "explication": "Atteinte des valves mitrale et aortique."
+            },
+            {
+              "reponse": "La fenfluramine a été retirée du marché en 1997.",
+              "explication": "Date donnée en cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le benfluorex a d'emblée été indiqué comme anorexigène.",
+              "explication": "Il était indiqué dans la régulation du métabolisme glucidique."
+            },
+            {
+              "reponse": "La fenfluramine était commercialisée sous le nom de Mediator.",
+              "explication": "La fenfluramine est l'Isoméride ; le Mediator est le benfluorex."
+            },
+            {
+              "reponse": "Les dérivés amphétaminiques anorexigènes sont des agonistes sérotoninergiques indirects.",
+              "explication": "Ce sont des agonistes directs."
+            },
+            {
+              "reponse": "Les valvulopathies dues aux dérivés amphétaminiques résultent d'une destruction des fibroblastes valvulaires.",
+              "explication": "Elles résultent d'une stimulation des fibroblastes et d'une accumulation de collagène."
+            },
+            {
+              "reponse": "Les dérivés amphétaminiques anorexigènes touchent surtout les valves tricuspide et pulmonaire.",
+              "explication": "Le cours cite les valves mitrale et aortique."
+            },
+            {
+              "reponse": "Les effets indésirables des dérivés amphétaminiques anorexigènes ne sont jamais mortels.",
+              "explication": "Valvulopathies et HTAP parfois fatales."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-029",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel récepteur est responsable des valvulopathies provoquées par les dérivés amphétaminiques anorexigènes ? (une seule réponse attendue)",
+          "cours": {
+            "page": 9,
+            "surligner": "stimulation des récepteurs 5-HT2B au niveau des valves"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le récepteur 5-HT2B.",
+              "explication": "Sa stimulation active les fibroblastes valvulaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le récepteur 5-HT1B.",
+              "explication": "Sa stimulation pulmonaire est responsable de l'HTAP."
+            },
+            {
+              "reponse": "Le récepteur 5-HT1A.",
+              "explication": "Cible de la buspirone."
+            },
+            {
+              "reponse": "Le récepteur 5-HT3.",
+              "explication": "Récepteur-canal impliqué dans les vomissements."
+            },
+            {
+              "reponse": "Le récepteur 5-HT4.",
+              "explication": "Cible du prucalopride."
+            },
+            {
+              "reponse": "Le récepteur dopaminergique D2.",
+              "explication": "Non sérotoninergique ; non impliqué dans ces valvulopathies."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les drogues agissant sur le système sérotoninergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Les hallucinations sont moins fréquentes qu'avec le LSD"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le LSD est un dérivé de l'ergot de seigle.",
+              "explication": "Diéthylamide de l'acide lysergique."
+            },
+            {
+              "reponse": "Le LSD est un agoniste non sélectif des récepteurs 5-HT.",
+              "explication": "D'où ses effets imprévisibles."
+            },
+            {
+              "reponse": "Le LSD peut provoquer des phénomènes croisés comme entendre les couleurs ou voir les sons.",
+              "explication": "Effet décrit en cours."
+            },
+            {
+              "reponse": "La psilocybine est issue de champignons psilocybes.",
+              "explication": "« Magic mushrooms »."
+            },
+            {
+              "reponse": "Les hallucinations sont moins fréquentes avec la psilocybine qu'avec le LSD.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "La psilocybine provoque une vision kaléidoscopique.",
+              "explication": "Tout bouge et tout est coloré."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le LSD est un agoniste sélectif des récepteurs 5-HT3.",
+              "explication": "C'est un agoniste non sélectif."
+            },
+            {
+              "reponse": "Les effets du LSD sont prévisibles d'une prise à l'autre.",
+              "explication": "Ils sont imprévisibles (good trip ou bad trip)."
+            },
+            {
+              "reponse": "Les hallucinations sont plus fréquentes avec la psilocybine qu'avec le LSD.",
+              "explication": "Elles sont moins fréquentes."
+            },
+            {
+              "reponse": "La psilocybine est extraite de l'ergot de seigle.",
+              "explication": "Elle est issue de champignons ; c'est le LSD qui dérive de l'ergot."
+            },
+            {
+              "reponse": "Le LSD est un dérivé amphétaminique.",
+              "explication": "C'est un dérivé de l'ergot de seigle."
+            },
+            {
+              "reponse": "Les drogues sérotoninergiques stimulent sélectivement un seul type de récepteur.",
+              "explication": "La stimulation est non sélective."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Agonistes sérotoninergiques indirects"
+      },
+      "questions": [
+        {
+          "id": "pharmaco-neuro-serotonine-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les inhibiteurs de la monoamine oxydase (IMAO), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "molécule spécifique de la MAO A, avec une action réversible"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les IMAO inhibent la monoamine oxydase, enzyme qui dégrade la sérotonine.",
+              "explication": "Agonistes sérotoninergiques indirects."
+            },
+            {
+              "reponse": "L'iproniazide inhibe la MAO A et la MAO B de façon irréversible.",
+              "explication": "Molécule non spécifique, durée d'effet très longue."
+            },
+            {
+              "reponse": "Le moclobémide inhibe spécifiquement et réversiblement la MAO A.",
+              "explication": "Durée d'effet un peu plus courte."
+            },
+            {
+              "reponse": "Les IMAO ne sont généralement pas prescrits en première intention.",
+              "explication": "À cause de l'intervalle à respecter avant de changer d'antidépresseur."
+            },
+            {
+              "reponse": "Les IMAO exposent à des interactions avec tous les médicaments agissant sur les systèmes monoaminergiques.",
+              "explication": "Sérotonine, adrénaline, noradrénaline, dopamine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le moclobémide est un inhibiteur irréversible de la MAO.",
+              "explication": "Son action est réversible."
+            },
+            {
+              "reponse": "L'iproniazide est un inhibiteur spécifique de la MAO B.",
+              "explication": "Il inhibe la MAO A et la MAO B."
+            },
+            {
+              "reponse": "Les IMAO sont prescrits en première intention dans la dépression.",
+              "explication": "Ils ne le sont généralement pas."
+            },
+            {
+              "reponse": "Les IMAO inhibent la recapture de la sérotonine.",
+              "explication": "Ils inhibent sa dégradation."
+            },
+            {
+              "reponse": "Les IMAO diminuent la quantité de sérotonine disponible.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Le moclobémide a une durée d'effet plus longue que l'iproniazide.",
+              "explication": "C'est l'inverse : l'iproniazide, irréversible, agit plus longtemps."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-032",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel IMAO inhibe spécifiquement et réversiblement la MAO A ? (une seule réponse attendue)",
+          "cours": {
+            "page": 10,
+            "surligner": "le moclobémide : molécule spécifique de la MAO A"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le moclobémide.",
+              "explication": "IMAO sélectif de la MAO A, réversible."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'iproniazide.",
+              "explication": "Non spécifique et irréversible."
+            },
+            {
+              "reponse": "L'imipramine.",
+              "explication": "Antidépresseur tricyclique."
+            },
+            {
+              "reponse": "La fluoxétine.",
+              "explication": "ISRS."
+            },
+            {
+              "reponse": "La venlafaxine.",
+              "explication": "IRSNa."
+            },
+            {
+              "reponse": "La buspirone.",
+              "explication": "Agoniste 5-HT1A."
+            },
+            {
+              "reponse": "Le linézolide.",
+              "explication": "Antibiotique inhibant les MAO, cité comme sérotoninergique caché, pas comme IMAO antidépresseur spécifique de la MAO A."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antidépresseurs tricycliques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 11,
+            "surligner": "Leurs chefs de file sont l'imipramine et l'amitriptyline"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les tricycliques inhibent la recapture de la noradrénaline et de la sérotonine.",
+              "explication": "Mécanisme commun de la classe."
+            },
+            {
+              "reponse": "Les tricycliques sont les plus anciens des antidépresseurs.",
+              "explication": "Ils datent des années 1960."
+            },
+            {
+              "reponse": "L'imipramine et l'amitriptyline sont les chefs de file des tricycliques.",
+              "explication": "Molécules très prescrites."
+            },
+            {
+              "reponse": "L'antagonisme H1 des tricycliques entraîne une sédation.",
+              "explication": "Effet non spécifique."
+            },
+            {
+              "reponse": "L'antagonisme muscarinique M1 des tricycliques entraîne des effets atropiniques.",
+              "explication": "Effet non spécifique."
+            },
+            {
+              "reponse": "L'antagonisme alpha-1 des tricycliques entraîne une hypotension orthostatique.",
+              "explication": "Effet non spécifique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'antagonisme H1 des tricycliques entraîne une hypotension orthostatique.",
+              "explication": "Il entraîne une sédation ; l'hypotension vient de l'antagonisme alpha-1."
+            },
+            {
+              "reponse": "L'antagonisme alpha-1 des tricycliques entraîne une sédation.",
+              "explication": "Il entraîne une hypotension orthostatique."
+            },
+            {
+              "reponse": "Les tricycliques sont des agonistes muscariniques.",
+              "explication": "Ils en sont antagonistes (effets atropiniques)."
+            },
+            {
+              "reponse": "Les tricycliques sont plus récents que les ISRS.",
+              "explication": "Ils sont bien plus anciens (années 1960)."
+            },
+            {
+              "reponse": "Les tricycliques restent très prescrits en raison de leur excellente tolérance.",
+              "explication": "Leurs effets indésirables font qu'ils ne sont plus vraiment prescrits."
+            },
+            {
+              "reponse": "La fluoxétine est le chef de file des tricycliques.",
+              "explication": "C'est un ISRS."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-034",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels effets antagonistes des tricycliques sont correctement associés à leur conséquence ? (3 réponses attendues)",
+          "cours": {
+            "page": 11,
+            "surligner": "récepteurs histaminergiques H1 → sédation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Leur antagonisme des récepteurs H1 entraîne une sédation.",
+              "explication": "Association correcte."
+            },
+            {
+              "reponse": "Leur antagonisme des récepteurs muscariniques M1 entraîne des effets atropiniques.",
+              "explication": "Association correcte."
+            },
+            {
+              "reponse": "Leur antagonisme des récepteurs alpha-1 entraîne une hypotension orthostatique.",
+              "explication": "Association correcte."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Leur antagonisme des récepteurs H1 entraîne une hypotension orthostatique.",
+              "explication": "L'hypotension orthostatique vient de l'antagonisme alpha-1."
+            },
+            {
+              "reponse": "Leur antagonisme des récepteurs H1 entraîne des effets atropiniques.",
+              "explication": "Les effets atropiniques viennent de l'antagonisme M1."
+            },
+            {
+              "reponse": "Leur antagonisme des récepteurs muscariniques M1 entraîne une hypotension orthostatique.",
+              "explication": "L'hypotension orthostatique vient de l'antagonisme alpha-1."
+            },
+            {
+              "reponse": "Leur antagonisme des récepteurs alpha-1 entraîne une sédation.",
+              "explication": "La sédation vient de l'antagonisme H1."
+            },
+            {
+              "reponse": "Leur antagonisme des récepteurs alpha-1 entraîne des effets atropiniques.",
+              "explication": "Les effets atropiniques viennent de l'antagonisme M1."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-035",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel tricyclique a un effet sérotoninergique prédominant sur son effet noradrénergique ? (une seule réponse attendue)",
+          "cours": {
+            "page": 12,
+            "surligner": "La clomipramine est la seule molécule du tableau"
+          },
+          "bonnes": [
+            {
+              "reponse": "La clomipramine (Anafranil).",
+              "explication": "IRS > IRN : seule de la classe dans ce cas."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'imipramine (Tofranil).",
+              "explication": "IRN > IRS."
+            },
+            {
+              "reponse": "L'amitriptyline (Laroxyl).",
+              "explication": "IRN > IRS."
+            },
+            {
+              "reponse": "L'amoxapine (Défanyl).",
+              "explication": "IRN >> IRS."
+            },
+            {
+              "reponse": "La doxépine (Quitaxon).",
+              "explication": "IRN >> IRS."
+            },
+            {
+              "reponse": "La trimipramine (Surmontil).",
+              "explication": "IRN > IRS."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les inhibiteurs spécifiques de la recapture de la sérotonine (ISRS), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "Ils sont très bien tolérés et sont donc beaucoup prescrits"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les ISRS sont plus spécifiques que les tricycliques, sans affinité notable pour les récepteurs alpha-1 et H1.",
+              "explication": "D'où leur meilleure tolérance."
+            },
+            {
+              "reponse": "Les ISRS provoquent moins de sédation et d'hypotension orthostatique que les tricycliques.",
+              "explication": "Conséquence de l'absence d'affinité H1 et alpha-1."
+            },
+            {
+              "reponse": "Les ISRS ont été mis sur le marché dans les années 1990-2000.",
+              "explication": "Environ 25 ans après les tricycliques."
+            },
+            {
+              "reponse": "La fluoxétine (Prozac) et la paroxétine (Deroxat) sont des ISRS.",
+              "explication": "Les deux représentants à retenir."
+            },
+            {
+              "reponse": "Les ISRS sont très bien tolérés et donc beaucoup prescrits.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les ISRS ont un effet antagoniste H1 marqué.",
+              "explication": "Ils n'ont pas d'affinité pour les récepteurs H1."
+            },
+            {
+              "reponse": "Les ISRS ont été mis sur le marché dans les années 1960.",
+              "explication": "Ce sont les tricycliques ; les ISRS datent des années 1990-2000."
+            },
+            {
+              "reponse": "La fluoxétine est commercialisée sous le nom de Deroxat.",
+              "explication": "Fluoxétine = Prozac ; paroxétine = Deroxat."
+            },
+            {
+              "reponse": "Les ISRS sont mal tolérés et donc peu prescrits.",
+              "explication": "Ils sont très bien tolérés et beaucoup prescrits."
+            },
+            {
+              "reponse": "Les ISRS inhibent la monoamine oxydase.",
+              "explication": "Ils inhibent la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Les ISRS provoquent davantage d'hypotension orthostatique que les tricycliques.",
+              "explication": "Ils en provoquent moins."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-037",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules sont des inhibiteurs spécifiques de la recapture de la sérotonine (ISRS) ? (3 réponses attendues)",
+          "cours": {
+            "page": 13,
+            "surligner": "fluvoxamine, Floxyfral, 1986 ; fluoxétine, Prozac"
+          },
+          "bonnes": [
+            {
+              "reponse": "La fluvoxamine est un ISRS.",
+              "explication": "Floxyfral."
+            },
+            {
+              "reponse": "La fluoxétine est un ISRS.",
+              "explication": "Prozac."
+            },
+            {
+              "reponse": "La paroxétine est un ISRS.",
+              "explication": "Deroxat."
+            },
+            {
+              "reponse": "Le citalopram est un ISRS.",
+              "explication": "Seropram."
+            },
+            {
+              "reponse": "La sertraline est un ISRS.",
+              "explication": "Zoloft."
+            },
+            {
+              "reponse": "L'escitalopram est un ISRS.",
+              "explication": "Seroplex."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La venlafaxine est un ISRS.",
+              "explication": "C'est un IRSNa."
+            },
+            {
+              "reponse": "La duloxétine est un ISRS.",
+              "explication": "C'est un IRSNa."
+            },
+            {
+              "reponse": "Le milnacipran est un ISRS.",
+              "explication": "C'est un IRSNa."
+            },
+            {
+              "reponse": "La clomipramine est un ISRS.",
+              "explication": "C'est un tricyclique, même si son effet sérotoninergique prédomine."
+            },
+            {
+              "reponse": "L'imipramine est un ISRS.",
+              "explication": "C'est un tricyclique."
+            },
+            {
+              "reponse": "Le moclobémide est un ISRS.",
+              "explication": "C'est un IMAO."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les inhibiteurs de la recapture de la sérotonine et de la noradrénaline (IRSNa), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "elles n'agissent pas sur les récepteurs histaminergiques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les IRSNa exercent un effet dual sur la recapture de la sérotonine et de la noradrénaline.",
+              "explication": "Définition de la classe."
+            },
+            {
+              "reponse": "Les IRSNa n'agissent pas sur les récepteurs histaminergiques, muscariniques, adrénergiques et dopaminergiques.",
+              "explication": "Contrairement aux tricycliques."
+            },
+            {
+              "reponse": "Les IRSNa associent une efficacité importante dans la dépression et une bonne tolérance.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "La duloxétine, le milnacipran et la venlafaxine sont des IRSNa.",
+              "explication": "Les trois molécules citées."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les IRSNa ont un mécanisme d'action sur les transporteurs différent de celui des tricycliques.",
+              "explication": "Ils partagent le même : inhibition de la recapture de la sérotonine et de la noradrénaline."
+            },
+            {
+              "reponse": "Les IRSNa ont, comme les tricycliques, un effet antagoniste H1.",
+              "explication": "Ils n'agissent pas sur les récepteurs histaminergiques."
+            },
+            {
+              "reponse": "La venlafaxine est un ISRS.",
+              "explication": "C'est un IRSNa."
+            },
+            {
+              "reponse": "Les IRSNa inhibent uniquement la recapture de la noradrénaline.",
+              "explication": "Leur effet est dual."
+            },
+            {
+              "reponse": "Les IRSNa inhibent la monoamine oxydase.",
+              "explication": "Ils inhibent la recapture."
+            },
+            {
+              "reponse": "Les IRSNa sont mal tolérés en raison de leurs effets atropiniques.",
+              "explication": "Ils n'agissent pas sur les récepteurs muscariniques et sont bien tolérés."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-039",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Qu'est-ce qui distingue les IRSNa des antidépresseurs tricycliques ? (une seule réponse attendue)",
+          "cours": {
+            "page": 13,
+            "surligner": "Ce qui les distingue n'est donc pas ce mécanisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les IRSNa n'ont pas d'effet antagoniste sur les récepteurs H1, M1 et alpha-1.",
+              "explication": "C'est la seule différence : le mécanisme sur les transporteurs est le même."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les IRSNa inhibent la recapture de la sérotonine, contrairement aux tricycliques.",
+              "explication": "Les tricycliques l'inhibent aussi."
+            },
+            {
+              "reponse": "Les IRSNa inhibent la recapture de la noradrénaline, contrairement aux tricycliques.",
+              "explication": "Les tricycliques l'inhibent aussi."
+            },
+            {
+              "reponse": "Les IRSNa inhibent la monoamine oxydase, contrairement aux tricycliques.",
+              "explication": "Ni l'une ni l'autre classe n'inhibe la MAO."
+            },
+            {
+              "reponse": "Les IRSNa sont des agonistes directs des récepteurs 5-HT1A, contrairement aux tricycliques.",
+              "explication": "C'est la buspirone."
+            },
+            {
+              "reponse": "Les IRSNa sont des agonistes des récepteurs opiacés, contrairement aux tricycliques.",
+              "explication": "C'est le tramadol."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le tramadol, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "un traitement antalgique de niveau 2, c'est-à-dire un opiacé faible"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le tramadol inhibe la recapture de la sérotonine, ce qui contribue au contrôle de la transmission nociceptive.",
+              "explication": "Premier mécanisme."
+            },
+            {
+              "reponse": "Le tramadol est un agoniste direct des récepteurs opiacés.",
+              "explication": "Second mécanisme."
+            },
+            {
+              "reponse": "Le tramadol est un antalgique de niveau 2, c'est-à-dire un opiacé faible.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le double mécanisme d'action du tramadol a longtemps été méconnu ou sous-estimé.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Le tramadol peut, par interaction médicamenteuse, entraîner un syndrome sérotoninergique.",
+              "explication": "Du fait de l'inhibition de la recapture de la sérotonine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le tramadol est un opiacé fort de niveau 3.",
+              "explication": "C'est un opiacé faible de niveau 2."
+            },
+            {
+              "reponse": "Le tramadol est un antagoniste des récepteurs opiacés.",
+              "explication": "Il en est agoniste."
+            },
+            {
+              "reponse": "Le tramadol inhibe la monoamine oxydase.",
+              "explication": "Il inhibe la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Le tramadol n'expose à aucun risque de syndrome sérotoninergique.",
+              "explication": "Il est source de nombreuses interactions pouvant y conduire."
+            },
+            {
+              "reponse": "Le tramadol est un agoniste direct des récepteurs 5-HT3.",
+              "explication": "Il agit par inhibition de la recapture."
+            },
+            {
+              "reponse": "Le tramadol agit uniquement sur les récepteurs opiacés.",
+              "explication": "Il a un double mécanisme."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-041",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2023-2024",
+                "qcm": 9
+              }
+            ]
+          },
+          "question": "Mme B, traitée par imipramine pour un syndrome dépressif, présente une sécheresse buccale, une constipation, une vision floue et une tachycardie. À quel syndrome ce tableau fait-il penser ? (une seule réponse attendue)",
+          "cours": {
+            "page": 11,
+            "surligner": "récepteurs cholinergiques muscariniques M1 → effets atropiniques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un syndrome anticholinergique (atropinique).",
+              "annale": true,
+              "explication": "Correction officielle : antagonisme muscarinique de l'imipramine, tricyclique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Un syndrome sérotoninergique.",
+              "explication": "Il associerait agitation, hyperthermie, myoclonies, troubles digestifs."
+            },
+            {
+              "reponse": "Un syndrome malin des neuroleptiques.",
+              "explication": "Il survient sous antagonistes dopaminergiques."
+            },
+            {
+              "reponse": "Un syndrome carcinoïde.",
+              "explication": "Il associe flush, diarrhées et valvulopathies, par libération tumorale de sérotonine."
+            },
+            {
+              "reponse": "Un syndrome cholinergique.",
+              "explication": "Ce tableau traduit au contraire un blocage cholinergique."
+            },
+            {
+              "reponse": "Un ergotisme.",
+              "explication": "Intoxication par les dérivés de l'ergot de seigle (vasospasme, nécroses)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Effets indésirables et syndromes"
+      },
+      "questions": [
+        {
+          "id": "pharmaco-neuro-serotonine-042",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les interactions entre médicaments sérotoninergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "entre antidépresseurs et tramadol"
+          },
+          "bonnes": [
+            {
+              "reponse": "Associer 2 agonistes sérotoninergiques augmente le risque d'effets indésirables.",
+              "explication": "Par surexposition à la sérotonine ou hyperstimulation des récepteurs."
+            },
+            {
+              "reponse": "Il existe une interaction entre les IMAO prescrits dans la maladie de Parkinson et les antidépresseurs sérotoninergiques.",
+              "explication": "Interaction courante citée en cours."
+            },
+            {
+              "reponse": "Il existe une interaction entre antidépresseurs et tramadol.",
+              "explication": "Les deux inhibent la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Il existe une interaction entre triptans et antidépresseurs.",
+              "explication": "Interaction courante citée en cours."
+            },
+            {
+              "reponse": "Ces interactions peuvent aller jusqu'au syndrome sérotoninergique.",
+              "explication": "Pathologie relativement grave."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'association de 2 agonistes sérotoninergiques est sans risque particulier.",
+              "explication": "Elle augmente le risque d'effets indésirables."
+            },
+            {
+              "reponse": "Les triptans n'interagissent pas avec les antidépresseurs.",
+              "explication": "C'est une interaction courante."
+            },
+            {
+              "reponse": "Le tramadol n'interagit pas avec les antidépresseurs car c'est un opiacé.",
+              "explication": "Il inhibe aussi la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Les interactions entre médicaments sérotoninergiques sont toujours bénignes.",
+              "explication": "Elles peuvent conduire au syndrome sérotoninergique."
+            },
+            {
+              "reponse": "Les IMAO prescrits dans la maladie de Parkinson n'interagissent pas avec les antidépresseurs.",
+              "explication": "Interaction courante citée en cours."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-043",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "À quoi le syndrome sérotoninergique est-il dû ? (une seule réponse attendue)",
+          "cours": {
+            "page": 14,
+            "surligner": "lié à l'accumulation de sérotonine dans l'organisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome sérotoninergique est dû à une accumulation de sérotonine et/ou à une stimulation excessive de ses récepteurs, d'origine médicamenteuse.",
+              "explication": "Définition du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le syndrome sérotoninergique est dû à un déficit en sérotonine.",
+              "explication": "C'est un excès."
+            },
+            {
+              "reponse": "Le syndrome sérotoninergique est dû à un blocage des récepteurs dopaminergiques D2.",
+              "explication": "C'est le mécanisme du syndrome malin des neuroleptiques."
+            },
+            {
+              "reponse": "Le syndrome sérotoninergique est dû à un blocage des récepteurs muscariniques.",
+              "explication": "C'est le syndrome anticholinergique."
+            },
+            {
+              "reponse": "Le syndrome sérotoninergique est dû à un blocage des récepteurs 5-HT3.",
+              "explication": "Le blocage 5-HT3 est antiémétique."
+            },
+            {
+              "reponse": "Le syndrome sérotoninergique est dû à une inhibition de la synthèse de sérotonine.",
+              "explication": "C'est un excès de sérotonine."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-044",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels signes peuvent s'observer au cours d'un syndrome sérotoninergique ?",
+          "cours": {
+            "page": 14,
+            "surligner": "troubles moteurs : tremblements, myoclonies, rigidité"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un flush cutané peut s'observer au cours d'un syndrome sérotoninergique.",
+              "explication": "Trouble vasculaire et cutané."
+            },
+            {
+              "reponse": "Une agitation peut s'observer au cours d'un syndrome sérotoninergique.",
+              "explication": "Signe particulier, absent du syndrome malin des neuroleptiques."
+            },
+            {
+              "reponse": "Des myoclonies et des tremblements peuvent s'observer au cours d'un syndrome sérotoninergique.",
+              "explication": "Troubles moteurs."
+            },
+            {
+              "reponse": "Une hyperthermie peut s'observer au cours d'un syndrome sérotoninergique.",
+              "explication": "Signe assez distinctif."
+            },
+            {
+              "reponse": "Des sueurs et des frissons peuvent s'observer au cours d'un syndrome sérotoninergique.",
+              "explication": "Troubles végétatifs."
+            },
+            {
+              "reponse": "Une diarrhée et des vomissements peuvent s'observer au cours d'un syndrome sérotoninergique.",
+              "explication": "Troubles digestifs fréquents."
+            },
+            {
+              "reponse": "Une confusion pouvant aller jusqu'au coma peut s'observer au cours d'un syndrome sérotoninergique.",
+              "explication": "Troubles psychiques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une hypothermie est caractéristique du syndrome sérotoninergique.",
+              "explication": "C'est une hyperthermie."
+            },
+            {
+              "reponse": "Une bradycardie est caractéristique du syndrome sérotoninergique.",
+              "explication": "On observe une tachycardie."
+            },
+            {
+              "reponse": "Une constipation est caractéristique du syndrome sérotoninergique.",
+              "explication": "On observe une diarrhée."
+            },
+            {
+              "reponse": "Une sécheresse cutanée sans sueurs est caractéristique du syndrome sérotoninergique.",
+              "explication": "On observe des sueurs."
+            },
+            {
+              "reponse": "Une apathie avec hypoactivité motrice est caractéristique du syndrome sérotoninergique.",
+              "explication": "On observe une agitation et une hyperactivité motrice."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-045",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels éléments permettent de différencier le syndrome sérotoninergique du syndrome malin des neuroleptiques ? (2 réponses attendues)",
+          "cours": {
+            "page": 15,
+            "surligner": "Mais 2 éléments les différencient : l'agitation"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'agitation, particulièrement marquée dans le syndrome sérotoninergique, le différencie du syndrome malin des neuroleptiques.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            },
+            {
+              "reponse": "L'hyperthermie différencie le syndrome sérotoninergique du syndrome malin des neuroleptiques.",
+              "explication": "Point sur lequel l'intervenant a insisté."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La rigidité différencie le syndrome sérotoninergique du syndrome malin des neuroleptiques.",
+              "explication": "Le cours ne retient que l'agitation et l'hyperthermie."
+            },
+            {
+              "reponse": "La confusion différencie le syndrome sérotoninergique du syndrome malin des neuroleptiques.",
+              "explication": "Le cours ne retient que l'agitation et l'hyperthermie."
+            },
+            {
+              "reponse": "Le coma différencie le syndrome sérotoninergique du syndrome malin des neuroleptiques.",
+              "explication": "Le cours ne retient que l'agitation et l'hyperthermie."
+            },
+            {
+              "reponse": "La tachycardie différencie le syndrome sérotoninergique du syndrome malin des neuroleptiques.",
+              "explication": "Le cours ne retient que l'agitation et l'hyperthermie."
+            },
+            {
+              "reponse": "Les sueurs différencient le syndrome sérotoninergique du syndrome malin des neuroleptiques.",
+              "explication": "Le cours ne retient que l'agitation et l'hyperthermie."
+            },
+            {
+              "reponse": "Les variations de pression artérielle différencient le syndrome sérotoninergique du syndrome malin des neuroleptiques.",
+              "explication": "Le cours ne retient que l'agitation et l'hyperthermie."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-046",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les sérotoninergiques cachés, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "linézolide : antibiotique qui inhibe les monoamines oxydases"
+          },
+          "bonnes": [
+            {
+              "reponse": "Un sérotoninergique caché est une molécule dont l'effet principal n'est pas sérotoninergique et dont cet effet est souvent méconnu.",
+              "explication": "Définition du cours."
+            },
+            {
+              "reponse": "Le linézolide est un antibiotique qui inhibe les monoamines oxydases.",
+              "explication": "Sérotoninergique caché."
+            },
+            {
+              "reponse": "Le lithium favorise la libération de sérotonine en agissant sur les récepteurs 5-HT1B.",
+              "explication": "Régulateur de l'humeur, sérotoninergique caché."
+            },
+            {
+              "reponse": "Le néfopam est un antalgique qui inhibe la recapture de la sérotonine.",
+              "explication": "Sérotoninergique caché."
+            },
+            {
+              "reponse": "Le millepertuis agit par inhibition de la recapture de la sérotonine.",
+              "explication": "Phytothérapie réputée antidépressive."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le linézolide inhibe la recapture de la sérotonine.",
+              "explication": "Il inhibe les monoamines oxydases."
+            },
+            {
+              "reponse": "Le néfopam est un inhibiteur de la monoamine oxydase.",
+              "explication": "Il inhibe la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Le lithium est un antagoniste des récepteurs 5-HT3.",
+              "explication": "Il agit sur les 5-HT1B en favorisant la libération de sérotonine."
+            },
+            {
+              "reponse": "Le millepertuis n'a aucun effet sérotoninergique.",
+              "explication": "Il inhibe la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Le lithium est un antibiotique.",
+              "explication": "C'est un régulateur de l'humeur ; l'antibiotique est le linézolide."
+            },
+            {
+              "reponse": "L'effet sérotoninergique d'un sérotoninergique caché est son effet principal.",
+              "explication": "Par définition, ce n'est pas son effet principal."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-047",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules sont citées comme sérotoninergiques cachés ? (3 réponses attendues)",
+          "cours": {
+            "page": 15,
+            "surligner": "Quatre exemples sont donnés"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le linézolide est un sérotoninergique caché.",
+              "explication": "Antibiotique inhibant les MAO."
+            },
+            {
+              "reponse": "Le lithium est un sérotoninergique caché.",
+              "explication": "Régulateur de l'humeur agissant sur les 5-HT1B."
+            },
+            {
+              "reponse": "Le néfopam est un sérotoninergique caché.",
+              "explication": "Antalgique inhibant la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Le millepertuis est un sérotoninergique caché.",
+              "explication": "Phytothérapie inhibant la recapture de la sérotonine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ondansétron est un sérotoninergique caché.",
+              "explication": "C'est un antagoniste 5-HT3 assumé, pas un agoniste caché."
+            },
+            {
+              "reponse": "Le paracétamol est un sérotoninergique caché.",
+              "explication": "Antalgique de palier 1, non cité comme sérotoninergique."
+            },
+            {
+              "reponse": "L'amoxicilline est un sérotoninergique caché.",
+              "explication": "Antibiotique non cité ; c'est le linézolide qui l'est."
+            },
+            {
+              "reponse": "La gentamicine est un sérotoninergique caché.",
+              "explication": "Antibiotique non cité ; c'est le linézolide qui l'est."
+            },
+            {
+              "reponse": "La fluoxétine est un sérotoninergique caché.",
+              "explication": "C'est un ISRS : son effet sérotoninergique est son effet principal."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-048",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel sérotoninergique caché agit en inhibant les monoamines oxydases ? (une seule réponse attendue)",
+          "cours": {
+            "page": 15,
+            "surligner": "antibiotique qui inhibe les monoamines oxydases"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le linézolide.",
+              "explication": "Antibiotique inhibiteur des MAO."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le néfopam.",
+              "explication": "Il inhibe la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Le millepertuis.",
+              "explication": "Il inhibe la recapture de la sérotonine."
+            },
+            {
+              "reponse": "Le lithium.",
+              "explication": "Il favorise la libération de sérotonine via les 5-HT1B."
+            },
+            {
+              "reponse": "Le tramadol.",
+              "explication": "Il inhibe la recapture de la sérotonine et est agoniste opiacé."
+            },
+            {
+              "reponse": "La paroxétine.",
+              "explication": "ISRS, non caché."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Antagonistes sérotoninergiques"
+      },
+      "questions": [
+        {
+          "id": "pharmaco-neuro-serotonine-049",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les antagonistes sérotoninergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 15,
+            "surligner": "Il n'existe pas d'antagonistes sérotoninergiques indirects"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il n'existe pas d'antagonistes sérotoninergiques indirects.",
+              "explication": "Seules 2 catégories, agissant sur des récepteurs."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération sont des antagonistes 5-HT2A et 5-HT2C.",
+              "explication": "Ils agissent au niveau central."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération passent la barrière hémato-encéphalique.",
+              "explication": "Ils agissent au niveau central."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération provoquent moins d'effets indésirables moteurs que ceux de 1re génération.",
+              "explication": "Donnée du cours."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération provoquent plus d'effets indésirables métaboliques que ceux de 1re génération.",
+              "explication": "Point de vigilance du cours."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération améliorent à la fois les symptômes positifs et négatifs de la schizophrénie.",
+              "explication": "L'action sérotoninolytique jouerait sur les symptômes déficitaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les IMAO sont des antagonistes sérotoninergiques indirects.",
+              "explication": "Ce sont des agonistes indirects ; il n'existe pas d'antagonistes indirects."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération ne passent pas la barrière hémato-encéphalique.",
+              "explication": "Ils agissent au niveau central."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération provoquent plus d'effets indésirables moteurs que ceux de 1re génération.",
+              "explication": "Ils en provoquent moins."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération provoquent moins d'effets indésirables métaboliques que ceux de 1re génération.",
+              "explication": "Ils en provoquent plus."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération sont des agonistes des récepteurs 5-HT2A.",
+              "explication": "Ils en sont antagonistes."
+            },
+            {
+              "reponse": "L'action sérotoninolytique des antipsychotiques de 2e génération jouerait surtout sur les symptômes positifs.",
+              "explication": "Elle jouerait sur les symptômes déficitaires."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-050",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles molécules sont des antipsychotiques de 2e génération ? (2 réponses attendues)",
+          "cours": {
+            "page": 16,
+            "surligner": "liste quatre antipsychotiques de 2e génération"
+          },
+          "bonnes": [
+            {
+              "reponse": "La clozapine est un antipsychotique de 2e génération.",
+              "explication": "Leponex."
+            },
+            {
+              "reponse": "La loxapine est un antipsychotique de 2e génération.",
+              "explication": "Loxapac."
+            },
+            {
+              "reponse": "L'olanzapine est un antipsychotique de 2e génération.",
+              "explication": "Zyprexa."
+            },
+            {
+              "reponse": "La rispéridone est un antipsychotique de 2e génération.",
+              "explication": "Risperdal."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'ondansétron est un antipsychotique de 2e génération.",
+              "explication": "C'est un sétron antiémétique."
+            },
+            {
+              "reponse": "La buspirone est un antipsychotique de 2e génération.",
+              "explication": "C'est un anxiolytique agoniste 5-HT1A."
+            },
+            {
+              "reponse": "La fluoxétine est un antipsychotique de 2e génération.",
+              "explication": "C'est un ISRS."
+            },
+            {
+              "reponse": "Le sumatriptan est un antipsychotique de 2e génération.",
+              "explication": "C'est un triptan."
+            },
+            {
+              "reponse": "La clomipramine est un antipsychotique de 2e génération.",
+              "explication": "C'est un antidépresseur tricyclique."
+            },
+            {
+              "reponse": "Le granisétron est un antipsychotique de 2e génération.",
+              "explication": "C'est un sétron antiémétique."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-051",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les sétrons, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "On les appelle les SÉTRONS : granisétron, ondansétron, palonosétron"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le granisétron, l'ondansétron et le palonosétron sont des sétrons.",
+              "explication": "Les trois molécules citées."
+            },
+            {
+              "reponse": "Les sétrons sont des antagonistes spécifiques des récepteurs 5-HT3.",
+              "explication": "Définition de la classe."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT3 ciblés par les sétrons se trouvent à l'extrémité des nerfs vagal et splanchnique.",
+              "explication": "Localisation décrite dans le cours."
+            },
+            {
+              "reponse": "Les sétrons sont indiqués dans les vomissements post-chirurgicaux et post-chimiothérapie.",
+              "explication": "Surtout en post-chimiothérapie."
+            },
+            {
+              "reponse": "La stimulation des récepteurs 5-HT3 envoie un message qui remonte vers la moelle épinière puis les centres du vomissement.",
+              "explication": "D'où nausées et vomissements."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les sétrons sont des agonistes des récepteurs 5-HT3.",
+              "explication": "Ils en sont antagonistes."
+            },
+            {
+              "reponse": "Les sétrons sont indiqués dans la crise migraineuse.",
+              "explication": "Ils sont antiémétiques."
+            },
+            {
+              "reponse": "Les sétrons sont surtout utilisés en post-chirurgie plutôt qu'après une chimiothérapie.",
+              "explication": "Ils sont surtout utilisés en post-chimiothérapie."
+            },
+            {
+              "reponse": "Les sétrons sont des antagonistes des récepteurs 5-HT2A.",
+              "explication": "Ce sont les antipsychotiques de 2e génération."
+            },
+            {
+              "reponse": "La stimulation des récepteurs 5-HT3 a un effet antiémétique.",
+              "explication": "Elle provoque nausées et vomissements."
+            },
+            {
+              "reponse": "Les sétrons sont des antagonistes sérotoninergiques indirects.",
+              "explication": "Il n'existe pas d'antagonistes indirects ; ils agissent sur les récepteurs."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-052",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les vomissements induits par les anticancéreux, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "en général dans les 24 heures suivant la chimiothérapie"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les anticancéreux provoquent une forte libération de sérotonine par les cellules entérochromaffines.",
+              "explication": "Cellules de la paroi stomacale et intestinale."
+            },
+            {
+              "reponse": "Les vomissements induits par la chimiothérapie surviennent en général dans les 24 heures.",
+              "explication": "Vomissements aigus."
+            },
+            {
+              "reponse": "Le cisplatine est particulièrement responsable de vomissements post-chimiothérapie.",
+              "explication": "Molécule citée en cours."
+            },
+            {
+              "reponse": "Le cyclophosphamide est particulièrement responsable de vomissements post-chimiothérapie.",
+              "explication": "Molécule citée en cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les anticancéreux diminuent la libération de sérotonine par les cellules entérochromaffines.",
+              "explication": "Ils l'augmentent fortement."
+            },
+            {
+              "reponse": "Les vomissements induits par la chimiothérapie surviennent en général au-delà d'une semaine.",
+              "explication": "Ils surviennent en général dans les 24 heures."
+            },
+            {
+              "reponse": "La sérotonine libérée par la chimiothérapie provient surtout des plaquettes.",
+              "explication": "Elle provient des cellules entérochromaffines digestives."
+            },
+            {
+              "reponse": "Les vomissements post-chimiothérapie sont liés à un blocage des récepteurs 5-HT3.",
+              "explication": "Ils sont liés à leur stimulation."
+            },
+            {
+              "reponse": "Les vomissements post-chimiothérapie sont traités par des agonistes 5-HT3.",
+              "explication": "Ils sont traités par des antagonistes 5-HT3 (sétrons)."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-053",
+          "type": "qcu",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2024-2025",
+                "session": 1,
+                "qcm": 6
+              }
+            ]
+          },
+          "question": "L'olanzapine a une affinité pour les récepteurs 5-HT2A/2C, 5-HT3, 5-HT6, D1 à D5 et M1 à M5, sur lesquels elle exerce un antagonisme. Que peut-on en déduire ? (une seule réponse attendue)",
+          "cours": {
+            "page": 15,
+            "surligner": "Ces molécules agissent au niveau central et passent"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe un antagonisme d'effet potentiel entre un antidépresseur ISRS et l'olanzapine.",
+              "annale": true,
+              "explication": "Correction officielle : les ISRS augmentent la transmission sérotoninergique, l'olanzapine la bloque."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'olanzapine est un agoniste des récepteurs 5-HT2.",
+              "annale": true,
+              "explication": "Correction officielle : c'est un antagoniste."
+            },
+            {
+              "reponse": "On observera une hyperactivité sérotoninergique si l'on associe l'olanzapine à un IMAO.",
+              "annale": true,
+              "explication": "Correction officielle : l'olanzapine bloque les récepteurs sérotoninergiques."
+            },
+            {
+              "reponse": "On pourrait envisager l'usage de l'olanzapine dans la maladie de Parkinson.",
+              "annale": true,
+              "explication": "Correction officielle : son antagonisme D2 aggrave les symptômes parkinsoniens."
+            },
+            {
+              "reponse": "L'olanzapine pourra provoquer des nausées par stimulation des récepteurs 5-HT3.",
+              "annale": true,
+              "explication": "Correction officielle : elle bloque les récepteurs 5-HT3."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-054",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2018-2019",
+                "qcm": 21
+              }
+            ]
+          },
+          "question": "Concernant les médicaments du système sérotoninergique, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "Antagonistes spécifiques des récepteurs 5-HT3 : les sétrons"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les antiémétiques de type sétrons sont des antagonistes 5-HT3.",
+              "annale": true,
+              "explication": "Définition de la classe. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La stimulation des récepteurs 5-HT2 cardiaques provoque des effets indésirables potentiellement très graves.",
+              "annale": true,
+              "explication": "Valvulopathies parfois létales (dérivés amphétaminiques). (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On peut diminuer la quantité de sérotonine disponible en administrant des IMAO.",
+              "annale": true,
+              "explication": "Les IMAO l'augmentent en inhibant sa dégradation. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération inhibent la recapture de la sérotonine.",
+              "annale": true,
+              "explication": "Ce sont des antagonistes 5-HT2A/2C. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les triptans agissent par effet vasodilatateur au niveau des vaisseaux crâniens.",
+              "annale": true,
+              "explication": "Ils agissent par vasoconstriction. (réponse déduite du cours)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Récapitulatif : récepteurs sérotoninergiques et médicaments"
+      },
+      "questions": [
+        {
+          "id": "pharmaco-neuro-serotonine-055",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "D'après le tableau récapitulatif des récepteurs sérotoninergiques, quelles associations sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "agoniste prucalopride, pas d'antagoniste cité"
+          },
+          "bonnes": [
+            {
+              "reponse": "La buspirone est un agoniste 5-HT1A agissant sur l'anxiété.",
+              "explication": "Ligne 5-HT1A."
+            },
+            {
+              "reponse": "Les triptans et la dihydroergotamine sont des agonistes 5-HT1B/1D/1F agissant sur la migraine.",
+              "explication": "Ligne 5-HT1B/1D/1F."
+            },
+            {
+              "reponse": "Le LSD et la psilocybine sont des agonistes 5-HT2A à effet hallucinogène.",
+              "explication": "Ligne 5-HT2A."
+            },
+            {
+              "reponse": "Les sétrons sont des antagonistes 5-HT3 agissant sur les vomissements.",
+              "explication": "Ligne 5-HT3."
+            },
+            {
+              "reponse": "Le prucalopride est un agoniste 5-HT4 agissant sur la constipation chronique chez la femme.",
+              "explication": "Ligne 5-HT4."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le prucalopride est un antagoniste 5-HT4.",
+              "explication": "C'est un agoniste."
+            },
+            {
+              "reponse": "Le LSD est un antagoniste 5-HT2A.",
+              "explication": "C'est un agoniste."
+            },
+            {
+              "reponse": "Les sétrons sont des agonistes 5-HT3.",
+              "explication": "Ce sont des antagonistes."
+            },
+            {
+              "reponse": "La buspirone agit sur la migraine via les récepteurs 5-HT1B/1D.",
+              "explication": "Elle agit sur l'anxiété via les 5-HT1A."
+            },
+            {
+              "reponse": "Les antipsychotiques de 2e génération sont des agonistes 5-HT2A/2C.",
+              "explication": "Ce sont des antagonistes."
+            },
+            {
+              "reponse": "Les triptans sont des agonistes 5-HT4.",
+              "explication": "Ce sont des agonistes 5-HT1B/1D/1F."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-056",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel est le mécanisme d'action du prucalopride ? (une seule réponse attendue)",
+          "cours": {
+            "page": 18,
+            "surligner": "stimulation postsynaptique, agoniste prucalopride"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le prucalopride est un agoniste des récepteurs 5-HT4.",
+              "explication": "Effet sur la constipation chronique chez la femme."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le prucalopride est un antagoniste des récepteurs 5-HT3.",
+              "explication": "Ce sont les sétrons."
+            },
+            {
+              "reponse": "Le prucalopride est un agoniste des récepteurs 5-HT1A.",
+              "explication": "C'est la buspirone."
+            },
+            {
+              "reponse": "Le prucalopride est un antagoniste des récepteurs 5-HT2A/2C.",
+              "explication": "Ce sont les antipsychotiques de 2e génération."
+            },
+            {
+              "reponse": "Le prucalopride est un agoniste des récepteurs 5-HT1B/1D.",
+              "explication": "Ce sont les triptans."
+            },
+            {
+              "reponse": "Le prucalopride est un inhibiteur de la recapture de la sérotonine.",
+              "explication": "Ce sont notamment les ISRS."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-057",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "D'après le tableau récapitulatif, quelles propositions concernant le mode d'action et la localisation des récepteurs sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "hippocampe, cœur, vessie et tube digestif"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs 5-HT1A et 5-HT1B/1D/1F exercent une inhibition présynaptique.",
+              "explication": "Colonne « Mode d'action »."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2A, 5-HT3 et 5-HT4 exercent une stimulation postsynaptique.",
+              "explication": "Colonne « Mode d'action »."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4 sont présents dans l'hippocampe, le cœur, la vessie et les muscles lisses du tube digestif.",
+              "explication": "Colonne « Localisation »."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT3 ont un effet sur les vomissements et la douleur.",
+              "explication": "Colonne « Effet sur »."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT2A sont présents sur les plaquettes, les muscles lisses et le cortex.",
+              "explication": "Colonne « Localisation »."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs 5-HT1A exercent une stimulation postsynaptique.",
+              "explication": "Le tableau indique une inhibition présynaptique."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT3 exercent une inhibition présynaptique.",
+              "explication": "Ils exercent une stimulation postsynaptique."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4 exercent une inhibition présynaptique.",
+              "explication": "Ils exercent une stimulation postsynaptique."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT4 sont exclusivement localisés dans le SNC.",
+              "explication": "Ils sont aussi cardiaques, vésicaux et digestifs."
+            },
+            {
+              "reponse": "Les récepteurs 5-HT3 n'ont aucun effet sur les vomissements.",
+              "explication": "Leur effet porte sur les vomissements et la douleur."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-058",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2022-2023",
+                "qcm": 8
+              }
+            ]
+          },
+          "question": "Concernant le système sérotoninergique et ses médicaments, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 18,
+            "surligner": "Les récepteurs sérotoninergiques et leurs médicaments"
+          },
+          "bonnes": [
+            {
+              "reponse": "La stimulation des récepteurs 5-HT1 présynaptiques bloque la libération de sérotonine dans la synapse.",
+              "annale": true,
+              "explication": "Correction officielle : autorécepteurs présynaptiques à rétrocontrôle négatif."
+            },
+            {
+              "reponse": "La stimulation des récepteurs 5-HT2 cardiaques peut provoquer des valvulopathies.",
+              "annale": true,
+              "explication": "Correction officielle."
+            },
+            {
+              "reponse": "Les médicaments antidépresseurs inhibent la recapture de la sérotonine.",
+              "annale": true,
+              "explication": "Correction officielle."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les triptans sont des antagonistes 5-HT3.",
+              "annale": true,
+              "explication": "Correction officielle : ce sont des agonistes des récepteurs 5-HT1."
+            },
+            {
+              "reponse": "La crise d'épilepsie peut se traiter par des agonistes sérotoninergiques.",
+              "annale": true,
+              "explication": "Correction officielle : faux."
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-059",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2021-2022",
+                "qcm": 11
+              }
+            ]
+          },
+          "question": "Concernant le système sérotoninergique et ses médicaments, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "conduit à des valvulopathies létales"
+          },
+          "bonnes": [
+            {
+              "reponse": "La stimulation des récepteurs 5-HT2 cardiaques peut provoquer des valvulopathies.",
+              "annale": true,
+              "explication": "Stimulation 5-HT2B valvulaire par les dérivés amphétaminiques. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Certaines drogues comme les amphétamines sont des stimulants du système sérotoninergique.",
+              "annale": true,
+              "explication": "Les dérivés amphétaminiques sont des agonistes sérotoninergiques directs. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La crise migraineuse peut se traiter par des agonistes sérotoninergiques.",
+              "annale": true,
+              "explication": "Triptans et dérivés de l'ergot de seigle. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les médicaments antidépresseurs stimulent directement les récepteurs 5-HT2.",
+              "annale": true,
+              "explication": "Ce sont des agonistes indirects (inhibition de la recapture ou de la dégradation). (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les triptans sont des anti-émétiques puissants.",
+              "annale": true,
+              "explication": "Ce sont des antimigraineux ; les antiémétiques sont les sétrons. (réponse déduite du cours)"
+            }
+          ]
+        },
+        {
+          "id": "pharmaco-neuro-serotonine-060",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2020-2021",
+                "qcm": 6
+              },
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Pharmacologie",
+                "annee": "2019-2020",
+                "qcm": 12
+              }
+            ]
+          },
+          "question": "Concernant la sérotonine et ses médicaments, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 14,
+            "surligner": "entre les IMAO prescrits dans la maladie de Parkinson"
+          },
+          "bonnes": [
+            {
+              "reponse": "La sérotonine agit via une grande diversité de récepteurs, répartis en 7 familles.",
+              "annale": true,
+              "explication": "De 5-HT1 à 5-HT7. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les récepteurs de type 5-HT3 sont des canaux perméables au Na+ et au K+.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Le cours décrit un canal perméable au sodium, au potassium et au calcium ; l'item omet le calcium. (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            },
+            {
+              "reponse": "L'inhibition de la recapture de la sérotonine est le mécanisme d'action principal des antidépresseurs.",
+              "annale": true,
+              "explication": "Tricycliques, ISRS et IRSNa. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "Les antimigraineux agonistes sérotoninergiques ont un effet vasoconstricteur.",
+              "annale": true,
+              "explication": "Triptans et dérivés de l'ergot : vasoconstriction intracrânienne. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "La stimulation des récepteurs 5-HT cardiaques peut provoquer des valvulopathies.",
+              "annale": true,
+              "explication": "Stimulation 5-HT2B valvulaire. (réponse déduite du cours)"
+            },
+            {
+              "reponse": "L'association d'un IMAO avec un inhibiteur de la recapture de la sérotonine peut provoquer un syndrome sérotoninergique.",
+              "annale": true,
+              "explication": "Interaction courante citée en cours. (réponse déduite du cours)"
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les effets bénéfiques des médicaments du système sérotoninergique sont essentiellement centraux.",
+              "annale": true,
+              "a_verifier": true,
+              "explication": "Plusieurs médicaments agissent en périphérie (sétrons sur les terminaisons vagales, triptans sur les vaisseaux, prucalopride sur l'intestin). (à vérifier : réponse non trouvée dans le cours ni confirmée par une source fiable)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
