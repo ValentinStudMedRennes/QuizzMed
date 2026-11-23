@@ -1,6 +1,6 @@
 {
   "meta": {
-    "theme": "Neuropharmacologie",
+    "theme": "Pharmacologie",
     "section": "Physiologie",
     "titre": "Physiologie du système dopaminergique",
     "description": "Domaine dopaminergique, synthèse, devenir et récepteurs de la dopamine, et effets physiologiques centraux et périphériques de leur stimulation.",
@@ -337,8 +337,8 @@
           },
           "question": "Concernant le système dopaminergique, quelles propositions sont exactes ?",
           "cours": {
-            "page": 3,
-            "surligner": "la dopamine est transformée en noradrénaline puis en adrénaline"
+            "page": 9,
+            "surligner": "La maladie de Parkinson correspond à un déficit et à une dégénérescence des neurones de cette voie"
           },
           "bonnes": [
             {
