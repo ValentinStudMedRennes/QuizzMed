@@ -1,0 +1,16 @@
+{
+ "ue": "UE17",
+ "matiere": "Appareil urinaire",
+ "niveau": "DFGSM2",
+ "annee": "2026-2027",
+ "planning": "Tableau des capsules et TD (capture d'écran)",
+ "cours": [
+  {
+   "titre": "Physiologie du système rénale",
+   "type": "cours",
+   "heures": null,
+   "dates": [],
+   "fichiers": ["rein-physio-renale.pdf"]
+  }
+ ]
+}

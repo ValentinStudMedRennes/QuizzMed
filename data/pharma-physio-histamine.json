@@ -1,0 +1,2064 @@
+{
+  "meta": {
+    "theme": "Pharmacologie",
+    "section": "Physiologie",
+    "titre": "Physiologie du système histaminergique",
+    "description": "Biosynthèse, stockage, distribution et libération de l'histamine, syndrome de pseudo-allergie, et localisations et effets des 4 récepteurs H1 à H4.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "pharma-physio-histamine.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Biosynthèse et stockage"
+      },
+      "questions": [
+        {
+          "id": "pharma-physio-histamine-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la biosynthèse de l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 1,
+            "surligner": "c'est-à-dire produites par les êtres vivants"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'histamine appartient aux amines biogènes.",
+              "explication": "Amine produite par les êtres vivants."
+            },
+            {
+              "reponse": "L'histamine provient essentiellement de la décarboxylation de la L-histidine.",
+              "explication": "C'est sa voie de synthèse principale."
+            },
+            {
+              "reponse": "L'histamine est faiblement absorbée.",
+              "explication": "Elle provient donc surtout de la synthèse, pas de l'absorption."
+            },
+            {
+              "reponse": "La décarboxylation de la L-histidine libère une molécule de CO2.",
+              "explication": "Le groupement acide carboxylique part sous forme de CO2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'histamine provient essentiellement de l'absorption digestive de l'histamine alimentaire.",
+              "explication": "Elle est faiblement absorbée : elle provient surtout de la décarboxylation de la L-histidine."
+            },
+            {
+              "reponse": "L'histamine est obtenue par décarboxylation du tryptophane hydroxylé.",
+              "explication": "Faux : c'est la voie de la sérotonine ; l'histamine vient de la L-histidine."
+            },
+            {
+              "reponse": "L'histamine est obtenue par hydroxylation de la L-histidine.",
+              "explication": "C'est une décarboxylation, pas une hydroxylation."
+            },
+            {
+              "reponse": "La synthèse de l'histamine consomme une molécule de CO2.",
+              "explication": "Elle en libère une (départ du CO2)."
+            },
+            {
+              "reponse": "L'histamine est obtenue par décarboxylation de l'histamine.",
+              "explication": "Erreur des notes corrigée : c'est la L-histidine qui est décarboxylée."
+            },
+            {
+              "reponse": "L'histamine est un acide aminé.",
+              "explication": "C'est une amine ; c'est son précurseur, la L-histidine, qui est un acide aminé."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-002",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelle enzyme catalyse la synthèse de l'histamine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 1,
+            "surligner": "sous l'influence d'une enzyme : la L-histidine décarboxylase"
+          },
+          "bonnes": [
+            {
+              "reponse": "La L-histidine décarboxylase.",
+              "explication": "Elle décarboxyle la L-histidine en histamine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La tryptophane hydroxylase.",
+              "explication": "Enzyme de la voie de la sérotonine."
+            },
+            {
+              "reponse": "La tyrosine hydroxylase.",
+              "explication": "Enzyme de la voie des catécholamines."
+            },
+            {
+              "reponse": "La monoamine oxydase (MAO).",
+              "explication": "Enzyme de dégradation des monoamines, pas de synthèse de l'histamine."
+            },
+            {
+              "reponse": "La catéchol-O-méthyltransférase (COMT).",
+              "explication": "Enzyme de dégradation des catécholamines."
+            },
+            {
+              "reponse": "La L-histidine hydroxylase.",
+              "explication": "La synthèse est une décarboxylation, pas une hydroxylation."
+            },
+            {
+              "reponse": "L'acétylcholinestérase.",
+              "explication": "Enzyme de dégradation de l'acétylcholine."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-003",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quel est le précurseur de l'histamine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 1,
+            "surligner": "essentiellement de la décarboxylation de la L-histidine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La L-histidine.",
+              "explication": "L'histamine provient de la décarboxylation de la L-histidine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le L-tryptophane.",
+              "explication": "Précurseur de la sérotonine."
+            },
+            {
+              "reponse": "La L-tyrosine.",
+              "explication": "Précurseur des catécholamines."
+            },
+            {
+              "reponse": "La L-DOPA.",
+              "explication": "Précurseur de la dopamine."
+            },
+            {
+              "reponse": "La choline.",
+              "explication": "Précurseur de l'acétylcholine."
+            },
+            {
+              "reponse": "Le 5-hydroxytryptophane.",
+              "explication": "Intermédiaire de la synthèse de la sérotonine."
+            },
+            {
+              "reponse": "Le L-glutamate.",
+              "explication": "Ce n'est pas le précurseur de l'histamine."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la structure de l'histamine comparée à celle de la L-histidine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "L'histamine conserve le noyau imidazole"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'histamine conserve le noyau imidazole de la L-histidine.",
+              "explication": "Le cycle imidazole est conservé lors de la décarboxylation."
+            },
+            {
+              "reponse": "L'histamine conserve le groupement amine (NH2) de la L-histidine.",
+              "explication": "Seul le groupement acide carboxylique est perdu."
+            },
+            {
+              "reponse": "L'histamine a perdu le groupement acide carboxylique de la L-histidine.",
+              "explication": "Il part sous forme de CO2."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'histamine a perdu le noyau imidazole de la L-histidine.",
+              "explication": "Le noyau imidazole est conservé."
+            },
+            {
+              "reponse": "L'histamine a perdu le groupement amine de la L-histidine.",
+              "explication": "Le groupement NH2 est conservé : c'est ce qui en fait une amine."
+            },
+            {
+              "reponse": "L'histamine porte un groupement acide carboxylique de plus que la L-histidine.",
+              "explication": "Elle en a un de moins."
+            },
+            {
+              "reponse": "Le noyau imidazole de l'histamine ne contient qu'un seul atome d'azote.",
+              "explication": "C'est un cycle à 5 atomes contenant 2 azotes."
+            },
+            {
+              "reponse": "La conversion de la L-histidine en histamine est une méthylation.",
+              "explication": "C'est une décarboxylation."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le stockage et la libération de l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "stockée dans des granules de sécrétion"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une fois synthétisée, l'histamine est stockée dans des granules de sécrétion.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'histamine stockée peut être libérée rapidement par exocytose.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La libération de l'histamine se fait sous l'influence de différents stimuli.",
+              "explication": "Potentiel d'action, gastrine ou liaison antigène-IgE selon la cellule."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'histamine est stockée libre dans le cytoplasme.",
+              "explication": "Elle est stockée dans des granules de sécrétion."
+            },
+            {
+              "reponse": "L'histamine est libérée par endocytose.",
+              "explication": "Elle est libérée par exocytose."
+            },
+            {
+              "reponse": "L'histamine est libérée lentement par simple diffusion.",
+              "explication": "Elle est libérée rapidement par exocytose."
+            },
+            {
+              "reponse": "L'histamine n'est pas stockée : elle est libérée dès sa synthèse.",
+              "explication": "Elle est stockée dans des granules avant d'être libérée."
+            },
+            {
+              "reponse": "L'histamine n'est libérée qu'en réponse à un seul type de stimulus.",
+              "explication": "Les stimuli sont différents selon le type cellulaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Distribution"
+      },
+      "questions": [
+        {
+          "id": "pharma-physio-histamine-006",
+          "type": "qrp",
+          "nb_bonnes": 4,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels types cellulaires sont capables de synthétiser, stocker et libérer de l'histamine ? (4 réponses attendues)",
+          "cours": {
+            "page": 2,
+            "surligner": "capables de synthétiser, stocker et libérer de l'histamine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les neurones histaminergiques.",
+              "explication": "Un des 4 types cellulaires (SNC)."
+            },
+            {
+              "reponse": "Les mastocytes.",
+              "explication": "Un des 4 types cellulaires (tissus périphériques)."
+            },
+            {
+              "reponse": "Les polynucléaires basophiles.",
+              "explication": "Un des 4 types cellulaires (sang)."
+            },
+            {
+              "reponse": "Les cellules entérochromaffines-like (ECL).",
+              "explication": "Un des 4 types cellulaires (paroi de l'estomac)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules pariétales gastriques.",
+              "explication": "Elles sont la cible de l'histamine (récepteurs H2) et sécrètent l'acide."
+            },
+            {
+              "reponse": "Les cellules G de l'estomac.",
+              "explication": "Elles sécrètent la gastrine, qui stimule les cellules ECL."
+            },
+            {
+              "reponse": "Les lymphocytes B.",
+              "explication": "Ils produisent les anticorps IgE, pas l'histamine."
+            },
+            {
+              "reponse": "Les cellules endothéliales.",
+              "explication": "Elles portent des récepteurs H1, mais ne stockent pas d'histamine."
+            },
+            {
+              "reponse": "Les neurones dopaminergiques.",
+              "explication": "Seuls les neurones histaminergiques font partie des 4 types cellulaires."
+            },
+            {
+              "reponse": "Les hématies.",
+              "explication": "Elles ne font pas partie des 4 types cellulaires."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-007",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles cellules productrices d'histamine sont situées dans les tissus périphériques ? (3 réponses attendues)",
+          "cours": {
+            "page": 2,
+            "surligner": "soit dans les tissus périphériques"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les mastocytes.",
+              "explication": "Derme, muqueuse gastro-intestinale, conjonctives, voies aériennes."
+            },
+            {
+              "reponse": "Les polynucléaires basophiles.",
+              "explication": "Cellules circulantes du sang."
+            },
+            {
+              "reponse": "Les cellules ECL.",
+              "explication": "Paroi de l'estomac."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les neurones histaminergiques.",
+              "explication": "Ils sont situés dans le système nerveux central."
+            },
+            {
+              "reponse": "Les cellules pariétales.",
+              "explication": "Elles ne produisent pas d'histamine, elles y répondent."
+            },
+            {
+              "reponse": "Les cellules G.",
+              "explication": "Elles produisent la gastrine."
+            },
+            {
+              "reponse": "Les lymphocytes B.",
+              "explication": "Ils produisent les anticorps."
+            },
+            {
+              "reponse": "Les cellules endothéliales.",
+              "explication": "Elles ne produisent pas d'histamine."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-008",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Où sont situés les corps cellulaires des neurones histaminergiques ? (une seule réponse attendue)",
+          "cours": {
+            "page": 3,
+            "surligner": "limitée à une petite zone de l'hypothalamus postérieur"
+          },
+          "bonnes": [
+            {
+              "reponse": "Dans le noyau tubéro-mamillaire de l'hypothalamus postérieur.",
+              "explication": "Localisation très limitée des corps cellulaires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Dans le locus coeruleus.",
+              "explication": "Ce n'est pas la localisation des neurones histaminergiques."
+            },
+            {
+              "reponse": "Dans les noyaux du raphé.",
+              "explication": "Ce n'est pas la localisation des neurones histaminergiques."
+            },
+            {
+              "reponse": "Dans la substance noire.",
+              "explication": "C'est une cible de leurs projections, pas le siège des corps cellulaires."
+            },
+            {
+              "reponse": "Dans l'hypothalamus antérieur.",
+              "explication": "C'est l'hypothalamus postérieur."
+            },
+            {
+              "reponse": "Dans le cortex cérébral.",
+              "explication": "Le cortex reçoit leurs axones."
+            },
+            {
+              "reponse": "Dans le cervelet.",
+              "explication": "Le cervelet reçoit leurs axones."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les neurones histaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "leurs axones se prolongent dans tout le cerveau"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe des neurones histaminergiques dans le système nerveux central.",
+              "explication": "Ils sont l'un des 4 types cellulaires producteurs d'histamine."
+            },
+            {
+              "reponse": "La localisation des corps cellulaires des neurones histaminergiques est très limitée.",
+              "explication": "Petite zone de l'hypothalamus postérieur."
+            },
+            {
+              "reponse": "Les axones des neurones histaminergiques se prolongent dans tout le cerveau.",
+              "explication": "Projections diffuses."
+            },
+            {
+              "reponse": "Les axones des neurones histaminergiques atteignent le cortex et le cervelet.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les axones des neurones histaminergiques atteignent l'hypophyse et la moelle épinière.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il n'y a pas de neurones histaminergiques dans le système nerveux central.",
+              "explication": "Ils sont dans le SNC (noyau tubéro-mamillaire)."
+            },
+            {
+              "reponse": "Les corps cellulaires des neurones histaminergiques sont dispersés dans tout le cerveau.",
+              "explication": "Ils sont limités au noyau tubéro-mamillaire ; ce sont les axones qui sont diffus."
+            },
+            {
+              "reponse": "Les axones des neurones histaminergiques restent limités à l'hypothalamus.",
+              "explication": "Ils se prolongent dans tout le cerveau."
+            },
+            {
+              "reponse": "Les axones des neurones histaminergiques n'atteignent pas la moelle épinière.",
+              "explication": "Ils l'atteignent."
+            },
+            {
+              "reponse": "Les neurones histaminergiques sont situés dans les tissus périphériques.",
+              "explication": "Ils sont dans le SNC ; les autres types cellulaires sont périphériques."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-010",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les mastocytes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 3,
+            "surligner": "situées près des portes d'entrée des substances étrangères"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les mastocytes sont des cellules du système immunitaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les mastocytes sont situés près des portes d'entrée des substances étrangères.",
+              "explication": "D'où leur localisation cutanée et muqueuse."
+            },
+            {
+              "reponse": "On retrouve des mastocytes dans le derme.",
+              "explication": "Porte d'entrée cutanée."
+            },
+            {
+              "reponse": "On retrouve des mastocytes dans la muqueuse gastro-intestinale.",
+              "explication": "Porte d'entrée digestive."
+            },
+            {
+              "reponse": "On retrouve des mastocytes au niveau des conjonctives.",
+              "explication": "Porte d'entrée oculaire."
+            },
+            {
+              "reponse": "On retrouve des mastocytes dans les voies aériennes.",
+              "explication": "Porte d'entrée respiratoire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les mastocytes sont des cellules circulantes du tissu sanguin.",
+              "explication": "Ce sont les polynucléaires basophiles qui sont circulants."
+            },
+            {
+              "reponse": "Les mastocytes contiennent peu d'histamine.",
+              "explication": "Ce sont des cellules qui stockent l'histamine."
+            },
+            {
+              "reponse": "Les mastocytes sont situés dans le noyau tubéro-mamillaire.",
+              "explication": "Ce sont les corps des neurones histaminergiques."
+            },
+            {
+              "reponse": "Les mastocytes sont situés exclusivement dans la paroi de l'estomac.",
+              "explication": "Ce sont les cellules ECL qui sont dans la paroi de l'estomac."
+            },
+            {
+              "reponse": "Les mastocytes libèrent leur histamine en réponse à la gastrine.",
+              "explication": "La gastrine stimule les cellules ECL ; les mastocytes répondent à la liaison antigène-IgE."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les polynucléaires basophiles et les cellules ECL, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "sont situées dans la paroi de l'estomac"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les polynucléaires basophiles sont des cellules circulantes.",
+              "explication": "On les retrouve dans le tissu sanguin."
+            },
+            {
+              "reponse": "Les cellules ECL sont situées dans la paroi de l'estomac.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'histamine libérée par les cellules ECL agit sur les cellules pariétales voisines.",
+              "explication": "Action locale (schéma du cours)."
+            },
+            {
+              "reponse": "L'histamine libérée par les cellules ECL stimule la sécrétion d'acide.",
+              "explication": "Via les cellules pariétales (ions H+)."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les polynucléaires basophiles sont fixés dans le derme.",
+              "explication": "Ce sont des cellules circulantes ; ce sont les mastocytes qui sont dans le derme."
+            },
+            {
+              "reponse": "Les cellules ECL sécrètent elles-mêmes les ions H+.",
+              "explication": "Ce sont les cellules pariétales qui sécrètent les ions H+."
+            },
+            {
+              "reponse": "Les cellules ECL sont situées dans le système nerveux central.",
+              "explication": "Elles sont dans la paroi de l'estomac."
+            },
+            {
+              "reponse": "L'histamine libérée par les cellules ECL inhibe la sécrétion d'acide.",
+              "explication": "Elle la stimule."
+            },
+            {
+              "reponse": "Les cellules ECL sécrètent la gastrine.",
+              "explication": "La gastrine est sécrétée par les cellules G."
+            },
+            {
+              "reponse": "Les polynucléaires basophiles sont situés dans l'hypothalamus postérieur.",
+              "explication": "Ce sont les neurones histaminergiques ; les basophiles sont dans le sang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Libération"
+      },
+      "questions": [
+        {
+          "id": "pharma-physio-histamine-012",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels stimuli déclenchent la libération d'histamine, selon le type cellulaire ? (3 réponses attendues)",
+          "cours": {
+            "page": 10,
+            "surligner": "potentiel d'action, gastrine ou liaison antigène-anticorps"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le potentiel d'action, pour les neurones histaminergiques.",
+              "explication": "Via l'augmentation du calcium intracellulaire."
+            },
+            {
+              "reponse": "La gastrine, pour les cellules ECL.",
+              "explication": "Hormone des cellules G, apportée par le sang."
+            },
+            {
+              "reponse": "La liaison de l'antigène aux IgE, pour les mastocytes et les basophiles.",
+              "explication": "Elle provoque la dégranulation."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La gastrine, pour les mastocytes.",
+              "explication": "Les mastocytes répondent à la liaison antigène-IgE."
+            },
+            {
+              "reponse": "Le potentiel d'action, pour les cellules ECL.",
+              "explication": "Les cellules ECL répondent à la gastrine."
+            },
+            {
+              "reponse": "La liaison de l'antigène aux IgE, pour les neurones histaminergiques.",
+              "explication": "Les neurones répondent au potentiel d'action."
+            },
+            {
+              "reponse": "La gastrine, pour les neurones histaminergiques.",
+              "explication": "Les neurones répondent au potentiel d'action."
+            },
+            {
+              "reponse": "La diminution du calcium intracellulaire, pour les neurones histaminergiques.",
+              "explication": "C'est l'augmentation du calcium intracellulaire."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la libération de l'histamine par les neurones histaminergiques, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "via l'augmentation du calcium intracellulaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'arrivée d'un potentiel d'action déclenche l'exocytose de l'histamine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La libération neuronale de l'histamine passe par une augmentation du calcium intracellulaire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La libération neuronale de l'histamine passe par une diminution du calcium intracellulaire.",
+              "explication": "C'est une augmentation."
+            },
+            {
+              "reponse": "La libération neuronale de l'histamine est déclenchée par la gastrine.",
+              "explication": "La gastrine agit sur les cellules ECL."
+            },
+            {
+              "reponse": "La libération neuronale de l'histamine est déclenchée par la liaison antigène-IgE.",
+              "explication": "C'est le mécanisme des mastocytes et des basophiles."
+            },
+            {
+              "reponse": "Les neurones libèrent l'histamine par diffusion passive, sans exocytose.",
+              "explication": "C'est une exocytose."
+            },
+            {
+              "reponse": "Le potentiel d'action inhibe l'exocytose de l'histamine.",
+              "explication": "Il la déclenche."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la libération de l'histamine par les mastocytes et les basophiles au cours de l'allergie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "provoquée par la liaison de l'antigène à un anticorps IgE"
+          },
+          "bonnes": [
+            {
+              "reponse": "La dégranulation des mastocytes est provoquée par la liaison de l'antigène à un anticorps IgE.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Lors de la première exposition à un allergène, les lymphocytes B produisent des anticorps.",
+              "explication": "Ils préparent une deuxième rencontre."
+            },
+            {
+              "reponse": "Les anticorps IgE se fixent à la surface des mastocytes ou des basophiles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Une nouvelle exposition, même infime, à l'antigène suffit à déclencher la libération d'histamine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La dégranulation survient quand l'antigène fait le pont entre 2 anticorps fixés sur la cellule.",
+              "explication": "Schéma de la réaction anaphylactique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La dégranulation survient dès le premier contact avec l'allergène.",
+              "explication": "Le premier contact sensibilise ; la libération survient à l'exposition suivante."
+            },
+            {
+              "reponse": "Les anticorps impliqués dans la dégranulation des mastocytes sont des IgG.",
+              "explication": "Ce sont des IgE."
+            },
+            {
+              "reponse": "Les IgE sont produites par les mastocytes.",
+              "explication": "Elles sont produites par les lymphocytes B."
+            },
+            {
+              "reponse": "Seule une exposition massive à l'antigène déclenche la libération d'histamine.",
+              "explication": "Une exposition même infime suffit."
+            },
+            {
+              "reponse": "L'histamine libérée diminue la perméabilité capillaire.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "Les IgE sont produites par les lymphocytes T.",
+              "explication": "Elles sont produites par les lymphocytes B."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-015",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels symptômes de l'allergie le cours attribue-t-il à l'augmentation de la perméabilité capillaire ? (3 réponses attendues)",
+          "cours": {
+            "page": 5,
+            "surligner": "éternuements, écoulement nasal et conjonctivite"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les éternuements.",
+              "explication": "Symptôme cité par le cours."
+            },
+            {
+              "reponse": "L'écoulement nasal.",
+              "explication": "Symptôme cité par le cours."
+            },
+            {
+              "reponse": "La conjonctivite.",
+              "explication": "Symptôme cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sécheresse de la muqueuse nasale.",
+              "explication": "C'est au contraire un écoulement nasal."
+            },
+            {
+              "reponse": "La pâleur cutanée.",
+              "explication": "L'histamine dilate les vaisseaux : la peau est rouge."
+            },
+            {
+              "reponse": "La vasoconstriction cutanée.",
+              "explication": "L'histamine provoque une vasodilatation."
+            },
+            {
+              "reponse": "La diminution de la sécrétion salivaire.",
+              "explication": "L'histamine l'augmente (H1)."
+            },
+            {
+              "reponse": "La bronchodilatation.",
+              "explication": "L'histamine provoque une bronchoconstriction (H1)."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la libération de l'histamine au niveau de l'estomac, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "transportée par le système vasculaire jusqu'aux cellules ECL"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au niveau de l'estomac, la gastrine provoque l'exocytose de l'histamine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La gastrine est une hormone sécrétée par les cellules G.",
+              "explication": "G comme gastrine."
+            },
+            {
+              "reponse": "La gastrine peut être sécrétée en réponse à une prise alimentaire.",
+              "explication": "Exemple donné par le cours."
+            },
+            {
+              "reponse": "La gastrine est transportée par le système vasculaire jusqu'aux cellules ECL.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'histamine joue un rôle important dans la régulation de l'acidité gastrique.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La gastrine est sécrétée par les cellules ECL.",
+              "explication": "Elle est sécrétée par les cellules G."
+            },
+            {
+              "reponse": "La gastrine est sécrétée par les cellules pariétales.",
+              "explication": "Elle est sécrétée par les cellules G."
+            },
+            {
+              "reponse": "La gastrine atteint les cellules ECL par voie nerveuse.",
+              "explication": "Elle est transportée par le système vasculaire."
+            },
+            {
+              "reponse": "La gastrine inhibe la libération d'histamine par les cellules ECL.",
+              "explication": "Elle la provoque."
+            },
+            {
+              "reponse": "L'histamine gastrique est libérée par liaison de l'antigène aux IgE.",
+              "explication": "Au niveau de l'estomac, c'est la gastrine."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-017",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles cellules sécrètent la gastrine ? (une seule réponse attendue)",
+          "cours": {
+            "page": 5,
+            "surligner": "La gastrine est une hormone sécrétée par les cellules G"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules G.",
+              "explication": "G comme gastrine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules ECL.",
+              "explication": "Elles libèrent l'histamine en réponse à la gastrine."
+            },
+            {
+              "reponse": "Les cellules pariétales.",
+              "explication": "Elles sécrètent les ions H+."
+            },
+            {
+              "reponse": "Les mastocytes.",
+              "explication": "Ils libèrent l'histamine."
+            },
+            {
+              "reponse": "Les polynucléaires basophiles.",
+              "explication": "Ils libèrent l'histamine."
+            },
+            {
+              "reponse": "Les neurones histaminergiques.",
+              "explication": "Ils libèrent l'histamine."
+            },
+            {
+              "reponse": "Les cellules endothéliales.",
+              "explication": "Elles ne sécrètent pas la gastrine."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Syndrome de pseudo-allergie"
+      },
+      "questions": [
+        {
+          "id": "pharma-physio-histamine-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le syndrome de pseudo-allergie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "aussi appelé intoxication histaminique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome de pseudo-allergie est aussi appelé intoxication histaminique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il peut provenir de la consommation d'aliments riches en histidine ou en histamine.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Il peut provenir de substances histamino-libératrices qui font dégranuler les mastocytes ou les basophiles.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Dans la pseudo-allergie, la libération d'histamine n'est pas spécifique d'un antigène.",
+              "explication": "D'où le terme de pseudo-allergie."
+            },
+            {
+              "reponse": "La pseudo-allergie ne fait pas intervenir le système immunitaire.",
+              "explication": "Elle simule seulement une vraie réaction allergique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pseudo-allergie fait intervenir des IgE spécifiques de l'aliment.",
+              "explication": "Elle ne fait pas intervenir le système immunitaire."
+            },
+            {
+              "reponse": "Dans la pseudo-allergie, la libération d'histamine est spécifique d'un antigène.",
+              "explication": "Elle n'est pas spécifique."
+            },
+            {
+              "reponse": "Dans la pseudo-allergie, c'est l'histidine apportée qui produit directement les symptômes.",
+              "explication": "Erreur des notes corrigée : c'est l'histamine ; l'histidine n'en est que le précurseur."
+            },
+            {
+              "reponse": "La pseudo-allergie nécessite une sensibilisation préalable à l'aliment.",
+              "explication": "Pas de mécanisme immunitaire, donc pas de sensibilisation."
+            },
+            {
+              "reponse": "La pseudo-allergie est due à une dégradation trop rapide de l'histamine.",
+              "explication": "C'est au contraire une dégradation plus lente (chez le jeune enfant) qui la favorise."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles propositions concernant les causes de pseudo-allergie sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "par exemple la charcuterie, certains fromages, le vin"
+          },
+          "bonnes": [
+            {
+              "reponse": "La charcuterie peut provoquer une pseudo-allergie.",
+              "explication": "Aliment cité par le cours."
+            },
+            {
+              "reponse": "Certains fromages peuvent provoquer une pseudo-allergie.",
+              "explication": "Aliment cité par le cours."
+            },
+            {
+              "reponse": "Le vin peut provoquer une pseudo-allergie.",
+              "explication": "Aliment cité par le cours."
+            },
+            {
+              "reponse": "Les fraises peuvent provoquer une pseudo-allergie.",
+              "explication": "Aliment cité par le cours."
+            },
+            {
+              "reponse": "Les crustacés peuvent provoquer une pseudo-allergie.",
+              "explication": "Aliment cité par le cours."
+            },
+            {
+              "reponse": "Les tomates peuvent provoquer une pseudo-allergie.",
+              "explication": "Aliment cité par le cours."
+            },
+            {
+              "reponse": "Les morphiniques peuvent entraîner une libération non spécifique d'histamine.",
+              "explication": "Médicament cité par le cours."
+            },
+            {
+              "reponse": "Les curares peuvent entraîner une libération non spécifique d'histamine.",
+              "explication": "Médicament cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Seuls des aliments peuvent provoquer une pseudo-allergie, jamais des médicaments.",
+              "explication": "Les morphiniques et les curares en sont des exemples."
+            },
+            {
+              "reponse": "Une pseudo-allergie aux fraises implique des IgE spécifiques de la fraise.",
+              "explication": "Pas de mécanisme immunitaire."
+            },
+            {
+              "reponse": "Les curares s'opposent à la libération d'histamine.",
+              "explication": "Ils peuvent au contraire la provoquer."
+            },
+            {
+              "reponse": "Les aliments pauvres en histidine et en histamine sont la principale cause de pseudo-allergie.",
+              "explication": "Ce sont les aliments riches en histidine ou histamine, ou histamino-libérateurs."
+            },
+            {
+              "reponse": "Une pseudo-allergie ne survient qu'après une première exposition sensibilisante à l'aliment.",
+              "explication": "Pas de sensibilisation : la libération n'est pas immunitaire."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la pseudo-allergie chez le jeune enfant, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "plus fréquent chez les jeunes enfants"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le syndrome d'intoxication histaminique est plus fréquent chez les jeunes enfants.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Chez le jeune enfant, le système enzymatique est immature.",
+              "explication": "C'est la raison de la plus grande fréquence."
+            },
+            {
+              "reponse": "Chez le jeune enfant, l'histamine est dégradée moins rapidement.",
+              "explication": "Conséquence de l'immaturité enzymatique."
+            },
+            {
+              "reponse": "Il est recommandé de différer l'introduction de la fraise chez le jeune enfant.",
+              "explication": "Aliment histamino-libérateur."
+            },
+            {
+              "reponse": "Il est recommandé de différer l'introduction du chocolat et du blanc d'œuf chez le jeune enfant.",
+              "explication": "Aliments histamino-libérateurs."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le syndrome d'intoxication histaminique est plus fréquent chez le sujet âgé.",
+              "explication": "Il est plus fréquent chez le jeune enfant."
+            },
+            {
+              "reponse": "Chez le jeune enfant, l'histamine est dégradée plus rapidement.",
+              "explication": "Elle est dégradée moins rapidement."
+            },
+            {
+              "reponse": "La fréquence chez le jeune enfant s'explique par une immaturité du système immunitaire.",
+              "explication": "C'est une immaturité du système enzymatique."
+            },
+            {
+              "reponse": "Il est recommandé d'introduire précocement le blanc d'œuf pour éviter la pseudo-allergie.",
+              "explication": "Il est recommandé d'en différer l'introduction."
+            },
+            {
+              "reponse": "La fréquence chez le jeune enfant s'explique par un excès d'IgE.",
+              "explication": "La pseudo-allergie ne fait pas intervenir le système immunitaire."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-021",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels signes cliniques peut provoquer une pseudo-allergie ? (3 réponses attendues)",
+          "cours": {
+            "page": 7,
+            "surligner": "une rougeur facio-cervicale"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une rougeur du visage et du cou (rougeur facio-cervicale).",
+              "explication": "Liée à la vasodilatation."
+            },
+            {
+              "reponse": "Une éruption cutanée.",
+              "explication": "Signe cité par le cours."
+            },
+            {
+              "reponse": "Un angio-œdème.",
+              "explication": "Signe cité par le cours."
+            },
+            {
+              "reponse": "Une sensation de brûlure dans la gorge.",
+              "explication": "Signe cité par le cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une pâleur du visage et du cou.",
+              "explication": "C'est une rougeur (vasodilatation)."
+            },
+            {
+              "reponse": "Une vasoconstriction cutanée.",
+              "explication": "Les signes sont liés à une vasodilatation."
+            },
+            {
+              "reponse": "Une froideur des extrémités par vasoconstriction.",
+              "explication": "Les signes sont liés à une vasodilatation."
+            },
+            {
+              "reponse": "Une bronchodilatation.",
+              "explication": "L'histamine contracte les muscles lisses bronchiques."
+            },
+            {
+              "reponse": "Une diminution de la perméabilité capillaire.",
+              "explication": "L'histamine l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la sévérité et le mécanisme des signes de la pseudo-allergie, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "sont moins sévères que ceux d'une allergie alimentaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les signes d'une pseudo-allergie sont moins sévères que ceux d'une allergie alimentaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les signes d'une pseudo-allergie sont essentiellement liés à l'effet vasodilatateur de l'histamine.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les signes d'une pseudo-allergie sont plus sévères que ceux d'une allergie alimentaire.",
+              "explication": "Ils sont moins sévères."
+            },
+            {
+              "reponse": "Les signes d'une pseudo-allergie sont essentiellement liés à un effet vasoconstricteur.",
+              "explication": "Ils sont liés à l'effet vasodilatateur."
+            },
+            {
+              "reponse": "Les signes d'une pseudo-allergie sont dus à l'activation des lymphocytes B.",
+              "explication": "Pas de mécanisme immunitaire."
+            },
+            {
+              "reponse": "Les signes d'une pseudo-allergie sont essentiellement liés à l'effet chronotrope positif de l'histamine.",
+              "explication": "Ils sont liés à la vasodilatation."
+            },
+            {
+              "reponse": "La pseudo-allergie est une vraie réaction allergique à IgE.",
+              "explication": "Elle simule une réaction allergique sans mécanisme immunitaire."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Les récepteurs"
+      },
+      "questions": [
+        {
+          "id": "pharma-physio-histamine-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les récepteurs de l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Ces récepteurs sont tous couplés aux protéines G"
+          },
+          "bonnes": [
+            {
+              "reponse": "Il existe 4 types de récepteurs de l'histamine : H1, H2, H3 et H4.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs de l'histamine sont tous couplés aux protéines G.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs de l'histamine comportent 7 hélices α transmembranaires.",
+              "explication": "Structure des récepteurs couplés aux protéines G."
+            },
+            {
+              "reponse": "Les récepteurs de l'histamine sont localisés à la surface des membranes cellulaires.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs de l'histamine diffèrent selon leurs localisations et leurs effets.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs de l'histamine sont des canaux ioniques.",
+              "explication": "Ils sont couplés aux protéines G."
+            },
+            {
+              "reponse": "Les récepteurs de l'histamine comportent 12 hélices α transmembranaires.",
+              "explication": "Ils en comportent 7."
+            },
+            {
+              "reponse": "Les récepteurs de l'histamine sont des récepteurs nucléaires intracellulaires.",
+              "explication": "Ils sont à la surface des membranes."
+            },
+            {
+              "reponse": "Seuls les récepteurs H1 et H2 sont couplés aux protéines G.",
+              "explication": "Les 4 le sont."
+            },
+            {
+              "reponse": "Les récepteurs de l'histamine sont des récepteurs à activité tyrosine kinase.",
+              "explication": "Ils sont couplés aux protéines G."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-024",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Combien de types de récepteurs de l'histamine ont été identifiés ? (une seule réponse attendue)",
+          "cours": {
+            "page": 7,
+            "surligner": "types de récepteurs ont été identifiés"
+          },
+          "bonnes": [
+            {
+              "reponse": "4 types de récepteurs de l'histamine ont été identifiés.",
+              "explication": "H1, H2, H3 et H4."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "2 types de récepteurs de l'histamine ont été identifiés.",
+              "explication": "Il y en a 4."
+            },
+            {
+              "reponse": "3 types de récepteurs de l'histamine ont été identifiés.",
+              "explication": "Il y en a 4 ; H4 est le dernier identifié."
+            },
+            {
+              "reponse": "5 types de récepteurs de l'histamine ont été identifiés.",
+              "explication": "Il y en a 4."
+            },
+            {
+              "reponse": "6 types de récepteurs de l'histamine ont été identifiés.",
+              "explication": "Il y en a 4."
+            },
+            {
+              "reponse": "7 types de récepteurs de l'histamine ont été identifiés.",
+              "explication": "Il y en a 4 ; 7 est le nombre d'hélices transmembranaires."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la localisation des récepteurs de l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Les localisations des 4 récepteurs sont les suivantes"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs H1 sont présents dans le système nerveux central.",
+              "explication": "Localisation de H1."
+            },
+            {
+              "reponse": "Les récepteurs H1 sont présents sur les muscles lisses.",
+              "explication": "Localisation de H1."
+            },
+            {
+              "reponse": "Les récepteurs H1 sont présents dans les glandes salivaires.",
+              "explication": "Localisation de H1."
+            },
+            {
+              "reponse": "Les récepteurs H1 sont présents sur les cellules endothéliales.",
+              "explication": "Localisation de H1."
+            },
+            {
+              "reponse": "Les récepteurs H1 sont présents sur le muscle cardiaque.",
+              "explication": "Localisation de H1."
+            },
+            {
+              "reponse": "Les récepteurs H2 sont exprimés par les cellules pariétales gastriques.",
+              "explication": "Localisation de H2."
+            },
+            {
+              "reponse": "Les récepteurs H2 sont présents sur le muscle cardiaque.",
+              "explication": "Localisation de H2."
+            },
+            {
+              "reponse": "Les récepteurs H3 sont situés dans le système nerveux central, en position présynaptique.",
+              "explication": "Localisation de H3."
+            },
+            {
+              "reponse": "Les récepteurs H4 sont exprimés par les cellules hématopoïétiques.",
+              "explication": "Localisation de H4."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les récepteurs H3 sont exprimés par les cellules pariétales gastriques.",
+              "explication": "Ce sont les récepteurs H2."
+            },
+            {
+              "reponse": "Les récepteurs H4 sont essentiellement situés en position présynaptique dans le SNC.",
+              "explication": "C'est la localisation des H3 ; H4 est sur les cellules hématopoïétiques."
+            },
+            {
+              "reponse": "Les récepteurs H2 sont situés exclusivement dans l'estomac.",
+              "explication": "Ils sont aussi dans le SNC et le muscle cardiaque."
+            },
+            {
+              "reponse": "Les récepteurs H1 sont absents du système nerveux central.",
+              "explication": "Ils y sont présents."
+            },
+            {
+              "reponse": "Les récepteurs H3 sont essentiellement postsynaptiques.",
+              "explication": "Ils sont essentiellement présynaptiques."
+            },
+            {
+              "reponse": "Les récepteurs H4 sont exprimés par les glandes salivaires.",
+              "explication": "Ce sont les récepteurs H1."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-026",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels effets résultent de la stimulation des récepteurs H1 ? (3 réponses attendues)",
+          "cours": {
+            "page": 8,
+            "surligner": "responsable de la majorité des effets physiologiques de l'histamine"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le maintien d'un état d'éveil.",
+              "explication": "Effet central de H1."
+            },
+            {
+              "reponse": "Des nausées et des vomissements.",
+              "explication": "Effet au niveau du centre du vomissement."
+            },
+            {
+              "reponse": "Une augmentation de la sécrétion salivaire.",
+              "explication": "Effet sur les glandes salivaires."
+            },
+            {
+              "reponse": "Une bronchoconstriction.",
+              "explication": "Contraction des muscles lisses bronchiques."
+            },
+            {
+              "reponse": "Une augmentation de la motilité intestinale.",
+              "explication": "Contraction des muscles lisses intestinaux."
+            },
+            {
+              "reponse": "Un ralentissement de la conduction auriculo-ventriculaire.",
+              "explication": "Effet dromotrope négatif."
+            },
+            {
+              "reponse": "Une vasodilatation des petits vaisseaux.",
+              "explication": "Effet sur les cellules endothéliales."
+            },
+            {
+              "reponse": "Une augmentation de la perméabilité capillaire.",
+              "explication": "Effet sur les cellules endothéliales."
+            },
+            {
+              "reponse": "Un prurit et une douleur.",
+              "explication": "Effet sur les nerfs périphériques."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une bronchodilatation.",
+              "explication": "H1 provoque une bronchoconstriction."
+            },
+            {
+              "reponse": "Une diminution de la motilité intestinale.",
+              "explication": "H1 l'augmente."
+            },
+            {
+              "reponse": "Une diminution de la sécrétion salivaire.",
+              "explication": "H1 l'augmente."
+            },
+            {
+              "reponse": "Une vasoconstriction.",
+              "explication": "H1 provoque une vasodilatation."
+            },
+            {
+              "reponse": "Une accélération de la conduction auriculo-ventriculaire.",
+              "explication": "H1 la ralentit (dromotrope négatif)."
+            },
+            {
+              "reponse": "Une sédation.",
+              "explication": "H1 maintient l'éveil ; c'est son blocage qui est sédatif."
+            },
+            {
+              "reponse": "Un effet antiémétique.",
+              "explication": "H1 provoque nausées et vomissements."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets cardiaques et vasculaires de la stimulation des récepteurs H1, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "ralentit la conduction auriculo-ventriculaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Au niveau cardiaque, la stimulation des récepteurs H1 ralentit la conduction auriculo-ventriculaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'effet cardiaque des récepteurs H1 est un effet dromotrope négatif.",
+              "explication": "Il porte sur la conduction."
+            },
+            {
+              "reponse": "Au niveau des petits vaisseaux, la stimulation des récepteurs H1 entraîne une vasodilatation.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 des cellules endothéliales augmente la perméabilité capillaire.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'effet cardiaque des récepteurs H1 est un effet dromotrope positif.",
+              "explication": "Il est dromotrope négatif."
+            },
+            {
+              "reponse": "L'effet cardiaque des récepteurs H1 porte sur la force de contraction.",
+              "explication": "Erreur des notes corrigée : l'effet dromotrope porte sur la conduction."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 accélère la conduction auriculo-ventriculaire.",
+              "explication": "Elle la ralentit."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 entraîne une vasoconstriction des petits vaisseaux.",
+              "explication": "Elle entraîne une vasodilatation."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 diminue la perméabilité capillaire.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 entraîne un effet chronotrope positif.",
+              "explication": "Le cours attribue l'effet chronotrope positif aux récepteurs H2."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets de la stimulation des récepteurs H1 sur les muscles lisses, les glandes et les nerfs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "entraîne leur contraction, avec pour conséquence une bronchoconstriction"
+          },
+          "bonnes": [
+            {
+              "reponse": "La stimulation des récepteurs H1 entraîne la contraction des muscles lisses bronchiques.",
+              "explication": "D'où la bronchoconstriction."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 entraîne la contraction des muscles lisses intestinaux.",
+              "explication": "D'où l'augmentation de la motilité intestinale."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 augmente la sécrétion salivaire.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 des nerfs périphériques entraîne prurit et douleur.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 du centre du vomissement entraîne nausées et vomissements.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La stimulation des récepteurs H1 relâche les muscles lisses bronchiques.",
+              "explication": "Elle les contracte."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 diminue la motilité intestinale.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 diminue la sécrétion salivaire.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 des nerfs périphériques a un effet antalgique.",
+              "explication": "Elle entraîne douleur et prurit."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 a un effet antiémétique.",
+              "explication": "Elle entraîne nausées et vomissements."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les récepteurs H2 et leurs effets, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "c'est un effet chronotrope positif"
+          },
+          "bonnes": [
+            {
+              "reponse": "Des récepteurs H2 sont présents au niveau cardiaque.",
+              "explication": "Localisation de H2."
+            },
+            {
+              "reponse": "Au niveau cardiaque, la stimulation des récepteurs H2 augmente la fréquence cardiaque.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "L'effet de l'histamine sur la fréquence cardiaque via H2 est un effet chronotrope positif.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs H2 sont exprimés par les cellules pariétales de l'estomac.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H2 des cellules pariétales augmente la sécrétion d'ions H+.",
+              "explication": "Donc la sécrétion d'acide."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La stimulation des récepteurs H2 cardiaques diminue la fréquence cardiaque.",
+              "explication": "Elle l'augmente (chronotrope positif)."
+            },
+            {
+              "reponse": "L'effet cardiaque des récepteurs H2 est un effet dromotrope négatif.",
+              "explication": "C'est l'effet cardiaque des récepteurs H1."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H2 des cellules pariétales diminue la sécrétion acide.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H2 entraîne une bronchoconstriction.",
+              "explication": "C'est un effet des récepteurs H1."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H2 augmente la sécrétion salivaire.",
+              "explication": "C'est un effet des récepteurs H1."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H2 entraîne prurit et douleur.",
+              "explication": "C'est un effet des récepteurs H1."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-030",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les récepteurs H3, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "diminuer la libération de nombreux neurotransmetteurs"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les récepteurs H3 sont présents dans le système nerveux central.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Les récepteurs H3 sont essentiellement situés au niveau présynaptique.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H3 diminue la libération de nombreux neurotransmetteurs.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H3 diminue la libération d'histamine.",
+              "explication": "L'histamine fait partie des neurotransmetteurs concernés."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H3 diminue la vigilance.",
+              "explication": "Contrairement aux récepteurs H1."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La stimulation des récepteurs H3 augmente la vigilance.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Les récepteurs H3 sont essentiellement postsynaptiques.",
+              "explication": "Ils sont essentiellement présynaptiques."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H3 augmente la libération d'histamine.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Les récepteurs H3 sont exprimés principalement par les cellules hématopoïétiques.",
+              "explication": "C'est le cas des récepteurs H4."
+            },
+            {
+              "reponse": "Les récepteurs H3 sont exprimés par les cellules pariétales gastriques.",
+              "explication": "Ce sont les récepteurs H2."
+            },
+            {
+              "reponse": "Comme les récepteurs H1, les récepteurs H3 maintiennent l'état d'éveil.",
+              "explication": "Leur stimulation diminue la vigilance."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le récepteur H4, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Le récepteur H4 est le dernier à avoir été identifié"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le récepteur H4 est le dernier récepteur de l'histamine à avoir été identifié.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le récepteur H4 est exprimé par les cellules hématopoïétiques.",
+              "explication": "Description du cours."
+            },
+            {
+              "reponse": "Le récepteur H4 est exprimé par les mastocytes.",
+              "explication": "Cellule hématopoïétique citée par le cours."
+            },
+            {
+              "reponse": "Le récepteur H4 est exprimé par les polynucléaires éosinophiles.",
+              "explication": "Cellule hématopoïétique citée par le cours."
+            },
+            {
+              "reponse": "Le récepteur H4 est exprimé par les cellules dendritiques et les lymphocytes T.",
+              "explication": "Cellules hématopoïétiques citées par le cours."
+            },
+            {
+              "reponse": "Le récepteur H4 joue un rôle dans l'inflammation.",
+              "explication": "Description du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le récepteur H4 est le premier récepteur de l'histamine à avoir été identifié.",
+              "explication": "C'est le dernier."
+            },
+            {
+              "reponse": "Le récepteur H4 est essentiellement présynaptique dans le système nerveux central.",
+              "explication": "C'est la localisation des H3."
+            },
+            {
+              "reponse": "Le récepteur H4 est exprimé par les cellules pariétales et augmente la sécrétion acide.",
+              "explication": "C'est le rôle des récepteurs H2."
+            },
+            {
+              "reponse": "Le récepteur H4 n'est pas couplé aux protéines G.",
+              "explication": "Les 4 récepteurs sont couplés aux protéines G."
+            },
+            {
+              "reponse": "Le récepteur H4 est responsable de la majorité des effets physiologiques de l'histamine.",
+              "explication": "C'est le récepteur H1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Synthèse"
+      },
+      "questions": [
+        {
+          "id": "pharma-physio-histamine-032",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2025-2026",
+                "qcm": 13
+              }
+            ]
+          },
+          "question": "À propos de l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "la charcuterie, certains fromages, le vin"
+          },
+          "bonnes": [
+            {
+              "reponse": "La charcuterie, le fromage et le vin peuvent entraîner une libération non spécifique d'histamine.",
+              "annale": true,
+              "explication": "Aliments de la pseudo-allergie (aussi fraises, crustacés, poissons, tomates)."
+            },
+            {
+              "reponse": "Les récepteurs histaminergiques sont couplés à une protéine G.",
+              "annale": true,
+              "explication": "Les 4 récepteurs, à 7 hélices α transmembranaires."
+            },
+            {
+              "reponse": "L'histamine est impliquée dans le mécanisme de l'allergie.",
+              "annale": true,
+              "explication": "Libérée par les mastocytes et les basophiles, elle augmente la perméabilité capillaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Il n'y a pas de neurones histaminergiques dans le système nerveux central.",
+              "annale": true,
+              "explication": "Ils sont situés dans le SNC (noyau tubéro-mamillaire)."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H1 diminue la sécrétion salivaire.",
+              "annale": true,
+              "explication": "Elle l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-033",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2024-2025",
+                "qcm": 3
+              }
+            ]
+          },
+          "question": "Concernant l'histamine et ses récepteurs, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "qui entraîne les symptômes de l'allergie"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'histamine est synthétisée à partir de la L-histidine.",
+              "annale": true,
+              "explication": "Par décarboxylation (L-histidine décarboxylase)."
+            },
+            {
+              "reponse": "L'histamine est impliquée dans la physiopathologie de l'allergie.",
+              "annale": true,
+              "explication": "Dégranulation des mastocytes et basophiles par liaison antigène-IgE."
+            },
+            {
+              "reponse": "Les récepteurs H2 sont exprimés par les cellules pariétales gastriques.",
+              "annale": true,
+              "explication": "Leur stimulation augmente la sécrétion gastrique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'histamine est peu présente dans les mastocytes.",
+              "annale": true,
+              "explication": "Les mastocytes sont au contraire riches en histamine, qu'ils stockent."
+            },
+            {
+              "reponse": "Les récepteurs H1 entraînent une vasoconstriction et une diminution de la perméabilité vasculaire.",
+              "annale": true,
+              "explication": "Ils entraînent une vasodilatation et une augmentation de la perméabilité."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-034",
+          "type": "qcm",
+          "source": {
+            "type": "annale",
+            "references": [
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2022-2023",
+                "qcm": 23
+              },
+              {
+                "sujet": "Pharmacologie",
+                "discipline": "Physiologie",
+                "annee": "2020-2021",
+                "qcm": 19
+              }
+            ]
+          },
+          "question": "Concernant l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "peuvent aussi entraîner une libération non spécifique de l'histamine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'histamine peut être libérée de façon non spécifique après la consommation de certains aliments, substances ou médicaments.",
+              "annale": true,
+              "explication": "C'est le syndrome de pseudo-allergie."
+            },
+            {
+              "reponse": "L'histamine augmente la sécrétion d'acide gastrique par stimulation des récepteurs histaminergiques de type 2.",
+              "annale": true,
+              "explication": "Récepteurs H2 des cellules pariétales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'histamine est obtenue par décarboxylation du tryptophane hydroxylé.",
+              "annale": true,
+              "explication": "C'est la voie de la sérotonine ; l'histamine vient de la décarboxylation de la L-histidine."
+            },
+            {
+              "reponse": "L'histamine entraîne une rétention urinaire par stimulation des récepteurs muscariniques.",
+              "annale": true,
+              "explication": "L'histamine n'agit pas sur les récepteurs muscariniques, qui relèvent du système parasympathique."
+            },
+            {
+              "reponse": "L'histamine est indiquée dans le traitement de la maladie d'Alzheimer.",
+              "annale": true,
+              "explication": "Ce n'est pas une indication de l'histamine."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les effets de l'histamine et les récepteurs qui les médient, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Il faut maîtriser la localisation de ces"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'augmentation de la sécrétion gastrique est médiée par les récepteurs H2.",
+              "explication": "Cellules pariétales."
+            },
+            {
+              "reponse": "L'augmentation de la sécrétion salivaire est médiée par les récepteurs H1.",
+              "explication": "Glandes salivaires."
+            },
+            {
+              "reponse": "La bronchoconstriction est médiée par les récepteurs H1.",
+              "explication": "Muscles lisses bronchiques."
+            },
+            {
+              "reponse": "Le prurit et la douleur sont médiés par les récepteurs H1.",
+              "explication": "Nerfs périphériques."
+            },
+            {
+              "reponse": "L'effet chronotrope positif est médié par les récepteurs H2.",
+              "explication": "Cœur."
+            },
+            {
+              "reponse": "L'effet dromotrope négatif est médié par les récepteurs H1.",
+              "explication": "Cœur."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'effet chronotrope positif est médié par les récepteurs H1.",
+              "explication": "Il est médié par les récepteurs H2 ; H1 est dromotrope négatif."
+            },
+            {
+              "reponse": "L'augmentation de la sécrétion gastrique est médiée par les récepteurs H1.",
+              "explication": "Elle est médiée par les récepteurs H2."
+            },
+            {
+              "reponse": "La diminution de la vigilance est médiée par les récepteurs H1.",
+              "explication": "Elle est médiée par les récepteurs H3 ; H1 maintient l'éveil."
+            },
+            {
+              "reponse": "Le rôle de l'histamine dans l'inflammation passe par les récepteurs H3.",
+              "explication": "Il passe par les récepteurs H4."
+            },
+            {
+              "reponse": "La diminution de la libération des neurotransmetteurs est médiée par les récepteurs H4.",
+              "explication": "Elle est médiée par les récepteurs H3 présynaptiques."
+            },
+            {
+              "reponse": "L'effet dromotrope négatif est médié par les récepteurs H2.",
+              "explication": "Il est médié par les récepteurs H1."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-036",
+          "type": "qrp",
+          "nb_bonnes": 2,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels effets de l'histamine sont médiés par les récepteurs H2 ? (2 réponses attendues)",
+          "cours": {
+            "page": 9,
+            "surligner": "augmentation de la sécrétion gastrique"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une augmentation de la fréquence cardiaque (effet chronotrope positif).",
+              "explication": "Récepteurs H2 cardiaques."
+            },
+            {
+              "reponse": "Une augmentation de la sécrétion d'acide gastrique.",
+              "explication": "Récepteurs H2 des cellules pariétales."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une bronchoconstriction.",
+              "explication": "Effet des récepteurs H1."
+            },
+            {
+              "reponse": "Une augmentation de la sécrétion salivaire.",
+              "explication": "Effet des récepteurs H1."
+            },
+            {
+              "reponse": "Un prurit et une douleur.",
+              "explication": "Effet des récepteurs H1."
+            },
+            {
+              "reponse": "Des nausées et des vomissements.",
+              "explication": "Effet des récepteurs H1."
+            },
+            {
+              "reponse": "Un ralentissement de la conduction auriculo-ventriculaire.",
+              "explication": "Effet des récepteurs H1."
+            },
+            {
+              "reponse": "Une diminution de la vigilance.",
+              "explication": "Effet des récepteurs H3."
+            },
+            {
+              "reponse": "Une augmentation de la motilité intestinale.",
+              "explication": "Effet des récepteurs H1."
+            }
+          ]
+        },
+        {
+          "id": "pharma-physio-histamine-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la régulation de la sécrétion acide gastrique par l'histamine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Le schéma résume l'enchaînement"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les cellules G libèrent la gastrine dans le sang.",
+              "explication": "Premier maillon de l'enchaînement."
+            },
+            {
+              "reponse": "La gastrine stimule la libération d'histamine par les cellules ECL.",
+              "explication": "Exocytose de l'histamine."
+            },
+            {
+              "reponse": "L'histamine des cellules ECL stimule les cellules pariétales.",
+              "explication": "Via leurs récepteurs H2."
+            },
+            {
+              "reponse": "Les cellules pariétales stimulées par l'histamine sécrètent des ions H+.",
+              "explication": "D'où l'acidité gastrique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les cellules G libèrent directement l'histamine.",
+              "explication": "Elles libèrent la gastrine."
+            },
+            {
+              "reponse": "Les cellules pariétales libèrent l'histamine qui stimule les cellules ECL.",
+              "explication": "C'est l'inverse : les ECL libèrent l'histamine qui stimule les pariétales."
+            },
+            {
+              "reponse": "L'histamine stimule les cellules pariétales par leurs récepteurs H1.",
+              "explication": "Par leurs récepteurs H2."
+            },
+            {
+              "reponse": "Les cellules ECL sécrètent la gastrine.",
+              "explication": "Ce sont les cellules G."
+            },
+            {
+              "reponse": "La stimulation des récepteurs H2 des cellules pariétales diminue la sécrétion d'ions H+.",
+              "explication": "Elle l'augmente."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

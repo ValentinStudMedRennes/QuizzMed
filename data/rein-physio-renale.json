@@ -1,0 +1,2647 @@
+{
+  "meta": {
+    "theme": "Reins et voies urinaires",
+    "section": "Physiologie",
+    "titre": "Physiologie rénale : fonction rénale, circulation rénale et filtration glomérulaire",
+    "description": "Rôles du rein, mécanismes de formation de l'urine, circulation rénale, filtration glomérulaire et sa régulation, structure du filtre glomérulaire.",
+    "version": "6.0",
+    "cours": {
+      "fichier": "rein-physio-renale.pdf"
+    }
+  },
+  "chapitres": [
+    {
+      "meta": {
+        "titre": "Introduction à l'étude de la fonction rénale"
+      },
+      "questions": [
+        {
+          "id": "rein-physio-renale-001",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les difficultés de la physiologie rénale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 2,
+            "surligner": "l'hétérogénéité des néphrons"
+          },
+          "bonnes": [
+            {
+              "reponse": "On compte environ 1 million de néphrons par rein.",
+              "explication": "Chiffre du cours, très variable d'un individu à l'autre."
+            },
+            {
+              "reponse": "Les néphrons corticaux et juxta-médullaires peuvent avoir des fonctions totalement différentes, voire inverses.",
+              "explication": "Ex : sécrétion et réabsorption de sodium."
+            },
+            {
+              "reponse": "Pour étudier la physiologie rénale, on représente un « néphron moyen ».",
+              "explication": "C'est une représentation physiologique et non anatomique."
+            },
+            {
+              "reponse": "Dans le parenchyme rénal, néphrons et vaisseaux forment un entrelacs et interagissent entre eux.",
+              "explication": "Il n'y a ni néphron isolé ni vide entre les néphrons."
+            },
+            {
+              "reponse": "Un mécanisme est plus finement régulé lorsque 2 phénomènes inverses le modulent simultanément.",
+              "explication": "Cette double modulation permet un équilibre dynamique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On compte environ 100 000 néphrons par rein.",
+              "explication": "Environ 1 million par rein."
+            },
+            {
+              "reponse": "Le nombre de néphrons est identique d'un individu à l'autre.",
+              "explication": "Il est très variable d'un individu à l'autre."
+            },
+            {
+              "reponse": "Le néphron moyen est une représentation anatomique fidèle d'un néphron réel.",
+              "explication": "C'est une représentation physiologique, non anatomique."
+            },
+            {
+              "reponse": "Les néphrons sont séparés les uns des autres par des espaces vides.",
+              "explication": "Il n'y a pas de vide entre les néphrons, contrairement aux schémas."
+            },
+            {
+              "reponse": "Un mécanisme est moins finement régulé lorsque 2 phénomènes inverses le modulent.",
+              "explication": "C'est l'inverse : la double modulation affine la régulation."
+            },
+            {
+              "reponse": "Les néphrons ont tous la même fonction, quelle que soit leur position.",
+              "explication": "Ils sont très hétérogènes, avec des fonctions parfois inverses."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-002",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont les rôles du rein ? (3 réponses attendues)",
+          "cours": {
+            "page": 5,
+            "surligner": "leur rôle est triple : régulation, excrétion et rôle endocrine"
+          },
+          "bonnes": [
+            {
+              "reponse": "La régulation de la composition du milieu interstitiel est un rôle du rein.",
+              "explication": "1er des 3 rôles du rein."
+            },
+            {
+              "reponse": "L'excrétion est un rôle du rein.",
+              "explication": "2e des 3 rôles du rein."
+            },
+            {
+              "reponse": "Le rôle endocrine est un rôle du rein.",
+              "explication": "3e des 3 rôles du rein."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La filtration glomérulaire est l'un des 3 rôles du rein.",
+              "explication": "C'est un des 3 mécanismes de formation de l'urine, pas un rôle : piège fréquent."
+            },
+            {
+              "reponse": "La réabsorption tubulaire est l'un des 3 rôles du rein.",
+              "explication": "C'est un mécanisme de formation de l'urine, pas un rôle."
+            },
+            {
+              "reponse": "La sécrétion tubulaire est l'un des 3 rôles du rein.",
+              "explication": "C'est un mécanisme de formation de l'urine, pas un rôle."
+            },
+            {
+              "reponse": "L'élimination du CO2 est l'un des 3 rôles du rein.",
+              "explication": "C'est le poumon qui élimine le CO2."
+            },
+            {
+              "reponse": "La modification de la composition de l'urine dans les voies urinaires est l'un des 3 rôles du rein.",
+              "explication": "Les voies urinaires ne modifient pas la composition de l'urine."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-003",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le caractère vital des reins, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 4,
+            "surligner": "On peut vivre avec 1 seul rein"
+          },
+          "bonnes": [
+            {
+              "reponse": "On peut vivre avec un seul rein.",
+              "explication": "Mais pas sans rein."
+            },
+            {
+              "reponse": "L'absence de rein peut aboutir au décès par coma urémique.",
+              "explication": "Les reins sont des organes vitaux."
+            },
+            {
+              "reponse": "L'insuffisance rénale terminale s'accompagne d'une augmentation de la kaliémie.",
+              "explication": "Signe biologique, avec hausse de l'urémie, de l'uricémie et de la créatininémie."
+            },
+            {
+              "reponse": "L'absence de rein entraîne une rétention hydrosodée, avec des œdèmes.",
+              "explication": "Le sodium n'est plus éliminé et l'eau qui l'accompagne reste dans l'organisme."
+            },
+            {
+              "reponse": "En cas d'insuffisance rénale, il faut adapter la posologie des médicaments.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'hyperkaliémie peut provoquer des troubles du rythme cardiaque et conduire au décès.",
+              "explication": "Signe cardiovasculaire grave de l'insuffisance rénale."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "On peut vivre sans rein si l'alimentation est adaptée.",
+              "explication": "On ne peut pas vivre sans rein."
+            },
+            {
+              "reponse": "L'insuffisance rénale terminale s'accompagne d'une baisse de la créatininémie.",
+              "explication": "La créatininémie augmente."
+            },
+            {
+              "reponse": "L'insuffisance rénale terminale s'accompagne d'une hypokaliémie.",
+              "explication": "Elle s'accompagne d'une hyperkaliémie."
+            },
+            {
+              "reponse": "L'absence de rein entraîne une déshydratation par perte de sodium.",
+              "explication": "Elle entraîne une rétention hydrosodée."
+            },
+            {
+              "reponse": "L'urémie correspond au taux sanguin d'acide urique.",
+              "explication": "L'urémie est le taux d'urée ; le taux d'acide urique est l'uricémie."
+            },
+            {
+              "reponse": "L'absence de rein aboutit à une alcalose hypokaliémique.",
+              "explication": "Elle aboutit à une acidose hyperkaliémique."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-004",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rôle de régulation du rein, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 5,
+            "surligner": "régulation lente (en quelques heures) de la pression"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rein régule l'osmolarité et donc le volume liquidien du compartiment interstitiel.",
+              "explication": "L'osmolarité assure la constance du volume extracellulaire."
+            },
+            {
+              "reponse": "Le rein participe à la régulation rapide de la pression artérielle par le système rénine-angiotensine.",
+              "explication": "Il y participe, sans être le seul."
+            },
+            {
+              "reponse": "Le rein assure à lui seul la régulation lente de la pression artérielle.",
+              "explication": "En quelques heures, par la régulation de la volémie."
+            },
+            {
+              "reponse": "La régulation lente de la pression artérielle passe par la régulation de la volémie.",
+              "explication": "Le rein agit alors sur le contenu."
+            },
+            {
+              "reponse": "Le système rénine-angiotensine agit sur le contenant, c'est-à-dire les vaisseaux.",
+              "explication": "Par vasoconstriction ou vasodilatation."
+            },
+            {
+              "reponse": "La balance des électrolytes repose principalement sur Na+ et K+.",
+              "explication": "Osmolarité et volume liquidien se traduisent par cette balance."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rein assure à lui seul la régulation rapide de la pression artérielle.",
+              "explication": "Il ne fait qu'y participer ; il assure seul la régulation lente."
+            },
+            {
+              "reponse": "La régulation rapide de la pression artérielle par le rein se fait en quelques heures.",
+              "explication": "Elle se fait en quelques minutes."
+            },
+            {
+              "reponse": "La régulation lente de la pression artérielle agit sur le calibre des vaisseaux.",
+              "explication": "Elle agit sur le contenu (la volémie)."
+            },
+            {
+              "reponse": "Le système rénine-angiotensine agit sur le contenu, c'est-à-dire la volémie.",
+              "explication": "Il agit sur le contenant (les vaisseaux)."
+            },
+            {
+              "reponse": "La balance des électrolytes repose principalement sur Ca2+ et Mg2+.",
+              "explication": "Principalement sur Na+ et K+."
+            },
+            {
+              "reponse": "La régulation lente de la pression artérielle par le rein se fait en quelques minutes.",
+              "explication": "En quelques heures."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-005",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'équilibre acido-basique et le tampon bicarbonate, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Ce tampon est dit mixte"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les ions H+ produits par le catabolisme rencontrent d'abord les bicarbonates plasmatiques.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le tampon bicarbonate dispose d'un grand stock de bicarbonates.",
+              "explication": "C'est l'un de ses 2 avantages."
+            },
+            {
+              "reponse": "L'association du bicarbonate et de H+ donne de l'acide carbonique, un acide faible.",
+              "explication": "Il se décompose ensuite en H2O et CO2."
+            },
+            {
+              "reponse": "Le tampon bicarbonate est dit mixte : le rein régule le stock de bicarbonates et le poumon élimine le CO2.",
+              "explication": "Définition du tampon mixte."
+            },
+            {
+              "reponse": "Le rein peut éliminer ou régénérer les bicarbonates selon les besoins.",
+              "explication": "Il régule le stock de bicarbonates sanguins."
+            },
+            {
+              "reponse": "L'ion H+ contrôle l'équilibre acido-basique.",
+              "explication": "Il occupe une place importante parmi les ions."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le tampon bicarbonate a un pouvoir tampon exceptionnel.",
+              "explication": "Son pouvoir tampon n'est pas extraordinaire ; ses avantages sont ailleurs."
+            },
+            {
+              "reponse": "Le rein élimine le CO2 produit par le tampon bicarbonate.",
+              "explication": "C'est le poumon qui élimine le CO2."
+            },
+            {
+              "reponse": "Le poumon régule le stock de bicarbonates sanguins.",
+              "explication": "C'est le rôle du rein."
+            },
+            {
+              "reponse": "L'acide carbonique est un acide fort.",
+              "explication": "C'est un acide faible."
+            },
+            {
+              "reponse": "Le rein ne peut qu'éliminer les bicarbonates, jamais les régénérer.",
+              "explication": "Il peut aussi les régénérer si besoin."
+            },
+            {
+              "reponse": "Un excès d'ions H+ provoque une alcalose hyperkaliémique.",
+              "explication": "Il provoque une acidose (hyperkaliémique)."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-006",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rôle d'excrétion du rein, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 6,
+            "surligner": "Le rein excrète des métabolites et catabolites"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rein excrète des catabolites endogènes comme l'urée.",
+              "explication": "Exemple du cours."
+            },
+            {
+              "reponse": "Le rein excrète des xénobiotiques comme les médicaments ou les pesticides.",
+              "explication": "Ce sont des substances exogènes."
+            },
+            {
+              "reponse": "Les substances suffisamment hydrosolubles peuvent être filtrées puis éliminées par le rein.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Les substances liposolubles sont éliminées par d'autres voies que le rein, par exemple le foie.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rein n'excrète que des substances endogènes.",
+              "explication": "Il excrète aussi des substances exogènes (xénobiotiques)."
+            },
+            {
+              "reponse": "Les substances liposolubles sont éliminées principalement par le rein.",
+              "explication": "Ce sont les substances hydrosolubles que le rein élimine."
+            },
+            {
+              "reponse": "Les xénobiotiques sont des substances endogènes.",
+              "explication": "Ce sont des substances exogènes."
+            },
+            {
+              "reponse": "L'urée est une substance exogène.",
+              "explication": "C'est un catabolite endogène."
+            },
+            {
+              "reponse": "Les médicaments ne sont jamais éliminés par le rein.",
+              "explication": "Les médicaments hydrosolubles peuvent l'être."
+            },
+            {
+              "reponse": "Seules les substances liposolubles peuvent être filtrées par le rein.",
+              "explication": "Ce sont les substances hydrosolubles qui peuvent être filtrées."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-007",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les hormones qui agissent sur le rein, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 7,
+            "surligner": "Le rein est la cible de"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le rein est la cible de la parathormone.",
+              "explication": "Hormone cible du cours."
+            },
+            {
+              "reponse": "Le rein est la cible de l'hormone antidiurétique.",
+              "explication": "Hormone cible du cours."
+            },
+            {
+              "reponse": "Le rein est la cible de l'aldostérone.",
+              "explication": "Hormone cible du cours."
+            },
+            {
+              "reponse": "La parathormone favorise la réabsorption rénale du calcium.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La parathormone favorise l'excrétion rénale du phosphore.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La parathormone fait transformer le calcidiol en calcitriol.",
+              "explication": "Le calcitriol est la forme active de la vitamine D."
+            },
+            {
+              "reponse": "L'hormone antidiurétique empêche la diurèse.",
+              "explication": "C'est « l'hormone de l'eau »."
+            },
+            {
+              "reponse": "L'aldostérone augmente la réabsorption du sodium.",
+              "explication": "Elle agit sur le métabolisme du sodium."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La parathormone est produite par le rein.",
+              "explication": "Elle agit sur le rein mais n'y est pas produite."
+            },
+            {
+              "reponse": "La parathormone favorise l'excrétion rénale du calcium.",
+              "explication": "Elle favorise sa réabsorption."
+            },
+            {
+              "reponse": "La parathormone favorise la réabsorption rénale du phosphore.",
+              "explication": "Elle favorise son excrétion."
+            },
+            {
+              "reponse": "L'hormone antidiurétique augmente la diurèse.",
+              "explication": "Elle empêche la diurèse."
+            },
+            {
+              "reponse": "L'aldostérone diminue la réabsorption du sodium.",
+              "explication": "Elle l'augmente."
+            },
+            {
+              "reponse": "Le rein ne possède aucun récepteur hormonal.",
+              "explication": "Il est la cible d'hormones, dont il possède les récepteurs."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-008",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles hormones sont synthétisées par le rein ? (3 réponses attendues)",
+          "cours": {
+            "page": 7,
+            "surligner": "Les hormones synthétisées par le rein sont"
+          },
+          "bonnes": [
+            {
+              "reponse": "La rénine est synthétisée par le rein.",
+              "explication": "Sécrétée par l'appareil juxtaglomérulaire."
+            },
+            {
+              "reponse": "L'érythropoïétine est synthétisée par le rein.",
+              "explication": "À plus de 90 % par le rein."
+            },
+            {
+              "reponse": "Le calcitriol est synthétisé par le rein.",
+              "explication": "Forme active de la vitamine D, à partir du calcidiol hépatique."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La parathormone est synthétisée par le rein.",
+              "explication": "Le rein en est la cible, pas la source."
+            },
+            {
+              "reponse": "L'hormone antidiurétique est synthétisée par le rein.",
+              "explication": "Le rein en est la cible, pas la source."
+            },
+            {
+              "reponse": "L'aldostérone est synthétisée par le rein.",
+              "explication": "Le rein en est la cible, pas la source."
+            },
+            {
+              "reponse": "L'angiotensinogène est synthétisé par le rein.",
+              "explication": "Il est d'origine hépatique."
+            },
+            {
+              "reponse": "Le calcidiol est synthétisé par le rein.",
+              "explication": "C'est un métabolite hépatique."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-009",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les hormones produites par le rein, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 8,
+            "surligner": "synthétisée à plus de 90 % par le rein"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'érythropoïétine est synthétisée à plus de 90 % par le rein.",
+              "explication": "Elle est indispensable à la vie."
+            },
+            {
+              "reponse": "L'érythropoïétine stimule la prolifération, la différenciation et la maturation des globules rouges.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Une anémie peut être un signe d'insuffisance rénale chronique.",
+              "explication": "Par défaut d'érythropoïétine."
+            },
+            {
+              "reponse": "La rénine est sécrétée par l'appareil juxtaglomérulaire.",
+              "explication": "Dans le cadre de la régulation de la volémie."
+            },
+            {
+              "reponse": "La rénine transforme l'angiotensinogène hépatique en angiotensine I.",
+              "explication": "L'enzyme de conversion donne ensuite l'angiotensine II."
+            },
+            {
+              "reponse": "Le calcitriol est la forme active de la vitamine D.",
+              "explication": "1,25-dihydroxycholécalciférol."
+            },
+            {
+              "reponse": "Une insuffisance rénale chronique sévère peut entraîner une hypocalcémie.",
+              "explication": "Par défaut de calcitriol."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'érythropoïétine est synthétisée majoritairement par le foie.",
+              "explication": "À plus de 90 % par le rein."
+            },
+            {
+              "reponse": "L'insuffisance rénale chronique entraîne typiquement une polyglobulie.",
+              "explication": "Elle peut entraîner une anémie."
+            },
+            {
+              "reponse": "La rénine transforme directement l'angiotensinogène en angiotensine II.",
+              "explication": "Elle donne l'angiotensine I ; l'enzyme de conversion donne l'angiotensine II."
+            },
+            {
+              "reponse": "L'enzyme de conversion transforme l'angiotensine II en angiotensine I.",
+              "explication": "C'est l'inverse."
+            },
+            {
+              "reponse": "Le calcitriol est synthétisé par le foie à partir d'un précurseur rénal.",
+              "explication": "Il est synthétisé par le rein à partir du calcidiol hépatique."
+            },
+            {
+              "reponse": "Le calcitriol diminue l'absorption digestive du calcium.",
+              "explication": "Il la favorise."
+            },
+            {
+              "reponse": "Une insuffisance rénale chronique sévère entraîne typiquement une hypercalcémie.",
+              "explication": "Elle peut entraîner une hypocalcémie."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-010",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quels sont les mécanismes fondamentaux qui aboutissent à l'élaboration de l'urine définitive ? (3 réponses attendues)",
+          "cours": {
+            "page": 8,
+            "surligner": "Il s'agit d'échanges entre le compartiment sanguin"
+          },
+          "bonnes": [
+            {
+              "reponse": "La filtration glomérulaire est un mécanisme fondamental de formation de l'urine.",
+              "explication": "Mécanisme 1."
+            },
+            {
+              "reponse": "La sécrétion tubulaire est un mécanisme fondamental de formation de l'urine.",
+              "explication": "Mécanisme 2."
+            },
+            {
+              "reponse": "La réabsorption tubulaire est un mécanisme fondamental de formation de l'urine.",
+              "explication": "Mécanisme 3."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La régulation du milieu interstitiel est un mécanisme fondamental de formation de l'urine.",
+              "explication": "C'est un rôle du rein, pas un mécanisme : piège fréquent."
+            },
+            {
+              "reponse": "Le rôle endocrine est un mécanisme fondamental de formation de l'urine.",
+              "explication": "C'est un rôle du rein, pas un mécanisme."
+            },
+            {
+              "reponse": "La réabsorption glomérulaire est un mécanisme fondamental de formation de l'urine.",
+              "explication": "La réabsorption a lieu dans le tubule, pas dans le glomérule."
+            },
+            {
+              "reponse": "La sécrétion glomérulaire est un mécanisme fondamental de formation de l'urine.",
+              "explication": "La sécrétion n'a jamais lieu dans le glomérule."
+            },
+            {
+              "reponse": "La filtration tubulaire est un mécanisme fondamental de formation de l'urine.",
+              "explication": "La filtration se fait uniquement dans le glomérule."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-011",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rapport des concentrations urine/plasma (U/P), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "l'important est le sens du rapport urine/plasma"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sodium est moins concentré, ou au plus aussi concentré, dans l'urine que dans le plasma.",
+              "explication": "Rapport U/P de 0,5 à 1."
+            },
+            {
+              "reponse": "Les bicarbonates sont moins concentrés dans l'urine que dans le plasma.",
+              "explication": "Ils sont réabsorbés."
+            },
+            {
+              "reponse": "Le glucose est normalement quasi absent de l'urine.",
+              "explication": "Il est totalement réabsorbé si la glycémie est normale."
+            },
+            {
+              "reponse": "Le potassium est plus concentré dans l'urine que dans le plasma.",
+              "explication": "Rapport U/P supérieur à 1."
+            },
+            {
+              "reponse": "L'ammonium a un rapport U/P très élevé, de l'ordre de 1000.",
+              "explication": "Ion indésirable que l'on cherche à éliminer."
+            },
+            {
+              "reponse": "L'urée est plus concentrée dans l'urine que dans le plasma.",
+              "explication": "Rapport U/P supérieur à 1."
+            },
+            {
+              "reponse": "La créatinine est plus concentrée dans l'urine que dans le plasma.",
+              "explication": "Rapport U/P supérieur à 1."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sodium est beaucoup plus concentré dans l'urine que dans le plasma.",
+              "explication": "Son rapport U/P est inférieur ou égal à 1."
+            },
+            {
+              "reponse": "Les bicarbonates sont plus concentrés dans l'urine que dans le plasma.",
+              "explication": "Ils sont quasi absents de l'urine."
+            },
+            {
+              "reponse": "Le potassium est moins concentré dans l'urine que dans le plasma.",
+              "explication": "Il est plus concentré dans l'urine."
+            },
+            {
+              "reponse": "L'ammonium est moins concentré dans l'urine que dans le plasma.",
+              "explication": "Son rapport U/P est très élevé."
+            },
+            {
+              "reponse": "Les protéines ont la même concentration dans l'urine et dans le plasma.",
+              "explication": "Elles sont quasi absentes de l'urine."
+            },
+            {
+              "reponse": "Le glucose est plus concentré dans l'urine que dans le plasma chez le sujet sain.",
+              "explication": "Il est quasi absent de l'urine normale."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-012",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les petites molécules du plasma et de l'urine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 10,
+            "surligner": "Les substances de petite taille plus concentrées"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sodium est le cation majoritaire du milieu extracellulaire.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La concentration urinaire de sodium varie selon les besoins sodés de l'organisme.",
+              "explication": "En cas de déficit, la réabsorption augmente."
+            },
+            {
+              "reponse": "Le potassium est le cation du milieu intracellulaire.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Un excès de potassium extracellulaire dépolarise les cellules.",
+              "explication": "Il peut provoquer un arrêt cardiaque."
+            },
+            {
+              "reponse": "L'ammonium est un ion indésirable dont l'organisme cherche à se débarrasser.",
+              "explication": "En excès, il induit des mouvements d'eau."
+            },
+            {
+              "reponse": "La toxicité de l'urée en excès vient de sa force osmotique.",
+              "explication": "Elle n'agit pas comme un poison en elle-même."
+            },
+            {
+              "reponse": "Dans le diabète, on peut observer une glycosurie.",
+              "explication": "Par saturation des transporteurs du glucose."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le potassium est le cation majoritaire du milieu extracellulaire.",
+              "explication": "C'est le sodium ; le potassium est intracellulaire."
+            },
+            {
+              "reponse": "Un excès de potassium extracellulaire hyperpolarise les cellules.",
+              "explication": "Il les dépolarise."
+            },
+            {
+              "reponse": "Quand on mange trop salé, la réabsorption du sodium augmente.",
+              "explication": "Le corps n'en a pas besoin et le réabsorbe peu."
+            },
+            {
+              "reponse": "L'urée est toxique par sa nature chimique, comme un poison.",
+              "explication": "Sa nocivité vient de sa force osmotique."
+            },
+            {
+              "reponse": "L'excès d'urée dans le sang s'appelle une hyperuricémie.",
+              "explication": "C'est une hyperurémie ; l'hyperuricémie est un excès d'acide urique."
+            },
+            {
+              "reponse": "Les diurétiques ne modifient pas l'excrétion du sodium.",
+              "explication": "Ils font varier son excrétion ou sa réabsorption."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-013",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le filtre rénal et les protéines, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 9,
+            "surligner": "Normalement, il n'y a pas de protéinurie."
+          },
+          "bonnes": [
+            {
+              "reponse": "Les protéines plasmatiques sont présentes à environ 70 g/L.",
+              "explication": "Valeur du cours."
+            },
+            {
+              "reponse": "Le filtre rénal bloque les grosses molécules et les éléments figurés du sang.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le filtre rénal laisse passer les petites molécules.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "On peut trouver des traces de petites protéines dans l'urine normale.",
+              "explication": "Protéines de faible poids moléculaire ou issues du tubule."
+            },
+            {
+              "reponse": "Le moteur de la filtration glomérulaire est la pression hydrostatique.",
+              "explication": "La pression oncotique s'y oppose."
+            },
+            {
+              "reponse": "Le sodium, le glucose et les bicarbonates passent le filtre rénal puis sont réabsorbés.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'albumine est normalement présente en grande quantité dans l'urine.",
+              "explication": "Normalement, il n'y a pas de protéinurie."
+            },
+            {
+              "reponse": "La pression oncotique est le moteur de la filtration glomérulaire.",
+              "explication": "Elle s'oppose à la filtration ; le moteur est la pression hydrostatique."
+            },
+            {
+              "reponse": "Le filtre rénal laisse passer les globules rouges.",
+              "explication": "Il bloque les éléments figurés du sang."
+            },
+            {
+              "reponse": "Les protéines plasmatiques sont présentes à environ 7 g/L.",
+              "explication": "Environ 70 g/L."
+            },
+            {
+              "reponse": "Le glucose ne passe pas le filtre glomérulaire.",
+              "explication": "Il est filtré puis réabsorbé."
+            },
+            {
+              "reponse": "Les bicarbonates ne passent pas le filtre glomérulaire.",
+              "explication": "Ils sont filtrés puis réabsorbés."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-014",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les débits rénaux et la formation de l'urine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "réabsorption de plus de 99 % de l'eau"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit plasmatique rénal est d'environ 900 L/jour.",
+              "explication": "864 L/jour dans le cours."
+            },
+            {
+              "reponse": "La filtration correspond à environ 20 % du débit plasmatique rénal.",
+              "explication": "C'est la fraction de filtration."
+            },
+            {
+              "reponse": "Le débit de filtration glomérulaire est d'environ 173 L/jour.",
+              "explication": "C'est l'urine primitive."
+            },
+            {
+              "reponse": "Le débit de filtration glomérulaire est d'environ 120 mL/min.",
+              "explication": "Soit 173 L/jour."
+            },
+            {
+              "reponse": "La diurèse est d'environ 1,5 L/jour.",
+              "explication": "C'est l'urine définitive."
+            },
+            {
+              "reponse": "Plus de 99 % de l'eau filtrée est réabsorbée.",
+              "explication": "D'où 1,5 L d'urine pour 173 L filtrés."
+            },
+            {
+              "reponse": "Le débit sanguin rénal est égal au débit plasmatique rénal divisé par (1 moins l'hématocrite).",
+              "explication": "Formule du cours, avec un hématocrite de 0,45."
+            },
+            {
+              "reponse": "Le débit sanguin rénal varie avec l'activité physique.",
+              "explication": "Il dépend du débit sanguin total."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La filtration correspond à environ 20 % du débit sanguin rénal.",
+              "explication": "Les 20 % se rapportent au débit plasmatique rénal."
+            },
+            {
+              "reponse": "Le débit de filtration glomérulaire est d'environ 120 L/min.",
+              "explication": "120 mL/min."
+            },
+            {
+              "reponse": "La diurèse est d'environ 15 L/jour.",
+              "explication": "Environ 1,5 L/jour."
+            },
+            {
+              "reponse": "Environ 80 % de l'eau filtrée est réabsorbée.",
+              "explication": "Plus de 99 %."
+            },
+            {
+              "reponse": "Le débit sanguin rénal est égal au débit plasmatique rénal multiplié par (1 moins l'hématocrite).",
+              "explication": "Il faut diviser, et non multiplier."
+            },
+            {
+              "reponse": "La filtration correspond à environ 50 % du débit plasmatique rénal.",
+              "explication": "Environ 20 %."
+            },
+            {
+              "reponse": "Le débit sanguin rénal ne varie pas avec l'activité physique.",
+              "explication": "Il augmente avec l'activité physique."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-015",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Avec un débit plasmatique rénal de 864 L/jour et un hématocrite de 0,45, quel est environ le débit sanguin rénal ? (une seule réponse attendue)",
+          "cours": {
+            "page": 11,
+            "surligner": "Le débit sanguin rénal dépend du débit sanguin total"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit sanguin rénal est d'environ 1570 L/jour.",
+              "explication": "864 / (1 − 0,45) = 864 / 0,55 ≈ 1570 L/jour."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débit sanguin rénal est d'environ 475 L/jour.",
+              "explication": "C'est 864 × 0,55 : il faut diviser par (1 − Ht), pas multiplier."
+            },
+            {
+              "reponse": "Le débit sanguin rénal est d'environ 389 L/jour.",
+              "explication": "C'est 864 × 0,45."
+            },
+            {
+              "reponse": "Le débit sanguin rénal est d'environ 1920 L/jour.",
+              "explication": "C'est 864 / 0,45 : il faut diviser par (1 − Ht)."
+            },
+            {
+              "reponse": "Le débit sanguin rénal est d'environ 173 L/jour.",
+              "explication": "C'est le débit de filtration glomérulaire."
+            },
+            {
+              "reponse": "Le débit sanguin rénal est d'environ 864 L/jour.",
+              "explication": "C'est le débit plasmatique rénal."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-016",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les 3 mécanismes fondamentaux de la fonction rénale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 12,
+            "surligner": "se fait uniquement dans le glomérule"
+          },
+          "bonnes": [
+            {
+              "reponse": "La filtration glomérulaire dépend de la pression hydrostatique.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La filtration glomérulaire se fait uniquement dans le glomérule.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La sécrétion tubulaire se fait au sein des tubules.",
+              "explication": "Jamais dans le glomérule."
+            },
+            {
+              "reponse": "La réabsorption tubulaire dépend de transporteurs saturables.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La sécrétion et la réabsorption ne concernent pas toutes les substances.",
+              "explication": "Elles ne sont pas obligatoires."
+            },
+            {
+              "reponse": "La sécrétion enrichit le compartiment urinaire.",
+              "explication": "Du capillaire péritubulaire vers le tubule."
+            },
+            {
+              "reponse": "La réabsorption ré-enrichit le compartiment sanguin.",
+              "explication": "Du tubule vers le capillaire péritubulaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La sécrétion tubulaire peut avoir lieu dans le glomérule.",
+              "explication": "Surtout pas dans le glomérule."
+            },
+            {
+              "reponse": "La réabsorption tubulaire a lieu dans le glomérule.",
+              "explication": "Elle a lieu dans le tubule."
+            },
+            {
+              "reponse": "La filtration glomérulaire dépend de transporteurs saturables.",
+              "explication": "Elle dépend de la pression hydrostatique ; ce sont les réabsorptions qui dépendent de transporteurs."
+            },
+            {
+              "reponse": "Toutes les substances filtrées sont obligatoirement réabsorbées ou sécrétées.",
+              "explication": "Ex : l'inuline est uniquement filtrée."
+            },
+            {
+              "reponse": "La sécrétion se fait du tubule vers le capillaire péritubulaire.",
+              "explication": "Ce sens correspond à la réabsorption."
+            },
+            {
+              "reponse": "La réabsorption enrichit le compartiment urinaire.",
+              "explication": "Elle enrichit le compartiment sanguin."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-017",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les modalités d'excrétion rénale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 13,
+            "surligner": "substance uniquement filtrée (ni sécrétée ni réabsorbée)"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'inuline est uniquement filtrée, ni sécrétée ni réabsorbée.",
+              "explication": "Schéma 1 du cours."
+            },
+            {
+              "reponse": "La concentration de l'inuline est la même dans l'urine primitive et dans l'urine définitive.",
+              "explication": "Elle n'est ni réabsorbée ni sécrétée."
+            },
+            {
+              "reponse": "L'inuline a servi historiquement à déterminer le débit de filtration glomérulaire.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le sodium est filtré puis partiellement réabsorbé selon les besoins.",
+              "explication": "Sa réabsorption est modulable."
+            },
+            {
+              "reponse": "Si la glycémie est normale, tout le glucose filtré est réabsorbé.",
+              "explication": "Réabsorption totale."
+            },
+            {
+              "reponse": "Dans le diabète, la saturation des transporteurs du glucose entraîne une glycosurie.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'excrétion d'un composé se fait par filtration, plus ou moins réabsorption, plus ou moins sécrétion.",
+              "explication": "Sécrétion et réabsorption ne sont pas obligatoires."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'inuline est filtrée puis totalement réabsorbée.",
+              "explication": "Elle est uniquement filtrée."
+            },
+            {
+              "reponse": "Le glucose est uniquement filtré, sans réabsorption.",
+              "explication": "Il est totalement réabsorbé si la glycémie est normale."
+            },
+            {
+              "reponse": "Le sodium est toujours totalement réabsorbé.",
+              "explication": "Sa réabsorption est partielle et modulable."
+            },
+            {
+              "reponse": "La glycosurie du diabète est due à une sécrétion tubulaire de glucose.",
+              "explication": "Elle est due à la saturation des transporteurs de réabsorption."
+            },
+            {
+              "reponse": "Réabsorber tout le sodium filtré est toujours bénéfique.",
+              "explication": "Cela peut être néfaste, car Na+, K+ et H+ sont très liés."
+            },
+            {
+              "reponse": "La concentration de l'inuline est plus élevée dans l'urine primitive que dans l'urine définitive.",
+              "explication": "Elle est identique."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Circulation rénale"
+      },
+      "questions": [
+        {
+          "id": "rein-physio-renale-018",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la place du rein parmi les organes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "l'organe le plus irrigué de l'organisme"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les reins pèsent environ 300 g, soit moins de 0,5 % du poids corporel.",
+              "explication": "Ce sont de petits organes."
+            },
+            {
+              "reponse": "Les reins reçoivent environ un quart du débit cardiaque.",
+              "explication": "0,23 du débit cardiaque dans le tableau."
+            },
+            {
+              "reponse": "Rapporté à son poids, le rein est l'organe le plus irrigué de l'organisme.",
+              "explication": "4600 mL/min/kg."
+            },
+            {
+              "reponse": "La circulation rénale a majoritairement un but fonctionnel.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La majorité de l'énergie dépensée par le rein sert à réabsorber le sodium.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les reins reçoivent environ 5 % du débit cardiaque.",
+              "explication": "Environ 25 %."
+            },
+            {
+              "reponse": "Les reins représentent environ 5 % du poids corporel.",
+              "explication": "Moins de 0,5 %."
+            },
+            {
+              "reponse": "Rapporté au poids, le cerveau est plus irrigué que le rein.",
+              "explication": "Le rein est l'organe le plus irrigué rapporté au poids."
+            },
+            {
+              "reponse": "La circulation rénale a majoritairement un but nutritif.",
+              "explication": "Elle a majoritairement un but fonctionnel."
+            },
+            {
+              "reponse": "La majorité de l'énergie dépensée par le rein sert à sécréter le potassium.",
+              "explication": "Elle sert à réabsorber le sodium."
+            },
+            {
+              "reponse": "Les reins pèsent environ 3 kg.",
+              "explication": "Environ 300 g."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-019",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les variations du débit sanguin rénal, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 16,
+            "surligner": "il augmente pendant la grossesse"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit plasmatique rénal augmente pendant la grossesse.",
+              "explication": "Environ +40 % au 3e trimestre."
+            },
+            {
+              "reponse": "Le débit plasmatique rénal diminue avec l'âge.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Après une néphrectomie unilatérale, le débit sanguin du rein restant augmente de 50 à 80 %.",
+              "explication": "Le rein restant compense."
+            },
+            {
+              "reponse": "L'augmentation du débit du rein restant après néphrectomie se fait en quelques semaines.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Pendant la grossesse, la perfusion de tous les organes augmente.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le débit plasmatique rénal diminue pendant la grossesse.",
+              "explication": "Il augmente."
+            },
+            {
+              "reponse": "Le débit plasmatique rénal augmente avec l'âge.",
+              "explication": "Il diminue avec l'âge."
+            },
+            {
+              "reponse": "Après une néphrectomie unilatérale, le débit sanguin du rein restant diminue.",
+              "explication": "Il augmente de 50 à 80 %."
+            },
+            {
+              "reponse": "Après une néphrectomie unilatérale, le débit du rein restant double en quelques heures.",
+              "explication": "Il augmente de 50 à 80 % en quelques semaines."
+            },
+            {
+              "reponse": "Pendant la grossesse, seule la perfusion rénale augmente.",
+              "explication": "La perfusion de tous les organes augmente."
+            },
+            {
+              "reponse": "On ne peut pas vivre avec un seul rein.",
+              "explication": "On peut vivre avec un seul rein."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-020",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'organisation du rein en cortex et médullaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 17,
+            "surligner": "plan fonctionnel, c'est le lieu de la filtration"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le cortex est situé à la périphérie du rein, sous la capsule.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Sur le plan fonctionnel, le cortex est le lieu de la filtration.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La médullaire contient les anses de Henle, les tubes collecteurs et les vasa recta.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Tous les glomérules sont situés dans le cortex.",
+              "explication": "Y compris ceux des néphrons juxta-médullaires."
+            },
+            {
+              "reponse": "Les papilles portent les orifices des canaux collecteurs.",
+              "explication": "D'où s'écoule l'urine définitive."
+            },
+            {
+              "reponse": "Les voies urinaires ne modifient pas la composition de l'urine.",
+              "explication": "L'urine des papilles est celle de la sortie de l'uretère."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La médullaire est située à la périphérie du rein, sous la capsule.",
+              "explication": "C'est le cortex."
+            },
+            {
+              "reponse": "Les glomérules des néphrons juxta-médullaires sont situés dans la médullaire.",
+              "explication": "Tous les glomérules sont corticaux."
+            },
+            {
+              "reponse": "Les anses de Henle sont situées dans le cortex.",
+              "explication": "Elles sont dans la médullaire."
+            },
+            {
+              "reponse": "Les calices et le bassinet modifient la composition de l'urine.",
+              "explication": "Les voies urinaires ne la modifient pas."
+            },
+            {
+              "reponse": "La médullaire est le lieu principal de la filtration.",
+              "explication": "C'est le cortex."
+            },
+            {
+              "reponse": "La médullaire est divisée en médullaire corticale et médullaire capsulaire.",
+              "explication": "Elle est divisée en médullaire externe et interne."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-021",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Dans quel ordre le sang parcourt-il la microcirculation rénale ? (une seule réponse attendue)",
+          "cours": {
+            "page": 17,
+            "surligner": "les artérioles afférentes, les capillaires glomérulaires"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le sang passe par l'artériole afférente, les capillaires glomérulaires, l'artériole efférente, les capillaires péritubulaires puis les vasa recta.",
+              "explication": "Ordre du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le sang passe par l'artériole efférente, les capillaires glomérulaires, l'artériole afférente, les capillaires péritubulaires puis les vasa recta.",
+              "explication": "Afférente et efférente sont inversées."
+            },
+            {
+              "reponse": "Le sang passe par l'artériole afférente, les capillaires péritubulaires, l'artériole efférente, les capillaires glomérulaires puis les vasa recta.",
+              "explication": "Les capillaires glomérulaires viennent avant l'artériole efférente."
+            },
+            {
+              "reponse": "Le sang passe par l'artériole afférente, les vasa recta, les capillaires glomérulaires, l'artériole efférente puis les capillaires péritubulaires.",
+              "explication": "Les vasa recta viennent en dernier."
+            },
+            {
+              "reponse": "Le sang passe par les capillaires glomérulaires, l'artériole afférente, l'artériole efférente, les capillaires péritubulaires puis les vasa recta.",
+              "explication": "L'artériole afférente précède les capillaires glomérulaires."
+            },
+            {
+              "reponse": "Le sang passe par l'artériole afférente, les capillaires glomérulaires, les capillaires péritubulaires, l'artériole efférente puis les vasa recta.",
+              "explication": "L'artériole efférente précède les capillaires péritubulaires."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-022",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la répartition intra-rénale de la circulation, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "du débit passe par le cortex"
+          },
+          "bonnes": [
+            {
+              "reponse": "Environ 92 % du débit sanguin rénal passe par le cortex.",
+              "explication": "Lieu de la filtration et de la majorité des réabsorptions."
+            },
+            {
+              "reponse": "Le volume de sang par gramme de tissu est identique dans le cortex et la médullaire.",
+              "explication": "0,2 mL/g dans les 3 zones."
+            },
+            {
+              "reponse": "La différence de débit entre cortex et médullaire est liée surtout aux résistances vasculaires.",
+              "explication": "Elles ralentissent l'écoulement dans la médullaire."
+            },
+            {
+              "reponse": "La médullaire interne a la PO2 la plus faible de l'organisme.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La médullaire interne est anoxique mais non ischémique.",
+              "explication": "Elle contient autant de sang par gramme que le cortex."
+            },
+            {
+              "reponse": "La médullaire interne a une PCO2 très élevée.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Environ 92 % du débit sanguin rénal passe par la médullaire.",
+              "explication": "Il passe par le cortex."
+            },
+            {
+              "reponse": "La médullaire interne est ischémique.",
+              "explication": "Elle est anoxique mais non ischémique."
+            },
+            {
+              "reponse": "Le volume de sang par gramme de tissu est beaucoup plus faible dans la médullaire interne que dans le cortex.",
+              "explication": "Il est identique (0,2 mL/g)."
+            },
+            {
+              "reponse": "La médullaire interne a la PO2 la plus élevée de l'organisme.",
+              "explication": "Elle a la PO2 la plus faible."
+            },
+            {
+              "reponse": "La médullaire interne a une PCO2 très faible.",
+              "explication": "Elle a une PCO2 très élevée."
+            },
+            {
+              "reponse": "La vitesse de perfusion est identique dans le cortex et la médullaire interne.",
+              "explication": "Elle diminue fortement vers la profondeur."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-023",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la vascularisation corticale du néphron, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 19,
+            "surligner": "rôle vasomoteur très important"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'artériole afférente a un rôle vasomoteur très important.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'artériole efférente a un rôle vasomoteur important.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'ensemble des capillaires glomérulaires forme le floculus.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Les capillaires glomérulaires sont le lieu de la filtration.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Les capillaires péritubulaires entourent les tubes contournés proximaux et distaux.",
+              "explication": "Ils restent dans le cortex."
+            },
+            {
+              "reponse": "Les capillaires péritubulaires drainent les réabsorptions d'eau et de solutés.",
+              "explication": "Lieu d'échange sang/urine."
+            },
+            {
+              "reponse": "Les capillaires péritubulaires participent à la sécrétion de certaines substances.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'artériole efférente n'a aucun rôle vasomoteur.",
+              "explication": "Elle a un rôle vasomoteur important."
+            },
+            {
+              "reponse": "Les capillaires péritubulaires sont le lieu de la filtration.",
+              "explication": "La filtration se fait dans les capillaires glomérulaires."
+            },
+            {
+              "reponse": "Le floculus désigne l'ensemble des capillaires péritubulaires.",
+              "explication": "Il désigne l'ensemble des capillaires glomérulaires."
+            },
+            {
+              "reponse": "Les capillaires péritubulaires naissent de l'artériole afférente.",
+              "explication": "Ils font suite à l'artériole efférente."
+            },
+            {
+              "reponse": "L'artériole afférente fait suite aux capillaires glomérulaires.",
+              "explication": "Elle les précède."
+            },
+            {
+              "reponse": "Les capillaires péritubulaires naissent directement des artères arquées.",
+              "explication": "Ils font suite à l'artériole efférente."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-024",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les vasa recta, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 20,
+            "surligner": "Ce sont les seuls vaisseaux qui irriguent la médullaire"
+          },
+          "bonnes": [
+            {
+              "reponse": "Les vasa recta sont les seuls vaisseaux qui irriguent la médullaire.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Les vasa recta mesurent quelques centimètres de long.",
+              "explication": "Bien plus que les capillaires ordinaires."
+            },
+            {
+              "reponse": "Les vasa recta glomérulaires font suite aux capillaires péritubulaires du cortex.",
+              "explication": "Leur sang vient d'être filtré dans le glomérule."
+            },
+            {
+              "reponse": "Les vasa recta fonctionnent à contre-courant.",
+              "explication": "Une branche artérielle descendante et une branche veineuse ascendante."
+            },
+            {
+              "reponse": "Les vasa recta ont des parois normales.",
+              "explication": "Sans fonction particulière."
+            },
+            {
+              "reponse": "Les vasa recta aglomérulaires naissent directement des artères arquées.",
+              "explication": "Ils irriguent la médullaire en cas d'arrêt de la filtration."
+            },
+            {
+              "reponse": "La médullaire profonde utilise presque uniquement des voies anaérobies.",
+              "explication": "Sa faible PO2 est donc sans conséquence fonctionnelle."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Les vasa recta mesurent quelques millimètres, comme les capillaires ordinaires.",
+              "explication": "Ils mesurent quelques centimètres."
+            },
+            {
+              "reponse": "Chaque vasa recta est apparié à une anse de Henle.",
+              "explication": "Ils ont la même courbe sans leur être appariés."
+            },
+            {
+              "reponse": "Les vasa recta ont des parois aux propriétés particulières.",
+              "explication": "Leurs parois sont normales."
+            },
+            {
+              "reponse": "Les vasa recta glomérulaires naissent directement des artères arquées.",
+              "explication": "Ce sont les vasa recta aglomérulaires."
+            },
+            {
+              "reponse": "La faible PO2 de la médullaire profonde perturbe gravement son fonctionnement.",
+              "explication": "Elle est sans conséquence : besoins modestes, voies anaérobies."
+            },
+            {
+              "reponse": "Les vasa recta irriguent principalement le cortex.",
+              "explication": "Ils irriguent la médullaire."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-025",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'architecture vasculaire du rein, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 21,
+            "surligner": "Le système artériel est terminal"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le système artériel rénal est terminal, sans anastomose.",
+              "explication": "Un caillot entraîne une ischémie."
+            },
+            {
+              "reponse": "Le système veineux rénal est anastomosé.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le rein possède une seule circulation, à la fois nutritive et fonctionnelle.",
+              "explication": "20 % nutritive, 80 % fonctionnelle."
+            },
+            {
+              "reponse": "Le sang qui sort du rein est faiblement désaturé.",
+              "explication": "1 à 2 %, car le débit est fort."
+            },
+            {
+              "reponse": "Le rein est le seul organe avec 2 systèmes capillaires en série.",
+              "explication": "Capillaires glomérulaires puis péritubulaires."
+            },
+            {
+              "reponse": "Les tubules rénaux sont irrigués par du sang post-glomérulaire.",
+              "explication": "Sauf vasa recta aglomérulaires en cas de blocage de la filtration."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le système artériel rénal est richement anastomosé.",
+              "explication": "Il est terminal."
+            },
+            {
+              "reponse": "Le système veineux rénal est terminal.",
+              "explication": "Il est anastomosé."
+            },
+            {
+              "reponse": "Le rein possède une circulation nutritive distincte de sa circulation fonctionnelle.",
+              "explication": "Il n'a qu'une seule circulation, contrairement au poumon."
+            },
+            {
+              "reponse": "La circulation rénale est surtout nutritive, à environ 80 %.",
+              "explication": "Elle est fonctionnelle à 80 % et nutritive à 20 %."
+            },
+            {
+              "reponse": "Le sang veineux rénal est fortement désaturé.",
+              "explication": "Il n'est désaturé que de 1 à 2 %."
+            },
+            {
+              "reponse": "Les tubules rénaux sont normalement irrigués par du sang pré-glomérulaire.",
+              "explication": "Ils reçoivent du sang post-glomérulaire."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-026",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Pour une pression systolique de 13 cmHg et une pression diastolique de 7 cmHg, quelle est la pression artérielle moyenne ? (une seule réponse attendue)",
+          "cours": {
+            "page": 21,
+            "surligner": "la pression artérielle moyenne vaut"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression artérielle moyenne est de 9 cmHg.",
+              "explication": "PAM = 1/3 PAS + 2/3 PAD = 13/3 + 14/3 = 9 cmHg."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression artérielle moyenne est de 10 cmHg.",
+              "explication": "C'est la moyenne simple ; la PAM pondère la diastolique (2/3)."
+            },
+            {
+              "reponse": "La pression artérielle moyenne est de 11 cmHg.",
+              "explication": "Cela pondérerait la systolique (2/3) au lieu de la diastolique."
+            },
+            {
+              "reponse": "La pression artérielle moyenne est de 6 cmHg.",
+              "explication": "C'est la différence entre systolique et diastolique."
+            },
+            {
+              "reponse": "La pression artérielle moyenne est de 20 cmHg.",
+              "explication": "C'est la somme des 2 pressions."
+            },
+            {
+              "reponse": "La pression artérielle moyenne est de 9 mmHg.",
+              "explication": "Unité fausse : 9 cmHg, soit 90 mmHg."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-027",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les pressions le long de la circulation rénale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 22,
+            "surligner": "la plus forte pression de l'organisme pour un réseau"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression dans les capillaires glomérulaires est d'environ 5 cmHg, soit 50 mmHg.",
+              "explication": "Elle doit rester stable."
+            },
+            {
+              "reponse": "La pression des capillaires glomérulaires est la plus forte de l'organisme pour un réseau de capillaires.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Une pression glomérulaire trop basse réduit la capacité de filtration.",
+              "explication": "Risque d'insuffisance rénale."
+            },
+            {
+              "reponse": "Une pression glomérulaire trop élevée abîme les capillaires.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'artériole afférente joue le rôle prépondérant pour maintenir la pression glomérulaire.",
+              "explication": "Les autres artères interviennent si elle ne suffit pas."
+            },
+            {
+              "reponse": "Une chute de pression importante se produit dans l'artériole efférente.",
+              "explication": "Elle correspond à la filtration."
+            },
+            {
+              "reponse": "La chute de pression après le glomérule est favorable aux réabsorptions.",
+              "explication": "Le retour vers le sang est plus facile."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression dans les capillaires glomérulaires est d'environ 5 mmHg.",
+              "explication": "5 cmHg, soit 50 mmHg."
+            },
+            {
+              "reponse": "La pression dans les capillaires glomérulaires est d'environ 9 cmHg.",
+              "explication": "9 cmHg est la pression des artères rénales et intra-rénales."
+            },
+            {
+              "reponse": "La pression dans les capillaires péritubulaires est plus élevée que dans les capillaires glomérulaires.",
+              "explication": "Elle est d'environ 1 cmHg."
+            },
+            {
+              "reponse": "L'artériole efférente joue le rôle prépondérant pour maintenir la pression glomérulaire.",
+              "explication": "C'est l'artériole afférente."
+            },
+            {
+              "reponse": "La chute de pression après le glomérule gêne les réabsorptions.",
+              "explication": "Elle leur est favorable."
+            },
+            {
+              "reponse": "La pression glomérulaire suit librement les variations de la pression artérielle.",
+              "explication": "Elle est très bien régulée."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "meta": {
+        "titre": "Filtration glomérulaire"
+      },
+      "questions": [
+        {
+          "id": "rein-physio-renale-028",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les données chiffrées de la filtration glomérulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "La totalité du plasma est filtrée"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le débit de filtration glomérulaire est d'environ 120 mL/min.",
+              "explication": "Soit 20 % du débit plasmatique."
+            },
+            {
+              "reponse": "La totalité du plasma est filtrée environ 2,5 fois par heure.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le volume extracellulaire est filtré environ 1 fois toutes les 2 heures.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Un rein compte près de 70 km de tubules.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Un néphron compte 2 à 5 cm de tubule.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La plupart des pathologies néphrologiques sont liées à un défaut de filtration glomérulaire.",
+              "explication": "Ce sont les glomérulopathies."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La totalité du plasma est filtrée environ 1 fois par jour.",
+              "explication": "Environ 2,5 fois par heure."
+            },
+            {
+              "reponse": "Le volume extracellulaire est filtré environ 12 fois par heure.",
+              "explication": "Environ 1 fois toutes les 2 heures."
+            },
+            {
+              "reponse": "Un rein compte près de 7 km de tubules.",
+              "explication": "Près de 70 km."
+            },
+            {
+              "reponse": "Un néphron compte 2 à 5 mm de tubule.",
+              "explication": "2 à 5 cm."
+            },
+            {
+              "reponse": "Le débit de filtration glomérulaire représente environ 50 % du débit plasmatique rénal.",
+              "explication": "Environ 20 %."
+            },
+            {
+              "reponse": "La plupart des pathologies néphrologiques sont des atteintes tubulaires.",
+              "explication": "La plupart sont liées à un défaut de filtration glomérulaire."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-029",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la dynamique de la filtration glomérulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 23,
+            "surligner": "La filtration glomérulaire est un mécanisme passif"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le DFG est égal au produit de la pression efficace, de la surface de filtration et de la conductance hydraulique.",
+              "explication": "DFG = Peff × S × C."
+            },
+            {
+              "reponse": "Le produit de la surface de filtration et de la conductance hydraulique est le coefficient de filtration (Kf).",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La filtration glomérulaire est un mécanisme passif, qui ne consomme pas d'énergie.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La filtration dépend de la différence de pression de part et d'autre du filtre.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La filtration dépend de la surface du filtre.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La filtration dépend de la perméabilité du filtre.",
+              "explication": "C'est la conductance hydraulique."
+            },
+            {
+              "reponse": "Les anses capillaires glomérulaires ont une motricité propre.",
+              "explication": "Elles modulent la pression et la surface de filtration."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La filtration glomérulaire est un mécanisme actif qui consomme beaucoup d'énergie.",
+              "explication": "C'est un mécanisme passif."
+            },
+            {
+              "reponse": "Le DFG est égal à la pression efficace multipliée par la surface et divisée par la conductance.",
+              "explication": "DFG = Peff × S × C."
+            },
+            {
+              "reponse": "Le coefficient de filtration est le produit de la pression efficace et de la surface de filtration.",
+              "explication": "Kf = S × C."
+            },
+            {
+              "reponse": "La conductance hydraulique désigne la pression capillaire glomérulaire.",
+              "explication": "Elle désigne la perméabilité du filtre."
+            },
+            {
+              "reponse": "La filtration se fait de la capsule de Bowman vers le capillaire glomérulaire.",
+              "explication": "Du capillaire vers la capsule de Bowman."
+            },
+            {
+              "reponse": "Les anses capillaires glomérulaires sont toutes ouvertes en permanence.",
+              "explication": "Elles sont plus ou moins ouvertes."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-030",
+          "type": "qcu",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Avec une pression capillaire de 50 mmHg, une pression tubulaire de 12 mmHg et une pression oncotique de 20 mmHg, quelle est la pression efficace de filtration ? (une seule réponse attendue)",
+          "cours": {
+            "page": 24,
+            "surligner": "une contre-pression de 12 mmHg qui"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression efficace de filtration est de 18 mmHg.",
+              "explication": "Peff = Pcap − (Ptub + Ponc) = 50 − 32 = 18 mmHg."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression efficace de filtration est de 82 mmHg.",
+              "explication": "Ptub et Ponc s'opposent à la filtration : on les soustrait."
+            },
+            {
+              "reponse": "La pression efficace de filtration est de 38 mmHg.",
+              "explication": "Il faut aussi soustraire la pression oncotique."
+            },
+            {
+              "reponse": "La pression efficace de filtration est de 30 mmHg.",
+              "explication": "Il faut aussi soustraire la pression tubulaire."
+            },
+            {
+              "reponse": "La pression efficace de filtration est de 58 mmHg.",
+              "explication": "Ponc s'oppose à la filtration : on la soustrait."
+            },
+            {
+              "reponse": "La pression efficace de filtration est de 18 cmHg.",
+              "explication": "Unité fausse : 18 mmHg."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-031",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les forces qui s'exercent sur le glomérule, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 24,
+            "surligner": "liée aux protéines peu ou pas filtrées"
+          },
+          "bonnes": [
+            {
+              "reponse": "La pression capillaire glomérulaire est d'environ 50 mmHg et varie peu.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La pression tubulaire s'oppose à la filtration.",
+              "explication": "Contre-pression de 12 mmHg."
+            },
+            {
+              "reponse": "La pression oncotique s'oppose à la filtration.",
+              "explication": "Environ 20 mmHg."
+            },
+            {
+              "reponse": "La pression oncotique est liée aux protéines peu ou pas filtrées.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La pression oncotique est plus élevée en fin de capillaire glomérulaire.",
+              "explication": "Les protéines y sont plus concentrées."
+            },
+            {
+              "reponse": "La pression efficace de filtration est d'environ 18 mmHg.",
+              "explication": "50 − (12 + 20)."
+            },
+            {
+              "reponse": "Le rein module la filtration surtout en agissant sur la surface de filtration.",
+              "explication": "Les pressions varient peu."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La pression oncotique favorise la filtration.",
+              "explication": "Elle s'y oppose."
+            },
+            {
+              "reponse": "La pression tubulaire favorise la filtration.",
+              "explication": "C'est une contre-pression."
+            },
+            {
+              "reponse": "La pression oncotique est plus faible en fin de capillaire glomérulaire.",
+              "explication": "Elle est plus élevée en fin de capillaire."
+            },
+            {
+              "reponse": "Le rein module la filtration surtout en faisant varier fortement la pression capillaire.",
+              "explication": "Les pressions varient peu ; il agit sur la surface."
+            },
+            {
+              "reponse": "Si les pressions opposées à la filtration augmentaient, la filtration augmenterait.",
+              "explication": "La pression efficace deviendrait presque nulle."
+            },
+            {
+              "reponse": "La pression tubulaire est d'environ 50 mmHg.",
+              "explication": "Environ 12 mmHg."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-032",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les facteurs qui modifient la filtration glomérulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 25,
+            "surligner": "une embolie capillaire diminue la surface de filtration"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une obstruction partielle d'un vaisseau diminue la pression efficace de filtration.",
+              "explication": "Variable Peff."
+            },
+            {
+              "reponse": "Une embolie capillaire diminue la surface de filtration.",
+              "explication": "Variable S."
+            },
+            {
+              "reponse": "Une glomérulonéphrite modifie la perméabilité du filtre.",
+              "explication": "Variable C."
+            },
+            {
+              "reponse": "La filtration glomérulaire varie avec la surface corporelle.",
+              "explication": "Poids et taille."
+            },
+            {
+              "reponse": "La filtration glomérulaire varie selon le cycle nycthéméral.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Les néphrons juxta-médullaires ont des glomérules plus gros et un débit de filtration plus élevé.",
+              "explication": "Le type de néphron est un facteur important."
+            },
+            {
+              "reponse": "La filtration glomérulaire diminue avec le vieillissement.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Une embolie capillaire augmente la surface de filtration.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "Une glomérulonéphrite modifie surtout la pression efficace de filtration.",
+              "explication": "Elle modifie la perméabilité (C)."
+            },
+            {
+              "reponse": "Une obstruction partielle d'un vaisseau augmente la pression efficace de filtration.",
+              "explication": "Elle la diminue."
+            },
+            {
+              "reponse": "La filtration glomérulaire augmente avec le vieillissement.",
+              "explication": "Elle diminue."
+            },
+            {
+              "reponse": "La filtration glomérulaire ne varie pas avec les repas et les boissons.",
+              "explication": "Les apports la modifient."
+            },
+            {
+              "reponse": "Les néphrons corticaux ont des glomérules plus gros que les néphrons juxta-médullaires.",
+              "explication": "C'est l'inverse."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-033",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les niveaux de régulation du débit sanguin rénal et de la filtration, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 27,
+            "surligner": "débit sanguin stable pour une pression artérielle moyenne"
+          },
+          "bonnes": [
+            {
+              "reponse": "En condition physiologique, le débit sanguin rénal et la filtration sont maintenus par l'autorégulation.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "En condition pathologique ou physiologique extrême, la régulation générale prend le relais.",
+              "explication": "Le rein n'est plus capable de s'autoréguler."
+            },
+            {
+              "reponse": "L'autorégulation maintient un débit sanguin rénal stable pour une pression artérielle moyenne de 80 à 160 mmHg.",
+              "explication": "Soit 8 à 16 cmHg."
+            },
+            {
+              "reponse": "En condition physiologique, la résistance des artères rénales est indépendante du système nerveux autonome.",
+              "explication": "Le rein est autosuffisant."
+            },
+            {
+              "reponse": "L'essentiel des résistances vasculaires rénales provient des artérioles afférentes et efférentes.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le rôle majeur de la circulation rénale est de maintenir la filtration glomérulaire malgré les variations hémodynamiques.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'autorégulation fait intervenir le système rénine-angiotensine et les prostaglandines.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "En condition physiologique, la résistance des artères rénales dépend du système nerveux autonome.",
+              "explication": "Elle en est indépendante (autorégulation)."
+            },
+            {
+              "reponse": "L'autorégulation maintient un débit stable pour une pression artérielle moyenne de 40 à 80 mmHg.",
+              "explication": "De 80 à 160 mmHg."
+            },
+            {
+              "reponse": "Lors d'une hémorragie, l'autorégulation suffit toujours à maintenir la filtration.",
+              "explication": "Les mécanismes généraux prennent le relais."
+            },
+            {
+              "reponse": "L'essentiel des résistances vasculaires rénales provient des veines rénales.",
+              "explication": "Il provient des artérioles afférentes et efférentes."
+            },
+            {
+              "reponse": "L'autorégulation a lieu principalement dans la médullaire.",
+              "explication": "Au niveau du glomérule, dans le cortex."
+            },
+            {
+              "reponse": "Le rein est en permanence couplé au système général de régulation de la circulation.",
+              "explication": "Pas en condition physiologique."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-034",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant l'appareil juxtaglomérulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 28,
+            "surligner": "un détecteur, qui caractérise le contenu de l'urine"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'appareil juxtaglomérulaire comprend la macula densa, l'artériole afférente et l'artériole efférente.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La macula densa appartient au tubule.",
+              "explication": "Ce n'est pas une structure vasculaire."
+            },
+            {
+              "reponse": "La macula densa est un détecteur qui caractérise le contenu de l'urine.",
+              "explication": "« Un mouchard »."
+            },
+            {
+              "reponse": "L'artériole afférente contient des cellules porteuses de granules de rénine.",
+              "explication": "Cellules myoépithéliales granuleuses."
+            },
+            {
+              "reponse": "L'artériole afférente est la plus apte à réguler les surpressions.",
+              "explication": "Structure musculaire très importante."
+            },
+            {
+              "reponse": "En cas de sous-pression, l'artériole efférente se contracte.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'autorégulation a lieu au niveau du glomérule, dans le cortex.",
+              "explication": "Dans l'appareil juxtaglomérulaire."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La macula densa est une structure vasculaire.",
+              "explication": "Elle appartient au tubule."
+            },
+            {
+              "reponse": "La macula densa appartient à l'artériole efférente.",
+              "explication": "Elle appartient au tubule."
+            },
+            {
+              "reponse": "L'artériole efférente a une paroi plus musculaire que l'artériole afférente.",
+              "explication": "C'est l'afférente qui a la structure musculaire la plus marquée."
+            },
+            {
+              "reponse": "Les granules de rénine se trouvent dans la paroi des capillaires péritubulaires.",
+              "explication": "Ils sont dans la paroi de l'artériole afférente."
+            },
+            {
+              "reponse": "L'appareil juxtaglomérulaire est situé dans la médullaire interne.",
+              "explication": "Il est au niveau du glomérule, dans le cortex."
+            },
+            {
+              "reponse": "Face à une surpression, l'artériole afférente se dilate.",
+              "explication": "Elle se contracte (réflexe myogène)."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-035",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le mécanisme myogène, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 29,
+            "surligner": "le principal mécanisme d'autorégulation"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le mécanisme myogène est le principal mécanisme d'autorégulation.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le mécanisme myogène concerne surtout l'artériole afférente.",
+              "explication": "Sans être le seul vaisseau concerné."
+            },
+            {
+              "reponse": "Le réflexe myogène est la contraction d'un vaisseau en réponse à une augmentation de la pression transmurale.",
+              "explication": "Le vaisseau reprend son calibre d'origine."
+            },
+            {
+              "reponse": "Le mécanisme myogène est le premier mécanisme mis en œuvre.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le mécanisme myogène assure au moins 50 % de l'autorégulation.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La réponse myogène peut différer selon les néphrons.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le réflexe myogène est une dilatation du vaisseau en réponse à une augmentation de pression.",
+              "explication": "C'est une contraction."
+            },
+            {
+              "reponse": "Le mécanisme myogène concerne surtout les vasa recta.",
+              "explication": "Il concerne surtout l'artériole afférente."
+            },
+            {
+              "reponse": "Le mécanisme myogène dépend du système orthosympathique.",
+              "explication": "C'est un mécanisme d'autorégulation, propre au vaisseau."
+            },
+            {
+              "reponse": "Le mécanisme myogène assure moins de 10 % de l'autorégulation.",
+              "explication": "Au moins 50 %."
+            },
+            {
+              "reponse": "Le mécanisme myogène n'intervient qu'après le rétrocontrôle tubulo-glomérulaire.",
+              "explication": "C'est le premier mécanisme mis en œuvre."
+            },
+            {
+              "reponse": "La réponse myogène est identique dans tous les néphrons.",
+              "explication": "Elle peut différer selon les néphrons."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-036",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rétrocontrôle tubulo-glomérulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 30,
+            "surligner": "capte l'augmentation de la charge en sodium"
+          },
+          "bonnes": [
+            {
+              "reponse": "Une augmentation de la pression de perfusion du glomérule augmente le débit de filtration glomérulaire.",
+              "explication": "Ex : activité physique."
+            },
+            {
+              "reponse": "La macula densa détecte l'augmentation de la charge en sodium.",
+              "explication": "Elle est le point de départ du rétrocontrôle."
+            },
+            {
+              "reponse": "Le rétrocontrôle aboutit à une augmentation de la résistance de l'artériole afférente.",
+              "explication": "Par vasoconstriction."
+            },
+            {
+              "reponse": "Le rétrocontrôle diminue en retour la pression capillaire glomérulaire et le débit de filtration.",
+              "explication": "Étapes finales du schéma."
+            },
+            {
+              "reponse": "Dans le rétrocontrôle, l'adénosine est vasoconstrictrice.",
+              "explication": "Alors qu'elle est normalement vasodilatatrice."
+            },
+            {
+              "reponse": "Le détecteur du rétrocontrôle tubulo-glomérulaire est le tubule.",
+              "explication": "En particulier la macula densa, d'où le nom tubulo-glomérulaire."
+            },
+            {
+              "reponse": "L'angiotensine II est vasoconstrictrice.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le rétrocontrôle aboutit à une dilatation de l'artériole afférente.",
+              "explication": "Il aboutit à sa constriction."
+            },
+            {
+              "reponse": "Dans le rétrocontrôle, l'adénosine est vasodilatatrice.",
+              "explication": "Elle est ici vasoconstrictrice."
+            },
+            {
+              "reponse": "Le détecteur du rétrocontrôle tubulo-glomérulaire est l'artériole efférente.",
+              "explication": "C'est le tubule (macula densa)."
+            },
+            {
+              "reponse": "La macula densa détecte la charge en glucose.",
+              "explication": "Elle détecte la charge en sodium."
+            },
+            {
+              "reponse": "Le rétrocontrôle aboutit à une augmentation durable du débit de filtration glomérulaire.",
+              "explication": "Il le ramène à la baisse."
+            },
+            {
+              "reponse": "Le rétrocontrôle tubulo-glomérulaire dépend du système nerveux autonome.",
+              "explication": "C'est un mécanisme d'autorégulation intrinsèque."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-037",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la régulation par le système orthosympathique (hémorragie), quelles propositions sont exactes ?",
+          "cours": {
+            "page": 31,
+            "surligner": "plus sensible aux catécholamines"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'artériole efférente est plus sensible aux catécholamines que l'artériole afférente.",
+              "explication": "Son seuil de sensibilité est plus bas."
+            },
+            {
+              "reponse": "Une stimulation orthosympathique modérée met d'abord en jeu l'artériole efférente.",
+              "explication": "Hémorragie modérée."
+            },
+            {
+              "reponse": "La constriction de l'artériole efférente préserve un certain débit de filtration malgré la chute de pression artérielle.",
+              "explication": "Elle maintient la pression capillaire."
+            },
+            {
+              "reponse": "Une stimulation orthosympathique intense entraîne aussi la constriction de l'artériole afférente.",
+              "explication": "Hémorragie majeure."
+            },
+            {
+              "reponse": "Lors d'une hémorragie majeure, la filtration glomérulaire peut s'arrêter.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Lors d'une stimulation intense, les vasa recta aglomérulaires prennent le relais.",
+              "explication": "Pour irriguer la médullaire."
+            },
+            {
+              "reponse": "Les catécholamines circulantes renforcent la vasoconstriction due à l'orthosympathique.",
+              "explication": "Origine nerveuse ou circulante : même effet."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "L'artériole afférente est plus sensible aux catécholamines que l'artériole efférente.",
+              "explication": "C'est l'efférente."
+            },
+            {
+              "reponse": "Une stimulation orthosympathique modérée met d'abord en jeu l'artériole afférente.",
+              "explication": "Elle met d'abord en jeu l'efférente."
+            },
+            {
+              "reponse": "Lors d'une hémorragie modérée, la filtration glomérulaire s'arrête.",
+              "explication": "Elle est préservée par la constriction de l'efférente."
+            },
+            {
+              "reponse": "Les catécholamines circulantes s'opposent à la vasoconstriction due à l'orthosympathique.",
+              "explication": "Elles la renforcent."
+            },
+            {
+              "reponse": "Les catécholamines d'origine nerveuse et circulante ont des effets opposés.",
+              "explication": "Elles ont le même effet."
+            },
+            {
+              "reponse": "Lors d'une stimulation intense, la constriction de l'artériole efférente disparaît.",
+              "explication": "Elle persiste."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-038",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant les systèmes rénine-angiotensine et kallikréine-kinine, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 32,
+            "surligner": "aussi nommée kinase II"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'angiotensine II potentialise l'effet des catécholamines.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le système rénine-angiotensine est un vasoconstricteur puissant.",
+              "explication": "Il renforce l'action de l'orthosympathique."
+            },
+            {
+              "reponse": "La bradykinine est vasodilatatrice.",
+              "explication": "Effet inverse de la rénine."
+            },
+            {
+              "reponse": "La bradykinine augmente le débit sanguin.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "L'enzyme de conversion permet la synthèse de l'angiotensine II.",
+              "explication": "À partir de l'angiotensine I."
+            },
+            {
+              "reponse": "L'enzyme de conversion dégrade la bradykinine.",
+              "explication": "Point commun des 2 systèmes."
+            },
+            {
+              "reponse": "La kallikréine agit sur le kininogène.",
+              "explication": "Cascade aboutissant à la bradykinine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La bradykinine est vasoconstrictrice.",
+              "explication": "Elle est vasodilatatrice."
+            },
+            {
+              "reponse": "L'enzyme de conversion dégrade l'angiotensine II.",
+              "explication": "Elle la synthétise."
+            },
+            {
+              "reponse": "L'enzyme de conversion synthétise la bradykinine.",
+              "explication": "Elle la dégrade."
+            },
+            {
+              "reponse": "Le système rénine-angiotensine s'oppose à l'action de l'orthosympathique.",
+              "explication": "Il la renforce."
+            },
+            {
+              "reponse": "L'angiotensine II diminue l'effet des catécholamines.",
+              "explication": "Elle le potentialise."
+            },
+            {
+              "reponse": "La rénine transforme le kininogène en bradykinine.",
+              "explication": "La rénine agit sur l'angiotensinogène ; la kallikréine sur le kininogène."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-039",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le rôle des prostaglandines dans la circulation rénale, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 33,
+            "surligner": "La PGI2 rénale agit uniquement au niveau rénal"
+          },
+          "bonnes": [
+            {
+              "reponse": "En conditions physiologiques, les prostaglandines n'interviennent presque pas.",
+              "explication": "Sauf à l'approche de la limite physiologique."
+            },
+            {
+              "reponse": "Les prostaglandines sont le plus souvent vasodilatatrices.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La PGI2 rénale agit uniquement au niveau rénal.",
+              "explication": "Pas au niveau systémique."
+            },
+            {
+              "reponse": "Lors d'une vasoconstriction systémique par baisse du volume circulant, la PGI2 préserve le débit sanguin rénal.",
+              "explication": "Par vasodilatation rénale."
+            },
+            {
+              "reponse": "Chez un patient dont le volume circulant est diminué, les AINS peuvent entraîner une vasoconstriction rénale.",
+              "explication": "Il n'y a plus de PGI2 pour s'y opposer."
+            },
+            {
+              "reponse": "Les AINS diminuent les taux de prostaglandines.",
+              "explication": "D'où aussi douleurs épigastriques ou ulcère."
+            },
+            {
+              "reponse": "Le thromboxane A2 est vasoconstricteur.",
+              "explication": "Notion du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La PGI2 rénale agit surtout au niveau systémique.",
+              "explication": "Elle agit uniquement au niveau rénal."
+            },
+            {
+              "reponse": "Les AINS augmentent les taux de prostaglandines.",
+              "explication": "Ils les diminuent."
+            },
+            {
+              "reponse": "Chez un patient au volume circulant normal, les AINS entraînent une vasoconstriction rénale sévère.",
+              "explication": "Chez un patient « normal », il ne se passe rien."
+            },
+            {
+              "reponse": "Le thromboxane A2 est vasodilatateur.",
+              "explication": "Il est vasoconstricteur."
+            },
+            {
+              "reponse": "Les prostaglandines sont le plus souvent vasoconstrictrices.",
+              "explication": "Elles sont le plus souvent vasodilatatrices."
+            },
+            {
+              "reponse": "Lors d'une baisse du volume circulant, la PGI2 aggrave la vasoconstriction rénale.",
+              "explication": "Elle s'y oppose."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-040",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant le monoxyde d'azote (NO), le glucagon et les corticoïdes, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 34,
+            "surligner": "Le NO est un vasodilatateur puissant"
+          },
+          "bonnes": [
+            {
+              "reponse": "Le NO est un vasodilatateur puissant.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le NO agit par l'intermédiaire du GMP cyclique.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le NO est fabriqué dans la macula densa, l'endothélium et les cellules mésangiales.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le NO augmente le débit de filtration glomérulaire par vasodilatation afférente.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le NO a une durée d'action courte.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le NO atténue le réflexe myogène.",
+              "explication": "D'où la vasodilatation afférente."
+            },
+            {
+              "reponse": "Le glucagon et les corticoïdes provoquent une vasodilatation des artérioles afférentes et efférentes.",
+              "explication": "Le débit sanguin rénal augmente."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "Le NO est un vasoconstricteur puissant.",
+              "explication": "C'est un vasodilatateur puissant."
+            },
+            {
+              "reponse": "Le NO agit par l'intermédiaire de l'AMP cyclique.",
+              "explication": "Par le GMP cyclique."
+            },
+            {
+              "reponse": "Le NO a une durée d'action très longue.",
+              "explication": "Elle est courte."
+            },
+            {
+              "reponse": "Le NO renforce le réflexe myogène.",
+              "explication": "Il l'atténue."
+            },
+            {
+              "reponse": "Le glucagon et les corticoïdes diminuent le débit sanguin rénal.",
+              "explication": "Ils l'augmentent."
+            },
+            {
+              "reponse": "Le NO diminue le débit de filtration glomérulaire.",
+              "explication": "Il l'augmente."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-041",
+          "type": "qcm",
+          "source": {
+            "type": "generee"
+          },
+          "question": "Concernant la structure du filtre glomérulaire, quelles propositions sont exactes ?",
+          "cours": {
+            "page": 34,
+            "surligner": "laisse passer librement les substances de diamètre"
+          },
+          "bonnes": [
+            {
+              "reponse": "La membrane de filtration laisse passer librement les substances de diamètre inférieur à 1,5 nm.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La membrane de filtration arrête totalement les substances de diamètre supérieur à 4,5 nm.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Entre 1,5 et 4,5 nm, le passage à travers le filtre est plus ou moins libre.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "Le filtre glomérulaire ne renvoie pas ce qu'il a retenu.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La première couche du filtre rencontrée par le sang est l'endothélium capillaire.",
+              "explication": "Puis la membrane basale et les podocytes."
+            },
+            {
+              "reponse": "Les podocytes appartiennent à l'épithélium de la capsule de Bowman.",
+              "explication": "Notion du cours."
+            },
+            {
+              "reponse": "La membrane basale glomérulaire contient des glycoprotéines chargées négativement.",
+              "explication": "Schéma du cours."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La membrane de filtration arrête totalement les substances de diamètre supérieur à 1,5 nm.",
+              "explication": "Elle les arrête totalement au-delà de 4,5 nm."
+            },
+            {
+              "reponse": "La membrane de filtration laisse passer librement toutes les substances jusqu'à 4,5 nm.",
+              "explication": "Passage libre seulement sous 1,5 nm."
+            },
+            {
+              "reponse": "La première couche du filtre rencontrée par le sang est la couche des podocytes.",
+              "explication": "Les podocytes sont la dernière couche, côté urine."
+            },
+            {
+              "reponse": "La membrane basale est la dernière couche traversée avant l'urine.",
+              "explication": "La dernière couche est celle des podocytes."
+            },
+            {
+              "reponse": "La membrane basale glomérulaire est chargée positivement.",
+              "explication": "Ses glycoprotéines sont chargées négativement."
+            },
+            {
+              "reponse": "L'endothélium des capillaires glomérulaires est continu, sans espaces.",
+              "explication": "Il est discontinu."
+            }
+          ]
+        },
+        {
+          "id": "rein-physio-renale-042",
+          "type": "qrp",
+          "nb_bonnes": 3,
+          "source": {
+            "type": "generee"
+          },
+          "question": "Quelles sont les couches du filtre glomérulaire ? (3 réponses attendues)",
+          "cours": {
+            "page": 34,
+            "surligner": "Le sang rencontre successivement 3 couches de filtration"
+          },
+          "bonnes": [
+            {
+              "reponse": "L'endothélium capillaire est une couche du filtre glomérulaire.",
+              "explication": "1re couche, côté sang."
+            },
+            {
+              "reponse": "La membrane basale est une couche du filtre glomérulaire.",
+              "explication": "2e couche."
+            },
+            {
+              "reponse": "La couche des podocytes est une couche du filtre glomérulaire.",
+              "explication": "3e couche, côté urine."
+            }
+          ],
+          "mauvaises": [
+            {
+              "reponse": "La macula densa est une couche du filtre glomérulaire.",
+              "explication": "Elle appartient au tubule distal."
+            },
+            {
+              "reponse": "Les cellules granuleuses à rénine forment une couche du filtre glomérulaire.",
+              "explication": "Elles sont dans la paroi de l'artériole afférente."
+            },
+            {
+              "reponse": "L'épithélium du tube contourné proximal est une couche du filtre glomérulaire.",
+              "explication": "Il est en aval du filtre."
+            },
+            {
+              "reponse": "La lame élastique interne de l'artériole afférente est une couche du filtre glomérulaire.",
+              "explication": "Elle appartient à l'artériole afférente."
+            },
+            {
+              "reponse": "La paroi des vasa recta est une couche du filtre glomérulaire.",
+              "explication": "Les vasa recta sont dans la médullaire."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
