@@ -42,7 +42,7 @@
    "type": "cours",
    "heures": null,
    "dates": [],
-   "fichiers": [],
+   "fichiers": ["neurotrans-physio-serotonine.pdf"],
    "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
   },
   {
@@ -58,7 +58,7 @@
    "type": "cours",
    "heures": null,
    "dates": [],
-   "fichiers": [],
+   "fichiers": ["sna-physio-ortho-para.pdf"],
    "remarque": "Capsule vidéo, à voir avant : TD consolidation (semaine du 22/09)"
   },
   {

@@ -1,4 +1,4 @@
-# Prompt de génération de cours — Version v6.0 (17/11/2026)
+# Prompt de génération de cours — Version v6.1 (26/11/2026)
 # Rappel : incrémenter la version à chaque modification de ce prompt (voir "Journal des versions").
 
 Tu vas m'aider à retravailler des notes de cours en générant 2 fichiers PDF.
@@ -39,6 +39,11 @@ Le fichier JSON de QCM généré ensuite portera le même nom de base.
 - Si une régénération ne sert qu'à ajouter des métadonnées à un fichier 2 déjà
   utilisé pour des QCM, écris-les dans la marge haute de la page 1 (sans modifier
   le flux du texte) et vérifie que le texte de chaque page est inchangé.
+- Si une erreur est trouvée dans un fichier 2 déjà utilisé pour des QCM, ne le
+  régénère pas : corrige le PDF existant sur place, sans changer le nombre de pages
+  ni le texte des autres passages, vérifie par pdftotext que seules les lignes
+  corrigées ont changé, et ajoute la correction et sa date dans les mots-clés des
+  propriétés du PDF. Corrige aussi la même erreur dans le fichier 1.
 
 ## Fichier 1 : Résumé
 - Format A4 paysage, texte réparti sur 3 colonnes.
@@ -94,6 +99,9 @@ les différents types de diurétiques, des pathologies voisines, des hormones pr
 - Uniquement le contenu du cours : case vide si le cours ne dit rien, jamais
   d'information inventée pour remplir une case. Les compléments web suivent le code
   couleur commun (vert, [Hors cours]).
+- Chaque élément est rangé dans la catégorie où le cours le place (ex. le titre de
+  la puce sous laquelle il figure sur la diapositive), jamais dans une catégorie
+  déduite de ses propriétés.
 - En-tête de colonnes en couleur foncée, lignes alternées en couleur claire.
 - Un tableau peut continuer sur la page suivante : répète alors le bandeau et l'en-tête
   de colonnes, et ne coupe jamais une ligne (un élément) entre deux pages.
@@ -156,6 +164,11 @@ par numéro de page et par passage surligné.
   - Exception : une courte mention de la source est permise quand elle est utile
     (désaccord entre notes et diapositives, [Correction], [Incertain], notion des
     diapositives non abordée à l'oral).
+- Classements : quand une diapositive range des éléments par catégories (liste à
+  puces sous des titres, tableau), reprends exactement ce classement, même si tu le
+  mets en forme autrement (ex. liste à puces transformée en tableau). Ne déplace
+  jamais un élément d'après ses propriétés (ex. « stimule les bêta-2 » ne veut pas
+  dire « avec ASI »).
 - Chiffres et nombres toujours en numérique ("99", "0,5") ; les unités peuvent
   rester en toutes lettres dans la version complète.
 - Code couleur, avec légende : bleu gras (notions clés), orange gras (vigilance et
@@ -183,6 +196,10 @@ par numéro de page et par passage surligné.
   du fichier 2.
 - Pour chaque figure, compare l'image avec sa description et avec le texte qui
   l'entoure (côté, localisation, éléments décrits).
+- Pour chaque tableau ou liste qui reprend un classement des diapositives (dans le
+  fichier 2 comme dans le résumé et ses tableaux comparatifs), rouvre la diapositive
+  et vérifie, élément par élément, qu'il est dans la même ligne et la même colonne
+  que sur la diapositive.
 - Cherche « diapositive » dans l'extraction pdftotext : en dehors des légendes et
   descriptions de figures et des exceptions prévues, reformule.
 - Dans ta réponse, résume : désaccords tranchés, points [Incertain], schémas
@@ -200,6 +217,11 @@ Règle :
 - MINEUR (passage à X.Y, ex. 4.3 → 4.4) : la modification ne change pas radicalement
   la structure (ajustement de forme ou de contenu, reformulation, ajout ou
   modification d'une partie du résumé).
+- v6.1 (26/11/2026) : classements des diapositives repris à l'identique (jamais
+  déduits des propriétés d'un élément), y compris dans les tableaux comparatifs ;
+  vérification élément par élément à la livraison ; procédure de correction sur
+  place d'un fichier 2 déjà utilisé pour des QCM (suite à l'erreur sur le labétalol,
+  classé à tort « avec ASI » dans cardio-pharmaco-aht).
 - v6.0 (17/11/2026) : figures : description rédigée en regardant l'image insérée
   (côté, lobe, limites), image des notes insérée quand c'est elle qui est commentée
   en cours, jamais de description d'image sans l'image ; rédaction : contenu des
